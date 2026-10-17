@@ -94,6 +94,38 @@
               }
             }
           }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 5,
+          "items": {
+            "type": "object",
+            "required": [
+              "url",
+              "alt"
+            ],
+            "properties": {
+              "url": {
+                "type": "string",
+                "pattern": "^https://",
+                "format": "uri"
+              },
+              "alt": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 500
+              },
+              "sourceUrl": {
+                "type": "string",
+                "pattern": "^https?://",
+                "format": "uri"
+              },
+              "caption": {
+                "type": "string",
+                "maxLength": 1000
+              }
+            }
+          }
         }
       }
     },
