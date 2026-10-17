@@ -12,6 +12,7 @@ Personal Intelligence Hub 的公开内容源。报告正文、结构化条目和
 | `content/cities-housing/hangzhou-property/index.json` | 楼市的月份清单 |
 | `content/cities-housing/hangzhou-property/2026/10.json` | 2026 年 10 月的楼市报告 |
 | `content/games-entertainment/games/index.json` | 游戏资讯的月份清单，首份报告前为空 |
+| `content/health-wellness/health/index.json` | 医学、健康与减重资讯的月份清单，首份报告前为空 |
 | `docs/ARCHIVING.md` | 自动任务写入流程与失败处理 |
 | `schemas/month.schema.json` | 月文件和单份报告的数据格式 |
 | `scripts/archive.py` | 不依赖第三方库的校验与合并工具 |
@@ -38,15 +39,16 @@ python3 scripts/archive.py upsert /absolute/path/to/one-brief.json
 
 ## 栏目与任务
 
-执行时间使用 Asia/Shanghai（北京时间），由 ChatGPT 定时任务管理：
+执行时间使用 Asia/Shanghai（北京时间），由 ChatGPT 定时任务管理。自 2026-10-18 起，四个任务按固定时间相隔 5 分钟触发；触发间隔不代表报告一定在 5 分钟内完成：
 
 | 栏目 | 执行时间 | 内容 |
 | --- | --- | --- |
-| 最新资讯 | 每天 08:00，沿用原弹性调度 | AI、软件工程与科技商业等重点信息 |
-| 楼市 | 每天 09:00 | 杭州及转塘周边重点区域楼市观察 |
-| 游戏 | 每天 09:00 | 分国内与国外筛选单机、主机与 PC 游戏重点资讯 |
+| 最新资讯 | 每天 09:00 | AI、软件工程与科技商业等重点信息 |
+| 楼市 | 每天 09:05 | 杭州及转塘周边重点区域楼市观察 |
+| 游戏 | 每天 09:10 | 分国内与国外筛选单机、主机与 PC 游戏重点资讯 |
+| 健康 | 每天 09:15 | 医学、健康与减重相关资讯 Top 3，优先可靠证据 |
 
-2026-10-18 起，原“每日重点简报”和“杭州楼市晚报”的栏目显示名称分别改为“最新资讯”和“楼市”，既有 ID、路径和历史记录保留。游戏首份报告在任务成功执行后生成，栏目初始化不伪造历史数据。
+2026-10-18 起，原“每日重点简报”和“杭州楼市晚报”的栏目显示名称分别改为“最新资讯”和“楼市”，既有 ID、路径和历史记录保留。游戏与健康的首份报告在相应任务成功执行后生成，栏目初始化不伪造历史数据。
 
 ## 首批数据
 

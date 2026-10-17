@@ -17,6 +17,11 @@
       "id": "games-entertainment",
       "name": "游戏与娱乐",
       "description": "国内外单机、主机与 PC 游戏及相关行业动态"
+    },
+    {
+      "id": "health-wellness",
+      "name": "医学与健康",
+      "description": "医学研究、公共健康、营养运动与体重管理"
     }
   ],
   "collections": [
@@ -43,6 +48,14 @@
       "color": "#7775a6",
       "categoryId": "games-entertainment",
       "path": "content/games-entertainment/games"
+    },
+    {
+      "id": "health",
+      "name": "健康",
+      "description": "每日精选医学、健康与减重相关的 Top 3 资讯",
+      "color": "#bf7580",
+      "categoryId": "health-wellness",
+      "path": "content/health-wellness/health"
     }
   ]
 }
