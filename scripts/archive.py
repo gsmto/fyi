@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Validate or upsert one brief; stdlib only, no network or credentials."""
-import argparse, copy, datetime, json, pathlib, re
+import argparse, copy, datetime, ipaddress, json, pathlib, re
+from urllib.parse import urlsplit
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 
 def read(p):
@@ -12,6 +13,44 @@ def write(p, data):
 
 def require(ok, message):
     if not ok: raise ValueError(message)
+
+def valid_http_url(value, *, https_only=False):
+    """Check complete public-link syntax, without DNS or network requests."""
+    # Check the original string first: urlsplit can silently strip tabs/newlines.
+    # In a raw regex, \s is whitespace; \\s would instead match a literal backslash/s.
+    if not isinstance(value, str) or not re.fullmatch(
+        r'https?://[^\s\x00-\x1f\x7f\\<>"`{}|^]+', value, re.IGNORECASE
+    ):
+        return False
+    if re.search(r'%(?![0-9a-fA-F]{2})', value):
+        return False
+    try:
+        parts = urlsplit(value)
+        if parts.scheme not in (('https',) if https_only else ('http', 'https')):
+            return False
+        if not parts.hostname or parts.username is not None or parts.password is not None:
+            return False
+        # Also reject junk after a bracketed host and empty/non-numeric ports.
+        if not re.fullmatch(r'(?:\[[0-9a-fA-F:.]+\]|[^:\[\]]+)(?::[0-9]+)?', parts.netloc):
+            return False
+        if parts.port is not None and not 1 <= parts.port <= 65535:
+            return False
+        host = parts.hostname
+        if parts.netloc.startswith('['):
+            ipaddress.IPv6Address(host)
+        else:
+            host = host.encode('idna').decode('ascii')
+            host = host[:-1] if host.endswith('.') else host
+            if len(host) > 253 or not all(
+                re.fullmatch(r'[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?', label, re.IGNORECASE)
+                for label in host.split('.')
+            ):
+                return False
+            if re.fullmatch(r'[0-9]+(?:\.[0-9]+){3}', host):
+                ipaddress.IPv4Address(host)
+    except (ValueError, UnicodeError):
+        return False
+    return True
 
 def validate_brief(b, cid, month):
     require(isinstance(b, dict), 'brief must be an object')
@@ -36,15 +75,15 @@ def validate_brief(b, cid, month):
         require(isinstance(i.get('tags'),list) and all(isinstance(t,str) for t in i['tags']), 'invalid tags')
         require(isinstance(i.get('sources'),list), 'invalid sources')
         for s in i['sources']:
-            require(isinstance(s.get('title'),str) and re.match(r'^https?://[^\s/]+', s.get('url','')), 'invalid source URL')
+            require(isinstance(s, dict) and isinstance(s.get('title'),str) and valid_http_url(s.get('url')), 'invalid source URL')
 
         images = i.get('images', [])
         require(isinstance(images, list) and len(images) <= 5, 'invalid images')
         for image in images:
             require(isinstance(image, dict), 'image must be an object')
-            require(isinstance(image.get('url'), str) and re.match(r'^https://[^\\s/]+', image['url']), 'invalid image URL')
+            require(valid_http_url(image.get('url'), https_only=True), 'invalid image URL')
             require(isinstance(image.get('alt'), str) and 1 <= len(image['alt']) <= 500, 'invalid image alt')
-            require('sourceUrl' not in image or isinstance(image['sourceUrl'], str) and re.match(r'^https?://[^\\s/]+', image['sourceUrl']), 'invalid image source URL')
+            require('sourceUrl' not in image or valid_http_url(image['sourceUrl']), 'invalid image source URL')
             require('caption' not in image or isinstance(image['caption'], str) and len(image['caption']) <= 1000, 'invalid image caption')
 
 def catalog():
