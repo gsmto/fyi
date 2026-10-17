@@ -38,6 +38,15 @@ def validate_brief(b, cid, month):
         for s in i['sources']:
             require(isinstance(s.get('title'),str) and re.match(r'^https?://[^\s/]+', s.get('url','')), 'invalid source URL')
 
+        images = i.get('images', [])
+        require(isinstance(images, list) and len(images) <= 5, 'invalid images')
+        for image in images:
+            require(isinstance(image, dict), 'image must be an object')
+            require(isinstance(image.get('url'), str) and re.match(r'^https://[^\\s/]+', image['url']), 'invalid image URL')
+            require(isinstance(image.get('alt'), str) and 1 <= len(image['alt']) <= 500, 'invalid image alt')
+            require('sourceUrl' not in image or isinstance(image['sourceUrl'], str) and re.match(r'^https?://[^\\s/]+', image['sourceUrl']), 'invalid image source URL')
+            require('caption' not in image or isinstance(image['caption'], str) and len(image['caption']) <= 1000, 'invalid image caption')
+
 def catalog():
     c=read(ROOT/'catalog.json')
     require(c.get('schemaVersion') == 1 and c.get('timezone') == 'Asia/Shanghai', 'invalid catalog')
