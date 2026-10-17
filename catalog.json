@@ -12,12 +12,17 @@
       "id": "cities-housing",
       "name": "城市与住房",
       "description": "城市观察、房地产市场、区域与居住品质"
+    },
+    {
+      "id": "games-entertainment",
+      "name": "游戏与娱乐",
+      "description": "国内外单机、主机与 PC 游戏及相关行业动态"
     }
   ],
   "collections": [
     {
       "id": "daily-brief",
-      "name": "每日重点简报",
+      "name": "最新资讯",
       "description": "AI、软件工程、游戏与全球科技商业",
       "color": "#388575",
       "categoryId": "technology-business",
@@ -25,11 +30,19 @@
     },
     {
       "id": "hangzhou-property",
-      "name": "杭州楼市晚报",
+      "name": "楼市",
       "description": "西湖 · 上城 · 滨江，关注转塘周边",
       "color": "#b38b57",
       "categoryId": "cities-housing",
       "path": "content/cities-housing/hangzhou-property"
+    },
+    {
+      "id": "games",
+      "name": "游戏",
+      "description": "分国内与国外精选单机、主机与 PC 游戏资讯",
+      "color": "#7775a6",
+      "categoryId": "games-entertainment",
+      "path": "content/games-entertainment/games"
     }
   ]
 }

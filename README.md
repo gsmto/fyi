@@ -7,10 +7,11 @@ Personal Intelligence Hub 的公开内容源。报告正文、结构化条目和
 | 路径 | 内容 |
 | --- | --- |
 | `catalog.json` | 大分类及栏目注册表，添加栏目时修改 |
-| `content/technology-business/daily-brief/index.json` | 每日重点简报的月份清单 |
+| `content/technology-business/daily-brief/index.json` | 最新资讯的月份清单 |
 | `content/technology-business/daily-brief/2026/10.json` | 2026 年 10 月的日报 |
-| `content/cities-housing/hangzhou-property/index.json` | 杭州楼市晚报的月份清单 |
-| `content/cities-housing/hangzhou-property/2026/10.json` | 2026 年 10 月的晚报 |
+| `content/cities-housing/hangzhou-property/index.json` | 楼市的月份清单 |
+| `content/cities-housing/hangzhou-property/2026/10.json` | 2026 年 10 月的楼市报告 |
+| `content/games-entertainment/games/index.json` | 游戏资讯的月份清单，首份报告前为空 |
 | `docs/ARCHIVING.md` | 自动任务写入流程与失败处理 |
 | `schemas/month.schema.json` | 月文件和单份报告的数据格式 |
 | `scripts/archive.py` | 不依赖第三方库的校验与合并工具 |
@@ -34,6 +35,18 @@ python3 scripts/archive.py upsert /absolute/path/to/one-brief.json
 先复用已有大分类，确有需要再在 `catalog.json.categories` 增加大分类。新增栏目在 `catalog.json.collections` 注册唯一 `id`、名称、描述、颜色、`categoryId` 和 `path`，再创建对应 `index.json`（`shards: []` 即可）。Site 会自动发现栏目，无需为每个栏目修改代码。大分类进一步增长时可在 `content/` 下增加中间目录，只需调整注册表中的 `path`。
 
 日期、栏目 ID、日报 ID 均不得因为显示名称或目录迁移而随意变化。历史补录保留 `summary` / `partial` 标记；只有真实完整正文才可标为 `full`。
+
+## 栏目与任务
+
+执行时间使用 Asia/Shanghai（北京时间），由 ChatGPT 定时任务管理：
+
+| 栏目 | 执行时间 | 内容 |
+| --- | --- | --- |
+| 最新资讯 | 每天 08:00，沿用原弹性调度 | AI、软件工程与科技商业等重点信息 |
+| 楼市 | 每天 09:00 | 杭州及转塘周边重点区域楼市观察 |
+| 游戏 | 每天 09:00 | 分国内与国外筛选单机、主机与 PC 游戏重点资讯 |
+
+2026-10-18 起，原“每日重点简报”和“杭州楼市晚报”的栏目显示名称分别改为“最新资讯”和“楼市”，既有 ID、路径和历史记录保留。游戏首份报告在任务成功执行后生成，栏目初始化不伪造历史数据。
 
 ## 首批数据
 

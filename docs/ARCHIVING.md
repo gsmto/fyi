@@ -16,10 +16,13 @@
 
 ## 栏目映射
 
-| collectionId | 路径 |
-| --- | --- |
-| `daily-brief` | `content/technology-business/daily-brief` |
-| `hangzhou-property` | `content/cities-housing/hangzhou-property` |
+| 栏目 | collectionId | 路径 |
+| --- | --- | --- |
+| 最新资讯 | `daily-brief` | `content/technology-business/daily-brief` |
+| 楼市 | `hangzhou-property` | `content/cities-housing/hangzhou-property` |
+| 游戏 | `games` | `content/games-entertainment/games` |
+
+显示名称以 `catalog.json` 为准；更名不改变既有 collectionId、日报 ID 或历史报告。新报告的 `title` 使用“栏目名称｜YYYY-MM-DD”，`sourceConversation` 使用当前栏目名。
 
 ## 报告必填字段
 
