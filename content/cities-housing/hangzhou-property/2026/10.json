@@ -1,0 +1,486 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "hangzhou-property",
+  "month": "2026-10",
+  "updatedAt": "2026-10-17T03:52:20.032806Z",
+  "briefs": [
+    {
+      "id": "hangzhou-property-2026-10-16",
+      "collectionId": "hangzhou-property",
+      "date": "2026-10-16",
+      "title": "杭州楼市晚报｜10月16日",
+      "summary": "杭州暂无新的全市完整成交数据；璞悦湾 88.46㎡三房挂牌 288 万元；溪悦云和园约 99㎡挂牌多在 350 万以上；现房交付条件与预售按揭节点。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "杭州楼市晚报",
+      "provenance": "来自对应日期历史对话的检索摘要，原文并未完整取回。行情数字、政策与判断为当时报告的留存，未重新核验；挂牌不等于成交。分类标签为本次整理生成。缺失的来源链接、完整适用条件和评分保留为空。",
+      "score": null,
+      "items": [
+        {
+          "id": "hangzhou-property-2026-10-16-1",
+          "title": "杭州暂无新的全市完整成交数据",
+          "category": "杭州总览",
+          "summary": "原报告沿用 9 月二手房 6,746 套、均价约 2.32 万元/㎡、环比 -0.6%，300 万元内占约 79.4%。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "杭州",
+            "二手房"
+          ],
+          "sources": []
+        },
+        {
+          "id": "hangzhou-property-2026-10-16-2",
+          "title": "璞悦湾 88.46㎡三房挂牌 288 万元",
+          "category": "小区观察",
+          "summary": "历史报告记载一套 88.46㎡三房挂牌 288 万元，但平台信息冲突。原报告提出优先核验，约 285 万元的谈判判断依赖真实房源与无硬伤前提；不是已确认成交价。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "璞悦湾",
+            "转塘",
+            "三房"
+          ],
+          "sources": [
+            {
+              "title": "原报告引用 · 我爱我家房源列表",
+              "url": "https://hz.5i5j.com/ershoufang/100000000003415/a3/?utm_source=chatgpt.com"
+            }
+          ]
+        },
+        {
+          "id": "hangzhou-property-2026-10-16-3",
+          "title": "溪悦云和园约 99㎡挂牌多在 350 万以上",
+          "category": "小区观察",
+          "summary": "历史摘要：溪悦云和园约 99㎡挂牌多在 350 万元以上；目标小区无可信新成交。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "溪悦云和园",
+            "转塘"
+          ],
+          "sources": []
+        },
+        {
+          "id": "hangzhou-property-2026-10-16-4",
+          "title": "现房交付条件与预售按揭节点",
+          "category": "政策观察",
+          "summary": "历史报告提及现房须竣工验收备案并具备交付条件，预售项目按揭须待竣工备案后发放。原始政策全文未恢复，适用范围仍待核对。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "政策",
+            "交付"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "hangzhou-property-2026-10-15",
+      "collectionId": "hangzhou-property",
+      "date": "2026-10-15",
+      "title": "杭州楼市晚报｜10月15日",
+      "summary": "新房成交回升，均价仍有压力；现房销售与预售资金监管；公积金政策与装修提取；目标二手房仍需核验维修记录。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "杭州楼市晚报",
+      "provenance": "来自对应日期历史对话的检索摘要，原文并未完整取回。行情数字、政策与判断为当时报告的留存，未重新核验；挂牌不等于成交。分类标签为本次整理生成。缺失的来源链接、完整适用条件和评分保留为空。",
+      "score": null,
+      "items": [
+        {
+          "id": "hangzhou-property-2026-10-15-1",
+          "title": "新房成交回升，均价仍有压力",
+          "category": "杭州总览",
+          "summary": "历史报告摘要：9 月新房供应增加、成交回升，但均价环比下降 4%。目标小区无可靠新成交，溪悦云和园低价挂牌未核实。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "杭州",
+            "新房",
+            "溪悦云和园"
+          ],
+          "sources": []
+        },
+        {
+          "id": "hangzhou-property-2026-10-15-2",
+          "title": "现房销售与预售资金监管",
+          "category": "政策观察",
+          "summary": "历史报告提及杭州落实现房销售及预售监管细则、预售资金全额监管，部分项目主体封顶后方可预售。原始政策链接与完整适用范围尚待补全。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "政策",
+            "预售监管"
+          ],
+          "sources": []
+        },
+        {
+          "id": "hangzhou-property-2026-10-15-3",
+          "title": "公积金政策与装修提取",
+          "category": "政策观察",
+          "summary": "历史检索摘要：公积金无历史次数限制，多子女家庭额度上浮至 60%；符合条件装修可提取最高 25 万元。具体条件、条文及生效时间未取回。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "公积金",
+            "政策"
+          ],
+          "sources": []
+        },
+        {
+          "id": "hangzhou-property-2026-10-15-4",
+          "title": "目标二手房仍需核验维修记录",
+          "category": "房屋品质",
+          "summary": "原报告判断目标二手房不宜追价，仍需查验渗漏、电梯、车库、维修记录。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "二手房",
+            "房屋质量"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "hangzhou-property-2026-10-14",
+      "collectionId": "hangzhou-property",
+      "date": "2026-10-14",
+      "title": "杭州楼市晚报｜10月14日",
+      "summary": "单日成交 239 套，不能据此判断趋势；溪悦云和园与恒大水晶：排除旧挂牌；云荷廷、璞悦湾与之江一号挂牌线索；重点核验低价真实性与房屋状况。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "杭州楼市晚报",
+      "provenance": "来自对应日期历史对话的检索摘要，原文并未完整取回。行情数字、政策与判断为当时报告的留存，未重新核验；挂牌不等于成交。分类标签为本次整理生成。缺失的来源链接、完整适用条件和评分保留为空。",
+      "score": null,
+      "items": [
+        {
+          "id": "hangzhou-property-2026-10-14-1",
+          "title": "单日成交 239 套，不能据此判断趋势",
+          "category": "杭州总览",
+          "summary": "历史报告：杭州市区 10 月 10 日二手房成交 239 套；整体表现为成交活跃、价格盘整议价，单日数据不足以判断趋势。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "杭州",
+            "二手房"
+          ],
+          "sources": []
+        },
+        {
+          "id": "hangzhou-property-2026-10-14-2",
+          "title": "溪悦云和园与恒大水晶：排除旧挂牌",
+          "category": "小区观察",
+          "summary": "溪悦云和园 268万—280 万元低价多疑似旧房源或重复房源，近期展示 350万—369 万元。恒大水晶 105.59㎡、270 万元为 2023 年旧页，近期线索约 280万—300 万元。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "溪悦云和园",
+            "恒大水晶",
+            "转塘"
+          ],
+          "sources": []
+        },
+        {
+          "id": "hangzhou-property-2026-10-14-3",
+          "title": "云荷廷、璞悦湾与之江一号挂牌线索",
+          "category": "小区观察",
+          "summary": "云荷廷 89㎡约 315 万元起；璞悦湾 296 万元低楼层未核实；之江一号 80㎡三房 210万—299 万元多为旧挂牌。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "云荷廷",
+            "璞悦湾",
+            "之江一号"
+          ],
+          "sources": []
+        },
+        {
+          "id": "hangzhou-property-2026-10-14-4",
+          "title": "重点核验低价真实性与房屋状况",
+          "category": "房屋品质",
+          "summary": "原报告提示关注低价真实性、采光、返潮渗漏、地暖与车库、产权税费。无新增政策或重大质量通报。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "房屋质量",
+            "产权"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "hangzhou-property-2026-10-13",
+      "collectionId": "hangzhou-property",
+      "date": "2026-10-13",
+      "title": "杭州楼市晚报｜10月13日",
+      "summary": "杭州新房周成交 457 套，供应回落；300 万元内二手成交占约 79.4%；三个目标小区的挂牌与核验状态；电梯维修与富阳新房补贴。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "杭州楼市晚报",
+      "provenance": "来自对应日期历史对话的检索摘要，原文并未完整取回。行情数字、政策与判断为当时报告的留存，未重新核验；挂牌不等于成交。分类标签为本次整理生成。缺失的来源链接、完整适用条件和评分保留为空。",
+      "score": null,
+      "items": [
+        {
+          "id": "hangzhou-property-2026-10-13-1",
+          "title": "杭州新房周成交 457 套，供应回落",
+          "category": "杭州总览",
+          "summary": "历史报告：10 月 5—11 日新房成交约 457 套、6.25 万㎡，环比分别 -1.08%、-7.1%；供应 202 套、2.71 万㎡，供应面积环比 -26.59%。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "杭州",
+            "新房"
+          ],
+          "sources": []
+        },
+        {
+          "id": "hangzhou-property-2026-10-13-2",
+          "title": "300 万元内二手成交占约 79.4%",
+          "category": "二手房市场",
+          "summary": "历史报告：9 月二手房成交 6,746 套，环比 +6.5%；均价约 2.32 万元/㎡，环比 -0.6%；300 万元内占约 79.4%。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "二手房",
+            "总价300万"
+          ],
+          "sources": []
+        },
+        {
+          "id": "hangzhou-property-2026-10-13-3",
+          "title": "三个目标小区的挂牌与核验状态",
+          "category": "小区观察",
+          "summary": "恒大水晶 87—105㎡挂牌 278万—300 万元；溪悦云和园 290 万元低楼层与 350 万元挂牌价差未解；璞悦湾 88.84㎡挂牌 296 万元未核实。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "恒大水晶",
+            "溪悦云和园",
+            "璞悦湾",
+            "转塘"
+          ],
+          "sources": []
+        },
+        {
+          "id": "hangzhou-property-2026-10-13-4",
+          "title": "电梯维修与富阳新房补贴",
+          "category": "风险与政策",
+          "summary": "历史报告记载滨江水印城部分电梯故障维修，目标五小区无新增重大质量通报。富阳 10 月 16—18 日新房补贴 3 万元，仅限富阳新房。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "滨江区",
+            "房屋质量",
+            "政策"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "hangzhou-property-2026-10-12",
+      "collectionId": "hangzhou-property",
+      "date": "2026-10-12",
+      "title": "杭州楼市晚报｜10月12日",
+      "summary": "二手价格盘整，新房供应高于成交；溪悦云和园：同面积出现明显挂牌价差；恒大水晶与璞悦湾挂牌线索。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "杭州楼市晚报",
+      "provenance": "来自对应日期历史对话的检索摘要，原文并未完整取回。行情数字、政策与判断为当时报告的留存，未重新核验；挂牌不等于成交。分类标签为本次整理生成。缺失的来源链接、完整适用条件和评分保留为空。",
+      "score": null,
+      "items": [
+        {
+          "id": "hangzhou-property-2026-10-12-1",
+          "title": "二手价格盘整，新房供应高于成交",
+          "category": "杭州总览",
+          "summary": "历史报告摘要：9 月二手房成交 6,746 套、均价约 2.32 万元/㎡，环比下降 0.6%；新房供应面积高于成交。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "杭州",
+            "二手房",
+            "新房"
+          ],
+          "sources": []
+        },
+        {
+          "id": "hangzhou-property-2026-10-12-2",
+          "title": "溪悦云和园：同面积出现明显挂牌价差",
+          "category": "小区观察",
+          "summary": "历史检索摘要：溪悦云和园约 98.67㎡出现 290 万元与 350 万元挂牌。原报告尚未核实差异原因。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "西湖区",
+            "转塘",
+            "溪悦云和园"
+          ],
+          "sources": []
+        },
+        {
+          "id": "hangzhou-property-2026-10-12-3",
+          "title": "恒大水晶与璞悦湾挂牌线索",
+          "category": "小区观察",
+          "summary": "历史检索摘要：恒大水晶挂牌约 278万—286 万元；璞悦湾约 296 万元。未取回对应房源的完整核查记录。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "恒大水晶",
+            "璞悦湾",
+            "转塘"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "hangzhou-property-2026-10-11",
+      "collectionId": "hangzhou-property",
+      "date": "2026-10-11",
+      "title": "杭州楼市晚报｜10月11日",
+      "summary": "二手房新签恢复，低总价成交主导；新房周成交 6.73 万㎡；转塘、浦沿与复兴南星暂缺新价格证据；购房观察：继续筛房、核价、不追价。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "杭州楼市晚报",
+      "provenance": "来自对应日期历史对话的检索摘要，原文并未完整取回。行情数字、政策与判断为当时报告的留存，未重新核验；挂牌不等于成交。分类标签为本次整理生成。缺失的来源链接、完整适用条件和评分保留为空。",
+      "score": null,
+      "items": [
+        {
+          "id": "hangzhou-property-2026-10-11-1",
+          "title": "二手房新签恢复，低总价成交主导",
+          "category": "杭州总览",
+          "summary": "历史报告摘要：10 月 1—7 日二手房新签同比增长 66%，低总价房源主导；这不证明目标房源已经涨价。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "杭州",
+            "二手房"
+          ],
+          "sources": []
+        },
+        {
+          "id": "hangzhou-property-2026-10-11-2",
+          "title": "新房周成交 6.73 万㎡",
+          "category": "新房市场",
+          "summary": "历史报告记载新房周成交 6.73 万㎡，均价约 4.22 万元/㎡。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "新房"
+          ],
+          "sources": [
+            {
+              "title": "原报告引用 · 中指研究院",
+              "url": "https://www.cih-index.com/report/detail/129673.html"
+            }
+          ]
+        },
+        {
+          "id": "hangzhou-property-2026-10-11-3",
+          "title": "转塘、浦沿与复兴南星暂缺新价格证据",
+          "category": "区域行情",
+          "summary": "历史报告摘要：转塘目标小区无新的成交证据，浦沿供应有限，复兴、南星无可靠的新价格。目标小区无重大质量通报；政策无新增。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "转塘",
+            "滨江区",
+            "上城区"
+          ],
+          "sources": []
+        },
+        {
+          "id": "hangzhou-property-2026-10-11-4",
+          "title": "购房观察：继续筛房、核价、不追价",
+          "category": "购房观察",
+          "summary": "原报告判断：继续筛房、核验价格，不追价。房贷贴息总价 150 万元门槛不适用于所讨论的目标房源。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "购房",
+            "房贷"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "hangzhou-property-2026-10-10",
+      "collectionId": "hangzhou-property",
+      "date": "2026-10-10",
+      "title": "杭州楼市晚报｜10月10日",
+      "summary": "杭州概况：9 月二手房成交 6,746 套；转塘与浦沿：区域成交资料仍不足；保障房定价与房贷贴息政策；目标小区质量：未检索到重大新增通报。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "杭州楼市晚报",
+      "provenance": "来自对应日期历史对话的检索摘要，原文并未完整取回。行情数字、政策与判断为当时报告的留存，未重新核验；挂牌不等于成交。分类标签为本次整理生成。缺失的来源链接、完整适用条件和评分保留为空。",
+      "score": null,
+      "items": [
+        {
+          "id": "hangzhou-property-2026-10-10-1",
+          "title": "杭州概况：9 月二手房成交 6,746 套",
+          "category": "杭州总览",
+          "summary": "历史报告摘要：9 月二手房成交 6,746 套，均价约 2.32 万元/㎡，环比下降 0.6%。8 月新房价格环比 +0.2%、同比 +2.2%；二手房环比 -0.2%、同比 -3.5%。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "杭州",
+            "二手房",
+            "新房"
+          ],
+          "sources": []
+        },
+        {
+          "id": "hangzhou-property-2026-10-10-2",
+          "title": "转塘与浦沿：区域成交资料仍不足",
+          "category": "区域行情",
+          "summary": "历史报告摘要：转塘成交数据不足；浦沿大家·雯月隽庐约 4.42 万元/㎡。恒大水晶出现约 268 万元和 298 万元挂牌线索，挂牌不等于成交。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "西湖区",
+            "转塘",
+            "滨江区",
+            "恒大水晶"
+          ],
+          "sources": []
+        },
+        {
+          "id": "hangzhou-property-2026-10-10-3",
+          "title": "保障房定价与房贷贴息政策",
+          "category": "政策观察",
+          "summary": "历史报告提及保障房定价办法和首套房贷贴息：面积不超过 120㎡、总价不超过 150 万元。完整适用条件和来源未取回。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "政策",
+            "房贷"
+          ],
+          "sources": []
+        },
+        {
+          "id": "hangzhou-property-2026-10-10-4",
+          "title": "目标小区质量：未检索到重大新增通报",
+          "category": "房屋品质",
+          "summary": "原摘要未记录目标小区重大质量新增信息；这不代表房屋质量已得到验证。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "房屋质量"
+          ],
+          "sources": []
+        }
+      ]
+    }
+  ]
+}

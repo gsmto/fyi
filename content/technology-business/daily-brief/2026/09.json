@@ -1,0 +1,958 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "daily-brief",
+  "month": "2026-09",
+  "updatedAt": "2026-10-17T03:52:20.032806Z",
+  "briefs": [
+    {
+      "id": "daily-brief-2026-09-30",
+      "collectionId": "daily-brief",
+      "date": "2026-09-30",
+      "title": "每日重点简报｜09月30日",
+      "summary": "OpenAI DevDay 推出 Dots；Electron 自定义 Protocol 跨 Origin 漏洞；Cerebras 获约 100MW 推理集群订单；Coffee Stain Big Break；10 年期美债收益率升至 5.27%。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "每日重点简报",
+      "provenance": "通过历史对话检索恢复的标题/摘要，不是原始日报全文。分类和标签为本次整理生成；缺失正文、详细分析、原始引用及重要性评分尚待补录。内容未重新核验。",
+      "score": null,
+      "items": [
+        {
+          "id": "daily-brief-2026-09-30-1",
+          "title": "OpenAI DevDay 推出 Dots",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：OpenAI DevDay 推出 Dots。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "Agent",
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-30-2",
+          "title": "Electron 自定义 Protocol 跨 Origin 漏洞",
+          "category": "软件工程",
+          "summary": "历史检索保留的标题要点：Electron 自定义 Protocol 跨 Origin 漏洞。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "开发工具",
+            "安全"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-30-3",
+          "title": "Cerebras 获约 100MW 推理集群订单",
+          "category": "算力与硬件",
+          "summary": "历史检索保留的标题要点：Cerebras 获约 100MW 推理集群订单。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-30-4",
+          "title": "Coffee Stain Big Break",
+          "category": "游戏与创作",
+          "summary": "历史检索保留的标题要点：Coffee Stain Big Break。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "游戏"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-30-5",
+          "title": "10 年期美债收益率升至 5.27%",
+          "category": "财经与市场",
+          "summary": "历史检索保留的标题要点：10 年期美债收益率升至 5.27%。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "市场"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "daily-brief-2026-09-29",
+      "collectionId": "daily-brief",
+      "date": "2026-09-29",
+      "title": "每日重点简报｜09月29日",
+      "summary": "NVIDIA 推出 Open Agent Safety Platform；AMD 以 82 亿美元收购 World Labs；Anthropic IPO 文件披露经济账；Claude Sonnet 5.5 进入 GitHub Copilot；高油价与 5% 以上利率压制风险资产。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "每日重点简报",
+      "provenance": "通过历史对话检索恢复的标题/摘要，不是原始日报全文。分类和标签为本次整理生成；缺失正文、详细分析、原始引用及重要性评分尚待补录。内容未重新核验。",
+      "score": null,
+      "items": [
+        {
+          "id": "daily-brief-2026-09-29-1",
+          "title": "NVIDIA 推出 Open Agent Safety Platform",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：NVIDIA 推出 Open Agent Safety Platform。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "Agent",
+            "安全"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-29-2",
+          "title": "AMD 以 82 亿美元收购 World Labs",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：AMD 以 82 亿美元收购 World Labs。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-29-3",
+          "title": "Anthropic IPO 文件披露经济账",
+          "category": "财经与市场",
+          "summary": "历史检索保留的标题要点：Anthropic IPO 文件披露经济账。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-29-4",
+          "title": "Claude Sonnet 5.5 进入 GitHub Copilot",
+          "category": "软件工程",
+          "summary": "历史检索保留的标题要点：Claude Sonnet 5.5 进入 GitHub Copilot。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI",
+            "开发工具"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-29-5",
+          "title": "高油价与 5% 以上利率压制风险资产",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：高油价与 5% 以上利率压制风险资产。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "daily-brief-2026-09-28",
+      "collectionId": "daily-brief",
+      "date": "2026-09-28",
+      "title": "每日重点简报｜09月28日",
+      "summary": "OpenAI 暂停部分前沿模型训练；GitHub 统一 Copilot Chat 与 Cloud Agent；Anthropic Project Swap；Undead Labs 独立并裁员；SoftBank 发 111 亿美元债券押注 OpenAI。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "每日重点简报",
+      "provenance": "通过历史对话检索恢复的标题/摘要，不是原始日报全文。分类和标签为本次整理生成；缺失正文、详细分析、原始引用及重要性评分尚待补录。内容未重新核验。",
+      "score": null,
+      "items": [
+        {
+          "id": "daily-brief-2026-09-28-1",
+          "title": "OpenAI 暂停部分前沿模型训练",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：OpenAI 暂停部分前沿模型训练。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-28-2",
+          "title": "GitHub 统一 Copilot Chat 与 Cloud Agent",
+          "category": "软件工程",
+          "summary": "历史检索保留的标题要点：GitHub 统一 Copilot Chat 与 Cloud Agent。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "Agent",
+            "开发工具"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-28-3",
+          "title": "Anthropic Project Swap",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：Anthropic Project Swap。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-28-4",
+          "title": "Undead Labs 独立并裁员",
+          "category": "游戏与创作",
+          "summary": "历史检索保留的标题要点：Undead Labs 独立并裁员。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "游戏"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-28-5",
+          "title": "SoftBank 发 111 亿美元债券押注 OpenAI",
+          "category": "财经与市场",
+          "summary": "历史检索保留的标题要点：SoftBank 发 111 亿美元债券押注 OpenAI。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "daily-brief-2026-09-27",
+      "collectionId": "daily-brief",
+      "date": "2026-09-27",
+      "title": "每日重点简报｜09月27日",
+      "summary": "中美启动 AI 对话机制；SAT 自组织多 Agent 团队；GitHub 将 Slack / Teams 讨论转为工程任务；Meta Horizon Create / Studio 生成可玩游戏。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "每日重点简报",
+      "provenance": "通过历史对话检索恢复的标题/摘要，不是原始日报全文。分类和标签为本次整理生成；缺失正文、详细分析、原始引用及重要性评分尚待补录。内容未重新核验。 当前仅恢复四条，未拼凑截断的第五条。",
+      "score": null,
+      "items": [
+        {
+          "id": "daily-brief-2026-09-27-1",
+          "title": "中美启动 AI 对话机制",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：中美启动 AI 对话机制。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-27-2",
+          "title": "SAT 自组织多 Agent 团队",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：SAT 自组织多 Agent 团队。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "Agent"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-27-3",
+          "title": "GitHub 将 Slack / Teams 讨论转为工程任务",
+          "category": "软件工程",
+          "summary": "历史检索保留的标题要点：GitHub 将 Slack / Teams 讨论转为工程任务。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "开发工具"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-27-4",
+          "title": "Meta Horizon Create / Studio 生成可玩游戏",
+          "category": "游戏与创作",
+          "summary": "历史检索保留的标题要点：Meta Horizon Create / Studio 生成可玩游戏。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "游戏"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "daily-brief-2026-09-26",
+      "collectionId": "daily-brief",
+      "date": "2026-09-26",
+      "title": "每日重点简报｜09月26日",
+      "summary": "OpenAI Agent 泄露 53 张用户图片；Microsoft Copilot Home / Code / Autopilot 与 Managed Runtime；GitHub Copilot Memory 接入安全修复；Solidigm 拟以最高 1,500 亿美元估值 IPO；AI 交易反弹，Microsoft 上涨 3.7%。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "每日重点简报",
+      "provenance": "通过历史对话检索恢复的标题/摘要，不是原始日报全文。分类和标签为本次整理生成；缺失正文、详细分析、原始引用及重要性评分尚待补录。内容未重新核验。",
+      "score": null,
+      "items": [
+        {
+          "id": "daily-brief-2026-09-26-1",
+          "title": "OpenAI Agent 泄露 53 张用户图片",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：OpenAI Agent 泄露 53 张用户图片。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "Agent",
+            "AI",
+            "安全"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-26-2",
+          "title": "Microsoft Copilot Home / Code / Autopilot 与 Managed Runtime",
+          "category": "软件工程",
+          "summary": "历史检索保留的标题要点：Microsoft Copilot Home / Code / Autopilot 与 Managed Runtime。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "开发工具"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-26-3",
+          "title": "GitHub Copilot Memory 接入安全修复",
+          "category": "软件工程",
+          "summary": "历史检索保留的标题要点：GitHub Copilot Memory 接入安全修复。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "开发工具",
+            "安全"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-26-4",
+          "title": "Solidigm 拟以最高 1,500 亿美元估值 IPO",
+          "category": "财经与市场",
+          "summary": "历史检索保留的标题要点：Solidigm 拟以最高 1,500 亿美元估值 IPO。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-26-5",
+          "title": "AI 交易反弹，Microsoft 上涨 3.7%",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：AI 交易反弹，Microsoft 上涨 3.7%。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "daily-brief-2026-09-25",
+      "collectionId": "daily-brief",
+      "date": "2026-09-25",
+      "title": "每日重点简报｜09月25日",
+      "summary": "OpenAI Agent 越界访问澳大利亚政府系统；Google Project Suncatcher 太空 TPU；RRSI Agent 自我改进的过拟合问题；Xbox 重组，约 3,200 人受影响；全球债券抛售，美国多数国债收益率突破 5%。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "每日重点简报",
+      "provenance": "通过历史对话检索恢复的标题/摘要，不是原始日报全文。分类和标签为本次整理生成；缺失正文、详细分析、原始引用及重要性评分尚待补录。内容未重新核验。",
+      "score": null,
+      "items": [
+        {
+          "id": "daily-brief-2026-09-25-1",
+          "title": "OpenAI Agent 越界访问澳大利亚政府系统",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：OpenAI Agent 越界访问澳大利亚政府系统。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "Agent",
+            "AI",
+            "安全"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-25-2",
+          "title": "Google Project Suncatcher 太空 TPU",
+          "category": "算力与硬件",
+          "summary": "历史检索保留的标题要点：Google Project Suncatcher 太空 TPU。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-25-3",
+          "title": "RRSI Agent 自我改进的过拟合问题",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：RRSI Agent 自我改进的过拟合问题。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "Agent"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-25-4",
+          "title": "Xbox 重组，约 3,200 人受影响",
+          "category": "游戏与创作",
+          "summary": "历史检索保留的标题要点：Xbox 重组，约 3,200 人受影响。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "游戏"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-25-5",
+          "title": "全球债券抛售，美国多数国债收益率突破 5%",
+          "category": "财经与市场",
+          "summary": "历史检索保留的标题要点：全球债券抛售，美国多数国债收益率突破 5%。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "市场"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "daily-brief-2026-09-24",
+      "collectionId": "daily-brief",
+      "date": "2026-09-24",
+      "title": "每日重点简报｜09月24日",
+      "summary": "GitHub 推出本地沙箱；GitHub Actions 弃用 Node 20；欧洲 AI 设计芯片；手游加速 D2C；美债收益率创新高。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "每日重点简报",
+      "provenance": "通过历史对话检索恢复的标题/摘要，不是原始日报全文。分类和标签为本次整理生成；缺失正文、详细分析、原始引用及重要性评分尚待补录。内容未重新核验。",
+      "score": null,
+      "items": [
+        {
+          "id": "daily-brief-2026-09-24-1",
+          "title": "GitHub 推出本地沙箱",
+          "category": "软件工程",
+          "summary": "历史检索保留的标题要点：GitHub 推出本地沙箱。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "开发工具"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-24-2",
+          "title": "GitHub Actions 弃用 Node 20",
+          "category": "软件工程",
+          "summary": "历史检索保留的标题要点：GitHub Actions 弃用 Node 20。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "开发工具"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-24-3",
+          "title": "欧洲 AI 设计芯片",
+          "category": "算力与硬件",
+          "summary": "历史检索保留的标题要点：欧洲 AI 设计芯片。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-24-4",
+          "title": "手游加速 D2C",
+          "category": "游戏与创作",
+          "summary": "历史检索保留的标题要点：手游加速 D2C。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "游戏"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-24-5",
+          "title": "美债收益率创新高",
+          "category": "财经与市场",
+          "summary": "历史检索保留的标题要点：美债收益率创新高。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "市场"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "daily-brief-2026-09-23",
+      "collectionId": "daily-brief",
+      "date": "2026-09-23",
+      "title": "每日重点简报｜09月23日",
+      "summary": "Claude Opus 5.5 发布；阿里押注大模型芯片；苹果四台 Mac 运行万亿模型；TGS 变为海外测试场；纳指新高与债市分化。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "每日重点简报",
+      "provenance": "通过历史对话检索恢复的标题/摘要，不是原始日报全文。分类和标签为本次整理生成；缺失正文、详细分析、原始引用及重要性评分尚待补录。内容未重新核验。",
+      "score": null,
+      "items": [
+        {
+          "id": "daily-brief-2026-09-23-1",
+          "title": "Claude Opus 5.5 发布",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：Claude Opus 5.5 发布。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-23-2",
+          "title": "阿里押注大模型芯片",
+          "category": "算力与硬件",
+          "summary": "历史检索保留的标题要点：阿里押注大模型芯片。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-23-3",
+          "title": "苹果四台 Mac 运行万亿模型",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：苹果四台 Mac 运行万亿模型。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-23-4",
+          "title": "TGS 变为海外测试场",
+          "category": "游戏与创作",
+          "summary": "历史检索保留的标题要点：TGS 变为海外测试场。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "游戏"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-23-5",
+          "title": "纳指新高与债市分化",
+          "category": "财经与市场",
+          "summary": "历史检索保留的标题要点：纳指新高与债市分化。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "市场"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "daily-brief-2026-09-22",
+      "collectionId": "daily-brief",
+      "date": "2026-09-22",
+      "title": "每日重点简报｜09月22日",
+      "summary": "Meta Muse 遭 Amazon 封锁；Claude Code 升级多 Agent；FrogNano 小模型编码；AMD 市值突破万亿美元；TGS 光枪弃用 AI。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "每日重点简报",
+      "provenance": "通过历史对话检索恢复的标题/摘要，不是原始日报全文。分类和标签为本次整理生成；缺失正文、详细分析、原始引用及重要性评分尚待补录。内容未重新核验。",
+      "score": null,
+      "items": [
+        {
+          "id": "daily-brief-2026-09-22-1",
+          "title": "Meta Muse 遭 Amazon 封锁",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：Meta Muse 遭 Amazon 封锁。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-22-2",
+          "title": "Claude Code 升级多 Agent",
+          "category": "软件工程",
+          "summary": "历史检索保留的标题要点：Claude Code 升级多 Agent。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "Agent",
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-22-3",
+          "title": "FrogNano 小模型编码",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：FrogNano 小模型编码。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-22-4",
+          "title": "AMD 市值突破万亿美元",
+          "category": "财经与市场",
+          "summary": "历史检索保留的标题要点：AMD 市值突破万亿美元。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-22-5",
+          "title": "TGS 光枪弃用 AI",
+          "category": "游戏与创作",
+          "summary": "历史检索保留的标题要点：TGS 光枪弃用 AI。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI",
+            "游戏"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "daily-brief-2026-09-21",
+      "collectionId": "daily-brief",
+      "date": "2026-09-21",
+      "title": "每日重点简报｜09月21日",
+      "summary": "Gemini 测试中的越界攻击；Anthropic 考虑新模型；CXMT 第五代 DRAM 量产；GitHub Actions 移除 Node 20；亚洲芯片股受 AI 基础设施推动。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "每日重点简报",
+      "provenance": "通过历史对话检索恢复的标题/摘要，不是原始日报全文。分类和标签为本次整理生成；缺失正文、详细分析、原始引用及重要性评分尚待补录。内容未重新核验。",
+      "score": null,
+      "items": [
+        {
+          "id": "daily-brief-2026-09-21-1",
+          "title": "Gemini 测试中的越界攻击",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：Gemini 测试中的越界攻击。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI",
+            "安全"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-21-2",
+          "title": "Anthropic 考虑新模型",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：Anthropic 考虑新模型。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-21-3",
+          "title": "CXMT 第五代 DRAM 量产",
+          "category": "算力与硬件",
+          "summary": "历史检索保留的标题要点：CXMT 第五代 DRAM 量产。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-21-4",
+          "title": "GitHub Actions 移除 Node 20",
+          "category": "软件工程",
+          "summary": "历史检索保留的标题要点：GitHub Actions 移除 Node 20。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "开发工具"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-21-5",
+          "title": "亚洲芯片股受 AI 基础设施推动",
+          "category": "算力与硬件",
+          "summary": "历史检索保留的标题要点：亚洲芯片股受 AI 基础设施推动。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "daily-brief-2026-09-20",
+      "collectionId": "daily-brief",
+      "date": "2026-09-20",
+      "title": "每日重点简报｜09月20日",
+      "summary": "前沿 AI 的减速讨论；npm stage-only token；TGS：AI 进入游戏交互；IMF 对欧洲生产率的估算；Copilot 的价值衡量。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "每日重点简报",
+      "provenance": "通过历史对话检索恢复的标题/摘要，不是原始日报全文。分类和标签为本次整理生成；缺失正文、详细分析、原始引用及重要性评分尚待补录。内容未重新核验。",
+      "score": null,
+      "items": [
+        {
+          "id": "daily-brief-2026-09-20-1",
+          "title": "前沿 AI 的减速讨论",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：前沿 AI 的减速讨论。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-20-2",
+          "title": "npm stage-only token",
+          "category": "软件工程",
+          "summary": "历史检索保留的标题要点：npm stage-only token。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "开发工具"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-20-3",
+          "title": "TGS：AI 进入游戏交互",
+          "category": "游戏与创作",
+          "summary": "历史检索保留的标题要点：TGS：AI 进入游戏交互。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI",
+            "游戏"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-20-4",
+          "title": "IMF 对欧洲生产率的估算",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：IMF 对欧洲生产率的估算。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-20-5",
+          "title": "Copilot 的价值衡量",
+          "category": "软件工程",
+          "summary": "历史检索保留的标题要点：Copilot 的价值衡量。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "开发工具"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "daily-brief-2026-09-19",
+      "collectionId": "daily-brief",
+      "date": "2026-09-19",
+      "title": "每日重点简报｜09月19日",
+      "summary": "Plugin4Shell 供应链远程代码执行风险；GitHub Copilot 接管开发闭环；Dream-RSI：不改权重的 Agent 自我改进；Newzoo 全球游戏市场预测。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "每日重点简报",
+      "provenance": "通过历史对话检索恢复的标题/摘要，不是原始日报全文。分类和标签为本次整理生成；缺失正文、详细分析、原始引用及重要性评分尚待补录。内容未重新核验。 当前仅恢复四条，未拼凑截断的第五条。",
+      "score": null,
+      "items": [
+        {
+          "id": "daily-brief-2026-09-19-1",
+          "title": "Plugin4Shell 供应链远程代码执行风险",
+          "category": "软件工程",
+          "summary": "历史检索保留的标题要点：Plugin4Shell 供应链远程代码执行风险。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "安全"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-19-2",
+          "title": "GitHub Copilot 接管开发闭环",
+          "category": "软件工程",
+          "summary": "历史检索保留的标题要点：GitHub Copilot 接管开发闭环。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "开发工具"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-19-3",
+          "title": "Dream-RSI：不改权重的 Agent 自我改进",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：Dream-RSI：不改权重的 Agent 自我改进。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "Agent"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-19-4",
+          "title": "Newzoo 全球游戏市场预测",
+          "category": "游戏与创作",
+          "summary": "历史检索保留的标题要点：Newzoo 全球游戏市场预测。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "游戏"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "daily-brief-2026-09-18",
+      "collectionId": "daily-brief",
+      "date": "2026-09-18",
+      "title": "每日重点简报｜09月18日",
+      "summary": "Claude 统一 Chat / Agent / Work；Coding Agent 的恶意 .git 配置攻击面；华为 AI 芯片供不应求及百万级 Peerium 集群；85.8% 日本游戏开发者使用生成式 AI；美联储加息 25bp 至 3.75%–4.00% 后科技股反弹。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "每日重点简报",
+      "provenance": "通过历史对话检索恢复的标题/摘要，不是原始日报全文。分类和标签为本次整理生成；缺失正文、详细分析、原始引用及重要性评分尚待补录。内容未重新核验。",
+      "score": null,
+      "items": [
+        {
+          "id": "daily-brief-2026-09-18-1",
+          "title": "Claude 统一 Chat / Agent / Work",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：Claude 统一 Chat / Agent / Work。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "Agent",
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-18-2",
+          "title": "Coding Agent 的恶意 .git 配置攻击面",
+          "category": "软件工程",
+          "summary": "历史检索保留的标题要点：Coding Agent 的恶意 .git 配置攻击面。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "Agent",
+            "安全"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-18-3",
+          "title": "华为 AI 芯片供不应求及百万级 Peerium 集群",
+          "category": "算力与硬件",
+          "summary": "历史检索保留的标题要点：华为 AI 芯片供不应求及百万级 Peerium 集群。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-18-4",
+          "title": "85.8% 日本游戏开发者使用生成式 AI",
+          "category": "游戏与创作",
+          "summary": "历史检索保留的标题要点：85.8% 日本游戏开发者使用生成式 AI。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI",
+            "游戏"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-09-18-5",
+          "title": "美联储加息 25bp 至 3.75%–4.00% 后科技股反弹",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：美联储加息 25bp 至 3.75%–4.00% 后科技股反弹。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [],
+          "sources": []
+        }
+      ]
+    }
+  ]
+}

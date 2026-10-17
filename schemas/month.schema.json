@@ -1,0 +1,190 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FYI monthly archive",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "collectionId",
+    "month",
+    "updatedAt",
+    "briefs"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "collectionId": {
+      "type": "string"
+    },
+    "month": {
+      "type": "string",
+      "pattern": "^\\d{4}-(0[1-9]|1[0-2])$"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "briefs": {
+      "type": "array",
+      "maxItems": 31,
+      "items": {
+        "$ref": "#/$defs/brief"
+      }
+    }
+  },
+  "$defs": {
+    "item": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "category",
+        "summary",
+        "analysis",
+        "importance",
+        "tags",
+        "sources"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "analysis": {
+          "type": "string"
+        },
+        "importance": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 5
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "title",
+              "url"
+            ],
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string",
+                "pattern": "^https?://",
+                "format": "uri"
+              }
+            }
+          }
+        }
+      }
+    },
+    "brief": {
+      "type": "object",
+      "required": [
+        "id",
+        "collectionId",
+        "date",
+        "title",
+        "summary",
+        "analysis",
+        "rawText",
+        "completeness",
+        "sourceConversation",
+        "provenance",
+        "score",
+        "items"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "collectionId": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string",
+          "format": "date",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "title": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "analysis": {
+          "type": "string"
+        },
+        "rawText": {
+          "type": "string"
+        },
+        "completeness": {
+          "enum": [
+            "full",
+            "partial",
+            "summary"
+          ]
+        },
+        "sourceConversation": {
+          "type": "string"
+        },
+        "provenance": {
+          "type": "string"
+        },
+        "score": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 5
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 100,
+          "items": {
+            "$ref": "#/$defs/item"
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "completeness": {
+                "const": "full"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "rawText": {
+                "type": "string",
+                "pattern": "\\S"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

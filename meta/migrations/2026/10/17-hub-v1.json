@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "migratedAt": "2026-10-17T03:52:20.032806Z",
+  "source": "Personal Intelligence Hub database",
+  "briefCount": 29,
+  "itemCount": 135,
+  "completeness": "summary",
+  "note": "从 Hub 当前数据库迁移，保留原始 ID、日期、来源与 completeness；历史摘要未经重新核验，不补造缺失原文、来源或评分。",
+  "collections": [
+    {
+      "id": "daily-brief",
+      "briefCount": 22
+    },
+    {
+      "id": "hangzhou-property",
+      "briefCount": 7
+    }
+  ]
+}

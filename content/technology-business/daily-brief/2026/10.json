@@ -1,0 +1,678 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "daily-brief",
+  "month": "2026-10",
+  "updatedAt": "2026-10-17T03:52:20.032806Z",
+  "briefs": [
+    {
+      "id": "daily-brief-2026-10-17",
+      "collectionId": "daily-brief",
+      "date": "2026-10-17",
+      "title": "每日重点简报｜10月17日",
+      "summary": "NVIDIA RTX Spark：最高 128GB 统一内存；Epic Games Launcher Preview 采用 Tauri；GitHub Open Source License Compliance GA；腾讯回应 Agent 尝试访问高德数据；CoreWeave 股价周跌近 25%。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "每日重点简报",
+      "provenance": "通过历史对话检索恢复的标题/摘要，不是原始日报全文。分类和标签为本次整理生成；缺失正文、详细分析、原始引用及重要性评分尚待补录。内容未重新核验。",
+      "score": null,
+      "items": [
+        {
+          "id": "daily-brief-2026-10-17-1",
+          "title": "NVIDIA RTX Spark：最高 128GB 统一内存",
+          "category": "算力与硬件",
+          "summary": "历史检索摘要记载：NVIDIA RTX Spark 最高配备 128GB 统一内存。",
+          "analysis": "",
+          "importance": null,
+          "tags": [],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-17-2",
+          "title": "Epic Games Launcher Preview 采用 Tauri",
+          "category": "游戏与创作",
+          "summary": "历史检索摘要记载：Epic Games Launcher Preview 采用 Tauri，并通过 AI 辅助重构。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "开发工具",
+            "游戏"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-17-3",
+          "title": "GitHub Open Source License Compliance GA",
+          "category": "软件工程",
+          "summary": "历史检索保留的标题要点：GitHub Open Source License Compliance GA。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "开发工具"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-17-4",
+          "title": "腾讯回应 Agent 尝试访问高德数据",
+          "category": "AI 与智能体",
+          "summary": "历史检索摘要记载：腾讯回应 Agent 尝试访问高德数据，涉及 2,818 次访问尝试。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "Agent"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-17-5",
+          "title": "CoreWeave 股价周跌近 25%",
+          "category": "财经与市场",
+          "summary": "历史检索摘要记载：CoreWeave 股价一周下跌近 25%，债券收益率突破 16%。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "市场"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "daily-brief-2026-10-16",
+      "collectionId": "daily-brief",
+      "date": "2026-10-16",
+      "title": "每日重点简报｜10月16日",
+      "summary": "Meta Muse Spark Open 开放权重多模态 Coding 模型；GitHub AI Scan 与 Agentic Autofix GA；BRUTAL Framework 开源；台积电 Q3 利润同比增长 68.7%；韩国 KOSPI 下跌 7.57%，AI 融资风险。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "每日重点简报",
+      "provenance": "通过历史对话检索恢复的标题/摘要，不是原始日报全文。分类和标签为本次整理生成；缺失正文、详细分析、原始引用及重要性评分尚待补录。内容未重新核验。",
+      "score": null,
+      "items": [
+        {
+          "id": "daily-brief-2026-10-16-1",
+          "title": "Meta Muse Spark Open 开放权重多模态 Coding 模型",
+          "category": "算力与硬件",
+          "summary": "历史检索摘要记载：816B 总参数、42B 激活参数，开放权重多模态 Coding 模型。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-16-2",
+          "title": "GitHub AI Scan 与 Agentic Autofix GA",
+          "category": "软件工程",
+          "summary": "历史检索保留的标题要点：GitHub AI Scan 与 Agentic Autofix GA。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "Agent",
+            "AI",
+            "开发工具"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-16-3",
+          "title": "BRUTAL Framework 开源",
+          "category": "软件工程",
+          "summary": "历史检索保留的标题要点：BRUTAL Framework 开源。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "开发工具"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-16-4",
+          "title": "台积电 Q3 利润同比增长 68.7%",
+          "category": "财经与市场",
+          "summary": "历史检索摘要记载：台积电第三季度利润同比增长 68.7%，2nm 占晶圆收入 8%。",
+          "analysis": "",
+          "importance": null,
+          "tags": [],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-16-5",
+          "title": "韩国 KOSPI 下跌 7.57%，AI 融资风险",
+          "category": "财经与市场",
+          "summary": "历史检索保留的标题要点：韩国 KOSPI 下跌 7.57%，AI 融资风险。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI",
+            "市场"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "daily-brief-2026-10-15",
+      "collectionId": "daily-brief",
+      "date": "2026-10-15",
+      "title": "每日重点简报｜10月15日",
+      "summary": "Anthropic Q3 收入 168 亿美元；GitHub Actions 引入 Lockfile；国产开源 Reflex Agent 发布；Defold 1.14 支持 Xbox；美国 CPI 升至 3.7%，纳指下跌 1.88%。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "每日重点简报",
+      "provenance": "通过历史对话检索恢复的标题/摘要，不是原始日报全文。分类和标签为本次整理生成；缺失正文、详细分析、原始引用及重要性评分尚待补录。内容未重新核验。",
+      "score": null,
+      "items": [
+        {
+          "id": "daily-brief-2026-10-15-1",
+          "title": "Anthropic Q3 收入 168 亿美元",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：Anthropic Q3 收入 168 亿美元。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-15-2",
+          "title": "GitHub Actions 引入 Lockfile",
+          "category": "软件工程",
+          "summary": "历史检索保留的标题要点：GitHub Actions 引入 Lockfile。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "开发工具"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-15-3",
+          "title": "国产开源 Reflex Agent 发布",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：国产开源 Reflex Agent 发布。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "Agent"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-15-4",
+          "title": "Defold 1.14 支持 Xbox",
+          "category": "游戏与创作",
+          "summary": "历史检索保留的标题要点：Defold 1.14 支持 Xbox。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "游戏"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-15-5",
+          "title": "美国 CPI 升至 3.7%，纳指下跌 1.88%",
+          "category": "财经与市场",
+          "summary": "历史检索保留的标题要点：美国 CPI 升至 3.7%，纳指下跌 1.88%。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "市场"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "daily-brief-2026-10-14",
+      "collectionId": "daily-brief",
+      "date": "2026-10-14",
+      "title": "每日重点简报｜10月14日",
+      "summary": "Google Gemini 4 Argon 全面开放；npm SlugFest 漏洞影响超过 1,500 个包；Epic Games 全面转向 AI 开发；欧洲首个商业 AMD AI 超算落地瑞典；高盛 Q3 利润达 52.9 亿美元。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "每日重点简报",
+      "provenance": "通过历史对话检索恢复的标题/摘要，不是原始日报全文。分类和标签为本次整理生成；缺失正文、详细分析、原始引用及重要性评分尚待补录。内容未重新核验。",
+      "score": null,
+      "items": [
+        {
+          "id": "daily-brief-2026-10-14-1",
+          "title": "Google Gemini 4 Argon 全面开放",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：Google Gemini 4 Argon 全面开放。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-14-2",
+          "title": "npm SlugFest 漏洞影响超过 1,500 个包",
+          "category": "软件工程",
+          "summary": "历史检索保留的标题要点：npm SlugFest 漏洞影响超过 1,500 个包。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "开发工具",
+            "安全"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-14-3",
+          "title": "Epic Games 全面转向 AI 开发",
+          "category": "游戏与创作",
+          "summary": "历史检索保留的标题要点：Epic Games 全面转向 AI 开发。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI",
+            "游戏"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-14-4",
+          "title": "欧洲首个商业 AMD AI 超算落地瑞典",
+          "category": "算力与硬件",
+          "summary": "历史检索保留的标题要点：欧洲首个商业 AMD AI 超算落地瑞典。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-14-5",
+          "title": "高盛 Q3 利润达 52.9 亿美元",
+          "category": "财经与市场",
+          "summary": "历史检索保留的标题要点：高盛 Q3 利润达 52.9 亿美元。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "daily-brief-2026-10-13",
+      "collectionId": "daily-brief",
+      "date": "2026-10-13",
+      "title": "每日重点简报｜10月13日",
+      "summary": "Meta 发布 Muse Wonder；Microsoft Maia 300 计划部署百万级 AI 芯片；GitHub 新增 Push Attribution；无问芯穹完成 23 亿元融资；美股上涨，但超过 40% 成分股下跌。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "每日重点简报",
+      "provenance": "通过历史对话检索恢复的标题/摘要，不是原始日报全文。分类和标签为本次整理生成；缺失正文、详细分析、原始引用及重要性评分尚待补录。内容未重新核验。",
+      "score": null,
+      "items": [
+        {
+          "id": "daily-brief-2026-10-13-1",
+          "title": "Meta 发布 Muse Wonder",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：Meta 发布 Muse Wonder。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-13-2",
+          "title": "Microsoft Maia 300 计划部署百万级 AI 芯片",
+          "category": "算力与硬件",
+          "summary": "历史检索保留的标题要点：Microsoft Maia 300 计划部署百万级 AI 芯片。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-13-3",
+          "title": "GitHub 新增 Push Attribution",
+          "category": "软件工程",
+          "summary": "历史检索保留的标题要点：GitHub 新增 Push Attribution。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "开发工具"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-13-4",
+          "title": "无问芯穹完成 23 亿元融资",
+          "category": "财经与市场",
+          "summary": "历史检索保留的标题要点：无问芯穹完成 23 亿元融资。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "市场"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-13-5",
+          "title": "美股上涨，但超过 40% 成分股下跌",
+          "category": "财经与市场",
+          "summary": "历史检索保留的标题要点：美股上涨，但超过 40% 成分股下跌。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "市场"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "daily-brief-2026-10-12",
+      "collectionId": "daily-brief",
+      "date": "2026-10-12",
+      "title": "每日重点简报｜10月12日",
+      "summary": "OpenClaw v2026.10.5-beta.1；SWE-CC：43.1% 项目存在规范违规；月之暗面 IPO 前股权争议和解谈判；Xbox 成立 XP 跨媒体部门；Brent 升至 105.48 美元。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "每日重点简报",
+      "provenance": "通过历史对话检索恢复的标题/摘要，不是原始日报全文。分类和标签为本次整理生成；缺失正文、详细分析、原始引用及重要性评分尚待补录。内容未重新核验。",
+      "score": null,
+      "items": [
+        {
+          "id": "daily-brief-2026-10-12-1",
+          "title": "OpenClaw v2026.10.5-beta.1",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：OpenClaw v2026.10.5-beta.1。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "Agent"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-12-2",
+          "title": "SWE-CC：43.1% 项目存在规范违规",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：SWE-CC：43.1% 项目存在规范违规。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-12-3",
+          "title": "月之暗面 IPO 前股权争议和解谈判",
+          "category": "财经与市场",
+          "summary": "历史检索保留的标题要点：月之暗面 IPO 前股权争议和解谈判。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-12-4",
+          "title": "Xbox 成立 XP 跨媒体部门",
+          "category": "游戏与创作",
+          "summary": "历史检索保留的标题要点：Xbox 成立 XP 跨媒体部门。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "游戏"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-12-5",
+          "title": "Brent 升至 105.48 美元",
+          "category": "财经与市场",
+          "summary": "历史检索保留的标题要点：Brent 升至 105.48 美元。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "市场"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "daily-brief-2026-10-11",
+      "collectionId": "daily-brief",
+      "date": "2026-10-11",
+      "title": "每日重点简报｜10月11日",
+      "summary": "Cloudflare 收购 Deno；TypeSafe AI 获 8.7 亿美元融资；NVIDIA 考虑收购 Reflection AI；美国主机销量：Xbox 下降 33%，PlayStation 下降 25%；四小时储能成本低于燃气调峰。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "每日重点简报",
+      "provenance": "通过历史对话检索恢复的标题/摘要，不是原始日报全文。分类和标签为本次整理生成；缺失正文、详细分析、原始引用及重要性评分尚待补录。内容未重新核验。",
+      "score": null,
+      "items": [
+        {
+          "id": "daily-brief-2026-10-11-1",
+          "title": "Cloudflare 收购 Deno",
+          "category": "软件工程",
+          "summary": "历史检索保留的标题要点：Cloudflare 收购 Deno。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "开发工具"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-11-2",
+          "title": "TypeSafe AI 获 8.7 亿美元融资",
+          "category": "财经与市场",
+          "summary": "历史检索保留的标题要点：TypeSafe AI 获 8.7 亿美元融资。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI",
+            "市场"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-11-3",
+          "title": "NVIDIA 考虑收购 Reflection AI",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：NVIDIA 考虑收购 Reflection AI。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-11-4",
+          "title": "美国主机销量：Xbox 下降 33%，PlayStation 下降 25%",
+          "category": "游戏与创作",
+          "summary": "历史检索保留的标题要点：美国主机销量：Xbox 下降 33%，PlayStation 下降 25%。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "游戏"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-11-5",
+          "title": "四小时储能成本低于燃气调峰",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：四小时储能成本低于燃气调峰。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "daily-brief-2026-10-10",
+      "collectionId": "daily-brief",
+      "date": "2026-10-10",
+      "title": "每日重点简报｜10月10日",
+      "summary": "Anthropic Agent 的非预期外部操作；GitHub CodeQL 2.27.2；Vicon 收购 Move AI；SpaceX 约 80 亿美元购买 800MHz 频谱；美股反弹，10 年期美债约 5.24%。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "每日重点简报",
+      "provenance": "通过历史对话检索恢复的标题/摘要，不是原始日报全文。分类和标签为本次整理生成；缺失正文、详细分析、原始引用及重要性评分尚待补录。内容未重新核验。 曾出现检索日期冲突，已按再次检索返回的正文日期 2026-10-10 归档，原消息时间仍待原文确认。",
+      "score": null,
+      "items": [
+        {
+          "id": "daily-brief-2026-10-10-1",
+          "title": "Anthropic Agent 的非预期外部操作",
+          "category": "AI 与智能体",
+          "summary": "检索摘要说明事件实际发生于 7 月 18 日，10 月 7 日通知警方；此处按日报正文日期 10 月 10 日归档。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "Agent",
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-10-2",
+          "title": "GitHub CodeQL 2.27.2",
+          "category": "软件工程",
+          "summary": "检索摘要记载 GitHub 于 10 月 9 日发布 CodeQL 2.27.2；属于 10 月 10 日日报的回顾内容。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "开发工具"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-10-3",
+          "title": "Vicon 收购 Move AI",
+          "category": "游戏与创作",
+          "summary": "历史检索保留的标题要点：Vicon 收购 Move AI。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-10-4",
+          "title": "SpaceX 约 80 亿美元购买 800MHz 频谱",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：SpaceX 约 80 亿美元购买 800MHz 频谱。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-10-5",
+          "title": "美股反弹，10 年期美债约 5.24%",
+          "category": "财经与市场",
+          "summary": "历史检索保留的标题要点：美股反弹，10 年期美债约 5.24%。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "市场"
+          ],
+          "sources": []
+        }
+      ]
+    },
+    {
+      "id": "daily-brief-2026-10-01",
+      "collectionId": "daily-brief",
+      "date": "2026-10-01",
+      "title": "每日重点简报｜10月01日",
+      "summary": "Gemini 4 Argon 发布；GitHub HydraFusion 多模型协作；OpenAI 与 Synopsys 推出 GPT-Synopsys；Grasshopper 脱离网易独立；Micron：AI 内存需求仍超供给。",
+      "analysis": "",
+      "rawText": "",
+      "completeness": "summary",
+      "sourceConversation": "每日重点简报",
+      "provenance": "通过历史对话检索恢复的标题/摘要，不是原始日报全文。分类和标签为本次整理生成；缺失正文、详细分析、原始引用及重要性评分尚待补录。内容未重新核验。",
+      "score": null,
+      "items": [
+        {
+          "id": "daily-brief-2026-10-01-1",
+          "title": "Gemini 4 Argon 发布",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：Gemini 4 Argon 发布。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-01-2",
+          "title": "GitHub HydraFusion 多模型协作",
+          "category": "软件工程",
+          "summary": "历史检索保留的标题要点：GitHub HydraFusion 多模型协作。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI",
+            "开发工具"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-01-3",
+          "title": "OpenAI 与 Synopsys 推出 GPT-Synopsys",
+          "category": "AI 与智能体",
+          "summary": "历史检索保留的标题要点：OpenAI 与 Synopsys 推出 GPT-Synopsys。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-01-4",
+          "title": "Grasshopper 脱离网易独立",
+          "category": "游戏与创作",
+          "summary": "历史检索保留的标题要点：Grasshopper 脱离网易独立。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "游戏"
+          ],
+          "sources": []
+        },
+        {
+          "id": "daily-brief-2026-10-01-5",
+          "title": "Micron：AI 内存需求仍超供给",
+          "category": "算力与硬件",
+          "summary": "历史检索保留的标题要点：Micron：AI 内存需求仍超供给。详细正文与分析尚未恢复。",
+          "analysis": "",
+          "importance": null,
+          "tags": [
+            "AI"
+          ],
+          "sources": []
+        }
+      ]
+    }
+  ]
+}

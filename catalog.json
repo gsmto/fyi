@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "title": "FYI · Personal Intelligence Archive",
+  "timezone": "Asia/Shanghai",
+  "categories": [
+    {
+      "id": "technology-business",
+      "name": "科技与商业",
+      "description": "AI、软件工程、游戏开发与全球科技商业"
+    },
+    {
+      "id": "cities-housing",
+      "name": "城市与住房",
+      "description": "城市观察、房地产市场、区域与居住品质"
+    }
+  ],
+  "collections": [
+    {
+      "id": "daily-brief",
+      "name": "每日重点简报",
+      "description": "AI、软件工程、游戏与全球科技商业",
+      "color": "#388575",
+      "categoryId": "technology-business",
+      "path": "content/technology-business/daily-brief"
+    },
+    {
+      "id": "hangzhou-property",
+      "name": "杭州楼市晚报",
+      "description": "西湖 · 上城 · 滨江，关注转塘周边",
+      "color": "#b38b57",
+      "categoryId": "cities-housing",
+      "path": "content/cities-housing/hangzhou-property"
+    }
+  ]
+}
