@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "region": "CN",
+  "timezone": "Asia/Shanghai",
+  "year": 2026,
+  "officialStatus": "confirmed",
+  "checkedAt": "2026-10-18T06:17:33.595Z",
+  "sources": [
+    {
+      "id": "sc-2026",
+      "title": "国务院办公厅关于2026年部分节假日安排的通知（国办发明电〔2025〕7号）",
+      "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202511/t20251104_4258873.html",
+      "publishedAt": "2025-11-04"
+    }
+  ],
+  "holidays": [
+    {
+      "name": "元旦",
+      "start": "2026-01-01",
+      "end": "2026-01-03",
+      "sourceId": "sc-2026"
+    },
+    {
+      "name": "春节",
+      "start": "2026-02-15",
+      "end": "2026-02-23",
+      "sourceId": "sc-2026"
+    },
+    {
+      "name": "清明节",
+      "start": "2026-04-04",
+      "end": "2026-04-06",
+      "sourceId": "sc-2026"
+    },
+    {
+      "name": "劳动节",
+      "start": "2026-05-01",
+      "end": "2026-05-05",
+      "sourceId": "sc-2026"
+    },
+    {
+      "name": "端午节",
+      "start": "2026-06-19",
+      "end": "2026-06-21",
+      "sourceId": "sc-2026"
+    },
+    {
+      "name": "中秋节",
+      "start": "2026-09-25",
+      "end": "2026-09-27",
+      "sourceId": "sc-2026"
+    },
+    {
+      "name": "国庆节",
+      "start": "2026-10-01",
+      "end": "2026-10-07",
+      "sourceId": "sc-2026"
+    }
+  ],
+  "workdays": [
+    {
+      "date": "2026-01-04",
+      "name": "元旦补班",
+      "sourceId": "sc-2026"
+    },
+    {
+      "date": "2026-02-14",
+      "name": "春节补班",
+      "sourceId": "sc-2026"
+    },
+    {
+      "date": "2026-02-28",
+      "name": "春节补班",
+      "sourceId": "sc-2026"
+    },
+    {
+      "date": "2026-05-09",
+      "name": "劳动节补班",
+      "sourceId": "sc-2026"
+    },
+    {
+      "date": "2026-09-20",
+      "name": "国庆补班",
+      "sourceId": "sc-2026"
+    },
+    {
+      "date": "2026-10-10",
+      "name": "国庆补班",
+      "sourceId": "sc-2026"
+    }
+  ],
+  "events": []
+}
