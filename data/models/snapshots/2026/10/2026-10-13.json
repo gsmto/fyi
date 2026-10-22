@@ -1,0 +1,412 @@
+{
+  "models": [
+    {
+      "company": "OpenAI",
+      "name": "GPT-6 Astra",
+      "id": "gpt-6-astra",
+      "input": 10,
+      "output": 50,
+      "context": 1050000,
+      "tags": [
+        "推理",
+        "编程",
+        "视觉"
+      ],
+      "desc": "复杂推理与高难度编程旗舰。",
+      "note": "标准短上下文价格；长上下文、Fast 与工具调用另计。",
+      "url": "https://developers.openai.com/api/docs/models",
+      "channels": [
+        "OpenAI API",
+        "ChatGPT / Codex"
+      ],
+      "verified": "2026-10-13",
+      "pricingRules": []
+    },
+    {
+      "company": "OpenAI",
+      "name": "GPT-6.1 Sol",
+      "id": "gpt-6.1-sol",
+      "input": 2,
+      "output": 10,
+      "context": 1050000,
+      "tags": [
+        "编程",
+        "智能体",
+        "视觉"
+      ],
+      "desc": "兼顾能力与成本，适合日常专业工作与代码任务。",
+      "note": "工具调用使用 Responses API；速率限制依账户层级。",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+      "channels": [
+        "OpenAI API",
+        "ChatGPT Work / Codex"
+      ],
+      "verified": "2026-10-13",
+      "pricingRules": []
+    },
+    {
+      "company": "OpenAI",
+      "name": "GPT-6 Luna",
+      "id": "gpt-6-luna",
+      "input": 0.1,
+      "output": 0.5,
+      "context": 1050000,
+      "tags": [
+        "高吞吐",
+        "视觉"
+      ],
+      "desc": "面向聚焦任务与大规模低成本处理。",
+      "note": "标准短上下文价格；不同服务层级与长上下文另计。",
+      "url": "https://developers.openai.com/api/docs/models",
+      "channels": [
+        "OpenAI API"
+      ],
+      "verified": "2026-10-13",
+      "pricingRules": []
+    },
+    {
+      "company": "Anthropic",
+      "name": "Claude Fable 5.1",
+      "id": "claude-fable-5-1",
+      "input": 10,
+      "output": 50,
+      "context": 1000000,
+      "tags": [
+        "推理",
+        "智能体",
+        "视觉"
+      ],
+      "desc": "高难度推理与长时间智能体工作。",
+      "note": "使用权限以所在平台为准；缓存与区域推理另计。",
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "channels": [
+        "Claude API",
+        "Bedrock / Vertex / Foundry"
+      ],
+      "verified": "2026-10-13",
+      "pricingRules": []
+    },
+    {
+      "company": "Anthropic",
+      "name": "Claude Opus 5.5",
+      "id": "claude-opus-5-5",
+      "input": 4,
+      "output": 20,
+      "context": 1000000,
+      "tags": [
+        "编程",
+        "智能体",
+        "视觉"
+      ],
+      "desc": "长期编程任务与知识工作。",
+      "note": "自适应思考；缓存、批处理与区域推理另有计费。",
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "channels": [
+        "Claude API",
+        "Claude",
+        "Bedrock / Vertex / Foundry"
+      ],
+      "verified": "2026-10-13",
+      "pricingRules": []
+    },
+    {
+      "company": "Anthropic",
+      "name": "Claude Sonnet 5.5",
+      "id": "claude-sonnet-5-5",
+      "input": 2,
+      "output": 10,
+      "context": 1000000,
+      "tags": [
+        "编程",
+        "视觉"
+      ],
+      "desc": "速度与能力的均衡选择。",
+      "note": "自适应思考；具体限额依平台与账户。",
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "channels": [
+        "Claude API",
+        "Claude",
+        "Bedrock / Vertex / Foundry"
+      ],
+      "verified": "2026-10-13",
+      "pricingRules": []
+    },
+    {
+      "company": "Anthropic",
+      "name": "Claude Haiku 5.5",
+      "id": "claude-haiku-5-5",
+      "input": 0.1,
+      "output": 0.5,
+      "context": 1000000,
+      "tags": [
+        "高吞吐",
+        "视觉"
+      ],
+      "desc": "分类、提取、路由与低延迟工作。",
+      "note": "此价格仅适用于不超过 100K 的提示；超过时输入 $0.50、输出 $2.50 / MTok。",
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "channels": [
+        "Claude API",
+        "Bedrock / Vertex / Foundry"
+      ],
+      "verified": "2026-10-13",
+      "pricingRules": [
+        {
+          "minInput": 100001,
+          "input": 0.5,
+          "output": 2.5,
+          "note": "超过 100K 提示的价格档"
+        }
+      ]
+    },
+    {
+      "company": "Google",
+      "name": "Gemini 3.8 Flash",
+      "id": "gemini-3.8-flash",
+      "input": 0.75,
+      "output": 3.75,
+      "context": 1048576,
+      "tags": [
+        "编程",
+        "智能体",
+        "音视频",
+        "视觉"
+      ],
+      "desc": "长程软件工程、复杂工作流与多模态输入。",
+      "note": "优惠价格至 2026-12-31；2027-01-01 起输入 $1.50、输出 $7.50。免费层有额度与数据使用差异。",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "channels": [
+        "Gemini API",
+        "Google AI Studio"
+      ],
+      "verified": "2026-10-13",
+      "pricingRules": [
+        {
+          "from": "2027-01-01",
+          "input": 1.5,
+          "output": 7.5,
+          "note": "原档案记录的 2027 标准价格，使用前请重新核验"
+        }
+      ]
+    },
+    {
+      "company": "xAI",
+      "name": "Grok 4.7",
+      "id": "grok-4.7",
+      "input": 2,
+      "output": 6,
+      "context": 500000,
+      "tags": [
+        "编程",
+        "智能体",
+        "视觉"
+      ],
+      "desc": "可调推理强度的编程与工具调用模型。",
+      "note": "提示达到 200K 时输入 $4、输出 $12 / MTok；实时信息需要启用搜索工具。",
+      "url": "https://docs.x.ai/developers/release-notes",
+      "channels": [
+        "xAI API",
+        "Grok"
+      ],
+      "verified": "2026-10-13",
+      "pricingRules": [
+        {
+          "minInput": 200000,
+          "input": 4,
+          "output": 12,
+          "note": "达到 200K 提示的长上下文档"
+        }
+      ]
+    },
+    {
+      "company": "Meta",
+      "name": "Muse Wonder",
+      "id": "muse-wonder",
+      "input": null,
+      "output": null,
+      "context": null,
+      "tags": [
+        "编程",
+        "智能体"
+      ],
+      "desc": "2026-10-12 发布，关注真实任务、Active Memory 与 Active Focus。",
+      "note": "公告未给出可核验的标准 token 单价与上下文；不推测价格。",
+      "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+      "channels": [
+        "Meta Model API",
+        "Muse Code"
+      ],
+      "verified": "2026-10-13",
+      "pricingRules": []
+    },
+    {
+      "company": "Meta",
+      "name": "Muse Wonder Full",
+      "id": "muse-wonder-full",
+      "input": null,
+      "output": null,
+      "context": null,
+      "tags": [
+        "智能体"
+      ],
+      "desc": "Muse Wonder 系列的高能力版本。",
+      "note": "公告确认 Muse Code 订阅渠道；公开 API 与价格需进一步核验。",
+      "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+      "channels": [
+        "Muse Code 订阅"
+      ],
+      "verified": "2026-10-13",
+      "pricingRules": []
+    }
+  ],
+  "news": [
+    {
+      "company": "Meta",
+      "date": "2026-10-12",
+      "title": "Meta 发布 Muse Wonder 系列，进一步面向真实智能体任务",
+      "summary": "Muse Wonder 已面向 Meta Model API 与 Muse Code 开放；Wonder Full 通过 Muse Code 订阅提供。",
+      "category": "模型发布",
+      "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+      "source": "官方 · 中文摘要",
+      "curated": true
+    },
+    {
+      "company": "OpenAI",
+      "date": "2026-10-08",
+      "title": "GPT-6.1 Sol 的 Responses API 新增 Ultrafast 模式",
+      "summary": "提供更快的输出 token 生成；可用性与速率限制按账户及服务层级确定。",
+      "category": "API 更新",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "source": "官方 · 中文摘要",
+      "curated": true
+    },
+    {
+      "company": "Anthropic",
+      "date": "2026-10-07",
+      "title": "Claude Haiku 5.5 发布：面向高吞吐、低延迟任务",
+      "summary": "新一代小模型聚焦摘要、分类与路由；长提示采用不同价格档位。",
+      "category": "模型发布",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "source": "官方 · 中文摘要",
+      "curated": true
+    },
+    {
+      "company": "OpenAI",
+      "date": "2026-10-06",
+      "title": "Decisions API 开放 beta，支持 GPT-6 Luna",
+      "summary": "将文本与图像转换为结构化决策；官方同时调整 API 账户使用层级。",
+      "category": "API 更新",
+      "url": "https://developers.openai.com/api/docs/changelog",
+      "source": "官方 · 中文摘要",
+      "curated": true
+    },
+    {
+      "company": "xAI",
+      "date": "2026-10-02",
+      "title": "Grok 旧语音转录模型停止服务，路由至 2.0",
+      "summary": "grok-voice-transcribe-1.0 请求转入 2.0；官方称维持价格并提高准确度。",
+      "category": "使用限制",
+      "url": "https://docs.x.ai/developers/release-notes",
+      "source": "官方 · 中文摘要",
+      "curated": true
+    },
+    {
+      "company": "Google",
+      "date": "2026-09-28",
+      "title": "Google 展示 Gemini 3.8 Flash 的开发者应用案例",
+      "summary": "案例包括空间模拟与交互式工程模型，展示推理和软件工程用途。",
+      "category": "公司动态",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-flash-developers/",
+      "source": "官方 · 中文摘要",
+      "curated": true
+    },
+    {
+      "company": "xAI",
+      "date": "2026-09-21",
+      "title": "Grok 4.7 API 上线，支持 500K 上下文与可调推理",
+      "summary": "支持文本和图像输入；超过 200K 提示时采用长上下文价格。",
+      "category": "模型发布",
+      "url": "https://docs.x.ai/developers/release-notes",
+      "source": "官方 · 中文摘要",
+      "curated": true
+    },
+    {
+      "company": "Google",
+      "date": "2026-09-02",
+      "title": "Gemini 3.8 Flash 发布，增强长程编程与智能体能力",
+      "summary": "官方报告 HLE-Verified 为 54.9%；以优惠价格提供标准推理。",
+      "category": "模型发布",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+      "source": "官方 · 中文摘要",
+      "curated": true
+    }
+  ],
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-13T12:00:00Z",
+  "verifiedAt": "2026-10-13",
+  "provenance": "从模型前线迁入的 2026-10-13 历史档案；迁移不代表重新核验",
+  "evaluations": [
+    {
+      "id": "gemini-flash-hle",
+      "company": "Google",
+      "title": "Gemini 3.8 Flash",
+      "metric": "HLE-Verified",
+      "value": "54.9%",
+      "date": "2026-09-02",
+      "description": "厂商披露的多学科推理结果。工具环境和测试口径见原报告，不与不同版本的 HLE 分数混排。",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+    },
+    {
+      "id": "claude-haiku",
+      "company": "Anthropic",
+      "title": "Claude Haiku 5.5",
+      "metric": "电脑操作与专业任务",
+      "value": null,
+      "date": "2026-10-07",
+      "description": "关注 OSWorld 2.1 与 GDPval-AA v2.1 的任务环境；具体结果以发布页原图为准。",
+      "url": "https://www.anthropic.com/claude-haiku-5-5"
+    },
+    {
+      "id": "openai-compare",
+      "company": "OpenAI",
+      "title": "OpenAI 模型对照",
+      "metric": "官方能力与参数",
+      "value": null,
+      "date": "2026-10-13",
+      "description": "对照上下文、工具、限额与成本；编程、电脑操作与专业任务应分别验证。",
+      "url": "https://developers.openai.com/api/docs/models/compare"
+    },
+    {
+      "id": "meta-wonder",
+      "company": "Meta",
+      "title": "Muse Wonder / Wonder Full",
+      "metric": "智能体与持续工作",
+      "value": null,
+      "date": "2026-10-12",
+      "description": "原档案未收录可核验的同口径跨厂商分数，保留官方发布和研究入口。",
+      "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+    }
+  ],
+  "companies": [
+    {
+      "name": "OpenAI",
+      "url": "https://developers.openai.com/api/docs/changelog"
+    },
+    {
+      "name": "Anthropic",
+      "url": "https://platform.claude.com/docs/en/models/overview"
+    },
+    {
+      "name": "Google",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing"
+    },
+    {
+      "name": "Meta",
+      "url": "https://ai.meta.com/"
+    },
+    {
+      "name": "xAI",
+      "url": "https://docs.x.ai/developers/release-notes"
+    }
+  ]
+}
