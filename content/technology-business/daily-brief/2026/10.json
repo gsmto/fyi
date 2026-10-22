@@ -2,8 +2,178 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-10",
-  "updatedAt": "2026-10-21T07:49:31.201Z",
+  "updatedAt": "2026-10-22T01:00:42.108Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-10-22",
+      "collectionId": "daily-brief",
+      "date": "2026-10-22",
+      "title": "最新资讯｜2026-10-22",
+      "summary": "今日Top 5：OpenAI模型与Codex进入Google Cloud；AI辅助发现的PHP严重漏洞完成协同修复；GitHub CLI试行短期可刷新令牌；EA关闭BioWare；Meta用资本开支与新股权结构支撑AI扩张。",
+      "analysis": "本期主线是AI从模型能力走向云分发、安全运营与资本结构：开发者需同时关注平台锁定、凭据生命周期和漏洞修复闭环，游戏行业与资本市场则继续向少数高确定性项目集中。",
+      "rawText": "# 最新资讯｜2026-10-22\n\n截至2026年10月22日08:58（北京时间），已与10月18—21日归档去重。以下5条均为10月21日新公布或在北京时间过去24小时内形成的实质更新，优先采用官方公告、开发者文档与原始财务信息。\n\n## 今日 Top 5\n\n### 1. OpenAI 模型与 Codex 进入 Google Cloud：企业模型采购进一步云平台化\n\n![OpenAI 标志与 Google Cloud 标志并列的官方发布图](https://storage.googleapis.com/gweb-cloudblog-publish/images/Open-ai-google-models-hero.max-2500x2500.png)\n\n图片出处：[Google Cloud 官方发布页](https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers)。\n\n【2026-10-21】OpenAI与Google Cloud宣布，GPT-6 Astra、GPT-6.1 Sol、GPT-6 Luna和Codex工作流将进入Google Cloud Model Garden；首批企业客户已开始私有预览，全面可用计划在未来数周展开。客户可通过Google Cloud Marketplace统一采购，并用既有云承诺抵扣；Google称本地Codex CLI与Desktop工作流也可接入Gemini平台推理。\n\n**为什么值得关注**：重要性5/5。企业采用大模型的竞争正在从单一模型能力转向采购、身份、审计、数据边界和多模型切换；但私有预览和“即将支持”的功能不能当作已全面可用，OpenAI仍称微软是其主要云伙伴。\n\n**来源**：[OpenAI](https://openai.com/index/openai-models-google-cloud/)｜[Google Cloud](https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers)\n\n### 2. AI 发现 PHP 严重漏洞后完成协同修复：真正的价值在“发现—验证—补丁—部署”闭环\n\n【2026-10-21】OpenAI披露，Patch the Planet联盟过去两个月与PHP维护者、安全公司及基础设施提供商协同处理两项严重漏洞；其中一项由GPT-5.6 Sol辅助发现，Wiz也独立报告了相关问题。PHP维护者主导修复与发布，OpenAI同时开源版本检查器，帮助运维判断公开暴露的PHP版本是否落在易受影响范围。\n\n**为什么值得关注**：重要性5/5。案例的关键不只是AI能找漏洞，而是公开披露前完成验证、补丁、测试和大规模防护准备。使用PHP的团队应优先核对官方安全版本和托管商指引；检查器只比较可见版本，隐藏标头、发行版回补或UNKNOWN结果都不能证明系统安全。\n\n**来源**：[OpenAI披露](https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/)｜[Patch the Planet](https://patchtheplanet.org/)｜[版本检查器](https://github.com/openai/php2shell-checker)\n\n*缺图：未找到与本条事件直接对应、可长期公开访问且无需临时签名的真实图片直链；不以企业营销图库、临时媒体链接或无关配图代替。*\n\n### 3. GitHub CLI 试行短期可刷新令牌：降低长期 Token 泄露窗口，也会暴露旧脚本假设\n\n【2026-10-21】GitHub CLI v2.103.0起，可用`gh auth login --expiring`选择短期访问令牌与轮换刷新令牌；GitHub.com、ghe.com已支持，GHES从3.23开始支持。GitHub建议HTTPS Git操作把`gh`设为凭据助手，并使用Git 2.46或更新版本，避免缓存令牌超过有效期。\n\n**为什么值得关注**：重要性4/5。这是把最小暴露时间落到日常开发凭据的一项实用改进；当前仍是自愿预览，任何调用`gh auth token`后把结果长期保存的脚本或扩展都可能在令牌过期后失效，迁移前应清点CI、插件和自制自动化。\n\n**来源**：[GitHub Changelog](https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens/)｜[GitHub Docs](https://docs.github.com/en/github-cli/github-cli/authenticating-with-github-cli)\n\n*缺图：未找到与本条事件直接对应、可长期公开访问且无需临时签名的真实图片直链；不以企业营销图库、临时媒体链接或无关配图代替。*\n\n### 4. EA 关闭 BioWare并终止下一部 Mass Effect 早期开发：大型项目继续向少数核心押注集中\n\n【2026-10-21】EA宣布关闭BioWare及其Edmonton办公地，不再继续由小团队推进的下一部Mass Effect早期开发，并伴随裁员。公司同时表示将减少并行的大型项目，把资源集中到Battlefield、Apex、Marvel’s Iron Man、下一部Star Wars Jedi、EA Sports等优先方向。\n\n**为什么值得关注**：重要性4/5。这不仅是知名工作室落幕，也反映大型发行商在高成本3A环境下更倾向用已有大IP、共享技术和更少项目控制风险；资源密度提高的同时，也会增加创意组合集中、团队知识流失和单项目失败的风险。\n\n**来源**：[EA官方公告](https://www.ea.com/news/building-eas-next-chapter)｜[Reuters](https://www.reuters.com/technology/ea-shutter-bioware-studio-cut-jobs-it-narrows-game-slate-2026-10-21/)\n\n*缺图：未找到与本条事件直接对应、可长期公开访问且无需临时签名的真实图片直链；不以企业营销图库、临时媒体链接或无关配图代替。*\n\n### 5. Meta 将 AI 投资写进资本结构：资本开支升至1350亿—1450亿美元，季度自由现金流转负\n\n【2026-10-21三季度业绩】Meta把2026年资本开支区间收紧至1350亿—1450亿美元，并披露三季度自由现金流为负21.2亿美元，上年同期为正106.3亿美元；同期营收646亿美元，高于LSEG汇总的633.7亿美元预期。公司计划2027年1月发行无投票权C类股，并称Muse在美国和加拿大约六周已有逾1000万账户。\n\n**为什么值得关注**：重要性5/5。AI竞争已进入资产负债表、股权结构和现金流阶段，收入增长与高额基础设施投入必须同时评估。Muse用户数和管理层对2027年AI收入的预期仍是早期指标，不等于盈利模型已经验证；无投票权股份也意味着融资灵活性与控制权集中会并存。\n\n**来源**：[Reuters](https://www.reuters.com/business/meta-issue-new-class-shares-it-tightens-ai-spending-forecast-2026-10-21/)｜[Meta投资者关系](https://investor.atmeta.com/home/default.aspx)\n\n*缺图：未找到与本条事件直接对应、可长期公开访问且无需临时签名的真实图片直链；不以企业营销图库、临时媒体链接或无关配图代替。*\n\n---\n\n说明：重要性1—5分综合考虑影响范围、证据质量和与开发/投资实践的相关性，并非投资评级。财务数字按公司披露及Reuters/LSEG口径记录，不构成证券买卖建议；安全条目不替代厂商补丁说明和专业响应流程。\n",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "真实生成时间 2026-10-22T01:00:42.108Z；检索主要覆盖2026-10-21 09:00至2026-10-22 08:58（Asia/Shanghai）。已读取docs/ARCHIVING.md、catalog.json、daily-brief索引和2026/10月分片，与10月18—21日20条去重。综合检索OpenAI、Google Cloud、GitHub、EA、Meta投资者关系、Reuters及中英文科技媒体，关键事实回到官方公告/开发文档核对。OpenAI-Google Cloud条目使用Google Cloud官方稳定HTTPS图片直链并实际打开；其余四条未取得无需临时签名且可长期公开访问的事件相关图片，images=[]并逐条说明，未使用Reuters临时鉴权图片、聊天引用或无关图。",
+      "score": 5,
+      "items": [
+        {
+          "id": "daily-brief-2026-10-22-openai-google-cloud",
+          "title": "OpenAI 模型与 Codex 进入 Google Cloud：企业模型采购进一步云平台化",
+          "category": "AI / 大模型 / 云平台",
+          "importance": 5,
+          "summary": "【2026-10-21】OpenAI 与 Google Cloud 宣布，GPT-6 Astra、GPT-6.1 Sol、GPT-6 Luna 和 Codex 工作流将进入 Google Cloud Model Garden；首批企业客户已开始私有预览，全面可用计划在未来数周展开。客户可通过 Google Cloud Marketplace 统一采购，并用既有云承诺抵扣；Google称本地 Codex CLI 与 Desktop 工作流也可接入 Gemini 平台推理。",
+          "analysis": "值得关注：企业采用大模型的竞争正在从“单一模型能力”转向采购、身份、审计、数据边界和多模型切换。对开发团队的直接影响是模型路由与成本治理更容易统一到云平台，但私有预览和“即将支持”的功能不应当作已全面可用；OpenAI仍称微软是其主要云伙伴。",
+          "tags": [
+            "OpenAI",
+            "Google Cloud",
+            "Codex",
+            "Model Garden",
+            "企业AI",
+            "多模型",
+            "云采购"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI：OpenAI models are coming to Google Cloud（2026-10-21）",
+              "url": "https://openai.com/index/openai-models-google-cloud/"
+            },
+            {
+              "title": "Google Cloud：Google Cloud brings OpenAI models to customers（2026-10-21）",
+              "url": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Open-ai-google-models-hero.max-2500x2500.png",
+              "alt": "OpenAI 标志与 Google Cloud 标志并列的官方发布图",
+              "sourceUrl": "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers",
+              "caption": "Google Cloud 官方发布图。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-10-22-php-critical-ai-disclosure",
+          "title": "AI 发现 PHP 严重漏洞后完成协同修复：真正的价值在“发现—验证—补丁—部署”闭环",
+          "category": "软件工程 / 安全",
+          "importance": 5,
+          "summary": "【2026-10-21】OpenAI 披露，Patch the Planet 联盟过去两个月与 PHP 维护者、安全公司及基础设施提供商协同处理两项严重漏洞；其中一项由 GPT-5.6 Sol 辅助发现，Wiz也独立报告了相关问题。PHP维护者主导修复与发布，OpenAI同时开源版本检查器，帮助运维判断公开暴露的PHP版本是否落在易受影响范围。",
+          "analysis": "值得关注：这次案例比“AI能找漏洞”更重要的是在公开披露前完成验证、补丁、测试和大规模防护准备。使用PHP的团队应优先核对官方安全版本和托管商指引；检查器只比较可见版本，隐藏标头、发行版回补或UNKNOWN结果都不能证明系统安全。",
+          "tags": [
+            "PHP",
+            "漏洞",
+            "AI安全",
+            "开源维护",
+            "协同披露",
+            "Codex技能",
+            "版本检查"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI：Patch the Planet 协同披露与修复（2026-10-21）",
+              "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/"
+            },
+            {
+              "title": "Patch the Planet：公开披露与修复指引",
+              "url": "https://patchtheplanet.org/"
+            },
+            {
+              "title": "GitHub：openai/php2shell-checker",
+              "url": "https://github.com/openai/php2shell-checker"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：未找到与本条事件直接对应、可长期公开访问且无需临时签名的真实图片直链；不以企业营销图库、临时媒体链接或无关配图代替。"
+        },
+        {
+          "id": "daily-brief-2026-10-22-github-cli-expiring-oauth",
+          "title": "GitHub CLI 试行短期可刷新令牌：降低长期 Token 泄露窗口，也会暴露旧脚本假设",
+          "category": "软件工程 / 开发工具",
+          "importance": 4,
+          "summary": "【2026-10-21】GitHub CLI v2.103.0 起，可用`gh auth login --expiring`选择短期访问令牌与轮换刷新令牌；GitHub.com、ghe.com已支持，GHES从3.23开始支持。GitHub建议HTTPS Git操作把`gh`设为凭据助手，并使用Git 2.46或更新版本，避免缓存令牌超过有效期。",
+          "analysis": "值得关注：这是把最小暴露时间落到日常开发凭据的一项实用改进，尤其适合个人工作站和频繁使用`gh`的团队。当前仍是自愿预览；任何调用`gh auth token`后把结果长期保存的脚本或扩展都可能在令牌过期后失效，迁移前应清点CI、插件和自制自动化。",
+          "tags": [
+            "GitHub CLI",
+            "OAuth",
+            "Token",
+            "凭据安全",
+            "Git",
+            "CI/CD",
+            "v2.103.0"
+          ],
+          "sources": [
+            {
+              "title": "GitHub Changelog：GitHub CLI expiring OAuth tokens（2026-10-21）",
+              "url": "https://github.blog/changelog/2026-10-21-github-cli-opt-in-to-expiring-auto-refreshing-oauth-tokens/"
+            },
+            {
+              "title": "GitHub Docs：Authenticating with GitHub CLI",
+              "url": "https://docs.github.com/en/github-cli/github-cli/authenticating-with-github-cli"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：未找到与本条事件直接对应、可长期公开访问且无需临时签名的真实图片直链；不以企业营销图库、临时媒体链接或无关配图代替。"
+        },
+        {
+          "id": "daily-brief-2026-10-22-ea-bioware-closure",
+          "title": "EA 关闭 BioWare并终止下一部 Mass Effect 早期开发：大型项目继续向少数核心押注集中",
+          "category": "游戏开发 / 行业",
+          "importance": 4,
+          "summary": "【2026-10-21】EA宣布关闭BioWare及其Edmonton办公地，不再继续由小团队推进的下一部Mass Effect早期开发，并伴随裁员。公司同时表示将减少并行的大型项目，把资源集中到Battlefield、Apex、Marvel’s Iron Man、下一部Star Wars Jedi、EA Sports等优先方向。",
+          "analysis": "值得关注：这不仅是知名工作室落幕，也反映大型发行商在高成本3A环境下更倾向用已有大IP、共享技术和更少项目控制风险。对开发管理的启示是“聚焦”能提高单项目资源密度，但也增加创意组合集中、团队知识流失和单项目失败的风险。",
+          "tags": [
+            "EA",
+            "BioWare",
+            "Mass Effect",
+            "裁员",
+            "3A游戏",
+            "项目组合",
+            "游戏行业"
+          ],
+          "sources": [
+            {
+              "title": "Electronic Arts：Building EA's Next Chapter（2026-10-21）",
+              "url": "https://www.ea.com/news/building-eas-next-chapter"
+            },
+            {
+              "title": "Reuters：EA to shutter BioWare studio, cut jobs（2026-10-21）",
+              "url": "https://www.reuters.com/technology/ea-shutter-bioware-studio-cut-jobs-it-narrows-game-slate-2026-10-21/"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：未找到与本条事件直接对应、可长期公开访问且无需临时签名的真实图片直链；不以企业营销图库、临时媒体链接或无关配图代替。"
+        },
+        {
+          "id": "daily-brief-2026-10-22-meta-ai-capex",
+          "title": "Meta 将 AI 投资写进资本结构：资本开支升至1350亿—1450亿美元，季度自由现金流转负",
+          "category": "财经 / 科技商业",
+          "importance": 5,
+          "summary": "【2026-10-21三季度业绩】Meta把2026年资本开支区间收紧至1350亿—1450亿美元，并披露三季度自由现金流为负21.2亿美元，上年同期为正106.3亿美元；同期营收646亿美元，高于LSEG汇总的633.7亿美元预期。公司计划2027年1月发行无投票权C类股，并称Muse在美国和加拿大约六周已有逾1000万账户。",
+          "analysis": "值得关注：AI竞争已从模型发布进入资产负债表、股权结构和现金流阶段；收入增长与高额基础设施投入必须同时评估。Muse用户数和管理层对2027年AI收入的预期仍是早期指标，不等于盈利模型已经验证；无投票权股份也意味着融资灵活性与控制权集中会并存。",
+          "tags": [
+            "Meta",
+            "AI资本开支",
+            "Muse",
+            "自由现金流",
+            "Class C",
+            "财报",
+            "投资"
+          ],
+          "sources": [
+            {
+              "title": "Reuters：Meta puts Muse agent at heart of AI strategy（2026-10-21）",
+              "url": "https://www.reuters.com/business/meta-issue-new-class-shares-it-tightens-ai-spending-forecast-2026-10-21/"
+            },
+            {
+              "title": "Meta Investor Relations：Q3 2026 Earnings",
+              "url": "https://investor.atmeta.com/home/default.aspx"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：未找到与本条事件直接对应、可长期公开访问且无需临时签名的真实图片直链；不以企业营销图库、临时媒体链接或无关配图代替。"
+        }
+      ]
+    },
     {
       "id": "daily-brief-2026-10-21",
       "collectionId": "daily-brief",
