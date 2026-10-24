@@ -2,8 +2,195 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-10",
-  "updatedAt": "2026-10-23T01:00:05.831397Z",
+  "updatedAt": "2026-10-24T01:05:03.637Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-10-24",
+      "collectionId": "daily-brief",
+      "date": "2026-10-24",
+      "title": "最新资讯｜2026-10-24",
+      "summary": "Agent标准共治、旧模型停用、本地多语种语音模型、GitHub企业应用身份与MiniMax出海登记：今天重点看AI应用如何进入可维护的工程体系。",
+      "analysis": "共同趋势是模型能力之外的工程约束变得更具体：标准、身份、版本生命周期和授权路径，都直接影响应用能否持续运行。今日未发现足以替代这些条目的独立游戏开发或市场新增重点，避免重复昨日游戏模型与AI股票下跌报道。",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "生成时间2026-10-24T01:04:26.375Z；北京时间2026-10-24晨间检索，主要覆盖10月23日、补充10月21—22日未收录公告。已读取规范、catalog、索引、本月完整历史并重点核对10月17—23日标题去重。综合英文官方公告、GitHub更新、IBM开放模型与arXiv研究背景、IT之家/证券时报及Reuters报道；技术事实回到一手资料，MiniMax公告事实经中文原文转载与Reuters检索交叉确认。5张图片均实际检索取得并确认公开HTTPS访问：4张通过网页工具打开显示图像，IBM图片通过HTTP 200及image/png验证并目视检查。模型指标未独立复测，分析为编辑判断。",
+      "score": 5,
+      "items": [
+        {
+          "id": "daily-brief-2026-10-24-aaif-open-stack",
+          "title": "Agent Skills 等四项目加入 AAIF：Agent 基础设施走向中立共治",
+          "category": "AI / 智能体 / 开源",
+          "summary": "【10月22日公告，23日中文媒体跟进】Linux 基金会旗下 AAIF 接纳 Anthropic 的 Agent Skills、OpenAI 的 Open Responses、Hugging Face 的 OpenEnv 和阿里巴巴的 OpenSandbox，托管项目增至10个。四项分别覆盖能力封装、多供应商接口、训练评估环境和隔离执行；Anthropic 还提出版本化发布、正式提案流程及安全指南路线。",
+          "analysis": "重要性5/5：对内部配置平台和 Agent 工作流而言，可复用的技能、接口与运行环境正在形成公共底座。建议把业务知识与模型适配、工具权限分开管理；共治提高长期可迁移性，但不意味着各实现已经完全兼容或技能可以免审执行。",
+          "importance": 5,
+          "tags": [
+            "AAIF",
+            "Agent Skills",
+            "Open Responses",
+            "OpenEnv",
+            "OpenSandbox",
+            "互操作"
+          ],
+          "sources": [
+            {
+              "title": "Linux Foundation：四个新项目公告（2026-10-22）",
+              "url": "https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox"
+            },
+            {
+              "title": "Anthropic：捐赠 Agent Skills（2026-10-22）",
+              "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+            },
+            {
+              "title": "IT之家报道（新浪转载，2026-10-23）",
+              "url": "https://finance.sina.com.cn/tech/digi/2026-10-23/doc-iniweiyt5687698.shtml"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.linuxfoundation.org/hs-fs/hubfs/1600x900%20%281%29.png?height=512&name=1600x900+%281%29.png&width=911",
+              "alt": "Linux Foundation 发布的 Agentic AI Foundation 官方标识图",
+              "sourceUrl": "https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox",
+              "caption": "官方公告配图，为基金会标识，不是架构图。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-10-24-openai-legacy-shutdown",
+          "title": "旧版 GPT 与 o 系列多款快照停止访问：检查仍在运行的旧模型配置",
+          "category": "AI / API / 开发运维",
+          "summary": "【10月23日生效；4月22日已预告】OpenAI 官方弃用页确认，GPT-4 Turbo、GPT-4o 的2024年5月快照、o1、o3-mini、o4-mini等列明快照及部分微调版本已停止 API 访问。替代型号按任务分为 GPT-5.6 Sol、Terra、Luna 等；这不是整个 GPT-4o 系列或所有同名衍生模型同时退出。",
+          "analysis": "重要性5/5：旧脚本、SDK 示例和数据库内的模型名称可能直接导致调用失败。应检索生产配置与历史任务模板，按官方逐项映射替换，并回归结构化输出、工具调用、延迟和成本；迁移不能仅做字符串替换。本条记录生效变化，不把半年前的预告当作新发布。",
+          "importance": 5,
+          "tags": [
+            "OpenAI",
+            "模型弃用",
+            "API迁移",
+            "GPT-4 Turbo",
+            "o1",
+            "运维"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI 官方弃用表：Legacy GPT model snapshots，2026-10-23停用",
+              "url": "https://developers.openai.com/api/docs/deprecations"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://developers.openai.com/og/api/docs/deprecations.png",
+              "alt": "OpenAI Developers 官方 Deprecations 文档页面题图",
+              "sourceUrl": "https://developers.openai.com/api/docs/deprecations",
+              "caption": "官方文档题图，不是停用范围表；具体快照请查原始文档。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-10-24-granite-speech-local",
+          "title": "IBM Granite Speech 5.0：本地多语言转写与翻译获得新的开放模型选项",
+          "category": "AI / 本地模型 / 语音",
+          "summary": "【10月21日官方发布，22日媒体跟进；近3日补充】IBM 新增2B语音语言模型，支持英、法、德、西、葡、日语转写及相关英语双向翻译，并可提示最多2,000个关键词。同期470M Turbo CTC更新扩展至7种转写语言，4.1 2B Plus改善说话人归属与时间戳；官方列出 Transformers、vLLM、llama.cpp和Apple Silicon mlx-audio支持。",
+          "analysis": "重要性4/5：适合在本地录音整理、多语言字幕和术语密集的工作流中加入候选测试，Apache 2.0降低集成门槛。注意5.0 2B并不支持中文语音转写：英语译成普通话与中文ASR是两项能力；官方吞吐和错误率也不能直接外推到自己的硬件与录音。",
+          "importance": 4,
+          "tags": [
+            "IBM",
+            "Granite Speech",
+            "ASR",
+            "本地部署",
+            "多语言",
+            "Apple Silicon"
+          ],
+          "sources": [
+            {
+              "title": "IBM Granite 团队官方发布（2026-10-21）",
+              "url": "https://huggingface.co/blog/ibm-granite/granite-speech-5"
+            },
+            {
+              "title": "官方2B模型卡与权重",
+              "url": "https://huggingface.co/ibm-granite/granite-speech-5.0-2b"
+            },
+            {
+              "title": "Turbo CTC研究论文：设计与加速方法（2026-09-17，背景资料）",
+              "url": "https://arxiv.org/abs/2609.20104"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn-uploads.huggingface.co/production/uploads/653fb52cbfd890805461d691/M_JJyIOBOWVzHXdy7CVVG.png",
+              "alt": "IBM Granite Speech 官方发布题图，戴耳机的岩石角色和声波",
+              "sourceUrl": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+              "caption": "官方品牌插画，不代表基准性能。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-10-24-github-apps-enterprise",
+          "title": "GitHub Apps 企业级安装正式可用：更多自动化可摆脱长期 classic PAT",
+          "category": "软件工程 / 开发平台",
+          "summary": "【10月23日发布】GitHub 将企业级 GitHub Apps 安装转为正式可用，扩展企业治理、安全及管理相关 API 权限。覆盖仓库策略、规则集、双因素认证、域名验证、IP允许列表等操作，也补齐部分组织层权限支持缺口；GitHub称这些更新将在GHES 3.24提供。",
+          "analysis": "重要性4/5：对于连接代码仓库、构建和管理后台的内部工具，这是从个人长期令牌转向应用身份的实际迁移窗口。可以先挑一条管理流水线核对接口和最小权限，再替换认证；新增权限范围广，不能为了省事把所有企业写权限一次授予。",
+          "importance": 4,
+          "tags": [
+            "GitHub Apps",
+            "PAT",
+            "企业自动化",
+            "最小权限",
+            "DevOps"
+          ],
+          "sources": [
+            {
+              "title": "GitHub Changelog：Enterprise installations for GitHub Apps（2026-10-23）",
+              "url": "https://github.blog/changelog/2026-10-23-enterprise-installations-for-github-apps-generally-available/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://github.blog/wp-content/uploads/2026/10/a39440987b7b76f22d800e628940e55976caedee26e533c51fb89bb1eacb39ef-2400x1260-1.jpeg?resize=2064%2C1096",
+              "alt": "GitHub Apps 企业安装授权页面，列出企业与组织权限",
+              "sourceUrl": "https://github.blog/changelog/2026-10-23-enterprise-installations-for-github-apps-generally-available/",
+              "caption": "GitHub官方授权界面截图；权限列表为示例。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-10-24-minimax-export-registration",
+          "title": "MiniMax 完成部分模型出海登记：从政策讨论进入实际办理",
+          "category": "全球科技 / AI商业",
+          "summary": "【10月23日晚公告】据证券时报转述，MiniMax宣布已依照商务部、科技部2026年第48号公告，完成若干近期已发布及预期将发布模型开源与海外授权所需的技术出口登记。Reuters同日亦确认其登记消息；此前中文报道提及DeepSeek和MiniMax已有办理进展。",
+          "analysis": "重要性4/5：这是10月18日政策简报之后新增的企业实际进展，说明模型出海需要区分开放权重、境外授权和托管API等路径。对选型而言，可进一步向供应商确认具体模型、许可证与部署权利；本次公告不等于所有中国模型均获批准，也未公开完整型号清单。",
+          "importance": 4,
+          "tags": [
+            "MiniMax",
+            "模型出海",
+            "开源",
+            "海外授权",
+            "技术出口登记"
+          ],
+          "sources": [
+            {
+              "title": "证券时报：MiniMax公告（新浪转载，2026-10-23 23:25）",
+              "url": "https://finance.sina.com.cn/jjxw/2026-10-23/doc-iniwfrun2624187.shtml"
+            },
+            {
+              "title": "Reuters：MiniMax完成开源和海外授权登记（2026-10-23）",
+              "url": "https://www.reuters.com/business/media-telecom/chinas-deepseek-minimax-win-approval-ai-global-use-state-media-affiliated-entity-2026-10-23/"
+            },
+            {
+              "title": "IT之家：DeepSeek与MiniMax登记进展（2026-10-23）",
+              "url": "https://www.ithome.com/1/016/796.htm"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://dblogo.com/assets/minimax.webp",
+              "alt": "MiniMax 波形标识与英文字标",
+              "sourceUrl": "https://dblogo.com/logo/minimax",
+              "caption": "品牌标识示意，来自公开标识资料页，不是公告原件。"
+            }
+          ]
+        }
+      ],
+      "rawText": "# 最新资讯｜2026-10-24\n\n截至北京时间2026年10月24日09时晨间检索。主要收录10月23日新增变化，明确标记补充信息的原始日期；与最近一周归档去重。\n\nAgent标准共治、旧模型停用、本地多语种语音模型、GitHub企业应用身份与MiniMax出海登记：今天重点看AI应用如何进入可维护的工程体系。\n\n共同趋势是模型能力之外的工程约束变得更具体：标准、身份、版本生命周期和授权路径，都直接影响应用能否持续运行。今日未发现足以替代这些条目的独立游戏开发或市场新增重点，避免重复昨日游戏模型与AI股票下跌报道。\n\n## 1. Agent Skills 等四项目加入 AAIF：Agent 基础设施走向中立共治\n\n![Linux Foundation 发布的 Agentic AI Foundation 官方标识图](https://www.linuxfoundation.org/hs-fs/hubfs/1600x900%20%281%29.png?height=512&name=1600x900+%281%29.png&width=911)\n\n图片出处：[官方公告配图，为基金会标识，不是架构图。](https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox)\n\n**摘要**：【10月22日公告，23日中文媒体跟进】Linux 基金会旗下 AAIF 接纳 Anthropic 的 Agent Skills、OpenAI 的 Open Responses、Hugging Face 的 OpenEnv 和阿里巴巴的 OpenSandbox，托管项目增至10个。四项分别覆盖能力封装、多供应商接口、训练评估环境和隔离执行；Anthropic 还提出版本化发布、正式提案流程及安全指南路线。\n\n**为什么值得关注**：重要性5/5：对内部配置平台和 Agent 工作流而言，可复用的技能、接口与运行环境正在形成公共底座。建议把业务知识与模型适配、工具权限分开管理；共治提高长期可迁移性，但不意味着各实现已经完全兼容或技能可以免审执行。\n\n**来源**：\n- [Linux Foundation：四个新项目公告（2026-10-22）](https://www.linuxfoundation.org/press/agentic-ai-foundation-announces-four-new-projects-agent-skills-open-responses-openenv-and-opensandbox)\n- [Anthropic：捐赠 Agent Skills（2026-10-22）](https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation)\n- [IT之家报道（新浪转载，2026-10-23）](https://finance.sina.com.cn/tech/digi/2026-10-23/doc-iniweiyt5687698.shtml)\n\n## 2. 旧版 GPT 与 o 系列多款快照停止访问：检查仍在运行的旧模型配置\n\n![OpenAI Developers 官方 Deprecations 文档页面题图](https://developers.openai.com/og/api/docs/deprecations.png)\n\n图片出处：[官方文档题图，不是停用范围表；具体快照请查原始文档。](https://developers.openai.com/api/docs/deprecations)\n\n**摘要**：【10月23日生效；4月22日已预告】OpenAI 官方弃用页确认，GPT-4 Turbo、GPT-4o 的2024年5月快照、o1、o3-mini、o4-mini等列明快照及部分微调版本已停止 API 访问。替代型号按任务分为 GPT-5.6 Sol、Terra、Luna 等；这不是整个 GPT-4o 系列或所有同名衍生模型同时退出。\n\n**为什么值得关注**：重要性5/5：旧脚本、SDK 示例和数据库内的模型名称可能直接导致调用失败。应检索生产配置与历史任务模板，按官方逐项映射替换，并回归结构化输出、工具调用、延迟和成本；迁移不能仅做字符串替换。本条记录生效变化，不把半年前的预告当作新发布。\n\n**来源**：\n- [OpenAI 官方弃用表：Legacy GPT model snapshots，2026-10-23停用](https://developers.openai.com/api/docs/deprecations)\n\n## 3. IBM Granite Speech 5.0：本地多语言转写与翻译获得新的开放模型选项\n\n![IBM Granite Speech 官方发布题图，戴耳机的岩石角色和声波](https://cdn-uploads.huggingface.co/production/uploads/653fb52cbfd890805461d691/M_JJyIOBOWVzHXdy7CVVG.png)\n\n图片出处：[官方品牌插画，不代表基准性能。](https://huggingface.co/blog/ibm-granite/granite-speech-5)\n\n**摘要**：【10月21日官方发布，22日媒体跟进；近3日补充】IBM 新增2B语音语言模型，支持英、法、德、西、葡、日语转写及相关英语双向翻译，并可提示最多2,000个关键词。同期470M Turbo CTC更新扩展至7种转写语言，4.1 2B Plus改善说话人归属与时间戳；官方列出 Transformers、vLLM、llama.cpp和Apple Silicon mlx-audio支持。\n\n**为什么值得关注**：重要性4/5：适合在本地录音整理、多语言字幕和术语密集的工作流中加入候选测试，Apache 2.0降低集成门槛。注意5.0 2B并不支持中文语音转写：英语译成普通话与中文ASR是两项能力；官方吞吐和错误率也不能直接外推到自己的硬件与录音。\n\n**来源**：\n- [IBM Granite 团队官方发布（2026-10-21）](https://huggingface.co/blog/ibm-granite/granite-speech-5)\n- [官方2B模型卡与权重](https://huggingface.co/ibm-granite/granite-speech-5.0-2b)\n- [Turbo CTC研究论文：设计与加速方法（2026-09-17，背景资料）](https://arxiv.org/abs/2609.20104)\n\n## 4. GitHub Apps 企业级安装正式可用：更多自动化可摆脱长期 classic PAT\n\n![GitHub Apps 企业安装授权页面，列出企业与组织权限](https://github.blog/wp-content/uploads/2026/10/a39440987b7b76f22d800e628940e55976caedee26e533c51fb89bb1eacb39ef-2400x1260-1.jpeg?resize=2064%2C1096)\n\n图片出处：[GitHub官方授权界面截图；权限列表为示例。](https://github.blog/changelog/2026-10-23-enterprise-installations-for-github-apps-generally-available/)\n\n**摘要**：【10月23日发布】GitHub 将企业级 GitHub Apps 安装转为正式可用，扩展企业治理、安全及管理相关 API 权限。覆盖仓库策略、规则集、双因素认证、域名验证、IP允许列表等操作，也补齐部分组织层权限支持缺口；GitHub称这些更新将在GHES 3.24提供。\n\n**为什么值得关注**：重要性4/5：对于连接代码仓库、构建和管理后台的内部工具，这是从个人长期令牌转向应用身份的实际迁移窗口。可以先挑一条管理流水线核对接口和最小权限，再替换认证；新增权限范围广，不能为了省事把所有企业写权限一次授予。\n\n**来源**：\n- [GitHub Changelog：Enterprise installations for GitHub Apps（2026-10-23）](https://github.blog/changelog/2026-10-23-enterprise-installations-for-github-apps-generally-available/)\n\n## 5. MiniMax 完成部分模型出海登记：从政策讨论进入实际办理\n\n![MiniMax 波形标识与英文字标](https://dblogo.com/assets/minimax.webp)\n\n图片出处：[品牌标识示意，来自公开标识资料页，不是公告原件。](https://dblogo.com/logo/minimax)\n\n**摘要**：【10月23日晚公告】据证券时报转述，MiniMax宣布已依照商务部、科技部2026年第48号公告，完成若干近期已发布及预期将发布模型开源与海外授权所需的技术出口登记。Reuters同日亦确认其登记消息；此前中文报道提及DeepSeek和MiniMax已有办理进展。\n\n**为什么值得关注**：重要性4/5：这是10月18日政策简报之后新增的企业实际进展，说明模型出海需要区分开放权重、境外授权和托管API等路径。对选型而言，可进一步向供应商确认具体模型、许可证与部署权利；本次公告不等于所有中国模型均获批准，也未公开完整型号清单。\n\n**来源**：\n- [证券时报：MiniMax公告（新浪转载，2026-10-23 23:25）](https://finance.sina.com.cn/jjxw/2026-10-23/doc-iniwfrun2624187.shtml)\n- [Reuters：MiniMax完成开源和海外授权登记（2026-10-23）](https://www.reuters.com/business/media-telecom/chinas-deepseek-minimax-win-approval-ai-global-use-state-media-affiliated-entity-2026-10-23/)\n- [IT之家：DeepSeek与MiniMax登记进展（2026-10-23）](https://www.ithome.com/1/016/796.htm)\n\n---\n\n重要性为1—5整数，按影响范围、信息可靠性和开发实践相关性综合判断。图片版权归原权利人；标识和插画仅用于识别对应项目。\n"
+    },
     {
       "id": "daily-brief-2026-10-23",
       "collectionId": "daily-brief",
