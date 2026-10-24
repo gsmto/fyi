@@ -4,6 +4,236 @@
   "month": "2026-10",
   "briefs": [
     {
+      "id": "games-2026-10-24",
+      "collectionId": "games",
+      "date": "2026-10-24",
+      "title": "游戏｜2026-10-24",
+      "summary": "《现代战争4》正式上市，《卧龙2》公开Alpha反馈；《Look Outside》主机定档，《続ポートピア連続殺人事件》确认日本发售日，另补充国产《人间异想计划》实机及Atari VCS退场方案。",
+      "analysis": "把正式发售、试玩整改计划和未来发行承诺分开看。国内新IP侧重长实机与PC主机覆盖，国外继续关注首发稳定性、独立作品移植及数字内容保存。",
+      "completeness": "full",
+      "sourceConversation": "游戏",
+      "score": 4,
+      "items": [
+        {
+          "id": "games-2026-10-24-ordinary-oddness-reveal",
+          "title": "《人间异想计划》公开22分钟实机，确认PC与双主机平台",
+          "category": "国内",
+          "importance": 4,
+          "summary": "【近7日补充：10月21日国内公布，英文官网文章标记10月20日】腾讯旗下杭州宇宙小狗工作室公布都市怪谈开放世界RPG《人间异想计划》，展示调查、城市探索及多角色动作战斗。已列PS5、Xbox Series和PC（Steam、Epic、WeGame），预约开放，尚无发售日或公开试玩日期。",
+          "analysis": "重要性4/5：这是国内团队面向PC与主机的新IP完整玩法展示，而非手游日常运营。Boss机制与怪谈背景结合值得继续观察；预约和实机演示都不等于已经能够游玩，商业模式与最终性能也待后续确认。",
+          "platforms": "PS5 / Xbox Series X|S / PC",
+          "keyDates": "国内首曝2026-10-21；发售日未公布",
+          "tags": [
+            "人间异想计划",
+            "Ordinary Oddness",
+            "PC",
+            "PS5",
+            "Xbox Series",
+            "开放世界RPG"
+          ],
+          "sources": [
+            {
+              "title": "官方：22分钟玩法演示与预约公告",
+              "url": "https://ordinaryoddness.com/web2026/en/news/5222/3183/c4e95796-1ff2-4d60-9a84-ab55be74ca72/"
+            },
+            {
+              "title": "IT之家：国内首曝、杭州团队与平台核对（2026-10-21）",
+              "url": "https://www.ithome.com/1/015/859.htm"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://ordinaryoddness.com/_n/n/p/1792425600/dcf50fe7-972d-4e39-ad98-6862d9698821.jpeg",
+              "alt": "《人间异想计划》官方首次实机公告配图",
+              "sourceUrl": "https://ordinaryoddness.com/web2026/en/news/5222/3183/c4e95796-1ff2-4d60-9a84-ab55be74ca72/",
+              "caption": "官方实机宣传素材；不代表最终画质与帧率。"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-10-24-mw4-full-launch",
+          "title": "《使命召唤：现代战争4》正式发售，新增变化是全游戏开放",
+          "category": "国外",
+          "importance": 5,
+          "summary": "【10月23日正式发售】Infinity Ward／Activision的《使命召唤：现代战争4》进入完整上市阶段，含战役、多人和DMZ；此前战役提前开放已在10月18日报道。官方站列PC、PS5、Xbox及Switch 2，首发更新同步处理稳定性、界面与DMZ问题。",
+          "analysis": "重要性5/5：这是秋季大型PC／主机新作正式发售，新增事实与此前预购提前游玩分开。早期战役好评不能代表多人平衡、服务稳定性或所有平台表现；PC还应先核对官方TPM 2.0和Secure Boot要求。",
+          "platforms": "PC / PS5 / Xbox Series X|S / Switch 2",
+          "keyDates": "正式发售2026-10-23；首发补丁页2026-10-22发布并更新",
+          "tags": [
+            "使命召唤：现代战争4",
+            "Call of Duty",
+            "PC",
+            "PS5",
+            "Xbox Series",
+            "Switch 2",
+            "FPS"
+          ],
+          "sources": [
+            {
+              "title": "Activision官方游戏主页与平台列表",
+              "url": "https://www.callofduty.com/modernwarfare4"
+            },
+            {
+              "title": "Infinity Ward：首发更新说明",
+              "url": "https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/mw4/home/modes/MW4_CAM_06.webp",
+              "alt": "《使命召唤：现代战争4》官方战役配图",
+              "sourceUrl": "https://www.callofduty.com/modernwarfare4",
+              "caption": "官方战役宣传图。"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-10-24-wolong2-feedback",
+          "title": "《卧龙2》公布试玩反馈与改进方案：PC优化成主要短板",
+          "category": "国外",
+          "importance": 4,
+          "summary": "【官网10月23日】日本Team NINJA／光荣特库摩公布《Wo Long 2: Wings of Ember》Alpha测试调查：整体正面评价71.9%，PC优化问题的负面评价50.5%。团队计划调整化解与Insight Skills时机窗口、气势平衡、镜头和锁定，并优化帧率、崩溃和加载；正式版仍定2027年3月4日。",
+          "analysis": "重要性4/5：从玩家反馈到明确整改项的链条，比单纯公布满意率更有开发参考价值。自愿问卷不代表全体玩家，整改计划也不是效果验收；应等正式版本或后续测试验证，9月16—30日的Alpha已结束。",
+          "platforms": "PS5 / Xbox Series X|S / Switch 2 / PC",
+          "keyDates": "反馈报告2026-10-23；正式版2027-03-04；Alpha已于2026-09-30结束",
+          "tags": [
+            "Wo Long 2: Wings of Ember",
+            "卧龙2",
+            "动作RPG",
+            "PC",
+            "PS5",
+            "Xbox Series",
+            "Switch 2",
+            "测试反馈"
+          ],
+          "sources": [
+            {
+              "title": "Team NINJA：Alpha Demo Feedback Report（2026-10-23）",
+              "url": "https://teamninja-studio.com/wolong2/us/news/alpha-demo_feedback_report.html"
+            },
+            {
+              "title": "Gematsu：改进清单、正式版平台与发售日期",
+              "url": "https://www.gematsu.com/2026/10/wo-long-2-wings-of-ember-alpha-demo-survey-results-announced"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://teamninja-studio.com/wolong2/assets/img/news_alpha_demo_feedback.jpg",
+              "alt": "Team NINJA《卧龙2》Alpha测试反馈报告官方题图",
+              "sourceUrl": "https://teamninja-studio.com/wolong2/us/news/alpha-demo_feedback_report.html",
+              "caption": "测试反馈报告题图；非最终版性能测试。"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-10-24-look-outside-consoles",
+          "title": "《Look Outside》10月30日登陆四款主机平台",
+          "category": "国外",
+          "importance": 4,
+          "summary": "【10月23日官宣报道】Devolver与Francis Coulombe确认像素生存恐怖RPG《Look Outside》将于10月30日登陆PS5、PS4、Switch 2及Switch。PC版早在2025年3月21日发售，本次是主机移植定档，并非全新作品首发。游戏围绕公寓探索、资源管理及回合制战斗展开。",
+          "analysis": "重要性4/5：这是已有PC口碑基础的独立游戏扩大平台覆盖，适合关注小场景如何支撑长期探索和恐怖叙事。Steam当前评价不能代替主机版性能或本地化验收；本次公告未列Xbox，不据此推断永久独占。",
+          "platforms": "新增PS5 / PS4 / Switch 2 / Switch；PC已发售",
+          "keyDates": "主机版2026-10-30；PC版2025-03-21",
+          "tags": [
+            "Look Outside",
+            "独立游戏",
+            "生存恐怖",
+            "回合制RPG",
+            "PS5",
+            "PS4",
+            "Switch 2",
+            "Switch",
+            "PC"
+          ],
+          "sources": [
+            {
+              "title": "Gematsu：发行商与开发者主机版公告（2026-10-23）",
+              "url": "https://www.gematsu.com/2026/10/look-outside-coming-to-ps5-switch-2-ps4-and-switch-on-october-30"
+            },
+            {
+              "title": "Steam官方商店：开发者、PC版本及游戏内容",
+              "url": "https://store.steampowered.com/app/3373660/Look_Outside/"
+            }
+          ],
+          "images": [],
+          "imageNote": "本次主机新闻配图直链与Steam图片打开失败，未确认可公开访问，暂不配图。"
+        },
+        {
+          "id": "games-2026-10-24-portopia-japan-date",
+          "title": "《続ポートピア連続殺人事件》定档2027年3月4日，仅确认日语",
+          "category": "国外",
+          "importance": 3,
+          "summary": "【日本10月23日公告】G-MODE确认《続ポートピア連続殺人事件：忘却の埋葬》于2027年3月4日在日本登陆Switch、Switch 2和Steam。发行商将其描述为重做1983年原作并大幅加入新剧情的作品，堀井雄二担任原作与制作总监；实体版预约已开启。",
+          "analysis": "重要性3/5：经典推理冒险采用重做加新故事的方式回归，是日本叙事游戏值得跟进的项目。当前仅确认日语，不把日本日期当作中文或全球发行承诺；Switch 2实体版为游戏钥匙卡，收藏与离线使用需按商店说明核对。",
+          "platforms": "Switch / Switch 2 / PC（Steam）",
+          "keyDates": "日本发售2027-03-04；实体预约2026-10-23",
+          "tags": [
+            "ポートピア",
+            "推理冒险",
+            "Switch",
+            "Switch 2",
+            "PC",
+            "G-MODE"
+          ],
+          "sources": [
+            {
+              "title": "G-MODE官方新闻稿（PR TIMES，2026-10-23）",
+              "url": "https://prtimes.jp/main/html/rd/p/000000937.000001474.html"
+            },
+            {
+              "title": "Gematsu：日本发行、语言和实体形态",
+              "url": "https://www.gematsu.com/2026/10/next-the-portopia-serial-murder-case-launches-march-4-2027-in-japan"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://prcdn.freetls.fastly.net/release_image/1474/937/1474-937-16ac63302eb98acb07fad28ee7fe9731-1920x1080.png?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
+              "alt": "G-MODE公布的《続ポートピア連続殺人事件》2027年3月4日发售宣传图",
+              "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000937.000001474.html",
+              "caption": "发行商官方发售日宣传图，日本发行信息。"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-10-24-atari-vcs-sunset",
+          "title": "Atari VCS商店将于2027年2月关闭，计划转向本地与Homebrew",
+          "category": "国外",
+          "importance": 3,
+          "summary": "【近7日补充：10月22日公告报道，23日媒体跟进】Atari在官方Discord宣布2021款VCS平台逐步结束支持，商店将于2027年2月1日关闭，可购买至1月31日。公司计划在商店关闭后提供OS迁移更新，移除认证和软件对Atari服务器的依赖，并向用户推送Homebrew应用。",
+          "analysis": "重要性3/5：直接涉及主机数字内容的保存与停服后可用性；本地迁移方案比单纯关店更值得行业参考。目前是未来计划，更新尚未完成，不能承诺全部游戏必然可长期运行；1977年原版Atari VCS不在本次停服范围。",
+          "platforms": "2021款Atari VCS",
+          "keyDates": "最后购买日2027-01-31；商店关闭2027-02-01；迁移指南预计2027年初",
+          "tags": [
+            "Atari VCS",
+            "主机",
+            "游戏保存",
+            "Homebrew",
+            "数字商店"
+          ],
+          "sources": [
+            {
+              "title": "VGC：转述Atari官方Discord公告（2026-10-22）",
+              "url": "https://www.videogameschronicle.com/news/atari-is-ending-support-for-its-2021-vcs-console-will-release-a-homebrew-app-to-let-players-keep-making-and-adding-games/"
+            },
+            {
+              "title": "Tom's Hardware：迁移与商店关闭报道（2026-10-23）",
+              "url": "https://www.tomshardware.com/video-games/retro-gaming/retro-atari-vcs-platform-will-end-with-the-closure-of-its-software-store-in-february-2027-os-update-will-be-released-removing-reliance-on-atari-servers-and-opening-up-homebrew-development"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.videogameschronicle.com/files/2021/03/atari-vcs-320x180.jpg",
+              "alt": "VGC报道使用的现代Atari VCS主机实物图",
+              "sourceUrl": "https://www.videogameschronicle.com/news/atari-is-ending-support-for-its-2021-vcs-console-will-release-a-homebrew-app-to-let-players-keep-making-and-adding-games/",
+              "caption": "2021款硬件资料图，不是2027年迁移界面。"
+            }
+          ]
+        }
+      ],
+      "provenance": "生成时间2026-10-24T01:13:21.624Z；北京时间2026-10-24晨间检索，重点10月23日新增，补充近7日内未归档的10月21日国产新作、10月22日Atari公告。已读取docs/ARCHIVING.md、catalog、games索引及本月全部已存报告去重。来源覆盖开发商/发行商官网、Team NINJA原始问卷、G-MODE新闻稿、Steam商店与可靠中英文媒体。COD新增是完整发售，不重复此前战役提前开放；国内按杭州腾讯团队划分，卧龙按日本开发团队划国外。Portopia媒体概述与发行商有侧重差异，采用发行商“重做基础上大量新增剧情”的原文事实；日本日期不外推全球。Atari原始公告位于Discord，本次通过VGC原文引述与Tom's Hardware交叉核对，不声称直接访问Discord。5张图片从相应官方或报道页点击直链成功显示；Look Outside图片访问失败，明确留空。不写私人信息。",
+      "rawText": "# 游戏｜2026-10-24\n\n## 今日重点\n\n截至北京时间2026年10月24日晨间。本期6条，国内1条、国外5条，各部分按重要程度排序；10月21—22日补充条目均标明日期，避免重复昨天的《影之刃零》最终预告与《武士零》DLC消息。\n\n《现代战争4》正式上市，《卧龙2》公开Alpha反馈；《Look Outside》主机定档，《続ポートピア連続殺人事件》确认日本发售日，另补充国产《人间异想计划》实机及Atari VCS退场方案。\n\n优先关注《现代战争4》的完整发售与首发修复，以及《卧龙2》从测试意见到整改清单的落实。国内近24小时未核得更重要且未收录的新消息，补充近7日的《人间异想计划》公布，不用日常运营补配额。\n\n## 国内\n\n### 1. 《人间异想计划》公开22分钟实机，确认PC与双主机平台\n\n![《人间异想计划》官方首次实机公告配图](https://ordinaryoddness.com/_n/n/p/1792425600/dcf50fe7-972d-4e39-ad98-6862d9698821.jpeg)\n\n图片出处：[官方实机宣传素材；不代表最终画质与帧率。](https://ordinaryoddness.com/web2026/en/news/5222/3183/c4e95796-1ff2-4d60-9a84-ab55be74ca72/)\n\n【近7日补充：10月21日国内公布，英文官网文章标记10月20日】腾讯旗下杭州宇宙小狗工作室公布都市怪谈开放世界RPG《人间异想计划》，展示调查、城市探索及多角色动作战斗。已列PS5、Xbox Series和PC（Steam、Epic、WeGame），预约开放，尚无发售日或公开试玩日期。\n\n**为什么值得关注**：重要性4/5：这是国内团队面向PC与主机的新IP完整玩法展示，而非手游日常运营。Boss机制与怪谈背景结合值得继续观察；预约和实机演示都不等于已经能够游玩，商业模式与最终性能也待后续确认。\n\n**平台与关键日期**：PS5 / Xbox Series X|S / PC；国内首曝2026-10-21；发售日未公布。\n\n**来源**：\n- [官方：22分钟玩法演示与预约公告](https://ordinaryoddness.com/web2026/en/news/5222/3183/c4e95796-1ff2-4d60-9a84-ab55be74ca72/)\n- [IT之家：国内首曝、杭州团队与平台核对（2026-10-21）](https://www.ithome.com/1/015/859.htm)\n\n## 国外\n\n### 1. 《使命召唤：现代战争4》正式发售，新增变化是全游戏开放\n\n![《使命召唤：现代战争4》官方战役配图](https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/mw4/home/modes/MW4_CAM_06.webp)\n\n图片出处：[官方战役宣传图。](https://www.callofduty.com/modernwarfare4)\n\n【10月23日正式发售】Infinity Ward／Activision的《使命召唤：现代战争4》进入完整上市阶段，含战役、多人和DMZ；此前战役提前开放已在10月18日报道。官方站列PC、PS5、Xbox及Switch 2，首发更新同步处理稳定性、界面与DMZ问题。\n\n**为什么值得关注**：重要性5/5：这是秋季大型PC／主机新作正式发售，新增事实与此前预购提前游玩分开。早期战役好评不能代表多人平衡、服务稳定性或所有平台表现；PC还应先核对官方TPM 2.0和Secure Boot要求。\n\n**平台与关键日期**：PC / PS5 / Xbox Series X|S / Switch 2；正式发售2026-10-23；首发补丁页2026-10-22发布并更新。\n\n**来源**：\n- [Activision官方游戏主页与平台列表](https://www.callofduty.com/modernwarfare4)\n- [Infinity Ward：首发更新说明](https://www.callofduty.com/patchnotes/2026/10/call-of-duty-modern-warfare-4-launch-patch-notes)\n\n### 2. 《卧龙2》公布试玩反馈与改进方案：PC优化成主要短板\n\n![Team NINJA《卧龙2》Alpha测试反馈报告官方题图](https://teamninja-studio.com/wolong2/assets/img/news_alpha_demo_feedback.jpg)\n\n图片出处：[测试反馈报告题图；非最终版性能测试。](https://teamninja-studio.com/wolong2/us/news/alpha-demo_feedback_report.html)\n\n【官网10月23日】日本Team NINJA／光荣特库摩公布《Wo Long 2: Wings of Ember》Alpha测试调查：整体正面评价71.9%，PC优化问题的负面评价50.5%。团队计划调整化解与Insight Skills时机窗口、气势平衡、镜头和锁定，并优化帧率、崩溃和加载；正式版仍定2027年3月4日。\n\n**为什么值得关注**：重要性4/5：从玩家反馈到明确整改项的链条，比单纯公布满意率更有开发参考价值。自愿问卷不代表全体玩家，整改计划也不是效果验收；应等正式版本或后续测试验证，9月16—30日的Alpha已结束。\n\n**平台与关键日期**：PS5 / Xbox Series X|S / Switch 2 / PC；反馈报告2026-10-23；正式版2027-03-04；Alpha已于2026-09-30结束。\n\n**来源**：\n- [Team NINJA：Alpha Demo Feedback Report（2026-10-23）](https://teamninja-studio.com/wolong2/us/news/alpha-demo_feedback_report.html)\n- [Gematsu：改进清单、正式版平台与发售日期](https://www.gematsu.com/2026/10/wo-long-2-wings-of-ember-alpha-demo-survey-results-announced)\n\n### 3. 《Look Outside》10月30日登陆四款主机平台\n\n*未配图：本次主机新闻配图直链与Steam图片打开失败，未确认可公开访问，暂不配图。*\n\n【10月23日官宣报道】Devolver与Francis Coulombe确认像素生存恐怖RPG《Look Outside》将于10月30日登陆PS5、PS4、Switch 2及Switch。PC版早在2025年3月21日发售，本次是主机移植定档，并非全新作品首发。游戏围绕公寓探索、资源管理及回合制战斗展开。\n\n**为什么值得关注**：重要性4/5：这是已有PC口碑基础的独立游戏扩大平台覆盖，适合关注小场景如何支撑长期探索和恐怖叙事。Steam当前评价不能代替主机版性能或本地化验收；本次公告未列Xbox，不据此推断永久独占。\n\n**平台与关键日期**：新增PS5 / PS4 / Switch 2 / Switch；PC已发售；主机版2026-10-30；PC版2025-03-21。\n\n**来源**：\n- [Gematsu：发行商与开发者主机版公告（2026-10-23）](https://www.gematsu.com/2026/10/look-outside-coming-to-ps5-switch-2-ps4-and-switch-on-october-30)\n- [Steam官方商店：开发者、PC版本及游戏内容](https://store.steampowered.com/app/3373660/Look_Outside/)\n\n### 4. 《続ポートピア連続殺人事件》定档2027年3月4日，仅确认日语\n\n![G-MODE公布的《続ポートピア連続殺人事件》2027年3月4日发售宣传图](https://prcdn.freetls.fastly.net/release_image/1474/937/1474-937-16ac63302eb98acb07fad28ee7fe9731-1920x1080.png?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950)\n\n图片出处：[发行商官方发售日宣传图，日本发行信息。](https://prtimes.jp/main/html/rd/p/000000937.000001474.html)\n\n【日本10月23日公告】G-MODE确认《続ポートピア連続殺人事件：忘却の埋葬》于2027年3月4日在日本登陆Switch、Switch 2和Steam。发行商将其描述为重做1983年原作并大幅加入新剧情的作品，堀井雄二担任原作与制作总监；实体版预约已开启。\n\n**为什么值得关注**：重要性3/5：经典推理冒险采用重做加新故事的方式回归，是日本叙事游戏值得跟进的项目。当前仅确认日语，不把日本日期当作中文或全球发行承诺；Switch 2实体版为游戏钥匙卡，收藏与离线使用需按商店说明核对。\n\n**平台与关键日期**：Switch / Switch 2 / PC（Steam）；日本发售2027-03-04；实体预约2026-10-23。\n\n**来源**：\n- [G-MODE官方新闻稿（PR TIMES，2026-10-23）](https://prtimes.jp/main/html/rd/p/000000937.000001474.html)\n- [Gematsu：日本发行、语言和实体形态](https://www.gematsu.com/2026/10/next-the-portopia-serial-murder-case-launches-march-4-2027-in-japan)\n\n### 5. Atari VCS商店将于2027年2月关闭，计划转向本地与Homebrew\n\n![VGC报道使用的现代Atari VCS主机实物图](https://www.videogameschronicle.com/files/2021/03/atari-vcs-320x180.jpg)\n\n图片出处：[2021款硬件资料图，不是2027年迁移界面。](https://www.videogameschronicle.com/news/atari-is-ending-support-for-its-2021-vcs-console-will-release-a-homebrew-app-to-let-players-keep-making-and-adding-games/)\n\n【近7日补充：10月22日公告报道，23日媒体跟进】Atari在官方Discord宣布2021款VCS平台逐步结束支持，商店将于2027年2月1日关闭，可购买至1月31日。公司计划在商店关闭后提供OS迁移更新，移除认证和软件对Atari服务器的依赖，并向用户推送Homebrew应用。\n\n**为什么值得关注**：重要性3/5：直接涉及主机数字内容的保存与停服后可用性；本地迁移方案比单纯关店更值得行业参考。目前是未来计划，更新尚未完成，不能承诺全部游戏必然可长期运行；1977年原版Atari VCS不在本次停服范围。\n\n**平台与关键日期**：2021款Atari VCS；最后购买日2027-01-31；商店关闭2027-02-01；迁移指南预计2027年初。\n\n**来源**：\n- [VGC：转述Atari官方Discord公告（2026-10-22）](https://www.videogameschronicle.com/news/atari-is-ending-support-for-its-2021-vcs-console-will-release-a-homebrew-app-to-let-players-keep-making-and-adding-games/)\n- [Tom's Hardware：迁移与商店关闭报道（2026-10-23）](https://www.tomshardware.com/video-games/retro-gaming/retro-atari-vcs-platform-will-end-with-the-closure-of-its-software-store-in-february-2027-os-update-will-be-released-removing-reliance-on-atari-servers-and-opening-up-homebrew-development)\n\n## 后续关注\n\n把正式发售、试玩整改计划和未来发行承诺分开看。国内新IP侧重长实机与PC主机覆盖，国外继续关注首发稳定性、独立作品移植及数字内容保存。 《卧龙2》的性能计划、Atari的本地迁移，都要以实际交付验收；预约、宣传实机与正式可玩版本保持区分。\n\n*重要性1—5，综合用户影响、事实明确程度与玩法/开发参考价值；分析为本报告判断。图片版权归原权利人。*\n"
+    },
+    {
       "id": "games-2026-10-23",
       "collectionId": "games",
       "date": "2026-10-23",
@@ -1101,5 +1331,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-23T01:17:45.385252Z"
+  "updatedAt": "2026-10-24T01:13:21.625Z"
 }
