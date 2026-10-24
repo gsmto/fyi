@@ -4,6 +4,128 @@
   "month": "2026-10",
   "briefs": [
     {
+      "id": "health-2026-10-24",
+      "collectionId": "health",
+      "date": "2026-10-24",
+      "title": "健康｜2026-10-24",
+      "summary": "中国秋冬流感与南方蚊媒风险提示、美国麻疹最新累计监测，以及儿童超加工食品与增脂的观察性研究。",
+      "analysis": "将公共卫生监测、专家风险研判与小样本观察性研究分开理解：监测不能替代个人诊断，相关性不能变成减重疗效承诺。",
+      "score": 4,
+      "completeness": "full",
+      "sourceConversation": "健康",
+      "items": [
+        {
+          "id": "health-2026-10-24-china-seasonal-risks",
+          "title": "中国疾控：流感活动有所上升，南方蚊媒传播风险仍需关注",
+          "category": "健康",
+          "importance": 4,
+          "publishedAt": "2026-10-23",
+          "summary": "中国疾控10月23日公开10月风险评估，提示南方局部地区登革热、基孔肯雅热本地传播风险持续，流感预计季节性上升。10月22日发布的第42周监测（10月12—18日）显示，216家多病原哨点医院门急诊流感样病例样本中流感阳性率15.4%，较前周增加1.9个百分点。全国多数地区呼吸道传染病仍属低水平，南方流感活动高于北方；这不是全国居民感染率。",
+          "evidence": "国家级监测报告及专家会商风险评估，非随机试验；哨点就诊样本不能代表全体居民，月度风险研判也不是对个人或某城市疫情的确定预测。",
+          "analysis": "重要性4/5：对秋冬通勤、出游和重点机构防护有直接参考价值，适用范围是报告所述中国内地。可按官方指引核对疫苗接种、通风与防蚊措施；不能仅靠症状自行判断病原或选药。",
+          "tags": [
+            "中国疾控",
+            "流感",
+            "登革热",
+            "基孔肯雅热",
+            "哨点监测",
+            "公共健康"
+          ],
+          "sources": [
+            {
+              "title": "中国疾控：2026年10月突发公共卫生事件风险评估（10月23日公开）",
+              "url": "https://www.chinacdc.cn/jksj/jksj02/202610/P020261023510459186992.pdf"
+            },
+            {
+              "title": "中国疾控：第42周呼吸道传染病哨点监测（2026-10-22）",
+              "url": "https://www.chinacdc.cn/jksj/jksj04_14275/202610/t20261022_1842412.html"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.chinacdc.cn/jksj/jksj04_14275/202610/W020261022481975099462.png",
+              "alt": "中国疾控第42周门急诊流感样病例呼吸道样本病原体阳性率变化图",
+              "sourceUrl": "https://www.chinacdc.cn/jksj/jksj04_14275/202610/t20261022_1842412.html",
+              "caption": "官方图2，统计为哨点样本阳性率，不是全国人口感染率。"
+            }
+          ]
+        },
+        {
+          "id": "health-2026-10-24-us-measles-update",
+          "title": "美国麻疹累计确诊4,588例：出行前免疫核查仍重要",
+          "category": "医学",
+          "importance": 4,
+          "publishedAt": "2026-10-23",
+          "summary": "美国CDC10月23日更新：截至10月22日，2026年累计报告麻疹确诊4,588例，其中18例为国际访客；96%的病例与暴发相关。CDC记录今年新增43起暴发，2025全年确诊2,289例；这是累计监测更新，不是一天新增4,588例。",
+          "evidence": "官方传染病监测数据；病例为已向CDC报告的确诊病例，存在报告滞后和后续修订，年份累计与完整年度的观察时长不同。美国情况不能外推为中国疫情水平。",
+          "analysis": "重要性4/5：适用于关注赴美行程或跨境传播的读者，可依据目的地卫生建议核对既往MMR免疫记录。是否需要补种及是否存在禁忌应由接种机构判断，这份统计不构成个人接种处方。",
+          "tags": [
+            "麻疹",
+            "美国CDC",
+            "MMR",
+            "旅行健康",
+            "疫情监测"
+          ],
+          "sources": [
+            {
+              "title": "CDC：Measles Cases and Outbreaks（2026-10-23更新，数据截至10月22日）",
+              "url": "https://www.cdc.gov/measles/data-research/index.html"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.cdc.gov/measles/media/images/2025/12/Measles-World-Map-Travel_update_9.12B-gradient.jpg",
+              "alt": "CDC麻疹信息页的跨国旅行主题示意图",
+              "sourceUrl": "https://www.cdc.gov/measles/data-research/index.html",
+              "caption": "官方旅行主题示意图，并非本次病例分布图。"
+            }
+          ]
+        },
+        {
+          "id": "health-2026-10-24-upf-child-adiposity",
+          "title": "儿童超加工食品摄入与一年后增脂相关，尚不能证明因果",
+          "category": "减重",
+          "importance": 3,
+          "publishedAt": "2026-10-23",
+          "summary": "10月23日发表于JAMA Network Open的队列研究，观察46名起初体重健康的7—10岁儿童，结合饮食资料、脑部MRI与一年后的体成分。较高超加工食品摄入与更强的食物线索纹状体反应、随后更高的脂肪量指标相关。研究探索的是体重增加风险机制，并未试验某种减重方法。",
+          "evidence": "同行评审人体观察性队列；样本小、饮食测量可能有误差，残余混杂与反向解释不能排除，脑反应的统计中介分析不等于证实生物因果链。",
+          "analysis": "重要性3/5：为儿童肥胖预防提供可继续研究的线索，不能直接套用为成年人减重效果。实践应关注长期饮食质量、营养充足与可持续习惯，不能据此让生长期儿童极端节食；本研究未证明减少某一食品类别就能长期安全减重。",
+          "tags": [
+            "儿童肥胖预防",
+            "超加工食品",
+            "营养",
+            "体脂",
+            "观察性研究",
+            "可持续体重管理"
+          ],
+          "sources": [
+            {
+              "title": "JAMA Network Open原始队列研究（2026-10-23）",
+              "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855779"
+            },
+            {
+              "title": "JAMA期刊原始研究摘要",
+              "url": "https://media.jamanetwork.com/media-releases/10.1001/jamanetworkopen.2026.40252"
+            },
+            {
+              "title": "南加州大学医学院研究说明（2026-10-23）",
+              "url": "https://keck.usc.edu/news/children-who-eat-more-ultra-processed-foods-show-stronger-brain-responses-to-appetizing-foods/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://keck.usc.edu/news/wp-content/uploads/sites/68/2026/10/iStock-1415838071-768x432.jpg",
+              "alt": "南加州大学研究新闻采用的儿童早餐场景配图",
+              "sourceUrl": "https://keck.usc.edu/news/children-who-eat-more-ultra-processed-foods-show-stronger-brain-responses-to-appetizing-foods/",
+              "caption": "iStock／USC新闻配图；非研究参与者照片，也不用于判断图中食物是否属于超加工食品。"
+            }
+          ]
+        }
+      ],
+      "provenance": "生成时间2026-10-24T01:21:07.920Z；北京时间2026-10-24晨间检索，主要收录10月23日新增资料，国内风险评估辅以10月22日最新第42周监测（样本10月12—18日）。已读取规范、catalog、health索引及10月全月历史去重。综合检索国家卫健委/中国疾控、美国CDC、WHO与医学期刊，最终技术事实采用中国疾控原PDF及监测页、CDC原页、JAMA期刊研究检索摘要与期刊发布摘要，并与USC研究说明核对。JAMA正文直接访问两次失败，未据此声称完整阅读全文；不报告无法核对的精确效应。三张图片均从相应原页点击得到HTTPS直链并成功显示，图表与示意图性质在正文标明。未访问或使用个人健康记录。",
+      "rawText": "# 健康｜2026-10-24\n\n## 今日 Top 3\n\n本期主要收录10月23日新公开资料；国内呼吸道数据补充10月22日最新周报，并标明实际统计周。内容为新闻与一般健康科普，不作个人诊断或治疗方案。\n\n### 1. 中国疾控：流感活动有所上升，南方蚊媒传播风险仍需关注\n\n中国疾控10月23日公开10月风险评估，提示南方局部地区登革热、基孔肯雅热本地传播风险持续，流感预计季节性上升。10月22日发布的第42周监测（10月12—18日）显示，216家多病原哨点医院门急诊流感样病例样本中流感阳性率15.4%，较前周增加1.9个百分点。全国多数地区呼吸道传染病仍属低水平，南方流感活动高于北方；这不是全国居民感染率。\n\n**证据与局限：**国家级监测报告及专家会商风险评估，非随机试验；哨点就诊样本不能代表全体居民，月度风险研判也不是对个人或某城市疫情的确定预测。\n\n**为什么值得关注及适用范围：**重要性4/5：对秋冬通勤、出游和重点机构防护有直接参考价值，适用范围是报告所述中国内地。可按官方指引核对疫苗接种、通风与防蚊措施；不能仅靠症状自行判断病原或选药。\n\n![中国疾控第42周门急诊流感样病例呼吸道样本病原体阳性率变化图](https://www.chinacdc.cn/jksj/jksj04_14275/202610/W020261022481975099462.png)\n\n图片出处：[官方图2，统计为哨点样本阳性率，不是全国人口感染率。](https://www.chinacdc.cn/jksj/jksj04_14275/202610/t20261022_1842412.html)。\n\n**来源：**[中国疾控：2026年10月突发公共卫生事件风险评估（10月23日公开）](https://www.chinacdc.cn/jksj/jksj02/202610/P020261023510459186992.pdf)；[中国疾控：第42周呼吸道传染病哨点监测（2026-10-22）](https://www.chinacdc.cn/jksj/jksj04_14275/202610/t20261022_1842412.html)。\n\n### 2. 美国麻疹累计确诊4,588例：出行前免疫核查仍重要\n\n美国CDC10月23日更新：截至10月22日，2026年累计报告麻疹确诊4,588例，其中18例为国际访客；96%的病例与暴发相关。CDC记录今年新增43起暴发，2025全年确诊2,289例；这是累计监测更新，不是一天新增4,588例。\n\n**证据与局限：**官方传染病监测数据；病例为已向CDC报告的确诊病例，存在报告滞后和后续修订，年份累计与完整年度的观察时长不同。美国情况不能外推为中国疫情水平。\n\n**为什么值得关注及适用范围：**重要性4/5：适用于关注赴美行程或跨境传播的读者，可依据目的地卫生建议核对既往MMR免疫记录。是否需要补种及是否存在禁忌应由接种机构判断，这份统计不构成个人接种处方。\n\n![CDC麻疹信息页的跨国旅行主题示意图](https://www.cdc.gov/measles/media/images/2025/12/Measles-World-Map-Travel_update_9.12B-gradient.jpg)\n\n图片出处：[官方旅行主题示意图，并非本次病例分布图。](https://www.cdc.gov/measles/data-research/index.html)。\n\n**来源：**[CDC：Measles Cases and Outbreaks（2026-10-23更新，数据截至10月22日）](https://www.cdc.gov/measles/data-research/index.html)。\n\n### 3. 儿童超加工食品摄入与一年后增脂相关，尚不能证明因果\n\n10月23日发表于JAMA Network Open的队列研究，观察46名起初体重健康的7—10岁儿童，结合饮食资料、脑部MRI与一年后的体成分。较高超加工食品摄入与更强的食物线索纹状体反应、随后更高的脂肪量指标相关。研究探索的是体重增加风险机制，并未试验某种减重方法。\n\n**证据与局限：**同行评审人体观察性队列；样本小、饮食测量可能有误差，残余混杂与反向解释不能排除，脑反应的统计中介分析不等于证实生物因果链。\n\n**为什么值得关注及适用范围：**重要性3/5：为儿童肥胖预防提供可继续研究的线索，不能直接套用为成年人减重效果。实践应关注长期饮食质量、营养充足与可持续习惯，不能据此让生长期儿童极端节食；本研究未证明减少某一食品类别就能长期安全减重。\n\n![南加州大学研究新闻采用的儿童早餐场景配图](https://keck.usc.edu/news/wp-content/uploads/sites/68/2026/10/iStock-1415838071-768x432.jpg)\n\n图片出处：[iStock／USC新闻配图；非研究参与者照片，也不用于判断图中食物是否属于超加工食品。](https://keck.usc.edu/news/children-who-eat-more-ultra-processed-foods-show-stronger-brain-responses-to-appetizing-foods/)。\n\n**来源：**[JAMA Network Open原始队列研究（2026-10-23）](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2855779)；[JAMA期刊原始研究摘要](https://media.jamanetwork.com/media-releases/10.1001/jamanetworkopen.2026.40252)；[南加州大学医学院研究说明（2026-10-23）](https://keck.usc.edu/news/children-who-eat-more-ultra-processed-foods-show-stronger-brain-responses-to-appetizing-foods/)。\n"
+    },
+    {
       "id": "health-2026-10-23",
       "collectionId": "health",
       "date": "2026-10-23",
@@ -541,5 +663,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-23T01:24:25.624178Z"
+  "updatedAt": "2026-10-24T01:21:41.277Z"
 }
