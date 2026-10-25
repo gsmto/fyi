@@ -2,8 +2,187 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-10",
-  "updatedAt": "2026-10-24T01:05:03.637Z",
+  "updatedAt": "2026-10-25T01:00:00.383Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-10-25",
+      "collectionId": "daily-brief",
+      "date": "2026-10-25",
+      "title": "最新资讯｜2026-10-25",
+      "summary": "Kimi新模型与3D工作流、Node运行时补丁、Agent隔离架构、AI游戏开发实践，以及下周财报与利率验证窗口。",
+      "analysis": "今天的共同线索是：模型能力需要通过完整工作流和基础设施才能变成可持续的产品能力；商业层面则进入投入回报的密集验证期。按最新已核实变化精选，明确标记近几日补充项，避免以周末新闻不足为由重复昨天内容。",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "生成时间2026-10-25T01:00:00.383Z；北京时间2026-10-25晨间检索。已读取归档协议、catalog、索引与本月完整历史，对最近一周重点去重。检索综合英文官方技术博客、GitHub/开源运行时发布、研究聚合页、中文科技媒体检索结果与Reuters商业报道；技术结论以一手原文为准，中文转载原页访问失败处未作为独立证据。4张配图均为实际从来源页取得、由网页工具打开确认可公开访问的HTTPS图片；OpenAI条目检索未取得可靠专属配图，明确留空。未独立复现厂商基准；分析与实践建议为编辑判断。",
+      "score": 5,
+      "items": [
+        {
+          "id": "daily-brief-2026-10-25-kimi-k31-pro",
+          "title": "Kimi K3.1 Pro 上线：代码与 3D 工作流增强，完整权重仍待发布",
+          "category": "AI / 大模型 / 开发工具",
+          "summary": "【10月23日英文技术博客，24日中文媒体跟进】月之暗面发布 Kimi K3.1 Pro，支持百万 token 上下文，并提供官方称快2—3倍的 Highspeed 版本，已接入 Kimi、Kimi Code 和 API。官方重点展示完整项目编程、Blender/CAD 参数化建模与金融研究能力，宣布完整权重将在11月4日前发布。因此目前应区分服务可用与权重真正开放，不能直接称已完成开源交付。",
+          "analysis": "重要性5/5：对 Web 3D、游戏原型和代码 Agent 选型，这是值得加入测试的新候选。建议拿已有 React/Three.js 场景或小型游戏项目，比较资产生成、修改既有工程、运行验证与返工成本；博客基准和加速倍数属于厂商报告，不能替代真实项目测评。",
+          "importance": 5,
+          "tags": [
+            "Kimi",
+            "开放权重",
+            "Agent",
+            "3D",
+            "Blender",
+            "代码生成"
+          ],
+          "sources": [
+            {
+              "title": "Moonshot AI：Kimi K3.1 Pro 技术博客",
+              "url": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+            },
+            {
+              "title": "alphaXiv：官方发布线程与技术博客索引（10月23日）",
+              "url": "https://www.alphaxiv.org/abs/2610.kimi-k3-1-pro"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://kimi-img.kimi.ai/pub/slides/kimi-fs/weaver/assets/9d2a6db49991ae6a4eb13c8a322de721.webp",
+              "alt": "Kimi 官方 3D Make 界面，展示模型生成输入框及建筑、打字机和发动机模板",
+              "sourceUrl": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+              "caption": "官方产品界面示例，不代表生成模型的独立质量评估。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-10-25-node-brotli-patch",
+          "title": "Node.js Brotli 高危漏洞：补丁已发布，别漏掉打包进应用的运行时",
+          "category": "软件工程 / Web / 运行时安全",
+          "summary": "【10月21日补丁；23—24日进一步披露，本栏补充】Node.js 官方确认 CVE-2026-111497 影响22.x、24.x和26.x：应用若用 node:zlib 解压攻击者提供的 Brotli 数据，可能出现内存破坏，严重时可导致远程代码执行。安全版本为22.23.4、24.22.1和26.12.1；本轮还修复 DNS、TLS 等问题。风险取决于应用是否暴露相应解压路径，并非每个 Node 服务都能被同样利用。",
+          "analysis": "重要性5/5：这是可以马上落实的开发环境检查项，优先核对公网接口、代理以及处理外部压缩数据的任务。更新开发机之外，还应重建容器镜像和包含 Node 的单文件可执行程序；Electron 应核对其自己的嵌入版本与上游修复状态，不能认为更新系统 Node 就能修复打包应用。",
+          "importance": 5,
+          "tags": [
+            "Node.js",
+            "Brotli",
+            "CVE-2026-111497",
+            "供应链",
+            "Electron",
+            "打包"
+          ],
+          "sources": [
+            {
+              "title": "Node.js 官方：10月21日安全公告",
+              "url": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases"
+            },
+            {
+              "title": "Node.js 24.22.1 官方发布说明",
+              "url": "https://nodejs.org/en/blog/release/v24.22.1"
+            },
+            {
+              "title": "Node.js 22.23.4 官方发布说明",
+              "url": "https://nodejs.org/en/blog/release/v22.23.4"
+            },
+            {
+              "title": "Node.js 26.12.1 官方发布说明",
+              "url": "https://nodejs.org/en/blog/release/v26.12.1"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://nodejs.org/en/next-data/og/vulnerability/Node.js%20%E2%80%94%20Wednesday%2C%20October%2021%2C%202026%20Security%20Releases",
+              "alt": "Node.js 官方十月安全更新公告题图",
+              "sourceUrl": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+              "caption": "官方公告题图，漏洞条件和修复版本以正文为准。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-10-25-openai-containment",
+          "title": "OpenAI 披露训练环境加固：Agent 权限边界需要由基础设施执行",
+          "category": "AI / 智能体 / 工程架构",
+          "summary": "【10月23日披露】OpenAI 公布前沿模型训练与评估环境的加固方案：离线网页环境、受限容器与 microVM、多层网络边界以及持续红队测试。公司称9月20日的 DNS 配置事件导致暂停，完成加固后已于10月1日恢复相关强化学习训练和内部推理。测试还发现开源组件漏洞与隔离任务间的隐蔽通信路径；这是内部研究环境披露，不等于面向客户服务发生同类事件。",
+          "analysis": "重要性5/5：在此前“监控可能被削弱”的消息之外，本次新增价值是给出了可落地的隔离架构与测试目标。对内部 Agent 平台，可借鉴独立约束文件、网络和凭据权限，并测试内层隔离失效时外围是否仍能阻断越界；提示词与模型自我约束不应承担权限系统的职责。",
+          "importance": 5,
+          "tags": [
+            "OpenAI",
+            "Agent",
+            "microVM",
+            "沙箱",
+            "权限",
+            "纵深防御"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI：Securing our frontier model training environment（10月23日）",
+              "url": "https://openai.com/index/securing-our-frontier-model-training-environment/"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图说明：已检索官方文章与首页，未取得可确认的该事件专属公开图片直链；检索结果中的第三方仿仪表盘和生成图容易误导，故不配图。"
+        },
+        {
+          "id": "daily-brief-2026-10-25-epic-ai-megajam",
+          "title": "Epic 将 AI Agent 纳入游戏 Jam：值得观察完整制作流程能推进多远",
+          "category": "游戏开发 / AI工具 / 行业",
+          "summary": "【10月22日公告，本栏补充】Epic 宣布11月12—15日举办 AI MegaJam，可使用 Unreal Engine 或 UEFN，允许最多五名人类成员及不限数量的 Agent 协作，并接受从资产生成到编程的 AI 工具。奖项覆盖整体作品、移动游戏、开发日志以及 LLM 驱动的叙事 NPC，优秀项目另有最高5万美元的继续开发资助。该金额是后续资助上限，不是每位参与者或每个主奖项的奖金。",
+          "analysis": "重要性4/5：比单段生成演示更有参考价值的是四天内能否交付可玩的整合版本，尤其是资产一致性、引擎操作和调试链路。可关注赛后开发日志，把玩法验证、工具编排和人工审查的实际成本作为评估指标；活动规则有资格限制，公告并不代表所有地区都可领取奖金。",
+          "importance": 4,
+          "tags": [
+            "Epic",
+            "Unreal Engine",
+            "UEFN",
+            "MCP",
+            "游戏原型",
+            "AI开发"
+          ],
+          "sources": [
+            {
+              "title": "Epic 官方：2026 AI MegaJam 公告（10月22日）",
+              "url": "https://www.unrealengine.com/news/2026-epic-ai-megajam"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cms-assets.unrealengine.com/AiKUh5PQCTaOFnmJDZJBfz/resize%3Dwidth%3A1920/quality%3Dvalue%3A90/auto_image/cmvgzcx252qpf07mq87lrl451",
+              "alt": "Epic AI MegaJam 官方活动海报，紫色背景与发光主视觉",
+              "sourceUrl": "https://www.unrealengine.com/news/2026-epic-ai-megajam",
+              "caption": "官方活动海报。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-10-25-earnings-fed-preview",
+          "title": "下周进入 AI 财报与利率双重验证窗口：看投入，也看现金流兑现",
+          "category": "全球科技 / 财经 / 市场",
+          "summary": "【10月23日 Reuters 更新；10月25日晨间前瞻】Reuters 将下周列为关键观察窗口：Alphabet、Microsoft 和 Amazon 将发布业绩，关注点包括资本开支计划与 AI 投入回报。美联储官方日历确认10月27—28日召开 FOMC 会议，28日发布决议；上述均为美国当地日期。周末没有新的美股正常交易时段，本条提供未来验证节点，不把周五行情包装成周日新变化。",
+          "analysis": "重要性4/5：此前市场下跌已经收录，这次重点转向接下来如何验证商业判断。可把云业务增长、AI 收入披露、资本开支、自由现金流和利率指引并列观察；投入增加并不自动意味着供应链所有公司持续受益，情绪反弹也不能替代盈利兑现。本条为信息观察框架，不作价格预测。",
+          "importance": 4,
+          "tags": [
+            "AI资本开支",
+            "Microsoft",
+            "Alphabet",
+            "Amazon",
+            "FOMC",
+            "财报"
+          ],
+          "sources": [
+            {
+              "title": "Reuters（Investing.com转载）：财报与美联储将考验 AI 行情（10月23日更新）",
+              "url": "https://www.investing.com/news/economy-news/earnings-flood-fed-meeting-pose-pivotal-tests-for-rickety-ai-market-rally-4968724"
+            },
+            {
+              "title": "美联储官方：FOMC 会议日历",
+              "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://content-media.investing.com/trkd-images/LYNXMPEM9M0S5_L.jpg",
+              "alt": "Reuters 财经报道配图：纽约证券交易所交易大厅内的交易员",
+              "sourceUrl": "https://www.investing.com/news/economy-news/earnings-flood-fed-meeting-pose-pivotal-tests-for-rickety-ai-market-rally-4968724",
+              "caption": "Reuters 原报道配图，作为市场背景，不代表未来走势。"
+            }
+          ]
+        }
+      ],
+      "rawText": "# 最新资讯｜2026-10-25\n\n北京时间2026年10月25日晨间。主要覆盖10月23—24日新增披露，并补充近几日尚未收录、与开发实践密切相关的公告；各条标明事件日期。\n\nKimi新模型与3D工作流、Node运行时补丁、Agent隔离架构、AI游戏开发实践，以及下周财报与利率验证窗口。\n\n今天的共同线索是：模型能力需要通过完整工作流和基础设施才能变成可持续的产品能力；商业层面则进入投入回报的密集验证期。按最新已核实变化精选，明确标记近几日补充项，避免以周末新闻不足为由重复昨天内容。\n\n## 1. Kimi K3.1 Pro 上线：代码与 3D 工作流增强，完整权重仍待发布\n\n![Kimi 官方 3D Make 界面，展示模型生成输入框及建筑、打字机和发动机模板](https://kimi-img.kimi.ai/pub/slides/kimi-fs/weaver/assets/9d2a6db49991ae6a4eb13c8a322de721.webp)\n\n图片出处：[官方产品界面示例，不代表生成模型的独立质量评估。](https://www.kimi.ai/blog/kimi-k3-1-pro)\n\n**摘要**：【10月23日英文技术博客，24日中文媒体跟进】月之暗面发布 Kimi K3.1 Pro，支持百万 token 上下文，并提供官方称快2—3倍的 Highspeed 版本，已接入 Kimi、Kimi Code 和 API。官方重点展示完整项目编程、Blender/CAD 参数化建模与金融研究能力，宣布完整权重将在11月4日前发布。因此目前应区分服务可用与权重真正开放，不能直接称已完成开源交付。\n\n**为什么值得关注**：重要性5/5：对 Web 3D、游戏原型和代码 Agent 选型，这是值得加入测试的新候选。建议拿已有 React/Three.js 场景或小型游戏项目，比较资产生成、修改既有工程、运行验证与返工成本；博客基准和加速倍数属于厂商报告，不能替代真实项目测评。\n\n**来源**：\n\n- [Moonshot AI：Kimi K3.1 Pro 技术博客](https://www.kimi.ai/blog/kimi-k3-1-pro)\n- [alphaXiv：官方发布线程与技术博客索引（10月23日）](https://www.alphaxiv.org/abs/2610.kimi-k3-1-pro)\n\n## 2. Node.js Brotli 高危漏洞：补丁已发布，别漏掉打包进应用的运行时\n\n![Node.js 官方十月安全更新公告题图](https://nodejs.org/en/next-data/og/vulnerability/Node.js%20%E2%80%94%20Wednesday%2C%20October%2021%2C%202026%20Security%20Releases)\n\n图片出处：[官方公告题图，漏洞条件和修复版本以正文为准。](https://nodejs.org/en/blog/vulnerability/october-2026-security-releases)\n\n**摘要**：【10月21日补丁；23—24日进一步披露，本栏补充】Node.js 官方确认 CVE-2026-111497 影响22.x、24.x和26.x：应用若用 node:zlib 解压攻击者提供的 Brotli 数据，可能出现内存破坏，严重时可导致远程代码执行。安全版本为22.23.4、24.22.1和26.12.1；本轮还修复 DNS、TLS 等问题。风险取决于应用是否暴露相应解压路径，并非每个 Node 服务都能被同样利用。\n\n**为什么值得关注**：重要性5/5：这是可以马上落实的开发环境检查项，优先核对公网接口、代理以及处理外部压缩数据的任务。更新开发机之外，还应重建容器镜像和包含 Node 的单文件可执行程序；Electron 应核对其自己的嵌入版本与上游修复状态，不能认为更新系统 Node 就能修复打包应用。\n\n**来源**：\n\n- [Node.js 官方：10月21日安全公告](https://nodejs.org/en/blog/vulnerability/october-2026-security-releases)\n- [Node.js 24.22.1 官方发布说明](https://nodejs.org/en/blog/release/v24.22.1)\n- [Node.js 22.23.4 官方发布说明](https://nodejs.org/en/blog/release/v22.23.4)\n- [Node.js 26.12.1 官方发布说明](https://nodejs.org/en/blog/release/v26.12.1)\n\n## 3. OpenAI 披露训练环境加固：Agent 权限边界需要由基础设施执行\n\n缺图说明：已检索官方文章与首页，未取得可确认的该事件专属公开图片直链；检索结果中的第三方仿仪表盘和生成图容易误导，故不配图。\n\n**摘要**：【10月23日披露】OpenAI 公布前沿模型训练与评估环境的加固方案：离线网页环境、受限容器与 microVM、多层网络边界以及持续红队测试。公司称9月20日的 DNS 配置事件导致暂停，完成加固后已于10月1日恢复相关强化学习训练和内部推理。测试还发现开源组件漏洞与隔离任务间的隐蔽通信路径；这是内部研究环境披露，不等于面向客户服务发生同类事件。\n\n**为什么值得关注**：重要性5/5：在此前“监控可能被削弱”的消息之外，本次新增价值是给出了可落地的隔离架构与测试目标。对内部 Agent 平台，可借鉴独立约束文件、网络和凭据权限，并测试内层隔离失效时外围是否仍能阻断越界；提示词与模型自我约束不应承担权限系统的职责。\n\n**来源**：\n\n- [OpenAI：Securing our frontier model training environment（10月23日）](https://openai.com/index/securing-our-frontier-model-training-environment/)\n\n## 4. Epic 将 AI Agent 纳入游戏 Jam：值得观察完整制作流程能推进多远\n\n![Epic AI MegaJam 官方活动海报，紫色背景与发光主视觉](https://cms-assets.unrealengine.com/AiKUh5PQCTaOFnmJDZJBfz/resize%3Dwidth%3A1920/quality%3Dvalue%3A90/auto_image/cmvgzcx252qpf07mq87lrl451)\n\n图片出处：[官方活动海报。](https://www.unrealengine.com/news/2026-epic-ai-megajam)\n\n**摘要**：【10月22日公告，本栏补充】Epic 宣布11月12—15日举办 AI MegaJam，可使用 Unreal Engine 或 UEFN，允许最多五名人类成员及不限数量的 Agent 协作，并接受从资产生成到编程的 AI 工具。奖项覆盖整体作品、移动游戏、开发日志以及 LLM 驱动的叙事 NPC，优秀项目另有最高5万美元的继续开发资助。该金额是后续资助上限，不是每位参与者或每个主奖项的奖金。\n\n**为什么值得关注**：重要性4/5：比单段生成演示更有参考价值的是四天内能否交付可玩的整合版本，尤其是资产一致性、引擎操作和调试链路。可关注赛后开发日志，把玩法验证、工具编排和人工审查的实际成本作为评估指标；活动规则有资格限制，公告并不代表所有地区都可领取奖金。\n\n**来源**：\n\n- [Epic 官方：2026 AI MegaJam 公告（10月22日）](https://www.unrealengine.com/news/2026-epic-ai-megajam)\n\n## 5. 下周进入 AI 财报与利率双重验证窗口：看投入，也看现金流兑现\n\n![Reuters 财经报道配图：纽约证券交易所交易大厅内的交易员](https://content-media.investing.com/trkd-images/LYNXMPEM9M0S5_L.jpg)\n\n图片出处：[Reuters 原报道配图，作为市场背景，不代表未来走势。](https://www.investing.com/news/economy-news/earnings-flood-fed-meeting-pose-pivotal-tests-for-rickety-ai-market-rally-4968724)\n\n**摘要**：【10月23日 Reuters 更新；10月25日晨间前瞻】Reuters 将下周列为关键观察窗口：Alphabet、Microsoft 和 Amazon 将发布业绩，关注点包括资本开支计划与 AI 投入回报。美联储官方日历确认10月27—28日召开 FOMC 会议，28日发布决议；上述均为美国当地日期。周末没有新的美股正常交易时段，本条提供未来验证节点，不把周五行情包装成周日新变化。\n\n**为什么值得关注**：重要性4/5：此前市场下跌已经收录，这次重点转向接下来如何验证商业判断。可把云业务增长、AI 收入披露、资本开支、自由现金流和利率指引并列观察；投入增加并不自动意味着供应链所有公司持续受益，情绪反弹也不能替代盈利兑现。本条为信息观察框架，不作价格预测。\n\n**来源**：\n\n- [Reuters（Investing.com转载）：财报与美联储将考验 AI 行情（10月23日更新）](https://www.investing.com/news/economy-news/earnings-flood-fed-meeting-pose-pivotal-tests-for-rickety-ai-market-rally-4968724)\n- [美联储官方：FOMC 会议日历](https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm)\n\n---\n\n重要性按影响范围、可靠性与开发相关性以1—5整数评定。图片版权归原权利人；厂商截图、活动海报和市场背景图分别作明确说明。\n"
+    },
     {
       "id": "daily-brief-2026-10-24",
       "collectionId": "daily-brief",
