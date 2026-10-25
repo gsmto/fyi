@@ -4,6 +4,133 @@
   "month": "2026-10",
   "briefs": [
     {
+      "id": "health-2026-10-25",
+      "collectionId": "health",
+      "date": "2026-10-25",
+      "title": "健康｜2026-10-25",
+      "summary": "关注布迪布焦病毒病跨境防控及候选疫苗试验、可持续体重管理的长期队列线索，以及妇幼高温风险监测新框架。",
+      "analysis": "近24小时未核得足以构成完整Top3的高质量独立新增，补充近7日未收录资料并标明原始日期。公共卫生监测、试验启动和观察性研究各有不同证据边界；不把研究进展当作个人诊疗或用药建议。",
+      "completeness": "full",
+      "sourceConversation": "健康",
+      "provenance": "生成时间2026-10-25T01:15:36.167Z；截至北京时间2026-10-25晨间检索，近24小时优先、补充10月21—23日尚未归档重要信息。已读取规范、catalog、索引与本月完整历史并去重；综合国内卫生机构检索及国际卫生机构、医学期刊线索，最终以WHO、CEPI、试验登记及UCL原始简报为据，不按地区配额凑数。UCL核读8页原始简报，标明非随机、同行评审状态未确认；没有采用媒体将其表述为因果的标题。WHO与CEPI疫情数字存在日期/系列差别，未混算或据此给出增长率，条目聚焦确认的传播链与试验启动。3张图片均实际从官方页面取得并由网页工具打开确认公开HTTPS可显示，图片与日期/用途对应；不含个人健康信息。",
+      "score": 4,
+      "items": [
+        {
+          "id": "health-2026-10-25-bundibugyo-trial",
+          "title": "布迪布焦埃博拉跨境病例增加，候选疫苗Ⅱ/Ⅲ期试验启动",
+          "category": "医学",
+          "publishedAt": "2026-10-23",
+          "summary": "WHO 10月23日通报：刚果（金）布迪布焦病毒病疫情仍在传播，肯尼亚和尼日利亚已报告输入病例；肯尼亚新增病例集中于已知接触链，未见更广泛社区传播证据。同日，TUMAINI Ⅱ/Ⅲ期平台试验在刚果（金）为首名参与者接种，拟评估候选疫苗的安全性、免疫原性与保护效力。目前仍无获批针对布迪布焦病毒病的疫苗或特异治疗，试验启动不等于已经证明有效。",
+          "evidence": "证据类型：WHO公共卫生监测通报＋临床试验启动信息，无本次试验疗效结果。病例发现与接触追踪不完整会影响监测判断，风险评估正在修订。",
+          "analysis": "重要性5/5：关系到跨境防控及受影响地区医疗人员和接触者保护；对一般读者主要是了解疫情与研究状态，不能据此认定中国已出现传播。WHO仍不建议限制与受影响国家的旅行或贸易，具体出行看最新官方通报。",
+          "importance": 5,
+          "tags": [
+            "埃博拉",
+            "布迪布焦病毒",
+            "TUMAINI",
+            "Ⅱ/Ⅲ期试验",
+            "公共卫生",
+            "跨境传播"
+          ],
+          "sources": [
+            {
+              "title": "WHO：10月23日布迪布焦病毒病疫情通报",
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622"
+            },
+            {
+              "title": "CEPI：TUMAINI首名参与者接种（2026-10-23）",
+              "url": "https://cepi.net/first-participant-vaccinated-pivotal-phase-23-bundibugyo-vaccine-trial-drc"
+            },
+            {
+              "title": "ClinicalTrials.gov：NCT07842107（试验登记）",
+              "url": "https://clinicaltrials.gov/study/NCT07842107"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn.who.int/media/images/default-source/products/disease-outbreak-news/geographic-distribution-of-cases.jpg?sfvrsn=a690e1b8_4",
+              "alt": "WHO通报所附刚果（金）布迪布焦病毒病累计确诊病例地理分布图",
+              "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
+              "caption": "WHO原图，统计截至2026年10月20日；仅显示刚果（金）分布，不是中国风险图。"
+            }
+          ]
+        },
+        {
+          "id": "health-2026-10-25-midlife-weight-cohort",
+          "title": "中年减重与较好代谢指标相关：长期维持比短期降秤更值得看",
+          "category": "减重",
+          "publishedAt": "2026-10-21",
+          "summary": "【近7日补充】UCL 10月21日发布研究简报，分析英国1958年出生队列6,309人，将成年期体重轨迹与约62岁健康指标联系起来。相对42岁前体重峰值减重超过5%、并在50—55岁阶段保持较低体重的既往超重者，后续血压、血脂和炎症指标接近长期健康体重组；既往肥胖者减重后也较其他肥胖轨迹组有利，但不能说已完全恢复到健康体重组水平。这是观察性初步分析，不能证明减重本身导致心血管疾病减少。",
+          "evidence": "证据类型：纵向观察队列的机构研究简报，非随机试验，本次未确认对应同行评审期刊论文。部分身高体重为自报，可能有残余混杂、选择偏倚；健康指标变化不是心梗、死亡等临床事件终点。",
+          "analysis": "重要性3/5：提示体重管理应兼顾长期代谢健康和可持续维持，不能把5%当作人人适用的快速减重处方。该研究未比较具体药物或饮食方案，也不能外推为极端节食有益；作者特别提醒体重管理同时关注肌肉量与力量。",
+          "importance": 3,
+          "tags": [
+            "中年健康",
+            "体重维持",
+            "代谢健康",
+            "纵向队列",
+            "观察性研究",
+            "肌肉保护"
+          ],
+          "sources": [
+            {
+              "title": "UCL CLS原始研究简报：Weight loss and positive ageing",
+              "url": "https://cls.ucl.ac.uk/wp-content/uploads/2017/02/CLS-briefing-paper-Weight-loss-and-positive-ageing.pdf"
+            },
+            {
+              "title": "UCL CLS：发布说明及研究方法（2026-10-21）",
+              "url": "https://cls.ucl.ac.uk/losing-a-little-weight-in-midlife-may-help-later-heart-health/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cls.ucl.ac.uk/wp-content/uploads/2026/10/Lady-doing-yoga-750x400px.jpg",
+              "alt": "UCL研究发布页使用的女性练习瑜伽背景照片",
+              "sourceUrl": "https://cls.ucl.ac.uk/losing-a-little-weight-in-midlife-may-help-later-heart-health/",
+              "caption": "发布页背景示意图；研究并未随机测试瑜伽减重，也不代表照片人物是受试者。"
+            }
+          ]
+        },
+        {
+          "id": "health-2026-10-25-heat-monitoring",
+          "title": "WHO推出妇幼热风险监测指标：把预警与健康服务连接起来",
+          "category": "健康",
+          "publishedAt": "2026-10-21",
+          "summary": "【近7日补充】WHO、WMO、UNICEF及UNFPA于10月21日发布优先指标框架，帮助各国监测高温对孕产妇、新生儿和儿童的影响。框架将常规妇幼健康、公共卫生监测、气候健康监测和热暴露四类数据结合，关注早产、死产、低出生体重、就诊等信号。它是监测与响应工具，不是证明某项降温措施疗效的新临床试验。",
+          "evidence": "证据类型：国际公共卫生机构发布的技术标准／监测框架，综合既有证据与专家工作。健康变化与高温同时出现只能提示需调查的信号，不能直接确定个体因果；具体指标和阈值需按当地情况落地。",
+          "analysis": "重要性3/5：有助于医疗与公共卫生系统将热预警转成服务准备，适用重点是高温地区及易感群体。一般家庭可关注所在地高温预警和卫生部门建议，本条不表示杭州当前处于高温事件，也不提供个人诊断。",
+          "importance": 3,
+          "tags": [
+            "WHO",
+            "高温",
+            "孕产妇",
+            "新生儿",
+            "儿童健康",
+            "公共卫生监测"
+          ],
+          "sources": [
+            {
+              "title": "WHO等机构：优先指标技术文件（2026-10-21）",
+              "url": "https://www.who.int/publications/i/item/9789240125063"
+            },
+            {
+              "title": "WHO：发布说明（2026-10-21）",
+              "url": "https://www.who.int/news/item/21-10-2026-new-global-framework-launched-to-track-increasing-health-risks-of-extreme-heat-for-pregnant-women--newborns-and-children"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn.who.int/media/images/default-source/cover-images/publications/impact-of-heat-exposure-on-maternal-and-child-health.tmb-479v.jpg?sfvrsn=39c32077_1",
+              "alt": "WHO妇幼热暴露健康影响监测优先指标技术文件封面",
+              "sourceUrl": "https://www.who.int/publications/i/item/9789240125063",
+              "caption": "WHO官方文件封面。"
+            }
+          ]
+        }
+      ],
+      "rawText": "# 健康｜2026-10-25\n\n## 今日 Top 3\n\n近24小时未核得足以构成完整Top3的高质量独立新增，补充近7日未收录资料并标明原始日期。公共卫生监测、试验启动和观察性研究各有不同证据边界；不把研究进展当作个人诊疗或用药建议。\n\n### 1．布迪布焦埃博拉跨境病例增加，候选疫苗Ⅱ/Ⅲ期试验启动\n\n**发布时间／研究时间**：2026-10-23。\n\n![WHO通报所附刚果（金）布迪布焦病毒病累计确诊病例地理分布图](https://cdn.who.int/media/images/default-source/products/disease-outbreak-news/geographic-distribution-of-cases.jpg?sfvrsn=a690e1b8_4)\n\n图片出处：[WHO原图，统计截至2026年10月20日；仅显示刚果（金）分布，不是中国风险图。](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622)\n\n**摘要**：WHO 10月23日通报：刚果（金）布迪布焦病毒病疫情仍在传播，肯尼亚和尼日利亚已报告输入病例；肯尼亚新增病例集中于已知接触链，未见更广泛社区传播证据。同日，TUMAINI Ⅱ/Ⅲ期平台试验在刚果（金）为首名参与者接种，拟评估候选疫苗的安全性、免疫原性与保护效力。目前仍无获批针对布迪布焦病毒病的疫苗或特异治疗，试验启动不等于已经证明有效。\n\n**证据与局限**：证据类型：WHO公共卫生监测通报＋临床试验启动信息，无本次试验疗效结果。病例发现与接触追踪不完整会影响监测判断，风险评估正在修订。\n\n**为什么值得关注／适用范围**：重要性5/5：关系到跨境防控及受影响地区医疗人员和接触者保护；对一般读者主要是了解疫情与研究状态，不能据此认定中国已出现传播。WHO仍不建议限制与受影响国家的旅行或贸易，具体出行看最新官方通报。\n\n**原始来源**：\n\n- [WHO：10月23日布迪布焦病毒病疫情通报](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622)\n- [CEPI：TUMAINI首名参与者接种（2026-10-23）](https://cepi.net/first-participant-vaccinated-pivotal-phase-23-bundibugyo-vaccine-trial-drc)\n- [ClinicalTrials.gov：NCT07842107（试验登记）](https://clinicaltrials.gov/study/NCT07842107)\n\n### 2．中年减重与较好代谢指标相关：长期维持比短期降秤更值得看\n\n**发布时间／研究时间**：2026-10-21。队列约62岁随访采集于2020—2024年，结合更早成年期记录。\n\n![UCL研究发布页使用的女性练习瑜伽背景照片](https://cls.ucl.ac.uk/wp-content/uploads/2026/10/Lady-doing-yoga-750x400px.jpg)\n\n图片出处：[发布页背景示意图；研究并未随机测试瑜伽减重，也不代表照片人物是受试者。](https://cls.ucl.ac.uk/losing-a-little-weight-in-midlife-may-help-later-heart-health/)\n\n**摘要**：【近7日补充】UCL 10月21日发布研究简报，分析英国1958年出生队列6,309人，将成年期体重轨迹与约62岁健康指标联系起来。相对42岁前体重峰值减重超过5%、并在50—55岁阶段保持较低体重的既往超重者，后续血压、血脂和炎症指标接近长期健康体重组；既往肥胖者减重后也较其他肥胖轨迹组有利，但不能说已完全恢复到健康体重组水平。这是观察性初步分析，不能证明减重本身导致心血管疾病减少。\n\n**证据与局限**：证据类型：纵向观察队列的机构研究简报，非随机试验，本次未确认对应同行评审期刊论文。部分身高体重为自报，可能有残余混杂、选择偏倚；健康指标变化不是心梗、死亡等临床事件终点。\n\n**为什么值得关注／适用范围**：重要性3/5：提示体重管理应兼顾长期代谢健康和可持续维持，不能把5%当作人人适用的快速减重处方。该研究未比较具体药物或饮食方案，也不能外推为极端节食有益；作者特别提醒体重管理同时关注肌肉量与力量。\n\n**原始来源**：\n\n- [UCL CLS原始研究简报：Weight loss and positive ageing](https://cls.ucl.ac.uk/wp-content/uploads/2017/02/CLS-briefing-paper-Weight-loss-and-positive-ageing.pdf)\n- [UCL CLS：发布说明及研究方法（2026-10-21）](https://cls.ucl.ac.uk/losing-a-little-weight-in-midlife-may-help-later-heart-health/)\n\n### 3．WHO推出妇幼热风险监测指标：把预警与健康服务连接起来\n\n**发布时间／研究时间**：2026-10-21。\n\n![WHO妇幼热暴露健康影响监测优先指标技术文件封面](https://cdn.who.int/media/images/default-source/cover-images/publications/impact-of-heat-exposure-on-maternal-and-child-health.tmb-479v.jpg?sfvrsn=39c32077_1)\n\n图片出处：[WHO官方文件封面。](https://www.who.int/publications/i/item/9789240125063)\n\n**摘要**：【近7日补充】WHO、WMO、UNICEF及UNFPA于10月21日发布优先指标框架，帮助各国监测高温对孕产妇、新生儿和儿童的影响。框架将常规妇幼健康、公共卫生监测、气候健康监测和热暴露四类数据结合，关注早产、死产、低出生体重、就诊等信号。它是监测与响应工具，不是证明某项降温措施疗效的新临床试验。\n\n**证据与局限**：证据类型：国际公共卫生机构发布的技术标准／监测框架，综合既有证据与专家工作。健康变化与高温同时出现只能提示需调查的信号，不能直接确定个体因果；具体指标和阈值需按当地情况落地。\n\n**为什么值得关注／适用范围**：重要性3/5：有助于医疗与公共卫生系统将热预警转成服务准备，适用重点是高温地区及易感群体。一般家庭可关注所在地高温预警和卫生部门建议，本条不表示杭州当前处于高温事件，也不提供个人诊断。\n\n**原始来源**：\n\n- [WHO等机构：优先指标技术文件（2026-10-21）](https://www.who.int/publications/i/item/9789240125063)\n- [WHO：发布说明（2026-10-21）](https://www.who.int/news/item/21-10-2026-new-global-framework-launched-to-track-increasing-health-risks-of-extreme-heat-for-pregnant-women--newborns-and-children)\n\n*本简报为新闻与一般健康科普，不做个人诊断或处方。重要性为1—5整数编辑评分；图片版权归原权利人。*\n"
+    },
+    {
       "id": "health-2026-10-24",
       "collectionId": "health",
       "date": "2026-10-24",
@@ -663,5 +790,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-24T01:21:41.277Z"
+  "updatedAt": "2026-10-25T01:15:36.167Z"
 }
