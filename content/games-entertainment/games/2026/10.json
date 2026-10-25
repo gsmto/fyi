@@ -4,6 +4,206 @@
   "month": "2026-10",
   "briefs": [
     {
+      "id": "games-2026-10-25",
+      "collectionId": "games",
+      "date": "2026-10-25",
+      "title": "游戏｜2026-10-25",
+      "summary": "国内关注《拾卡背包》线下试玩；国外关注Arkane协商、《Stupid Never Dies》正式发售、《Dispatch》制作模式及印尼动作新作。",
+      "analysis": "近24小时未核得足以组成整期的重大官宣，精选近7日未收录的5项并逐条标明日期。优先跟进Arkane正式结论、新动作游戏独立评测，以及国产策略新作公开试玩；不把移植、制作模式或商店公开混写为全新正式发售。",
+      "completeness": "full",
+      "sourceConversation": "游戏",
+      "provenance": "生成时间2026-10-25T01:10:19.048Z；北京时间2026-10-25晨间，已读取归档规范、catalog、索引及本月历史并重点与最近5期去重。分别检索中英文游戏媒体、Steam商店、开发者官网及发行新闻稿，主要收录10月21—23日未归档事实与24—25日线下试玩。Arkane期限明确为媒体/工会报道，微软回应用Le Monde与Gematsu对照；未把协商描述为关闭或游戏取消。按主要开发团队所在地分类，日本GPTRACK50与中国资本背景区分，归国外。4张图片均实际从来源取得；3张网页工具打开显示，Steam中文图通过HTTP200 image/jpeg核验。Stupid图片检索受拒或含签名式参数，明确缺图，未使用临时链接。未独立试玩或复测，不推断评测共识。",
+      "score": 4,
+      "items": [
+        {
+          "id": "games-2026-10-25-draw-stow",
+          "title": "《拾卡背包》公开商店页，核聚变提供首职业完整流程试玩",
+          "category": "国内",
+          "summary": "【10月22日公布；24—25日线下试玩，本栏补充】数字潮汐（Math Tide）、热脉游戏推出《孤星猎人》原班团队新作《拾卡背包》，结合卡牌构筑、背包管理和物品合成。北京核聚变开放“旅行商人”职业完整流程试玩；Steam 商店页现已公开，但发售日期仍为“即将宣布”。这是商店公开与线下试玩，不是正式发售，也未核得公开下载 Demo。",
+          "analysis": "重要性3/5：值得关注的独立策略项目，核心看空间管理、合成与连锁效果是否能形成足够多的构筑路线。后续应以公开试玩和玩家实测评估，不能仅凭前作口碑认定新作质量。",
+          "platforms": "PC（Steam）",
+          "keyDates": "2026-10-22商店页公开；2026-10-24—25北京线下试玩；发售日期未定。",
+          "importance": 3,
+          "tags": [
+            "PC",
+            "Steam",
+            "Roguelike",
+            "卡牌构筑",
+            "拾卡背包",
+            "独立游戏"
+          ],
+          "sources": [
+            {
+              "title": "Steam 官方商店：《拾卡背包》",
+              "url": "https://store.steampowered.com/app/4608170/?l=schinese"
+            },
+            {
+              "title": "3DM：团队发布资料与线下试玩安排（10月22日）",
+              "url": "https://www.3dmgame.com/news/202610/3957425.html"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4608170/daff541b80d6f987000e1b30a01e5a2f11908a8f/capsule_616x353_schinese.jpg?t=1792653923",
+              "alt": "《拾卡背包》Steam 官方中文商店宣传图",
+              "sourceUrl": "https://store.steampowered.com/app/4608170/?l=schinese",
+              "caption": "官方商店宣传图，不是独立评测。"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-10-25-arkane-consultation",
+          "title": "Arkane Lyon 去向进入关键协商期，《Blade》尚未官宣取消",
+          "category": "国外",
+          "summary": "【10月23日法国报道及后续更新，本栏补充】Le Monde援引工会消息称，Arkane Lyon关闭计划相关员工协商将于11月13日结束，多种接手方案正在考虑。微软向该报确认正积极寻找合作伙伴支持项目后续开发与商业化；Jason Schreier亦表示其了解有多条保留工作室的路径。期限和谈判进展属于媒体与工会信息，不能写成已经关闭或《Marvel’s Blade》已经取消。",
+          "analysis": "重要性5/5：直接影响《Dishonored》《Deathloop》团队延续与《Blade》能否落地，是本期影响最大的单机开发行业线索。继续等交易、协商或项目公告；工会对完成度的说法不能替代正式发售排期。",
+          "platforms": "工作室／项目层面；本次未公布《Blade》新平台或发售日。",
+          "keyDates": "2026-10-23媒体披露；据报道2026-11-13为员工协商结束节点。",
+          "importance": 5,
+          "tags": [
+            "Arkane Lyon",
+            "Marvel’s Blade",
+            "Xbox",
+            "单机游戏",
+            "行业",
+            "待确认"
+          ],
+          "sources": [
+            {
+              "title": "Le Monde：Arkane Lyon员工协商与微软回应（10月23日）",
+              "url": "https://www.lemonde.fr/pixels/article/2026/10/23/microsoft-veut-fermer-arkane-studio-de-jeu-video-lyonnais-ou-217-emplois-sont-menaces_6799072_4408996.html"
+            },
+            {
+              "title": "Gematsu：原报道整理与Schreier后续更新",
+              "url": "https://www.gematsu.com/2026/10/report-arkane-studios-has-until-november-13-to-find-a-buyer"
+            },
+            {
+              "title": "Jason Schreier：仍有多种保留工作室路径",
+              "url": "https://bsky.app/profile/did:plc:2mkgbhbhqvappkkorf2bzyrp/post/3mykjvhv5wk2p"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.gematsu.com/wp-content/uploads/2026/10/Arkane-Lyon-Deadline_10-23-26-320x180.jpg",
+              "alt": "Gematsu 关于 Arkane Lyon 协商期限报道的配图",
+              "sourceUrl": "https://www.gematsu.com/2026/10/report-arkane-studios-has-until-november-13-to-find-a-buyer",
+              "caption": "报道背景图，不代表接手谈判已有结果。"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-10-25-stupid-never-dies-launch",
+          "title": "《Stupid Never Dies》已正式发售：快速成长与吞噬能力构成动作循环",
+          "category": "国外",
+          "summary": "【10月21日欧美／22日日本发售，本栏补充】日本大阪团队 GPTRACK50 与 SEGA 的动作 RPG《Stupid Never Dies》已登陆 PS5 与 PC（Steam），不是抢先体验。主角以吞噬敌人获取战斗风格，再通过身体部件改造组合能力，地牢探索强调每轮从低等级快速成长。官方列明简繁中文字幕支持；本期未取得足够独立评测，不下“口碑佳作”结论。",
+          "analysis": "重要性4/5：这是近几日值得补看的原创单人动作项目，适合观察快速成长如何与长期养成兼容。已有试玩与正式版应分别看待，实际性能、战斗深度和内容体量还需独立实测验证。",
+          "platforms": "PS5、PC（Steam）；本次未确认 Xbox／Switch 版本。",
+          "keyDates": "2026-10-21欧美；日本2026-10-22。官方列出的美东21日18:00对应北京时间22日06:00。",
+          "importance": 4,
+          "tags": [
+            "PS5",
+            "PC",
+            "Steam",
+            "动作RPG",
+            "Stupid Never Dies",
+            "GPTRACK50"
+          ],
+          "sources": [
+            {
+              "title": "GPTRACK50 官方：日本10月22日发售公告",
+              "url": "https://www.gptrack50.com/news/launchtoday/"
+            },
+            {
+              "title": "官方发行新闻稿：平台、解锁时间与语言",
+              "url": "https://www.gamespress.com/Rip-Bite-Rise-Stupid-Never-Dies-is-Out-Now-on-PC-and-PlayStation-5"
+            },
+            {
+              "title": "Steam 官方商店（可能出现年龄确认页）",
+              "url": "https://store.steampowered.com/app/3486530/Stupid_Never_Dies/"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图说明：已检索官方新闻稿及游戏图库；可用新闻稿缩略图带签名式参数，另一公开封面直链访问被拒，未取得可靠无签名图片，故留空。"
+        },
+        {
+          "id": "games-2026-10-25-dispatch-deluxe-update",
+          "title": "《Dispatch》加入全流程分镜与16小时解说，注意版本和语言限制",
+          "category": "国外",
+          "summary": "【10月22日周年更新，本栏补充】美国 AdHoc Studio 为《Dispatch》数字豪华版加入分镜模式及超过16小时的演员、制作团队解说，可在设置中组合切换，选择不同分支会听到不同内容。更新适用于销售数字豪华版的现有平台，豪华版持有者通常免费，标准版需购买升级；少数地区可能收取费用。解说只有英语且无字幕，分镜模式则保留本体对白的已支持字幕。",
+          "analysis": "重要性3/5：对叙事游戏开发尤其有参考价值，可直接比较原分镜、成片演出与分支选择的制作关系。它是制作过程与重玩体验扩展，不是新增剧情章节；本期不把同期移动移植消息作为重点。",
+          "platforms": "PC、PS5、Xbox Series、Switch、Switch 2，具体以豪华版当地商店支持为准；Switch需先下载对应DLC包。",
+          "keyDates": "2026-10-22公布并可用。",
+          "importance": 3,
+          "tags": [
+            "PC",
+            "PS5",
+            "Xbox Series",
+            "Switch",
+            "Switch 2",
+            "Dispatch",
+            "叙事冒险",
+            "分镜"
+          ],
+          "sources": [
+            {
+              "title": "AdHoc 官方周年公告：模式、平台、地区与语言FAQ",
+              "url": "https://adhocstudio.com/news/dispatch-one-year-anniversary"
+            },
+            {
+              "title": "Gematsu：10月22日更新整理",
+              "url": "https://www.gematsu.com/2026/10/dispatch-coming-to-ios-android-on-december-9-deluxe-edition-commentary-and-storyboard-modes-update-now-available"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://adhoc-studios-website-assets.lon1.digitaloceanspaces.com/fd99be51087433d99f4741b0ef6a2afe.png",
+              "alt": "AdHoc 官方展示《Dispatch》原始分镜战斗场景的截图",
+              "sourceUrl": "https://adhocstudio.com/news/dispatch-one-year-anniversary",
+              "caption": "官方分镜模式示例，对应本次更新。"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-10-25-troublemaker3-announced",
+          "title": "印尼《Troublemaker 3》公布：四主角开放城市动作喜剧，发售日待定",
+          "category": "国外",
+          "summary": "【10月23日公布，本栏补充】印度尼西亚 Gamecom Team 公布三部曲完结篇《Troublemaker 3: Fallen Dynasty》，目前确认 PC（Steam），以四名背景不同的角色串起开放城市与动作喜剧战斗。剧情设定在二代三年后，开发者强调对当地社会与政治议题的讽刺。更多平台及发售日期预计2027年再公布，这不等于确认2027年发售。",
+          "analysis": "重要性3/5：提供了欧美、日本之外值得关注的独立动作项目，地方文化、群像叙事与城市分区是主要辨识度。当前仅到公布与商店展示阶段，规模和完成度仍要等待更完整的实机验证。",
+          "platforms": "PC（Steam）；其他平台尚未确认。",
+          "keyDates": "2026-10-23公布；2027年拟公布更多信息，发售日未定。",
+          "importance": 3,
+          "tags": [
+            "PC",
+            "Steam",
+            "开放世界",
+            "动作",
+            "Troublemaker 3",
+            "印度尼西亚",
+            "独立游戏"
+          ],
+          "sources": [
+            {
+              "title": "Steam 官方商店：平台、语言与待定日期",
+              "url": "https://store.steampowered.com/app/3693220/Troublemaker_3_Fallen_Dynasty/"
+            },
+            {
+              "title": "Gematsu：Gamecom Team公告与开发者说明（10月23日）",
+              "url": "https://www.gematsu.com/2026/10/troublemaker-3-fallen-dynasty-announced-for-pc"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.gematsu.com/wp-content/uploads/2026/10/Troublemaker-3-Fallen-Dynasty_2026_10-23-26_001-320x180.jpg",
+              "alt": "《Troublemaker 3: Fallen Dynasty》公布时公开的游戏截图",
+              "sourceUrl": "https://www.gematsu.com/2026/10/troublemaker-3-fallen-dynasty-announced-for-pc",
+              "caption": "公布阶段截图，最终画面与内容仍可能调整。"
+            }
+          ]
+        }
+      ],
+      "rawText": "# 游戏｜2026-10-25\n\n## 今日重点\n\n近24小时未核得足以组成整期的重大官宣，精选近7日未收录的5项并逐条标明日期。优先跟进Arkane正式结论、新动作游戏独立评测，以及国产策略新作公开试玩；不把移植、制作模式或商店公开混写为全新正式发售。\n\n全期优先级最高的是**Arkane Lyon协商与《Blade》前景**（5/5），其次为已正式发售的《Stupid Never Dies》（4/5）。正文按国内、国外分组，各组内按重要性排序；评分为编辑判断。\n\n## 国内\n\n### 《拾卡背包》公开商店页，核聚变提供首职业完整流程试玩\n\n![《拾卡背包》Steam 官方中文商店宣传图](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4608170/daff541b80d6f987000e1b30a01e5a2f11908a8f/capsule_616x353_schinese.jpg?t=1792653923)\n\n图片出处：[官方商店宣传图，不是独立评测。](https://store.steampowered.com/app/4608170/?l=schinese)\n\n**摘要**：【10月22日公布；24—25日线下试玩，本栏补充】数字潮汐（Math Tide）、热脉游戏推出《孤星猎人》原班团队新作《拾卡背包》，结合卡牌构筑、背包管理和物品合成。北京核聚变开放“旅行商人”职业完整流程试玩；Steam 商店页现已公开，但发售日期仍为“即将宣布”。这是商店公开与线下试玩，不是正式发售，也未核得公开下载 Demo。\n\n**为什么值得关注**：重要性3/5：值得关注的独立策略项目，核心看空间管理、合成与连锁效果是否能形成足够多的构筑路线。后续应以公开试玩和玩家实测评估，不能仅凭前作口碑认定新作质量。\n\n**平台与日期**：PC（Steam） 2026-10-22商店页公开；2026-10-24—25北京线下试玩；发售日期未定。\n\n**来源**：\n\n- [Steam 官方商店：《拾卡背包》](https://store.steampowered.com/app/4608170/?l=schinese)\n- [3DM：团队发布资料与线下试玩安排（10月22日）](https://www.3dmgame.com/news/202610/3957425.html)\n\n## 国外\n\n### Arkane Lyon 去向进入关键协商期，《Blade》尚未官宣取消\n\n![Gematsu 关于 Arkane Lyon 协商期限报道的配图](https://www.gematsu.com/wp-content/uploads/2026/10/Arkane-Lyon-Deadline_10-23-26-320x180.jpg)\n\n图片出处：[报道背景图，不代表接手谈判已有结果。](https://www.gematsu.com/2026/10/report-arkane-studios-has-until-november-13-to-find-a-buyer)\n\n**摘要**：【10月23日法国报道及后续更新，本栏补充】Le Monde援引工会消息称，Arkane Lyon关闭计划相关员工协商将于11月13日结束，多种接手方案正在考虑。微软向该报确认正积极寻找合作伙伴支持项目后续开发与商业化；Jason Schreier亦表示其了解有多条保留工作室的路径。期限和谈判进展属于媒体与工会信息，不能写成已经关闭或《Marvel’s Blade》已经取消。\n\n**为什么值得关注**：重要性5/5：直接影响《Dishonored》《Deathloop》团队延续与《Blade》能否落地，是本期影响最大的单机开发行业线索。继续等交易、协商或项目公告；工会对完成度的说法不能替代正式发售排期。\n\n**平台与日期**：工作室／项目层面；本次未公布《Blade》新平台或发售日。 2026-10-23媒体披露；据报道2026-11-13为员工协商结束节点。\n\n**来源**：\n\n- [Le Monde：Arkane Lyon员工协商与微软回应（10月23日）](https://www.lemonde.fr/pixels/article/2026/10/23/microsoft-veut-fermer-arkane-studio-de-jeu-video-lyonnais-ou-217-emplois-sont-menaces_6799072_4408996.html)\n- [Gematsu：原报道整理与Schreier后续更新](https://www.gematsu.com/2026/10/report-arkane-studios-has-until-november-13-to-find-a-buyer)\n- [Jason Schreier：仍有多种保留工作室路径](https://bsky.app/profile/did:plc:2mkgbhbhqvappkkorf2bzyrp/post/3mykjvhv5wk2p)\n\n### 《Stupid Never Dies》已正式发售：快速成长与吞噬能力构成动作循环\n\n缺图说明：已检索官方新闻稿及游戏图库；可用新闻稿缩略图带签名式参数，另一公开封面直链访问被拒，未取得可靠无签名图片，故留空。\n\n**摘要**：【10月21日欧美／22日日本发售，本栏补充】日本大阪团队 GPTRACK50 与 SEGA 的动作 RPG《Stupid Never Dies》已登陆 PS5 与 PC（Steam），不是抢先体验。主角以吞噬敌人获取战斗风格，再通过身体部件改造组合能力，地牢探索强调每轮从低等级快速成长。官方列明简繁中文字幕支持；本期未取得足够独立评测，不下“口碑佳作”结论。\n\n**为什么值得关注**：重要性4/5：这是近几日值得补看的原创单人动作项目，适合观察快速成长如何与长期养成兼容。已有试玩与正式版应分别看待，实际性能、战斗深度和内容体量还需独立实测验证。\n\n**平台与日期**：PS5、PC（Steam）；本次未确认 Xbox／Switch 版本。 2026-10-21欧美；日本2026-10-22。官方列出的美东21日18:00对应北京时间22日06:00。\n\n**来源**：\n\n- [GPTRACK50 官方：日本10月22日发售公告](https://www.gptrack50.com/news/launchtoday/)\n- [官方发行新闻稿：平台、解锁时间与语言](https://www.gamespress.com/Rip-Bite-Rise-Stupid-Never-Dies-is-Out-Now-on-PC-and-PlayStation-5)\n- [Steam 官方商店（可能出现年龄确认页）](https://store.steampowered.com/app/3486530/Stupid_Never_Dies/)\n\n### 《Dispatch》加入全流程分镜与16小时解说，注意版本和语言限制\n\n![AdHoc 官方展示《Dispatch》原始分镜战斗场景的截图](https://adhoc-studios-website-assets.lon1.digitaloceanspaces.com/fd99be51087433d99f4741b0ef6a2afe.png)\n\n图片出处：[官方分镜模式示例，对应本次更新。](https://adhocstudio.com/news/dispatch-one-year-anniversary)\n\n**摘要**：【10月22日周年更新，本栏补充】美国 AdHoc Studio 为《Dispatch》数字豪华版加入分镜模式及超过16小时的演员、制作团队解说，可在设置中组合切换，选择不同分支会听到不同内容。更新适用于销售数字豪华版的现有平台，豪华版持有者通常免费，标准版需购买升级；少数地区可能收取费用。解说只有英语且无字幕，分镜模式则保留本体对白的已支持字幕。\n\n**为什么值得关注**：重要性3/5：对叙事游戏开发尤其有参考价值，可直接比较原分镜、成片演出与分支选择的制作关系。它是制作过程与重玩体验扩展，不是新增剧情章节；本期不把同期移动移植消息作为重点。\n\n**平台与日期**：PC、PS5、Xbox Series、Switch、Switch 2，具体以豪华版当地商店支持为准；Switch需先下载对应DLC包。 2026-10-22公布并可用。\n\n**来源**：\n\n- [AdHoc 官方周年公告：模式、平台、地区与语言FAQ](https://adhocstudio.com/news/dispatch-one-year-anniversary)\n- [Gematsu：10月22日更新整理](https://www.gematsu.com/2026/10/dispatch-coming-to-ios-android-on-december-9-deluxe-edition-commentary-and-storyboard-modes-update-now-available)\n\n### 印尼《Troublemaker 3》公布：四主角开放城市动作喜剧，发售日待定\n\n![《Troublemaker 3: Fallen Dynasty》公布时公开的游戏截图](https://www.gematsu.com/wp-content/uploads/2026/10/Troublemaker-3-Fallen-Dynasty_2026_10-23-26_001-320x180.jpg)\n\n图片出处：[公布阶段截图，最终画面与内容仍可能调整。](https://www.gematsu.com/2026/10/troublemaker-3-fallen-dynasty-announced-for-pc)\n\n**摘要**：【10月23日公布，本栏补充】印度尼西亚 Gamecom Team 公布三部曲完结篇《Troublemaker 3: Fallen Dynasty》，目前确认 PC（Steam），以四名背景不同的角色串起开放城市与动作喜剧战斗。剧情设定在二代三年后，开发者强调对当地社会与政治议题的讽刺。更多平台及发售日期预计2027年再公布，这不等于确认2027年发售。\n\n**为什么值得关注**：重要性3/5：提供了欧美、日本之外值得关注的独立动作项目，地方文化、群像叙事与城市分区是主要辨识度。当前仅到公布与商店展示阶段，规模和完成度仍要等待更完整的实机验证。\n\n**平台与日期**：PC（Steam）；其他平台尚未确认。 2026-10-23公布；2027年拟公布更多信息，发售日未定。\n\n**来源**：\n\n- [Steam 官方商店：平台、语言与待定日期](https://store.steampowered.com/app/3693220/Troublemaker_3_Fallen_Dynasty/)\n- [Gematsu：Gamecom Team公告与开发者说明（10月23日）](https://www.gematsu.com/2026/10/troublemaker-3-fallen-dynasty-announced-for-pc)\n\n## 值得跟进\n\n接下来优先等待Arkane交易或项目正式结论，以及《Stupid Never Dies》的独立评测与性能反馈。国内策略项目先看公开试玩是否放出；《Dispatch》更新则适合作为叙事与演出制作的具体研究素材。\n\n*图片版权归原权利人；配图是宣传或开发资料，不代表独立评测。*\n"
+    },
+    {
       "id": "games-2026-10-24",
       "collectionId": "games",
       "date": "2026-10-24",
@@ -1331,5 +1531,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-24T01:13:21.625Z"
+  "updatedAt": "2026-10-25T01:10:19.048Z"
 }
