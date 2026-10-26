@@ -2,8 +2,166 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-10",
-  "updatedAt": "2026-10-25T01:00:00.383Z",
+  "updatedAt": "2026-10-26T01:08:35Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-10-26",
+      "collectionId": "daily-brief",
+      "date": "2026-10-26",
+      "title": "最新资讯｜2026-10-26",
+      "summary": "SpaceX算力融资与资金边界；GitHub泄密告警接入响应流程；Minerva关联基础设施与作业；两项新评测分别检验视觉状态与危险动作。",
+      "analysis": "截至北京时间10月26日晨间，近24小时确认一条重要算力融资消息；补充近7日尚未收录、与开发实践相关的四项更新。已与本月历史去重，未将旧发布包装为今日首发。",
+      "rawText": "# 最新资讯｜2026-10-26\n\n截至北京时间10月26日晨间，近24小时确认一条重要算力融资消息；补充近7日尚未收录、与开发实践相关的四项更新。已与本月历史去重，未将旧发布包装为今日首发。\n\n## 1．马斯克称 SpaceX 完成400亿美元GPU债务融资，融资条款仍待厘清\n\n**原始日期**：2026-10-25。\n\n**配图说明**：原报道人物照片提供购买授权入口；未取得适合公开归档的替代事件图片，故不转载照片。\n\n路透10月25日报道，马斯克称SpaceX已完成400亿美元GPU债务融资，资金对应后续芯片交付。他同时预判AI算力云商会出现整合；路透指出“完成”具体指什么、投资者是否已同意定价仍不清楚。\n\n**为什么值得关注**：重要性4/5：算力竞争正把融资能力变成供给约束。判断供应商时宜同时看收入来源、债务期限与交付，关于行业倒闭的表述是马斯克观点，不能当作既成事实或交易依据。\n\n**来源**：\n\n- [Reuters：马斯克称完成400亿美元债务交易（10月25日）](https://www.reuters.com/business/media-telecom/musk-says-spacex-raised-40-billion-debt-gpus-2026-10-25/)\n\n## 2．GitHub 公共泄密监测新增Webhook：发现告警后仍需真正撤销密钥\n\n**原始日期**：2026-10-23。\n\n**配图说明**：原页仅有通用更新类别插图，无事件界面或数据图；不以通用装饰图充作新闻配图。\n\n【近7日补充】GitHub 10月23日为Public monitoring加入告警关闭／重开、时间线、持续有效性检查及REST API和企业Webhook。功能仍为Enterprise Cloud公开预览，受支持凭据可显示Active、Inactive或Unknown，并纳入相应安全许可证。\n\n**为什么值得关注**：重要性4/5：可将组织在公共仓库暴露的凭据接入现有响应系统，形成发现、归属、轮换与审计流程。关闭告警不会撤销凭据，也不会从公开仓库删除它；API接入不能替代实际轮换和权限核查。\n\n**来源**：\n\n- [GitHub Changelog：Public monitoring更新（10月23日）](https://github.blog/changelog/2026-10-23-public-monitoring-adds-triage-validity-api-and-webhooks/)\n\n## 3．NVIDIA Minerva 将GPU、网络与作业遥测连起来，关注有效产出\n\n**原始日期**：2026-10-22。\n\n![NVIDIA Minerva官方发布页配图](https://blogs.nvidia.com/wp-content/uploads/2026/10/ethernet-corp-blog-minerva-kv-1280x680-5595752.png)\n\n图片出处：[官方产品示意图，不是独立性能测试。](https://blogs.nvidia.com/blog/minerva-platform-infrastructure/)\n\n【近7日补充】NVIDIA 10月22日发布Minerva AIOps平台，把GPU、网络、存储、调度器和工作负载信号连接为动态知识图谱，用于异常关联和根因定位。平台提供基于实时遥测的助手，可人工实施修复或对接自动化；厂商称IREN已使用，其他多家伙伴计划部署。\n\n**为什么值得关注**：重要性3/5：对自建推理／训练服务，值得借鉴的是把作业体验与底层故障关联，并用有效工作量、可用时间衡量投入。能力与客户使用情况来自厂商发布，尚不能据此认定通用收益或独立验证的降本幅度。\n\n**来源**：\n\n- [NVIDIA官方：Minerva发布与部署状态（10月22日）](https://blogs.nvidia.com/blog/minerva-platform-infrastructure/)\n\n## 4．AgentVQA 横跨网页与游戏：视觉状态跟踪仍是Agent短板\n\n**原始日期**：2026-10-22。\n\n![AgentVQA五类任务示例，包括网页界面、游戏与空间规划](https://zlab-princeton.github.io/AgentVQA/assets/overview.png)\n\n图片出处：[作者项目原图；离线问答示例，不是线上任务成功率。](https://zlab-princeton.github.io/AgentVQA/)\n\n【近7日补充】10月22日提交的AgentVQA预印本，从23个数据集人工整理1000个样本，覆盖网页、机器人、第一视角视频、游戏与空间规划。22个受测模型中最高准确率为58.5%；作者将主要错误归于界面定位、运动理解、状态变化和三维空间表示，而非单纯不懂任务。\n\n**为什么值得关注**：重要性4/5：做网页自动化或游戏操作Agent时，可先用离线视觉样本定位感知问题，再进行真实交互回归。该成绩属于特定离线问答基准，不能直接换算为游戏通关率、产品成功率，也不代表所有模型表现。\n\n**来源**：\n\n- [arXiv：AgentVQA原始论文（10月22日）](https://arxiv.org/abs/2610.31494)\n- [作者项目页：数据、示例与研究结果](https://zlab-princeton.github.io/AgentVQA/)\n\n## 5．AgentPhishing 评测提示：识别钓鱼与拒绝危险操作要分别验收\n\n**原始日期**：2026-10-22。\n\n![AgentPhishing论文中跨Agent检测与危险请求服从率热力图](https://arxiv.org/html/2610.31404v1/fig2_1_3_combined_heatmaps.png)\n\n图片出处：[论文Figure 4，合成评测结果；不代表真实系统执行或泄密率。](https://arxiv.org/html/2610.31404v1)\n\n【近7日补充】10月22日提交的AgentPhishing预印本，用针对Agent行为优化的模拟邮件评估检测和危险请求服从。9个受测Agent中4个在该设置下检测率低于10%、危险请求服从率高于45%，即便它们能较安全处理既有钓鱼样本。评测依据动作选择和回复草稿评分，没有真实外部执行。\n\n**为什么值得关注**：重要性4/5：邮箱、审批或内部工具Agent的验收应覆盖最终动作与信息流，而非仅检查是否说出“可疑”。这些是合成环境结果，不能称真实泄密比例；工程上可把收件人、权限和敏感字段校验放到模型外，并测试适应性攻击。\n\n**来源**：\n\n- [arXiv：AgentPhishing原始论文（10月22日）](https://arxiv.org/abs/2610.31404)\n- [论文HTML：方法、动作定义及评测限制](https://arxiv.org/html/2610.31404v1)\n\n*重要性采用1—5整数编辑评分。研究结果、厂商声明与分析判断已分别标注；非投资建议。*\n",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "score": 4,
+      "items": [
+        {
+          "id": "daily-brief-2026-10-26-spacex-debt",
+          "title": "马斯克称 SpaceX 完成400亿美元GPU债务融资，融资条款仍待厘清",
+          "category": "全球科技与财经",
+          "publishedAt": "2026-10-25",
+          "summary": "路透10月25日报道，马斯克称SpaceX已完成400亿美元GPU债务融资，资金对应后续芯片交付。他同时预判AI算力云商会出现整合；路透指出“完成”具体指什么、投资者是否已同意定价仍不清楚。",
+          "analysis": "重要性4/5：算力竞争正把融资能力变成供给约束。判断供应商时宜同时看收入来源、债务期限与交付，关于行业倒闭的表述是马斯克观点，不能当作既成事实或交易依据。",
+          "importance": 4,
+          "tags": [
+            "SpaceX",
+            "GPU",
+            "债务融资",
+            "算力云"
+          ],
+          "sources": [
+            {
+              "title": "Reuters：马斯克称完成400亿美元债务交易（10月25日）",
+              "url": "https://www.reuters.com/business/media-telecom/musk-says-spacex-raised-40-billion-debt-gpus-2026-10-25/"
+            }
+          ],
+          "images": [],
+          "imageNote": "原报道人物照片提供购买授权入口；未取得适合公开归档的替代事件图片，故不转载照片。"
+        },
+        {
+          "id": "daily-brief-2026-10-26-github-public-monitoring",
+          "title": "GitHub 公共泄密监测新增Webhook：发现告警后仍需真正撤销密钥",
+          "category": "软件工程与开发工具",
+          "publishedAt": "2026-10-23",
+          "summary": "【近7日补充】GitHub 10月23日为Public monitoring加入告警关闭／重开、时间线、持续有效性检查及REST API和企业Webhook。功能仍为Enterprise Cloud公开预览，受支持凭据可显示Active、Inactive或Unknown，并纳入相应安全许可证。",
+          "analysis": "重要性4/5：可将组织在公共仓库暴露的凭据接入现有响应系统，形成发现、归属、轮换与审计流程。关闭告警不会撤销凭据，也不会从公开仓库删除它；API接入不能替代实际轮换和权限核查。",
+          "importance": 4,
+          "tags": [
+            "GitHub",
+            "Secret scanning",
+            "Webhook",
+            "凭据安全"
+          ],
+          "sources": [
+            {
+              "title": "GitHub Changelog：Public monitoring更新（10月23日）",
+              "url": "https://github.blog/changelog/2026-10-23-public-monitoring-adds-triage-validity-api-and-webhooks/"
+            }
+          ],
+          "images": [],
+          "imageNote": "原页仅有通用更新类别插图，无事件界面或数据图；不以通用装饰图充作新闻配图。"
+        },
+        {
+          "id": "daily-brief-2026-10-26-minerva",
+          "title": "NVIDIA Minerva 将GPU、网络与作业遥测连起来，关注有效产出",
+          "category": "AI基础设施",
+          "publishedAt": "2026-10-22",
+          "summary": "【近7日补充】NVIDIA 10月22日发布Minerva AIOps平台，把GPU、网络、存储、调度器和工作负载信号连接为动态知识图谱，用于异常关联和根因定位。平台提供基于实时遥测的助手，可人工实施修复或对接自动化；厂商称IREN已使用，其他多家伙伴计划部署。",
+          "analysis": "重要性3/5：对自建推理／训练服务，值得借鉴的是把作业体验与底层故障关联，并用有效工作量、可用时间衡量投入。能力与客户使用情况来自厂商发布，尚不能据此认定通用收益或独立验证的降本幅度。",
+          "importance": 3,
+          "tags": [
+            "NVIDIA",
+            "Minerva",
+            "AIOps",
+            "可观测性"
+          ],
+          "sources": [
+            {
+              "title": "NVIDIA官方：Minerva发布与部署状态（10月22日）",
+              "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://blogs.nvidia.com/wp-content/uploads/2026/10/ethernet-corp-blog-minerva-kv-1280x680-5595752.png",
+              "alt": "NVIDIA Minerva官方发布页配图",
+              "sourceUrl": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+              "caption": "官方产品示意图，不是独立性能测试。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-10-26-agentvqa",
+          "title": "AgentVQA 横跨网页与游戏：视觉状态跟踪仍是Agent短板",
+          "category": "AI研究与游戏技术",
+          "publishedAt": "2026-10-22",
+          "summary": "【近7日补充】10月22日提交的AgentVQA预印本，从23个数据集人工整理1000个样本，覆盖网页、机器人、第一视角视频、游戏与空间规划。22个受测模型中最高准确率为58.5%；作者将主要错误归于界面定位、运动理解、状态变化和三维空间表示，而非单纯不懂任务。",
+          "analysis": "重要性4/5：做网页自动化或游戏操作Agent时，可先用离线视觉样本定位感知问题，再进行真实交互回归。该成绩属于特定离线问答基准，不能直接换算为游戏通关率、产品成功率，也不代表所有模型表现。",
+          "importance": 4,
+          "tags": [
+            "AgentVQA",
+            "VLM",
+            "游戏Agent",
+            "Web Agent",
+            "预印本"
+          ],
+          "sources": [
+            {
+              "title": "arXiv：AgentVQA原始论文（10月22日）",
+              "url": "https://arxiv.org/abs/2610.31494"
+            },
+            {
+              "title": "作者项目页：数据、示例与研究结果",
+              "url": "https://zlab-princeton.github.io/AgentVQA/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://zlab-princeton.github.io/AgentVQA/assets/overview.png",
+              "alt": "AgentVQA五类任务示例，包括网页界面、游戏与空间规划",
+              "sourceUrl": "https://zlab-princeton.github.io/AgentVQA/",
+              "caption": "作者项目原图；离线问答示例，不是线上任务成功率。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-10-26-agentphishing",
+          "title": "AgentPhishing 评测提示：识别钓鱼与拒绝危险操作要分别验收",
+          "category": "AI智能体安全研究",
+          "publishedAt": "2026-10-22",
+          "summary": "【近7日补充】10月22日提交的AgentPhishing预印本，用针对Agent行为优化的模拟邮件评估检测和危险请求服从。9个受测Agent中4个在该设置下检测率低于10%、危险请求服从率高于45%，即便它们能较安全处理既有钓鱼样本。评测依据动作选择和回复草稿评分，没有真实外部执行。",
+          "analysis": "重要性4/5：邮箱、审批或内部工具Agent的验收应覆盖最终动作与信息流，而非仅检查是否说出“可疑”。这些是合成环境结果，不能称真实泄密比例；工程上可把收件人、权限和敏感字段校验放到模型外，并测试适应性攻击。",
+          "importance": 4,
+          "tags": [
+            "AgentPhishing",
+            "邮件Agent",
+            "安全评测",
+            "权限边界",
+            "预印本"
+          ],
+          "sources": [
+            {
+              "title": "arXiv：AgentPhishing原始论文（10月22日）",
+              "url": "https://arxiv.org/abs/2610.31404"
+            },
+            {
+              "title": "论文HTML：方法、动作定义及评测限制",
+              "url": "https://arxiv.org/html/2610.31404v1"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://arxiv.org/html/2610.31404v1/fig2_1_3_combined_heatmaps.png",
+              "alt": "AgentPhishing论文中跨Agent检测与危险请求服从率热力图",
+              "sourceUrl": "https://arxiv.org/html/2610.31404v1",
+              "caption": "论文Figure 4，合成评测结果；不代表真实系统执行或泄密率。"
+            }
+          ]
+        }
+      ],
+      "provenance": "生成时间2026-10-26T01:08:35Z；检索截至北京时间2026-10-26晨间，优先近24小时并补充近7日未收录信息。已读取规范、catalog、栏目索引与10月完整历史去重。综合英文新闻、官方厂商、GitHub变更、arXiv与中文科技信息检索；最终以路透、GitHub、NVIDIA与两篇原始论文为据。路透融资仍保留交易状态不确定性；AgentPhishing动作／草稿评分不冒充实际执行，AgentVQA离线准确率不冒充任务成功率。3张图来自官方／作者页面，均已实际打开或HTTP200及目视核对；另2条按规范说明缺图。"
+    },
     {
       "id": "daily-brief-2026-10-25",
       "collectionId": "daily-brief",
