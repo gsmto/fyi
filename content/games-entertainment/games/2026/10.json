@@ -4,6 +4,205 @@
   "month": "2026-10",
   "briefs": [
     {
+      "id": "games-2026-10-26",
+      "collectionId": "games",
+      "date": "2026-10-26",
+      "title": "游戏｜2026-10-26",
+      "sourceConversation": "游戏",
+      "completeness": "full",
+      "summary": "《影之刃零》评测与预载有实质新增；补充《最终幻想：共鸣》正式版、韩国《Graytail》开发窗口与《怪物史瑞克2》合作重制版。",
+      "analysis": "两部分均已检索，按团队／发行所在地划分。本期4条，补充消息明确原始日期；预载、试玩、预售与正式发售分开表述。",
+      "score": 4,
+      "items": [
+        {
+          "id": "games-2026-10-26-phantom-blade-review",
+          "category": "国内",
+          "title": "《影之刃零》评测解禁：战斗获肯定，PC预载27日开始",
+          "publishedAt": "2026-10-26",
+          "summary": "10月26日游民发布PC版9.8分评测，其另一篇报道转述IGN给出9分；两者均肯定战斗表现，也分别指出过场Bug、故事保守或空气墙等问题。25日晚媒体转述官方通知：PC预载北京时间27日10时开始，本体约145GB，预载需预留约300GB。游戏仍未正式发售，评测分数不等于玩家口碑。",
+          "analysis": "重要性5/5：这是相对23日最终预告的实质新增，动作系统、Boss战与技术状态开始有完整评测证据。游民作者明确说明系列粉丝立场；IGN原评本次未能直接打开，故按二手转述标注，不据两篇报道宣称全行业共识。",
+          "importance": 5,
+          "tags": [
+            "影之刃零",
+            "PC",
+            "PS5",
+            "动作冒险",
+            "媒体评测"
+          ],
+          "platforms": [
+            "PC",
+            "PS5"
+          ],
+          "keyDates": "PC预载：2026-10-27 10:00（北京时间）；国内报道正式发售：2026-10-29。Steam本次所见地区页显示10月28日，精确解锁以购买区公告为准，不混写为延期。",
+          "sources": [
+            {
+              "title": "游民原评：9.8分，测试平台PC（10月26日）",
+              "url": "https://www.gamersky.com/news/202610/2234516.shtml"
+            },
+            {
+              "title": "游民转述IGN评分与优缺点（10月26日）",
+              "url": "https://www.gamersky.com/news/202610/2234656.shtml"
+            },
+            {
+              "title": "游民转述官方PC预载安排（10月25日）",
+              "url": "https://www.gamersky.com/news/202610/2234640.shtml"
+            },
+            {
+              "title": "Steam官方商店：开发发行主体与当前地区日期",
+              "url": "https://store.steampowered.com/app/4115450/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/header.jpg?t=1792637475",
+              "alt": "《影之刃零》Steam官方商店封面",
+              "sourceUrl": "https://store.steampowered.com/app/4115450/",
+              "caption": "官方商店美术；不是性能测试截图。"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-10-26-ff-resonance",
+          "category": "国外",
+          "title": "《FINAL FANTASY RESONANCE》正式上线：HD-2D回合制可先试再接存档",
+          "publishedAt": "2026-10-22",
+          "summary": "【近7日补充】Square Enix与LANCARSE开发的《FINAL FANTASY RESONANCE》已正式发售，Steam列10月22日并提供可继承存档的首章试玩。其核心为回合制弱点／击破战斗与Visions角色能力组合，PC版支持简繁中文文本；官方与媒体列有PS5、Xbox Series及双Switch版本。早期评测肯定传统JRPG节奏与现代便利，但也提醒剧情和流程较守旧。",
+          "analysis": "重要性4/5：可观察已停运手游故事如何转化为完整单机RPG，而不是把它当成手游运营消息。试玩能验证回合制节奏；不采用第三方估算销量当官方财报，也不把Steam某语言样本好评率当全平台结论。",
+          "importance": 4,
+          "tags": [
+            "FINAL FANTASY RESONANCE",
+            "PC",
+            "PS5",
+            "Xbox Series",
+            "Switch",
+            "Switch 2",
+            "JRPG"
+          ],
+          "platforms": [
+            "PC",
+            "PS5",
+            "Xbox Series X|S",
+            "Switch",
+            "Switch 2"
+          ],
+          "keyDates": "正式发售：商店／海外公告2026-10-22；SteamDB记录UTC 10月22日16:00，对应北京时间10月23日00:00。试玩已可下载，非抢先体验。",
+          "sources": [
+            {
+              "title": "Steam官方商店：正式版、试玩、语言与开发商",
+              "url": "https://store.steampowered.com/app/3259780/FINAL_FANTASY_RESONANCE/"
+            },
+            {
+              "title": "Square Enix官方站",
+              "url": "https://www.square-enix.com/finalfantasyresonance/en_US/"
+            },
+            {
+              "title": "The Verge：传统回合制体验与限制（10月20日）",
+              "url": "https://www.theverge.com/games/1013958/final-fantasy-resonance-review"
+            },
+            {
+              "title": "SteamDB：Steam商店UTC发行时间记录",
+              "url": "https://steamdb.info/app/3259780/info/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3259780/710da43babb2043f9f6ad0e50023e31167d94708/header.jpg?t=1792758611",
+              "alt": "《FINAL FANTASY RESONANCE》Steam官方封面",
+              "sourceUrl": "https://store.steampowered.com/app/3259780/FINAL_FANTASY_RESONANCE/",
+              "caption": "官方商店美术。"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-10-26-graytail",
+          "category": "国外",
+          "title": "韩国双人团队《Graytail》确认2027年底窗口，旧试玩11月撤下重做",
+          "publishedAt": "2026-10-21",
+          "summary": "【近7日补充】韩国CONCODE在20日ID@Xbox展示后，于21日新闻稿确认《Graytail》计划2027年底登陆Steam、Xbox Series与Xbox on PC，支持Xbox Play Anywhere。新预告首次展示开发中的第三章；取得Outersloth等资金支持后，团队将改进战斗、剧情与区域内容。当前试玩计划2026年11月撤下，改进战斗的新试玩随后再公开，尚无精确日期。",
+          "analysis": "重要性3/5：这是解谜、战斗与小岛探索结合的独立项目，融资支持与可试玩内容比纯愿望单热度更有参考价值。资助并不等于发行收购或质量保证；未采用聚合站更精确的月份，保留开发商新闻稿“late 2027”窗口。",
+          "importance": 3,
+          "tags": [
+            "Graytail",
+            "PC",
+            "Xbox Series",
+            "Xbox Play Anywhere",
+            "解谜",
+            "独立游戏",
+            "韩国"
+          ],
+          "platforms": [
+            "PC（Steam、Xbox on PC）",
+            "Xbox Series X|S"
+          ],
+          "keyDates": "新闻稿：2026-10-21；发售窗口：2027年底；旧试玩撤下：2026年11月。不是已发售或抢先体验。",
+          "sources": [
+            {
+              "title": "CONCODE原始新闻稿（Games Press分发，10月21日）",
+              "url": "https://www.gamespress.com/Mystery-Action-Adventure-Graytail-Reveals-New-Trailer-at-IDXbox-x-IGN-"
+            },
+            {
+              "title": "Steam官方商店",
+              "url": "https://store.steampowered.com/app/2888960/Graytail/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2888960/b6cf37aeea8791ed51793ee779cd258870d3ad28/header.jpg?t=1792521420",
+              "alt": "韩国独立解谜动作游戏《Graytail》官方Steam封面",
+              "sourceUrl": "https://store.steampowered.com/app/2888960/Graytail/",
+              "caption": "官方商店美术；开发团队位于韩国，归国外。"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-10-26-shrek-remastered",
+          "category": "国外",
+          "title": "《DreamWorks Shrek 2 Remastered》定档11月10日，加入四人线上／本地混合合作",
+          "publishedAt": "2026-10-20",
+          "summary": "【近7日补充】Aspyr 20日公布2004年《怪物史瑞克2》游戏的重制增强版，确认11月10日登陆PS5、Xbox Series、Switch、Switch 2和PC。官方商店描述包括材质、UI与过场改进，新增照片模式，并支持最多四人本地、线上及混合合作。Steam当前列有简体中文字幕，不能据此推断所有主机地区的语言包。",
+          "analysis": "重要性3/5：相比单纯怀旧预告，线上与本地混合合作是能改变实际游玩场景的功能更新。仍是预售阶段；画质与联机质量需等正式版验证，不把商店功能说明当性能评测。",
+          "importance": 3,
+          "tags": [
+            "DreamWorks Shrek 2 Remastered",
+            "PC",
+            "PS5",
+            "Xbox Series",
+            "Switch",
+            "Switch 2",
+            "合作冒险"
+          ],
+          "platforms": [
+            "PC（Steam、Epic）",
+            "PS5",
+            "Xbox Series X|S",
+            "Switch",
+            "Switch 2"
+          ],
+          "keyDates": "公布：2026-10-20；正式发售计划：2026-11-10。尚未发售。",
+          "sources": [
+            {
+              "title": "Steam官方商店：发售日、合作模式与语言",
+              "url": "https://store.steampowered.com/app/2523740/DreamWorks_Shrek_2_Remastered/"
+            },
+            {
+              "title": "Gematsu：Aspyr公布跨平台版本（10月20日）",
+              "url": "https://www.gematsu.com/2026/10/dreamworks-shrek-2-remastered-announced-for-ps5-xbox-series-switch-2-switch-and-pc"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2523740/abfa94e9a286146554386662e218aae82716711f/header.jpg?t=1792599321",
+              "alt": "《DreamWorks Shrek 2 Remastered》Steam官方封面",
+              "sourceUrl": "https://store.steampowered.com/app/2523740/DreamWorks_Shrek_2_Remastered/",
+              "caption": "官方商店美术。"
+            }
+          ]
+        }
+      ],
+      "rawText": "# 游戏｜2026-10-26\n\n## 今日重点\n\n《影之刃零》进入完整评测与PC预载准备阶段，区别于此前的最终预告。近24小时其余足够实质且未重复的消息有限，本期精选4条，并补充近7日未收录内容，不以周年短片、传闻或普通奖励凑数。\n\n## 国内\n\n### 1．《影之刃零》评测解禁：战斗获肯定，PC预载27日开始\n\n![《影之刃零》Steam官方商店封面](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/7f882f889630270d3d3fb93825ac6f55b55e7a6c/header.jpg?t=1792637475)\n图片出处：[官方商店美术；不是性能测试截图。](https://store.steampowered.com/app/4115450/)\n\n10月26日游民发布PC版9.8分评测，其另一篇报道转述IGN给出9分；两者均肯定战斗表现，也分别指出过场Bug、故事保守或空气墙等问题。25日晚媒体转述官方通知：PC预载北京时间27日10时开始，本体约145GB，预载需预留约300GB。游戏仍未正式发售，评测分数不等于玩家口碑。\n\n**为什么值得关注**：重要性5/5：这是相对23日最终预告的实质新增，动作系统、Boss战与技术状态开始有完整评测证据。游民作者明确说明系列粉丝立场；IGN原评本次未能直接打开，故按二手转述标注，不据两篇报道宣称全行业共识。\n\n**平台**：PC、PS5。\n\n**日期与状态**：PC预载：2026-10-27 10:00（北京时间）；国内报道正式发售：2026-10-29。Steam本次所见地区页显示10月28日，精确解锁以购买区公告为准，不混写为延期。\n\n**来源**：\n\n- [游民原评：9.8分，测试平台PC（10月26日）](https://www.gamersky.com/news/202610/2234516.shtml)\n- [游民转述IGN评分与优缺点（10月26日）](https://www.gamersky.com/news/202610/2234656.shtml)\n- [游民转述官方PC预载安排（10月25日）](https://www.gamersky.com/news/202610/2234640.shtml)\n- [Steam官方商店：开发发行主体与当前地区日期](https://store.steampowered.com/app/4115450/)\n\n## 国外\n\n### 2．《FINAL FANTASY RESONANCE》正式上线：HD-2D回合制可先试再接存档\n\n![《FINAL FANTASY RESONANCE》Steam官方封面](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3259780/710da43babb2043f9f6ad0e50023e31167d94708/header.jpg?t=1792758611)\n图片出处：[官方商店美术。](https://store.steampowered.com/app/3259780/FINAL_FANTASY_RESONANCE/)\n\n【近7日补充】Square Enix与LANCARSE开发的《FINAL FANTASY RESONANCE》已正式发售，Steam列10月22日并提供可继承存档的首章试玩。其核心为回合制弱点／击破战斗与Visions角色能力组合，PC版支持简繁中文文本；官方与媒体列有PS5、Xbox Series及双Switch版本。早期评测肯定传统JRPG节奏与现代便利，但也提醒剧情和流程较守旧。\n\n**为什么值得关注**：重要性4/5：可观察已停运手游故事如何转化为完整单机RPG，而不是把它当成手游运营消息。试玩能验证回合制节奏；不采用第三方估算销量当官方财报，也不把Steam某语言样本好评率当全平台结论。\n\n**平台**：PC、PS5、Xbox Series X|S、Switch、Switch 2。\n\n**日期与状态**：正式发售：商店／海外公告2026-10-22；SteamDB记录UTC 10月22日16:00，对应北京时间10月23日00:00。试玩已可下载，非抢先体验。\n\n**来源**：\n\n- [Steam官方商店：正式版、试玩、语言与开发商](https://store.steampowered.com/app/3259780/FINAL_FANTASY_RESONANCE/)\n- [Square Enix官方站](https://www.square-enix.com/finalfantasyresonance/en_US/)\n- [The Verge：传统回合制体验与限制（10月20日）](https://www.theverge.com/games/1013958/final-fantasy-resonance-review)\n- [SteamDB：Steam商店UTC发行时间记录](https://steamdb.info/app/3259780/info/)\n\n### 3．韩国双人团队《Graytail》确认2027年底窗口，旧试玩11月撤下重做\n\n![韩国独立解谜动作游戏《Graytail》官方Steam封面](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2888960/b6cf37aeea8791ed51793ee779cd258870d3ad28/header.jpg?t=1792521420)\n图片出处：[官方商店美术；开发团队位于韩国，归国外。](https://store.steampowered.com/app/2888960/Graytail/)\n\n【近7日补充】韩国CONCODE在20日ID@Xbox展示后，于21日新闻稿确认《Graytail》计划2027年底登陆Steam、Xbox Series与Xbox on PC，支持Xbox Play Anywhere。新预告首次展示开发中的第三章；取得Outersloth等资金支持后，团队将改进战斗、剧情与区域内容。当前试玩计划2026年11月撤下，改进战斗的新试玩随后再公开，尚无精确日期。\n\n**为什么值得关注**：重要性3/5：这是解谜、战斗与小岛探索结合的独立项目，融资支持与可试玩内容比纯愿望单热度更有参考价值。资助并不等于发行收购或质量保证；未采用聚合站更精确的月份，保留开发商新闻稿“late 2027”窗口。\n\n**平台**：PC（Steam、Xbox on PC）、Xbox Series X|S。\n\n**日期与状态**：新闻稿：2026-10-21；发售窗口：2027年底；旧试玩撤下：2026年11月。不是已发售或抢先体验。\n\n**来源**：\n\n- [CONCODE原始新闻稿（Games Press分发，10月21日）](https://www.gamespress.com/Mystery-Action-Adventure-Graytail-Reveals-New-Trailer-at-IDXbox-x-IGN-)\n- [Steam官方商店](https://store.steampowered.com/app/2888960/Graytail/)\n\n### 4．《DreamWorks Shrek 2 Remastered》定档11月10日，加入四人线上／本地混合合作\n\n![《DreamWorks Shrek 2 Remastered》Steam官方封面](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2523740/abfa94e9a286146554386662e218aae82716711f/header.jpg?t=1792599321)\n图片出处：[官方商店美术。](https://store.steampowered.com/app/2523740/DreamWorks_Shrek_2_Remastered/)\n\n【近7日补充】Aspyr 20日公布2004年《怪物史瑞克2》游戏的重制增强版，确认11月10日登陆PS5、Xbox Series、Switch、Switch 2和PC。官方商店描述包括材质、UI与过场改进，新增照片模式，并支持最多四人本地、线上及混合合作。Steam当前列有简体中文字幕，不能据此推断所有主机地区的语言包。\n\n**为什么值得关注**：重要性3/5：相比单纯怀旧预告，线上与本地混合合作是能改变实际游玩场景的功能更新。仍是预售阶段；画质与联机质量需等正式版验证，不把商店功能说明当性能评测。\n\n**平台**：PC（Steam、Epic）、PS5、Xbox Series X|S、Switch、Switch 2。\n\n**日期与状态**：公布：2026-10-20；正式发售计划：2026-11-10。尚未发售。\n\n**来源**：\n\n- [Steam官方商店：发售日、合作模式与语言](https://store.steampowered.com/app/2523740/DreamWorks_Shrek_2_Remastered/)\n- [Gematsu：Aspyr公布跨平台版本（10月20日）](https://www.gematsu.com/2026/10/dreamworks-shrek-2-remastered-announced-for-ps5-xbox-series-switch-2-switch-and-pc)\n\n值得继续跟进的是《影之刃零》正式版补丁与真实配置表现，以及独立项目试玩改进是否兑现。日期按具体平台与地区核对；媒体评价、官方功能承诺和已发售状态分别理解。\n",
+      "provenance": "生成时间2026-10-26T01:13:50Z；以北京时间2026-10-26为报告日期，国内外均检索，近24小时优先、补充近7日未收录事项。已读归档规范、catalog、栏目索引及完整10月历史去重。来源包括Steam、厂商官方新闻稿、Gematsu、游民与The Verge；IGN原评未直接打开，明确仅游民转述，不称已亲读。影之刃保留商店地区日期与国内报道差异；Graytail采用开发商late 2027窗口，非聚合站精确月份；FF发售与试玩分开。4张图片均从对应官方Steam页面实际点击HTTPS直链显示确认，与条目一致。未采用普通促销、手游运营、业内传言或只有纪念短片的条目凑数。"
+    },
+    {
       "id": "games-2026-10-25",
       "collectionId": "games",
       "date": "2026-10-25",
@@ -1531,5 +1730,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-25T01:10:19.048Z"
+  "updatedAt": "2026-10-26T01:13:50Z"
 }
