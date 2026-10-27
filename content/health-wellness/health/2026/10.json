@@ -4,6 +4,121 @@
   "month": "2026-10",
   "briefs": [
     {
+      "id": "health-2026-10-27",
+      "collectionId": "health",
+      "date": "2026-10-27",
+      "title": "健康｜2026-10-27",
+      "summary": "减重手术长期缓解与复发、肯尼亚接触者监测新进展、功能性发作数字干预随机试验；区分曾缓解、风险监测与临床适用边界。",
+      "analysis": "长期健康收益优于短期数字；官方监测不是零风险证明，小样本随机试验也不能外推所有患者。",
+      "rawText": "# 健康｜2026-10-27\n\n## 今日 Top 3\n\n截至北京时间10月27日晨间；两条为26日新公布，一条补充20日论文及26日机构解读，均未在近期健康归档收录。\n\n### 1．减重手术长期随访：糖尿病“曾缓解”不等于永久治愈\n\n![俄克拉荷马大学对ARMMS-T2D长期随访研究的报道配图](https://www.ouhsc.edu/Portals/1359/EasyDNNNews/77240/images/diabaetscarepaper1000w1-1000-500-p-T-97.jpg)\n图片出处：[原始页面](https://www.ouhsc.edu/news/details/weight-loss-surgery-produces-lasting-diabetes-remission-long-term-study-finds)；大学原报道配图，非个人减重效果对比图。\n\n**发布时间／研究时间：** 论文2026-10-20；机构解读2026-10-26。\n\n【论文10月20日；大学10月26日解读】ARMMS-T2D分析262名2型糖尿病患者，既往随机分配手术166人、强化医疗与生活方式管理96人，基线平均年龄约50岁、BMI约36.4。中位随访11年、最长14年期间，手术组58%、对照组3%曾达到停用降糖药且HbA1c低于6.5%的缓解标准。较短糖尿病病程、基线不用胰岛素及首年减重更多与缓解较相关，但部分患者随后复发。\n\n**证据类型及适用范围：** 基于既往随机试验的多中心长期随访及缓解／复发预测分析。重要性4/5：为肥胖合并2型糖尿病的长期代谢管理提供证据，重点是持续健康收益而非快速降秤。它是既往随机试验的延长随访与预测分析，不表示58%持续缓解14年，也不能据此断言优于某一种当代减重药；手术适用性、风险和长期营养随访需专业团队评估。\n\n来源：[Diabetes Care原始研究，DOI:10.2337/dc26-1070（10月20日）](https://doi.org/10.2337/dc26-1070)｜[美国糖尿病学会官方Figshare：原始研究摘要与补充材料](https://diabetesjournals.figshare.com/articles/figure/Predictors_of_Type_2_Diabetes_Remission_and_Relapse_after_Metabolic-Bariatric_Surgery_or_Medical-Lifestyle_Therapy_in_the_ARMMS-T2D_Study/33863539)｜[University of Oklahoma：10月26日研究解读](https://www.ouhsc.edu/news/details/weight-loss-surgery-produces-lasting-diabetes-remission-long-term-study-finds)\n\n### 2．WHO：肯尼亚首批20名接触者结束监测，疫情尚未结束\n\n![WHO肯尼亚接触者结束21天监测报道的现场配图](https://afro.who.int/sites/default/files/styles/1920x1080_top/public/2026-10/DSC08845.jpg.webp?itok=SfqfMNLn)\n图片出处：[原始页面](https://afro.who.int/countries/kenya/news/twenty-contacts-kenyas-first-ebola-case-released-quarantine)；来源：WHO非洲区域办公室；报道现场图，不代表疫情已结束。\n\n**发布时间／研究时间：** 2026-10-26。\n\nWHO 10月26日通报，肯尼亚首例输入性布迪布焦病毒病相关的20名接触者完成21天无症状监测及最终评估后解除隔离，仍有98名接触者在隔离。到26日，肯尼亚累计9例确诊、2例死亡；其中8名接触者是在隔离期间出现症状并确诊，不能当作当天新增8例。WHO称病例均属同一关联链，尚无社区传播证据。\n\n**证据类型及适用范围：** 官方疫情监测与公共卫生响应通报。重要性4/5：这是接触追踪的具体进展，而非疫情结束或传播风险为零的证明；“未见证据”受监测覆盖与时间限制。适用于公共卫生与相关旅行信息跟踪，不据此推断中国日常感染风险；WHO仍不建议旅行限制。\n\n来源：[WHO非洲区：Twenty contacts of Kenya’s first Ebola case released from quarantine（10月26日）](https://afro.who.int/countries/kenya/news/twenty-contacts-kenyas-first-ebola-case-released-quarantine)\n\n### 3．功能性发作随机试验：自助网络干预可作为专科照护的补充\n\n*配图缺省：原始研究可读取摘要，但未取得适合且确认可公开使用的研究图；不以无关脑部或病人照片代替。*\n\n**发布时间／研究时间：** 2026-10-26；2022年2月至2024年4月，随访至随机分组后12个月。\n\nJAMA Neurology 10月26日发表澳大利亚单中心三组随机试验：107名经视频脑电确认功能性发作的成人入组，96人进入完整分析集。加入5节Re-PROGRAM网络自助课程后，6周、6个月和12个月的发作频率较仅常规照护下降，总体频率比0.35（95%CI 0.18—0.69）。治疗师指导组的发作频率差异未达显著，两种干预直接比较也无显著差异，不能宣布自助优于治疗师。\n\n**证据类型及适用范围：** 人体三组随机对照试验，12个月随访。重要性3/5：为难以获得专业心理照护的特定患者提供可扩展方向；课程是在常规照护之外加入，并非替代诊断或治疗。样本较小、83%为女性，发作主要由日记记录且部分缺失靠回忆补全；研究排除活动性癫痫，结果不能用于自行判断抽搐原因，也不代表治愈率65%。\n\n来源：[JAMA Neurology原始研究：Internet Intervention for Functional Seizures（10月26日）](https://jamanetwork.com/journals/jamaneurology/article-abstract/2855733)｜[澳新临床试验注册：ACTRN12622000262707](https://anzctr.org.au/Trial/Registration/TrialReview.aspx?id=383157)\n\n本期为新闻与一般健康科普，不构成个人诊断、处方或自行停药、手术的依据。关注长期健康和可持续管理，不以短期体重、单次缓解或单篇研究代替完整评估。\n",
+      "completeness": "full",
+      "sourceConversation": "健康",
+      "provenance": "生成时间2026-10-27T01:19:28.868Z；截至北京时间2026-10-27晨间，近24小时优先，补充近7日尚未收录论文。已读取归档规范、catalog、健康索引与10月完整历史去重。综合检索中国卫生疾控、WHO、医学期刊和国际研究机构。排除已在19日归档的TEMPUS内容；未将NIH26日科普或药物商业争议当作新的疗效证据。入选ARMMS-T2D论文20日、机构26日解读；原期刊全文403，核对ADA官方Figshare原始摘要与补充材料及大学原始说明，并明确长期随访和“曾缓解”口径。JAMA Neurology26日原始摘要、注册资料及WHO26日原始通报均已打开核对。两张机构原页面HTTPS图片经网页图像读取确认，第三条缺少合适可公开使用图，images留空并注明原因。WHO图片itok为站点图片样式参数，不是限时凭据。未调用个人健康数据，未写任何私人健康或会话标识。",
+      "score": 4,
+      "items": [
+        {
+          "id": "health-2026-10-27-armms-longterm",
+          "title": "减重手术长期随访：糖尿病“曾缓解”不等于永久治愈",
+          "category": "减重",
+          "summary": "【论文10月20日；大学10月26日解读】ARMMS-T2D分析262名2型糖尿病患者，既往随机分配手术166人、强化医疗与生活方式管理96人，基线平均年龄约50岁、BMI约36.4。中位随访11年、最长14年期间，手术组58%、对照组3%曾达到停用降糖药且HbA1c低于6.5%的缓解标准。较短糖尿病病程、基线不用胰岛素及首年减重更多与缓解较相关，但部分患者随后复发。",
+          "analysis": "重要性4/5：为肥胖合并2型糖尿病的长期代谢管理提供证据，重点是持续健康收益而非快速降秤。它是既往随机试验的延长随访与预测分析，不表示58%持续缓解14年，也不能据此断言优于某一种当代减重药；手术适用性、风险和长期营养随访需专业团队评估。",
+          "importance": 4,
+          "tags": [
+            "减重手术",
+            "肥胖",
+            "2型糖尿病",
+            "长期随访",
+            "ARMMS-T2D"
+          ],
+          "sources": [
+            {
+              "title": "Diabetes Care原始研究，DOI:10.2337/dc26-1070（10月20日）",
+              "url": "https://doi.org/10.2337/dc26-1070"
+            },
+            {
+              "title": "美国糖尿病学会官方Figshare：原始研究摘要与补充材料",
+              "url": "https://diabetesjournals.figshare.com/articles/figure/Predictors_of_Type_2_Diabetes_Remission_and_Relapse_after_Metabolic-Bariatric_Surgery_or_Medical-Lifestyle_Therapy_in_the_ARMMS-T2D_Study/33863539"
+            },
+            {
+              "title": "University of Oklahoma：10月26日研究解读",
+              "url": "https://www.ouhsc.edu/news/details/weight-loss-surgery-produces-lasting-diabetes-remission-long-term-study-finds"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.ouhsc.edu/Portals/1359/EasyDNNNews/77240/images/diabaetscarepaper1000w1-1000-500-p-T-97.jpg",
+              "alt": "俄克拉荷马大学对ARMMS-T2D长期随访研究的报道配图",
+              "sourceUrl": "https://www.ouhsc.edu/news/details/weight-loss-surgery-produces-lasting-diabetes-remission-long-term-study-finds",
+              "caption": "大学原报道配图，非个人减重效果对比图。"
+            }
+          ],
+          "evidenceType": "基于既往随机试验的多中心长期随访及缓解／复发预测分析",
+          "publishedAt": "论文2026-10-20；机构解读2026-10-26"
+        },
+        {
+          "id": "health-2026-10-27-kenya-monitoring",
+          "title": "WHO：肯尼亚首批20名接触者结束监测，疫情尚未结束",
+          "category": "健康",
+          "summary": "WHO 10月26日通报，肯尼亚首例输入性布迪布焦病毒病相关的20名接触者完成21天无症状监测及最终评估后解除隔离，仍有98名接触者在隔离。到26日，肯尼亚累计9例确诊、2例死亡；其中8名接触者是在隔离期间出现症状并确诊，不能当作当天新增8例。WHO称病例均属同一关联链，尚无社区传播证据。",
+          "analysis": "重要性4/5：这是接触追踪的具体进展，而非疫情结束或传播风险为零的证明；“未见证据”受监测覆盖与时间限制。适用于公共卫生与相关旅行信息跟踪，不据此推断中国日常感染风险；WHO仍不建议旅行限制。",
+          "importance": 4,
+          "tags": [
+            "WHO",
+            "公共卫生",
+            "布迪布焦病毒病",
+            "肯尼亚",
+            "接触追踪"
+          ],
+          "sources": [
+            {
+              "title": "WHO非洲区：Twenty contacts of Kenya’s first Ebola case released from quarantine（10月26日）",
+              "url": "https://afro.who.int/countries/kenya/news/twenty-contacts-kenyas-first-ebola-case-released-quarantine"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://afro.who.int/sites/default/files/styles/1920x1080_top/public/2026-10/DSC08845.jpg.webp?itok=SfqfMNLn",
+              "alt": "WHO肯尼亚接触者结束21天监测报道的现场配图",
+              "sourceUrl": "https://afro.who.int/countries/kenya/news/twenty-contacts-kenyas-first-ebola-case-released-quarantine",
+              "caption": "来源：WHO非洲区域办公室；报道现场图，不代表疫情已结束。"
+            }
+          ],
+          "evidenceType": "官方疫情监测与公共卫生响应通报",
+          "publishedAt": "2026-10-26"
+        },
+        {
+          "id": "health-2026-10-27-functional-seizures",
+          "title": "功能性发作随机试验：自助网络干预可作为专科照护的补充",
+          "category": "医学",
+          "summary": "JAMA Neurology 10月26日发表澳大利亚单中心三组随机试验：107名经视频脑电确认功能性发作的成人入组，96人进入完整分析集。加入5节Re-PROGRAM网络自助课程后，6周、6个月和12个月的发作频率较仅常规照护下降，总体频率比0.35（95%CI 0.18—0.69）。治疗师指导组的发作频率差异未达显著，两种干预直接比较也无显著差异，不能宣布自助优于治疗师。",
+          "analysis": "重要性3/5：为难以获得专业心理照护的特定患者提供可扩展方向；课程是在常规照护之外加入，并非替代诊断或治疗。样本较小、83%为女性，发作主要由日记记录且部分缺失靠回忆补全；研究排除活动性癫痫，结果不能用于自行判断抽搐原因，也不代表治愈率65%。",
+          "importance": 3,
+          "tags": [
+            "功能性发作",
+            "随机试验",
+            "数字健康",
+            "心理干预",
+            "Re-PROGRAM"
+          ],
+          "sources": [
+            {
+              "title": "JAMA Neurology原始研究：Internet Intervention for Functional Seizures（10月26日）",
+              "url": "https://jamanetwork.com/journals/jamaneurology/article-abstract/2855733"
+            },
+            {
+              "title": "澳新临床试验注册：ACTRN12622000262707",
+              "url": "https://anzctr.org.au/Trial/Registration/TrialReview.aspx?id=383157"
+            }
+          ],
+          "images": [],
+          "imageNote": "原始研究可读取摘要，但未取得适合且确认可公开使用的研究图；不以无关脑部或病人照片代替。",
+          "evidenceType": "人体三组随机对照试验，12个月随访",
+          "publishedAt": "2026-10-26",
+          "studyPeriod": "2022年2月至2024年4月，随访至随机分组后12个月"
+        }
+      ]
+    },
+    {
       "id": "health-2026-10-26",
       "collectionId": "health",
       "date": "2026-10-26",
@@ -893,5 +1008,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-26T01:23:21Z"
+  "updatedAt": "2026-10-27T01:19:28.868Z"
 }
