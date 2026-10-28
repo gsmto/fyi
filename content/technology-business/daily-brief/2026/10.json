@@ -2,8 +2,184 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-10",
-  "updatedAt": "2026-10-27T01:08:30.353Z",
+  "updatedAt": "2026-10-28T01:03:18.034Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-10-28",
+      "collectionId": "daily-brief",
+      "date": "2026-10-28",
+      "title": "最新资讯｜2026-10-28",
+      "summary": "Genie 4 交互世界研究预览；CUDA 显存配额与开源 GPU 共享；Oracle–OpenAI 企业集成；Agent 对专家判断的影响；Copilot 辅助权限正式可用。",
+      "analysis": "重点是把 AI 的可展示能力转换为可运维、可采购和可独立验收的工作流。关注开放范围、资源边界及人类审核的实际独立性，避免将预览和合作规划视为成熟交付。",
+      "rawText": "# 最新资讯｜2026-10-28\n\n截至北京时间10月28日晨间，精选5条，已与最近归档去重：4条为10月27日公布，1条为10月26日的重要开发工具更新。今日重点集中在世界模型、算力利用率和企业 Agent 落地；不按领域配额补入价值较低的市场或游戏消息。以下“值得关注”是分析判断，重要性5分代表重大方向变化，4分代表影响较广或直接关系开发实践。\n\n## 1．Genie 4 研究预览：可交互世界开始同步生成声音与对话\n\n![Google DeepMind 发布的 Genie 4 官方横幅，中央为蜂鸟场景](https://lh3.googleusercontent.com/i7iotPkcMbMubxRzAdriO5wsIsowROonBvjLNnmPbOaRgEb1k4LKTBqay5VrcPpZi0R4il_bYCCsPYQ0Gy_-XbAw66azAGEfE-E6_9Izz5apP0BMJVE=w1200-h630-n-nu-rw)\n图片出处：[官方原始页面](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/)。\n\nGoogle DeepMind 10月27日公布 Genie 4，可在交互世界中同步生成音乐、环境声与对话，并通过自然语言实时改变场景。当前仅向可信测试者提供研究预览；Project Genie、Gemini API 和 AI Studio 的后续开放仍属预告。官方承认长时间运行后的物体一致性、复杂物理交互、文字与空间准确性仍有局限。\n\n**为什么值得关注：它为游戏概念验证、交互叙事和 Agent 训练环境提供了新的实验方向，因此列为5分。实际采用前应检验控制可重复性、延迟与持续一致性；现阶段不能据此认定已具备传统游戏引擎的确定性或生产交付能力。**\n\n来源：[Google DeepMind：Genie 4（10月27日）](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/)｜[Google 官方发布说明（10月27日）](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/)｜[Investing.com 中文转述（10月28日）](https://hk.investing.com/news/stock-market-news/article-93CH-1721079)\n\n## 2．NVIDIA 详解 GPU 显存强制配额：共享算力更接近可运维服务\n\n![NVIDIA 官方图解对比 GPU 时间切片与 SM 并行共享](https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/image1-12-625x648-png.webp)\n图片出处：[官方原始页面](https://developer.nvidia.com/blog/memory-enforced-gpu-sharing-in-kubernetes-with-nvidia-cuda-13-4/)。\n\nNVIDIA 10月27日介绍 CUDA 13.4 的显存边界强制机制，可为共享 GPU 工作负载设置固定额度，或保底额度与突发上限。开源 GPU Fractioning Operator 负责节点侧执行，KAI Scheduler 0.18.0 通过 NvFractions 接入调度。部署仍需匹配驱动、容器运行时和 GPU Operator 等组件，不能只修改 Pod 的资源数字。\n\n**为什么值得关注：对多模型推理、开发测试和小批训练，减少整卡闲置可能比继续添卡更直接，因此列为4分。显存配额也不等于完整硬件隔离：官方说明默认 time-slicing 各自有错误域，而 SM-sharing 共享错误域；应按租户可信程度和故障容忍度选择。**\n\n来源：[NVIDIA 技术博客：Memory-Enforced GPU Sharing（10月27日）](https://developer.nvidia.com/blog/memory-enforced-gpu-sharing-in-kubernetes-with-nvidia-cuda-13-4/)｜[官方开源仓库：kai-scheduler/gpu-fractioning](https://github.com/kai-scheduler/gpu-fractioning)\n\n## 3．Oracle 与 OpenAI 扩大合作：企业应用向 ChatGPT 工作流靠拢\n\n![OpenAI 与 Oracle 应用合作公告的蓝色官方横幅](https://images.ctfassets.net/kftzwdyauwt9/2NtuSxL760WPfJi1wbdQwh/c651b8dac0f73296f731f9fbe7b827d9/openai-oracle-apps-chatgpt-blue-seo-image-1920x1080.png?w=1600&h=900&fit=fill)\n图片出处：[官方原始页面](https://openai.com/index/oracle-apps-in-chatgpt/)。\n\nOpenAI 与 Oracle 10月27日宣布扩大合作，Oracle 正在开发 AI Workspace，将应用和数据接入 ChatGPT，目标覆盖财务、采购与规划等工作流。App Composer 也计划结合 Codex 等工具构建应用，并由 OCI 承载部署；这些集成愿景不代表全部功能已普遍可用。已明确的采购变化是美国 Oracle 客户可通过 Oracle Marketplace 购买 OpenAI API、Codex 与 ChatGPT Work，并使用符合条件的 Universal Credits。\n\n**为什么值得关注：AI 工具正在进入企业既有采购、权限与业务数据体系，因此列为4分。对开发团队，机会在获批数据连接和可审计流程；对商业观察，更应跟踪正式上线范围、采用率与实际收入，而非将合作公告直接等同于新增订单。**\n\n来源：[OpenAI：Oracle apps in ChatGPT（10月27日）](https://openai.com/index/oracle-apps-in-chatgpt/)｜[Oracle 官方合作公告（10月27日）](https://www.oracle.com/ca-fr/news/announcement/ai-world-oracle-reinvents-enterprise-computing-for-the-ai-era-with-openai-2026-10-27/)\n\n## 4．Anthropic 实验：有人审核，仍可能跟随 Agent 的隐藏偏好\n\n![Anthropic 研究图：参与者任务、Agent 随机偏好与结果比较的实验设计](https://www-cdn.anthropic.com/images/4zrzovbb/website/ea6b9bd3ca8b59f150d912a3855fc1beaf9e7792-1920x926.png)\n图片出处：[官方原始页面](https://www.anthropic.com/research/agents-judgment-calls)。\n\nAnthropic 10月27日公布实验：招募61名专业分析人员，其中50人使用 Claude Code 完成虚构农业合作社的分析任务。研究随机设置 Agent 在各项选择上的隐藏倾向；在四项分析决策中，参与者有86%的选择与该倾向一致，若完全不受影响，研究设计下的参照约为50%。这是特定任务、模型和人为强化倾向下的实验结果；86%不是错误率，也不是所有专业人员使用 AI 的普遍比例。\n\n**为什么值得关注：人工确认能否构成独立审查，需要检验而不能仅看流程上有没有签字，因此列为4分。开发分析类 Agent 时，可先记录人的判断标准，再展示模型建议、替代解释和依据；本次依据作者研究说明，未确认同行评审状态，不将结果视为已建立的普遍共识。**\n\n来源：[Anthropic 原始研究说明：How AI agents shape experts’ judgment calls（10月27日）](https://www.anthropic.com/research/agents-judgment-calls)｜[作者链接的论文原文 PDF（本次未完整核阅）](https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf)\n\n## 5．Copilot 辅助权限正式可用：把自动批准与人工确认分层\n\n![GitHub 官方截图：VS Code 中选择 Assisted permissions 权限模式](https://github.blog/wp-content/uploads/2026/10/682276582-721daad7-9307-4b74-8c93-0280e399cc0b.jpg?resize=2064%2C1096)\n图片出处：[官方原始页面](https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available/)。\n\n【近7日补充：10月26日，本栏首次收录】GitHub 宣布 Assisted permissions 在 Copilot CLI、Copilot app 和 VS Code 正式可用。模型评估命令、文件路径和 URL 的权限请求，被判定明确安全的请求自动通过，其余请求交给用户批准。企业管理员可禁止 Allow All 同时保留 Assisted，也能单独禁用 Assisted，并配置新会话默认模式。\n\n**为什么值得关注：它给开发 Agent 的交互提供了具体范式——在减少重复确认的同时保留管理员约束，因此列为4分。模型判断仍存在误差，辅助权限应与实际运行权限、沙箱及审计配合；不能把“由模型判断安全”当成确定性安全证明。**\n\n来源：[GitHub Changelog：Assisted permissions generally available（10月26日）](https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available/)\n\n值得继续跟进的是：世界模型何时开放可实际测试的接口，以及企业 Agent 的权限、数据连接和人工判断能否接受独立验收。产品演示、合作愿景与研究结论的适用范围应分别看待。\n",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "生成时间2026-10-28T01:03:18.034Z；检索截止北京时间2026-10-28晨间。覆盖全球英文科技与官方技术源、中文科技商业转述、GitHub开源仓库和原始研究动态；优先10月27日公布内容，补充未收录的10月26日开发工具更新。已通过GitHub连接读取归档协议、catalog、栏目索引及10月完整历史并去重。已检索并通过HTTPS读取五项官方正文，另核对Google发布说明、Oracle公告、GPU Fractioning仓库及中文转述。Anthropic研究以作者研究说明为依据，未完整核阅其链接PDF且未确认同行评审。五张图片均由对应官方页面实际提取、无凭据HTTPS请求返回200且为图片内容，并视觉核对相关性；使用稳定公开直链，无临时签名链接。重要性为编辑判断，未采用市场价格预测。",
+      "score": 5,
+      "items": [
+        {
+          "id": "daily-brief-2026-10-28-genie-4",
+          "title": "Genie 4 研究预览：可交互世界开始同步生成声音与对话",
+          "category": "AI / 游戏开发",
+          "summary": "Google DeepMind 10月27日公布 Genie 4，可在交互世界中同步生成音乐、环境声与对话，并通过自然语言实时改变场景。当前仅向可信测试者提供研究预览；Project Genie、Gemini API 和 AI Studio 的后续开放仍属预告。官方承认长时间运行后的物体一致性、复杂物理交互、文字与空间准确性仍有局限。",
+          "analysis": "为什么值得关注：它为游戏概念验证、交互叙事和 Agent 训练环境提供了新的实验方向，因此列为5分。实际采用前应检验控制可重复性、延迟与持续一致性；现阶段不能据此认定已具备传统游戏引擎的确定性或生产交付能力。",
+          "importance": 5,
+          "tags": [
+            "Google DeepMind",
+            "Genie 4",
+            "世界模型",
+            "游戏原型",
+            "研究预览"
+          ],
+          "sources": [
+            {
+              "title": "Google DeepMind：Genie 4（10月27日）",
+              "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+            },
+            {
+              "title": "Google 官方发布说明（10月27日）",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-genie-4/"
+            },
+            {
+              "title": "Investing.com 中文转述（10月28日）",
+              "url": "https://hk.investing.com/news/stock-market-news/article-93CH-1721079"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://lh3.googleusercontent.com/i7iotPkcMbMubxRzAdriO5wsIsowROonBvjLNnmPbOaRgEb1k4LKTBqay5VrcPpZi0R4il_bYCCsPYQ0Gy_-XbAw66azAGEfE-E6_9Izz5apP0BMJVE=w1200-h630-n-nu-rw",
+              "alt": "Google DeepMind 发布的 Genie 4 官方横幅，中央为蜂鸟场景",
+              "sourceUrl": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-10-28-gpu-memory-enforcement",
+          "title": "NVIDIA 详解 GPU 显存强制配额：共享算力更接近可运维服务",
+          "category": "软件工程 / 算力与开源",
+          "summary": "NVIDIA 10月27日介绍 CUDA 13.4 的显存边界强制机制，可为共享 GPU 工作负载设置固定额度，或保底额度与突发上限。开源 GPU Fractioning Operator 负责节点侧执行，KAI Scheduler 0.18.0 通过 NvFractions 接入调度。部署仍需匹配驱动、容器运行时和 GPU Operator 等组件，不能只修改 Pod 的资源数字。",
+          "analysis": "为什么值得关注：对多模型推理、开发测试和小批训练，减少整卡闲置可能比继续添卡更直接，因此列为4分。显存配额也不等于完整硬件隔离：官方说明默认 time-slicing 各自有错误域，而 SM-sharing 共享错误域；应按租户可信程度和故障容忍度选择。",
+          "importance": 4,
+          "tags": [
+            "CUDA 13.4",
+            "Kubernetes",
+            "KAI Scheduler",
+            "GPU Fractioning",
+            "开源"
+          ],
+          "sources": [
+            {
+              "title": "NVIDIA 技术博客：Memory-Enforced GPU Sharing（10月27日）",
+              "url": "https://developer.nvidia.com/blog/memory-enforced-gpu-sharing-in-kubernetes-with-nvidia-cuda-13-4/"
+            },
+            {
+              "title": "官方开源仓库：kai-scheduler/gpu-fractioning",
+              "url": "https://github.com/kai-scheduler/gpu-fractioning"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/10/image1-12-625x648-png.webp",
+              "alt": "NVIDIA 官方图解对比 GPU 时间切片与 SM 并行共享",
+              "sourceUrl": "https://developer.nvidia.com/blog/memory-enforced-gpu-sharing-in-kubernetes-with-nvidia-cuda-13-4/"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-10-28-oracle-openai-apps",
+          "title": "Oracle 与 OpenAI 扩大合作：企业应用向 ChatGPT 工作流靠拢",
+          "category": "全球科技与商业",
+          "summary": "OpenAI 与 Oracle 10月27日宣布扩大合作，Oracle 正在开发 AI Workspace，将应用和数据接入 ChatGPT，目标覆盖财务、采购与规划等工作流。App Composer 也计划结合 Codex 等工具构建应用，并由 OCI 承载部署；这些集成愿景不代表全部功能已普遍可用。已明确的采购变化是美国 Oracle 客户可通过 Oracle Marketplace 购买 OpenAI API、Codex 与 ChatGPT Work，并使用符合条件的 Universal Credits。",
+          "analysis": "为什么值得关注：AI 工具正在进入企业既有采购、权限与业务数据体系，因此列为4分。对开发团队，机会在获批数据连接和可审计流程；对商业观察，更应跟踪正式上线范围、采用率与实际收入，而非将合作公告直接等同于新增订单。",
+          "importance": 4,
+          "tags": [
+            "Oracle",
+            "OpenAI",
+            "企业软件",
+            "ChatGPT",
+            "Codex",
+            "云采购"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI：Oracle apps in ChatGPT（10月27日）",
+              "url": "https://openai.com/index/oracle-apps-in-chatgpt/"
+            },
+            {
+              "title": "Oracle 官方合作公告（10月27日）",
+              "url": "https://www.oracle.com/ca-fr/news/announcement/ai-world-oracle-reinvents-enterprise-computing-for-the-ai-era-with-openai-2026-10-27/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.ctfassets.net/kftzwdyauwt9/2NtuSxL760WPfJi1wbdQwh/c651b8dac0f73296f731f9fbe7b827d9/openai-oracle-apps-chatgpt-blue-seo-image-1920x1080.png?w=1600&h=900&fit=fill",
+              "alt": "OpenAI 与 Oracle 应用合作公告的蓝色官方横幅",
+              "sourceUrl": "https://openai.com/index/oracle-apps-in-chatgpt/"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-10-28-agents-expert-judgment",
+          "title": "Anthropic 实验：有人审核，仍可能跟随 Agent 的隐藏偏好",
+          "category": "研究 / 智能体",
+          "summary": "Anthropic 10月27日公布实验：招募61名专业分析人员，其中50人使用 Claude Code 完成虚构农业合作社的分析任务。研究随机设置 Agent 在各项选择上的隐藏倾向；在四项分析决策中，参与者有86%的选择与该倾向一致，若完全不受影响，研究设计下的参照约为50%。这是特定任务、模型和人为强化倾向下的实验结果；86%不是错误率，也不是所有专业人员使用 AI 的普遍比例。",
+          "analysis": "为什么值得关注：人工确认能否构成独立审查，需要检验而不能仅看流程上有没有签字，因此列为4分。开发分析类 Agent 时，可先记录人的判断标准，再展示模型建议、替代解释和依据；本次依据作者研究说明，未确认同行评审状态，不将结果视为已建立的普遍共识。",
+          "importance": 4,
+          "tags": [
+            "Anthropic",
+            "人机协作",
+            "人类监督",
+            "因果分析",
+            "研究局限"
+          ],
+          "sources": [
+            {
+              "title": "Anthropic 原始研究说明：How AI agents shape experts’ judgment calls（10月27日）",
+              "url": "https://www.anthropic.com/research/agents-judgment-calls"
+            },
+            {
+              "title": "作者链接的论文原文 PDF（本次未完整核阅）",
+              "url": "https://www-cdn.anthropic.com/519c17a5d23a794e8b6d50a854048d0b61e0d73a.pdf"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/ea6b9bd3ca8b59f150d912a3855fc1beaf9e7792-1920x926.png",
+              "alt": "Anthropic 研究图：参与者任务、Agent 随机偏好与结果比较的实验设计",
+              "sourceUrl": "https://www.anthropic.com/research/agents-judgment-calls"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-10-28-copilot-assisted-permissions",
+          "title": "Copilot 辅助权限正式可用：把自动批准与人工确认分层",
+          "category": "开发工具 / Agent",
+          "summary": "【近7日补充：10月26日，本栏首次收录】GitHub 宣布 Assisted permissions 在 Copilot CLI、Copilot app 和 VS Code 正式可用。模型评估命令、文件路径和 URL 的权限请求，被判定明确安全的请求自动通过，其余请求交给用户批准。企业管理员可禁止 Allow All 同时保留 Assisted，也能单独禁用 Assisted，并配置新会话默认模式。",
+          "analysis": "为什么值得关注：它给开发 Agent 的交互提供了具体范式——在减少重复确认的同时保留管理员约束，因此列为4分。模型判断仍存在误差，辅助权限应与实际运行权限、沙箱及审计配合；不能把“由模型判断安全”当成确定性安全证明。",
+          "importance": 4,
+          "tags": [
+            "GitHub Copilot",
+            "VS Code",
+            "CLI",
+            "权限管理",
+            "开发实践"
+          ],
+          "sources": [
+            {
+              "title": "GitHub Changelog：Assisted permissions generally available（10月26日）",
+              "url": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://github.blog/wp-content/uploads/2026/10/682276582-721daad7-9307-4b74-8c93-0280e399cc0b.jpg?resize=2064%2C1096",
+              "alt": "GitHub 官方截图：VS Code 中选择 Assisted permissions 权限模式",
+              "sourceUrl": "https://github.blog/changelog/2026-10-26-github-copilot-assisted-permissions-generally-available/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "daily-brief-2026-10-27",
       "collectionId": "daily-brief",
