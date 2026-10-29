@@ -2,8 +2,215 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-10",
-  "updatedAt": "2026-10-28T01:03:18.034Z",
+  "updatedAt": "2026-10-29T01:06:42Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-10-29",
+      "collectionId": "daily-brief",
+      "date": "2026-10-29",
+      "title": "最新资讯｜2026-10-29",
+      "summary": "Gemini 4 Carbon限量开放；GitHub强化Agent交付与开源原型；Alphabet云增长与现金流分化；补充LFM3与Opera本地AI及3D Web新能力。",
+      "analysis": "模型竞赛延伸到持续任务、交付组织与端侧部署；以任务完成率、权限和现金成本检验产品及商业承诺。",
+      "rawText": "# 最新资讯｜2026-10-29\n\n截至北京时间10月29日晨间，精选5条。前三条为10月28日新公布；后两条为10月27日尚未收录的重要更新，分别标注，不把媒体转载日期当作首次发布日期。近期已收录的Genie 4、Oracle合作与Copilot权限消息不再重复。综合英文原始公告、开源社区技术说明、中文科技与商业媒体核对；没有同等价值的新游戏发售新闻，以直接影响游戏开发的Web能力补足。\n\n## 1．Gemini 4 Carbon公布：长程工程与网络防御能力增强，先限量开放\n\n![Google Gemini 4 Carbon官方发布主视觉](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png)\n\n图片出处：[原始页面](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/)；Google原公告配图；品牌主视觉，并非独立性能验证。\n\n**发布时间：** 2026-10-28。\n\nGoogle公布Gemini 4 Carbon，主打长程工程任务与漏洞发现、验证、修补，厂商报告的Artificial Analysis Intelligence Index v5.0得分为59。本周先向部分网络防御团队开放，再经Fairwind计划扩展至可信伙伴，尚未给出普通开发者全面可用日期。公告列出的首发价格为每百万输入/输出token 2/10美元，首发期后为4/20美元；公布价格不等于现在即可采购调用。\n\n**为什么值得关注：** 重要性5/5：前沿模型竞争进一步转向能够持续完成工程工作的Agent。接入评估应使用真实仓库、任务完成率和权限边界测试；榜单与内部安全评测不等于生产环境表现，也不代表不存在提示注入风险。\n\n来源：[Google原始公告（10月28日）](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/)｜[Google DeepMind模型页与评测口径](https://deepmind.google/models/gemini/)\n\n## 2．GitHub Universe：多模型编排、跨仓库任务与开源原型工具一起推进\n\n![GitHub Universe 2026官方大会主视觉](https://github.blog/wp-content/uploads/2026/10/686528641-0e20e617-dc8d-4bb3-bd66-70d248ba125f.png)\n\n图片出处：[原始页面](https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/)；GitHub官方总览配图。\n\n**发布时间：** 2026-10-28。\n\nGitHub发布面向Agent工作的Copilot app，并以Copilot Fusion编排多模型；项目和云端会话连续性让跨仓库、跨工具工作更集中。GitHub Enterprise客户可通过销售渠道启用Copilot功能并按AI credits用量付费，自助开通仍待推出，既有方案可保留。同期开放的MIT项目Replica可依据团队自己的组件、模式和文档生成交互原型，并可选自托管Hub收集反馈。\n\n**为什么值得关注：** 重要性4/5：值得观察软件交付从“选模型写代码”向“组织任务、复用上下文、验证交付”迁移。开发团队可以先用小型跨仓库任务和内部设计系统试点，分别核算路由成本、审核质量与原型可维护性；发布功能的开放状态应逐项核查。\n\n来源：[GitHub Universe官方总览（10月28日）](https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/)｜[Replica官方开源公告与仓库入口](https://github.blog/changelog/2026-10-28-introducing-replica-an-open-source-ai-prototyping-tool/)｜[GitHub 10月更新列表与各功能发布状态](https://github.blog/changelog/month/10-2026/)\n\n## 3．Alphabet三季度：云收入翻倍，资本开支仍压过经营现金流\n\n![Alphabet投资者关系网站公司标识](https://s206.q4cdn.com/479360582/files/design/alphabet_logo.png)\n\n图片出处：[原始页面](https://abc.xyz/investor/)；Alphabet投资者关系网站标识，用于识别报道主体，非财务趋势图。\n\n**发布时间：** 2026-10-28。\n\nAlphabet公布截至9月30日季度业绩：营收约1275.8亿美元、同比增长25%，Google Cloud收入约307亿美元、同比增长103%，其中TPU系统销售也贡献增长。当季经营现金流422.90亿美元，资本开支513.55亿美元，公司定义的非GAAP自由现金流为负90.65亿美元，继二季度后再次为负；过去12个月自由现金流仍为正197.47亿美元。归属普通股股东净利润约261.7亿美元，股权投资损失影响盈利，不能把利润下降直接解释成主营业务衰退。\n\n**为什么值得关注：** 重要性4/5：AI需求已有收入体现，但现金回报与基础设施投入仍需分开判断。后续观察云业务收入构成、折旧和现金流，而非只看增长率或盘后一刻的价格；这是公司财务事实与观察框架，不构成买卖建议。\n\n来源：[Alphabet向SEC提交的原始三季度业绩公告](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm)｜[公司财报转载：现金流表与非GAAP调节表](https://www.marketscreener.com/news/alphabet-2026-q3-earnings-press-release-ce785cd3d981f42c)｜[每日经济新闻10月29日科技早参：财报交叉核对](https://www.nbd.com.cn/articles/2026-10-29/4626132.html)\n\n## 4．LFM3开放权重：约2B级多模态模型为本地专用Agent提供新选项\n\n![LFM3多模态模型家族发布图](https://img.ithome.com/newsuploadfiles/2026/10/6a8ce4ee-2b34-4f25-887c-00323acb23a0.jpg?x-bce-process=image/format,f_auto)\n\n图片出处：[原始页面](https://www.ithome.com/1/019/099.htm)；IT之家报道所载LFM3发布图；原始技术结论以Liquid AI说明为准。\n\n**发布时间：** 2026-10-27。\n\n【近7日补充，10月27日发布；中文报道28日】Liquid AI发布LFM3家族，以1.7B基础模型衍生文本、视觉、音频、全模态和决策等约2B级模型，权重已在Hugging Face提供。厂商称文本模型支持256K上下文、4bit权重约1GB，可在单张GPU上微调；这不是长上下文运行总内存或端到端延迟保证。模型使用LFM Open License，商业使用受公司年营收门槛限制，不能当成无条件Apache 2.0许可。\n\n**为什么值得关注：** 重要性4/5：本地工具调用、文档提取、语音交互和结构化判断获得更小的部署候选。应先验证目标语言、领域数据和失败时的回退路径，再决定是否微调；当前能力与速度结论主要来自厂商评测，不把参数小直接等同于任务可靠。\n\n来源：[Liquid AI原始发布与架构说明（10月27日）](https://www.liquid.ai/blog/lfm3)｜[Liquid AI在Hugging Face发布的技术说明](https://huggingface.co/blog/LiquidAI/lfm3)｜[LFM Open License v1.0原条款](https://www.liquid.ai/lfm-license)｜[IT之家10月28日报道与原始发布交叉核对](https://www.ithome.com/1/019/099.htm)\n\n## 5．Opera推进WebAI与HTML-in-Canvas：本地AI、真实DOM进入浏览器3D场景\n\n![Opera官方WebAI本地模型选择界面](https://www-static-sites.operacdn.com/wp-content/uploads/sites/5/2026/10/Opera-WebAI-Press-01.png)\n\n图片出处：[原始页面](https://press.opera.com/2026/10/27/opera-doubles-down-on-local-ai-shipping-models-directly-in-its-browsers/)；Opera原始发布图，展示WebAI设置；不是HTML-in-Canvas演示截图。\n\n**发布时间：** 2026-10-27。\n\n【近7日补充，10月27日发布】Opera开始预览WebAI，让网站或扩展在授权后调用设备上的模型，首批在Opera One推出，GX、Neon后续跟进；支持范围与性能取决于平台和硬件。同日推出的HTML-in-Canvas演示把可点击按钮、表单和可选择文字放进2D/3D场景。Opera将其列为早期预览；Chrome开发者26日另称Chrome 157已稳定发布该API，说明不同浏览器和内核版本的状态需要分别核实。\n\n**为什么值得关注：** 重要性3/5：对游戏内菜单、3D房间终端、可视化工具和本地智能应用都有直接参考价值。可先用同源内容做小原型，检查交互、可访问性、导出与兼容回退；Electron应核对所捆绑Chromium及API支持，不能因Opera或Chrome公告就假定已可用。\n\n来源：[Opera官方公告：本地AI与HTML-in-Canvas（10月27日）](https://press.opera.com/2026/10/27/opera-doubles-down-on-local-ai-shipping-models-directly-in-its-browsers/)｜[Opera HTML-in-Canvas介绍与演示入口](https://blogs.opera.com/news/2026/10/opera-brings-html-in-canvas-to-the-browser/)｜[Chrome开发者：Chrome 157 HTML-in-Canvas（10月26日）](https://developer.chrome.com/blog/html-in-canvas?hl=en)\n\n今日观察：前沿模型、交付平台与本地模型都在争取更长、更完整的任务。对开发实践，最有用的验证仍是可复现的任务结果、清晰的执行权限和真实成本；对市场，收入增长与现金流兑现需要同时观察。\n",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "生成时间2026-10-29T01:06:42Z；检索覆盖截至Asia/Shanghai 2026-10-29晨间，优先最近24小时，补充2026-10-27尚未收录的重要技术发布及10月26日Chrome对应API文档作为背景。已通过GitHub读取docs/ARCHIVING.md、catalog、栏目索引及10月完整月文件去重。全球英文原始公告、GitHub开源发布与Hugging Face厂商技术说明为技术依据，交叉检索IT之家、每日经济新闻及国际媒体。Carbon和GitHub页面通过HTML及搜索索引核对；LFM3核对厂商技术说明与许可证；财报核对SEC原始公告索引、公司公告转载中的现金流与调节表及中文报道，SEC直接网页读取受限，未将市场预期或盘后价格作主要结论；Opera与Chrome原始资料分别标注发布时间、内核版本和开放状态。技术效果中的厂商报告与推断已区分，未自行运行模型基准。五张图片均由实际原页面提取（Alphabet为页面协议相对地址规范化至HTTPS），逐个GET 200、核对图片类型与解码尺寸并视觉检查；公开稳定地址无临时签名。仅写指定栏目月文件与索引，不含凭据或私人会话标识。",
+      "score": 4,
+      "items": [
+        {
+          "id": "daily-brief-2026-10-29-gemini-carbon",
+          "title": "Gemini 4 Carbon公布：长程工程与网络防御能力增强，先限量开放",
+          "category": "AI / 大模型 / 智能体",
+          "publishedAt": "2026-10-28",
+          "summary": "Google公布Gemini 4 Carbon，主打长程工程任务与漏洞发现、验证、修补，厂商报告的Artificial Analysis Intelligence Index v5.0得分为59。本周先向部分网络防御团队开放，再经Fairwind计划扩展至可信伙伴，尚未给出普通开发者全面可用日期。公告列出的首发价格为每百万输入/输出token 2/10美元，首发期后为4/20美元；公布价格不等于现在即可采购调用。",
+          "analysis": "重要性5/5：前沿模型竞争进一步转向能够持续完成工程工作的Agent。接入评估应使用真实仓库、任务完成率和权限边界测试；榜单与内部安全评测不等于生产环境表现，也不代表不存在提示注入风险。",
+          "importance": 5,
+          "tags": [
+            "Gemini 4 Carbon",
+            "长程任务",
+            "网络安全",
+            "模型发布"
+          ],
+          "sources": [
+            {
+              "title": "Google原始公告（10月28日）",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+            },
+            {
+              "title": "Google DeepMind模型页与评测口径",
+              "url": "https://deepmind.google/models/gemini/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png",
+              "alt": "Google Gemini 4 Carbon官方发布主视觉",
+              "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+              "caption": "Google原公告配图；品牌主视觉，并非独立性能验证。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-10-29-github-universe",
+          "title": "GitHub Universe：多模型编排、跨仓库任务与开源原型工具一起推进",
+          "category": "软件工程 / 开发工具",
+          "publishedAt": "2026-10-28",
+          "summary": "GitHub发布面向Agent工作的Copilot app，并以Copilot Fusion编排多模型；项目和云端会话连续性让跨仓库、跨工具工作更集中。GitHub Enterprise客户可通过销售渠道启用Copilot功能并按AI credits用量付费，自助开通仍待推出，既有方案可保留。同期开放的MIT项目Replica可依据团队自己的组件、模式和文档生成交互原型，并可选自托管Hub收集反馈。",
+          "analysis": "重要性4/5：值得观察软件交付从“选模型写代码”向“组织任务、复用上下文、验证交付”迁移。开发团队可以先用小型跨仓库任务和内部设计系统试点，分别核算路由成本、审核质量与原型可维护性；发布功能的开放状态应逐项核查。",
+          "importance": 4,
+          "tags": [
+            "GitHub Universe",
+            "Copilot Fusion",
+            "Replica",
+            "开源",
+            "多仓库",
+            "设计系统"
+          ],
+          "sources": [
+            {
+              "title": "GitHub Universe官方总览（10月28日）",
+              "url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/"
+            },
+            {
+              "title": "Replica官方开源公告与仓库入口",
+              "url": "https://github.blog/changelog/2026-10-28-introducing-replica-an-open-source-ai-prototyping-tool/"
+            },
+            {
+              "title": "GitHub 10月更新列表与各功能发布状态",
+              "url": "https://github.blog/changelog/month/10-2026/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://github.blog/wp-content/uploads/2026/10/686528641-0e20e617-dc8d-4bb3-bd66-70d248ba125f.png",
+              "alt": "GitHub Universe 2026官方大会主视觉",
+              "sourceUrl": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+              "caption": "GitHub官方总览配图。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-10-29-alphabet-earnings",
+          "title": "Alphabet三季度：云收入翻倍，资本开支仍压过经营现金流",
+          "category": "全球科技 / 财经市场",
+          "publishedAt": "2026-10-28",
+          "summary": "Alphabet公布截至9月30日季度业绩：营收约1275.8亿美元、同比增长25%，Google Cloud收入约307亿美元、同比增长103%，其中TPU系统销售也贡献增长。当季经营现金流422.90亿美元，资本开支513.55亿美元，公司定义的非GAAP自由现金流为负90.65亿美元，继二季度后再次为负；过去12个月自由现金流仍为正197.47亿美元。归属普通股股东净利润约261.7亿美元，股权投资损失影响盈利，不能把利润下降直接解释成主营业务衰退。",
+          "analysis": "重要性4/5：AI需求已有收入体现，但现金回报与基础设施投入仍需分开判断。后续观察云业务收入构成、折旧和现金流，而非只看增长率或盘后一刻的价格；这是公司财务事实与观察框架，不构成买卖建议。",
+          "importance": 4,
+          "tags": [
+            "Alphabet",
+            "财报",
+            "Google Cloud",
+            "资本开支",
+            "自由现金流"
+          ],
+          "sources": [
+            {
+              "title": "Alphabet向SEC提交的原始三季度业绩公告",
+              "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000080/googexhibit991q32026.htm"
+            },
+            {
+              "title": "公司财报转载：现金流表与非GAAP调节表",
+              "url": "https://www.marketscreener.com/news/alphabet-2026-q3-earnings-press-release-ce785cd3d981f42c"
+            },
+            {
+              "title": "每日经济新闻10月29日科技早参：财报交叉核对",
+              "url": "https://www.nbd.com.cn/articles/2026-10-29/4626132.html"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://s206.q4cdn.com/479360582/files/design/alphabet_logo.png",
+              "alt": "Alphabet投资者关系网站公司标识",
+              "sourceUrl": "https://abc.xyz/investor/",
+              "caption": "Alphabet投资者关系网站标识，用于识别报道主体，非财务趋势图。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-10-29-lfm3",
+          "title": "LFM3开放权重：约2B级多模态模型为本地专用Agent提供新选项",
+          "category": "AI / 开源模型",
+          "publishedAt": "2026-10-27",
+          "summary": "【近7日补充，10月27日发布；中文报道28日】Liquid AI发布LFM3家族，以1.7B基础模型衍生文本、视觉、音频、全模态和决策等约2B级模型，权重已在Hugging Face提供。厂商称文本模型支持256K上下文、4bit权重约1GB，可在单张GPU上微调；这不是长上下文运行总内存或端到端延迟保证。模型使用LFM Open License，商业使用受公司年营收门槛限制，不能当成无条件Apache 2.0许可。",
+          "analysis": "重要性4/5：本地工具调用、文档提取、语音交互和结构化判断获得更小的部署候选。应先验证目标语言、领域数据和失败时的回退路径，再决定是否微调；当前能力与速度结论主要来自厂商评测，不把参数小直接等同于任务可靠。",
+          "importance": 4,
+          "tags": [
+            "LFM3",
+            "Liquid AI",
+            "本地推理",
+            "开放权重",
+            "多模态",
+            "模型许可"
+          ],
+          "sources": [
+            {
+              "title": "Liquid AI原始发布与架构说明（10月27日）",
+              "url": "https://www.liquid.ai/blog/lfm3"
+            },
+            {
+              "title": "Liquid AI在Hugging Face发布的技术说明",
+              "url": "https://huggingface.co/blog/LiquidAI/lfm3"
+            },
+            {
+              "title": "LFM Open License v1.0原条款",
+              "url": "https://www.liquid.ai/lfm-license"
+            },
+            {
+              "title": "IT之家10月28日报道与原始发布交叉核对",
+              "url": "https://www.ithome.com/1/019/099.htm"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://img.ithome.com/newsuploadfiles/2026/10/6a8ce4ee-2b34-4f25-887c-00323acb23a0.jpg?x-bce-process=image/format,f_auto",
+              "alt": "LFM3多模态模型家族发布图",
+              "sourceUrl": "https://www.ithome.com/1/019/099.htm",
+              "caption": "IT之家报道所载LFM3发布图；原始技术结论以Liquid AI说明为准。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-10-29-opera-web-platform",
+          "title": "Opera推进WebAI与HTML-in-Canvas：本地AI、真实DOM进入浏览器3D场景",
+          "category": "Web / 游戏开发技术",
+          "publishedAt": "2026-10-27",
+          "summary": "【近7日补充，10月27日发布】Opera开始预览WebAI，让网站或扩展在授权后调用设备上的模型，首批在Opera One推出，GX、Neon后续跟进；支持范围与性能取决于平台和硬件。同日推出的HTML-in-Canvas演示把可点击按钮、表单和可选择文字放进2D/3D场景。Opera将其列为早期预览；Chrome开发者26日另称Chrome 157已稳定发布该API，说明不同浏览器和内核版本的状态需要分别核实。",
+          "analysis": "重要性3/5：对游戏内菜单、3D房间终端、可视化工具和本地智能应用都有直接参考价值。可先用同源内容做小原型，检查交互、可访问性、导出与兼容回退；Electron应核对所捆绑Chromium及API支持，不能因Opera或Chrome公告就假定已可用。",
+          "importance": 3,
+          "tags": [
+            "Opera",
+            "WebAI",
+            "HTML-in-Canvas",
+            "WebGL",
+            "游戏UI",
+            "Electron"
+          ],
+          "sources": [
+            {
+              "title": "Opera官方公告：本地AI与HTML-in-Canvas（10月27日）",
+              "url": "https://press.opera.com/2026/10/27/opera-doubles-down-on-local-ai-shipping-models-directly-in-its-browsers/"
+            },
+            {
+              "title": "Opera HTML-in-Canvas介绍与演示入口",
+              "url": "https://blogs.opera.com/news/2026/10/opera-brings-html-in-canvas-to-the-browser/"
+            },
+            {
+              "title": "Chrome开发者：Chrome 157 HTML-in-Canvas（10月26日）",
+              "url": "https://developer.chrome.com/blog/html-in-canvas?hl=en"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www-static-sites.operacdn.com/wp-content/uploads/sites/5/2026/10/Opera-WebAI-Press-01.png",
+              "alt": "Opera官方WebAI本地模型选择界面",
+              "sourceUrl": "https://press.opera.com/2026/10/27/opera-doubles-down-on-local-ai-shipping-models-directly-in-its-browsers/",
+              "caption": "Opera原始发布图，展示WebAI设置；不是HTML-in-Canvas演示截图。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "daily-brief-2026-10-28",
       "collectionId": "daily-brief",
