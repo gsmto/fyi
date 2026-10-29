@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "collectionId": "health",
-  "updatedAt": "2026-10-28T01:26:48Z",
+  "updatedAt": "2026-10-29T01:19:47Z",
   "shards": [
     {
       "month": "2026-10",
       "path": "2026/10.json",
-      "briefCount": 10,
-      "itemCount": 30
+      "briefCount": 11,
+      "itemCount": 33
     }
   ]
 }
