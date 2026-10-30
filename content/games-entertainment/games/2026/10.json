@@ -4,6 +4,198 @@
   "month": "2026-10",
   "briefs": [
     {
+      "id": "games-2026-10-30",
+      "collectionId": "games",
+      "date": "2026-10-30",
+      "title": "游戏｜2026-10-30",
+      "summary": "影之刃零已正式解锁；The Duskbloods延期至2027年；Gothic 1 Remake开放模组工具，另有两项DLC／主机日期。",
+      "analysis": "区分正式发售、延期、功能更新和既有作品移植；原始公告优先，旧消息只在明确日期且未收录时补充。",
+      "rawText": "# 游戏｜2026-10-30\n\n## 今日重点\n\n《影之刃零》正式解锁与《The Duskbloods》延期是今日首要变化；《Gothic 1 Remake》开始开放模组工具。精选5条，主要为10月29日新增，另补充28日尚未归档的《Cronos》DLC日期。国内外按主要开发团队归类，重要性5分为重大正式发售、4分为重要排期或生态变化、3分为实质DLC与独立游戏动态。\n\n## 国内\n\n### 《影之刃零》已正式发售，注意全球解锁的跨日差异\n\n北京灵游坊S-GAME的武侠动作游戏已于北京时间10月29日10时在PS5、PC（Steam／Epic）正式解锁，此次是全游戏发售，区别于此前预载和评测解禁。美国西岸对应10月28日19时，因此美区支持页及Steam显示28日并非再次改期；PS5实体版另计划2027年推出。\n\n**为什么关注（5/5）：** 国产大型单机进入实际玩家检验阶段；后续更值得看不同配置的性能、补丁与完整流程反馈，少量首发用户评价不能直接当长期共识。\n\n[Steam官方商店：已发行状态](https://store.steampowered.com/app/4115450/Phantom_Blade_Zero/)｜[PlayStation美区官方支持：当地日期](https://www.playstation.com/en-us/support/games/phantom-blade-zero-support/)｜[GamesRadar：全球解锁时间与实体版安排，10月28日](https://www.gamesradar.com/games/action-rpg/phantom-blade-zero-release-date-time/)\n\n![《影之刃零》Steam官方宣传封面](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976)\n*图片出处：[https://store.steampowered.com/app/4115450/Phantom_Blade_Zero/](https://store.steampowered.com/app/4115450/Phantom_Blade_Zero/)。*\n\n## 国外\n\n### 《The Duskbloods》延期至2027年，继续调整规则与平衡\n\nFromSoftware于10月29日正式将Switch 2独占多人动作游戏的发售窗口从2026年改为2027年，尚未给出具体月日。官方说明是在8月网络测试后，为实现多种行动与策略选择，增加规则、平衡的最终调整时间；这不是单人《血源》续作的公布。\n\n**为什么关注（4/5）：** 这是Switch 2重要第三方阵容的实质排期变化；应跟进下一次测试与明确日期，不把“2027年”解读为已经确定年初发售。\n\n[FromSoftware：10月29日官方延期公告](https://www.theduskbloods.jp/article/261029_1.html)｜[Gematsu：平台与延期交叉核对](https://www.gematsu.com/2026/10/the-duskbloods-delayed-to-2027)\n\n![《The Duskbloods》官方标志，图源为10月29日延期公告](https://www.theduskbloods.jp/resources/images/common/ogp/ogp_image.png)\n*图片出处：[https://www.theduskbloods.jp/article/261029_1.html](https://www.theduskbloods.jp/article/261029_1.html)。*\n\n### 《Gothic 1 Remake》推出功能更新，并开放首阶段ModKit\n\n西班牙Alkimia Interactive与THQ Nordic于10月29日推出Feature Update 1，PS5、Xbox Series X|S、PC新增照片模式、Marvin模式及外观选项。同日官方Steam公告发布ModKit Beta，公开完整游戏AngelScript脚本、文档和示例，并提供Steam Workshop入口；开发者尚未承诺更多工具的时间。\n\n**为什么关注（4/5）：** 比普通修复更值得关注的是模组生态开始开放。官方仓库说明使用定制UE 5.4.3和Hazelight的AngelScript集成；公开脚本受项目模组条款约束，不代表整款游戏以通用开源许可开放。\n\n[THQ Nordic：10月29日Feature Update 1官方公告](https://thqnordic.com/news/smile-there-is-an-update-gothic-1-remake-gets-photo-mode-and-more)｜[官方Steam公告：Modkit BETA](https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302235306)｜[Alkimia官方ModKit仓库与文档](https://github.com/AlkimiaInteractive/G1R-Modkit)｜[Steam官方商店及配图](https://store.steampowered.com/app/1297900/Gothic_1_Remake/)\n\n![《Gothic 1 Remake》官方商店封面，非本次更新截图](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1787564876)\n*图片出处：[https://store.steampowered.com/app/1297900/Gothic_1_Remake/](https://store.steampowered.com/app/1297900/Gothic_1_Remake/)。*\n\n### 《Cronos: Lazarus》故事DLC定档12月3日\n\n补充10月28日尚未收录的消息：波兰Bloober Team宣布《Cronos: The New Dawn》故事DLC《Lazarus》于12月3日推出，涉及PC、PS5、Xbox Series X|S、Switch 2。Steam页已列该日并注明需拥有本体，开发署名包括Bloober Team和PixelAnt Games；玩家改操控Warden，战斗取向更主动，包含诱饵与短时隐身等能力。\n\n**为什么关注（3/5）：** 它提供新主角和实质玩法变化，值得生存恐怖玩家跟进；目前是发售预告，尚不能评价最终流程长度、性能和品质。\n\n[Steam官方DLC页面：日期、内容与本体要求](https://store.steampowered.com/app/4768180/Cronos_Lazarus/)｜[Gematsu：10月28日开发商公告与平台核对](https://www.gematsu.com/2026/10/cronos-the-new-dawn-story-dlc-cronos-lazarus-launches-december-3)\n\n![《Cronos: Lazarus》官方DLC宣传图](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4768180/411a12bf6a84488dfa98243ac44afd670beb3166/capsule_616x353.jpg?t=1793200387)\n*图片出处：[https://store.steampowered.com/app/4768180/Cronos_Lazarus/](https://store.steampowered.com/app/4768180/Cronos_Lazarus/)。*\n\n### 《The Dark Queen of Mortholme》12月3日登陆三款主机\n\n10月29日，发行方Rhine Games与Monster Theater宣布Mosu开发的短篇叙事动作游戏将于12月3日登陆PS5、Xbox Series X|S及初代Switch，未宣布Switch 2原生版。PC的itch.io、Steam版本早已推出，本次新增是主机日期；玩家扮演最终Boss，面对反复复活并成长的勇者，通过战斗与选择改变关系。\n\n**为什么关注（3/5）：** 它用短流程反转传统英雄成长叙事，适合关注独立游戏和Boss战设计的人；这次不把既有PC版包装成全新首发。\n\n[Gematsu：10月29日发行方公告，含官方帖子与预告](https://www.gematsu.com/2026/10/the-dark-queen-of-mortholme-coming-to-ps5-xbox-series-and-switch-on-december-3)｜[Steam官方商店：既有PC版和游戏设计](https://store.steampowered.com/app/3587610/The_Dark_Queen_of_Mortholme/)\n\n![《The Dark Queen of Mortholme》官方商店封面](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3587610/aa42e5bc83f8e5e952e98e4ec5115d9d947643c1/capsule_616x353.jpg?t=1793243808)\n*图片出处：[https://store.steampowered.com/app/3587610/The_Dark_Queen_of_Mortholme/](https://store.steampowered.com/app/3587610/The_Dark_Queen_of_Mortholme/)。*\n\n后续关注《影之刃零》的补丁与实际运行质量，以及《The Duskbloods》何时给出更明确窗口。模组开放和DLC新增玩法值得看，但工具成熟度、地区商店上架及最终品质仍要以后续实装为准。\n",
+      "completeness": "full",
+      "sourceConversation": "游戏",
+      "provenance": "真实生成时间2026-10-30T01:22:16Z；Asia/Shanghai 2026-10-30晨间。通过GitHub连接读取docs/ARCHIVING.md、catalog、games索引与10月完整历史去重；主检索最近24小时，补充28日尚未收录的Cronos DLC公告，覆盖近7日。国内检索中文媒体、Steam及PlayStation官方影之刃零页面，正式发售与23日预告、26日评测解禁是不同事件，不重复旧评测。地区时间按GamesRadar逐时区清单核对，美区28日与北京时间29日区分。国外综合Gematsu、日本官网、THQ Nordic官方、开发者Steam公告、商店和GitHub原始README；Duskbloods日文官网HTML已实际读取最终规则平衡调整说明，未用传闻代替官宣。Gothic ModKit公告经Valve公开GetNewsForApp接口读取feed为steam_community_announcements，仓库README通过GitHub连接读取；未称整款游戏开源。Resonance增强版因媒体已售与Steam coming soon冲突未收录；普通促销、手游运营、电竞和无关影视改编排除。5张图片均从实际官方页面meta og:image取得，HTTPS GET200、image/jpeg或png并用PIL和视觉检查；Gematsu原大图403，改用实际官方商店封面，未猜测地址或用短期签名链接。重要性说明见今日重点。",
+      "score": 4,
+      "items": [
+        {
+          "id": "games-2026-10-30-phantom-launch",
+          "title": "《影之刃零》已正式发售，注意全球解锁的跨日差异",
+          "category": "国内",
+          "summary": "北京灵游坊S-GAME的武侠动作游戏已于北京时间10月29日10时在PS5、PC（Steam／Epic）正式解锁，此次是全游戏发售，区别于此前预载和评测解禁。美国西岸对应10月28日19时，因此美区支持页及Steam显示28日并非再次改期；PS5实体版另计划2027年推出。",
+          "analysis": "国产大型单机进入实际玩家检验阶段；后续更值得看不同配置的性能、补丁与完整流程反馈，少量首发用户评价不能直接当长期共识。",
+          "importance": 5,
+          "tags": [
+            "影之刃零",
+            "PS5",
+            "PC",
+            "动作RPG",
+            "正式发售"
+          ],
+          "sources": [
+            {
+              "title": "Steam官方商店：已发行状态",
+              "url": "https://store.steampowered.com/app/4115450/Phantom_Blade_Zero/"
+            },
+            {
+              "title": "PlayStation美区官方支持：当地日期",
+              "url": "https://www.playstation.com/en-us/support/games/phantom-blade-zero-support/"
+            },
+            {
+              "title": "GamesRadar：全球解锁时间与实体版安排，10月28日",
+              "url": "https://www.gamesradar.com/games/action-rpg/phantom-blade-zero-release-date-time/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/98af27aecb2eedd674e4e18b5fb3e58754729589/capsule_616x353.jpg?t=1793261976",
+              "alt": "《影之刃零》Steam官方宣传封面",
+              "sourceUrl": "https://store.steampowered.com/app/4115450/Phantom_Blade_Zero/"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-10-30-duskbloods-delay",
+          "title": "《The Duskbloods》延期至2027年，继续调整规则与平衡",
+          "category": "国外",
+          "summary": "FromSoftware于10月29日正式将Switch 2独占多人动作游戏的发售窗口从2026年改为2027年，尚未给出具体月日。官方说明是在8月网络测试后，为实现多种行动与策略选择，增加规则、平衡的最终调整时间；这不是单人《血源》续作的公布。",
+          "analysis": "这是Switch 2重要第三方阵容的实质排期变化；应跟进下一次测试与明确日期，不把“2027年”解读为已经确定年初发售。",
+          "importance": 4,
+          "tags": [
+            "The Duskbloods",
+            "Switch 2",
+            "PvPvE",
+            "延期"
+          ],
+          "sources": [
+            {
+              "title": "FromSoftware：10月29日官方延期公告",
+              "url": "https://www.theduskbloods.jp/article/261029_1.html"
+            },
+            {
+              "title": "Gematsu：平台与延期交叉核对",
+              "url": "https://www.gematsu.com/2026/10/the-duskbloods-delayed-to-2027"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.theduskbloods.jp/resources/images/common/ogp/ogp_image.png",
+              "alt": "《The Duskbloods》官方标志，图源为10月29日延期公告",
+              "sourceUrl": "https://www.theduskbloods.jp/article/261029_1.html"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-10-30-gothic-modkit",
+          "title": "《Gothic 1 Remake》推出功能更新，并开放首阶段ModKit",
+          "category": "国外",
+          "summary": "西班牙Alkimia Interactive与THQ Nordic于10月29日推出Feature Update 1，PS5、Xbox Series X|S、PC新增照片模式、Marvin模式及外观选项。同日官方Steam公告发布ModKit Beta，公开完整游戏AngelScript脚本、文档和示例，并提供Steam Workshop入口；开发者尚未承诺更多工具的时间。",
+          "analysis": "比普通修复更值得关注的是模组生态开始开放。官方仓库说明使用定制UE 5.4.3和Hazelight的AngelScript集成；公开脚本受项目模组条款约束，不代表整款游戏以通用开源许可开放。",
+          "importance": 4,
+          "tags": [
+            "Gothic 1 Remake",
+            "PC",
+            "PS5",
+            "Xbox Series X|S",
+            "动作RPG",
+            "ModKit",
+            "AngelScript"
+          ],
+          "sources": [
+            {
+              "title": "THQ Nordic：10月29日Feature Update 1官方公告",
+              "url": "https://thqnordic.com/news/smile-there-is-an-update-gothic-1-remake-gets-photo-mode-and-more"
+            },
+            {
+              "title": "官方Steam公告：Modkit BETA",
+              "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1847920302235306"
+            },
+            {
+              "title": "Alkimia官方ModKit仓库与文档",
+              "url": "https://github.com/AlkimiaInteractive/G1R-Modkit"
+            },
+            {
+              "title": "Steam官方商店及配图",
+              "url": "https://store.steampowered.com/app/1297900/Gothic_1_Remake/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1297900/c68d43250a100f89c0393923a6b70a01f443b760/capsule_616x353.jpg?t=1787564876",
+              "alt": "《Gothic 1 Remake》官方商店封面，非本次更新截图",
+              "sourceUrl": "https://store.steampowered.com/app/1297900/Gothic_1_Remake/"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-10-30-cronos-lazarus-date",
+          "title": "《Cronos: Lazarus》故事DLC定档12月3日",
+          "category": "国外",
+          "summary": "补充10月28日尚未收录的消息：波兰Bloober Team宣布《Cronos: The New Dawn》故事DLC《Lazarus》于12月3日推出，涉及PC、PS5、Xbox Series X|S、Switch 2。Steam页已列该日并注明需拥有本体，开发署名包括Bloober Team和PixelAnt Games；玩家改操控Warden，战斗取向更主动，包含诱饵与短时隐身等能力。",
+          "analysis": "它提供新主角和实质玩法变化，值得生存恐怖玩家跟进；目前是发售预告，尚不能评价最终流程长度、性能和品质。",
+          "importance": 3,
+          "tags": [
+            "Cronos: Lazarus",
+            "PC",
+            "PS5",
+            "Xbox Series X|S",
+            "Switch 2",
+            "生存恐怖",
+            "DLC"
+          ],
+          "sources": [
+            {
+              "title": "Steam官方DLC页面：日期、内容与本体要求",
+              "url": "https://store.steampowered.com/app/4768180/Cronos_Lazarus/"
+            },
+            {
+              "title": "Gematsu：10月28日开发商公告与平台核对",
+              "url": "https://www.gematsu.com/2026/10/cronos-the-new-dawn-story-dlc-cronos-lazarus-launches-december-3"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4768180/411a12bf6a84488dfa98243ac44afd670beb3166/capsule_616x353.jpg?t=1793200387",
+              "alt": "《Cronos: Lazarus》官方DLC宣传图",
+              "sourceUrl": "https://store.steampowered.com/app/4768180/Cronos_Lazarus/"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-10-30-darkqueen-console-date",
+          "title": "《The Dark Queen of Mortholme》12月3日登陆三款主机",
+          "category": "国外",
+          "summary": "10月29日，发行方Rhine Games与Monster Theater宣布Mosu开发的短篇叙事动作游戏将于12月3日登陆PS5、Xbox Series X|S及初代Switch，未宣布Switch 2原生版。PC的itch.io、Steam版本早已推出，本次新增是主机日期；玩家扮演最终Boss，面对反复复活并成长的勇者，通过战斗与选择改变关系。",
+          "analysis": "它用短流程反转传统英雄成长叙事，适合关注独立游戏和Boss战设计的人；这次不把既有PC版包装成全新首发。",
+          "importance": 3,
+          "tags": [
+            "The Dark Queen of Mortholme",
+            "PS5",
+            "Xbox Series X|S",
+            "Switch",
+            "PC",
+            "独立游戏",
+            "叙事动作"
+          ],
+          "sources": [
+            {
+              "title": "Gematsu：10月29日发行方公告，含官方帖子与预告",
+              "url": "https://www.gematsu.com/2026/10/the-dark-queen-of-mortholme-coming-to-ps5-xbox-series-and-switch-on-december-3"
+            },
+            {
+              "title": "Steam官方商店：既有PC版和游戏设计",
+              "url": "https://store.steampowered.com/app/3587610/The_Dark_Queen_of_Mortholme/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3587610/aa42e5bc83f8e5e952e98e4ec5115d9d947643c1/capsule_616x353.jpg?t=1793243808",
+              "alt": "《The Dark Queen of Mortholme》官方商店封面",
+              "sourceUrl": "https://store.steampowered.com/app/3587610/The_Dark_Queen_of_Mortholme/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "games-2026-10-29",
       "collectionId": "games",
       "date": "2026-10-29",
@@ -2420,5 +2612,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-29T01:14:40Z"
+  "updatedAt": "2026-10-30T01:22:16Z"
 }
