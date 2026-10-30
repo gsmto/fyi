@@ -4,6 +4,124 @@
   "month": "2026-10",
   "briefs": [
     {
+      "id": "health-2026-10-30",
+      "collectionId": "health",
+      "date": "2026-10-30",
+      "title": "健康｜2026-10-30",
+      "summary": "肺癌巩固治疗新增论文提示加药毒性权衡；WHO重申HPV接种须区分人群；4周进食试验同时观察减重和肌肉量下降。",
+      "analysis": "区分随机试验、专家政策评估与监管批准；短期减重不等于长期健康获益。",
+      "rawText": "# 健康｜2026-10-30\n\n## 今日 Top 3\n\n主要收录10月29日新发表论文与WHO更新，另补充28日尚未收录的减重试验。4分代表重要临床安全或公共健康信息，3分代表有参考价值但短期、小样本的生活方式证据。\n\n### 1. 肺癌巩固治疗新论文：增加药物未必增加净获益（4/5）\n\n10月29日JAMA Oncology正式发表R-ALPS中国42中心、553名不可切除Ⅲ期非小细胞肺癌患者的双盲Ⅲ期随机试验，均在放化疗后未进展；招募于2020—2023年，合并分析截止2024年7月8日。贝莫苏拜单抗有无联合安罗替尼均较安慰剂改善无进展生存期；两主动方案合并比较中，加药未达显著优势（P=.12），3—5级治疗相关不良事件为48.8%对29.4%，5级为7.2%对1.4%。\n\n为何关注／适用：这提醒专科治疗应权衡获益与严重毒性，不能把药物更多理解为效果更好。局限包括主要为男性、安慰剂对照而非与现行其他巩固免疫治疗直接比较，PFS不能等同延长总生存；中国已批单药适应证限于铂类同步或序贯放化疗后未进展、无已知EGFR敏感突变／ALK重排的这类患者，本次论文不是新的批准，也不支持自行加药。\n\n[JAMA Oncology原始试验，10月29日](https://jamanetwork.com/journals/jamaoncology/article-abstract/2856004)｜[JAMA官方论文发布摘要](https://media.jamanetwork.com/media-releases/10.1001/jamaoncol.2026.3918)｜[国家药监局：2月14日送达信息，批准日期2月10日](https://www.nmpa.gov.cn/zwfw/sdxx/sdxxyp/yppjfb/20260214122428192.html)｜[企业原始适应证公告，仅用于交叉核对监管范围](https://www.sbpgroup.com/news-center/dynamic/24998.html)\n\n*配图：未取得可确认授权且对应新论文的原始研究图片；不以药品营销图或旧会议海报替代。*\n\n### 2. WHO复盘最新免疫建议：HPV单剂策略仍需区分人群与国家方案（4/5）\n\nWHO免疫部门10月29日更新总结10月5—8日SAGE会议：根据更新证据，9—14岁女孩采用单剂HPV方案被视为扩大宫颈癌预防覆盖的高效率策略。会议摘要同时要求免疫功能低下者继续至少两剂，严重免疫抑制者三剂；这是权威专家政策评估，不是单项新随机试验，也不是单剂方案首次提出。\n\n为何关注／适用：简化接种可能提高可及性，但国际建议不自动改变中国现行接种程序或特定产品说明书，个人不能据新闻自行减针；疫苗也不能替代适龄筛查。该部门更新是会议结论概述，实施仍须国家政策与特殊人群评估，不能把一般人群结论直接套到所有人。\n\n[WHO免疫部门10月29日更新](https://www.who.int/news/item/29-10-2026-message-by-the-director-of-the-department-of-immunization--vaccines-and-biologicals-at-who---october-2026)｜[WHO：2026年10月SAGE会议结论原始文档](https://cdn.who.int/media/docs/default-source/immunization/sage/2026/sage-meeting-highlights_oct2026.docx?sfvrsn=ee9254e8_4)｜[WHO HPV预防专题及既有科普图](https://www.who.int/activities/immunizing-against-hpv)\n\n![WHO既有HPV接种科普信息图：普通年轻人群与免疫功能低下者的剂次需区分；非10月新指南图](https://cdn.who.int/media/images/default-source/cover-images/multimedia/infographic-hpv-vaccination.jpg?sfvrsn=9f5c394e_4)\n*图源：[WHO](https://www.who.int/activities/immunizing-against-hpv)。WHO既有背景科普图，完整原图未修改。最新会议建议见10月29日更新及SAGE摘要；中国实施方案、产品说明书和特殊人群要求另行适用。*\n\n### 3. 两种间歇进食短期减重，也观察到肌肉量下降（3/5）\n\n补充10月28日《Obesity》发表、此前未收录的开放标签随机试验：68名超重或肥胖女性比较每日16∶8与每周5∶2方案，后一组在限制日采用模拟禁食饮食，持续4周。两组合计平均体重减少2.7公斤、脂肪量减少1.7公斤，也观察到肌肉量减少0.6公斤；5∶2组体重和脂肪随时间的降幅更大，但不是相对普通饮食对照的减重效果。\n\n为何关注／适用：减重应同时关注长期代谢健康、肌肉保留与可持续性，不能只看秤上数字。主要局限是仅68名女性、4周、未盲法且缺常规饮食对照；本次核对的是原始摘要，不能据此判断长期反弹或全部安全事件，更不能向孕期或存在低血糖风险的人群推广研究方案。\n\n[Wiley／Obesity原始论文，10月28日](https://onlinelibrary.wiley.com/doi/10.1002/oby.70322)｜[Europe PMC：收录的原始论文摘要，PMID42950885](https://europepmc.org/article/MED/42950885)｜[出版商提交Crossref的原始摘要与发表日期](https://api.crossref.org/works/10.1002/oby.70322)\n\n*配图：出版商全文页面访问受限，原始摘要可核验，但未获得匹配且确认可用的研究图片；不采用媒体AI配图或减肥前后对比图。*\n\n以上为新闻与一般健康科普，不作个人诊断、处方或个性化治疗。\n",
+      "completeness": "full",
+      "sourceConversation": "健康",
+      "provenance": "真实生成时间2026-10-30T01:25:50Z；Asia/Shanghai 2026-10-30晨间。通过GitHub连接读取docs/ARCHIVING.md、catalog、health索引及10月最近报告去重；主检索最近24小时，扩展近7日，最后选择29日两条、28日一条未收录事件。综合国内国家药监局、企业原始监管公告、国际医学期刊和WHO，未调用私人健康数据。R-ALPS以JAMA原始摘要和JAMA发布摘要核对553人、两阶段、分析截止日、PFS及分级治疗相关不良事件，阶段1安慰剂比较与合并主动组比较未混合；既往会议披露及2月批准不包装为今日批准。NMPA批准记录通过可检索原文核对CXSS2500046、批准文号S20240017及2月10日，官网直接访问412，适应证条件交叉制造商原始公告；未声称其联合方案在此适应证已获批，不按其他癌种批准外推。WHO29日页面全文实际读取，并从页面链接下载SAGE原始DOCX、解包提取会议文字，核对9—14女孩单剂、免疫低下至少两剂和严重免疫抑制三剂；未把国际建议当中国程序或单剂首次官宣。28日间歇进食研究出版商全文403，未绕过付费限制；通过出版商提交的Crossref摘要与Europe PMC核心摘要独立核对68名女性、4周、合并两组变化和PMID42950885，未借媒体报道推断全文安全细节，不将2.7公斤当组间差或承诺。不选媒体29日重发的旧DHA／益生菌研究，也不选22人仅3天运动研究硬凑。WHO背景图来自实际专题页链接，经带原始版本参数的HTTPS GET200 image/jpeg、PIL及视觉检查；未改图、未以旧图假冒新数据，items与Markdown一致。其余两条无可确认可用研究图，明确缺图原因，不用AI图、广告或无关照片。",
+      "score": 4,
+      "items": [
+        {
+          "id": "health-2026-10-30-ralps-safety",
+          "title": "肺癌巩固治疗新论文：增加药物未必增加净获益",
+          "category": "医学",
+          "summary": "10月29日JAMA Oncology正式发表R-ALPS中国42中心、553名不可切除Ⅲ期非小细胞肺癌患者的双盲Ⅲ期随机试验，均在放化疗后未进展；招募于2020—2023年，合并分析截止2024年7月8日。贝莫苏拜单抗有无联合安罗替尼均较安慰剂改善无进展生存期；两主动方案合并比较中，加药未达显著优势（P=.12），3—5级治疗相关不良事件为48.8%对29.4%，5级为7.2%对1.4%。",
+          "analysis": "为何关注／适用：这提醒专科治疗应权衡获益与严重毒性，不能把药物更多理解为效果更好。局限包括主要为男性、安慰剂对照而非与现行其他巩固免疫治疗直接比较，PFS不能等同延长总生存；中国已批单药适应证限于铂类同步或序贯放化疗后未进展、无已知EGFR敏感突变／ALK重排的这类患者，本次论文不是新的批准，也不支持自行加药。",
+          "importance": 4,
+          "tags": [
+            "肺癌",
+            "R-ALPS",
+            "随机试验",
+            "药物安全",
+            "无进展生存"
+          ],
+          "sources": [
+            {
+              "title": "JAMA Oncology原始试验，10月29日",
+              "url": "https://jamanetwork.com/journals/jamaoncology/article-abstract/2856004"
+            },
+            {
+              "title": "JAMA官方论文发布摘要",
+              "url": "https://media.jamanetwork.com/media-releases/10.1001/jamaoncol.2026.3918"
+            },
+            {
+              "title": "国家药监局：2月14日送达信息，批准日期2月10日",
+              "url": "https://www.nmpa.gov.cn/zwfw/sdxx/sdxxyp/yppjfb/20260214122428192.html"
+            },
+            {
+              "title": "企业原始适应证公告，仅用于交叉核对监管范围",
+              "url": "https://www.sbpgroup.com/news-center/dynamic/24998.html"
+            }
+          ],
+          "images": [],
+          "imageNote": "未取得可确认授权且对应新论文的原始研究图片；不以药品营销图或旧会议海报替代。"
+        },
+        {
+          "id": "health-2026-10-30-sage-hpv",
+          "title": "WHO复盘最新免疫建议：HPV单剂策略仍需区分人群与国家方案",
+          "category": "健康",
+          "summary": "WHO免疫部门10月29日更新总结10月5—8日SAGE会议：根据更新证据，9—14岁女孩采用单剂HPV方案被视为扩大宫颈癌预防覆盖的高效率策略。会议摘要同时要求免疫功能低下者继续至少两剂，严重免疫抑制者三剂；这是权威专家政策评估，不是单项新随机试验，也不是单剂方案首次提出。",
+          "analysis": "为何关注／适用：简化接种可能提高可及性，但国际建议不自动改变中国现行接种程序或特定产品说明书，个人不能据新闻自行减针；疫苗也不能替代适龄筛查。该部门更新是会议结论概述，实施仍须国家政策与特殊人群评估，不能把一般人群结论直接套到所有人。",
+          "importance": 4,
+          "tags": [
+            "HPV",
+            "疫苗",
+            "WHO",
+            "公共健康",
+            "宫颈癌预防"
+          ],
+          "sources": [
+            {
+              "title": "WHO免疫部门10月29日更新",
+              "url": "https://www.who.int/news/item/29-10-2026-message-by-the-director-of-the-department-of-immunization--vaccines-and-biologicals-at-who---october-2026"
+            },
+            {
+              "title": "WHO：2026年10月SAGE会议结论原始文档",
+              "url": "https://cdn.who.int/media/docs/default-source/immunization/sage/2026/sage-meeting-highlights_oct2026.docx?sfvrsn=ee9254e8_4"
+            },
+            {
+              "title": "WHO HPV预防专题及既有科普图",
+              "url": "https://www.who.int/activities/immunizing-against-hpv"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn.who.int/media/images/default-source/cover-images/multimedia/infographic-hpv-vaccination.jpg?sfvrsn=9f5c394e_4",
+              "alt": "WHO既有HPV接种科普信息图：普通年轻人群与免疫功能低下者的剂次需区分；非10月新指南图",
+              "sourceUrl": "https://www.who.int/activities/immunizing-against-hpv",
+              "caption": "WHO既有背景科普图，完整原图未修改。最新会议建议见10月29日更新及SAGE摘要；中国实施方案、产品说明书和特殊人群要求另行适用。"
+            }
+          ]
+        },
+        {
+          "id": "health-2026-10-30-fasting-short-trial",
+          "title": "两种间歇进食短期减重，也观察到肌肉量下降",
+          "category": "减重",
+          "summary": "补充10月28日《Obesity》发表、此前未收录的开放标签随机试验：68名超重或肥胖女性比较每日16∶8与每周5∶2方案，后一组在限制日采用模拟禁食饮食，持续4周。两组合计平均体重减少2.7公斤、脂肪量减少1.7公斤，也观察到肌肉量减少0.6公斤；5∶2组体重和脂肪随时间的降幅更大，但不是相对普通饮食对照的减重效果。",
+          "analysis": "为何关注／适用：减重应同时关注长期代谢健康、肌肉保留与可持续性，不能只看秤上数字。主要局限是仅68名女性、4周、未盲法且缺常规饮食对照；本次核对的是原始摘要，不能据此判断长期反弹或全部安全事件，更不能向孕期或存在低血糖风险的人群推广研究方案。",
+          "importance": 3,
+          "tags": [
+            "间歇进食",
+            "体重管理",
+            "肌肉量",
+            "随机试验",
+            "长期维持"
+          ],
+          "sources": [
+            {
+              "title": "Wiley／Obesity原始论文，10月28日",
+              "url": "https://onlinelibrary.wiley.com/doi/10.1002/oby.70322"
+            },
+            {
+              "title": "Europe PMC：收录的原始论文摘要，PMID42950885",
+              "url": "https://europepmc.org/article/MED/42950885"
+            },
+            {
+              "title": "出版商提交Crossref的原始摘要与发表日期",
+              "url": "https://api.crossref.org/works/10.1002/oby.70322"
+            }
+          ],
+          "images": [],
+          "imageNote": "出版商全文页面访问受限，原始摘要可核验，但未获得匹配且确认可用的研究图片；不采用媒体AI配图或减肥前后对比图。"
+        }
+      ]
+    },
+    {
       "id": "health-2026-10-29",
       "collectionId": "health",
       "date": "2026-10-29",
@@ -1251,5 +1369,5 @@
       ]
     }
   ],
-  "updatedAt": "2026-10-29T01:19:47Z"
+  "updatedAt": "2026-10-30T01:25:50Z"
 }
