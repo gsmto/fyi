@@ -56,6 +56,14 @@
       "color": "#bf7580",
       "categoryId": "health-wellness",
       "path": "content/health-wellness/health"
+    },
+    {
+      "id": "llm",
+      "name": "大模型",
+      "description": "OpenAI、Anthropic、Google、xAI、Meta 等头部公司的 AI 动态",
+      "color": "#5d83bd",
+      "categoryId": "technology-business",
+      "path": "content/technology-business/llm"
     }
   ]
 }
