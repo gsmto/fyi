@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "collectionId": "llm",
+  "month": "2026-11",
+  "updatedAt": "2026-11-02T01:26:20Z",
+  "briefs": [
+    {
+      "id": "llm-2026-11-02",
+      "collectionId": "llm",
+      "date": "2026-11-02",
+      "title": "大模型｜2026-11-02",
+      "summary": "近7日重点：Gemini 4 Carbon、Genie 4、OpenAI Model Spec、共通训练偏好信号及 Anthropic 拟上市进程；最近24小时未检出足够重要新增。",
+      "analysis": "重点区分受限预览、行为目标与正式可用性；厂商评测不直接等同独立生产验证。",
+      "rawText": "# 大模型｜2026-11-02\n\n今日重点：本次检索未发现最近 24 小时内足够重要且可核实的新增，以下为近 7 天内本栏目尚未收录的 5 条重点，均明确列出事件日期。本栏目索引此前为空，无历史报告可供跨日去重；已检索 OpenAI、Anthropic、Google / DeepMind / Gemini、xAI、Meta 的官方新闻和更新线索，不按公司凑数。\n\n## 1. Gemini 4 Carbon 公布，先向部分网络防御机构开放\n\n事件/发布日期：2026-10-28（来源原文日期）。\n\nGoogle 公布面向复杂工程、长程智能体和网络安全的 Gemini 4 Carbon，首批仅向部分网络防御机构及 Fairwind 可信伙伴逐步开放，开发者和消费者渠道仍待后续推出。公告列出的引入期价格为每百万输入/输出 token 2/10 美元，引入期后为 4/20 美元，未给出该优惠期结束日期。安全、编程及抗提示注入提升主要来自厂商测试；不能据此认定一般生产环境达到同样表现。\n\n对开发者的影响：值得准备大型代码库修复和长期任务评测，但目前不能按普通 Gemini API 已全面可用来规划上线。重要性 4/5：前沿模型发布且涉及智能体能力与后续成本，受限开放降低即时可用性。\n\n![Gemini 4 Carbon 官方发布配图](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png)\n\n[图片出处](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/)。\n\n来源：[Google：Gemini 4 Carbon 官方公告（含价格脚注）](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/)。\n\n## 2. Genie 4 研究预览：实时世界模拟加入原生音频与交互对话\n\n事件/发布日期：2026-10-27（来源原文日期）。\n\nGoogle DeepMind 发布 Genie 4，展示通过文字实时改变场景、原生生成环境音和交互对话，并由 Gemini 协助维持多步事件。当前是面向可信测试者的研究预览；Project Genie 的 Google AI Ultra 用户及 Gemini API、AI Studio 早期合作伙伴属于后续开放计划，不能理解为所有订阅用户立即可用。官方明确承认长时间一致性、物体持续性及复杂物理交互仍有限制。\n\n对使用者的影响：游戏原型、创意预演和智能体训练环境值得跟踪，但展示不等于可部署的稳定仿真引擎。重要性 4/5：交互世界模型出现实质能力变化，实际效果仍需独立和持续测试。\n\n![Genie 4 官方预览页面配图，展示生成式世界模拟](https://lh3.googleusercontent.com/mKq26Yz8rlcAthtTHS2GaID7LuUM9a4zM16VHUszY-zyKly80QRUt5nn6V4jQN8_bJ4_UMesp1D_88ethzTEJPoo6NUPyhO76QZ7zNJM5KzfPE5GKjM%3Dw1440-h810-n-nu)\n\n[图片出处](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/)。\n\n来源：[Google DeepMind：Genie 4 发布及当前限制](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/)。\n\n## 3. OpenAI 更新 Model Spec，强调意图、上下文与行动副作用\n\n事件/发布日期：2026-10-29（来源原文日期）。\n\nOpenAI 将公开行为规范围绕忠于人类意图、减少伤害、诚实透明、人类自主性与关怀五项价值重组。修订包括指令冲突处理、审慎使用上下文、支持用户自主性及控制与沟通行动副作用，同时撤去大部分细碎文风规则。官方强调这是目标行为描述，现有模型尚未完全符合，不能将文档发布等同于全部模型行为同步升级。\n\n对开发者的影响：可据此补充智能体的授权、记忆使用和副作用测试，并继续对实际部署版本做回归验证。重要性 4/5：规范变化直接关系工具调用与用户控制，不能代替工程权限边界。\n\n![OpenAI 新版 Model Spec 官方文章配图](https://images.ctfassets.net/kftzwdyauwt9/75veJvi069XNefheZKrGT3/524e301a9565289e83b5a666d47b3da5/model-spec-update-more-capable-beneficial-ai-seo.png?w=1600&h=900&fit=fill)\n\n[图片出处](https://openai.com/index/updated-model-spec/)。\n\n来源：[OpenAI：新版 Model Spec 公告](https://openai.com/index/updated-model-spec/)。\n\n## 4. OpenAI、Google 支持统一训练偏好信号，实施仍在计划中\n\n事件/发布日期：2026-10-30（来源原文日期）。\n\n两家公司支持在 robots.txt 中以共通信号表达网站的生成式 AI 基础模型训练偏好，既有厂商专属控制继续有效。OpenAI 目标在未来数月实施；Google 目标为 2027 年，且计划仅在未明确指定 Google-Extended 时，将共通退出信号解释为禁止 Google-Extended。相关方案仍是草案与自愿协作，不能写成已生效的统一互联网标准或追溯删除训练数据的机制。\n\n对开发者的影响：内容站和爬虫运营者应关注后续实施文档，目前仍需维护既有规则；训练控制也不应混同于所有搜索、引用和抓取权限。重要性 3/5：跨厂商协作有生态意义，但落地时间与兼容规则仍待确认。\n\n![OpenAI 关于网站训练偏好信号的官方文章配图](https://images.ctfassets.net/kftzwdyauwt9/4fvNR0KxKmPYu4fRXtEgKp/4a522ef61a6f983b0b65ad39c2a71e4c/websites-toeexpress-ai-training-preferences-social.png?w=1600&h=900&fit=fill)\n\n[图片出处](https://openai.com/index/helping-websites-express-ai-training-preferences/)。\n\n来源：[OpenAI：共通训练偏好信号及实施时间](https://openai.com/index/helping-websites-express-ai-training-preferences/)；[Google Search Central：规则及 2027 年目标](https://developers.google.cn/search/blog/2026/10/ai-training-control)；[IETF Datatracker：训练偏好信号草案状态](https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/)。\n\n## 5. Anthropic 公告提交 IPO 注册文件，发行尚未生效\n\n事件/发布日期：2026-10-26（来源原文日期）。\n\nAnthropic 公告已向美国 SEC 提交拟首次公开发行的 S-1 注册文件，拟在纳斯达克以 ANT 为代码上市。公告时发行股数和价格区间尚未确定，注册文件尚未生效；这是拟上市进程，不能写成已完成 IPO、已开始交易或已有确定发行估值。\n\n为什么值得关注：融资与披露进程可能影响头部 AI 公司的资本投入和竞争格局，这是趋势判断，并非公告对未来经营的保证。重要性 3/5：公司层面重大变化，尚无由此直接生效的 Claude API 价格或使用权限调整。\n\n缺图：官方公告没有确认到与此次拟上市事件相关且可公开访问的图片直链；候选图片访问返回 403，不使用无关示意图。\n\n来源：[Anthropic：提交 S-1 的官方公告](https://www.anthropic.com/news/s1-sec)。\n\n观察：模型与产品预览越来越强调长程任务、仿真和权限边界，但公开演示、厂商评测、正式 API 可用性是不同证据层次。后续重点跟进 Carbon 的正式渠道和价格期、Genie 4 的开放范围，以及行为规范与共通训练偏好信号的实际落地。\n\n检索截至 2026-11-02 09:26（Asia/Shanghai）；主窗口为此前 24 小时，补充窗口为 2026-10-26 至 2026-11-02。本文以已打开的一手公告为依据，未将营销口号、传闻或旧版本参数作为当前事实。\n",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "生成时间 2026-11-02T01:26:20Z；日期时区 Asia/Shanghai；联网检索英文官方新闻、模型/开发文档及中文检索线索，覆盖 OpenAI、Anthropic、Google/DeepMind/Gemini、xAI、Meta；主窗口最近24小时，补充2026-10-26至2026-11-02。先读取 ARCHIVING、catalog、month schema 和 llm 空索引，目标月文件404后新建；各事件日期依官方原文。四条配图已实际打开/GET成功，第五条候选图403故留空。",
+      "score": 4,
+      "items": [
+        {
+          "id": "llm-2026-11-02-gemini-carbon",
+          "title": "Gemini 4 Carbon 公布，先向部分网络防御机构开放",
+          "category": "Google",
+          "summary": "Google 公布面向复杂工程、长程智能体和网络安全的 Gemini 4 Carbon，首批仅向部分网络防御机构及 Fairwind 可信伙伴逐步开放，开发者和消费者渠道仍待后续推出。公告列出的引入期价格为每百万输入/输出 token 2/10 美元，引入期后为 4/20 美元，未给出该优惠期结束日期。安全、编程及抗提示注入提升主要来自厂商测试；不能据此认定一般生产环境达到同样表现。",
+          "analysis": "对开发者的影响：值得准备大型代码库修复和长期任务评测，但目前不能按普通 Gemini API 已全面可用来规划上线。重要性 4/5：前沿模型发布且涉及智能体能力与后续成本，受限开放降低即时可用性。",
+          "importance": 4,
+          "tags": [
+            "Google",
+            "Google DeepMind",
+            "Gemini 4 Carbon",
+            "模型发布",
+            "智能体",
+            "API价格"
+          ],
+          "sources": [
+            {
+              "title": "Google：Gemini 4 Carbon 官方公告（含价格脚注）",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini_carbon_102726_social_share.width-1300.png",
+              "alt": "Gemini 4 Carbon 官方发布配图",
+              "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+            }
+          ],
+          "eventDate": "2026-10-28",
+          "imageNote": ""
+        },
+        {
+          "id": "llm-2026-11-02-genie4",
+          "title": "Genie 4 研究预览：实时世界模拟加入原生音频与交互对话",
+          "category": "Google",
+          "summary": "Google DeepMind 发布 Genie 4，展示通过文字实时改变场景、原生生成环境音和交互对话，并由 Gemini 协助维持多步事件。当前是面向可信测试者的研究预览；Project Genie 的 Google AI Ultra 用户及 Gemini API、AI Studio 早期合作伙伴属于后续开放计划，不能理解为所有订阅用户立即可用。官方明确承认长时间一致性、物体持续性及复杂物理交互仍有限制。",
+          "analysis": "对使用者的影响：游戏原型、创意预演和智能体训练环境值得跟踪，但展示不等于可部署的稳定仿真引擎。重要性 4/5：交互世界模型出现实质能力变化，实际效果仍需独立和持续测试。",
+          "importance": 4,
+          "tags": [
+            "Google",
+            "Google DeepMind",
+            "Genie 4",
+            "世界模型",
+            "多模态",
+            "研究预览"
+          ],
+          "sources": [
+            {
+              "title": "Google DeepMind：Genie 4 发布及当前限制",
+              "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://lh3.googleusercontent.com/mKq26Yz8rlcAthtTHS2GaID7LuUM9a4zM16VHUszY-zyKly80QRUt5nn6V4jQN8_bJ4_UMesp1D_88ethzTEJPoo6NUPyhO76QZ7zNJM5KzfPE5GKjM%3Dw1440-h810-n-nu",
+              "alt": "Genie 4 官方预览页面配图，展示生成式世界模拟",
+              "sourceUrl": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+            }
+          ],
+          "eventDate": "2026-10-27",
+          "imageNote": ""
+        },
+        {
+          "id": "llm-2026-11-02-model-spec",
+          "title": "OpenAI 更新 Model Spec，强调意图、上下文与行动副作用",
+          "category": "OpenAI",
+          "summary": "OpenAI 将公开行为规范围绕忠于人类意图、减少伤害、诚实透明、人类自主性与关怀五项价值重组。修订包括指令冲突处理、审慎使用上下文、支持用户自主性及控制与沟通行动副作用，同时撤去大部分细碎文风规则。官方强调这是目标行为描述，现有模型尚未完全符合，不能将文档发布等同于全部模型行为同步升级。",
+          "analysis": "对开发者的影响：可据此补充智能体的授权、记忆使用和副作用测试，并继续对实际部署版本做回归验证。重要性 4/5：规范变化直接关系工具调用与用户控制，不能代替工程权限边界。",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "Model Spec",
+            "智能体",
+            "行为规范",
+            "开发者"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI：新版 Model Spec 公告",
+              "url": "https://openai.com/index/updated-model-spec/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.ctfassets.net/kftzwdyauwt9/75veJvi069XNefheZKrGT3/524e301a9565289e83b5a666d47b3da5/model-spec-update-more-capable-beneficial-ai-seo.png?w=1600&h=900&fit=fill",
+              "alt": "OpenAI 新版 Model Spec 官方文章配图",
+              "sourceUrl": "https://openai.com/index/updated-model-spec/"
+            }
+          ],
+          "eventDate": "2026-10-29",
+          "imageNote": ""
+        },
+        {
+          "id": "llm-2026-11-02-shared-training-control",
+          "title": "OpenAI、Google 支持统一训练偏好信号，实施仍在计划中",
+          "category": "其他",
+          "summary": "两家公司支持在 robots.txt 中以共通信号表达网站的生成式 AI 基础模型训练偏好，既有厂商专属控制继续有效。OpenAI 目标在未来数月实施；Google 目标为 2027 年，且计划仅在未明确指定 Google-Extended 时，将共通退出信号解释为禁止 Google-Extended。相关方案仍是草案与自愿协作，不能写成已生效的统一互联网标准或追溯删除训练数据的机制。",
+          "analysis": "对开发者的影响：内容站和爬虫运营者应关注后续实施文档，目前仍需维护既有规则；训练控制也不应混同于所有搜索、引用和抓取权限。重要性 3/5：跨厂商协作有生态意义，但落地时间与兼容规则仍待确认。",
+          "importance": 3,
+          "tags": [
+            "OpenAI",
+            "Google",
+            "robots.txt",
+            "AI训练",
+            "开放网络",
+            "计划"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI：共通训练偏好信号及实施时间",
+              "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/"
+            },
+            {
+              "title": "Google Search Central：规则及 2027 年目标",
+              "url": "https://developers.google.cn/search/blog/2026/10/ai-training-control"
+            },
+            {
+              "title": "IETF Datatracker：训练偏好信号草案状态",
+              "url": "https://datatracker.ietf.org/doc/draft-kelley-aipref-training-preference-signal/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.ctfassets.net/kftzwdyauwt9/4fvNR0KxKmPYu4fRXtEgKp/4a522ef61a6f983b0b65ad39c2a71e4c/websites-toeexpress-ai-training-preferences-social.png?w=1600&h=900&fit=fill",
+              "alt": "OpenAI 关于网站训练偏好信号的官方文章配图",
+              "sourceUrl": "https://openai.com/index/helping-websites-express-ai-training-preferences/"
+            }
+          ],
+          "eventDate": "2026-10-30",
+          "imageNote": ""
+        },
+        {
+          "id": "llm-2026-11-02-anthropic-s1",
+          "title": "Anthropic 公告提交 IPO 注册文件，发行尚未生效",
+          "category": "Anthropic",
+          "summary": "Anthropic 公告已向美国 SEC 提交拟首次公开发行的 S-1 注册文件，拟在纳斯达克以 ANT 为代码上市。公告时发行股数和价格区间尚未确定，注册文件尚未生效；这是拟上市进程，不能写成已完成 IPO、已开始交易或已有确定发行估值。",
+          "analysis": "为什么值得关注：融资与披露进程可能影响头部 AI 公司的资本投入和竞争格局，这是趋势判断，并非公告对未来经营的保证。重要性 3/5：公司层面重大变化，尚无由此直接生效的 Claude API 价格或使用权限调整。",
+          "importance": 3,
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "公司动态",
+            "IPO",
+            "拟上市"
+          ],
+          "sources": [
+            {
+              "title": "Anthropic：提交 S-1 的官方公告",
+              "url": "https://www.anthropic.com/news/s1-sec"
+            }
+          ],
+          "images": [],
+          "eventDate": "2026-10-26",
+          "imageNote": "缺图：官方公告没有确认到与此次拟上市事件相关且可公开访问的图片直链；候选图片访问返回 403，不使用无关示意图。"
+        }
+      ]
+    }
+  ]
+}
