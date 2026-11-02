@@ -2,8 +2,212 @@
   "schemaVersion": 1,
   "collectionId": "games",
   "month": "2026-11",
-  "updatedAt": "2026-11-01T01:12:56Z",
+  "updatedAt": "2026-11-02T01:14:29Z",
   "briefs": [
+    {
+      "id": "games-2026-11-02",
+      "collectionId": "games",
+      "date": "2026-11-02",
+      "title": "游戏｜2026-11-02",
+      "summary": "Petit Planet新增2027年Switch 2计划；皮克敏4新版试玩定11月2日；火湖1.0及补丁、Bot Colony Redux抢先体验、Shiftomino正式发售补充。",
+      "analysis": "优先实际平台、可玩版本与明确日期，排除重复定档、普通促销和未经确认的泄露；保留抢先体验与正式版边界。",
+      "rawText": "# 游戏｜2026-11-02\n\n## 今日重点\n\n截至北京时间2026年11月2日晨间。国内、国外均已检索并与最近归档去重：近24小时重点是Petit Planet新增主机计划与皮克敏新版试玩；另补充近7日未归档的正式版、补丁和独立游戏，均保留实际日期。\n\n优先跟进《Petit Planet》的Switch 2具体排期与《皮克敏4》试玩在所用地区的开放状态；其余三条关注完整版本和实际玩法，而非单纯营销热度。国内外按主要开发主体划分，米哈游归国内，任天堂、Perfect Random、North Side及aramaa归国外。\n\n## 国内\n\n### 《Petit Planet》新增Switch 2版，主机窗口为2027年\n\n![Petit Planet新增Switch 2消息中的游戏宣传图](https://www.gematsu.com/wp-content/uploads/2026/11/Petit-Planet_2026_11-01-26_005-320x180.jpg)\n\n*图片出处：[原始页面](https://www.gematsu.com/2026/11/petit-planet-coming-to-switch-2-in-2027)；Gematsu刊载的游戏配图；不作Switch 2实机性能证明。*\n\n**消息时间：** 2026-11-01。\n\n米哈游宣布《Petit Planet》将于2027年登陆Nintendo Switch 2，这是在既有PC及移动端定档之后新增的主机计划。PC客户端／Epic与移动版仍定于12月4日先行推出；Switch 2尚无月日，不能理解为今年同步上线。\n\n**为什么值得关注：** 重要性4/5：国产生活模拟作品向任天堂主机生态扩展，对主机端的操作、联机和内容体验值得跟进。本次只收录新增平台，不重复此前PC定档或预登记奖励；暂无依据把其他主机、跨端存档或性能表现一并确认为已支持。\n\n**平台与关键日期：** Switch 2；PC（客户端、Epic Games Store）；另有移动版。Switch 2：2027年，具体日期待定；PC／移动版：2026-12-04。\n\n来源：[Gematsu：开发商宣布Switch 2平台及窗口](https://www.gematsu.com/2026/11/petit-planet-coming-to-switch-2-in-2027)｜[游戏官方网站：既有PC／移动版日期与新闻](https://planet.hoyoverse.com/)\n\n## 国外\n\n### 《皮克敏4》Switch 2新版试玩定于11月2日配信\n\n![任天堂Pikmin Day Direct官方节目封面](https://assets.nintendo.com/image/upload/f_auto,q_auto/Nintendo%20Direct/2026/PmheMkNVWjXlLg/11.1_archive)\n\n*图片出处：[原始页面](https://www.nintendo.com/us/nintendo-direct/11-1-2026/)；任天堂官方节目主视觉，非新增关卡实机截图。*\n\n**消息时间：** 2026-11-01（Pikmin Day Direct）。\n\n任天堂公布《Pikmin 4 – Nintendo Switch 2 Edition + Dandori Academy》免费试玩，包含开场区域Sun-Speckled Terrace和两个Dandori Academy关卡，计划11月2日配信。正式版仍定11月12日，新增麦克风指令与Dandori Academy挑战；这次并没有公布全新系列正作。\n\n**为什么值得关注：** 重要性4/5：试玩提供直接检查新版操作与关卡设计的机会，比仅看预告更有参考价值。上述日期来自美区节目和日站英文文字稿，本次未确认精确解锁时刻或各区商店是否已上架；11月2日不能写成全球已开放下载。\n\n**平台与关键日期：** Nintendo Switch 2。试玩：2026-11-02；正式新版：2026-11-12，精确地区解锁时刻未核。\n\n来源：[任天堂官方节目文字稿：试玩内容与日期](https://www.nintendo.com/jp/nintendo-direct/description/20261031_en_US.html)｜[任天堂美区Pikmin Day Direct页面](https://www.nintendo.com/us/nintendo-direct/11-1-2026/)\n\n### 《火湖》1.0已推出，首轮补丁修复命中与关卡生成问题\n\n![SULFUR火湖Steam官方商店宣传图](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2124120/add4189f7072b5de676de00e9876c94c8e04807b/capsule_616x353_alt_assets_10.jpg?t=1793351317)\n\n*图片出处：[原始页面](https://steamcommunity.com/app/2124120/allnews/)；开发商Steam商店素材；不代表各平台画质或补丁同步状态。*\n\n**消息时间：** 2026-10-28正式版；2026-10-31补丁（近7日补充）。\n\nPerfect Random的单人动作Roguelike射击游戏《SULFUR／火湖》10月28日结束抢先体验，并同步推出PC和六款主机版本。1.0补全任务日志、附魔组合与完整推进流程；Steam官方10月31日的1.0.2补丁进一步修复部分敌人不受击、Town关卡生成与手柄光标问题。\n\n**为什么值得关注：** 重要性3/5：这是完整版本与实际可玩性修补的组合更新，而非普通促销或今天才发售。游戏1.0不含多人模式，未来多人计划不能视为当前功能；本次只确认Steam补丁记录，不推定所有主机已同步获得1.0.2。\n\n**平台与关键日期：** PC（Steam）、PS5、PS4、Xbox Series X|S、Xbox One、Switch 2、Switch。1.0：2026-10-28；Steam 1.0.2：2026-10-31。\n\n来源：[开发商Steam官方发布及补丁记录](https://steamcommunity.com/app/2124120/allnews/)｜[Steam官方商店：正式发行状态与语言](https://store.steampowered.com/app/2124120/SULFUR/)｜[IT之家11月1日报道：中文名称与版本核对](https://www.ithome.com/1/020/775.htm)\n\n### 《Bot Colony Redux》开放抢先体验，让自然语言指令进入冒险玩法\n\n![Bot Colony Redux官方Steam商店宣传图](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3613080/0a2db3ddcddd1b43891ef60bf4d6819100538c52/capsule_616x353.jpg?t=1793403928)\n\n*图片出处：[原始页面](https://steamcommunity.com/app/3613080/allnews)；开发团队商店素材；玩法效果与多语言表现未经独立实测。*\n\n**消息时间：** 2026-10-30（近7日未收录补充）。\n\n加拿大蒙特利尔North Side宣布《Bot Colony Redux》在Steam开启抢先体验，可免费开始游玩。玩家通过语音或文字自由提问、指挥机器人操作场景物体，调查科幻间谍故事；团队称其自然语言引擎会管理对大模型的API调用，并支持包括中文在内的多语言对话。\n\n**为什么值得关注：** 重要性3/5：值得观察AI角色能否把“理解指令—操作世界—推动谜题”连成实际游戏循环。当前是实验性的抢先体验，语言理解质量、内容完整度和费用边界仍应按商店规则与后续反馈核对；免费开始不等于全部后续内容或服务永久免费，也不宣称有评测共识。\n\n**平台与关键日期：** PC（Steam）。抢先体验开启：2026-10-30，非1.0正式版。\n\n来源：[开发团队Steam公告：10月30日抢先体验已开放](https://steamcommunity.com/app/3613080/allnews)｜[North Side原始发行新闻稿](https://www.gamespress.com/en-US/THE-GAME-YOU-SPEAK-WITH-NORTH-SIDE-INC-RELEASES-SCI-FI-ADVENTURE-BOT-C)｜[Steam官方商店](https://store.steampowered.com/app/3613080/Bot_Colony_redux/)\n\n### 《Shiftomino》正式登陆Steam，用灵魂转移和方块合并解谜\n\n![Shiftomino的Steam官方商店宣传图](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4376910/30e944a3dc9315a9e3b3b8d303bd83eab23285c0/capsule_616x353.jpg?t=1793548512)\n\n*图片出处：[原始页面](https://store.steampowered.com/app/4376910/)；开发者商店素材；未将少量评论解读为评测共识。*\n\n**消息时间：** 2026-10-30（近7日未收录补充）。\n\n独立开发者aramaa的《Shiftomino》已于10月30日在Steam推出Windows、macOS与Linux版，核心是让灵魂在接触的方块间转移，并把同色方块拼接成新形状。Steam版在既有itch.io作品基础上改进操作、增加关卡和谜题机制；失败无惩罚、没有计时压力，宝石可换取撤销机会。\n\n**为什么值得关注：** 重要性2/5：单一规则组合出空间谜题，适合关注小体量独立游戏与机制设计。商店仅列英语和日语，尚无足够玩家评价形成口碑结论；这是正式发行的短篇解谜作品，不是试玩或抢先体验。\n\n**平台与关键日期：** PC：Windows、macOS、Linux（Steam）。Steam正式发行：2026-10-30；原计划08:00 PDT，即北京时间10月30日23:00。\n\n来源：[Steam官方商店：已发行状态、平台及语言](https://store.steampowered.com/app/4376910/)｜[开发者原始发行新闻稿（10月29日）](https://www.gamespress.com/Shift-Your-Way-Forward-Puzzle-Platformer-Shiftomino-Releases-on-Steam-)\n\n观察：试玩、抢先体验、正式版及补丁需要分别判断，商店公告日期也不等于所有地区同刻解锁。自由对话NPC和可组合的小型解谜提供了两种不同的机制探索，但官方功能介绍仍不能代替实际体验或独立评测。\n",
+      "completeness": "full",
+      "sourceConversation": "游戏",
+      "provenance": "生成时间2026-11-02T01:14:29Z；覆盖Asia/Shanghai 2026-11-02晨间，主查近24小时，补充近7日未归档事件。通过GitHub读取归档协议、catalog、games索引及10—11月最近报告去重。国内检索中文游戏媒体与米哈游官方站，国外检索官方平台、开发商商店公告、原始发行稿及Gematsu等。Petit Planet新增Switch2依据11月1日Gematsu直接转述开发商，官方站用于既有PC／移动版日期，未把此前定档重复作新事件。任天堂节目文字稿与美区页面实际打开，试玩定于11月2日，未查实各区即时上架或解锁时刻。SULFUR官方10月28日发布及10月31日补丁全文、Steam商店实际打开；IT之家11月1日是补充报道而非发行日。Bot Colony官方10月30日EA已上线公告及North Side发行稿实际打开，旧缓存商店页面有未解锁字样，以发布公告核定状态，未独立安装测试。Shiftomino官方商店已发行、英日语言及三系统核对，10月29日原始发行稿说明10月30日发布与itch扩展；未断言有评测共识。Acts of Blood核为10月14日旧定档、Silica核为10月16日旧通知，均未收录为新消息；Persona泄露未获官宣且不采用。五张配图均实际来源页面或商店元数据取得，逐一HTTPS GET200、Content-Type image/jpeg确认；无临时签名链接、未生成游戏截图。",
+      "score": 4,
+      "items": [
+        {
+          "id": "games-2026-11-02-petit-switch2",
+          "title": "《Petit Planet》新增Switch 2版，主机窗口为2027年",
+          "category": "国内",
+          "publishedAt": "2026-11-01",
+          "summary": "米哈游宣布《Petit Planet》将于2027年登陆Nintendo Switch 2，这是在既有PC及移动端定档之后新增的主机计划。PC客户端／Epic与移动版仍定于12月4日先行推出；Switch 2尚无月日，不能理解为今年同步上线。",
+          "analysis": "重要性4/5：国产生活模拟作品向任天堂主机生态扩展，对主机端的操作、联机和内容体验值得跟进。本次只收录新增平台，不重复此前PC定档或预登记奖励；暂无依据把其他主机、跨端存档或性能表现一并确认为已支持。",
+          "importance": 4,
+          "tags": [
+            "Petit Planet",
+            "Switch 2",
+            "PC",
+            "生活模拟"
+          ],
+          "platforms": "Switch 2；PC（客户端、Epic Games Store）；另有移动版",
+          "keyDates": "Switch 2：2027年，具体日期待定；PC／移动版：2026-12-04",
+          "sources": [
+            {
+              "title": "Gematsu：开发商宣布Switch 2平台及窗口",
+              "url": "https://www.gematsu.com/2026/11/petit-planet-coming-to-switch-2-in-2027"
+            },
+            {
+              "title": "游戏官方网站：既有PC／移动版日期与新闻",
+              "url": "https://planet.hoyoverse.com/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.gematsu.com/wp-content/uploads/2026/11/Petit-Planet_2026_11-01-26_005-320x180.jpg",
+              "alt": "Petit Planet新增Switch 2消息中的游戏宣传图",
+              "sourceUrl": "https://www.gematsu.com/2026/11/petit-planet-coming-to-switch-2-in-2027",
+              "caption": "Gematsu刊载的游戏配图；不作Switch 2实机性能证明。"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-02-pikmin-demo",
+          "title": "《皮克敏4》Switch 2新版试玩定于11月2日配信",
+          "category": "国外",
+          "publishedAt": "2026-11-01（Pikmin Day Direct）",
+          "summary": "任天堂公布《Pikmin 4 – Nintendo Switch 2 Edition + Dandori Academy》免费试玩，包含开场区域Sun-Speckled Terrace和两个Dandori Academy关卡，计划11月2日配信。正式版仍定11月12日，新增麦克风指令与Dandori Academy挑战；这次并没有公布全新系列正作。",
+          "analysis": "重要性4/5：试玩提供直接检查新版操作与关卡设计的机会，比仅看预告更有参考价值。上述日期来自美区节目和日站英文文字稿，本次未确认精确解锁时刻或各区商店是否已上架；11月2日不能写成全球已开放下载。",
+          "importance": 4,
+          "tags": [
+            "Pikmin 4",
+            "Switch 2",
+            "策略",
+            "试玩"
+          ],
+          "platforms": "Nintendo Switch 2",
+          "keyDates": "试玩：2026-11-02；正式新版：2026-11-12，精确地区解锁时刻未核",
+          "sources": [
+            {
+              "title": "任天堂官方节目文字稿：试玩内容与日期",
+              "url": "https://www.nintendo.com/jp/nintendo-direct/description/20261031_en_US.html"
+            },
+            {
+              "title": "任天堂美区Pikmin Day Direct页面",
+              "url": "https://www.nintendo.com/us/nintendo-direct/11-1-2026/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://assets.nintendo.com/image/upload/f_auto,q_auto/Nintendo%20Direct/2026/PmheMkNVWjXlLg/11.1_archive",
+              "alt": "任天堂Pikmin Day Direct官方节目封面",
+              "sourceUrl": "https://www.nintendo.com/us/nintendo-direct/11-1-2026/",
+              "caption": "任天堂官方节目主视觉，非新增关卡实机截图。"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-02-sulfur-onepointzero",
+          "title": "《火湖》1.0已推出，首轮补丁修复命中与关卡生成问题",
+          "category": "国外",
+          "publishedAt": "2026-10-28正式版；2026-10-31补丁（近7日补充）",
+          "summary": "Perfect Random的单人动作Roguelike射击游戏《SULFUR／火湖》10月28日结束抢先体验，并同步推出PC和六款主机版本。1.0补全任务日志、附魔组合与完整推进流程；Steam官方10月31日的1.0.2补丁进一步修复部分敌人不受击、Town关卡生成与手柄光标问题。",
+          "analysis": "重要性3/5：这是完整版本与实际可玩性修补的组合更新，而非普通促销或今天才发售。游戏1.0不含多人模式，未来多人计划不能视为当前功能；本次只确认Steam补丁记录，不推定所有主机已同步获得1.0.2。",
+          "importance": 3,
+          "tags": [
+            "SULFUR",
+            "火湖",
+            "PC",
+            "PS5",
+            "Xbox Series",
+            "Switch 2",
+            "动作Roguelike"
+          ],
+          "platforms": "PC（Steam）、PS5、PS4、Xbox Series X|S、Xbox One、Switch 2、Switch",
+          "keyDates": "1.0：2026-10-28；Steam 1.0.2：2026-10-31",
+          "sources": [
+            {
+              "title": "开发商Steam官方发布及补丁记录",
+              "url": "https://steamcommunity.com/app/2124120/allnews/"
+            },
+            {
+              "title": "Steam官方商店：正式发行状态与语言",
+              "url": "https://store.steampowered.com/app/2124120/SULFUR/"
+            },
+            {
+              "title": "IT之家11月1日报道：中文名称与版本核对",
+              "url": "https://www.ithome.com/1/020/775.htm"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2124120/add4189f7072b5de676de00e9876c94c8e04807b/capsule_616x353_alt_assets_10.jpg?t=1793351317",
+              "alt": "SULFUR火湖Steam官方商店宣传图",
+              "sourceUrl": "https://steamcommunity.com/app/2124120/allnews/",
+              "caption": "开发商Steam商店素材；不代表各平台画质或补丁同步状态。"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-02-bot-colony-redux",
+          "title": "《Bot Colony Redux》开放抢先体验，让自然语言指令进入冒险玩法",
+          "category": "国外",
+          "publishedAt": "2026-10-30（近7日未收录补充）",
+          "summary": "加拿大蒙特利尔North Side宣布《Bot Colony Redux》在Steam开启抢先体验，可免费开始游玩。玩家通过语音或文字自由提问、指挥机器人操作场景物体，调查科幻间谍故事；团队称其自然语言引擎会管理对大模型的API调用，并支持包括中文在内的多语言对话。",
+          "analysis": "重要性3/5：值得观察AI角色能否把“理解指令—操作世界—推动谜题”连成实际游戏循环。当前是实验性的抢先体验，语言理解质量、内容完整度和费用边界仍应按商店规则与后续反馈核对；免费开始不等于全部后续内容或服务永久免费，也不宣称有评测共识。",
+          "importance": 3,
+          "tags": [
+            "Bot Colony Redux",
+            "PC",
+            "抢先体验",
+            "科幻冒险",
+            "AI NPC"
+          ],
+          "platforms": "PC（Steam）",
+          "keyDates": "抢先体验开启：2026-10-30，非1.0正式版",
+          "sources": [
+            {
+              "title": "开发团队Steam公告：10月30日抢先体验已开放",
+              "url": "https://steamcommunity.com/app/3613080/allnews"
+            },
+            {
+              "title": "North Side原始发行新闻稿",
+              "url": "https://www.gamespress.com/en-US/THE-GAME-YOU-SPEAK-WITH-NORTH-SIDE-INC-RELEASES-SCI-FI-ADVENTURE-BOT-C"
+            },
+            {
+              "title": "Steam官方商店",
+              "url": "https://store.steampowered.com/app/3613080/Bot_Colony_redux/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3613080/0a2db3ddcddd1b43891ef60bf4d6819100538c52/capsule_616x353.jpg?t=1793403928",
+              "alt": "Bot Colony Redux官方Steam商店宣传图",
+              "sourceUrl": "https://steamcommunity.com/app/3613080/allnews",
+              "caption": "开发团队商店素材；玩法效果与多语言表现未经独立实测。"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-02-shiftomino",
+          "title": "《Shiftomino》正式登陆Steam，用灵魂转移和方块合并解谜",
+          "category": "国外",
+          "publishedAt": "2026-10-30（近7日未收录补充）",
+          "summary": "独立开发者aramaa的《Shiftomino》已于10月30日在Steam推出Windows、macOS与Linux版，核心是让灵魂在接触的方块间转移，并把同色方块拼接成新形状。Steam版在既有itch.io作品基础上改进操作、增加关卡和谜题机制；失败无惩罚、没有计时压力，宝石可换取撤销机会。",
+          "analysis": "重要性2/5：单一规则组合出空间谜题，适合关注小体量独立游戏与机制设计。商店仅列英语和日语，尚无足够玩家评价形成口碑结论；这是正式发行的短篇解谜作品，不是试玩或抢先体验。",
+          "importance": 2,
+          "tags": [
+            "Shiftomino",
+            "Windows",
+            "macOS",
+            "Linux",
+            "解谜",
+            "独立游戏"
+          ],
+          "platforms": "PC：Windows、macOS、Linux（Steam）",
+          "keyDates": "Steam正式发行：2026-10-30；原计划08:00 PDT，即北京时间10月30日23:00",
+          "sources": [
+            {
+              "title": "Steam官方商店：已发行状态、平台及语言",
+              "url": "https://store.steampowered.com/app/4376910/"
+            },
+            {
+              "title": "开发者原始发行新闻稿（10月29日）",
+              "url": "https://www.gamespress.com/Shift-Your-Way-Forward-Puzzle-Platformer-Shiftomino-Releases-on-Steam-"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4376910/30e944a3dc9315a9e3b3b8d303bd83eab23285c0/capsule_616x353.jpg?t=1793548512",
+              "alt": "Shiftomino的Steam官方商店宣传图",
+              "sourceUrl": "https://store.steampowered.com/app/4376910/",
+              "caption": "开发者商店素材；未将少量评论解读为评测共识。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "games-2026-11-01",
       "collectionId": "games",
