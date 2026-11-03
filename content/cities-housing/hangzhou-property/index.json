@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "collectionId": "hangzhou-property",
-  "updatedAt": "2026-11-02T01:06:33Z",
+  "updatedAt": "2026-11-03T01:06:35Z",
   "shards": [
     {
       "month": "2026-11",
       "path": "2026/11.json",
-      "briefCount": 2,
-      "itemCount": 10
+      "briefCount": 3,
+      "itemCount": 15
     },
     {
       "month": "2026-10",
