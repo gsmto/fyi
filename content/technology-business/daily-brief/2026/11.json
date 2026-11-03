@@ -2,8 +2,184 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-11",
-  "updatedAt": "2026-11-02T01:01:30Z",
+  "updatedAt": "2026-11-03T01:03:30Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-11-03",
+      "collectionId": "daily-brief",
+      "date": "2026-11-03",
+      "title": "最新资讯｜2026-11-03",
+      "summary": "ChatGPT/Codex用量计划、阿布扎比企业AI协议、Unity实验性3D流水线、agent-desktop与中国制造业新调查。",
+      "analysis": "关注实际开放与实施边界：共享用量尚属计划，3D工具仍为实验版，企业落地需可追溯与人员监督，PMI扩张不等于利润普遍改善。",
+      "rawText": "# 最新资讯｜2026-11-03\n\n精选5条，按重要程度排序。以11月2日公布或集中跟进的信息为主，补充两项10月30日且近期报告未收录的开发工具进展；旧项目不包装成今日发布。已读取本栏目11月1—2日及10月最近报告去重。\n\n## 1. ChatGPT 与 Codex 计划12月共享用量，重任务需要统一预算\n\n时间：2026-11-02（媒体跟进；官方帮助页于11月3日核验）。\n\nOpenAI 官方帮助页确认：从12月起，Plus、Pro、Business 的 ChatGPT 与 Codex 用量将合并计算，并以 token 衡量；Instant 对话不消耗该用量。高阶模型和复杂任务通常消耗更多，用户可在设置中查看剩余额度与重置时间。页面尚未给出各套餐完整 token 配额，不能据此推算具体任务次数，也不能把计划写成已经全面生效。\n\n为什么值得关注：日常对话、深入分析和编程 Agent 将更需要共同安排资源，长期任务的成本可见性会影响工作流选择。重要性4/5：直接影响高频使用者的预算与可用性；实际额度和体验仍待实施细则。\n\n缺图：已打开的官方帮助页没有与本次用量调整对应的可确认图片直链；不以其他产品发布配图代替。\n\n来源：[OpenAI 官方：Understanding ChatGPT and Codex usage limits](https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits)；[Unite.AI 11月2日跟进](https://www.unite.ai/openai-sets-shared-chatgpt-and-codex-usage-allowance-for-december/)。\n\n## 2. OpenAI 在阿布扎比签署四项合作，监管流程已有生产试点\n\n时间：2026-11-02。\n\n阿布扎比媒体办公室公布，OpenAI 与当地机构签署覆盖能源、政府及投资的四项协议，包括 ADNOC 与 G42 旗下 Inception42 的合作。政府“机器可读”项目将部分法规转为可供系统辅助判断的规则，食品进口试点已进入生产，最终决定仍由官员监督负责。政府试点推理在阿联酋本地 GPU 运行；其他合作的签约不等于全业务已部署或收益已兑现。\n\n为什么值得关注：企业智能体的落地条件正在从模型接入延伸至规则追溯、人员问责和推理数据驻留。这些条件比单纯演示任务成功，更能帮助判断受监管行业的可复制性；重要性4/5。\n\n![阿布扎比媒体办公室公布的与 OpenAI 会面及签约活动照片](https://www.mediaoffice.abudhabi/assets/resized/sm/upload/s6/yh/og/tf/20261101KH_Z825524-0-690-0-388-crop-aspect.webp?k=1f60505cca)\n\n[图片出处](https://www.mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-meets-sam-altman-and-witnesses-signing-of-agreements-with-openai/)\n\n来源：[阿布扎比媒体办公室：四项协议与政府生产试点](https://www.mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-meets-sam-altman-and-witnesses-signing-of-agreements-with-openai/)；[Inception42：合作范围](https://inception42.ai/news/inception42-open-ai-adnoc-and-mubadala-sign-strategic-partnerships)。\n\n## 3. Unity 把 Agent 接入3D资产流水线，实验版暂不宜无人值守生产\n\n时间：2026-10-30（近7日补充）。\n\nUnity 在10月30日的行业工具更新中介绍 Industry AI Workflows 实验版：通过可独立安装的 MCP 插件连接资产管理、CAD处理与云端流水线。官方 GitHub 仓库目前提供 Claude Code 插件，分别管理资源版本、使用 Asset Transformer 优化导出，以及创建和监控自动化作业；Asset Transformer 仍需相应许可证。仓库明确提示接口和行为可能不经弃用周期变化，暂勿据此搭建无人值守生产自动化。\n\n为什么值得关注：对3D和游戏工具团队，它展示了将导入、优化、渲染检查和发布做成可验证步骤的路径；当前定位主要是工业3D工作流，不能泛化为所有游戏制作功能已开放。重要性3/5：实践相关性高，但仍需小范围验证。\n\n![Unity Industry 2026 工具更新官方配图](https://cdn.sanity.io/images/fuvbjjlp/production/6f050f16ca60f803b2bf2a5b7da97e5738f44b2f-3840x2160.png)\n\n[图片出处](https://unity.com/blog/unity-industry-product-releases-2026)\n\n来源：[Unity：2026 Industry releases and Q4 preview](https://unity.com/blog/unity-industry-product-releases-2026)；[官方仓库：industry-ai-workflows 与实验性限制](https://github.com/Unity-Technologies/industry-ai-workflows)。\n\n## 4. agent-desktop 以无障碍树操作桌面，为跨应用 Agent 提供开源接口\n\n时间：2026-10-30 UTC（v1.0.2；近7日补充）。\n\nVercel Labs 的 agent-desktop 提供 macOS、Windows、Linux 的 CLI 与 C 库，通过系统无障碍树返回带引用的界面快照，再按引用执行动作并重新观察。10月30日发布的 v1.0.2 改善权限引导并补齐文档，项目采用 Apache-2.0 许可。当前文档要求界面变化后重新取快照，且各平台能力有差异；它并不保证所有自绘画布、游戏画面或应用均可操作。\n\n为什么值得关注：为桌面工具集成 Agent 提供了可读结构与明确错误返回，值得与截图识别方案比较；接入前要验证目标应用的可访问性和权限边界。重要性3/5：直接利于原型开发，项目能力描述尚非独立可靠性评测。\n\n![agent-desktop 官方 GitHub 仓库分享配图](https://repository-images.githubusercontent.com/1161958643/83055b28-992e-4176-b5d6-89b56aa22dde)\n\n[图片出处](https://github.com/vercel-labs/agent-desktop)\n\n来源：[官方仓库：接口、平台支持与许可](https://github.com/vercel-labs/agent-desktop)；[官方 v1.0.2 发布记录](https://github.com/vercel-labs/agent-desktop/releases/tag/v1.0.2)。\n\n## 5. 中国10月民间制造业PMI报52.0：扩张延续，价格压力仍在\n\n时间：2026-11-02。\n\n11月2日公布的 RatingDog／标普全球制造业 PMI 为52.0，较9月52.1略降，仍处于50以上的扩张区间。路透与中文财经报道均显示产出增长较强，但出口订单增速放缓，出厂售价下调。该民间调查与昨日已报告的官方调查属于不同样本口径，不能相互替代，更不能将指数52解释为产出增长52%。\n\n为什么值得关注：新增调查显示订单扩张与利润压力可能同时存在；观察企业后续收入时，还应核对毛利、出口订单和现金流。重要性3/5：有助理解制造链景气分化，不能凭单月调查推导股市或政策方向。\n\n![东莞制造企业仓库的中国制造包装，路透资料照片（2026年3月16日）](https://www.reuters.com/resizer/v2/GN5OQSPQEBPLNNIJEJ2XGMN3F4.jpg?auth=e1662a5f2ba55f3f1d4cbc7a2eea184dde5f290163fba3a10ea43aba4768efb2&quality=80&width=1080)\n\n[图片出处](https://www.reuters.com/world/asia-pacific/china-factory-growth-slows-october-export-orders-ease-private-pmi-shows-2026-11-02/)；资料照片，不代表本次调查样本或10月生产现场。\n\n来源：[Reuters：10月制造业调查](https://www.reuters.com/world/asia-pacific/china-factory-growth-slows-october-export-orders-ease-private-pmi-shows-2026-11-02/)；[格隆汇：11月2日数据及分项](https://www.gelonghui.com/live/2740946)。\n\n观察：本期重点是智能体从单项能力进入共享资源预算、桌面接口和可追溯业务流程。市场部分应把订单数量与利润质量分别看待；工具公告与实验仓库则仍需真实场景验证。\n\n检索与核验：2026-11-03 09:03（Asia/Shanghai）。综合英文官方公告、官方 GitHub 仓库、中文财经报道和国际媒体；研究线索与热点聚合仅用于发现候选，未为覆盖领域而收录缺乏新增的论文或营销信息。四张图片已实际打开或GET成功；一条官方帮助页无合适配图，已注明。路透图片采用原网页长期内容校验地址，无到期时间参数。\n",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "生成时间 2026-11-03T01:03:30Z；日期时区Asia/Shanghai；检索覆盖11月2—3日英文官方公告、帮助文档、GitHub开源发布及中文科技财经线索，补充10月30日尚未收录事件；已核对11月及10月近期归档；5条正文与结构化来源对应，4张公开HTTPS配图已实际访问，1条缺图明确说明。",
+      "score": 4,
+      "items": [
+        {
+          "id": "daily-brief-2026-11-03-shared-allowance",
+          "title": "ChatGPT 与 Codex 计划12月共享用量，重任务需要统一预算",
+          "category": "AI / 大模型 / 智能体",
+          "eventDate": "2026-11-02（媒体跟进；官方帮助页于11月3日核验）",
+          "summary": "OpenAI 官方帮助页确认：从12月起，Plus、Pro、Business 的 ChatGPT 与 Codex 用量将合并计算，并以 token 衡量；Instant 对话不消耗该用量。高阶模型和复杂任务通常消耗更多，用户可在设置中查看剩余额度与重置时间。页面尚未给出各套餐完整 token 配额，不能据此推算具体任务次数，也不能把计划写成已经全面生效。",
+          "analysis": "为什么值得关注：日常对话、深入分析和编程 Agent 将更需要共同安排资源，长期任务的成本可见性会影响工作流选择。重要性4/5：直接影响高频使用者的预算与可用性；实际额度和体验仍待实施细则。",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "ChatGPT",
+            "Codex",
+            "用量",
+            "订阅"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI 官方：Understanding ChatGPT and Codex usage limits",
+              "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
+            },
+            {
+              "title": "Unite.AI 11月2日跟进",
+              "url": "https://www.unite.ai/openai-sets-shared-chatgpt-and-codex-usage-allowance-for-december/"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：已打开的官方帮助页没有与本次用量调整对应的可确认图片直链；不以其他产品发布配图代替。"
+        },
+        {
+          "id": "daily-brief-2026-11-03-abu-dhabi-deals",
+          "title": "OpenAI 在阿布扎比签署四项合作，监管流程已有生产试点",
+          "category": "全球科技与商业",
+          "eventDate": "2026-11-02",
+          "summary": "阿布扎比媒体办公室公布，OpenAI 与当地机构签署覆盖能源、政府及投资的四项协议，包括 ADNOC 与 G42 旗下 Inception42 的合作。政府“机器可读”项目将部分法规转为可供系统辅助判断的规则，食品进口试点已进入生产，最终决定仍由官员监督负责。政府试点推理在阿联酋本地 GPU 运行；其他合作的签约不等于全业务已部署或收益已兑现。",
+          "analysis": "为什么值得关注：企业智能体的落地条件正在从模型接入延伸至规则追溯、人员问责和推理数据驻留。这些条件比单纯演示任务成功，更能帮助判断受监管行业的可复制性；重要性4/5。",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "ADNOC",
+            "G42",
+            "企业智能体",
+            "数据驻留"
+          ],
+          "sources": [
+            {
+              "title": "阿布扎比媒体办公室：四项协议与政府生产试点",
+              "url": "https://www.mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-meets-sam-altman-and-witnesses-signing-of-agreements-with-openai/"
+            },
+            {
+              "title": "Inception42：合作范围",
+              "url": "https://inception42.ai/news/inception42-open-ai-adnoc-and-mubadala-sign-strategic-partnerships"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.mediaoffice.abudhabi/assets/resized/sm/upload/s6/yh/og/tf/20261101KH_Z825524-0-690-0-388-crop-aspect.webp?k=1f60505cca",
+              "alt": "阿布扎比媒体办公室公布的与 OpenAI 会面及签约活动照片",
+              "sourceUrl": "https://www.mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-meets-sam-altman-and-witnesses-signing-of-agreements-with-openai/"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-03-unity-workflows",
+          "title": "Unity 把 Agent 接入3D资产流水线，实验版暂不宜无人值守生产",
+          "category": "游戏开发 / 技术",
+          "eventDate": "2026-10-30（近7日补充）",
+          "summary": "Unity 在10月30日的行业工具更新中介绍 Industry AI Workflows 实验版：通过可独立安装的 MCP 插件连接资产管理、CAD处理与云端流水线。官方 GitHub 仓库目前提供 Claude Code 插件，分别管理资源版本、使用 Asset Transformer 优化导出，以及创建和监控自动化作业；Asset Transformer 仍需相应许可证。仓库明确提示接口和行为可能不经弃用周期变化，暂勿据此搭建无人值守生产自动化。",
+          "analysis": "为什么值得关注：对3D和游戏工具团队，它展示了将导入、优化、渲染检查和发布做成可验证步骤的路径；当前定位主要是工业3D工作流，不能泛化为所有游戏制作功能已开放。重要性3/5：实践相关性高，但仍需小范围验证。",
+          "importance": 3,
+          "tags": [
+            "Unity",
+            "MCP",
+            "3D资产",
+            "Claude Code",
+            "实验版"
+          ],
+          "sources": [
+            {
+              "title": "Unity：2026 Industry releases and Q4 preview",
+              "url": "https://unity.com/blog/unity-industry-product-releases-2026"
+            },
+            {
+              "title": "官方仓库：industry-ai-workflows 与实验性限制",
+              "url": "https://github.com/Unity-Technologies/industry-ai-workflows"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn.sanity.io/images/fuvbjjlp/production/6f050f16ca60f803b2bf2a5b7da97e5738f44b2f-3840x2160.png",
+              "alt": "Unity Industry 2026 工具更新官方配图",
+              "sourceUrl": "https://unity.com/blog/unity-industry-product-releases-2026"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-03-agent-desktop",
+          "title": "agent-desktop 以无障碍树操作桌面，为跨应用 Agent 提供开源接口",
+          "category": "软件工程 / 开发工具",
+          "eventDate": "2026-10-30 UTC（v1.0.2；近7日补充）",
+          "summary": "Vercel Labs 的 agent-desktop 提供 macOS、Windows、Linux 的 CLI 与 C 库，通过系统无障碍树返回带引用的界面快照，再按引用执行动作并重新观察。10月30日发布的 v1.0.2 改善权限引导并补齐文档，项目采用 Apache-2.0 许可。当前文档要求界面变化后重新取快照，且各平台能力有差异；它并不保证所有自绘画布、游戏画面或应用均可操作。",
+          "analysis": "为什么值得关注：为桌面工具集成 Agent 提供了可读结构与明确错误返回，值得与截图识别方案比较；接入前要验证目标应用的可访问性和权限边界。重要性3/5：直接利于原型开发，项目能力描述尚非独立可靠性评测。",
+          "importance": 3,
+          "tags": [
+            "开源",
+            "Vercel Labs",
+            "agent-desktop",
+            "桌面自动化",
+            "Rust"
+          ],
+          "sources": [
+            {
+              "title": "官方仓库：接口、平台支持与许可",
+              "url": "https://github.com/vercel-labs/agent-desktop"
+            },
+            {
+              "title": "官方 v1.0.2 发布记录",
+              "url": "https://github.com/vercel-labs/agent-desktop/releases/tag/v1.0.2"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://repository-images.githubusercontent.com/1161958643/83055b28-992e-4176-b5d6-89b56aa22dde",
+              "alt": "agent-desktop 官方 GitHub 仓库分享配图",
+              "sourceUrl": "https://github.com/vercel-labs/agent-desktop"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-03-ratingdog-pmi",
+          "title": "中国10月民间制造业PMI报52.0：扩张延续，价格压力仍在",
+          "category": "财经 / 市场 / 投资",
+          "eventDate": "2026-11-02",
+          "summary": "11月2日公布的 RatingDog／标普全球制造业 PMI 为52.0，较9月52.1略降，仍处于50以上的扩张区间。路透与中文财经报道均显示产出增长较强，但出口订单增速放缓，出厂售价下调。该民间调查与昨日已报告的官方调查属于不同样本口径，不能相互替代，更不能将指数52解释为产出增长52%。",
+          "analysis": "为什么值得关注：新增调查显示订单扩张与利润压力可能同时存在；观察企业后续收入时，还应核对毛利、出口订单和现金流。重要性3/5：有助理解制造链景气分化，不能凭单月调查推导股市或政策方向。",
+          "importance": 3,
+          "tags": [
+            "中国经济",
+            "制造业",
+            "PMI",
+            "出口",
+            "利润"
+          ],
+          "sources": [
+            {
+              "title": "Reuters：10月制造业调查",
+              "url": "https://www.reuters.com/world/asia-pacific/china-factory-growth-slows-october-export-orders-ease-private-pmi-shows-2026-11-02/"
+            },
+            {
+              "title": "格隆汇：11月2日数据及分项",
+              "url": "https://www.gelonghui.com/live/2740946"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.reuters.com/resizer/v2/GN5OQSPQEBPLNNIJEJ2XGMN3F4.jpg?auth=e1662a5f2ba55f3f1d4cbc7a2eea184dde5f290163fba3a10ea43aba4768efb2&quality=80&width=1080",
+              "alt": "东莞制造企业仓库的中国制造包装，路透资料照片（2026年3月16日）",
+              "sourceUrl": "https://www.reuters.com/world/asia-pacific/china-factory-growth-slows-october-export-orders-ease-private-pmi-shows-2026-11-02/",
+              "caption": "资料照片，不代表本次调查样本或10月生产现场。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "daily-brief-2026-11-02",
       "collectionId": "daily-brief",
