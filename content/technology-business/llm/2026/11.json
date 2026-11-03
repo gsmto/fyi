@@ -2,8 +2,164 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-02T01:26:20Z",
+  "updatedAt": "2026-11-03T01:26:16Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-03",
+      "collectionId": "llm",
+      "date": "2026-11-03",
+      "title": "大模型｜2026-11-03",
+      "summary": "ChatGPT与Codex拟12月共享用量；OpenAI披露Pando Git基础设施与LifeVal评测；阿布扎比合作强调本地推理和可追溯审批；Gemini规划助手扩大英国Beta试点。",
+      "analysis": "头部AI动态从模型参数延伸至额度管理、并行开发基础设施、真实事务评测和受监督部署；分别记录已上线、签约、Beta与后续计划。",
+      "rawText": "# 大模型｜2026-11-03\n\n截至北京时间11月3日晨间，检索OpenAI、Anthropic、Google／DeepMind、xAI及Meta官方动态，并与本栏目近期归档去重。精选5条；OpenAI工程、评测与阿布扎比公告发表于11月2日，用量文档保留其相对更新时间，Google条目为近7日未收录补充。不按公司凑数。\n\n## 1．ChatGPT与Codex计划12月共享用量，Plus／Pro／Business受影响\n\n**事件／发布时间：** 2026-11-03晨间核验；帮助页显示“昨天更新”，未列绝对发布日期；计划12月起实施。\n\nOpenAI帮助文档说明，随着Work的智能体能力并入ChatGPT，Plus、Pro和Business的ChatGPT与Codex将从12月起共享按token衡量的用量额度。消耗取决于模型和任务复杂度，Instant聊天不占用该额度；设置中的Usage将展示共同剩余额度和重置时间。页面没有公布各套餐的具体token总量，也未宣称现已全面切换。\n\n**为什么值得关注／影响：** 重要性4/5：同时使用聊天与编程智能体的人需要重新观察用量预算和任务分配。该说明针对上述订阅套餐，不是API价格调整；能否购买额外credits及适用功能应以账号实际页面为准。\n\n来源：[OpenAI官方帮助文档：共享用量及适用套餐](https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits)\n\n*缺图说明：官方帮助页只有品牌标志，未提供对应功能的公开截图直链，不用旧版用量截图替代。*\n\n## 2．OpenAI披露Pando：应对Codex并行开发的Git后端\n\n**事件／发布时间：** 2026-11-02。\n\nOpenAI公布已支撑其内部单一大型代码库开发的Pando后端，保留Git客户端和协议工作流，以分支独立协调、复用packfile和区域缓存承接智能体产生的大量并行推送与读取。公司报告生产环境推送延迟中位数改善近5倍、每天传输接近1PB数据；这些是内部运行数据，不能当成所有仓库的独立性能评测。\n\n**为什么值得关注／影响：** 重要性4/5：智能体规模化后的瓶颈正延伸到版本控制和CI基础设施；分支级一致性与跨分支整体快照之间的取舍有直接工程参考价值。本次是架构披露和上游Git贡献说明，不是Pando公共托管服务发布或已宣布完整开源。\n\n来源：[OpenAI原始工程文章：Scaling Git at OpenAI](https://openai.com/index/scaling-git-at-openai/)\n\n*缺图说明：原文以交互式架构演示与文字为主，未核得适合静态归档的公开图片直链，不自行重绘冒充官方图。*\n\n## 3．LifeVal把AI评测转向日常事务，成绩仍需区分厂商自测\n\n**事件／发布时间：** 2026-11-02。\n\n![LifeVal官方文章中共同处理文书资料的生活场景配图](https://images.ctfassets.net/kftzwdyauwt9/7sFzZxKpcOhJP4T1ppAf6b/57fbb1cd4a8a73066261aa1e450117ec/photo-05.webp?fm=webp&q=90&w=3840)\n\n*OpenAI原文配图，仅说明日常任务场景，不是独立评测或用户实验结果。 [图片出处](https://openai.com/index/lifeval/)*\n\nOpenAI介绍LifeVal，依据时间使用调查并补充3995人的代表性调查，选取照护、教育、家庭行政、个人财务和公共服务等人们希望AI协助的任务。它强调从回答问题转向完成实际工作流；官网列出的任务示例与高分是厂商展示，不能直接推为现实环境中的成功率或医疗、财务建议可靠性。\n\n**为什么值得关注／影响：** 重要性3/5：评测范围扩展到跨工具办事，对个人智能体产品的验收设计有参考价值。该公告没有提供足以统一比较各家公司模型的完整测试条件与独立复现结果，也不是每项演示功能已向所有账号或地区开放的承诺。\n\n来源：[OpenAI LifeVal原始研究介绍](https://openai.com/index/lifeval/)\n\n## 4．OpenAI签署阿布扎比四项合作，本地推理与可追溯审批进入部署议题\n\n**事件／发布时间：** 2026-11-02。\n\n![阿布扎比官方发布的与Sam Altman会面及合作活动照片](https://www.mediaoffice.abudhabi/assets/resized/sm/upload/s6/yh/og/tf/20261101KH_Z825524-0-690-0-388-crop-aspect.webp?k=1f60505cca)\n\n*图片来源：Abu Dhabi Media Office；活动照片不代表全部协议已完成实施。 [图片出处](https://www.mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-meets-sam-altman-and-witnesses-signing-of-agreements-with-openai/)*\n\n阿布扎比官方公告确认当地机构与OpenAI签署四项协议，涵盖能源、政务、投资及五年推广合作。能源合作拟将GPT能力接入ADNOC运营，并使用阿联酋境内推理设施；政务“机器可读政府”首个食品进口试点已在生产环境运行，评估须追溯到规则，最终决策由官员监督负责。\n\n**为什么值得关注／影响：** 重要性3/5：企业和政府部署AI越来越强调推理所在地、规则可追溯与人的责任边界。已投产的食品进口试点与其他签约、后续集成计划应分开看，不能把四项协议都当成全面落地或已证实商业收益。\n\n来源：[阿布扎比媒体办公室：四项协议及食品进口试点状态](https://www.mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-meets-sam-altman-and-witnesses-signing-of-agreements-with-openai/)\n\n## 5．Gemini规划助手扩大英国试点，“节省58%时间”有明确口径\n\n**事件／发布时间：** 2026-10-31（近7日未收录补充）。\n\n![PlanAssist官方文章中微型房屋和建筑规划图的三维示意图](https://lh3.googleusercontent.com/Nm8KA22MQpfxdDUFgJTo8zlz4aMcmoQ-iAg3-8c66LGHXMCjk8D3tosCXqVI4rebDEAXwYbb9gJFSSinALwXmxNOxnjmFc80sKkAhHi4M2SceZye%3Dw1440-h810-n-nu)\n\n*Google DeepMind官方示意图，不是实际审批项目照片。 [图片出处](https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/)*\n\nGoogle DeepMind宣布与英国政府、Google Cloud及Faculty合作的PlanAssist进入12个月Beta阶段，计划分三批增加12个地方规划机构，总数达到15个。该工具核查申请文件、建筑图纸及规划政策并生成带引用的报告；早期三个地方机构试点称工作人员评估任务的平均耗时减少58%，这不是整个审批周期缩短58%，也不是独立盲测结论。\n\n**为什么值得关注／影响：** 重要性3/5：文档核查、引用证据、人工最终审批是一条可观察的政务智能体落地路径。当前适用于参与试点的英格兰机构，并非公共API；2027年推广到全英格兰地方机构仍以试验成功为条件。\n\n来源：[Google DeepMind 10月31日原始公告](https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/)\n\n继续观察共享用量的具体额度与实际生效范围、LifeVal的完整测试条件和可复现性，以及政务试点能否在更多机构维持效果；不把签约、计划、预览或厂商数字当成普遍可用与独立验证。\n",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "生成时间2026-11-03T01:26:16Z；检索截至Asia/Shanghai 2026-11-03晨间近24小时，补充10月28日至11月3日近7日未收录内容。已通过GitHub读取ARCHIVING.md、catalog.json、month schema、llm索引及最近月文件去重；综合中英文线索，检索OpenAI、Anthropic、Google/DeepMind、xAI、Meta并实际打开入选官方原文。核验11月2日Pando和LifeVal，保留内部性能自报与厂商示例限制；帮助页仅显示昨天更新，不伪造绝对原始发布日期或未公布token额度；阿布扎比四协议区分食品进口在生产试点与其余后续集成；DeepMind原文明确10月31日、58%工作人员评估任务口径、12个月Beta/15机构与2027有条件推广。未重复昨日Gemini4Carbon、Genie4、ModelSpec、共享训练偏好、Anthropic IPO。三张官方文章配图均实际从原文检索并打开为图片，LifeVal直链另GET200 image/webp；另两条无匹配公开静态图注明原因。不修改模型前线、模型资料快照或其他栏目。",
+      "score": 4,
+      "items": [
+        {
+          "id": "llm-2026-11-03-shared-usage",
+          "title": "ChatGPT与Codex计划12月共享用量，Plus／Pro／Business受影响",
+          "category": "OpenAI",
+          "publishedAt": "2026-11-03晨间核验；帮助页显示“昨天更新”，未列绝对发布日期；计划12月起实施",
+          "summary": "OpenAI帮助文档说明，随着Work的智能体能力并入ChatGPT，Plus、Pro和Business的ChatGPT与Codex将从12月起共享按token衡量的用量额度。消耗取决于模型和任务复杂度，Instant聊天不占用该额度；设置中的Usage将展示共同剩余额度和重置时间。页面没有公布各套餐的具体token总量，也未宣称现已全面切换。",
+          "analysis": "重要性4/5：同时使用聊天与编程智能体的人需要重新观察用量预算和任务分配。该说明针对上述订阅套餐，不是API价格调整；能否购买额外credits及适用功能应以账号实际页面为准。",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "ChatGPT",
+            "Codex",
+            "用量限制",
+            "Work"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI官方帮助文档：共享用量及适用套餐",
+              "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
+            }
+          ],
+          "images": [],
+          "imageNote": "官方帮助页只有品牌标志，未提供对应功能的公开截图直链，不用旧版用量截图替代。"
+        },
+        {
+          "id": "llm-2026-11-03-pando-git",
+          "title": "OpenAI披露Pando：应对Codex并行开发的Git后端",
+          "category": "OpenAI",
+          "publishedAt": "2026-11-02",
+          "summary": "OpenAI公布已支撑其内部单一大型代码库开发的Pando后端，保留Git客户端和协议工作流，以分支独立协调、复用packfile和区域缓存承接智能体产生的大量并行推送与读取。公司报告生产环境推送延迟中位数改善近5倍、每天传输接近1PB数据；这些是内部运行数据，不能当成所有仓库的独立性能评测。",
+          "analysis": "重要性4/5：智能体规模化后的瓶颈正延伸到版本控制和CI基础设施；分支级一致性与跨分支整体快照之间的取舍有直接工程参考价值。本次是架构披露和上游Git贡献说明，不是Pando公共托管服务发布或已宣布完整开源。",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "Codex",
+            "Pando",
+            "Git",
+            "开发工具",
+            "智能体基础设施"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI原始工程文章：Scaling Git at OpenAI",
+              "url": "https://openai.com/index/scaling-git-at-openai/"
+            }
+          ],
+          "images": [],
+          "imageNote": "原文以交互式架构演示与文字为主，未核得适合静态归档的公开图片直链，不自行重绘冒充官方图。"
+        },
+        {
+          "id": "llm-2026-11-03-lifeval",
+          "title": "LifeVal把AI评测转向日常事务，成绩仍需区分厂商自测",
+          "category": "OpenAI",
+          "publishedAt": "2026-11-02",
+          "summary": "OpenAI介绍LifeVal，依据时间使用调查并补充3995人的代表性调查，选取照护、教育、家庭行政、个人财务和公共服务等人们希望AI协助的任务。它强调从回答问题转向完成实际工作流；官网列出的任务示例与高分是厂商展示，不能直接推为现实环境中的成功率或医疗、财务建议可靠性。",
+          "analysis": "重要性3/5：评测范围扩展到跨工具办事，对个人智能体产品的验收设计有参考价值。该公告没有提供足以统一比较各家公司模型的完整测试条件与独立复现结果，也不是每项演示功能已向所有账号或地区开放的承诺。",
+          "importance": 3,
+          "tags": [
+            "OpenAI",
+            "LifeVal",
+            "智能体",
+            "评测",
+            "日常任务"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI LifeVal原始研究介绍",
+              "url": "https://openai.com/index/lifeval/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.ctfassets.net/kftzwdyauwt9/7sFzZxKpcOhJP4T1ppAf6b/57fbb1cd4a8a73066261aa1e450117ec/photo-05.webp?fm=webp&q=90&w=3840",
+              "alt": "LifeVal官方文章中共同处理文书资料的生活场景配图",
+              "sourceUrl": "https://openai.com/index/lifeval/",
+              "caption": "OpenAI原文配图，仅说明日常任务场景，不是独立评测或用户实验结果。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-03-uae-deployment",
+          "title": "OpenAI签署阿布扎比四项合作，本地推理与可追溯审批进入部署议题",
+          "category": "OpenAI",
+          "publishedAt": "2026-11-02",
+          "summary": "阿布扎比官方公告确认当地机构与OpenAI签署四项协议，涵盖能源、政务、投资及五年推广合作。能源合作拟将GPT能力接入ADNOC运营，并使用阿联酋境内推理设施；政务“机器可读政府”首个食品进口试点已在生产环境运行，评估须追溯到规则，最终决策由官员监督负责。",
+          "analysis": "重要性3/5：企业和政府部署AI越来越强调推理所在地、规则可追溯与人的责任边界。已投产的食品进口试点与其他签约、后续集成计划应分开看，不能把四项协议都当成全面落地或已证实商业收益。",
+          "importance": 3,
+          "tags": [
+            "OpenAI",
+            "GPT",
+            "阿联酋",
+            "推理驻留",
+            "政务智能体",
+            "企业部署"
+          ],
+          "sources": [
+            {
+              "title": "阿布扎比媒体办公室：四项协议及食品进口试点状态",
+              "url": "https://www.mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-meets-sam-altman-and-witnesses-signing-of-agreements-with-openai/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.mediaoffice.abudhabi/assets/resized/sm/upload/s6/yh/og/tf/20261101KH_Z825524-0-690-0-388-crop-aspect.webp?k=1f60505cca",
+              "alt": "阿布扎比官方发布的与Sam Altman会面及合作活动照片",
+              "sourceUrl": "https://www.mediaoffice.abudhabi/en/crown-prince-news/khaled-bin-mohamed-bin-zayed-meets-sam-altman-and-witnesses-signing-of-agreements-with-openai/",
+              "caption": "图片来源：Abu Dhabi Media Office；活动照片不代表全部协议已完成实施。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-03-planassist-beta",
+          "title": "Gemini规划助手扩大英国试点，“节省58%时间”有明确口径",
+          "category": "Google",
+          "publishedAt": "2026-10-31（近7日未收录补充）",
+          "summary": "Google DeepMind宣布与英国政府、Google Cloud及Faculty合作的PlanAssist进入12个月Beta阶段，计划分三批增加12个地方规划机构，总数达到15个。该工具核查申请文件、建筑图纸及规划政策并生成带引用的报告；早期三个地方机构试点称工作人员评估任务的平均耗时减少58%，这不是整个审批周期缩短58%，也不是独立盲测结论。",
+          "analysis": "重要性3/5：文档核查、引用证据、人工最终审批是一条可观察的政务智能体落地路径。当前适用于参与试点的英格兰机构，并非公共API；2027年推广到全英格兰地方机构仍以试验成功为条件。",
+          "importance": 3,
+          "tags": [
+            "Google",
+            "Google DeepMind",
+            "Gemini",
+            "PlanAssist",
+            "Beta",
+            "政务"
+          ],
+          "sources": [
+            {
+              "title": "Google DeepMind 10月31日原始公告",
+              "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://lh3.googleusercontent.com/Nm8KA22MQpfxdDUFgJTo8zlz4aMcmoQ-iAg3-8c66LGHXMCjk8D3tosCXqVI4rebDEAXwYbb9gJFSSinALwXmxNOxnjmFc80sKkAhHi4M2SceZye%3Dw1440-h810-n-nu",
+              "alt": "PlanAssist官方文章中微型房屋和建筑规划图的三维示意图",
+              "sourceUrl": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+              "caption": "Google DeepMind官方示意图，不是实际审批项目照片。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "llm-2026-11-02",
       "collectionId": "llm",
