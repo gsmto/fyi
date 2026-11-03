@@ -2,8 +2,206 @@
   "schemaVersion": 1,
   "collectionId": "games",
   "month": "2026-11",
-  "updatedAt": "2026-11-02T01:14:29Z",
+  "updatedAt": "2026-11-03T01:18:06Z",
   "briefs": [
+    {
+      "id": "games-2026-11-03",
+      "collectionId": "games",
+      "date": "2026-11-03",
+      "title": "游戏｜2026-11-03",
+      "summary": "影之刃零公布72小时400万份；Thief重制版12月3日、Ova Magica主机11月10日；HARMA确定EA日期，Castaway Diary延至2027年。",
+      "analysis": "围绕明确日期、可玩状态与实质变化筛选，区分厂商销量、计划中的补丁和已经发布的内容。",
+      "rawText": "# 游戏｜2026-11-03\n\n## 今日重点\n\n本期精选5条，均为11月2日新公布或更新，已与最近归档去重；销量、正式发售、移植、试玩与抢先体验分别标注。重点看《影之刃零》后续修复、《Thief》重制版内容与独立游戏的确定档期。国内外按主要团队或发行主体划分，不按报道语言。\n\n## 国内\n\n### 《影之刃零》72小时销量超400万，近期将先修明显Bug\n\n消息日期：2026-11-02。\n\n中国灵游坊11月2日公布，《影之刃零》发售后72小时全平台销量超过400万份，这是已发售游戏的新增销售里程碑，不重复此前发售消息。官方同时表示已记录玩家反馈，近期先修复一批明显Bug，但此次未给补丁版本号和确定上线时间。销量为厂商披露的全球合计口径，不代表各平台或地区占比，也不能由份数直接推算净收入。\n\n为什么值得关注：国产买断制动作游戏的商业表现有实质新数据，接下来更值得跟进首批修复与性能反馈。重要性4/5：重大销售进展并伴随后续维护承诺；平台为PC、PS5，既有正式发售日期为10月29日，修复时间待定。\n\n![《影之刃零》72小时销量超400万，近期将先修明显Bug：官方宣传图／商店封面](https://img.ithome.com/newsuploadfiles/2026/11/ed732e92-2f73-4b9f-a85b-d6ca05acc56c.jpg)\n\n[图片出处](https://www.ithome.com/1/020/891.htm)\n\n来源：[IT之家11月2日：官方销量与修复表态](https://www.ithome.com/1/020/891.htm)；[官方X原帖（访问可能受限）](https://x.com/pbzero_official/status/2117074929594298758)；[Push Square：平台与72小时口径交叉核对](https://www.pushsquare.com/news/2026/11/phantom-blade-zero-is-an-instant-hit-with-4-million-sales-on-ps5-pc)。\n\n## 国外\n\n### 《Thief: The Dark Project Remastered》定档12月3日\n\n消息日期：2026-11-02。\n\nAtari、Nightdive及合作方11月2日确认这部经典潜行作品的重制版将于12月3日推出，Steam官方页已列出同一天。PC渠道包括Steam、Epic与GOG，公告另列PS5、Xbox Series、PS4、Switch及Switch 2。官方介绍包含原作与Thief Gold内容、现代手柄操作及自定义战役支持；Steam还列出新增四任务剧情“The Tarnished Mirror”，尚非正式发售评测结论。\n\n为什么值得关注：以光照和声音驱动的潜行设计获得跨平台再发行，新增内容比单纯画质翻新更值得观察。重要性4/5：经典作品的确定档期与内容变化；各地区精确解锁时刻及各硬件实际帧率仍待确认，不能将最高规格套用所有平台。\n\n![《Thief: The Dark Project Remastered》定档12月3日：官方宣传图／商店封面](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4200960/20321014a4a5a0b71c8c70648eb37eef249466b1/header.jpg?t=1793653460)\n\n[图片出处](https://store.steampowered.com/app/4200960/Thief_The_Dark_Project_Remastered/)\n\n来源：[官方Steam商店：日期与重制内容](https://store.steampowered.com/app/4200960/Thief_The_Dark_Project_Remastered/)；[Gematsu 11月2日：多平台公告](https://www.gematsu.com/2026/11/thief-the-dark-project-remastered-launches-december-3)。\n\n### 《Castaway Diary》抢先体验延期至2027年，先测试再出试玩\n\n消息日期：2026-11-02。\n\n韩国团队REMIMORY于11月2日将PC生存建造游戏的抢先体验窗口从2026年改为2027年，Steam官方页亦已更新为2027年。路线依次为测试、Demo、Steam新品节及抢先体验，首轮测试目标为2027年第一季度。官方商店列出单人和在线合作，并新增繁体中文、俄语；测试、Demo和抢先体验是不同阶段，尚无1.0正式发售日期。\n\n为什么值得关注：延期会改变近期游玩安排，后续应先看公开测试与可玩构建，不把新截图当质量已达标。重要性3/5：明确档期变化与路线图，现阶段仍属开发计划。\n\n![《Castaway Diary》抢先体验延期至2027年，先测试再出试玩：官方宣传图／商店封面](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4382260/98d25ebb3f3192467170d5d6617bc659806f4d8e/header.jpg?t=1793580670)\n\n[图片出处](https://store.steampowered.com/app/4382260/Castaway_Diary_Portal_to_the_Unknown_Isles/)\n\n来源：[官方Steam商店：2027年与抢先体验状态](https://store.steampowered.com/app/4382260/Castaway_Diary_Portal_to_the_Unknown_Isles/)；[Gematsu 11月2日：延期公告与路线](https://www.gematsu.com/2026/11/castaway-diary-portal-to-the-unknown-isles-early-access-delayed-to-2027)；[Famitsu：第一季度测试及路线图](https://www.famitsu.com/article/202611/92824)。\n\n### 《HARMA》11月17日进入抢先体验，合作卡组构筑值得跟进\n\n消息日期：2026-11-02。\n\n韩国INDIRECT SHINE与Astrolabe Games于11月2日公布，HARMA将于11月17日在PC Steam进入抢先体验，并计划首日支持最多四人在线合作。战斗通过三件神器的随机激活与Focus干预机制形成卡牌策略，官方商店已提供Demo。商店主日期目前仍只写2026年11月，因此17日依据发布公告；EA不等于内容完整的1.0，宣传的游玩时长也不是独立实测。\n\n为什么值得关注：合作与随机神器干预给传统卡组构筑增加协作变量，可先通过Demo判断核心战斗。重要性3/5：有明确EA日期及可试玩入口，完整内容和平衡仍需发布后验证；按韩国主要开发团队归国外，注明与Astrolabe的跨国发行合作。\n\n![《HARMA》11月17日进入抢先体验，合作卡组构筑值得跟进：官方宣传图／商店封面](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483700/a47cd60278208c11f6b8face0a68e6c040e5065f/header.jpg?t=1793424194)\n\n[图片出处](https://store.steampowered.com/app/2483700/HARMA/)\n\n来源：[官方Steam商店：Demo、语言及EA状态](https://store.steampowered.com/app/2483700/HARMA/)；[Gematsu 11月2日：11月17日与合作公告](https://www.gematsu.com/2026/11/harma-launches-in-early-access-on-november-17)；[发行商介绍：韩国开发团队](https://www.astrolabe-games.ca/press/tag/HARMA)。\n\n### 《Ova Magica》主机版11月10日推出，PC已完成1.0发行\n\n消息日期：2026-11-02。\n\nTop Hat Studios与Skinny Frog于11月2日确认，农场生活与怪物培育RPG Ova Magica将于11月10日登陆PS5、Xbox Series、Switch 2、PS4、Xbox One及Switch。PC早在5月28日正式发售，不能把本次主机移植当作全平台首次发售。玩法结合农场经营、可杂交的Blob伙伴及回合制战斗；主机语言、性能与地区解锁时间仍需各区商店进一步核验。\n\n为什么值得关注：它是已经结束抢先体验的完整作品扩展到主机，适合关注经营与怪物培育结合的玩家。重要性3/5：明确多平台档期，暂不以PC用户好评推断主机版本优化；由美国Top Hat Studios发行，按发行主体归国外。\n\n![《Ova Magica》主机版11月10日推出，PC已完成1.0发行：官方宣传图／商店封面](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1299170/e47bcc85ea2a48008c358d169aa95bd5829b0fa8/header.jpg?t=1781506846)\n\n[图片出处](https://store.steampowered.com/app/1299170/Ova_Magica/)\n\n来源：[Gematsu：主机版本11月10日公告](https://www.gematsu.com/2026/11/ova-magica-for-ps5-xbox-series-switch-2-ps4-xbox-one-and-switch-launches-november-10)；[官方Steam商店：PC正式与EA日期](https://store.steampowered.com/app/1299170/Ova_Magica/)。\n\n后续跟进：销量里程碑与补丁质量应分别观察，公布日期也不代表所有地区同时解锁。独立游戏部分，先用Demo判断玩法，再按EA路线和实际内容决定是否入场。\n",
+      "completeness": "full",
+      "sourceConversation": "游戏",
+      "provenance": "生成时间2026-11-03T01:18:06Z；Asia/Shanghai当天。先读取ARCHIVING、catalog、games索引及11月和10月近7日报告去重；检索中英文国内外24小时消息，5条均11月2日。实际打开官方Steam商店、发行商说明及Gematsu/IT之家交叉来源；官方X403则通过含原帖的媒体与中文报道核对并标厂商披露。5张HTTPS配图实际访问：Steam四图由商店链接打开，国内图从IT之家懒加载data-original取真实URL后GET200 image/jpeg，未使用透明占位图。排除Duck Side of the Moon标题与正文日期冲突，未把HARMA商店旧EA说明与公告强行拼成完整内容承诺。未把销量当净收入，不记录私人标识。",
+      "score": 4,
+      "items": [
+        {
+          "id": "games-2026-11-03-phantom",
+          "title": "《影之刃零》72小时销量超400万，近期将先修明显Bug",
+          "category": "国内",
+          "summary": "中国灵游坊11月2日公布，《影之刃零》发售后72小时全平台销量超过400万份，这是已发售游戏的新增销售里程碑，不重复此前发售消息。官方同时表示已记录玩家反馈，近期先修复一批明显Bug，但此次未给补丁版本号和确定上线时间。销量为厂商披露的全球合计口径，不代表各平台或地区占比，也不能由份数直接推算净收入。",
+          "analysis": "为什么值得关注：国产买断制动作游戏的商业表现有实质新数据，接下来更值得跟进首批修复与性能反馈。重要性4/5：重大销售进展并伴随后续维护承诺；平台为PC、PS5，既有正式发售日期为10月29日，修复时间待定。",
+          "importance": 4,
+          "tags": [
+            "PC",
+            "PS5",
+            "动作RPG",
+            "影之刃零"
+          ],
+          "sources": [
+            {
+              "title": "IT之家11月2日：官方销量与修复表态",
+              "url": "https://www.ithome.com/1/020/891.htm"
+            },
+            {
+              "title": "官方X原帖（访问可能受限）",
+              "url": "https://x.com/pbzero_official/status/2117074929594298758"
+            },
+            {
+              "title": "Push Square：平台与72小时口径交叉核对",
+              "url": "https://www.pushsquare.com/news/2026/11/phantom-blade-zero-is-an-instant-hit-with-4-million-sales-on-ps5-pc"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://img.ithome.com/newsuploadfiles/2026/11/ed732e92-2f73-4b9f-a85b-d6ca05acc56c.jpg",
+              "alt": "《影之刃零》72小时销量超400万，近期将先修明显Bug：官方宣传图／商店封面",
+              "sourceUrl": "https://www.ithome.com/1/020/891.htm"
+            }
+          ],
+          "eventDate": "2026-11-02"
+        },
+        {
+          "id": "games-2026-11-03-thief",
+          "title": "《Thief: The Dark Project Remastered》定档12月3日",
+          "category": "国外",
+          "summary": "Atari、Nightdive及合作方11月2日确认这部经典潜行作品的重制版将于12月3日推出，Steam官方页已列出同一天。PC渠道包括Steam、Epic与GOG，公告另列PS5、Xbox Series、PS4、Switch及Switch 2。官方介绍包含原作与Thief Gold内容、现代手柄操作及自定义战役支持；Steam还列出新增四任务剧情“The Tarnished Mirror”，尚非正式发售评测结论。",
+          "analysis": "为什么值得关注：以光照和声音驱动的潜行设计获得跨平台再发行，新增内容比单纯画质翻新更值得观察。重要性4/5：经典作品的确定档期与内容变化；各地区精确解锁时刻及各硬件实际帧率仍待确认，不能将最高规格套用所有平台。",
+          "importance": 4,
+          "tags": [
+            "PC",
+            "PS5",
+            "PS4",
+            "Xbox Series",
+            "Switch",
+            "Switch 2",
+            "潜行",
+            "Thief"
+          ],
+          "sources": [
+            {
+              "title": "官方Steam商店：日期与重制内容",
+              "url": "https://store.steampowered.com/app/4200960/Thief_The_Dark_Project_Remastered/"
+            },
+            {
+              "title": "Gematsu 11月2日：多平台公告",
+              "url": "https://www.gematsu.com/2026/11/thief-the-dark-project-remastered-launches-december-3"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4200960/20321014a4a5a0b71c8c70648eb37eef249466b1/header.jpg?t=1793653460",
+              "alt": "《Thief: The Dark Project Remastered》定档12月3日：官方宣传图／商店封面",
+              "sourceUrl": "https://store.steampowered.com/app/4200960/Thief_The_Dark_Project_Remastered/"
+            }
+          ],
+          "eventDate": "2026-11-02"
+        },
+        {
+          "id": "games-2026-11-03-cast",
+          "title": "《Castaway Diary》抢先体验延期至2027年，先测试再出试玩",
+          "category": "国外",
+          "summary": "韩国团队REMIMORY于11月2日将PC生存建造游戏的抢先体验窗口从2026年改为2027年，Steam官方页亦已更新为2027年。路线依次为测试、Demo、Steam新品节及抢先体验，首轮测试目标为2027年第一季度。官方商店列出单人和在线合作，并新增繁体中文、俄语；测试、Demo和抢先体验是不同阶段，尚无1.0正式发售日期。",
+          "analysis": "为什么值得关注：延期会改变近期游玩安排，后续应先看公开测试与可玩构建，不把新截图当质量已达标。重要性3/5：明确档期变化与路线图，现阶段仍属开发计划。",
+          "importance": 3,
+          "tags": [
+            "PC",
+            "Steam",
+            "生存建造",
+            "合作",
+            "Castaway Diary"
+          ],
+          "sources": [
+            {
+              "title": "官方Steam商店：2027年与抢先体验状态",
+              "url": "https://store.steampowered.com/app/4382260/Castaway_Diary_Portal_to_the_Unknown_Isles/"
+            },
+            {
+              "title": "Gematsu 11月2日：延期公告与路线",
+              "url": "https://www.gematsu.com/2026/11/castaway-diary-portal-to-the-unknown-isles-early-access-delayed-to-2027"
+            },
+            {
+              "title": "Famitsu：第一季度测试及路线图",
+              "url": "https://www.famitsu.com/article/202611/92824"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4382260/98d25ebb3f3192467170d5d6617bc659806f4d8e/header.jpg?t=1793580670",
+              "alt": "《Castaway Diary》抢先体验延期至2027年，先测试再出试玩：官方宣传图／商店封面",
+              "sourceUrl": "https://store.steampowered.com/app/4382260/Castaway_Diary_Portal_to_the_Unknown_Isles/"
+            }
+          ],
+          "eventDate": "2026-11-02"
+        },
+        {
+          "id": "games-2026-11-03-harma",
+          "title": "《HARMA》11月17日进入抢先体验，合作卡组构筑值得跟进",
+          "category": "国外",
+          "summary": "韩国INDIRECT SHINE与Astrolabe Games于11月2日公布，HARMA将于11月17日在PC Steam进入抢先体验，并计划首日支持最多四人在线合作。战斗通过三件神器的随机激活与Focus干预机制形成卡牌策略，官方商店已提供Demo。商店主日期目前仍只写2026年11月，因此17日依据发布公告；EA不等于内容完整的1.0，宣传的游玩时长也不是独立实测。",
+          "analysis": "为什么值得关注：合作与随机神器干预给传统卡组构筑增加协作变量，可先通过Demo判断核心战斗。重要性3/5：有明确EA日期及可试玩入口，完整内容和平衡仍需发布后验证；按韩国主要开发团队归国外，注明与Astrolabe的跨国发行合作。",
+          "importance": 3,
+          "tags": [
+            "PC",
+            "Steam",
+            "Roguelike",
+            "卡组构筑",
+            "HARMA"
+          ],
+          "sources": [
+            {
+              "title": "官方Steam商店：Demo、语言及EA状态",
+              "url": "https://store.steampowered.com/app/2483700/HARMA/"
+            },
+            {
+              "title": "Gematsu 11月2日：11月17日与合作公告",
+              "url": "https://www.gematsu.com/2026/11/harma-launches-in-early-access-on-november-17"
+            },
+            {
+              "title": "发行商介绍：韩国开发团队",
+              "url": "https://www.astrolabe-games.ca/press/tag/HARMA"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2483700/a47cd60278208c11f6b8face0a68e6c040e5065f/header.jpg?t=1793424194",
+              "alt": "《HARMA》11月17日进入抢先体验，合作卡组构筑值得跟进：官方宣传图／商店封面",
+              "sourceUrl": "https://store.steampowered.com/app/2483700/HARMA/"
+            }
+          ],
+          "eventDate": "2026-11-02"
+        },
+        {
+          "id": "games-2026-11-03-ova",
+          "title": "《Ova Magica》主机版11月10日推出，PC已完成1.0发行",
+          "category": "国外",
+          "summary": "Top Hat Studios与Skinny Frog于11月2日确认，农场生活与怪物培育RPG Ova Magica将于11月10日登陆PS5、Xbox Series、Switch 2、PS4、Xbox One及Switch。PC早在5月28日正式发售，不能把本次主机移植当作全平台首次发售。玩法结合农场经营、可杂交的Blob伙伴及回合制战斗；主机语言、性能与地区解锁时间仍需各区商店进一步核验。",
+          "analysis": "为什么值得关注：它是已经结束抢先体验的完整作品扩展到主机，适合关注经营与怪物培育结合的玩家。重要性3/5：明确多平台档期，暂不以PC用户好评推断主机版本优化；由美国Top Hat Studios发行，按发行主体归国外。",
+          "importance": 3,
+          "tags": [
+            "PS5",
+            "PS4",
+            "Xbox Series",
+            "Xbox One",
+            "Switch",
+            "Switch 2",
+            "PC",
+            "农场模拟",
+            "Ova Magica"
+          ],
+          "sources": [
+            {
+              "title": "Gematsu：主机版本11月10日公告",
+              "url": "https://www.gematsu.com/2026/11/ova-magica-for-ps5-xbox-series-switch-2-ps4-xbox-one-and-switch-launches-november-10"
+            },
+            {
+              "title": "官方Steam商店：PC正式与EA日期",
+              "url": "https://store.steampowered.com/app/1299170/Ova_Magica/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1299170/e47bcc85ea2a48008c358d169aa95bd5829b0fa8/header.jpg?t=1781506846",
+              "alt": "《Ova Magica》主机版11月10日推出，PC已完成1.0发行：官方宣传图／商店封面",
+              "sourceUrl": "https://store.steampowered.com/app/1299170/Ova_Magica/"
+            }
+          ],
+          "eventDate": "2026-11-02"
+        }
+      ]
+    },
     {
       "id": "games-2026-11-02",
       "collectionId": "games",
