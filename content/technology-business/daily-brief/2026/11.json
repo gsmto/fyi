@@ -2,8 +2,172 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-11",
-  "updatedAt": "2026-11-03T01:03:30Z",
+  "updatedAt": "2026-11-04T01:02:21Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-11-04",
+      "collectionId": "daily-brief",
+      "date": "2026-11-04",
+      "title": "最新资讯｜2026-11-04",
+      "summary": "实体工程智能体、GitHub Actions默认事件保护、高通端侧AI中国工具链、苹果财报及Copilot接入JetBrains Air。",
+      "analysis": "重点观察专业工具链的人类验收、CI执行政策和跨平台智能体预算；区分案例演示与可靠生产能力、一次性收益与持续经营增长。",
+      "rawText": "# 最新资讯｜2026-11-04\n\n精选5条，按重要性及实践影响排序。以11月3日新增公告为主，补充11月2日尚未归档的GitHub执行日期调整与苹果财报；已对11月1—3日及10月近期内容去重。检索覆盖中英文科技商业媒体、官方研发公告、GitHub和开源社区，也检索游戏技术与行业动态；本次未找到比入选内容更值得收录且能充分核验的游戏新增，不按领域凑数。\n\n## 1. OpenAI把智能体推进实体工程：设计能自动化，制造仍需反复审核\n\n时间：2026-11-03。\n\nOpenAI披露ChatGPT、Codex参与CAD、PCB设计和仿真的新实践，并宣布与马自达开展工程研究合作。一个语音交互设备实验由两名成员在不到一周内完成设计、小批原型在不到一个月内制造，但达到可制造状态仍经历多轮人工审查与修改。公司明确承认模型尚不能稳定处理制造公差、装配和供应商限制；这不是成熟硬件产品发售或通用自动制造服务。\n\n为什么值得关注：重要性4/5：AI正在从代码生成进入专业工具链，开发者可关注“模型操作工具—仿真—人工验收”的闭环。厂商案例和内部测试不是独立工程认证，token使用增长也不能等同生产率增长。\n\n![OpenAI设备原型实验的外壳工程图，含尺寸、公差与剖面](https://images.ctfassets.net/kftzwdyauwt9/5aP4AhwHhDUmDxisSLcb2X/12114476f73d643b73dffe90b819cc0c/prototype-device-enclosure-diagram.png)\n\n*OpenAI原文链接的原型外壳图，非量产认证；未使用禁止转载的马自达仿真素材。* [图片出处](https://openai.com/index/accelerating-engineering-for-the-physical-world/)\n\n来源：[OpenAI原始研究与工程案例](https://openai.com/index/accelerating-engineering-for-the-physical-world/)。\n\n## 2. GitHub公有仓库将默认拦截pull_request_target，先核对CI触发方式\n\n时间：2026-11-02（近期未收录补充）；永久执行2026-12-02。\n\nGitHub将公有仓库pull_request_target事件的默认拦截执行时间从11月2日改为12月2日，当前规则先以评估模式显示影响，适用策略可显式允许特定工作流。11月9日、16日各有16:00—18:00 UTC临时拦截窗口，即北京时间次日00:00—02:00。私有及内部仓库不受影响；公告适用于GitHub.com相关云端套餐，不适用于Enterprise Server。\n\n为什么值得关注：重要性4/5：该触发器在基础仓库上下文运行，不可信分支代码可能接触敏感权限；开源项目应先查看受影响运行，再决定是否保留或按工作流显式放行。不要把默认保护解释为Actions全部停用，也不要为恢复CI而盲目扩大权限。\n\n![GitHub公告配图：pull_request_target将于12月2日默认拦截](https://github.blog/wp-content/uploads/2026/11/682988073-439dd4ff-beed-4b9b-b767-acf8c41542d9.jpg)\n\n*GitHub官方本次公告封面，图片文字为默认规则的未来执行日期。* [图片出处](https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2/)\n\n来源：[GitHub官方：新执行日期、两次临时窗口和迁移办法](https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2/)。\n\n## 3. 高通AI Hub面向中国开发者开放，端侧模型验证有了更完整工具链\n\n时间：2026-11-03。\n\nQualcomm中国官方账号公布，AI Hub中国版整合Models、Workbench、Apps和GenieX，提供超过230个预优化模型及云托管真机验证等工具。开发者可导入自有模型，进行优化、量化、编译和性能评估，再集成到支持的手机、PC和物联网平台；GenieX提供命令行、Python和Java接口。这里开放的是开发与部署工具，不能理解为所有模型均可在任意设备离线运行或无需额外许可。\n\n为什么值得关注：重要性4/5：对移动端和桌面端AI应用，真机延迟、内存、能耗及运行时适配比单看模型榜单更有决策价值。可先按目标芯片做小规模验证，再评估集成成本、隐私边界和模型各自许可。\n\n![Qualcomm中国官方文章中的芯片与终端连接技术插画](https://static.mianbaoban-assets.eet-china.com/xinyu-images/MBXY-CR-16f1018014ee4f129222f9900c8be201.gif)\n\n*Qualcomm中国原文技术插画，非AI Hub界面或性能测试结果。* [图片出处](https://www.eet-china.com/mp/a536419.html)\n\n来源：[Qualcomm中国官方账号原文（电子工程专辑授权专栏）](https://www.eet-china.com/mp/a536419.html)；[IT之家11月3日独立报道线索与开放范围](https://www.ithome.com/1/021/453.htm)。\n\n## 4. 苹果季度营收增长12%，评估利润时需拆出关税退款影响\n\n时间：2026-11-02美国公告（北京时间11月3日可获取，近期未收录补充）；财季截至2026-09-26。\n\n苹果公布2026财年第四季度营收1145亿美元，同比增长12%；摊薄每股收益2.10美元，同比增长14%，全年营收4790亿美元。季度毛利率47.9%，其中关税退款贡献约1个百分点，每股收益也包含约0.05美元有利影响；服务收入创历史新高是公司公告口径。这里是截至9月的财季业绩，不能等同自然年第四季度或对下一季销量的保证。\n\n为什么值得关注：重要性4/5：硬件与服务需求仍值得观察，但判断持续盈利能力需要区分经营改善和一次性退款。财报增长不等同估值便宜或股价必涨，本条不据未经核实的盘后价格作投资判断。\n\n缺图：财报原页未提供对应业务照片或可核实的业绩图表，检索到的默认分享图仅为品牌标志；不以无关设备照片或自绘图冒充原始财报。\n\n来源：[Apple官方2026财年第四季度业绩公告](https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/)。\n\n## 5. Copilot接入JetBrains Air，云端任务费用和治理需另看边界\n\n时间：2026-11-03。\n\nGitHub宣布Copilot通过Agent Client Protocol接入JetBrains Air，可在IDE本地或云端委派编码任务、并行跟踪会话和审查变更。云端任务使用Copilot订阅而非JetBrains AI credits，且需要Air Teams企业组织账号、Copilot订阅及管理员启用；运行环境为隔离的临时虚拟机和容器。Air的治理分析不包含Copilot用量，管理员目前也不能在Air内设置Copilot支出上限。\n\n为什么值得关注：重要性3/5：智能体入口与订阅正在解耦，有利于按工作流选择IDE，但团队不能据“接入成功”推断预算治理已打通。试用时应分别核对仓库访问、实际套餐、费用可见性和结果验收。\n\n![GitHub官方发布图：JetBrains Air智能体选择器中选中GitHub Copilot](https://github.blog/wp-content/uploads/2026/11/689797142-96dbb0c9-dccb-41f6-8990-acf5c575db04.png)\n\n*GitHub官方本次发布截图，非所有账号权限或可用模型的保证。* [图片出处](https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air/)\n\n来源：[GitHub官方发布：接入、云端条件及费用治理限制](https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air/)。\n",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "生成时间2026-11-04T01:02:21Z；覆盖Asia/Shanghai 2026-11-04晨间可获得的近24小时新增，补充11月2日未收录公告。通过GitHub读取ARCHIVING.md、catalog、month schema、目标索引及11月与10月最近报告去重。综合英文官方公告、中文IT之家及Qualcomm中国官方专栏、GitHub开放开发生态与研究线索；游戏引擎和行业检索未找到更强的可核验新增，不以普通活动补位。实际打开OpenAI11月3日全文、GitHub Actions11月2日全文、Copilot Air11月3日全文和Apple11月2日财报；Qualcomm专栏在网页检索打开受限后以HTTPS取得全文并核对官方账号、发布日期和Models/Workbench/Apps/GenieX范围，IT之家检索记录交叉核对。排除4月已建仓NVIDIA Auto Ontology的今日首次发布说法；排除11月3日CodeQL文章对应10月20日CLI版本的旧发布误写。四张配图从对应原页检出，实际HTTPS GET200并确认image内容；工程图、Qualcomm插画、Actions封面与Air截图已视觉核对，使用无临时签名的稳定直链。未使用OpenAI文中特别禁止转载的马自达素材；苹果无合适事件图片已注明。未连接Hub、不改Site或根catalog。",
+      "score": 4,
+      "items": [
+        {
+          "id": "daily-brief-2026-11-04-engineering-agents",
+          "title": "OpenAI把智能体推进实体工程：设计能自动化，制造仍需反复审核",
+          "category": "AI／智能体",
+          "publishedAt": "2026-11-03",
+          "summary": "OpenAI披露ChatGPT、Codex参与CAD、PCB设计和仿真的新实践，并宣布与马自达开展工程研究合作。一个语音交互设备实验由两名成员在不到一周内完成设计、小批原型在不到一个月内制造，但达到可制造状态仍经历多轮人工审查与修改。公司明确承认模型尚不能稳定处理制造公差、装配和供应商限制；这不是成熟硬件产品发售或通用自动制造服务。",
+          "analysis": "重要性4/5：AI正在从代码生成进入专业工具链，开发者可关注“模型操作工具—仿真—人工验收”的闭环。厂商案例和内部测试不是独立工程认证，token使用增长也不能等同生产率增长。",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "Codex",
+            "GPT-6 Astra",
+            "CAD",
+            "工程仿真"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI原始研究与工程案例",
+              "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.ctfassets.net/kftzwdyauwt9/5aP4AhwHhDUmDxisSLcb2X/12114476f73d643b73dffe90b819cc0c/prototype-device-enclosure-diagram.png",
+              "alt": "OpenAI设备原型实验的外壳工程图，含尺寸、公差与剖面",
+              "sourceUrl": "https://openai.com/index/accelerating-engineering-for-the-physical-world/",
+              "caption": "OpenAI原文链接的原型外壳图，非量产认证；未使用禁止转载的马自达仿真素材。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-04-actions-policy",
+          "title": "GitHub公有仓库将默认拦截pull_request_target，先核对CI触发方式",
+          "category": "软件工程／安全",
+          "publishedAt": "2026-11-02（近期未收录补充）；永久执行2026-12-02",
+          "summary": "GitHub将公有仓库pull_request_target事件的默认拦截执行时间从11月2日改为12月2日，当前规则先以评估模式显示影响，适用策略可显式允许特定工作流。11月9日、16日各有16:00—18:00 UTC临时拦截窗口，即北京时间次日00:00—02:00。私有及内部仓库不受影响；公告适用于GitHub.com相关云端套餐，不适用于Enterprise Server。",
+          "analysis": "重要性4/5：该触发器在基础仓库上下文运行，不可信分支代码可能接触敏感权限；开源项目应先查看受影响运行，再决定是否保留或按工作流显式放行。不要把默认保护解释为Actions全部停用，也不要为恢复CI而盲目扩大权限。",
+          "importance": 4,
+          "tags": [
+            "GitHub Actions",
+            "pull_request_target",
+            "CI/CD",
+            "开源维护",
+            "供应链安全"
+          ],
+          "sources": [
+            {
+              "title": "GitHub官方：新执行日期、两次临时窗口和迁移办法",
+              "url": "https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://github.blog/wp-content/uploads/2026/11/682988073-439dd4ff-beed-4b9b-b767-acf8c41542d9.jpg",
+              "alt": "GitHub公告配图：pull_request_target将于12月2日默认拦截",
+              "sourceUrl": "https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2/",
+              "caption": "GitHub官方本次公告封面，图片文字为默认规则的未来执行日期。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-04-qualcomm-china",
+          "title": "高通AI Hub面向中国开发者开放，端侧模型验证有了更完整工具链",
+          "category": "AI／开发工具",
+          "publishedAt": "2026-11-03",
+          "summary": "Qualcomm中国官方账号公布，AI Hub中国版整合Models、Workbench、Apps和GenieX，提供超过230个预优化模型及云托管真机验证等工具。开发者可导入自有模型，进行优化、量化、编译和性能评估，再集成到支持的手机、PC和物联网平台；GenieX提供命令行、Python和Java接口。这里开放的是开发与部署工具，不能理解为所有模型均可在任意设备离线运行或无需额外许可。",
+          "analysis": "重要性4/5：对移动端和桌面端AI应用，真机延迟、内存、能耗及运行时适配比单看模型榜单更有决策价值。可先按目标芯片做小规模验证，再评估集成成本、隐私边界和模型各自许可。",
+          "importance": 4,
+          "tags": [
+            "Qualcomm",
+            "AI Hub",
+            "GenieX",
+            "端侧AI",
+            "NPU",
+            "中国开发者"
+          ],
+          "sources": [
+            {
+              "title": "Qualcomm中国官方账号原文（电子工程专辑授权专栏）",
+              "url": "https://www.eet-china.com/mp/a536419.html"
+            },
+            {
+              "title": "IT之家11月3日独立报道线索与开放范围",
+              "url": "https://www.ithome.com/1/021/453.htm"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://static.mianbaoban-assets.eet-china.com/xinyu-images/MBXY-CR-16f1018014ee4f129222f9900c8be201.gif",
+              "alt": "Qualcomm中国官方文章中的芯片与终端连接技术插画",
+              "sourceUrl": "https://www.eet-china.com/mp/a536419.html",
+              "caption": "Qualcomm中国原文技术插画，非AI Hub界面或性能测试结果。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-04-apple-earnings",
+          "title": "苹果季度营收增长12%，评估利润时需拆出关税退款影响",
+          "category": "科技商业／财报",
+          "publishedAt": "2026-11-02美国公告（北京时间11月3日可获取，近期未收录补充）；财季截至2026-09-26",
+          "summary": "苹果公布2026财年第四季度营收1145亿美元，同比增长12%；摊薄每股收益2.10美元，同比增长14%，全年营收4790亿美元。季度毛利率47.9%，其中关税退款贡献约1个百分点，每股收益也包含约0.05美元有利影响；服务收入创历史新高是公司公告口径。这里是截至9月的财季业绩，不能等同自然年第四季度或对下一季销量的保证。",
+          "analysis": "重要性4/5：硬件与服务需求仍值得观察，但判断持续盈利能力需要区分经营改善和一次性退款。财报增长不等同估值便宜或股价必涨，本条不据未经核实的盘后价格作投资判断。",
+          "importance": 4,
+          "tags": [
+            "Apple",
+            "财报",
+            "毛利率",
+            "关税退款",
+            "消费科技"
+          ],
+          "sources": [
+            {
+              "title": "Apple官方2026财年第四季度业绩公告",
+              "url": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/"
+            }
+          ],
+          "images": [],
+          "imageNote": "财报原页未提供对应业务照片或可核实的业绩图表，检索到的默认分享图仅为品牌标志；不以无关设备照片或自绘图冒充原始财报。"
+        },
+        {
+          "id": "daily-brief-2026-11-04-copilot-air",
+          "title": "Copilot接入JetBrains Air，云端任务费用和治理需另看边界",
+          "category": "开发工具／智能体",
+          "publishedAt": "2026-11-03",
+          "summary": "GitHub宣布Copilot通过Agent Client Protocol接入JetBrains Air，可在IDE本地或云端委派编码任务、并行跟踪会话和审查变更。云端任务使用Copilot订阅而非JetBrains AI credits，且需要Air Teams企业组织账号、Copilot订阅及管理员启用；运行环境为隔离的临时虚拟机和容器。Air的治理分析不包含Copilot用量，管理员目前也不能在Air内设置Copilot支出上限。",
+          "analysis": "重要性3/5：智能体入口与订阅正在解耦，有利于按工作流选择IDE，但团队不能据“接入成功”推断预算治理已打通。试用时应分别核对仓库访问、实际套餐、费用可见性和结果验收。",
+          "importance": 3,
+          "tags": [
+            "GitHub Copilot",
+            "JetBrains Air",
+            "ACP",
+            "开发工具",
+            "云端智能体"
+          ],
+          "sources": [
+            {
+              "title": "GitHub官方发布：接入、云端条件及费用治理限制",
+              "url": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://github.blog/wp-content/uploads/2026/11/689797142-96dbb0c9-dccb-41f6-8990-acf5c575db04.png",
+              "alt": "GitHub官方发布图：JetBrains Air智能体选择器中选中GitHub Copilot",
+              "sourceUrl": "https://github.blog/changelog/2026-11-03-github-copilot-is-now-available-in-jetbrains-air/",
+              "caption": "GitHub官方本次发布截图，非所有账号权限或可用模型的保证。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "daily-brief-2026-11-03",
       "collectionId": "daily-brief",
