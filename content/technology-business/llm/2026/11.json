@@ -2,8 +2,186 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-03T01:26:16Z",
+  "updatedAt": "2026-11-04T01:25:58Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-04",
+      "collectionId": "llm",
+      "date": "2026-11-04",
+      "title": "大模型｜2026-11-04",
+      "summary": "精选5条：实体工程工作流、开源推理验证、Claude水印覆盖更新、化学信息学Skills及Gemini任务成本路由。",
+      "analysis": "共同动向是把能力接入可检查的专业工作流：出处验证、参数与渠道边界、确定性工具和验收成本都比单项自测成绩更影响实际部署。",
+      "rawText": "# 大模型｜2026-11-04\n\n## 今日重点\n\n精选5条：实体工程工作流、开源推理验证、Claude水印覆盖更新、化学信息学Skills及Gemini任务成本路由。\n\n以最新公开资料为主；四条官方日期为11月3日，未公布时分，不能保证都发生在严格24小时内。另补充11月2日尚未归档的FlashProve研究。已与本栏目最近两日报去重，不将旧型号、旧价格或研究展示写成新模型发布。\n\n## 1. OpenAI展示实体工程工作流，Astra原型仍需制造复核\n\n**事件／发布日期：**2026-11-03（官方发布日期，未注明时分）。**公司：**OpenAI。\n\n![OpenAI公布的测试设备外壳工程图，标注为原型设计](https://images.ctfassets.net/kftzwdyauwt9/5aP4AhwHhDUmDxisSLcb2X/12114476f73d643b73dffe90b819cc0c/prototype-device-enclosure-diagram.png)\n\n图片出处：[官方原文](https://openai.com/index/accelerating-engineering-for-the-physical-world/)。官方原型图不构成可量产或质量认证。\n\nOpenAI展示GPT-6 Astra协助设计外壳、PCB与软件集成：两名员工以业余项目形式在一周内完成测试设备设计，代工厂在一个月内制出小批原型。面向制造仍经历多轮审查和修改，模型对公差、装配及工厂生产约束的处理并不稳定。文中更新内部工程能力评测并征集产业合作，属于工作流与研究进展，不能据此认定新硬件产品或内部新模型已公开发售。\n\n**为什么值得关注／影响：**值得关注的是智能体开始连接CAD、电子设计与制造流程；开发者需要把可制造性检查和工程师验收纳入工具链。重要性4/5：应用边界有实质扩展，但案例和评测由厂商提供，尚不足以推出普遍生产率增幅。\n\n**来源：**[OpenAI：Accelerating engineering for the physical world](https://openai.com/index/accelerating-engineering-for-the-physical-world/)。\n\n## 2. Anthropic开源FlashProve：验证回答来自指定模型，成本仍高\n\n**事件／发布日期：**2026-11-02（七日内补充；未见本栏目此前收录）。**公司：**Anthropic。\n\n![Anthropic可证明推理研究配图：由输入经过模型到输出与证明的流程示意](https://www-cdn.anthropic.com/images/4zrzovbb/website/2eba335a28661a8253187053fa36add230af728b-2000x1125.jpg)\n\n图片出处：[官方原文](https://www.anthropic.com/research/provable-inference)。官方研究示意图；不代表已为所有Claude对话提供证明。\n\nAnthropic发布FlashProve研究原型、技术说明、代码和Lean证明，采用Apache 2.0许可，尝试在不暴露权重的情况下证明被检查的输出来自指定模型。当前示范针对Llama 4 Maverick的量化整数实现、贪心解码及最多1,024 token上下文，以事后方式证明所检查token；厂商测试显示生成证明所耗GPU时间约为普通推理的70—95倍。仓库明确标注不维护，快速C++代码也不享有完整形式化保证，这并非Claude产品已提供通用推理认证。\n\n**为什么值得关注／影响：**该方向可能帮助第三方模型路由、独立评估和审计发现模型替换；它验证计算出处，不能证明回答事实正确或全部流量都受检查。重要性4/5：可复核的开源研究值得跟进，短上下文、证明开销与实现审计限制了直接生产部署。\n\n**来源：**[Anthropic：Progress on provable inference for large language models](https://www.anthropic.com/research/provable-inference)；[官方代码：anthropics/FlashProve](https://github.com/anthropics/FlashProve)。\n\n## 3. Claude水印覆盖更新：三个既有模型加入，Bedrock仍分批上线\n\n**事件／发布日期：**2026-11-03（Claude Platform发布记录）。**公司：**Anthropic。\n\n缺图原因：已打开的官方发布记录与功能文档未提供该更新的专属插图；功能文档实际抓取未发现图片，不使用通用标识或无关图片补位。\n\nClaude发布记录新增Mythos 5、Opus 4.7和Sonnet 4.6文本水印支持；官方覆盖表注明，这三者在Amazon Bedrock的上线预计到11月10日完成，不能按全部渠道已完成处理。Sonnet 4.6若使用非默认temperature、top_p或top_k，输出可能不带可靠水印，依赖该功能的集成需检查框架是否自动传参。官方称水印不增加token、隐藏字符或用户身份信息；检测服务仍面向合资格机构私测。\n\n**为什么值得关注／影响：**依赖内容标记的开发者应核对具体模型、渠道和采样配置；检测不到水印不能据此断言是人类写作，检测到也不能确定内容全由Claude原创。重要性4/5：这是实际输出行为与接入条件的更新，文本水印也应与文件中的C2PA元数据区分。\n\n**来源：**[Claude Platform release notes：2026-11-03](https://platform.claude.com/docs/en/release-notes/overview)；[官方API文档：Text watermark](https://platform.claude.com/docs/en/build-with-claude/text-watermark)；[官方支持：支持模型、渠道与检测限制](https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content)。\n\n## 4. Google Antigravity上线化学信息学Skills，候选设计仍待实验\n\n**事件／发布日期：**2026-11-03（Google DeepMind官方发布日期）。**公司：**Google。\n\n![Google Antigravity化学信息学界面，展示568个整理后化合物的数据图表](https://lh3.googleusercontent.com/xPSpWQxbjrJMyHBI5jfRNm0AND2P0itnDlVpkJnKY-TkfZDR90Apc8tYmitx1ocedXUHJtQNi1v17fnN_aEyz5Iw7Zge1vblv0DMp_mgxt7E8Wjmwg%3Dw1440)\n\n图片出处：[官方原文](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)。官方工作流截图；预测与候选分子不等于实验或临床结论。\n\nGoogle DeepMind发布Antigravity化学信息学工作流，语言模型负责文献检索与任务编排，RDKit及ChEMBL、PubChem等工具承担结构计算和数据支撑。官方案例在约一小时内检索化合物、完成配对分子分析并提出大环分子及合成路线，但结果仍是待合成和验证的假设。Skills已可通过Antigravity App的Science插件使用，企业用户可用Google Cloud凭据进入；面向科学家的最高使用档六个月免费项目须申请、分批审核并受名额限制。\n\n**为什么值得关注／影响：**这为专业智能体提供了较具体的落地样例：模型与确定性工具分工，并让专家查看数据、模型和证据。重要性3/5：有实际工具可用，但速度来自厂商演示，不能推断已发现有效新药或普遍替代实验。\n\n**来源：**[Google DeepMind：Agentic cheminformatics with Google Antigravity](https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/)；[Antigravity：Science工作流入口](https://antigravity.google/use-cases/science)。\n\n## 5. Google给出Gemini路由实测：先看成功任务成本，再看token单价\n\n**事件／发布日期：**2026-11-03（Google Developers Blog发布日期）。**公司：**Google。\n\n![Google公布的50题单轮编码任务策略对比表，含模型配置、准确率、成本与延迟](https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/table_4_strategy_performance_comparison.original.jpg)\n\n图片出处：[官方原文](https://developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels/)。厂商样本实验，非独立生产基准；图中价格为该次实验计量，不作为当前API报价表。\n\nGoogle开发者博客用Jev轻量分类器和Gemini不同模型、thinking配置测试任务路由，强调压低maxOutputTokens不能替代降低思考等级。在50道自动评分编码任务的单轮实验中，低thinking的Flash本身已全部答对，分流到Flash-Lite再升级复杂任务仍可降低部分成本和等待时间。测试规模小、难度由人工标注，基准代码仍待开源审核，文章也明确Google与TypeSafe无合作且不作产品背书。\n\n**为什么值得关注／影响：**对开发者更有用的指标是每个通过验证的任务总成本，要合计推理、重试和工具开销；长上下文跨模型切换还可能损失缓存收益。重要性3/5：提供可试验的工程方法，这不是Gemini降价公告，也不是对生产负载的通用节省承诺。\n\n**来源：**[Google Developers Blog：Cost per task](https://developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels/)。\n\n## 继续观察\n\n关注推理验证能否扩展到长上下文和常见解码方式、Claude各渠道水印是否按期覆盖，以及专业Skills能否提供可复现实验。路由与科学工作流的成绩需在自己的任务上验证；本日报不更新模型资料快照。\n",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "生成时间 2026-11-04T01:25:58Z；日期按Asia/Shanghai。检索近24小时及2026-10-29至2026-11-04七日窗口，中英文线索结合OpenAI、Anthropic、Google/DeepMind官方公告、API文档、GitHub开源项目，并检查xAI与Meta官方动态线索；与本栏目11月2—3日报去重。11月3日条目未披露准确发布时间，按官方日历日期标注；FlashProve为11月2日未收录的补充事件。xAI Data Bot原页本次无法打开，未仅凭聚合摘要收录；未找到足以新增收录的Meta事件。四张原文配图均实际HTTPS GET返回200并核对图意，无凭据、私人标识或签名地址。",
+      "score": 4,
+      "items": [
+        {
+          "id": "llm-2026-11-04-openai-physical-engineering",
+          "title": "OpenAI展示实体工程工作流，Astra原型仍需制造复核",
+          "category": "OpenAI",
+          "publishedAt": "2026-11-03（官方发布日期，未注明时分）",
+          "summary": "OpenAI展示GPT-6 Astra协助设计外壳、PCB与软件集成：两名员工以业余项目形式在一周内完成测试设备设计，代工厂在一个月内制出小批原型。面向制造仍经历多轮审查和修改，模型对公差、装配及工厂生产约束的处理并不稳定。文中更新内部工程能力评测并征集产业合作，属于工作流与研究进展，不能据此认定新硬件产品或内部新模型已公开发售。",
+          "analysis": "值得关注的是智能体开始连接CAD、电子设计与制造流程；开发者需要把可制造性检查和工程师验收纳入工具链。重要性4/5：应用边界有实质扩展，但案例和评测由厂商提供，尚不足以推出普遍生产率增幅。",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "GPT-6 Astra",
+            "Codex",
+            "CAD",
+            "工程智能体"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI：Accelerating engineering for the physical world",
+              "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.ctfassets.net/kftzwdyauwt9/5aP4AhwHhDUmDxisSLcb2X/12114476f73d643b73dffe90b819cc0c/prototype-device-enclosure-diagram.png",
+              "alt": "OpenAI公布的测试设备外壳工程图，标注为原型设计",
+              "sourceUrl": "https://openai.com/index/accelerating-engineering-for-the-physical-world/",
+              "caption": "官方原型图不构成可量产或质量认证。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-04-anthropic-flashprove",
+          "title": "Anthropic开源FlashProve：验证回答来自指定模型，成本仍高",
+          "category": "Anthropic",
+          "publishedAt": "2026-11-02（七日内补充；未见本栏目此前收录）",
+          "summary": "Anthropic发布FlashProve研究原型、技术说明、代码和Lean证明，采用Apache 2.0许可，尝试在不暴露权重的情况下证明被检查的输出来自指定模型。当前示范针对Llama 4 Maverick的量化整数实现、贪心解码及最多1,024 token上下文，以事后方式证明所检查token；厂商测试显示生成证明所耗GPU时间约为普通推理的70—95倍。仓库明确标注不维护，快速C++代码也不享有完整形式化保证，这并非Claude产品已提供通用推理认证。",
+          "analysis": "该方向可能帮助第三方模型路由、独立评估和审计发现模型替换；它验证计算出处，不能证明回答事实正确或全部流量都受检查。重要性4/5：可复核的开源研究值得跟进，短上下文、证明开销与实现审计限制了直接生产部署。",
+          "importance": 4,
+          "tags": [
+            "Anthropic",
+            "FlashProve",
+            "zkSNARK",
+            "开源",
+            "推理验证",
+            "Llama 4 Maverick"
+          ],
+          "sources": [
+            {
+              "title": "Anthropic：Progress on provable inference for large language models",
+              "url": "https://www.anthropic.com/research/provable-inference"
+            },
+            {
+              "title": "官方代码：anthropics/FlashProve",
+              "url": "https://github.com/anthropics/FlashProve"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2eba335a28661a8253187053fa36add230af728b-2000x1125.jpg",
+              "alt": "Anthropic可证明推理研究配图：由输入经过模型到输出与证明的流程示意",
+              "sourceUrl": "https://www.anthropic.com/research/provable-inference",
+              "caption": "官方研究示意图；不代表已为所有Claude对话提供证明。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-04-claude-watermark-expansion",
+          "title": "Claude水印覆盖更新：三个既有模型加入，Bedrock仍分批上线",
+          "category": "Anthropic",
+          "publishedAt": "2026-11-03（Claude Platform发布记录）",
+          "summary": "Claude发布记录新增Mythos 5、Opus 4.7和Sonnet 4.6文本水印支持；官方覆盖表注明，这三者在Amazon Bedrock的上线预计到11月10日完成，不能按全部渠道已完成处理。Sonnet 4.6若使用非默认temperature、top_p或top_k，输出可能不带可靠水印，依赖该功能的集成需检查框架是否自动传参。官方称水印不增加token、隐藏字符或用户身份信息；检测服务仍面向合资格机构私测。",
+          "analysis": "依赖内容标记的开发者应核对具体模型、渠道和采样配置；检测不到水印不能据此断言是人类写作，检测到也不能确定内容全由Claude原创。重要性4/5：这是实际输出行为与接入条件的更新，文本水印也应与文件中的C2PA元数据区分。",
+          "importance": 4,
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "文本水印",
+            "API",
+            "Amazon Bedrock"
+          ],
+          "sources": [
+            {
+              "title": "Claude Platform release notes：2026-11-03",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview"
+            },
+            {
+              "title": "官方API文档：Text watermark",
+              "url": "https://platform.claude.com/docs/en/build-with-claude/text-watermark"
+            },
+            {
+              "title": "官方支持：支持模型、渠道与检测限制",
+              "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图原因：已打开的官方发布记录与功能文档未提供该更新的专属插图；功能文档实际抓取未发现图片，不使用通用标识或无关图片补位。"
+        },
+        {
+          "id": "llm-2026-11-04-antigravity-cheminformatics",
+          "title": "Google Antigravity上线化学信息学Skills，候选设计仍待实验",
+          "category": "Google",
+          "publishedAt": "2026-11-03（Google DeepMind官方发布日期）",
+          "summary": "Google DeepMind发布Antigravity化学信息学工作流，语言模型负责文献检索与任务编排，RDKit及ChEMBL、PubChem等工具承担结构计算和数据支撑。官方案例在约一小时内检索化合物、完成配对分子分析并提出大环分子及合成路线，但结果仍是待合成和验证的假设。Skills已可通过Antigravity App的Science插件使用，企业用户可用Google Cloud凭据进入；面向科学家的最高使用档六个月免费项目须申请、分批审核并受名额限制。",
+          "analysis": "这为专业智能体提供了较具体的落地样例：模型与确定性工具分工，并让专家查看数据、模型和证据。重要性3/5：有实际工具可用，但速度来自厂商演示，不能推断已发现有效新药或普遍替代实验。",
+          "importance": 3,
+          "tags": [
+            "Google",
+            "Google DeepMind",
+            "Google Antigravity",
+            "Skills",
+            "科学智能体",
+            "RDKit"
+          ],
+          "sources": [
+            {
+              "title": "Google DeepMind：Agentic cheminformatics with Google Antigravity",
+              "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/"
+            },
+            {
+              "title": "Antigravity：Science工作流入口",
+              "url": "https://antigravity.google/use-cases/science"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://lh3.googleusercontent.com/xPSpWQxbjrJMyHBI5jfRNm0AND2P0itnDlVpkJnKY-TkfZDR90Apc8tYmitx1ocedXUHJtQNi1v17fnN_aEyz5Iw7Zge1vblv0DMp_mgxt7E8Wjmwg%3Dw1440",
+              "alt": "Google Antigravity化学信息学界面，展示568个整理后化合物的数据图表",
+              "sourceUrl": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+              "caption": "官方工作流截图；预测与候选分子不等于实验或临床结论。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-04-gemini-cost-routing",
+          "title": "Google给出Gemini路由实测：先看成功任务成本，再看token单价",
+          "category": "Google",
+          "publishedAt": "2026-11-03（Google Developers Blog发布日期）",
+          "summary": "Google开发者博客用Jev轻量分类器和Gemini不同模型、thinking配置测试任务路由，强调压低maxOutputTokens不能替代降低思考等级。在50道自动评分编码任务的单轮实验中，低thinking的Flash本身已全部答对，分流到Flash-Lite再升级复杂任务仍可降低部分成本和等待时间。测试规模小、难度由人工标注，基准代码仍待开源审核，文章也明确Google与TypeSafe无合作且不作产品背书。",
+          "analysis": "对开发者更有用的指标是每个通过验证的任务总成本，要合计推理、重试和工具开销；长上下文跨模型切换还可能损失缓存收益。重要性3/5：提供可试验的工程方法，这不是Gemini降价公告，也不是对生产负载的通用节省承诺。",
+          "importance": 3,
+          "tags": [
+            "Google",
+            "Gemini",
+            "Jev",
+            "模型路由",
+            "thinking",
+            "智能体成本"
+          ],
+          "sources": [
+            {
+              "title": "Google Developers Blog：Cost per task",
+              "url": "https://developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/table_4_strategy_performance_comparison.original.jpg",
+              "alt": "Google公布的50题单轮编码任务策略对比表，含模型配置、准确率、成本与延迟",
+              "sourceUrl": "https://developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels/",
+              "caption": "厂商样本实验，非独立生产基准；图中价格为该次实验计量，不作为当前API报价表。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "llm-2026-11-03",
       "collectionId": "llm",
