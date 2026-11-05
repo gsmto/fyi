@@ -2,8 +2,173 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-04T01:25:58Z",
+  "updatedAt": "2026-11-05T01:24:07Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-05",
+      "collectionId": "llm",
+      "date": "2026-11-05",
+      "title": "大模型｜2026-11-05",
+      "summary": "精选5条：Images 2.6、Linux漏洞研究流水线、Pierre拟收购、xAI图像API迁移和Claude辅助结构生物学研究。",
+      "analysis": "模型能力正与编辑、代码审查和实验流程结合；实际接入需检查默认参数、费用口径、审批和证据成熟度，厂商案例不能替代独立验证。",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "生成时间 2026-11-05T01:24:07Z；日期按Asia/Shanghai。检索近24小时及2026-10-30至2026-11-05七日窗口，中英文检索线索结合OpenAI官方新闻、API文档与价格页，Anthropic研究公告、xAI迁移及价格文档，并检查Google/DeepMind、Google Research/Cloud与Meta官方动态线索；与本栏目11月2—4日报去重。四条官方日期11月4日，未披露时分，不声称全部严格发生于24小时内；xAI为11月2日已生效而此前未归档的七日内补充。三张官方原文HTTPS图片实际GET返回200并检查图意；Anthropic图片直链及代理抓取403，未嵌入；xAI文档仅找到带签名参数的标题图，未使用。正文和归档不改模型资料快照。",
+      "score": 4,
+      "items": [
+        {
+          "id": "llm-2026-11-05-images-26",
+          "title": "Images 2.6发布：新增GIF、SVG与可控编辑规划",
+          "category": "OpenAI",
+          "publishedAt": "2026-11-04（官方发布日期）",
+          "summary": "OpenAI发布Images 2.6，宣布在ChatGPT、Codex各订阅档及API提供，API分为偏快速迭代的Flare和偏精细编辑的Sunburst。新增GIF、SVG输出和标注引导编辑；官方称生成速度提高50%，该数字是厂商口径。API文档确认complexity控制规划而quality控制渲染，省略complexity时默认为high，开发者可明确设置low做针对性编辑；部分API使用可能要求组织验证。",
+          "analysis": "对使用者／开发者的影响：多轮角色、品牌素材和应用资产制作可在同一流程里迭代，但需实测一致性、延迟与成本；不要将“各订阅档可用”理解成不限量。重要性4/5：是已发布的产品与接口变化，速度和质量收益尚需在自己的素材集验证。",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "Images 2.6",
+            "图像生成",
+            "GIF",
+            "API"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI：Introducing Images 2.6",
+              "url": "https://openai.com/index/introducing-images-2-6/"
+            },
+            {
+              "title": "OpenAI：Image generation API，GPT Image 2.6与complexity",
+              "url": "https://developers.openai.com/api/docs/guides/image-generation"
+            },
+            {
+              "title": "OpenAI：当前API定价",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.ctfassets.net/kftzwdyauwt9/6EYvL2y5CLXFr8E1pqoVUK/064e0d73b10087e20967b69ef0a06678/images-2-6-social.png?w=1600&h=900&fit=fill",
+              "alt": "OpenAI Images 2.6官方发布图，展示多种视觉素材示例",
+              "sourceUrl": "https://openai.com/index/introducing-images-2-6/",
+              "caption": "官方发布图及生成样例，不作为独立质量评测。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-05-linux-security-pipeline",
+          "title": "OpenAI披露Linux安全流水线：生成948个本地提权验证与候选补丁",
+          "category": "OpenAI",
+          "publishedAt": "2026-11-04（披露）；实验于2026年10月中旬运行",
+          "summary": "OpenAI披露由尚待发布的网络安全模型驱动的研究流水线：动态复现1,724项漏洞，并为常见Linux发行版生成948个可工作的本地提权验证，API积分成本约121.3万美元。流程包括发现、隔离环境验证、补丁生成和人工审查，候选补丁仍须维护者检查。数字来自厂商研究环境，不代表948项已获CVE、均为独家发现或全部补丁已合入。",
+          "analysis": "对开发者的影响：漏洞报告增加后，复现、排序和补丁审查将成为关键能力；成本只计算所报API用量，不能当作完整安全运营成本。重要性4/5：显示安全智能体工作流有实质进展，但属于研究披露，不能据此判断普通用户已能调用同等模型。",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "安全智能体",
+            "Linux",
+            "漏洞研究",
+            "开发工具"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI：A thousand fewer paths to root",
+              "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.ctfassets.net/kftzwdyauwt9/400PQ4WTCOvXwwvk1OMOHv/03970ddeafd22fdbc9832669deacc59c/a-thousand-fewer-paths-to-root-social.png?w=1600&h=900&fit=fill",
+              "alt": "OpenAI《A thousand fewer paths to root》安全研究官方封面",
+              "sourceUrl": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+              "caption": "研究公告封面；不表示所有补丁已获上游接受。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-05-pierre-acquisition",
+          "title": "OpenAI拟收购Pierre，Codex向代码存储与审查流程延伸",
+          "category": "OpenAI",
+          "publishedAt": "2026-11-04",
+          "summary": "OpenAI宣布将收购Pierre，后者开发Code Storage及Trees、Diffs等开源工具；Trees和Diffs此前已用于Codex应用的文件浏览与变更审查。交易尚待惯常交割条件及监管批准，交割前两家公司保持独立。OpenAI表示开源项目会继续开源，Code Storage客户可继续使用，功能融入Codex仍是后续计划。",
+          "analysis": "对开发者的影响：值得跟进的是智能体并行开发所需的版本存储、变更展示和人工审查基础设施；当前不能把收购公告当作新的Codex托管产品已经上线。重要性4/5：可能影响开发平台生态，但整合时间和产品细节尚未公布。",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "Codex",
+            "Pierre",
+            "Git",
+            "公司动态"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI：OpenAI to acquire Pierre Computer Company, Inc.",
+              "url": "https://openai.com/index/openai-to-acquire-pierre/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.ctfassets.net/kftzwdyauwt9/5lDkYRSw86lFyHulgkyVVr/5b20bd6b90c3d87c33b780884b48123a/openai-to-acquire-pierre-computer-company-inc-social.png?w=1600&h=900&fit=fill",
+              "alt": "OpenAI拟收购Pierre Computer Company的官方公告图",
+              "sourceUrl": "https://openai.com/index/openai-to-acquire-pierre/",
+              "caption": "拟收购公告，交易尚未交割。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-05-xai-image-migration",
+          "title": "xAI旧图像模型别名已重定向，默认质量和账单需复核",
+          "category": "xAI",
+          "publishedAt": "2026-11-02生效（七日内补充，此前未归档）",
+          "summary": "xAI文档确认grok-imagine-image-quality自11月2日起退役，旧别名请求仍可解析，但由grok-imagine-image-2.0以low质量处理，原1.0别名不受影响。当前价格页列出2.0的1K分辨率low输出为每张0.04美元、2K为0.06美元，编辑另按每张输入图0.01美元计费。显式迁移到2.0时须留意auto目前生成采用low、编辑采用medium，不能假定与旧别名的默认成本相同。",
+          "analysis": "对开发者的影响：即使代码没有报错，底层模型、质量与费用也可能变化；建议显式指定模型及quality，并对照实际usage计费字段。重要性4/5：这是已生效的兼容与计费变化，不是今天新发布的模型；地区及账号可用性仍依各服务接入条件。",
+          "importance": 4,
+          "tags": [
+            "xAI",
+            "Grok Imagine",
+            "API迁移",
+            "价格",
+            "图像生成"
+          ],
+          "sources": [
+            {
+              "title": "xAI：grok-imagine-image-quality Retirement on November 2, 2026",
+              "url": "https://docs.x.ai/developers/migration/imagine-image-quality-nov-2"
+            },
+            {
+              "title": "xAI：当前API Pricing，Imagine API",
+              "url": "https://docs.x.ai/developers/pricing"
+            }
+          ],
+          "images": [],
+          "imageNote": "官方迁移文档未提供可核验的专属实图，仅检出含签名参数的标题图；不使用签名地址或无关图。"
+        },
+        {
+          "id": "llm-2026-11-05-claude-vault-research",
+          "title": "Claude辅助解析vault颗粒结构：实验进展以预印本披露",
+          "category": "Anthropic",
+          "publishedAt": "2026-11-04",
+          "summary": "Anthropic生物实验室公布噬菌体蛋白形成vault样颗粒的冷冻电镜结构，报告Claude参与蛋白检索、DNA设计、纯化优化及显微数据处理。团队称在研究人员指导下将一次纯化流程从通常三天缩至约90分钟，并于随后34小时得到初步结构模型；这些效率数据来自团队估计。论文处于预印本阶段，颗粒的生物功能仍未确定，结构和更多数据计划后续释放。",
+          "analysis": "对使用者／开发者的影响：可观察的价值是模型接入实验工具与人工核查的流程，而非单纯生成解释；该结果不能视作已同行评审的医学突破或新模型公开发布。重要性3/5：有实际实验支撑，但仍需独立复现，也不能据此推断普遍实验提速幅度。",
+          "importance": 3,
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "AI for Science",
+            "结构生物学",
+            "预印本"
+          ],
+          "sources": [
+            {
+              "title": "Anthropic：Investigating vault particles with Claude",
+              "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude"
+            }
+          ],
+          "images": [],
+          "imageNote": "原文结构图已检索并在网页图像工具中显示，但图片直链及代理实际抓取均返回403，未能确认稳定公开访问，故不嵌入。"
+        }
+      ],
+      "rawText": "# 大模型｜2026-11-05\n\n## 今日重点\n\n精选5条：Images 2.6、Linux漏洞研究流水线、Pierre拟收购、xAI图像API迁移和Claude辅助结构生物学研究。\n\n以最近公开信息为主：四条官方日期为11月4日，未标注时分；另补充11月2日已生效而本栏目未收录的xAI迁移事项。已与11月2—4日归档去重；Google和Meta检索线索未选入本次五条，不按公司配额凑数。\n\n## 1. Images 2.6发布：新增GIF、SVG与可控编辑规划\n\n**事件／发布日期：**2026-11-04（官方发布日期）。**公司：**OpenAI。\n\n![OpenAI Images 2.6官方发布图，展示多种视觉素材示例](https://images.ctfassets.net/kftzwdyauwt9/6EYvL2y5CLXFr8E1pqoVUK/064e0d73b10087e20967b69ef0a06678/images-2-6-social.png?w=1600&h=900&fit=fill)\n\n图片出处：[官方原文](https://openai.com/index/introducing-images-2-6/)。官方发布图及生成样例，不作为独立质量评测。\n\nOpenAI发布Images 2.6，宣布在ChatGPT、Codex各订阅档及API提供，API分为偏快速迭代的Flare和偏精细编辑的Sunburst。新增GIF、SVG输出和标注引导编辑；官方称生成速度提高50%，该数字是厂商口径。API文档确认complexity控制规划而quality控制渲染，省略complexity时默认为high，开发者可明确设置low做针对性编辑；部分API使用可能要求组织验证。\n\n**为什么值得关注／影响：**对使用者／开发者的影响：多轮角色、品牌素材和应用资产制作可在同一流程里迭代，但需实测一致性、延迟与成本；不要将“各订阅档可用”理解成不限量。重要性4/5：是已发布的产品与接口变化，速度和质量收益尚需在自己的素材集验证。\n\n**来源：**[OpenAI：Introducing Images 2.6](https://openai.com/index/introducing-images-2-6/)；[OpenAI：Image generation API，GPT Image 2.6与complexity](https://developers.openai.com/api/docs/guides/image-generation)；[OpenAI：当前API定价](https://developers.openai.com/api/docs/pricing)。\n\n## 2. OpenAI披露Linux安全流水线：生成948个本地提权验证与候选补丁\n\n**事件／发布日期：**2026-11-04（披露）；实验于2026年10月中旬运行。**公司：**OpenAI。\n\n![OpenAI《A thousand fewer paths to root》安全研究官方封面](https://images.ctfassets.net/kftzwdyauwt9/400PQ4WTCOvXwwvk1OMOHv/03970ddeafd22fdbc9832669deacc59c/a-thousand-fewer-paths-to-root-social.png?w=1600&h=900&fit=fill)\n\n图片出处：[官方原文](https://openai.com/index/a-thousand-fewer-paths-to-root/)。研究公告封面；不表示所有补丁已获上游接受。\n\nOpenAI披露由尚待发布的网络安全模型驱动的研究流水线：动态复现1,724项漏洞，并为常见Linux发行版生成948个可工作的本地提权验证，API积分成本约121.3万美元。流程包括发现、隔离环境验证、补丁生成和人工审查，候选补丁仍须维护者检查。数字来自厂商研究环境，不代表948项已获CVE、均为独家发现或全部补丁已合入。\n\n**为什么值得关注／影响：**对开发者的影响：漏洞报告增加后，复现、排序和补丁审查将成为关键能力；成本只计算所报API用量，不能当作完整安全运营成本。重要性4/5：显示安全智能体工作流有实质进展，但属于研究披露，不能据此判断普通用户已能调用同等模型。\n\n**来源：**[OpenAI：A thousand fewer paths to root](https://openai.com/index/a-thousand-fewer-paths-to-root/)。\n\n## 3. OpenAI拟收购Pierre，Codex向代码存储与审查流程延伸\n\n**事件／发布日期：**2026-11-04。**公司：**OpenAI。\n\n![OpenAI拟收购Pierre Computer Company的官方公告图](https://images.ctfassets.net/kftzwdyauwt9/5lDkYRSw86lFyHulgkyVVr/5b20bd6b90c3d87c33b780884b48123a/openai-to-acquire-pierre-computer-company-inc-social.png?w=1600&h=900&fit=fill)\n\n图片出处：[官方原文](https://openai.com/index/openai-to-acquire-pierre/)。拟收购公告，交易尚未交割。\n\nOpenAI宣布将收购Pierre，后者开发Code Storage及Trees、Diffs等开源工具；Trees和Diffs此前已用于Codex应用的文件浏览与变更审查。交易尚待惯常交割条件及监管批准，交割前两家公司保持独立。OpenAI表示开源项目会继续开源，Code Storage客户可继续使用，功能融入Codex仍是后续计划。\n\n**为什么值得关注／影响：**对开发者的影响：值得跟进的是智能体并行开发所需的版本存储、变更展示和人工审查基础设施；当前不能把收购公告当作新的Codex托管产品已经上线。重要性4/5：可能影响开发平台生态，但整合时间和产品细节尚未公布。\n\n**来源：**[OpenAI：OpenAI to acquire Pierre Computer Company, Inc.](https://openai.com/index/openai-to-acquire-pierre/)。\n\n## 4. xAI旧图像模型别名已重定向，默认质量和账单需复核\n\n**事件／发布日期：**2026-11-02生效（七日内补充，此前未归档）。**公司：**xAI。\n\n缺图原因：官方迁移文档未提供可核验的专属实图，仅检出含签名参数的标题图；不使用签名地址或无关图。\n\nxAI文档确认grok-imagine-image-quality自11月2日起退役，旧别名请求仍可解析，但由grok-imagine-image-2.0以low质量处理，原1.0别名不受影响。当前价格页列出2.0的1K分辨率low输出为每张0.04美元、2K为0.06美元，编辑另按每张输入图0.01美元计费。显式迁移到2.0时须留意auto目前生成采用low、编辑采用medium，不能假定与旧别名的默认成本相同。\n\n**为什么值得关注／影响：**对开发者的影响：即使代码没有报错，底层模型、质量与费用也可能变化；建议显式指定模型及quality，并对照实际usage计费字段。重要性4/5：这是已生效的兼容与计费变化，不是今天新发布的模型；地区及账号可用性仍依各服务接入条件。\n\n**来源：**[xAI：grok-imagine-image-quality Retirement on November 2, 2026](https://docs.x.ai/developers/migration/imagine-image-quality-nov-2)；[xAI：当前API Pricing，Imagine API](https://docs.x.ai/developers/pricing)。\n\n## 5. Claude辅助解析vault颗粒结构：实验进展以预印本披露\n\n**事件／发布日期：**2026-11-04。**公司：**Anthropic。\n\n缺图原因：原文结构图已检索并在网页图像工具中显示，但图片直链及代理实际抓取均返回403，未能确认稳定公开访问，故不嵌入。\n\nAnthropic生物实验室公布噬菌体蛋白形成vault样颗粒的冷冻电镜结构，报告Claude参与蛋白检索、DNA设计、纯化优化及显微数据处理。团队称在研究人员指导下将一次纯化流程从通常三天缩至约90分钟，并于随后34小时得到初步结构模型；这些效率数据来自团队估计。论文处于预印本阶段，颗粒的生物功能仍未确定，结构和更多数据计划后续释放。\n\n**为什么值得关注／影响：**对使用者／开发者的影响：可观察的价值是模型接入实验工具与人工核查的流程，而非单纯生成解释；该结果不能视作已同行评审的医学突破或新模型公开发布。重要性3/5：有实际实验支撑，但仍需独立复现，也不能据此推断普遍实验提速幅度。\n\n**来源：**[Anthropic：Investigating vault particles with Claude](https://www.anthropic.com/research/investigating-vault-particles-with-claude)。\n\n## 继续观察\n\n优先验证图像API默认参数与编辑一致性、源代码工具整合时间，以及安全补丁和实验数据能否被外部复核。当前发布、拟议交易和初步研究处于不同阶段，本报告不更新模型资料快照。\n"
+    },
     {
       "id": "llm-2026-11-04",
       "collectionId": "llm",
