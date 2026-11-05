@@ -2,8 +2,97 @@
   "schemaVersion": 1,
   "collectionId": "health",
   "month": "2026-11",
-  "updatedAt": "2026-11-04T01:20:21Z",
+  "updatedAt": "2026-11-05T01:21:15Z",
   "briefs": [
+    {
+      "id": "health-2026-11-05",
+      "collectionId": "health",
+      "date": "2026-11-05",
+      "title": "健康｜2026-11-05",
+      "summary": "精选3条：全球青少年运动不足、新埃博拉候选疫苗拟入组，以及减重未额外降低消融后房颤复发的随机试验。",
+      "analysis": "关注证据对应的具体问题：运动统计需解释活动阈值，候选疫苗仍待审批与有效性结果，减重的代谢获益不能直接等同所有疾病终点改善。",
+      "completeness": "full",
+      "sourceConversation": "健康",
+      "provenance": "生成时间 2026-11-05T01:21:15Z；日期按Asia/Shanghai。检索近24小时与2026-10-30至2026-11-05七日窗口，综合WHO、同行评审期刊、中文卫生及科研消息线索，与本栏目11月1—4日报去重。3条来源均标注11月4日，未披露时分，不能保证均落入严格24小时。WHO原文已打开；HOBIT-AF期刊正文直读受403限制，结论仅依据检索可读取的期刊原始摘要及日期信息，不声称阅读全文或核实未披露细节。WHO两张原文图片GET返回403且网页读取也失败；期刊图片无法核验，故3条images均为空并逐条说明。",
+      "score": 4,
+      "items": [
+        {
+          "id": "health-2026-11-05-adolescent-activity",
+          "title": "WHO新估计：四分之一青少年一周内没有一天活动达到60分钟",
+          "category": "健康",
+          "publishedAt": "2026-11-04；研究趋势覆盖2010—2025年",
+          "summary": "WHO公布汇集140个国家和地区、389项人口调查及逾320万名青少年的全球估计：11—17岁人群约四分之一报告过去一周没有一天达到60分钟中高强度身体活动，估算约2.4亿人。这里的“没有活跃日”指未达该时长阈值，并非完全没有运动；过去15年总体进展有限。证据为调查汇总估计，依赖自报，不能从这些数据认定屏幕使用等某个因素造成了变化。",
+          "analysis": "值得关注：重点应放在学校活动机会、安全步行骑行和可负担的运动环境，也需关注女孩的参与障碍；结果适用于青少年公共健康规划，不能直接套用于成年人。重要性4/5：覆盖广、与长期代谢和心血管健康相关，但统计阈值和测量局限必须保留。",
+          "importance": 4,
+          "tags": [
+            "身体活动",
+            "青少年",
+            "代谢健康",
+            "调查汇总"
+          ],
+          "sources": [
+            {
+              "title": "WHO：One in four adolescents worldwide reported no active days in the previous week",
+              "url": "https://www.who.int/news/item/04-11-2026-one-in-four-adolescents-worldwide-reported-no-active-days-in-the-previous-week"
+            },
+            {
+              "title": "WHO：A generation missing out，2010—2025趋势报告",
+              "url": "https://www.who.int/publications/i/item/387961"
+            }
+          ],
+          "images": [],
+          "imageNote": "已找到WHO原文配图，但HTTPS图片GET返回403，无法确认公开访问；不使用无法核验的图片。"
+        },
+        {
+          "id": "health-2026-11-05-ebola-vaccine-trial",
+          "title": "WHO建议两款新埃博拉候选疫苗加入试验，尚未证实有效",
+          "category": "医学",
+          "publishedAt": "2026-11-04",
+          "summary": "WHO专家组建议将牛津／印度血清研究所的ChAdOx1和Moderna的mRNA-1469加入刚果（金）Tumaini试验，针对当前疫情的Bundibugyo病毒；须获得该国批准后才能进入试验。研究采用接触者环形接种，疫苗结果预计2027年初公布，目前没有这两款候选疫苗对本次疫情的保护效力结论。证据类型为公共卫生机构发布的试验进展，依据临床前及早期临床资料作优先选择，不能视为上市批准。",
+          "analysis": "值得关注：这扩展了对特定埃博拉病毒种的防控研究；已有针对Zaire病毒的疫苗经验不能直接证明对Bundibugyo有效。重要性4/5：对疫情地区意义重大，适用范围是受影响地区的专业防控与临床研究，不是一般公众的自行接种或用药建议。",
+          "importance": 4,
+          "tags": [
+            "埃博拉",
+            "疫苗",
+            "临床试验",
+            "公共卫生"
+          ],
+          "sources": [
+            {
+              "title": "WHO：Two new candidate vaccines to join Ebola trial as treatment research advances",
+              "url": "https://www.who.int/news/item/04-11-2026-two-new-candidate-vaccines-to-join-ebola-trial-as-treatment-research-advances"
+            }
+          ],
+          "images": [],
+          "imageNote": "WHO原文疫苗试验照片直链GET返回403，网页图片读取也失败；未确认可公开访问，故不嵌入。"
+        },
+        {
+          "id": "health-2026-11-05-hobit-af",
+          "title": "HOBIT-AF随机试验：体重下降未带来消融后房颤复发的额外改善",
+          "category": "减重",
+          "publishedAt": "2026-11-04（期刊发表）；干预15个月，消融后3—18个月",
+          "summary": "同行评审HOBIT-AF试验将167名肥胖且接受房颤导管消融的成人随机分组，平均年龄59岁、BMI为35.6；综合减重组85人，常规照护组82人。15个月后干预组平均减重6.8%，代谢指标改善，但两组主要终点——14天动态心电图测得的房颤／房速负荷变化——未显示额外获益，无复发生存比例为70.4%与69.6%。局限是样本较小、消融后基础房颤负荷已低，且为综合方案，不能把结果归因于单一饮食、运动或药物。",
+          "analysis": "值得关注：减重目标应同时看长期代谢健康、可持续性与安全，而非承诺一定减少某种并发症；该阴性结果也不证明减重无益。重要性3/5：有随机证据，但适用于特定消融后人群，不能外推至所有肥胖者或据此自行调整治疗。",
+          "importance": 3,
+          "tags": [
+            "体重管理",
+            "肥胖",
+            "房颤",
+            "随机试验",
+            "长期健康"
+          ],
+          "sources": [
+            {
+              "title": "EP Europace：HOBIT-AF原始研究，doi:10.1093/europace/euag178",
+              "url": "https://academic.oup.com/europace/article/28/11/euag178/9011935"
+            }
+          ],
+          "images": [],
+          "imageNote": "期刊页面直读受403限制，未取得可验证公开图片；保留原始研究链接，不用无关示意图。"
+        }
+      ],
+      "rawText": "# 健康｜2026-11-05\n\n## 今日 Top 3\n\n精选3条：全球青少年运动不足、新埃博拉候选疫苗拟入组，以及减重未额外降低消融后房颤复发的随机试验。\n\n来源均标注2026年11月4日；未披露准确时分，按公开日期报告。已与近期归档去重。以下是新闻与一般健康科普。\n\n### 1. WHO新估计：四分之一青少年一周内没有一天活动达到60分钟\n\n**发布时间／研究时间：**2026-11-04；研究趋势覆盖2010—2025年。\n\nWHO公布汇集140个国家和地区、389项人口调查及逾320万名青少年的全球估计：11—17岁人群约四分之一报告过去一周没有一天达到60分钟中高强度身体活动，估算约2.4亿人。这里的“没有活跃日”指未达该时长阈值，并非完全没有运动；过去15年总体进展有限。证据为调查汇总估计，依赖自报，不能从这些数据认定屏幕使用等某个因素造成了变化。\n\n**为什么值得关注／适用范围：**值得关注：重点应放在学校活动机会、安全步行骑行和可负担的运动环境，也需关注女孩的参与障碍；结果适用于青少年公共健康规划，不能直接套用于成年人。重要性4/5：覆盖广、与长期代谢和心血管健康相关，但统计阈值和测量局限必须保留。\n\n**来源：**[WHO：One in four adolescents worldwide reported no active days in the previous week](https://www.who.int/news/item/04-11-2026-one-in-four-adolescents-worldwide-reported-no-active-days-in-the-previous-week)；[WHO：A generation missing out，2010—2025趋势报告](https://www.who.int/publications/i/item/387961)。\n\n**缺图原因：**已找到WHO原文配图，但HTTPS图片GET返回403，无法确认公开访问；不使用无法核验的图片。\n\n### 2. WHO建议两款新埃博拉候选疫苗加入试验，尚未证实有效\n\n**发布时间／研究时间：**2026-11-04。\n\nWHO专家组建议将牛津／印度血清研究所的ChAdOx1和Moderna的mRNA-1469加入刚果（金）Tumaini试验，针对当前疫情的Bundibugyo病毒；须获得该国批准后才能进入试验。研究采用接触者环形接种，疫苗结果预计2027年初公布，目前没有这两款候选疫苗对本次疫情的保护效力结论。证据类型为公共卫生机构发布的试验进展，依据临床前及早期临床资料作优先选择，不能视为上市批准。\n\n**为什么值得关注／适用范围：**值得关注：这扩展了对特定埃博拉病毒种的防控研究；已有针对Zaire病毒的疫苗经验不能直接证明对Bundibugyo有效。重要性4/5：对疫情地区意义重大，适用范围是受影响地区的专业防控与临床研究，不是一般公众的自行接种或用药建议。\n\n**来源：**[WHO：Two new candidate vaccines to join Ebola trial as treatment research advances](https://www.who.int/news/item/04-11-2026-two-new-candidate-vaccines-to-join-ebola-trial-as-treatment-research-advances)。\n\n**缺图原因：**WHO原文疫苗试验照片直链GET返回403，网页图片读取也失败；未确认可公开访问，故不嵌入。\n\n### 3. HOBIT-AF随机试验：体重下降未带来消融后房颤复发的额外改善\n\n**发布时间／研究时间：**2026-11-04（期刊发表）；干预15个月，消融后3—18个月。\n\n同行评审HOBIT-AF试验将167名肥胖且接受房颤导管消融的成人随机分组，平均年龄59岁、BMI为35.6；综合减重组85人，常规照护组82人。15个月后干预组平均减重6.8%，代谢指标改善，但两组主要终点——14天动态心电图测得的房颤／房速负荷变化——未显示额外获益，无复发生存比例为70.4%与69.6%。局限是样本较小、消融后基础房颤负荷已低，且为综合方案，不能把结果归因于单一饮食、运动或药物。\n\n**为什么值得关注／适用范围：**值得关注：减重目标应同时看长期代谢健康、可持续性与安全，而非承诺一定减少某种并发症；该阴性结果也不证明减重无益。重要性3/5：有随机证据，但适用于特定消融后人群，不能外推至所有肥胖者或据此自行调整治疗。\n\n**来源：**[EP Europace：HOBIT-AF原始研究，doi:10.1093/europace/euag178](https://academic.oup.com/europace/article/28/11/euag178/9011935)。\n\n**缺图原因：**期刊页面直读受403限制，未取得可验证公开图片；保留原始研究链接，不用无关示意图。\n\n研究不能替代个体评估；本简报不提供诊断、处方或个性化治疗。\n"
+    },
     {
       "id": "health-2026-11-04",
       "collectionId": "health",
