@@ -2,8 +2,110 @@
   "schemaVersion": 1,
   "collectionId": "health",
   "month": "2026-11",
-  "updatedAt": "2026-11-05T01:21:15Z",
+  "updatedAt": "2026-11-06T01:25:44Z",
   "briefs": [
+    {
+      "id": "health-2026-11-06",
+      "collectionId": "health",
+      "date": "2026-11-06",
+      "title": "健康｜2026-11-06",
+      "summary": "中国疾控发布第44周流感哨点数据；JAMA公布新生儿维生素K预防与出血的大型队列；甘李公布每月一次减重维持方案的初步试验结果。",
+      "analysis": "按公共卫生相关性、证据强度和实际影响排序。4分为与人群防护或常规临床实践直接相关的高价值信息；3分为值得跟进但尚不足以改变实践的初步证据。",
+      "rawText": "# 健康｜2026-11-06\n\n## 今日 Top 3\n\n以11月5日新公布的中外资料为主；减重条目为近7天补充。重要性4分表示有直接公共健康或临床意义，3分表示值得跟进的初步证据。\n\n### 1. 中国流感哨点阳性率小幅上升，5–14岁组最高\n\n11月5日，中国疾控发布第44周监测报告，覆盖10月26日至11月1日、中国大陆216家多病原哨点医院。门急诊流感样病例样本的流感病毒阳性率为15.6%，较上一周高0.9个百分点；北方低水平上升、南方处于中等水平，5–14岁组阳性率最高。这是哨点监测，阳性率的分母是接受检测的流感样病例样本，不能当作全国人口感染率。\n\n**为什么值得关注：** 对学校和有儿童的家庭，这是跟进本地流行趋势与季节性防护的信号；单周小幅变化不足以判断峰值何时到来。\n\n来源：[中国疾控中心｜第44周监测报告](https://www.chinacdc.cn/jksj/jksj04_14275/202611/t20261105_1842736.html)。\n\n![全国哨点医院门急诊流感样病例样本的呼吸道病原阳性率趋势](https://www.chinacdc.cn/jksj/jksj04_14275/202611/W020261105550454656820.png)\n\n中国疾控报告图2；图中比例适用于哨点检测样本。（[图片出处](https://www.chinacdc.cn/jksj/jksj04_14275/202611/t20261105_1842736.html)）\n\n### 2. 美国大型队列：未记录新生儿肌注维生素K者出血更常见\n\nJAMA于11月5日发表回顾性队列研究，纳入美国50州参与 Epic Cosmos 的医疗机构2017–2025年约524万名胎龄35–43周的新生儿。出生至6月龄，未记录肌注维生素K组与记录肌注组的任一编码出血发生率分别为每万人288.0和185.9，调整后风险比1.47（95%置信区间1.43–1.51）。结局涵盖多种出血，不都属于维生素K缺乏性出血；电子病历编码、院外漏记及残余混杂限制因果解读。\n\n**为什么值得关注：** 研究为出生时常规预防提供补充证据。美国说明书的相关适应证为新生儿维生素K缺乏性出血的预防和治疗；这项观察研究没有改变适应证。\n\n来源：[JAMA｜原始研究](https://jamanetwork.com/journals/jama/fullarticle/2856300)；[DailyMed｜美国药品说明书](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3d571642-3d3a-41ae-855e-304ae4fff459)。\n\n期刊原图使用带到期时间的签名链接，未找到可核实的永久公开直链。\n\n### 3. 每月一次博方格鲁肽维持体重：随机延伸试验公布初步结果\n\n11月4日，甘李披露中国IIIb期 GRADUAL-3 随机延伸试验结果：完成前52周每两周给药且符合条件的超重或肥胖成人，延伸24周后，两个每月给药组的平均体重较延伸期基线分别变化+0.41%和−0.12%，安慰剂组为+8.52%。这是先期减重后的维持结果；公司披露胃肠道不良事件多为轻至中度，但完整同行评审数据、罕见事件和更长期结果仍待核实。\n\n**为什么值得关注：** 减少给药频率可能有利于长期坚持，仍须验证不同人群能否维持效果及长期安全性。每月方案仍处研究阶段；中国每两周给药的长期体重管理上市申请获受理，受理不等于批准。\n\n来源：[甘李药业｜GRADUAL-3结果披露](https://www.newswire.ca/fr/news-releases/a-new-paradigm-for-long-term-weight-management-once-monthly-bofanglutide-maintenance-therapy-delivers-positive-results-in-weight-control-and-maintenance-over-24-weeks-gan-amp-lee-pharmaceuticals-gradual-3-study-meets-its-primary-endpoint-844206772.html)；[甘李药业｜中国上市申请受理公告](https://www.ganlee.com.cn/news/details143_1673.html)。\n\n![GRADUAL-3 随机延伸试验流程图](https://mmx.prnewswire.com/media/MS2026038/20261102214348EST_image_1.jpg?id=OA3054221&p=medium)\n\n申办方公布的研究设计图，未经过期刊同行评审。（[图片出处](https://www.newswire.ca/fr/news-releases/a-new-paradigm-for-long-term-weight-management-once-monthly-bofanglutide-maintenance-therapy-delivers-positive-results-in-weight-control-and-maintenance-over-24-weeks-gan-amp-lee-pharmaceuticals-gradual-3-study-meets-its-primary-endpoint-844206772.html)）\n",
+      "completeness": "full",
+      "sourceConversation": "健康",
+      "provenance": "生成：2026-11-06T01:25:43Z；北京时间11月6日检索，优先近24小时，回溯至10月30日；覆盖中国疾控、国内卫生机构及药企公开披露、WHO/FDA、JAMA、NEJM 等医学期刊和美国药品说明书；已与本栏近期报告去重。",
+      "score": 4,
+      "items": [
+        {
+          "id": "health-2026-11-06-china-influenza-week44",
+          "title": "中国流感哨点阳性率小幅上升，5–14岁组最高",
+          "category": "健康",
+          "summary": "11月5日，中国疾控发布第44周监测报告，覆盖10月26日至11月1日、中国大陆216家多病原哨点医院。门急诊流感样病例样本的流感病毒阳性率为15.6%，较上一周高0.9个百分点；北方低水平上升、南方处于中等水平，5–14岁组阳性率最高。这是哨点监测，阳性率的分母是接受检测的流感样病例样本，不能当作全国人口感染率。",
+          "analysis": "对学校和有儿童的家庭，这是跟进本地流行趋势与季节性防护的信号；单周小幅变化不足以判断峰值何时到来。",
+          "importance": 4,
+          "tags": [
+            "流感",
+            "呼吸道感染",
+            "哨点监测",
+            "儿童"
+          ],
+          "sources": [
+            {
+              "title": "中国疾控中心｜第44周监测报告",
+              "url": "https://www.chinacdc.cn/jksj/jksj04_14275/202611/t20261105_1842736.html"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.chinacdc.cn/jksj/jksj04_14275/202611/W020261105550454656820.png",
+              "alt": "全国哨点医院门急诊流感样病例样本的呼吸道病原阳性率趋势",
+              "sourceUrl": "https://www.chinacdc.cn/jksj/jksj04_14275/202611/t20261105_1842736.html",
+              "caption": "中国疾控报告图2；图中比例适用于哨点检测样本。"
+            }
+          ]
+        },
+        {
+          "id": "health-2026-11-06-neonatal-vitamin-k-cohort",
+          "title": "美国大型队列：未记录新生儿肌注维生素K者出血更常见",
+          "category": "医学",
+          "summary": "JAMA于11月5日发表回顾性队列研究，纳入美国50州参与 Epic Cosmos 的医疗机构2017–2025年约524万名胎龄35–43周的新生儿。出生至6月龄，未记录肌注维生素K组与记录肌注组的任一编码出血发生率分别为每万人288.0和185.9，调整后风险比1.47（95%置信区间1.43–1.51）。结局涵盖多种出血，不都属于维生素K缺乏性出血；电子病历编码、院外漏记及残余混杂限制因果解读。",
+          "analysis": "研究为出生时常规预防提供补充证据。美国说明书的相关适应证为新生儿维生素K缺乏性出血的预防和治疗；这项观察研究没有改变适应证。",
+          "importance": 4,
+          "tags": [
+            "新生儿",
+            "维生素K",
+            "出血",
+            "回顾性队列"
+          ],
+          "sources": [
+            {
+              "title": "JAMA｜原始研究",
+              "url": "https://jamanetwork.com/journals/jama/fullarticle/2856300"
+            },
+            {
+              "title": "DailyMed｜美国药品说明书",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=3d571642-3d3a-41ae-855e-304ae4fff459"
+            }
+          ],
+          "images": [],
+          "imageNote": "期刊原图使用带到期时间的签名链接，未找到可核实的永久公开直链。"
+        },
+        {
+          "id": "health-2026-11-06-bofanglutide-maintenance-gradual3",
+          "title": "每月一次博方格鲁肽维持体重：随机延伸试验公布初步结果",
+          "category": "减重",
+          "summary": "11月4日，甘李披露中国IIIb期 GRADUAL-3 随机延伸试验结果：完成前52周每两周给药且符合条件的超重或肥胖成人，延伸24周后，两个每月给药组的平均体重较延伸期基线分别变化+0.41%和−0.12%，安慰剂组为+8.52%。这是先期减重后的维持结果；公司披露胃肠道不良事件多为轻至中度，但完整同行评审数据、罕见事件和更长期结果仍待核实。",
+          "analysis": "减少给药频率可能有利于长期坚持，仍须验证不同人群能否维持效果及长期安全性。每月方案仍处研究阶段；中国每两周给药的长期体重管理上市申请获受理，受理不等于批准。",
+          "importance": 3,
+          "tags": [
+            "减重",
+            "体重维持",
+            "博方格鲁肽",
+            "随机试验",
+            "IIIb期"
+          ],
+          "sources": [
+            {
+              "title": "甘李药业｜GRADUAL-3结果披露",
+              "url": "https://www.newswire.ca/fr/news-releases/a-new-paradigm-for-long-term-weight-management-once-monthly-bofanglutide-maintenance-therapy-delivers-positive-results-in-weight-control-and-maintenance-over-24-weeks-gan-amp-lee-pharmaceuticals-gradual-3-study-meets-its-primary-endpoint-844206772.html"
+            },
+            {
+              "title": "甘李药业｜中国上市申请受理公告",
+              "url": "https://www.ganlee.com.cn/news/details143_1673.html"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://mmx.prnewswire.com/media/MS2026038/20261102214348EST_image_1.jpg?id=OA3054221&p=medium",
+              "alt": "GRADUAL-3 随机延伸试验流程图",
+              "sourceUrl": "https://www.newswire.ca/fr/news-releases/a-new-paradigm-for-long-term-weight-management-once-monthly-bofanglutide-maintenance-therapy-delivers-positive-results-in-weight-control-and-maintenance-over-24-weeks-gan-amp-lee-pharmaceuticals-gradual-3-study-meets-its-primary-endpoint-844206772.html",
+              "caption": "申办方公布的研究设计图，未经过期刊同行评审。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "health-2026-11-05",
       "collectionId": "health",
