@@ -2,8 +2,176 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-11",
-  "updatedAt": "2026-11-05T01:03:57Z",
+  "updatedAt": "2026-11-06T01:11:10Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-11-06",
+      "collectionId": "daily-brief",
+      "date": "2026-11-06",
+      "title": "最新资讯｜2026-11-06",
+      "summary": "Kimi 开放完整权重、METR 评估 AI 研发加速、任天堂披露半年报、EA 修复经典 PC 游戏、Electron 发布维护补丁。",
+      "analysis": "部署先核算资源与许可，评估 AI 研发要核对指标口径；游戏行业同时看装机量、软件销售和历史资产的复用价值。",
+      "rawText": "# 最新资讯｜2026-11-06\n\nKimi 开放完整权重、METR 评估 AI 研发加速、任天堂披露半年报、EA 修复经典 PC 游戏、Electron 发布维护补丁。\n\n## 1. Kimi K3.1 Pro 开放完整权重，自部署仍需服务器级资源\n\n![Kimi K3.1 Pro 模型卡标识](https://huggingface.co/moonshotai/Kimi-K3.1-Pro/resolve/main/assets/kimi-logo.png)\n\n*来源为官方模型卡。 [图片出处](https://huggingface.co/moonshotai/Kimi-K3.1-Pro)*\n\n11 月 5 日中文媒体确认，月之暗面已在 Hugging Face 开放 10 月下旬发布的 Kimi K3.1 Pro 完整权重。模型卡列出 2.8 万亿总参数、1040 亿激活参数和约 100 万 token 上下文，采用 MXFP4 权重量化并支持图文输入。权重采用项目专用许可证，开放下载不代表可无条件使用。\n\n**为什么值得关注：**团队可以用同一套权重做私有推理和任务评估；上线前要核对许可证、显存、长上下文吞吐和工具调用成本，别仅凭激活参数估算部署门槛。\n\n**来源：**[月之暗面官方模型卡](https://huggingface.co/moonshotai/Kimi-K3.1-Pro)；[IT之家：完整权重开放报道](https://www.ithome.com/1/022/490.htm)。\n\n## 2. METR 评估：Anthropic 模型基准进步速度约为此前 1.9 倍\n\n![METR 报告中的 Anthropic 模型 AECI 趋势图](https://metr.org/assets/images/ai-rd-acceleration-assessment/aeci-main.png)\n\n*报告原图；指标与拟合方法会影响估计。 [图片出处](https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/)*\n\n11 月 5 日，METR 公布对 Anthropic 的外部评估，考察期为 8 月 12 日至 10 月 29 日。按 Anthropic 内部 AECI 指标估计，2025 年 10 月以来基准进步速度为此前的 1.9 倍，95% 置信区间为 1.5–2.8 倍。评估认为 AI 辅助研发可能解释当前加速的较大部分，但归因不确定，部分证据被删节。\n\n**为什么值得关注：**这是对特定公司的特定基准趋势的估计。做研发自动化评估时，更应单独跟踪实验吞吐、人工复核时间及失败率，避免把基准增长直接当成自主研发能力。\n\n**来源：**[METR：独立评估原文](https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/)；[路透社：外部报道](https://www.reuters.com/technology/anthropics-models-improving-nearly-twice-fast-with-help-ai-study-finds-2026-11-05/)。\n\n## 3. 任天堂半年报：硬件销量走低，软件销售与退税支撑营业利润\n\n![任天堂官网的 Switch 2 与《马力欧卡丁车 世界》套装图](https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_2.0/ncom/en_US/merchandising/Showrooms/2026%20Holiday/MKW_bundle_product_shot)\n\n*官方产品图，不是财报图。 [图片出处](https://www.nintendo.com/us/gaming-systems/switch-2/)*\n\n任天堂 11 月 5 日披露，截至 9 月底的上半财年营收为 9660 亿日元，同比下降 12.1%；营业利润为 2165 亿日元，同比增加 49.1%。同期 Switch 2 硬件售出 649 万台、软件售出 2449 万份；公司解释，软件销售占比提升和一季度美国关税退款均有贡献。全年财务预测维持不变。\n\n**为什么值得关注：**判断平台机会应拆看新增主机装机量和软件销售。营业利润增速含退税因素，不能直接外推到下半年或当作游戏需求的增速。\n\n**来源：**[任天堂半年报](https://www.nintendo.co.jp/ir/pdf/2026/261105e.pdf)；[任天堂财报说明](https://www.nintendo.co.jp/ir/pdf/2026/261105_3e.pdf)。\n\n## 4. EA 将 25 款经典 PC 游戏带上 Steam，七款做了周年修复\n\n![EA 经典游戏再发行作品封面拼图](https://drop-assets.ea.com/images/5252lzaUWZ9qwTtv9at99Q/e73fee7fd7fe1d987cbca9a96958e4e8/Wave2_Collage_1920x1080.png)\n\n*EA 官方发行配图。 [图片出处](https://www.ea.com/news/ea-classics-launch)*\n\nEA 11 月 5 日宣布，《银河飞将》《创世纪》等系列共 25 款经典作品登陆 Steam，并在 GOG 和 EA App 提供。七款周年版增加现代硬件适配、操作体验改进或从母带恢复的更高清全动态视频，其他作品以保留原貌的移植为主。修复源于团队发现并数字化近 2 万件存档素材。\n\n**为什么值得关注：**老游戏再发行的关键资产包括原始母带和可追溯的制作资料。对游戏团队，尽早保存源素材、版本记录和构建环境，有助于降低未来移植或修复的成本。\n\n**来源：**[EA：经典游戏上线与修复清单](https://www.ea.com/news/ea-classics-launch)。\n\n## 5. Electron 45.2.3 回移 Chromium 图形与媒体组件修复\n\n![Electron 45 主版本官方发布封面](https://www.electronjs.org/blog/electron-45-0/og-image.png)\n\n*45 系列示意图，并非 45.2.3 专属插图。 [图片出处](https://www.electronjs.org/blog/electron-45-0)*\n\nElectron 在 11 月 4 日 UTC 发布 45.2.3 稳定补丁，版本页列出 Chromium 156.0.8078.80 与 Node.js 24.22.2。发布记录包含 ANGLE、Dawn、FFmpeg、PDFium、Skia 和 V8 等上游修复回移；公告未逐项标明 CVE。\n\n**为什么值得关注：**已在 45 系列的桌面应用可优先回归 GPU 渲染、媒体播放、PDF 和安装包，再分批更新。跨主版本项目仍要单独验证兼容性。\n\n**来源：**[Electron GitHub 发布记录](https://github.com/electron/electron/releases/tag/v45.2.3)；[Electron 官方版本页](https://releases.electronjs.org/release/v45.2.3)。\n\n部署先核算资源与许可，评估 AI 研发要核对指标口径；游戏行业同时看装机量、软件销售和历史资产的复用价值。\n",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "生成时间 2026-11-06T01:10:18Z；日期按 Asia/Shanghai。检索 11 月 4—6 日公开报道，核对官方模型卡、METR 研究、任天堂财报、EA 公告与 GitHub 发布记录，参考中英文媒体并与 11 月 1—5 日归档去重。图片均已实际读取检查。",
+      "score": 4,
+      "items": [
+        {
+          "id": "daily-brief-2026-11-06-kimi-weights",
+          "title": "Kimi K3.1 Pro 开放完整权重，自部署仍需服务器级资源",
+          "category": "AI / 大模型",
+          "summary": "11 月 5 日中文媒体确认，月之暗面已在 Hugging Face 开放 10 月下旬发布的 Kimi K3.1 Pro 完整权重。模型卡列出 2.8 万亿总参数、1040 亿激活参数和约 100 万 token 上下文，采用 MXFP4 权重量化并支持图文输入。权重采用项目专用许可证，开放下载不代表可无条件使用。",
+          "analysis": "团队可以用同一套权重做私有推理和任务评估；上线前要核对许可证、显存、长上下文吞吐和工具调用成本，别仅凭激活参数估算部署门槛。",
+          "importance": 5,
+          "tags": [
+            "Kimi",
+            "开放权重",
+            "推理部署"
+          ],
+          "sources": [
+            {
+              "title": "月之暗面官方模型卡",
+              "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+            },
+            {
+              "title": "IT之家：完整权重开放报道",
+              "url": "https://www.ithome.com/1/022/490.htm"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro/resolve/main/assets/kimi-logo.png",
+              "alt": "Kimi K3.1 Pro 模型卡标识",
+              "sourceUrl": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+              "caption": "来源为官方模型卡。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-06-metr-rd",
+          "title": "METR 评估：Anthropic 模型基准进步速度约为此前 1.9 倍",
+          "category": "AI / 研究",
+          "summary": "11 月 5 日，METR 公布对 Anthropic 的外部评估，考察期为 8 月 12 日至 10 月 29 日。按 Anthropic 内部 AECI 指标估计，2025 年 10 月以来基准进步速度为此前的 1.9 倍，95% 置信区间为 1.5–2.8 倍。评估认为 AI 辅助研发可能解释当前加速的较大部分，但归因不确定，部分证据被删节。",
+          "analysis": "这是对特定公司的特定基准趋势的估计。做研发自动化评估时，更应单独跟踪实验吞吐、人工复核时间及失败率，避免把基准增长直接当成自主研发能力。",
+          "importance": 4,
+          "tags": [
+            "METR",
+            "Anthropic",
+            "AI研发",
+            "模型评估"
+          ],
+          "sources": [
+            {
+              "title": "METR：独立评估原文",
+              "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/"
+            },
+            {
+              "title": "路透社：外部报道",
+              "url": "https://www.reuters.com/technology/anthropics-models-improving-nearly-twice-fast-with-help-ai-study-finds-2026-11-05/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://metr.org/assets/images/ai-rd-acceleration-assessment/aeci-main.png",
+              "alt": "METR 报告中的 Anthropic 模型 AECI 趋势图",
+              "sourceUrl": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+              "caption": "报告原图；指标与拟合方法会影响估计。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-06-nintendo-earnings",
+          "title": "任天堂半年报：硬件销量走低，软件销售与退税支撑营业利润",
+          "category": "财经 / 游戏行业",
+          "summary": "任天堂 11 月 5 日披露，截至 9 月底的上半财年营收为 9660 亿日元，同比下降 12.1%；营业利润为 2165 亿日元，同比增加 49.1%。同期 Switch 2 硬件售出 649 万台、软件售出 2449 万份；公司解释，软件销售占比提升和一季度美国关税退款均有贡献。全年财务预测维持不变。",
+          "analysis": "判断平台机会应拆看新增主机装机量和软件销售。营业利润增速含退税因素，不能直接外推到下半年或当作游戏需求的增速。",
+          "importance": 4,
+          "tags": [
+            "任天堂",
+            "Switch 2",
+            "财报"
+          ],
+          "sources": [
+            {
+              "title": "任天堂半年报",
+              "url": "https://www.nintendo.co.jp/ir/pdf/2026/261105e.pdf"
+            },
+            {
+              "title": "任天堂财报说明",
+              "url": "https://www.nintendo.co.jp/ir/pdf/2026/261105_3e.pdf"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_2.0/ncom/en_US/merchandising/Showrooms/2026%20Holiday/MKW_bundle_product_shot",
+              "alt": "任天堂官网的 Switch 2 与《马力欧卡丁车 世界》套装图",
+              "sourceUrl": "https://www.nintendo.com/us/gaming-systems/switch-2/",
+              "caption": "官方产品图，不是财报图。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-06-ea-classics",
+          "title": "EA 将 25 款经典 PC 游戏带上 Steam，七款做了周年修复",
+          "category": "游戏开发 / 行业",
+          "summary": "EA 11 月 5 日宣布，《银河飞将》《创世纪》等系列共 25 款经典作品登陆 Steam，并在 GOG 和 EA App 提供。七款周年版增加现代硬件适配、操作体验改进或从母带恢复的更高清全动态视频，其他作品以保留原貌的移植为主。修复源于团队发现并数字化近 2 万件存档素材。",
+          "analysis": "老游戏再发行的关键资产包括原始母带和可追溯的制作资料。对游戏团队，尽早保存源素材、版本记录和构建环境，有助于降低未来移植或修复的成本。",
+          "importance": 3,
+          "tags": [
+            "EA",
+            "PC游戏",
+            "数字保存",
+            "兼容性"
+          ],
+          "sources": [
+            {
+              "title": "EA：经典游戏上线与修复清单",
+              "url": "https://www.ea.com/news/ea-classics-launch"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://drop-assets.ea.com/images/5252lzaUWZ9qwTtv9at99Q/e73fee7fd7fe1d987cbca9a96958e4e8/Wave2_Collage_1920x1080.png",
+              "alt": "EA 经典游戏再发行作品封面拼图",
+              "sourceUrl": "https://www.ea.com/news/ea-classics-launch",
+              "caption": "EA 官方发行配图。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-06-electron-patch",
+          "title": "Electron 45.2.3 回移 Chromium 图形与媒体组件修复",
+          "category": "软件工程 / Electron",
+          "summary": "Electron 在 11 月 4 日 UTC 发布 45.2.3 稳定补丁，版本页列出 Chromium 156.0.8078.80 与 Node.js 24.22.2。发布记录包含 ANGLE、Dawn、FFmpeg、PDFium、Skia 和 V8 等上游修复回移；公告未逐项标明 CVE。",
+          "analysis": "已在 45 系列的桌面应用可优先回归 GPU 渲染、媒体播放、PDF 和安装包，再分批更新。跨主版本项目仍要单独验证兼容性。",
+          "importance": 3,
+          "tags": [
+            "Electron",
+            "Chromium",
+            "桌面开发"
+          ],
+          "sources": [
+            {
+              "title": "Electron GitHub 发布记录",
+              "url": "https://github.com/electron/electron/releases/tag/v45.2.3"
+            },
+            {
+              "title": "Electron 官方版本页",
+              "url": "https://releases.electronjs.org/release/v45.2.3"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.electronjs.org/blog/electron-45-0/og-image.png",
+              "alt": "Electron 45 主版本官方发布封面",
+              "sourceUrl": "https://www.electronjs.org/blog/electron-45-0",
+              "caption": "45 系列示意图，并非 45.2.3 专属插图。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "daily-brief-2026-11-05",
       "collectionId": "daily-brief",
