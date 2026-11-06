@@ -2,8 +2,192 @@
   "schemaVersion": 1,
   "collectionId": "games",
   "month": "2026-11",
-  "updatedAt": "2026-11-05T01:13:34Z",
+  "updatedAt": "2026-11-06T01:17:39Z",
   "briefs": [
+    {
+      "id": "games-2026-11-06",
+      "collectionId": "games",
+      "date": "2026-11-06",
+      "title": "游戏｜2026-11-06",
+      "summary": "《时之笛》重制正式发售；国内关注《影之刃零》首周实质更新和一款桌面联机独立游戏，国外另有 EA 经典作品修复与《漫威银河护卫队》移植。",
+      "analysis": "关注首发评测、旧作品现代化适配以及正式发售后补丁对各平台的实际影响。",
+      "rawText": "# 游戏｜2026-11-06\n\n## 今日重点\n\n《时之笛》重制正式发售；国内关注《影之刃零》首周实质更新和一款桌面联机独立游戏，国外另有 EA 经典作品修复与《漫威银河护卫队》移植。\n\n主要为 11 月 5 日发售动态；《影之刃零》是近七日内尚未收录的实际补丁，非重复报道销量。\n\n## 国内\n\n### 《影之刃零》Steam 补丁调整光追编译与交互键\n\n**平台与日期：**PC（Steam）；官网说明 11 月 3 日，Steam 补丁说明 11 月 4 日。\n\n![《影之刃零》Steam 官方游戏封面](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/aef06490c9a4ad912142fe3b766ee08a2b38ef80/capsule_231x87.jpg)\n\n*游戏封面，并非补丁功能截图。 [图片出处](https://steamcommunity.com/app/4115450/allnews/)*\n\n灵游坊发布 1.0302256 更新：PC 支持重绑交互键，启动时不再默认编译光追着色器，另有流程阻断、蓝牙手柄卡顿及部分战斗行为修复。官方提醒部分第三方模组与新版本不兼容。此处核实的是 PC 补丁及 Steam 推送记录，未把同一版本号套到 PS5。\n\n**为什么值得关注：**4/5：这是发售后的实质维护，影响启动和操作体验；有模组的玩家应先检查兼容性。\n\n**来源：**[S-GAME 官方更新说明](https://pbz.s-game.com/zh-TW/news/patch-notes-2026-11-03/)；[Steam 官方新闻：1.0302256](https://steamcommunity.com/app/4115450/allnews/)。\n\n### 《喵！一起摸鱼吧~》登陆 Steam，桌面钓鱼支持联机\n\n**平台与日期：**Windows PC（Steam）；Steam 英文页显示 11 月 4 日，国内报道为北京时间 11 月 5 日 10:00。\n\n![《喵！一起摸鱼吧~》Steam 商店封面](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4188260/cca9a53f07e06ea6cf9eae77926f3ed1e26f6763/header.jpg?t=1793860314)\n\n*Steam 商店图。 [图片出处](https://store.steampowered.com/app/4188260/CozyFishing_Kitten/)*\n\n云光社 Lumenex 开发、昆磐游戏发行的桌面挂机钓鱼作品已正式发售。玩家可把游戏放在桌面一角，钓鱼、收集猫咪与装扮，商店列有单人、在线合作与 Steam 创意工坊。\n\n**为什么值得关注：**3/5：小体量独立游戏把桌面陪伴与多人社交结合，适合关注桌面应用形态；首发评价样本尚少。\n\n**来源：**[Steam 官方商店](https://store.steampowered.com/app/4188260/CozyFishing_Kitten/)；[游民星空：团队与北京时间](https://www.gamersky.com/news/202611/2241046.shtml)。\n\n## 国外\n\n### 《塞尔达传说：时之笛》重制版登陆 Switch 2\n\n**平台与日期：**Nintendo Switch 2 独占；美区、英区官方日期均为 11 月 5 日。\n\n![《塞尔达传说：时之笛》Switch 2 官方封面，林克站在林间](https://assets.nintendo.com/image/upload/ar_16%3A9%2Cc_lpad%2Cw_1240/b_white/f_auto/q_auto/store/software/switch2/70010000130792/21d17919819cffebda2817f9b0110116c28568e0b6fa30a9778f1679271be809)\n\n*任天堂官方商店图。 [图片出处](https://www.nintendo.com/us/store/products/the-legend-of-zelda-ocarina-of-time-switch-2/)*\n\n任天堂正式推出 1998 年作品的重制版，更新画面、音乐、过场配音与镜头操作。首轮媒体评测总体积极；Nintendo Life 汇总时 Metacritic 为 96 分、81 篇媒体评测，VGC 等肯定现代化调整保留了原作体验。该分数是当时快照，并非玩家评分。\n\n**为什么值得关注：**5/5：重要单机作品正式发售，也是观察经典关卡设计如何保留、旧操作摩擦如何移除的案例。\n\n**来源：**[任天堂美国官方产品页](https://www.nintendo.com/us/store/products/the-legend-of-zelda-ocarina-of-time-switch-2/)；[任天堂英国官方产品页](https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/The-Legend-of-Zelda-Ocarina-of-Time-3115664.html)；[Nintendo Life：评测汇总](https://www.nintendolife.com/news/2026/11/round-up-the-reviews-are-in-for-the-legend-of-zelda-ocarina-of-time-on-switch-2)。\n\n### EA 经典 PC 游戏再发行：25 款登陆 Steam，七款修复\n\n**平台与日期：**PC（Steam、GOG、EA App）；EA 公告日期 11 月 5 日。\n\n![EA 经典 PC 游戏封面拼图](https://drop-assets.ea.com/images/5252lzaUWZ9qwTtv9at99Q/e73fee7fd7fe1d987cbca9a96958e4e8/Wave2_Collage_1920x1080.png)\n\n*EA 官方发行配图。 [图片出处](https://www.ea.com/news/ea-classics-launch)*\n\n美国发行商 EA 将《银河飞将》《创世纪》等 25 款旧作带到 Steam，并在 GOG 和 EA App 提供。其中七款周年版做了兼容性或操作改进，并在部分作品中利用原始母带提供更高清的全动态视频；其他作品主要保留旧版形态。\n\n**为什么值得关注：**4/5：此次更新的核心是重新发行和素材修复；在意画质或兼容性的玩家可先确认是否为七款周年版之一。\n\n**来源：**[EA 官方公告及完整名单](https://www.ea.com/news/ea-classics-launch)。\n\n### 《漫威银河护卫队》Encore Edition 登陆 Switch 2\n\n**平台与日期：**Nintendo Switch 2；美区及英区 11 月 5 日。\n\n![《漫威银河护卫队》Encore Edition Switch 2 官方封面](https://assets.nintendo.com/image/upload/ar_16%3A9%2Cc_lpad%2Cw_1240/b_white/f_auto/q_auto/store/software/switch2/70010000119217/b8d0ecd1cf7bea2f4702ff75c8ba678141b6e563de5fff0ce67b71457d9e5224)\n\n*任天堂官方商店图。 [图片出处](https://www.nintendo.com/us/store/products/marvels-guardians-of-the-galaxy-encore-edition-switch-2/)*\n\n加拿大 Eidos-Montréal 将原有单机剧情动作冒险移植到 Switch 2，Encore Edition 针对该平台优化，并为五名队员加入新服装。任天堂英区当日 eShop 公告列入该作；这是既有作品的新平台版本，不是续作。\n\n**为什么值得关注：**3/5：想在新主机掌机模式体验该作有了正式选项，表现与画质建议等实测。\n\n**来源：**[任天堂美国官方商店](https://www.nintendo.com/us/store/products/marvels-guardians-of-the-galaxy-encore-edition-switch-2/)；[任天堂英国 11 月 5 日 eShop 公告](https://www.nintendo.com/en-gb/News/2026/November/Nintendo-eShop-Highlights-05-11-2026-3234639.html)。\n\n## 值得跟进\n\n关注首发评测、旧作品现代化适配以及正式发售后补丁对各平台的实际影响。 对移植和重制，分别核对画质、性能和原作内容改动，不用原版口碑替代新版本实测。\n",
+      "completeness": "full",
+      "sourceConversation": "游戏",
+      "provenance": "生成时间 2026-11-06T01:17:34Z；按 Asia/Shanghai 日期。国内外分别检索近24小时并补查近7日；与本栏目11月1—5日去重。核对开发商更新、Steam、任天堂美英区及EA公告，交叉参考中英文游戏媒体。五张图均已实际读取核验。",
+      "score": 4,
+      "items": [
+        {
+          "id": "games-2026-11-06-phantom-patch",
+          "title": "《影之刃零》Steam 补丁调整光追编译与交互键",
+          "category": "国内",
+          "platformDate": "PC（Steam）；官网说明 11 月 3 日，Steam 补丁说明 11 月 4 日",
+          "summary": "灵游坊发布 1.0302256 更新：PC 支持重绑交互键，启动时不再默认编译光追着色器，另有流程阻断、蓝牙手柄卡顿及部分战斗行为修复。官方提醒部分第三方模组与新版本不兼容。此处核实的是 PC 补丁及 Steam 推送记录，未把同一版本号套到 PS5。",
+          "analysis": "4/5：这是发售后的实质维护，影响启动和操作体验；有模组的玩家应先检查兼容性。",
+          "importance": 4,
+          "tags": [
+            "PC",
+            "Steam",
+            "动作冒险",
+            "影之刃零"
+          ],
+          "sources": [
+            {
+              "title": "S-GAME 官方更新说明",
+              "url": "https://pbz.s-game.com/zh-TW/news/patch-notes-2026-11-03/"
+            },
+            {
+              "title": "Steam 官方新闻：1.0302256",
+              "url": "https://steamcommunity.com/app/4115450/allnews/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4115450/aef06490c9a4ad912142fe3b766ee08a2b38ef80/capsule_231x87.jpg",
+              "alt": "《影之刃零》Steam 官方游戏封面",
+              "sourceUrl": "https://steamcommunity.com/app/4115450/allnews/",
+              "caption": "游戏封面，并非补丁功能截图。"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-06-fishing-kitten",
+          "title": "《喵！一起摸鱼吧~》登陆 Steam，桌面钓鱼支持联机",
+          "category": "国内",
+          "platformDate": "Windows PC（Steam）；Steam 英文页显示 11 月 4 日，国内报道为北京时间 11 月 5 日 10:00",
+          "summary": "云光社 Lumenex 开发、昆磐游戏发行的桌面挂机钓鱼作品已正式发售。玩家可把游戏放在桌面一角，钓鱼、收集猫咪与装扮，商店列有单人、在线合作与 Steam 创意工坊。",
+          "analysis": "3/5：小体量独立游戏把桌面陪伴与多人社交结合，适合关注桌面应用形态；首发评价样本尚少。",
+          "importance": 3,
+          "tags": [
+            "PC",
+            "Steam",
+            "独立游戏",
+            "挂机模拟",
+            "喵！一起摸鱼吧~"
+          ],
+          "sources": [
+            {
+              "title": "Steam 官方商店",
+              "url": "https://store.steampowered.com/app/4188260/CozyFishing_Kitten/"
+            },
+            {
+              "title": "游民星空：团队与北京时间",
+              "url": "https://www.gamersky.com/news/202611/2241046.shtml"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4188260/cca9a53f07e06ea6cf9eae77926f3ed1e26f6763/header.jpg?t=1793860314",
+              "alt": "《喵！一起摸鱼吧~》Steam 商店封面",
+              "sourceUrl": "https://store.steampowered.com/app/4188260/CozyFishing_Kitten/",
+              "caption": "Steam 商店图。"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-06-zelda-ocarina",
+          "title": "《塞尔达传说：时之笛》重制版登陆 Switch 2",
+          "category": "国外",
+          "platformDate": "Nintendo Switch 2 独占；美区、英区官方日期均为 11 月 5 日",
+          "summary": "任天堂正式推出 1998 年作品的重制版，更新画面、音乐、过场配音与镜头操作。首轮媒体评测总体积极；Nintendo Life 汇总时 Metacritic 为 96 分、81 篇媒体评测，VGC 等肯定现代化调整保留了原作体验。该分数是当时快照，并非玩家评分。",
+          "analysis": "5/5：重要单机作品正式发售，也是观察经典关卡设计如何保留、旧操作摩擦如何移除的案例。",
+          "importance": 5,
+          "tags": [
+            "Switch 2",
+            "单机",
+            "动作冒险",
+            "塞尔达传说：时之笛"
+          ],
+          "sources": [
+            {
+              "title": "任天堂美国官方产品页",
+              "url": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-ocarina-of-time-switch-2/"
+            },
+            {
+              "title": "任天堂英国官方产品页",
+              "url": "https://www.nintendo.com/en-gb/Games/Nintendo-Switch-2-games/The-Legend-of-Zelda-Ocarina-of-Time-3115664.html"
+            },
+            {
+              "title": "Nintendo Life：评测汇总",
+              "url": "https://www.nintendolife.com/news/2026/11/round-up-the-reviews-are-in-for-the-legend-of-zelda-ocarina-of-time-on-switch-2"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://assets.nintendo.com/image/upload/ar_16%3A9%2Cc_lpad%2Cw_1240/b_white/f_auto/q_auto/store/software/switch2/70010000130792/21d17919819cffebda2817f9b0110116c28568e0b6fa30a9778f1679271be809",
+              "alt": "《塞尔达传说：时之笛》Switch 2 官方封面，林克站在林间",
+              "sourceUrl": "https://www.nintendo.com/us/store/products/the-legend-of-zelda-ocarina-of-time-switch-2/",
+              "caption": "任天堂官方商店图。"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-06-ea-classics",
+          "title": "EA 经典 PC 游戏再发行：25 款登陆 Steam，七款修复",
+          "category": "国外",
+          "platformDate": "PC（Steam、GOG、EA App）；EA 公告日期 11 月 5 日",
+          "summary": "美国发行商 EA 将《银河飞将》《创世纪》等 25 款旧作带到 Steam，并在 GOG 和 EA App 提供。其中七款周年版做了兼容性或操作改进，并在部分作品中利用原始母带提供更高清的全动态视频；其他作品主要保留旧版形态。",
+          "analysis": "4/5：此次更新的核心是重新发行和素材修复；在意画质或兼容性的玩家可先确认是否为七款周年版之一。",
+          "importance": 4,
+          "tags": [
+            "PC",
+            "Steam",
+            "GOG",
+            "EA App",
+            "银河飞将",
+            "创世纪",
+            "游戏保存"
+          ],
+          "sources": [
+            {
+              "title": "EA 官方公告及完整名单",
+              "url": "https://www.ea.com/news/ea-classics-launch"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://drop-assets.ea.com/images/5252lzaUWZ9qwTtv9at99Q/e73fee7fd7fe1d987cbca9a96958e4e8/Wave2_Collage_1920x1080.png",
+              "alt": "EA 经典 PC 游戏封面拼图",
+              "sourceUrl": "https://www.ea.com/news/ea-classics-launch",
+              "caption": "EA 官方发行配图。"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-06-guardians-encore",
+          "title": "《漫威银河护卫队》Encore Edition 登陆 Switch 2",
+          "category": "国外",
+          "platformDate": "Nintendo Switch 2；美区及英区 11 月 5 日",
+          "summary": "加拿大 Eidos-Montréal 将原有单机剧情动作冒险移植到 Switch 2，Encore Edition 针对该平台优化，并为五名队员加入新服装。任天堂英区当日 eShop 公告列入该作；这是既有作品的新平台版本，不是续作。",
+          "analysis": "3/5：想在新主机掌机模式体验该作有了正式选项，表现与画质建议等实测。",
+          "importance": 3,
+          "tags": [
+            "Switch 2",
+            "单机",
+            "动作冒险",
+            "漫威银河护卫队"
+          ],
+          "sources": [
+            {
+              "title": "任天堂美国官方商店",
+              "url": "https://www.nintendo.com/us/store/products/marvels-guardians-of-the-galaxy-encore-edition-switch-2/"
+            },
+            {
+              "title": "任天堂英国 11 月 5 日 eShop 公告",
+              "url": "https://www.nintendo.com/en-gb/News/2026/November/Nintendo-eShop-Highlights-05-11-2026-3234639.html"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://assets.nintendo.com/image/upload/ar_16%3A9%2Cc_lpad%2Cw_1240/b_white/f_auto/q_auto/store/software/switch2/70010000119217/b8d0ecd1cf7bea2f4702ff75c8ba678141b6e563de5fff0ce67b71457d9e5224",
+              "alt": "《漫威银河护卫队》Encore Edition Switch 2 官方封面",
+              "sourceUrl": "https://www.nintendo.com/us/store/products/marvels-guardians-of-the-galaxy-encore-edition-switch-2/",
+              "caption": "任天堂官方商店图。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "games-2026-11-05",
       "collectionId": "games",
