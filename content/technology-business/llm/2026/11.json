@@ -2,8 +2,159 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-06T01:28:10Z",
+  "updatedAt": "2026-11-07T01:28:17Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-07",
+      "collectionId": "llm",
+      "date": "2026-11-07",
+      "title": "大模型｜2026-11-07",
+      "summary": "GPT‑6 Cyber 限定开放；Claude Enterprise 推理钩子正式开放；GitHub 智能体扩展聊天入口；Conductor 加入 Meta 并公布云端迁移期限。",
+      "analysis": "重点区分已开放权限、测试功能和仍待执行的迁移计划。采用厂商自测数字时保留任务口径。",
+      "rawText": "# 大模型｜2026-11-07\n\n## 今日重点\n\n重点关注网络安全模型的准入和企业智能体的权限管理。按公告原载日期标注；11月4日的 Conductor 迁移期限作为近7天补充。5分表示模型能力或访问方式的重要变化，4分表示直接影响团队部署、权限或迁移。\n\n### 1. GPT‑6 Cyber 限定开放，OpenAI 扩大 Hacktron 的测试权限\n\nOpenAI 11月5日发布面向授权安全研究的 GPT‑6 Cyber，首批仅向部分经审核的 Daybreak Red 客户开放 API 与 Codex，后续扩围尚在计划中。OpenAI 自测 ExploitGym 中，GPT‑6 Cyber 与 GPT‑5.6 Cyber 分别为48.5%和32.1%；这是指定漏洞利用任务，不等同于生产环境成功率。11月6日，OpenAI 又宣布与 Hacktron 合作测试自身系统及第三方服务的交互，并通过 Daybreak Red 扩大对方使用前沿模型的权限。\n\n**为什么值得关注：** 安全团队可先核对准入与授权测试范围，再在隔离环境验证效果；合作与准入变化不意味着普通 API 账户可以调用。\n\n![GPT‑6 Cyber 发布公告封面](https://openai.com/_next/static/immutable/media/pre-dawn.3n171z7_lqvwk.webp)\n\n官方公告配图，非评测图表。 [图片出处](https://openai.com/index/introducing-gpt-6-cyber/)\n\n来源：[OpenAI｜模型公告](https://openai.com/index/introducing-gpt-6-cyber/)；[OpenAI｜系统卡](https://deploymentsafety.openai.com/gpt-6-cyber)；[OpenAI｜11月6日 Hacktron 合作](https://openai.com/index/partnering-with-hacktron/)。\n\n### 2. Claude Enterprise 推理钩子正式开放，安全中心仍在测试\n\nAnthropic 11月5日宣布，Claude Enterprise 的提示词钩子和工具调用前钩子已正式开放，可在支持的 Claude 产品中把相应内容交给企业数据安全工具检查。组织安全中心和集中管理仍是测试功能；终端检测集成也仍为测试，且仅限文档所列客户端、套餐或部署方式。\n\n**为什么值得关注：** 企业可以把数据防泄漏规则放到提交提示词及执行工具之前；接入前应按客户端核对覆盖范围，并测试安全工具超时或不可用时的行为。\n\n![Claude 企业安全中心的安全配置检查界面](https://assets.claude.com/893acaa9f8b564cda630ed280d69e5c7d2bca5f7.png)\n\n安全中心截图；该界面仍在测试。 [图片出处](https://claude.com/resources/articles/claude-enterprise-security-updates)\n\n来源：[Anthropic｜企业安全更新](https://claude.com/resources/articles/claude-enterprise-security-updates)；[Claude Platform｜推理钩子文档](https://platform.claude.com/docs/en/manage-claude/inference-hooks)。\n\n### 3. GitHub 编码智能体在 Slack 和 Teams 正式开放\n\nGitHub 11月6日宣布，Slack 与 Microsoft Teams 的 @GitHub 正式开放，可从对话启动问题调查、代码变更和拉取请求。Teams 的 Canvas 支持与队友在对话旁审阅计划、改动和预览；智能体创建的议题及拉取请求会标注来自 Slack 或 Teams。组织管理的 Copilot 账户仍受管理员策略及仓库权限约束。\n\n**为什么值得关注：** 团队可以减少在聊天与代码平台之间切换；适合先用小范围仓库验证来源归因，并保留已有的代码审查流程。\n\n![GitHub 公告中的 Slack 与 Teams 集成配图](https://github.blog/wp-content/uploads/2026/11/f5117dd56aefe8316aa8272c4ebdd472ae00acf53c2dc2020b5bfa815070450e-2400x1260-1.jpeg?resize=400%2C212)\n\nGitHub 更新日志配图。 [图片出处](https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available/)\n\n来源：[GitHub｜正式开放公告](https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available/)；[GitHub Docs｜Slack 云智能体集成](https://docs.github.com/en/copilot/how-tos/copilot-integrations/integrate-cloud-agent-with-slack)。\n\n### 4. Conductor 加入 Meta，云工作区11月20日关闭\n\n编码智能体编排工具 Conductor 11月4日宣布加入 Meta，并停止新用户注册。Conductor Cloud 将于11月13日转为只读、11月20日关闭并开始删除云端用户数据；本地版继续获得新模型和关键修复至2027年初，后续产品尚未公布。\n\n**为什么值得关注：** 依赖云工作区的用户可在关停前转移到本地 Mac 或导出数据，并核对历史会话是否可读；本地版和云版的退出时间不同。\n\n![Conductor 加入 Meta 公告插图](https://www.conductor.build/_next/image?dpl=dpl_2YGBsdB7ZzEBrnnUhDgfHe7Gct9z&q=75&url=%2Ffarewell%2Fmuse-still.webp&w=256)\n\n公告页面配图。 [图片出处](https://www.conductor.build/announcement)\n\n来源：[Conductor｜加入 Meta 与迁移时间表](https://www.conductor.build/announcement)；[TechCrunch｜11月4日交易报道](https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/)。\n",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "生成：2026-11-07T01:28:16Z；北京时间11月7日检索，优先近24小时，回溯7天。覆盖 OpenAI、Anthropic、Google DeepMind/Gemini、xAI、Meta 和 GitHub 的中英文公告、产品文档与发布日志，并对照近期同栏目报告去重。",
+      "score": 4,
+      "items": [
+        {
+          "id": "llm-2026-11-07-gpt6-cyber-daybreak",
+          "title": "GPT‑6 Cyber 限定开放，OpenAI 扩大 Hacktron 的测试权限",
+          "category": "OpenAI",
+          "summary": "OpenAI 11月5日发布面向授权安全研究的 GPT‑6 Cyber，首批仅向部分经审核的 Daybreak Red 客户开放 API 与 Codex，后续扩围尚在计划中。OpenAI 自测 ExploitGym 中，GPT‑6 Cyber 与 GPT‑5.6 Cyber 分别为48.5%和32.1%；这是指定漏洞利用任务，不等同于生产环境成功率。11月6日，OpenAI 又宣布与 Hacktron 合作测试自身系统及第三方服务的交互，并通过 Daybreak Red 扩大对方使用前沿模型的权限。",
+          "analysis": "安全团队可先核对准入与授权测试范围，再在隔离环境验证效果；合作与准入变化不意味着普通 API 账户可以调用。",
+          "importance": 5,
+          "tags": [
+            "OpenAI",
+            "GPT-6 Cyber",
+            "Daybreak Red",
+            "Codex",
+            "网络安全"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI｜模型公告",
+              "url": "https://openai.com/index/introducing-gpt-6-cyber/"
+            },
+            {
+              "title": "OpenAI｜系统卡",
+              "url": "https://deploymentsafety.openai.com/gpt-6-cyber"
+            },
+            {
+              "title": "OpenAI｜11月6日 Hacktron 合作",
+              "url": "https://openai.com/index/partnering-with-hacktron/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://openai.com/_next/static/immutable/media/pre-dawn.3n171z7_lqvwk.webp",
+              "alt": "GPT‑6 Cyber 发布公告封面",
+              "sourceUrl": "https://openai.com/index/introducing-gpt-6-cyber/",
+              "caption": "官方公告配图，非评测图表。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-07-claude-enterprise-inference-hooks",
+          "title": "Claude Enterprise 推理钩子正式开放，安全中心仍在测试",
+          "category": "Anthropic",
+          "summary": "Anthropic 11月5日宣布，Claude Enterprise 的提示词钩子和工具调用前钩子已正式开放，可在支持的 Claude 产品中把相应内容交给企业数据安全工具检查。组织安全中心和集中管理仍是测试功能；终端检测集成也仍为测试，且仅限文档所列客户端、套餐或部署方式。",
+          "analysis": "企业可以把数据防泄漏规则放到提交提示词及执行工具之前；接入前应按客户端核对覆盖范围，并测试安全工具超时或不可用时的行为。",
+          "importance": 4,
+          "tags": [
+            "Anthropic",
+            "Claude Enterprise",
+            "推理钩子",
+            "DLP",
+            "安全治理"
+          ],
+          "sources": [
+            {
+              "title": "Anthropic｜企业安全更新",
+              "url": "https://claude.com/resources/articles/claude-enterprise-security-updates"
+            },
+            {
+              "title": "Claude Platform｜推理钩子文档",
+              "url": "https://platform.claude.com/docs/en/manage-claude/inference-hooks"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://assets.claude.com/893acaa9f8b564cda630ed280d69e5c7d2bca5f7.png",
+              "alt": "Claude 企业安全中心的安全配置检查界面",
+              "sourceUrl": "https://claude.com/resources/articles/claude-enterprise-security-updates",
+              "caption": "安全中心截图；该界面仍在测试。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-07-github-agent-slack-teams",
+          "title": "GitHub 编码智能体在 Slack 和 Teams 正式开放",
+          "category": "GitHub",
+          "summary": "GitHub 11月6日宣布，Slack 与 Microsoft Teams 的 @GitHub 正式开放，可从对话启动问题调查、代码变更和拉取请求。Teams 的 Canvas 支持与队友在对话旁审阅计划、改动和预览；智能体创建的议题及拉取请求会标注来自 Slack 或 Teams。组织管理的 Copilot 账户仍受管理员策略及仓库权限约束。",
+          "analysis": "团队可以减少在聊天与代码平台之间切换；适合先用小范围仓库验证来源归因，并保留已有的代码审查流程。",
+          "importance": 4,
+          "tags": [
+            "GitHub",
+            "GitHub Copilot",
+            "编码智能体",
+            "Slack",
+            "Microsoft Teams"
+          ],
+          "sources": [
+            {
+              "title": "GitHub｜正式开放公告",
+              "url": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available/"
+            },
+            {
+              "title": "GitHub Docs｜Slack 云智能体集成",
+              "url": "https://docs.github.com/en/copilot/how-tos/copilot-integrations/integrate-cloud-agent-with-slack"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://github.blog/wp-content/uploads/2026/11/f5117dd56aefe8316aa8272c4ebdd472ae00acf53c2dc2020b5bfa815070450e-2400x1260-1.jpeg?resize=400%2C212",
+              "alt": "GitHub 公告中的 Slack 与 Teams 集成配图",
+              "sourceUrl": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available/",
+              "caption": "GitHub 更新日志配图。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-07-conductor-meta-cloud-shutdown",
+          "title": "Conductor 加入 Meta，云工作区11月20日关闭",
+          "category": "Meta",
+          "summary": "编码智能体编排工具 Conductor 11月4日宣布加入 Meta，并停止新用户注册。Conductor Cloud 将于11月13日转为只读、11月20日关闭并开始删除云端用户数据；本地版继续获得新模型和关键修复至2027年初，后续产品尚未公布。",
+          "analysis": "依赖云工作区的用户可在关停前转移到本地 Mac 或导出数据，并核对历史会话是否可读；本地版和云版的退出时间不同。",
+          "importance": 4,
+          "tags": [
+            "Meta",
+            "Conductor",
+            "编码智能体",
+            "数据迁移",
+            "云服务关停"
+          ],
+          "sources": [
+            {
+              "title": "Conductor｜加入 Meta 与迁移时间表",
+              "url": "https://www.conductor.build/announcement"
+            },
+            {
+              "title": "TechCrunch｜11月4日交易报道",
+              "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.conductor.build/_next/image?dpl=dpl_2YGBsdB7ZzEBrnnUhDgfHe7Gct9z&q=75&url=%2Ffarewell%2Fmuse-still.webp&w=256",
+              "alt": "Conductor 加入 Meta 公告插图",
+              "sourceUrl": "https://www.conductor.build/announcement",
+              "caption": "公告页面配图。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "llm-2026-11-06",
       "collectionId": "llm",
