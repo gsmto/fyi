@@ -2,8 +2,196 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-11",
-  "updatedAt": "2026-11-06T01:11:10Z",
+  "updatedAt": "2026-11-07T01:02:43Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-11-07",
+      "collectionId": "daily-brief",
+      "date": "2026-11-07",
+      "title": "最新资讯｜2026-11-07",
+      "summary": "美国10月非农新增16.5万；Copilot 代码审查设置开放 API；AI 芯片封装争夺扩产；Claude 测试只读账户连接；ZED ZONE 推出1.0。",
+      "analysis": "就业数据有助于更新利率预期；开发者可跟进审查权限与归因、敏感数据只读授权，以及独立游戏联机的上线和修补。先进封装仍需跟踪验证与交付进度。",
+      "rawText": "# 最新资讯｜2026-11-07\n\n重点关注11月6日公布的数据与产品更新。重要性：5分为广泛影响市场或行业的变化，4分为影响相关团队决策的进展，3分为值得跟踪的细分动态。\n\n## 1. 美国10月非农新增16.5万，广义失业率却升至7.9%\n\n美国劳工统计局11月6日公布，10月非农就业经季调增加16.5万人，高于路透调查的6.5万人预期，9月增量上修至6万人。官方失业率从4.2%小幅降至4.1%，但包含部分就业不足人群的广义失业率（U-6）从7.6%升至7.9%。路透报道，数据发布后美债收益率一度上行。\n\n**为什么值得关注：** 新增岗位好于预期，和就业不足扩大可以同时发生。观察利率路径时，还要看后续通胀、就业修订和美联储表态，不能从一个月的数据推断政策决定。\n\n![招聘活动现场](https://i.insider.com/6aebae9b308912814ed7107c?width=1200&format=jpeg)\n\n新闻配图，非统计图表。 [图片出处](https://www.businessinsider.com/jobs-report-today-october-data-live-updates-2026-11)\n\n来源：[美国劳工统计局｜10月就业报告](https://www.bls.gov/news.release/archives/empsit_11062026.htm)；[路透｜数据与市场反应](https://www.reuters.com/business/view-strong-october-jobs-report-sends-yields-higher-2026-11-06/)；[Business Insider｜就业报道与图片](https://www.businessinsider.com/jobs-report-today-october-data-live-updates-2026-11)；[东方财富｜中文数据报道](https://finance.eastmoney.com/a/202611063925125929.html)。\n\n## 2. Copilot 代码审查可用 API 管理，评论新增明确归因\n\nGitHub 11月6日更新 Copilot 代码审查：REST 和 GraphQL API 可管理从企业到仓库的审查设置，API 还能识别 Copilot 的审查及评论，并在有数据时返回审查强度或评论所用的技能、MCP 服务与自定义指令。企业和组织设置端点不支持 GitHub App 或细粒度个人访问令牌；仓库设置端点在具备对应管理权限时支持两者。\n\n**为什么值得关注：** 多仓库团队可把审查设置纳入配置核查，并让审计工具区分人工与 AI 评论。自动化前先按管理层级核对凭据和权限。\n\n![Copilot 审查概览评论及反馈选项截图](https://github.blog/wp-content/uploads/2026/11/698051473-2e089372-9797-400a-a71f-4361f23447cb.jpeg?resize=400%2C212)\n\nGitHub 官方更新日志配图。 [图片出处](https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates/)\n\n来源：[GitHub 官方更新日志](https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates/)。\n\n## 3. AI 芯片扩产继续受封装约束，厂商寻找 CoWoS 之外的产能\n\n路透11月6日报道，AI 加速器需要把处理器和高带宽内存集成在同一封装中，台积电 CoWoS 产能偏紧，带动厂商寻找其他供应。力成正与 AMD、博通合作验证面板级封装，能否满足更大、更复杂的高性能封装需求仍待验证。路透援引 Yole Group 估计，2026年先进封装资本开支接近280亿美元，这是预测值。\n\n**为什么值得关注：** 判断加速器供给时，除了晶圆和内存，还要看封装产线投产、良率与客户验证。替代工艺处在验证阶段，不能直接折算为交付量。\n\n![台积电 CoWoS 先进封装剖面示意图](https://www.tsmc.com/static/abouttsmcjrdc/img/CoWoS_diagram.png)\n\n技术示意图，不表示产能。 [图片出处](https://www.tsmc.com/static/abouttsmcjrdc/en/index.htm)\n\n来源：[路透原文（Investing.com 转载）](https://www.investing.com/news/stock-market-news/ai-boom-turns-chip-packaging-into-the-next-battleground-for-semiconductors-5006549)；[台积电｜先进封装研发与技术图示](https://www.tsmc.com/static/abouttsmcjrdc/en/index.htm)。\n\n## 4. Claude 开始测试只读银行连接，可问账单、余额和支出\n\nAnthropic 11月5日宣布，本周开始向美国 Claude Pro、Max、Ultra 用户分批开放 Personal Finance 测试。用户通过 Plaid 授权指定银行或信用卡账户，Claude 可读取余额及最长两年的交易记录，不能转账或投资。Anthropic 表示，功能专区内的对话不用于模型训练；专区外仍适用账户隐私设置。\n\n**为什么值得关注：** 这是把敏感数据接入助手的一种实现：连接可撤销，工具保持只读。模型汇总可能出错，金额应能回溯到具体交易并与银行记录核对。\n\n![Claude Personal Finance 官方界面示例](https://assets.claude.com/b87507b2ca680b626804a95946d15f34391e07f7.png)\n\n产品公告配图。 [图片出处](https://claude.com/resources/articles/introducing-personal-finance-in-claude)\n\n来源：[Anthropic｜正式公告及隐私说明](https://claude.com/resources/articles/introducing-personal-finance-in-claude)；[Claude 帮助中心｜使用与数据范围](https://support.claude.com/en/articles/18185620-use-personal-finance-in-claude)。\n\n## 5. 独立生存游戏 ZED ZONE 结束抢先体验，1.0 加入最多八人合作\n\n开发者宣布 ZED ZONE 1.0 于11月6日上线；Steam 英文商店显示11月5日，以开发者公告的日期口径为准。这个俯视角生存游戏经历约三年抢先体验，正式版加入新岛屿、农业和最多八人合作，Steam 商店也列有局域网合作与创意工坊。11月6日的1.0.4补丁已开始修整合作房间列表。\n\n**为什么值得关注：** 这个项目展示了独立游戏如何从可玩的单人版本迭代到合作玩法。首发后房间发现和联机稳定性仍值得观察，这些会直接影响多人内容的可用性。\n\n![ZED ZONE Steam 商店正式版封面](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1211600/ddeb289b631891a04aca2a474a532f2796214aee/capsule_616x353_alt_assets_2.jpg?t=1793949713)\n\nSteam 商店官方素材。 [图片出处](https://store.steampowered.com/app/1211600/ZED_ZONE/)\n\n来源：[Steam｜游戏商店及正式版公告](https://store.steampowered.com/app/1211600/ZED_ZONE/)；[开发者｜Steam 社区公告](https://steamcommunity.com/app/1211600/announcements/)；[SteamDB｜1.0.4 更新日志](https://steamdb.info/patchnotes/26490724/)。\n",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "生成：2026-11-07T01:02:42Z；北京时间11月7日晨间检索，重点覆盖11月6日公开信息，必要时纳入11月5日仍在开放的产品更新。覆盖 BLS、GitHub、Anthropic、台积电、Steam、路透及中文财经媒体；已对照本栏目最近报告去重。",
+      "score": 4,
+      "items": [
+        {
+          "id": "daily-brief-2026-11-07-us-october-payrolls",
+          "title": "美国10月非农新增16.5万，广义失业率却升至7.9%",
+          "category": "财经 / 市场",
+          "summary": "美国劳工统计局11月6日公布，10月非农就业经季调增加16.5万人，高于路透调查的6.5万人预期，9月增量上修至6万人。官方失业率从4.2%小幅降至4.1%，但包含部分就业不足人群的广义失业率（U-6）从7.6%升至7.9%。路透报道，数据发布后美债收益率一度上行。",
+          "analysis": "新增岗位好于预期，和就业不足扩大可以同时发生。观察利率路径时，还要看后续通胀、就业修订和美联储表态，不能从一个月的数据推断政策决定。",
+          "importance": 5,
+          "tags": [
+            "美国非农",
+            "失业率",
+            "美债",
+            "美联储"
+          ],
+          "sources": [
+            {
+              "title": "美国劳工统计局｜10月就业报告",
+              "url": "https://www.bls.gov/news.release/archives/empsit_11062026.htm"
+            },
+            {
+              "title": "路透｜数据与市场反应",
+              "url": "https://www.reuters.com/business/view-strong-october-jobs-report-sends-yields-higher-2026-11-06/"
+            },
+            {
+              "title": "Business Insider｜就业报道与图片",
+              "url": "https://www.businessinsider.com/jobs-report-today-october-data-live-updates-2026-11"
+            },
+            {
+              "title": "东方财富｜中文数据报道",
+              "url": "https://finance.eastmoney.com/a/202611063925125929.html"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://i.insider.com/6aebae9b308912814ed7107c?width=1200&format=jpeg",
+              "alt": "招聘活动现场",
+              "sourceUrl": "https://www.businessinsider.com/jobs-report-today-october-data-live-updates-2026-11",
+              "caption": "新闻配图，非统计图表。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-07-copilot-review-api",
+          "title": "Copilot 代码审查可用 API 管理，评论新增明确归因",
+          "category": "软件工程 / 开发工具",
+          "summary": "GitHub 11月6日更新 Copilot 代码审查：REST 和 GraphQL API 可管理从企业到仓库的审查设置，API 还能识别 Copilot 的审查及评论，并在有数据时返回审查强度或评论所用的技能、MCP 服务与自定义指令。企业和组织设置端点不支持 GitHub App 或细粒度个人访问令牌；仓库设置端点在具备对应管理权限时支持两者。",
+          "analysis": "多仓库团队可把审查设置纳入配置核查，并让审计工具区分人工与 AI 评论。自动化前先按管理层级核对凭据和权限。",
+          "importance": 4,
+          "tags": [
+            "GitHub",
+            "Copilot",
+            "代码审查",
+            "REST",
+            "GraphQL",
+            "MCP"
+          ],
+          "sources": [
+            {
+              "title": "GitHub 官方更新日志",
+              "url": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://github.blog/wp-content/uploads/2026/11/698051473-2e089372-9797-400a-a71f-4361f23447cb.jpeg?resize=400%2C212",
+              "alt": "Copilot 审查概览评论及反馈选项截图",
+              "sourceUrl": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates/",
+              "caption": "GitHub 官方更新日志配图。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-07-advanced-packaging-bottleneck",
+          "title": "AI 芯片扩产继续受封装约束，厂商寻找 CoWoS 之外的产能",
+          "category": "全球科技 / 商业",
+          "summary": "路透11月6日报道，AI 加速器需要把处理器和高带宽内存集成在同一封装中，台积电 CoWoS 产能偏紧，带动厂商寻找其他供应。力成正与 AMD、博通合作验证面板级封装，能否满足更大、更复杂的高性能封装需求仍待验证。路透援引 Yole Group 估计，2026年先进封装资本开支接近280亿美元，这是预测值。",
+          "analysis": "判断加速器供给时，除了晶圆和内存，还要看封装产线投产、良率与客户验证。替代工艺处在验证阶段，不能直接折算为交付量。",
+          "importance": 4,
+          "tags": [
+            "先进封装",
+            "CoWoS",
+            "HBM",
+            "台积电",
+            "AMD"
+          ],
+          "sources": [
+            {
+              "title": "路透原文（Investing.com 转载）",
+              "url": "https://www.investing.com/news/stock-market-news/ai-boom-turns-chip-packaging-into-the-next-battleground-for-semiconductors-5006549"
+            },
+            {
+              "title": "台积电｜先进封装研发与技术图示",
+              "url": "https://www.tsmc.com/static/abouttsmcjrdc/en/index.htm"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.tsmc.com/static/abouttsmcjrdc/img/CoWoS_diagram.png",
+              "alt": "台积电 CoWoS 先进封装剖面示意图",
+              "sourceUrl": "https://www.tsmc.com/static/abouttsmcjrdc/en/index.htm",
+              "caption": "技术示意图，不表示产能。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-07-claude-finance-beta",
+          "title": "Claude 开始测试只读银行连接，可问账单、余额和支出",
+          "category": "AI / 产品",
+          "summary": "Anthropic 11月5日宣布，本周开始向美国 Claude Pro、Max、Ultra 用户分批开放 Personal Finance 测试。用户通过 Plaid 授权指定银行或信用卡账户，Claude 可读取余额及最长两年的交易记录，不能转账或投资。Anthropic 表示，功能专区内的对话不用于模型训练；专区外仍适用账户隐私设置。",
+          "analysis": "这是把敏感数据接入助手的一种实现：连接可撤销，工具保持只读。模型汇总可能出错，金额应能回溯到具体交易并与银行记录核对。",
+          "importance": 4,
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "Plaid",
+            "只读权限",
+            "个人财务"
+          ],
+          "sources": [
+            {
+              "title": "Anthropic｜正式公告及隐私说明",
+              "url": "https://claude.com/resources/articles/introducing-personal-finance-in-claude"
+            },
+            {
+              "title": "Claude 帮助中心｜使用与数据范围",
+              "url": "https://support.claude.com/en/articles/18185620-use-personal-finance-in-claude"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://assets.claude.com/b87507b2ca680b626804a95946d15f34391e07f7.png",
+              "alt": "Claude Personal Finance 官方界面示例",
+              "sourceUrl": "https://claude.com/resources/articles/introducing-personal-finance-in-claude",
+              "caption": "产品公告配图。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-07-zed-zone-1-0",
+          "title": "独立生存游戏 ZED ZONE 结束抢先体验，1.0 加入最多八人合作",
+          "category": "游戏开发 / 行业",
+          "summary": "开发者宣布 ZED ZONE 1.0 于11月6日上线；Steam 英文商店显示11月5日，以开发者公告的日期口径为准。这个俯视角生存游戏经历约三年抢先体验，正式版加入新岛屿、农业和最多八人合作，Steam 商店也列有局域网合作与创意工坊。11月6日的1.0.4补丁已开始修整合作房间列表。",
+          "analysis": "这个项目展示了独立游戏如何从可玩的单人版本迭代到合作玩法。首发后房间发现和联机稳定性仍值得观察，这些会直接影响多人内容的可用性。",
+          "importance": 3,
+          "tags": [
+            "Steam",
+            "独立游戏",
+            "抢先体验",
+            "多人合作",
+            "ZED ZONE"
+          ],
+          "sources": [
+            {
+              "title": "Steam｜游戏商店及正式版公告",
+              "url": "https://store.steampowered.com/app/1211600/ZED_ZONE/"
+            },
+            {
+              "title": "开发者｜Steam 社区公告",
+              "url": "https://steamcommunity.com/app/1211600/announcements/"
+            },
+            {
+              "title": "SteamDB｜1.0.4 更新日志",
+              "url": "https://steamdb.info/patchnotes/26490724/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1211600/ddeb289b631891a04aca2a474a532f2796214aee/capsule_616x353_alt_assets_2.jpg?t=1793949713",
+              "alt": "ZED ZONE Steam 商店正式版封面",
+              "sourceUrl": "https://store.steampowered.com/app/1211600/ZED_ZONE/",
+              "caption": "Steam 商店官方素材。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "daily-brief-2026-11-06",
       "collectionId": "daily-brief",
