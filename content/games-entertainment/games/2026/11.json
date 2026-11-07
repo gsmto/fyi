@@ -2,8 +2,187 @@
   "schemaVersion": 1,
   "collectionId": "games",
   "month": "2026-11",
-  "updatedAt": "2026-11-06T01:17:39Z",
+  "updatedAt": "2026-11-07T01:11:59Z",
   "briefs": [
+    {
+      "id": "games-2026-11-07",
+      "collectionId": "games",
+      "date": "2026-11-07",
+      "title": "游戏｜2026-11-07",
+      "summary": "战区换代并登陆 Switch 2；ZED ZONE 正式版与餐瘾地城续作抢先体验上线；Hard West 2 主机定档，欧卡2正式更新。",
+      "analysis": "观察《战区》旧主机进度迁移、ZED ZONE 合作稳定性与两款移植或更新的实际体验。",
+      "rawText": "# 游戏｜2026-11-07\n\n## 今日重点\n\n《战区》首次登陆 Switch 2，同时停止支持两款旧主机；国内两款独立游戏分别进入正式版与抢先体验。以下以近24小时为主，补充11月5日的定档和版本更新。重要性5分为平台支持重大变更，4分为正式发行或明显玩法变化，3分为值得跟进的抢先体验、移植或更新。\n\n## 国内\n\n### 《隔离区：丧尸末日生存》结束抢先体验，加入最多八人合作\n\n独立开发者 Leven Liu 的 ZED ZONE 于11月6日（UTC+8）在 PC Steam 推出1.0；英文商店显示11月5日。正式版新增岛屿、种植和最多八人合作，11月6日的1.0.4补丁已调整合作房间列表。\n\n**为什么值得关注：** 三年抢先体验后正式版把单人生存扩展到联机；有组队需求可优先观察房间匹配和稳定性。\n\n![ZED ZONE Steam 商店封面](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1211600/ddeb289b631891a04aca2a474a532f2796214aee/capsule_616x353_alt_assets_2.jpg?t=1793949713)\n\n[图片出处](https://store.steampowered.com/app/1211600/ZED_ZONE/)；来源：[开发者 Steam 公告](https://steamcommunity.com/app/1211600/announcements/)；[Steam 商店](https://store.steampowered.com/app/1211600/ZED_ZONE/)；[SteamDB｜1.0.4日志](https://steamdb.info/patchnotes/26490724/)。\n\n### 《餐瘾地城：贰度救业》开放首章抢先体验\n\n中国台湾团队 maJAJa 的横版动作 RPG 续作于11月6日按开发团队公告在 PC Steam 开启抢先体验，英文页显示11月5日。首批内容是剧情第一章，开发者估计约2–3小时，后续章节、敌人和能力仍在开发。\n\n**为什么值得关注：** 现在适合想体验机制和反馈的玩家；在意完整故事的玩家可等章节补齐或正式版。\n\n![《餐瘾地城：贰度救业》Steam 商店封面](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1460810/3635f5bbc2900f318df56dc4209c325a012d87bd/header.jpg?t=1793977283)\n\n[图片出处](https://store.steampowered.com/app/1460810/Dungeon_Munchies_2/)；来源：[Steam 商店与开发者说明](https://store.steampowered.com/app/1460810/Dungeon_Munchies_2/)；[开发团队｜Steam 公告](https://steamcommunity.com/app/799640/allnews/)。\n\n## 国外\n\n### 《使命召唤：战区》登陆 Switch 2，PS4 和 Xbox One 停止支持\n\n美国发行商动视确认，《战区》11月6日00:00美东时间（北京时间13:00）上线第一赛季，同时登陆 Switch 2，并整合《现代战争4》内容；支持平台还包括 PC、PS5 和 Xbox Series X|S。此次新增大型地图 Hajin；PS4 和 Xbox One 从这一季起无法游玩，同一关联动视账号可在支持平台继续进度。\n\n**为什么值得关注：** 这次值得关注的是换代与进度迁移：Switch 2 新增入口，而旧主机用户需要换到受支持平台。\n\n![《战区》官方公告展示 Hajin 地图](https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/s1-wz-announcement/MW4-SEASON-1-WARZONE-005.webp)\n\n[图片出处](https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-warzone-season-1)；来源：[动视｜上线时刻与平台变更](https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-warzone-season-1)；[动视｜正式补丁说明](https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes)。\n\n### 《Hard West 2》主机版定档11月10日\n\n发行合作方11月5日确认，波兰团队 Ice Code Games 创作的超自然西部回合制战术游戏，将于11月10日登陆 PS5 和 Xbox Series X|S。Klabater 负责主机版开发及发行，针对手柄调整操作；击杀补充行动点的 Bravado 机制得以保留。\n\n**为什么值得关注：** 已有 PC 版可供参考，主机版新增的是硬件与输入适配；首发可重点看手柄选取与战斗操作是否顺手。\n\n![《Hard West 2》主机版发行商宣传图](https://klabater.com/wp-content/uploads/2026/03/HardWest2_Featured_promotional_square_art-1080x640.png)\n\n[图片出处](https://klabater.com/en/games/hard-west-2-game/)；来源：[发行商｜主机版介绍](https://klabater.com/en/games/hard-west-2-game/)；[发行合作方｜定档新闻稿](https://www.gamespress.com/es/Hard-West-2-a-turn-based-strategy-game-set-in-the-American-Wild-West-i)；[Gematsu｜定档报道](https://www.gematsu.com/2026/11/hard-west-ii-for-ps5-xbox-series-launches-november-10)。\n\n### 《欧洲卡车模拟2》1.62正式上线，重做全地图车库\n\n捷克开发商 SCS Software 11月5日宣布 PC Steam 的1.62更新结束公开测试并正式发布。基础地图及所有地图 DLC 的车库统一更换模型，Iveco S-Way 驾驶室加入改进材质与光照，新版还提供三款 DAF XG+ 特别版。\n\n**为什么值得关注：** 车库覆盖基础和扩展地图，对长期玩家比单车涂装更有影响；材质和性能表现可按车型与硬件实测。\n\n![《欧洲卡车模拟2》1.62 官方更新横幅](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZSqzUfT2GZrbKrRrRGLJ92kP7gONMzy5QECiCTZiA2wBjrUpawhnEFzAjEB9Qv2aZTCIfkXI92VptHWD09_2p79E3fiQKeD019_Bfd5QbgcqTAPHut4UIStO84EPLIDbPJiZSOBzFfS-5AKGWSjOOapOCU4_9oAELjeAFRGBbBw-X2-X5dTK1wF6mIA3n/w1200-h630-p-k-no-nu/blog_ETS2_1.62_UPDATE.jpg)\n\n[图片出处](https://blog.scssoft.com/2026/11/euro-truck-simulator-2-162-update.html?m=0)；来源：[SCS Software｜1.62正式更新日志](https://blog.scssoft.com/2026/11/euro-truck-simulator-2-162-update.html?m=0)。\n",
+      "completeness": "full",
+      "sourceConversation": "游戏",
+      "provenance": "生成：2026-11-07T01:11:30Z；北京时间11月7日，重点检索近24小时，回溯近7天核对平台、公告与版本。覆盖 Steam、动视、SCS、Klabater、Gematsu 和中文游戏媒体；已与本栏目近期归档去重。",
+      "score": 4,
+      "items": [
+        {
+          "id": "games-2026-11-07-zed-zone-1-0",
+          "title": "《隔离区：丧尸末日生存》结束抢先体验，加入最多八人合作",
+          "category": "国内",
+          "summary": "独立开发者 Leven Liu 的 ZED ZONE 于11月6日（UTC+8）在 PC Steam 推出1.0；英文商店显示11月5日。正式版新增岛屿、种植和最多八人合作，11月6日的1.0.4补丁已调整合作房间列表。",
+          "analysis": "三年抢先体验后正式版把单人生存扩展到联机；有组队需求可优先观察房间匹配和稳定性。",
+          "importance": 4,
+          "tags": [
+            "PC",
+            "Steam",
+            "生存",
+            "合作",
+            "ZED ZONE"
+          ],
+          "sources": [
+            {
+              "title": "开发者 Steam 公告",
+              "url": "https://steamcommunity.com/app/1211600/announcements/"
+            },
+            {
+              "title": "Steam 商店",
+              "url": "https://store.steampowered.com/app/1211600/ZED_ZONE/"
+            },
+            {
+              "title": "SteamDB｜1.0.4日志",
+              "url": "https://steamdb.info/patchnotes/26490724/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1211600/ddeb289b631891a04aca2a474a532f2796214aee/capsule_616x353_alt_assets_2.jpg?t=1793949713",
+              "alt": "ZED ZONE Steam 商店封面",
+              "sourceUrl": "https://store.steampowered.com/app/1211600/ZED_ZONE/"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-07-dungeon-munchies-2-ea",
+          "title": "《餐瘾地城：贰度救业》开放首章抢先体验",
+          "category": "国内",
+          "summary": "中国台湾团队 maJAJa 的横版动作 RPG 续作于11月6日按开发团队公告在 PC Steam 开启抢先体验，英文页显示11月5日。首批内容是剧情第一章，开发者估计约2–3小时，后续章节、敌人和能力仍在开发。",
+          "analysis": "现在适合想体验机制和反馈的玩家；在意完整故事的玩家可等章节补齐或正式版。",
+          "importance": 3,
+          "tags": [
+            "PC",
+            "Steam",
+            "抢先体验",
+            "横版动作 RPG",
+            "Dungeon Munchies 2"
+          ],
+          "sources": [
+            {
+              "title": "Steam 商店与开发者说明",
+              "url": "https://store.steampowered.com/app/1460810/Dungeon_Munchies_2/"
+            },
+            {
+              "title": "开发团队｜Steam 公告",
+              "url": "https://steamcommunity.com/app/799640/allnews/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1460810/3635f5bbc2900f318df56dc4209c325a012d87bd/header.jpg?t=1793977283",
+              "alt": "《餐瘾地城：贰度救业》Steam 商店封面",
+              "sourceUrl": "https://store.steampowered.com/app/1460810/Dungeon_Munchies_2/"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-07-warzone-switch2-old-gen",
+          "title": "《使命召唤：战区》登陆 Switch 2，PS4 和 Xbox One 停止支持",
+          "category": "国外",
+          "summary": "美国发行商动视确认，《战区》11月6日00:00美东时间（北京时间13:00）上线第一赛季，同时登陆 Switch 2，并整合《现代战争4》内容；支持平台还包括 PC、PS5 和 Xbox Series X|S。此次新增大型地图 Hajin；PS4 和 Xbox One 从这一季起无法游玩，同一关联动视账号可在支持平台继续进度。",
+          "analysis": "这次值得关注的是换代与进度迁移：Switch 2 新增入口，而旧主机用户需要换到受支持平台。",
+          "importance": 5,
+          "tags": [
+            "Switch 2",
+            "PS5",
+            "Xbox Series X|S",
+            "PC",
+            "平台支持",
+            "Call of Duty: Warzone"
+          ],
+          "sources": [
+            {
+              "title": "动视｜上线时刻与平台变更",
+              "url": "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-warzone-season-1"
+            },
+            {
+              "title": "动视｜正式补丁说明",
+              "url": "https://www.callofduty.com/patchnotes/2026/11/call-of-duty-mw4-warzone-season-1-patch-notes"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/body/mw4/s1-wz-announcement/MW4-SEASON-1-WARZONE-005.webp",
+              "alt": "《战区》官方公告展示 Hajin 地图",
+              "sourceUrl": "https://www.callofduty.com/blog/2026/11/call-of-duty-modern-warfare-4-warzone-season-1"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-07-hard-west-2-console-date",
+          "title": "《Hard West 2》主机版定档11月10日",
+          "category": "国外",
+          "summary": "发行合作方11月5日确认，波兰团队 Ice Code Games 创作的超自然西部回合制战术游戏，将于11月10日登陆 PS5 和 Xbox Series X|S。Klabater 负责主机版开发及发行，针对手柄调整操作；击杀补充行动点的 Bravado 机制得以保留。",
+          "analysis": "已有 PC 版可供参考，主机版新增的是硬件与输入适配；首发可重点看手柄选取与战斗操作是否顺手。",
+          "importance": 3,
+          "tags": [
+            "PS5",
+            "Xbox Series X|S",
+            "回合制战术",
+            "Hard West 2"
+          ],
+          "sources": [
+            {
+              "title": "发行商｜主机版介绍",
+              "url": "https://klabater.com/en/games/hard-west-2-game/"
+            },
+            {
+              "title": "发行合作方｜定档新闻稿",
+              "url": "https://www.gamespress.com/es/Hard-West-2-a-turn-based-strategy-game-set-in-the-American-Wild-West-i"
+            },
+            {
+              "title": "Gematsu｜定档报道",
+              "url": "https://www.gematsu.com/2026/11/hard-west-ii-for-ps5-xbox-series-launches-november-10"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://klabater.com/wp-content/uploads/2026/03/HardWest2_Featured_promotional_square_art-1080x640.png",
+              "alt": "《Hard West 2》主机版发行商宣传图",
+              "sourceUrl": "https://klabater.com/en/games/hard-west-2-game/"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-07-ets2-update-162",
+          "title": "《欧洲卡车模拟2》1.62正式上线，重做全地图车库",
+          "category": "国外",
+          "summary": "捷克开发商 SCS Software 11月5日宣布 PC Steam 的1.62更新结束公开测试并正式发布。基础地图及所有地图 DLC 的车库统一更换模型，Iveco S-Way 驾驶室加入改进材质与光照，新版还提供三款 DAF XG+ 特别版。",
+          "analysis": "车库覆盖基础和扩展地图，对长期玩家比单车涂装更有影响；材质和性能表现可按车型与硬件实测。",
+          "importance": 3,
+          "tags": [
+            "PC",
+            "Steam",
+            "驾驶模拟",
+            "免费更新",
+            "Euro Truck Simulator 2"
+          ],
+          "sources": [
+            {
+              "title": "SCS Software｜1.62正式更新日志",
+              "url": "https://blog.scssoft.com/2026/11/euro-truck-simulator-2-162-update.html?m=0"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZSqzUfT2GZrbKrRrRGLJ92kP7gONMzy5QECiCTZiA2wBjrUpawhnEFzAjEB9Qv2aZTCIfkXI92VptHWD09_2p79E3fiQKeD019_Bfd5QbgcqTAPHut4UIStO84EPLIDbPJiZSOBzFfS-5AKGWSjOOapOCU4_9oAELjeAFRGBbBw-X2-X5dTK1wF6mIA3n/w1200-h630-p-k-no-nu/blog_ETS2_1.62_UPDATE.jpg",
+              "alt": "《欧洲卡车模拟2》1.62 官方更新横幅",
+              "sourceUrl": "https://blog.scssoft.com/2026/11/euro-truck-simulator-2-162-update.html?m=0"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "games-2026-11-06",
       "collectionId": "games",
