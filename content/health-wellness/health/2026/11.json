@@ -2,8 +2,109 @@
   "schemaVersion": 1,
   "collectionId": "health",
   "month": "2026-11",
-  "updatedAt": "2026-11-06T01:25:44Z",
+  "updatedAt": "2026-11-07T01:23:44Z",
   "briefs": [
+    {
+      "id": "health-2026-11-07",
+      "collectionId": "health",
+      "date": "2026-11-07",
+      "title": "健康｜2026-11-07",
+      "summary": "美国CDC更新麻疹病例；国内开展健康科普谣言整治；美国两款获批体重管理药拟拓展处方渠道。",
+      "analysis": "分别依据公共卫生监测、政府部署公告及经监管资料交叉核验的渠道协议；渠道变化不提供新疗效或安全性结论。",
+      "rawText": "# 健康｜2026-11-07\n\n## 今日 Top 3\n\n按公共卫生影响、证据可靠性和适用范围排序：5分为值得优先关注的公共卫生变化，4分为与公众识别健康信息相关的重要举措，3分为需跟踪的渠道变化。本简报为一般健康资讯。\n\n### 1. 美国 CDC：2026年已报告5182例确诊麻疹\n\n美国 CDC 11月6日更新监测：截至11月5日，美国2026年已报告5182例确诊麻疹，今年新报告43起暴发。4993例（96%）与暴发相关，包含部分始于2025年的暴发所致病例。数据是报告病例的监测快照，可能随补报修订，不代表所有感染或所有地区的风险。\n\n**为什么值得关注：** 对赴美旅行或在当地生活的人群，这提示应关注目的地通报，并按适用接种指南核查麻疹疫苗记录。\n\n![麻疹病毒颗粒透射电子显微图](https://wwwn.cdc.gov/phil///PHIL_Images/12733/12733_lores.jpg)\n\nCDC 公共卫生图像库，Brian W.J. Mahy；为病毒科普图，不是本轮病例样本。 [图片出处](https://wwwn.cdc.gov/phil/Details.aspx?pid=12733)\n\n来源：[美国 CDC｜麻疹病例与暴发监测](https://www.cdc.gov/measles/data-research/index.html)。\n\n### 2. 国内启动为期两个月的健康科普谣言整治\n\n中国网信网11月6日公布，全国开展为期两个月的专项行动，重点包括把保健品包装成药品、虚构减重疗效、冒充专家和利用 AI 伪造医疗科普。措施包括核验账号资质、标注医疗科普信息来源，以及限制健康谣言进入榜单和推荐。这是治理部署公告，尚无实际成效数据。\n\n**为什么值得关注：** 遇到靠速效承诺、前后对比图或私聊引导销售的内容，可先核对发布者资质及原始研究；减重方法应看长期可维持性和不良反应。\n\n缺图：官方通告未提供与此次专项行动直接对应的可用配图。\n\n来源：[中央网信办｜专项行动原文](https://www.cac.gov.cn/2026-11/06/c_1795719652932799.htm)；[江苏网信网｜官方转载](https://jswx.gov.cn/yw/202611/t20261106_1370852.shtml)。\n\n### 3. 美国两款已获批体重管理药拟新增远程处方渠道\n\n礼来与 Hims & Hers 11月6日宣布协议，拟让符合条件、经持照医务人员评估并获处方的美国患者，通过平台自费获得口服 Foundayo（orforglipron）或注射 Zepbound（tirzepatide）。美国 FDA 已批准两药用于肥胖成人或伴体重相关疾病的超重成人体重管理，配合饮食和活动。这是企业宣布的渠道协议，不是新获批适应证或临床试验；实际供应、完整费用和长期随访效果仍待观察。\n\n**为什么值得关注：** 获取更方便不等于适合所有人。长期管理仍要关注可负担性、随访、体重维持及药物不良反应，不能据渠道公告自行选药。\n\n缺图：协议公告只有通用公司素材，未找到能说明本次渠道变更的公开图片。\n\n来源：[礼来｜双方协议公告](https://investor.lilly.com/news-releases/news-release-details/lilly-and-hims-hers-expand-access-fda-approved-lilly-medicines)；[美国 FDA｜Foundayo 批准与适用范围](https://www.fda.gov/news-events/press-announcements/fda-approves-first-new-molecular-entity-under-national-priority-voucher-program)；[美国 FDA｜Zepbound 长期体重管理批准](https://www.fda.gov/news-events/press-announcements/fda-approves-new-medication-chronic-weight-management)。\n",
+      "completeness": "full",
+      "sourceConversation": "健康",
+      "provenance": "生成：2026-11-07T01:23:43Z；北京时间11月7日，优先近24小时，向前核对7天。检索国内卫生、疾控及政府网站、美国CDC/FDA、WHO、JAMA、NEJM和药企公告，核对首次发布日期并与本栏目近期归档去重。",
+      "score": 4,
+      "items": [
+        {
+          "id": "health-2026-11-07-us-measles-nov6",
+          "title": "美国 CDC：2026年已报告5182例确诊麻疹",
+          "category": "医学",
+          "summary": "美国 CDC 11月6日更新监测：截至11月5日，美国2026年已报告5182例确诊麻疹，今年新报告43起暴发。4993例（96%）与暴发相关，包含部分始于2025年的暴发所致病例。数据是报告病例的监测快照，可能随补报修订，不代表所有感染或所有地区的风险。",
+          "analysis": "对赴美旅行或在当地生活的人群，这提示应关注目的地通报，并按适用接种指南核查麻疹疫苗记录。",
+          "importance": 5,
+          "tags": [
+            "麻疹",
+            "疫苗",
+            "暴发",
+            "美国CDC"
+          ],
+          "sources": [
+            {
+              "title": "美国 CDC｜麻疹病例与暴发监测",
+              "url": "https://www.cdc.gov/measles/data-research/index.html"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://wwwn.cdc.gov/phil///PHIL_Images/12733/12733_lores.jpg",
+              "alt": "麻疹病毒颗粒透射电子显微图",
+              "sourceUrl": "https://wwwn.cdc.gov/phil/Details.aspx?pid=12733",
+              "caption": "CDC 公共卫生图像库，Brian W.J. Mahy；为病毒科普图，不是本轮病例样本。"
+            }
+          ]
+        },
+        {
+          "id": "health-2026-11-07-china-health-misinformation",
+          "title": "国内启动为期两个月的健康科普谣言整治",
+          "category": "健康",
+          "summary": "中国网信网11月6日公布，全国开展为期两个月的专项行动，重点包括把保健品包装成药品、虚构减重疗效、冒充专家和利用 AI 伪造医疗科普。措施包括核验账号资质、标注医疗科普信息来源，以及限制健康谣言进入榜单和推荐。这是治理部署公告，尚无实际成效数据。",
+          "analysis": "遇到靠速效承诺、前后对比图或私聊引导销售的内容，可先核对发布者资质及原始研究；减重方法应看长期可维持性和不良反应。",
+          "importance": 4,
+          "tags": [
+            "健康科普",
+            "健康谣言",
+            "减重",
+            "中国"
+          ],
+          "sources": [
+            {
+              "title": "中央网信办｜专项行动原文",
+              "url": "https://www.cac.gov.cn/2026-11/06/c_1795719652932799.htm"
+            },
+            {
+              "title": "江苏网信网｜官方转载",
+              "url": "https://jswx.gov.cn/yw/202611/t20261106_1370852.shtml"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：官方通告未提供与此次专项行动直接对应的可用配图。"
+        },
+        {
+          "id": "health-2026-11-07-us-obesity-telehealth-access",
+          "title": "美国两款已获批体重管理药拟新增远程处方渠道",
+          "category": "减重",
+          "summary": "礼来与 Hims & Hers 11月6日宣布协议，拟让符合条件、经持照医务人员评估并获处方的美国患者，通过平台自费获得口服 Foundayo（orforglipron）或注射 Zepbound（tirzepatide）。美国 FDA 已批准两药用于肥胖成人或伴体重相关疾病的超重成人体重管理，配合饮食和活动。这是企业宣布的渠道协议，不是新获批适应证或临床试验；实际供应、完整费用和长期随访效果仍待观察。",
+          "analysis": "获取更方便不等于适合所有人。长期管理仍要关注可负担性、随访、体重维持及药物不良反应，不能据渠道公告自行选药。",
+          "importance": 3,
+          "tags": [
+            "肥胖",
+            "长期体重管理",
+            "FDA",
+            "远程医疗",
+            "orforglipron",
+            "tirzepatide"
+          ],
+          "sources": [
+            {
+              "title": "礼来｜双方协议公告",
+              "url": "https://investor.lilly.com/news-releases/news-release-details/lilly-and-hims-hers-expand-access-fda-approved-lilly-medicines"
+            },
+            {
+              "title": "美国 FDA｜Foundayo 批准与适用范围",
+              "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-new-molecular-entity-under-national-priority-voucher-program"
+            },
+            {
+              "title": "美国 FDA｜Zepbound 长期体重管理批准",
+              "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-new-medication-chronic-weight-management"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：协议公告只有通用公司素材，未找到能说明本次渠道变更的公开图片。"
+        }
+      ]
+    },
     {
       "id": "health-2026-11-06",
       "collectionId": "health",
