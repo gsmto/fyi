@@ -2,8 +2,181 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-11",
-  "updatedAt": "2026-11-07T01:02:43Z",
+  "updatedAt": "2026-11-08T01:07:42Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-11-08",
+      "collectionId": "daily-brief",
+      "date": "2026-11-08",
+      "title": "最新资讯｜2026-11-08",
+      "summary": "流放之路2官宣免费正式版日期；Perplexity扩展本地与长期任务；GitHub聊天编码入口正式开放；Airbnb披露客服成本变化；腾讯Hy4加入电脑操作。",
+      "analysis": "关注开发工具可用性与权限、长期任务执行、AI落地成本及ARPG正式版节奏，区分厂商披露、计划与正式开放。",
+      "rawText": "# 最新资讯｜2026-11-08\n\n以最近可核验的重要变化为主；周末新增较少，补充11月4—6日尚未收录的进展，分别保留原公告日期。5分表示行业或准入方式重大变化，4分表示会影响相关团队产品、技术或经营判断。\n\n## 1. 《流放之路2》定于12月11日转为免费正式版\n\nGGG 在新西兰11月7日 ExileCon 公布：《流放之路2》将在12月11日（PST）转为免费游玩，加入第五、六幕完整战役、Shadow 与 Duelist 两个职业，以及 Conquerors of Wraeclast 挑战赛季。公告还确认一代 Covens of Umbra 扩展于11月13日（PST）上线。两者是未来版本安排，目前的二代仍为抢先体验。\n\n**为什么值得关注：** 正式版与免费准入将改变新玩家进入门槛；玩法和经济系统的大改也值得同类 ARPG 团队观察。实际品质仍要看版本上线后的反馈。\n\n![流放之路2 ExileCon 正式版公告图](https://web.poecdn.com/public/news/2026-11-07/ExileCon/PoE2/ENPointerPostTitle.jpg)\n\nGGG 官方宣传图。 [图片出处](https://www.pathofexile.com/forum/view-thread/4012710)\n\n来源：[GGG｜ExileCon 官方公告](https://www.pathofexile.com/forum/view-thread/4012710)。\n\n## 2. Perplexity 同时推进长期任务智能体与 Mac 全本地模式\n\nPerplexity 11月6日发布的更新中，Teammates 面向网页版 Max 用户，允许智能体持续承担任务并使用既有工具、技能和记忆。另一个独立功能是受支持 Apple 芯片 Mac 上的全本地 Computer，面向 Pro、Max、Enterprise，要求 Mac 应用26.42.0及以上，建议36GB统一内存。更新还加入异步后台上下文压缩；厂商所称本地模式的模型、执行与工具链均在设备上运行，需和会分配云任务的 Hybrid 模式区分。\n\n**为什么值得关注：** 长期任务和离线执行是不同选择。开发桌面助手时可分别验证资源占用、应用权限和任务连续性，不能把网页版 Teammates 当作本地功能。\n\n![Perplexity 对比阻塞式和异步后台上下文压缩的时序图](https://cdn.sanity.io/images/aqo64vfr/production/503f9d43b428dee71eb3c6f6e1a74d5ad751e996-3200x1800.png?auto=format&fit=max&q=80&w=2640)\n\n官方技术示意，图中展示上下文压缩，非本地模式性能测试。 [图片出处](https://www.perplexity.ai/changelog/teammates-fully-local-computer-on-mac-and-voice-mode)\n\n来源：[Perplexity｜11月6日官方更新日志](https://www.perplexity.ai/changelog/teammates-fully-local-computer-on-mac-and-voice-mode)。\n\n## 3. GitHub 的聊天入口正式开放，Teams 可并排审阅计划与代码\n\nGitHub 11月6日宣布 Slack 与 Teams 中的 @GitHub 正式开放，可从对话调查问题、实现修改并创建拉取请求。Teams Canvas 可在讨论旁查看计划、改动和预览；由聊天发起的议题与 PR 会保留来源归因。功能受 Copilot 组织策略、应用授权与仓库权限约束。\n\n**为什么值得关注：** 团队可把需求讨论更直接地交给智能体，仍应在 PR 中验收和审查；对桌面开发工具而言，来源可追踪比单纯增加一个聊天入口更有价值。\n\n![GitHub 在 Slack 和 Teams 中集成的官方配图](https://github.blog/wp-content/uploads/2026/11/f5117dd56aefe8316aa8272c4ebdd472ae00acf53c2dc2020b5bfa815070450e-2400x1260-1.jpeg?resize=2064%2C1096)\n\nGitHub 发布日志配图。 [图片出处](https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available/)\n\n来源：[GitHub｜正式开放公告](https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available/)；[GitHub Docs｜Slack集成与组织条件](https://docs.github.com/en/copilot/how-tos/copilot-integrations/integrate-cloud-agent-with-slack)。\n\n## 4. Airbnb 三季度营收增长19%，称每单客服成本降低逾17%\n\nAirbnb 11月5日公布第三季度营收49亿美元、同比增长19%，预订总额277亿美元、增长21%，净利润19亿美元。公司称约40%的全部客服问题无需人工解决，每单客服成本同比下降超过17%；这是公司运营口径，不能据此单独证明 AI 的因果效果。全年营收增速预期上调至接近20%的高十几区间，仍属指引。\n\n**为什么值得关注：** 这是观察 AI 是否落到实际成本的一个经营样本。评估时要同时看问题解决质量、单位经济和非 GAAP 指标调节，不能把客服节省直接外推成整体利润增幅。\n\n![Airbnb 2026年第三季度财报官方配图](https://news-assets.withairbnb.com/wp-content/uploads/sites/21/2026/11/110426_Q3SHL2026_Newsroom_Final.jpg?quality=75&w=2560)\n\n公司财报配图。 [图片出处](https://news.airbnb.com/airbnb-q3-2026-financial-results)\n\n来源：[Airbnb｜第三季度财报摘要](https://news.airbnb.com/airbnb-q3-2026-financial-results)；[Airbnb｜完整股东信](https://s26.q4cdn.com/656283129/files/content_files/Airbnb-Q3-2026-Shareholder-Letter.pdf)。\n\n## 5. 腾讯 Hy4 加入视觉与电脑操作，权重发布仍需单独确认\n\n腾讯11月4日发布 Hy4，新增图像理解和电脑操作，可同时使用命令行与图形界面，官方称为 Blender、CAD 等专业软件做了训练。模型已接入 WorkBuddy、CodeBuddy 等产品；官方公告将模型权重和系统卡列为未来数日计划。本次核对不能确认正式版权重已经公开，不把预览版仓库等同于新版下载。\n\n**为什么值得关注：** 面向3D制作和工具开发的团队可先测具体流程的稳定性与人工复核成本；产品可用、API可调和可自行部署应分别判断。\n\n![腾讯 Hy4 发布公告配图](https://www.tencent.com/wp-content/uploads/2026/11/image-2-1024x768.png)\n\n腾讯公告原图，相关能力与评测属于厂商披露。 [图片出处](https://www.tencent.com/zh-cn/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/)\n\n来源：[腾讯｜11月4日官方中文公告](https://www.tencent.com/zh-cn/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/)；[腾讯｜英文公告](https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/)。\n",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "生成：2026-11-08T01:07:41Z；北京时间11月8日晨间检索，重点近24小时并补充近7日未收录信息。覆盖GGG、腾讯中英文公告、Perplexity更新、GitHub社区与官方文档、Airbnb财报及全球中英文科技商业报道；对照本栏目近期归档去重。",
+      "score": 4,
+      "items": [
+        {
+          "id": "daily-brief-2026-11-08-poe2-full-release",
+          "title": "《流放之路2》定于12月11日转为免费正式版",
+          "category": "游戏 / 行业",
+          "summary": "GGG 在新西兰11月7日 ExileCon 公布：《流放之路2》将在12月11日（PST）转为免费游玩，加入第五、六幕完整战役、Shadow 与 Duelist 两个职业，以及 Conquerors of Wraeclast 挑战赛季。公告还确认一代 Covens of Umbra 扩展于11月13日（PST）上线。两者是未来版本安排，目前的二代仍为抢先体验。",
+          "analysis": "正式版与免费准入将改变新玩家进入门槛；玩法和经济系统的大改也值得同类 ARPG 团队观察。实际品质仍要看版本上线后的反馈。",
+          "importance": 5,
+          "tags": [
+            "Path of Exile 2",
+            "正式版",
+            "免费游戏",
+            "ARPG",
+            "ExileCon"
+          ],
+          "sources": [
+            {
+              "title": "GGG｜ExileCon 官方公告",
+              "url": "https://www.pathofexile.com/forum/view-thread/4012710"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://web.poecdn.com/public/news/2026-11-07/ExileCon/PoE2/ENPointerPostTitle.jpg",
+              "alt": "流放之路2 ExileCon 正式版公告图",
+              "sourceUrl": "https://www.pathofexile.com/forum/view-thread/4012710",
+              "caption": "GGG 官方宣传图。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-08-perplexity-local-and-teammates",
+          "title": "Perplexity 同时推进长期任务智能体与 Mac 全本地模式",
+          "category": "AI / 智能体",
+          "summary": "Perplexity 11月6日发布的更新中，Teammates 面向网页版 Max 用户，允许智能体持续承担任务并使用既有工具、技能和记忆。另一个独立功能是受支持 Apple 芯片 Mac 上的全本地 Computer，面向 Pro、Max、Enterprise，要求 Mac 应用26.42.0及以上，建议36GB统一内存。更新还加入异步后台上下文压缩；厂商所称本地模式的模型、执行与工具链均在设备上运行，需和会分配云任务的 Hybrid 模式区分。",
+          "analysis": "长期任务和离线执行是不同选择。开发桌面助手时可分别验证资源占用、应用权限和任务连续性，不能把网页版 Teammates 当作本地功能。",
+          "importance": 4,
+          "tags": [
+            "Perplexity",
+            "Computer",
+            "Teammates",
+            "Mac",
+            "本地AI",
+            "上下文压缩"
+          ],
+          "sources": [
+            {
+              "title": "Perplexity｜11月6日官方更新日志",
+              "url": "https://www.perplexity.ai/changelog/teammates-fully-local-computer-on-mac-and-voice-mode"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn.sanity.io/images/aqo64vfr/production/503f9d43b428dee71eb3c6f6e1a74d5ad751e996-3200x1800.png?auto=format&fit=max&q=80&w=2640",
+              "alt": "Perplexity 对比阻塞式和异步后台上下文压缩的时序图",
+              "sourceUrl": "https://www.perplexity.ai/changelog/teammates-fully-local-computer-on-mac-and-voice-mode",
+              "caption": "官方技术示意，图中展示上下文压缩，非本地模式性能测试。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-08-github-chat-agent-ga",
+          "title": "GitHub 的聊天入口正式开放，Teams 可并排审阅计划与代码",
+          "category": "软件工程 / 开发工具",
+          "summary": "GitHub 11月6日宣布 Slack 与 Teams 中的 @GitHub 正式开放，可从对话调查问题、实现修改并创建拉取请求。Teams Canvas 可在讨论旁查看计划、改动和预览；由聊天发起的议题与 PR 会保留来源归因。功能受 Copilot 组织策略、应用授权与仓库权限约束。",
+          "analysis": "团队可把需求讨论更直接地交给智能体，仍应在 PR 中验收和审查；对桌面开发工具而言，来源可追踪比单纯增加一个聊天入口更有价值。",
+          "importance": 4,
+          "tags": [
+            "GitHub",
+            "Copilot",
+            "Slack",
+            "Teams",
+            "编码智能体"
+          ],
+          "sources": [
+            {
+              "title": "GitHub｜正式开放公告",
+              "url": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available/"
+            },
+            {
+              "title": "GitHub Docs｜Slack集成与组织条件",
+              "url": "https://docs.github.com/en/copilot/how-tos/copilot-integrations/integrate-cloud-agent-with-slack"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://github.blog/wp-content/uploads/2026/11/f5117dd56aefe8316aa8272c4ebdd472ae00acf53c2dc2020b5bfa815070450e-2400x1260-1.jpeg?resize=2064%2C1096",
+              "alt": "GitHub 在 Slack 和 Teams 中集成的官方配图",
+              "sourceUrl": "https://github.blog/changelog/2026-11-06-github-copilot-in-slack-and-teams-is-generally-available/",
+              "caption": "GitHub 发布日志配图。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-08-airbnb-q3-ai-economics",
+          "title": "Airbnb 三季度营收增长19%，称每单客服成本降低逾17%",
+          "category": "商业 / 财经",
+          "summary": "Airbnb 11月5日公布第三季度营收49亿美元、同比增长19%，预订总额277亿美元、增长21%，净利润19亿美元。公司称约40%的全部客服问题无需人工解决，每单客服成本同比下降超过17%；这是公司运营口径，不能据此单独证明 AI 的因果效果。全年营收增速预期上调至接近20%的高十几区间，仍属指引。",
+          "analysis": "这是观察 AI 是否落到实际成本的一个经营样本。评估时要同时看问题解决质量、单位经济和非 GAAP 指标调节，不能把客服节省直接外推成整体利润增幅。",
+          "importance": 4,
+          "tags": [
+            "Airbnb",
+            "财报",
+            "AI客服",
+            "单位经济"
+          ],
+          "sources": [
+            {
+              "title": "Airbnb｜第三季度财报摘要",
+              "url": "https://news.airbnb.com/airbnb-q3-2026-financial-results"
+            },
+            {
+              "title": "Airbnb｜完整股东信",
+              "url": "https://s26.q4cdn.com/656283129/files/content_files/Airbnb-Q3-2026-Shareholder-Letter.pdf"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://news-assets.withairbnb.com/wp-content/uploads/sites/21/2026/11/110426_Q3SHL2026_Newsroom_Final.jpg?quality=75&w=2560",
+              "alt": "Airbnb 2026年第三季度财报官方配图",
+              "sourceUrl": "https://news.airbnb.com/airbnb-q3-2026-financial-results",
+              "caption": "公司财报配图。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-08-tencent-hy4-computer-use",
+          "title": "腾讯 Hy4 加入视觉与电脑操作，权重发布仍需单独确认",
+          "category": "AI / 国内产业",
+          "summary": "腾讯11月4日发布 Hy4，新增图像理解和电脑操作，可同时使用命令行与图形界面，官方称为 Blender、CAD 等专业软件做了训练。模型已接入 WorkBuddy、CodeBuddy 等产品；官方公告将模型权重和系统卡列为未来数日计划。本次核对不能确认正式版权重已经公开，不把预览版仓库等同于新版下载。",
+          "analysis": "面向3D制作和工具开发的团队可先测具体流程的稳定性与人工复核成本；产品可用、API可调和可自行部署应分别判断。",
+          "importance": 4,
+          "tags": [
+            "腾讯",
+            "Hy4",
+            "电脑操作",
+            "视觉模型",
+            "Blender",
+            "CAD"
+          ],
+          "sources": [
+            {
+              "title": "腾讯｜11月4日官方中文公告",
+              "url": "https://www.tencent.com/zh-cn/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/"
+            },
+            {
+              "title": "腾讯｜英文公告",
+              "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.tencent.com/wp-content/uploads/2026/11/image-2-1024x768.png",
+              "alt": "腾讯 Hy4 发布公告配图",
+              "sourceUrl": "https://www.tencent.com/zh-cn/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/",
+              "caption": "腾讯公告原图，相关能力与评测属于厂商披露。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "daily-brief-2026-11-07",
       "collectionId": "daily-brief",
