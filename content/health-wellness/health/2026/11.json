@@ -2,8 +2,110 @@
   "schemaVersion": 1,
   "collectionId": "health",
   "month": "2026-11",
-  "updatedAt": "2026-11-07T01:23:44Z",
+  "updatedAt": "2026-11-08T01:21:02.898Z",
   "briefs": [
+    {
+      "id": "health-2026-11-08",
+      "collectionId": "health",
+      "date": "2026-11-08",
+      "title": "健康｜2026-11-08",
+      "summary": "ZEUS完整试验结果未见心血管事件显著减少；WHO更新布迪布焦病毒疫情；减重代谢研究提示疾病通路存在差异。",
+      "analysis": "临床结局与生物指标分开判断；疫情数据注明地域和截止日期；减重机制研究不转化为自行干预建议。",
+      "rawText": "# 健康｜2026-11-08\n\n## 今日 Top 3\n\n优先检索过去24小时，并与11月1日至7日已归档报告去重。本期收录1条过去24小时的完整试验结果更新，另2条为近七天未收录的重要信息；不把既有顶线结论包装成首次发现。已综合检索国内卫生与疾控渠道及国际期刊、医学组织，本期没有为地区配额添加一般宣传消息。\n\n### 1. ZEUS完整结果：炎症指标下降，心血管事件未显著减少\n\n11月7日AHA大会公布并报告同步发表于NEJM；中性主要结论7月已披露，本次新增是完整结果与安全性细节。该国际Ⅲ期双盲随机试验纳入6376名同时患动脉粥样硬化性心血管病、慢性肾病且炎症指标升高的成人，中位治疗29.1个月；ziltivekimab组与安慰剂组发生心梗、卒中或心血管死亡复合终点的人数为561与565，未见显著差异。严重感染比例为20%与18%，提示需要同时权衡风险；这是在研药物试验，不能当作已获批的心血管预防适应证。\n\n**为什么值得关注与适用范围：**重要性4/5：大规模随机试验提醒，生物标志物改善不能替代临床获益。结果主要适用于这种高风险心肾共病人群，不能推断所有抗炎治疗都无效；本次核对AHA及研究机构原始说明，NEJM全文访问受限，未逐项审阅论文附录。\n\n配图：未附。AHA候选插图的使用政策仅向具资质新闻媒体授权，未采用；不以无关示意图替代。\n\n来源：[AHA：11月7日ZEUS试验完整结果](https://newsroom.heart.org/news/researchers-say-inflammation-as-a-treatment-target-still-important-despite-neutral-results-of-zeus-trial)；[Mass General Brigham：研究团队结果说明与论文链接](https://news.massgeneralbrigham.org/en/heart-researchers-unpack-neutral-findings-from-anti-inflammatory-clinical-trial)；[NEJM原论文（全文访问受限）](https://www.nejm.org/doi/full/10.1056/NEJMoa2612126)；[诺和诺德7月31日SEC公告：既定中性结论及在研状态（背景）](https://www.sec.gov/Archives/edgar/data/353278/000117184326005109/f6k_073126.htm)。\n\n### 2. WHO更新埃博拉疫情：刚果（金）仍持续传播，地区风险需区别看待\n\nWHO于11月6日发布更新（近七天补充），数据截至11月3日：刚果（金）本轮布迪布焦病毒疫情累计确诊10668例、死亡5198例，67个受影响卫生区中51个在此前21天仍报告病例。肯尼亚和尼日利亚自上次通报后未出现新增确诊，英国及瑞士接收的是医疗转运病例，不能等同当地社区传播。证据属于官方疫情监测；病例发现、就医和死亡报告存在不足，粗病死比例不能直接作为个人感染后的死亡概率。\n\n**为什么值得关注与适用范围：**重要性4/5：对相关地区公共卫生应对及赴当地工作的人员有直接意义。WHO仍不建议因此限制与受影响国家的旅行或贸易；这不是中国本土疫情通报，也不支持把境外传播风险泛化为日常生活风险。\n\n![WHO刚果（金）布迪布焦病毒病例卫生区分布图，数据截至2026年11月3日](https://cdn.who.int/media/images/default-source/products/disease-outbreak-news/figure_1_bvd_health_zone_classification_map.png?sfvrsn=c31e1fa_2)\n\n图片访问说明：检索服务可打开官方原图；本地直接请求返回403，站点加载可能受第三方限制。\n\n图片出处：[WHO，2026-DON625图1；卫生区分布不代表个人风险](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625)。\n\n来源：[WHO Disease Outbreak News：2026-DON625，11月6日](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625)。\n\n### 3. 减重代谢研究：不同疾病相关通路并不相同，尚不能据此定制减肥方案\n\n11月4日PLOS Medicine发表同行评审原始研究（近七天补充，页面标注尚未校样）。研究对英国DiRECT饮食干预与By-Band-Sleeve减重手术资料作事后代谢分析：前者涵盖BMI 27–45且未用胰岛素的2型糖尿病成人、代谢随访12个月，后者涵盖符合手术条件的重度肥胖成人、采样随访12或36个月，并结合孟德尔随机化。两类干预共有242种代谢物出现一致方向变化，但与心衰、骨关节炎、肾癌相关的信号并不相同；这是机制探索，不是新做的一项随机临床结局试验。\n\n**为什么值得关注与适用范围：**重要性3/5：提示长期体重管理应关注整体健康与可持续性，而非只盯体重或某个化验值。遗传分析受多效性、相关代谢物难以分离及主要欧洲祖源资料限制，不能据此保证防癌、防心衰，或自行复制试验饮食、选择手术；具体干预仍需兼顾安全和长期维持。\n\n配图：未附。论文图的检索下载重定向到短期签名存储地址且读取失败，未取得可确认稳定公开访问的HTTPS图片直链。\n\n来源：[PLOS Medicine：减重代谢特征与BMI相关疾病原始研究](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005290)。\n\n本简报为新闻与一般健康科普，不作个人诊断、处方或个性化治疗。重要性口径：4＝对临床或公共卫生决策有较大影响；3＝值得跟进、但尚不足以改变实践的机制研究。\n",
+      "completeness": "full",
+      "sourceConversation": "健康",
+      "provenance": "生成时间：2026-11-08T01:20:36.489Z；日期时区Asia/Shanghai。优先检索过去24小时，并补充2026-11-02至2026-11-08近七天尚未收录事件；读取2026-11-01至2026-11-07本栏目全部日报去重。检索国内国家卫健委/中国疾控线索与国际来源，实际打开AHA、研究团队Mass General Brigham、WHO、PLOS Medicine和SEC原始公告。NEJM论文入口访问受限，未声称逐项核对其全文；ZEUS的7月公告仅作既定结论及在研状态背景。配图：WHO图片已通过联网检索实际打开为图像，本地直接GET返回403（存在外链访问限制）；AHA授权限制及PLOS图片临时签名/读取问题均明确说明。",
+      "score": 4,
+      "items": [
+        {
+          "id": "health-2026-11-08-zeus-full-results",
+          "title": "ZEUS完整结果：炎症指标下降，心血管事件未显著减少",
+          "category": "医学",
+          "summary": "11月7日AHA大会公布并报告同步发表于NEJM；中性主要结论7月已披露，本次新增是完整结果与安全性细节。该国际Ⅲ期双盲随机试验纳入6376名同时患动脉粥样硬化性心血管病、慢性肾病且炎症指标升高的成人，中位治疗29.1个月；ziltivekimab组与安慰剂组发生心梗、卒中或心血管死亡复合终点的人数为561与565，未见显著差异。严重感染比例为20%与18%，提示需要同时权衡风险；这是在研药物试验，不能当作已获批的心血管预防适应证。",
+          "analysis": "重要性4/5：大规模随机试验提醒，生物标志物改善不能替代临床获益。结果主要适用于这种高风险心肾共病人群，不能推断所有抗炎治疗都无效；本次核对AHA及研究机构原始说明，NEJM全文访问受限，未逐项审阅论文附录。",
+          "importance": 4,
+          "tags": [
+            "ZEUS",
+            "随机对照试验",
+            "心血管",
+            "慢性肾病",
+            "炎症",
+            "ziltivekimab"
+          ],
+          "sources": [
+            {
+              "title": "AHA：11月7日ZEUS试验完整结果",
+              "url": "https://newsroom.heart.org/news/researchers-say-inflammation-as-a-treatment-target-still-important-despite-neutral-results-of-zeus-trial"
+            },
+            {
+              "title": "Mass General Brigham：研究团队结果说明与论文链接",
+              "url": "https://news.massgeneralbrigham.org/en/heart-researchers-unpack-neutral-findings-from-anti-inflammatory-clinical-trial"
+            },
+            {
+              "title": "NEJM原论文（全文访问受限）",
+              "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2612126"
+            },
+            {
+              "title": "诺和诺德7月31日SEC公告：既定中性结论及在研状态（背景）",
+              "url": "https://www.sec.gov/Archives/edgar/data/353278/000117184326005109/f6k_073126.htm"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "health-2026-11-08-who-bundibugyo-update",
+          "title": "WHO更新埃博拉疫情：刚果（金）仍持续传播，地区风险需区别看待",
+          "category": "健康",
+          "summary": "WHO于11月6日发布更新（近七天补充），数据截至11月3日：刚果（金）本轮布迪布焦病毒疫情累计确诊10668例、死亡5198例，67个受影响卫生区中51个在此前21天仍报告病例。肯尼亚和尼日利亚自上次通报后未出现新增确诊，英国及瑞士接收的是医疗转运病例，不能等同当地社区传播。证据属于官方疫情监测；病例发现、就医和死亡报告存在不足，粗病死比例不能直接作为个人感染后的死亡概率。",
+          "analysis": "重要性4/5：对相关地区公共卫生应对及赴当地工作的人员有直接意义。WHO仍不建议因此限制与受影响国家的旅行或贸易；这不是中国本土疫情通报，也不支持把境外传播风险泛化为日常生活风险。",
+          "importance": 4,
+          "tags": [
+            "公共卫生",
+            "WHO",
+            "埃博拉",
+            "布迪布焦病毒",
+            "疫情监测"
+          ],
+          "sources": [
+            {
+              "title": "WHO Disease Outbreak News：2026-DON625，11月6日",
+              "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn.who.int/media/images/default-source/products/disease-outbreak-news/figure_1_bvd_health_zone_classification_map.png?sfvrsn=c31e1fa_2",
+              "alt": "WHO刚果（金）布迪布焦病毒病例卫生区分布图，数据截至2026年11月3日",
+              "sourceUrl": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
+              "caption": "WHO，2026-DON625图1；卫生区分布不代表个人风险"
+            }
+          ]
+        },
+        {
+          "id": "health-2026-11-08-weight-loss-metabolomics",
+          "title": "减重代谢研究：不同疾病相关通路并不相同，尚不能据此定制减肥方案",
+          "category": "减重",
+          "summary": "11月4日PLOS Medicine发表同行评审原始研究（近七天补充，页面标注尚未校样）。研究对英国DiRECT饮食干预与By-Band-Sleeve减重手术资料作事后代谢分析：前者涵盖BMI 27–45且未用胰岛素的2型糖尿病成人、代谢随访12个月，后者涵盖符合手术条件的重度肥胖成人、采样随访12或36个月，并结合孟德尔随机化。两类干预共有242种代谢物出现一致方向变化，但与心衰、骨关节炎、肾癌相关的信号并不相同；这是机制探索，不是新做的一项随机临床结局试验。",
+          "analysis": "重要性3/5：提示长期体重管理应关注整体健康与可持续性，而非只盯体重或某个化验值。遗传分析受多效性、相关代谢物难以分离及主要欧洲祖源资料限制，不能据此保证防癌、防心衰，或自行复制试验饮食、选择手术；具体干预仍需兼顾安全和长期维持。",
+          "importance": 3,
+          "tags": [
+            "体重管理",
+            "代谢组学",
+            "孟德尔随机化",
+            "DiRECT",
+            "减重手术",
+            "长期健康"
+          ],
+          "sources": [
+            {
+              "title": "PLOS Medicine：减重代谢特征与BMI相关疾病原始研究",
+              "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005290"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
     {
       "id": "health-2026-11-07",
       "collectionId": "health",
