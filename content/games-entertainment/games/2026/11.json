@@ -2,8 +2,192 @@
   "schemaVersion": 1,
   "collectionId": "games",
   "month": "2026-11",
-  "updatedAt": "2026-11-07T01:11:59Z",
+  "updatedAt": "2026-11-08T01:13:44.611Z",
   "briefs": [
+    {
+      "id": "games-2026-11-08",
+      "collectionId": "games",
+      "date": "2026-11-08",
+      "title": "游戏｜2026-11-08",
+      "summary": "ExileCon披露《流放之路2》完整战役与职业详情；《英灵殿》加入二周目；《骑士盘骑士》正式发售，《Hozy》主机版定档，LunaReverse首曝。",
+      "analysis": "以实质更新、可验证的发售节点及新项目首曝为主；国内近24小时重要新增不足，以近七天未收录事件补充。",
+      "rawText": "# 游戏｜2026-11-08\n\n## 今日重点\n\n本期精选5条，按重要性排序：①ExileCon两作内容公告；②《英灵殿》二周目更新；③香港独立游戏《骑士盘骑士》正式发售；④《Hozy》主机版日期；⑤《LunaReverse》首次公布。\n\n检索截至北京时间2026年11月8日 09:13。优先检查过去24小时；这一窗口内的新项目公告以《LunaReverse》为主，其余采用11月2日至8日范围内、近期游戏日报未收录的事件，并逐条标注原日期。国内近24小时未核实到足够重要、且未重复的新消息，以下保留一条近七天补充。按开发团队所在地分类；《骑士盘骑士》为香港开发、法国等发行合作，《流放之路》为新西兰团队作品。\n\n## 国内\n\n### 3. 香港独立游戏《骑士盘骑士》正式发售，把三消融入实时战斗\n\n事件：11月5日正式发售，作为近七天未收录补充。香港单人开发团队Regal Pigeon与法国发行商Dotemu等合作推出《骑士盘骑士》（Chivalware），已登陆PC（Steam）及Nintendo Switch 2，两个官方商店均可核对发行日期。玩家在网格上闪避敌人，并通过匹配方块为武器充能，结合Roguelite成长；Steam另有独立Demo，需与付费正式版区分。\n\n**为什么值得关注：**值得关注的是消除决策与即时走位的融合，而非首发折扣；这是小体量单人开发跨平台发行的具体案例。按主要开发团队所在地归入国内，法国发行背景已注明，目前不宣称已有广泛评测共识。\n\n**重要性：3/5。**\n\n![《骑士盘骑士》Steam官方商店主视觉](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3591900/4fcf6fea58cf1e969be944080df2c58489bad70c/header_alt_assets_3.jpg?t=1793955817)\n\n图片出处：[Regal Pigeon／Dotemu，Steam商店图](https://store.steampowered.com/app/3591900/Chivalware/)。\n\n来源：[Steam：Chivalware正式版](https://store.steampowered.com/app/3591900/Chivalware/)；[Nintendo加拿大商店：Switch 2正式版](https://www.nintendo.com/en-ca/store/products/chivalware-switch-2/)；[Dotemu发行新闻稿／Cosmocover：发售与香港开发者背景](https://www.cosmocover.com/newsroom/chivalware-launches-on-pc-and-nintendo-switch-2-today/)。\n\n## 国外\n\n### 1. ExileCon披露《流放之路2》暗影职业与完整战役，初代也迎新赛季\n\n事件：11月7日新西兰 ExileCon（论坛按美洲时区显示11月6日）。GGG本轮集中展示《流放之路2》正式版的第五、六幕、暗影与决斗者职业、新终局故事及 Conquerors of Wraeclast 挑战联盟；12月11日（PST）转为免费正式发行的日期属于既定安排，本次新增重点是内容详情。初代 Covens of Umbra 扩展则定于11月13日（PST）上线，包含挑战联盟和终局系统调整；当前续作仍处于抢先体验。 续作已确认平台为PC、PS5及Xbox Series X|S；初代公告写明覆盖其全部现有平台。\n\n**为什么值得关注：**这是今日最重要的内容型公告，影响回归玩家的职业选择及两作游玩节奏。正式版日期不等于今天已经免费，具体北京时间与详细平衡补丁仍需继续核对。\n\n**重要性：5/5。**\n\n![《流放之路2》ExileCon正式版内容公告图](https://web.poecdn.com/public/news/2026-11-07/ExileCon/PoE2/ENPointerPostTitle.jpg)\n\n图片出处：[GGG官方公告图](https://www.pathofexile.com/forum/view-thread/4012710)。\n\n来源：[GGG：ExileCon 2026公告](https://www.pathofexile.com/forum/view-thread/4012710)；[Steam：续作抢先体验及正式版说明](https://store.steampowered.com/app/2694490/Path_of_Exile_2/)；[Gematsu：8月既定正式版日期与平台（背景）](https://www.gematsu.com/2026/08/path-of-exile-ii-launches-december-11)。\n\n### 2. 《刺客信条：英灵殿》新增二周目，PS5 Pro引入升级版PSSR\n\n公告：11月5日发布、11月6日更新。育碧在PlayStation官方博客确认免费更新已向PS5及PS5 Pro推出，加入New Game Plus、增强成长模式等功能；升级版PSSR仅适用于PS5 Pro。开发团队称其画质模式可实现4K输出与60FPS，这属于厂商技术说明，尚不等于独立测试结论。\n\n**为什么值得关注：**二周目是会改变老玩家回流价值的实质功能，PSSR改造也提供旧作适配新硬件的案例。本条仅确认PlayStation版本，不能据此推断PC、Xbox或PS4同步获得全部功能。\n\n**重要性：4/5。**\n\n![《刺客信条：英灵殿》免费更新官方配图](https://blog.playstation.com/tachyon/2048/11/d672eed84c63123a491e057dceb8889200254a54-scaled.jpg?crop_strategy=smart&resize=1088%2C612)\n\n图片出处：[PlayStation.Blog／Ubisoft](https://blog.playstation.com/2026/11/05/assassins-creed-valhalla-new-update-brings-new-game-upgraded-pssr-support-for-ps5-pro-today/)。\n\n来源：[育碧撰文／PlayStation.Blog：更新及PS5 Pro技术说明](https://blog.playstation.com/2026/11/05/assassins-creed-valhalla-new-update-brings-new-game-upgraded-pssr-support-for-ps5-pro-today/)。\n\n### 4. 《Hozy》PS5与Xbox Series版定于11月9日推出\n\n公告：11月6日，作为近七天未收录补充。tinyBuild与Come On Games确认清洁、翻修和布置房间的《Hozy》将于11月9日登陆PS5及Xbox Series X|S；PC版早在3月30日已发行，本次是主机移植消息。PlayStation版介绍了触觉反馈、自适应扳机、九个故事关卡以及Game+、沙盒模式；Switch版仅有2026年计划，不将11月9日套用于Switch。\n\n**为什么值得关注：**这是近期偏轻松单人玩法的明确主机发行节点，手柄反馈也与清洁工具的交互直接相关。各区解锁时间及商品可用性仍以对应商店为准。\n\n**重要性：3/5。**\n\n![《Hozy》房间翻修与布置官方配图](https://blog.playstation.com/tachyon/2048/11/e764de8347a5d741a749dd7bb7f43be000c90034.jpg?crop_strategy=smart&resize=1088%2C612)\n\n图片出处：[PlayStation.Blog／tinyBuild](https://blog.playstation.com/2026/11/06/hozy-brings-calm-tactile-home-restoration-to-ps5-on-november-9/)。\n\n来源：[tinyBuild／PlayStation.Blog：PS5日期与功能](https://blog.playstation.com/2026/11/06/hozy-brings-calm-tactile-home-restoration-to-ps5-on-november-9/)；[Gematsu：Xbox Series日期及其他版本区别](https://www.gematsu.com/2026/11/hozy-for-ps5-xbox-series-launches-november-9)。\n\n### 5. Aniplex与CYBIRD公布暗黑奇幻视觉小说《LunaReverse》\n\n公告：11月7日，为过去24小时内的新公布消息。日本发行商Aniplex与开发商CYBIRD确认《LunaReverse》正在为Nintendo Switch及PC（Steam）开发，并发布首支先导预告；目前没有发售日期。已公布语言包括英语、日语、繁体与简体中文，故事以复仇与堕落为主题；这仍是项目首曝，并非试玩开放或正式发售。\n\n**为什么值得关注：**对于关注日式叙事游戏与中文本地化的玩家，这是可加入后续观察名单的新项目。目前只有概念与制作阵容信息，玩法、篇幅和质量仍不足以判断。\n\n**重要性：3/5。**\n\n配图：未附。官网注明未经授权禁止使用内容；媒体图片虽能在检索页面显示，直接访问返回403，未作为可稳定公开加载的配图归档。\n\n来源：[LunaReverse官方：11月7日项目公布](https://lunareverse.com/en/news/?article_id=71651)；[Gematsu：平台、语言与先导预告](https://www.gematsu.com/2026/11/aniplex-and-cybird-announce-dark-fantasy-visual-novel-lunareverse-for-switch-pc)。\n\n接下来重点跟进《流放之路2》的详细职业与平衡说明，以及《Hozy》主机版实际表现。首次预告、厂商性能说法与独立实测分别对待，不把已知发行日当作本次新增，也不以单个商店的少量评价代表评测共识。\n\n重要性口径：5＝影响大量玩家的主要内容节点；4＝显著改变既有作品体验；3＝对特定类型或平台玩家有明确价值。\n",
+      "completeness": "full",
+      "sourceConversation": "游戏",
+      "provenance": "生成时间：2026-11-08T01:13:00.792Z。时区Asia/Shanghai。检索覆盖2026-11-07至11-08过去24小时，并补充2026-11-02至11-08未收录事件；读取本栏目2026-11-01至11-07全部日报去重。检索中英文游戏媒体与国内线索，实际打开GGG、Steam、Nintendo、Aniplex/CYBIRD、PlayStation.Blog及发行新闻稿；旧版发行日期来源仅作平台与既定安排背景。检查5条配图：4张HTTPS直链实际GET返回200且Content-Type为image/jpeg；LunaReverse官网限制内容使用，媒体直链GET返回403，故images=[]并说明原因。",
+      "score": 4,
+      "items": [
+        {
+          "id": "games-2026-11-08-exilecon-campaign-shadow",
+          "title": "ExileCon披露《流放之路2》暗影职业与完整战役，初代也迎新赛季",
+          "category": "国外",
+          "summary": "事件：11月7日新西兰 ExileCon（论坛按美洲时区显示11月6日）。GGG本轮集中展示《流放之路2》正式版的第五、六幕、暗影与决斗者职业、新终局故事及 Conquerors of Wraeclast 挑战联盟；12月11日（PST）转为免费正式发行的日期属于既定安排，本次新增重点是内容详情。初代 Covens of Umbra 扩展则定于11月13日（PST）上线，包含挑战联盟和终局系统调整；当前续作仍处于抢先体验。 续作已确认平台为PC、PS5及Xbox Series X|S；初代公告写明覆盖其全部现有平台。",
+          "analysis": "这是今日最重要的内容型公告，影响回归玩家的职业选择及两作游玩节奏。正式版日期不等于今天已经免费，具体北京时间与详细平衡补丁仍需继续核对。",
+          "importance": 5,
+          "tags": [
+            "PC",
+            "PS5",
+            "Xbox Series X|S",
+            "动作RPG",
+            "流放之路2",
+            "ExileCon"
+          ],
+          "sources": [
+            {
+              "title": "GGG：ExileCon 2026公告",
+              "url": "https://www.pathofexile.com/forum/view-thread/4012710"
+            },
+            {
+              "title": "Steam：续作抢先体验及正式版说明",
+              "url": "https://store.steampowered.com/app/2694490/Path_of_Exile_2/"
+            },
+            {
+              "title": "Gematsu：8月既定正式版日期与平台（背景）",
+              "url": "https://www.gematsu.com/2026/08/path-of-exile-ii-launches-december-11"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://web.poecdn.com/public/news/2026-11-07/ExileCon/PoE2/ENPointerPostTitle.jpg",
+              "alt": "《流放之路2》ExileCon正式版内容公告图",
+              "sourceUrl": "https://www.pathofexile.com/forum/view-thread/4012710",
+              "caption": "GGG官方公告图"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-08-valhalla-ngplus-pssr",
+          "title": "《刺客信条：英灵殿》新增二周目，PS5 Pro引入升级版PSSR",
+          "category": "国外",
+          "summary": "公告：11月5日发布、11月6日更新。育碧在PlayStation官方博客确认免费更新已向PS5及PS5 Pro推出，加入New Game Plus、增强成长模式等功能；升级版PSSR仅适用于PS5 Pro。开发团队称其画质模式可实现4K输出与60FPS，这属于厂商技术说明，尚不等于独立测试结论。",
+          "analysis": "二周目是会改变老玩家回流价值的实质功能，PSSR改造也提供旧作适配新硬件的案例。本条仅确认PlayStation版本，不能据此推断PC、Xbox或PS4同步获得全部功能。",
+          "importance": 4,
+          "tags": [
+            "PS5",
+            "PS5 Pro",
+            "动作冒险",
+            "刺客信条：英灵殿",
+            "二周目",
+            "PSSR"
+          ],
+          "sources": [
+            {
+              "title": "育碧撰文／PlayStation.Blog：更新及PS5 Pro技术说明",
+              "url": "https://blog.playstation.com/2026/11/05/assassins-creed-valhalla-new-update-brings-new-game-upgraded-pssr-support-for-ps5-pro-today/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://blog.playstation.com/tachyon/2048/11/d672eed84c63123a491e057dceb8889200254a54-scaled.jpg?crop_strategy=smart&resize=1088%2C612",
+              "alt": "《刺客信条：英灵殿》免费更新官方配图",
+              "sourceUrl": "https://blog.playstation.com/2026/11/05/assassins-creed-valhalla-new-update-brings-new-game-upgraded-pssr-support-for-ps5-pro-today/",
+              "caption": "PlayStation.Blog／Ubisoft"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-08-chivalware-full-launch",
+          "title": "香港独立游戏《骑士盘骑士》正式发售，把三消融入实时战斗",
+          "category": "国内",
+          "summary": "事件：11月5日正式发售，作为近七天未收录补充。香港单人开发团队Regal Pigeon与法国发行商Dotemu等合作推出《骑士盘骑士》（Chivalware），已登陆PC（Steam）及Nintendo Switch 2，两个官方商店均可核对发行日期。玩家在网格上闪避敌人，并通过匹配方块为武器充能，结合Roguelite成长；Steam另有独立Demo，需与付费正式版区分。",
+          "analysis": "值得关注的是消除决策与即时走位的融合，而非首发折扣；这是小体量单人开发跨平台发行的具体案例。按主要开发团队所在地归入国内，法国发行背景已注明，目前不宣称已有广泛评测共识。",
+          "importance": 3,
+          "tags": [
+            "PC",
+            "Steam",
+            "Nintendo Switch 2",
+            "Roguelite",
+            "三消",
+            "骑士盘骑士",
+            "香港独立游戏"
+          ],
+          "sources": [
+            {
+              "title": "Steam：Chivalware正式版",
+              "url": "https://store.steampowered.com/app/3591900/Chivalware/"
+            },
+            {
+              "title": "Nintendo加拿大商店：Switch 2正式版",
+              "url": "https://www.nintendo.com/en-ca/store/products/chivalware-switch-2/"
+            },
+            {
+              "title": "Dotemu发行新闻稿／Cosmocover：发售与香港开发者背景",
+              "url": "https://www.cosmocover.com/newsroom/chivalware-launches-on-pc-and-nintendo-switch-2-today/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3591900/4fcf6fea58cf1e969be944080df2c58489bad70c/header_alt_assets_3.jpg?t=1793955817",
+              "alt": "《骑士盘骑士》Steam官方商店主视觉",
+              "sourceUrl": "https://store.steampowered.com/app/3591900/Chivalware/",
+              "caption": "Regal Pigeon／Dotemu，Steam商店图"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-08-hozy-console-date",
+          "title": "《Hozy》PS5与Xbox Series版定于11月9日推出",
+          "category": "国外",
+          "summary": "公告：11月6日，作为近七天未收录补充。tinyBuild与Come On Games确认清洁、翻修和布置房间的《Hozy》将于11月9日登陆PS5及Xbox Series X|S；PC版早在3月30日已发行，本次是主机移植消息。PlayStation版介绍了触觉反馈、自适应扳机、九个故事关卡以及Game+、沙盒模式；Switch版仅有2026年计划，不将11月9日套用于Switch。",
+          "analysis": "这是近期偏轻松单人玩法的明确主机发行节点，手柄反馈也与清洁工具的交互直接相关。各区解锁时间及商品可用性仍以对应商店为准。",
+          "importance": 3,
+          "tags": [
+            "PS5",
+            "Xbox Series X|S",
+            "PC",
+            "模拟",
+            "Hozy",
+            "独立游戏"
+          ],
+          "sources": [
+            {
+              "title": "tinyBuild／PlayStation.Blog：PS5日期与功能",
+              "url": "https://blog.playstation.com/2026/11/06/hozy-brings-calm-tactile-home-restoration-to-ps5-on-november-9/"
+            },
+            {
+              "title": "Gematsu：Xbox Series日期及其他版本区别",
+              "url": "https://www.gematsu.com/2026/11/hozy-for-ps5-xbox-series-launches-november-9"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://blog.playstation.com/tachyon/2048/11/e764de8347a5d741a749dd7bb7f43be000c90034.jpg?crop_strategy=smart&resize=1088%2C612",
+              "alt": "《Hozy》房间翻修与布置官方配图",
+              "sourceUrl": "https://blog.playstation.com/2026/11/06/hozy-brings-calm-tactile-home-restoration-to-ps5-on-november-9/",
+              "caption": "PlayStation.Blog／tinyBuild"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-08-lunareverse-reveal",
+          "title": "Aniplex与CYBIRD公布暗黑奇幻视觉小说《LunaReverse》",
+          "category": "国外",
+          "summary": "公告：11月7日，为过去24小时内的新公布消息。日本发行商Aniplex与开发商CYBIRD确认《LunaReverse》正在为Nintendo Switch及PC（Steam）开发，并发布首支先导预告；目前没有发售日期。已公布语言包括英语、日语、繁体与简体中文，故事以复仇与堕落为主题；这仍是项目首曝，并非试玩开放或正式发售。",
+          "analysis": "对于关注日式叙事游戏与中文本地化的玩家，这是可加入后续观察名单的新项目。目前只有概念与制作阵容信息，玩法、篇幅和质量仍不足以判断。",
+          "importance": 3,
+          "tags": [
+            "Nintendo Switch",
+            "PC",
+            "Steam",
+            "视觉小说",
+            "LunaReverse",
+            "Aniplex",
+            "CYBIRD"
+          ],
+          "sources": [
+            {
+              "title": "LunaReverse官方：11月7日项目公布",
+              "url": "https://lunareverse.com/en/news/?article_id=71651"
+            },
+            {
+              "title": "Gematsu：平台、语言与先导预告",
+              "url": "https://www.gematsu.com/2026/11/aniplex-and-cybird-announce-dark-fantasy-visual-novel-lunareverse-for-switch-pc"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
     {
       "id": "games-2026-11-07",
       "collectionId": "games",
