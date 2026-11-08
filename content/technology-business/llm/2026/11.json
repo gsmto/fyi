@@ -2,8 +2,140 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-07T01:28:17Z",
+  "updatedAt": "2026-11-08T01:25:40.309Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-08",
+      "collectionId": "llm",
+      "date": "2026-11-08",
+      "title": "大模型｜2026-11-08",
+      "summary": "近七天未收录补充：Anthropic智能体记忆、Meta Muse spaces、xAI Data Bot及OpenAI Grid Protectors计划；过去24小时未核实重要新公告。",
+      "analysis": "关注跨会话记忆、共享审核与持续界面；严格区分已开放产品、内部实践和未来基础设施计划。",
+      "rawText": "# 大模型｜2026-11-08\n\n## 今日重点\n\n本轮未核实到过去24小时内足够重要、且未在本栏目收录的新公告；以下补充近七天尚未收录的4条官方信息，均按原始发布日期标注，不包装成今日首发。已检索OpenAI、Anthropic、Google／DeepMind、xAI与Meta；Google近期Omni等主要消息已收录，故不重复。未依据传闻补写新模型参数、API价格或融资结果。\n\n## 1. Anthropic拆解智能体记忆：离线整理与原始记录核对同样重要\n\n发布日期：11月6日，近七天未收录补充。Anthropic把智能体记忆分为原始日志、记忆笔记、wiki等组织形式和预先注入的上下文，并展示空闲时整理记忆的“dreaming”流程。其内部CL-Bench及游戏实验表明，不同模型利用记忆的能力不同，核对原始日志能纠正错误笔记；这些是厂商特定实验，不能当成独立评测或通用增益承诺。文中所指记忆是跨会话保存、可再次读取的上下文，不是在线修改模型权重，也不是新的全账号功能发布。\n\n**为什么值得关注／对使用者或开发者的影响：**重要性4/5：对持续运行、跨会话工作的智能体有直接工程价值。开发者可借鉴保留可追溯原始记录、区分已核实事实与猜测、评估整理成本的思路，而非仅增加存储容量或机械要求记录所有失败。\n\n![Anthropic展示的智能体记忆层级与dreaming整理流程](https://www.anthropic.com/_next/image?q=75&url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa0bcfa203214d817d2b4261b7188aba8be6db5b2-3840x1754.png&w=3840)\n\n图片出处：[Anthropic官方工程图；属于厂商提出的组织方式](https://www.anthropic.com/research/components-of-agent-memory)。\n\n图片访问说明：官方原图已由联网检索服务实际打开；本地直接请求返回403，第三方加载可能受访问限制。\n\n来源：[Anthropic Engineering：The components of agent memory，11月6日](https://www.anthropic.com/research/components-of-agent-memory)。\n\n## 2. Meta推出Muse spaces：用自然语言创建可持续更新的应用界面\n\n发布日期：11月6日，近七天未收录补充。Muse用户可描述目标创建购物汇总、计划看板或小游戏等space，再继续调整内容、外观和交互，并放入侧栏或主导航。连接支持的应用后，space可在后台刷新相关信息；官方称已向Muse现有可用范围开放，共享space仍在探索中。该公告没有给出新的地区清单、开发者API价格或可导出独立应用的承诺，不能解释为面向所有国家和账号开放。\n\n**为什么值得关注／对使用者或开发者的影响：**重要性4/5：AI产品正从一次性聊天结果转向可反复使用的界面与状态。对产品开发者的启示是把连接数据、持续更新和用户直接编辑一起设计；跨服务权限与数据新鲜度仍需独立验证。\n\n![Meta Muse spaces官方产品展示图](https://about.fb.com/wp-content/uploads/2026/11/Design-the-Muse-App_Just-for-You_Social-Share.png?w=1200)\n\n图片出处：[Meta官方公告分享图](https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/)。\n\n来源：[Meta官方：Design the Muse App, Just for You，11月6日](https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/)。\n\n## 3. xAI展示Data Bot内部实践：共享Skills，记忆新增先经管理员审核\n\n发布日期：11月2日，近七天未收录补充。xAI官网展示其数据团队在Grok Bot中构建的Data Bot：通过共享Skills统一指标、查询逻辑、实验分析和图表规范，并在Slack中接收问题、执行定期报告。新增共享记忆由管理员批准或拒绝，复杂且需要判断的分析仍交给数据团队。文章是内部使用案例，末尾提供macOS下载和销售联系入口，未证明该内部机器人、数据连接或全部能力已向所有客户直接开放。\n\n**为什么值得关注／对使用者或开发者的影响：**重要性3/5：案例具体说明了如何将数据专家的口径与审核机制写入智能体流程。它可供企业分析工具借鉴，但不是独立验证的准确率报告，也不能据此跳过数据权限、查询成本和结果复核。\n\n![Grok Bot管理员审核Data Bot拟新增共享记忆的官方截图](https://media.x.ai/cdn-cgi/image/fit%3Dscale-down%2Conerror%3Dredirect%2Cf%3Dauto/v1/website/editor-bot_v2-ca9e6ea6.png)\n\n图片出处：[xAI官方产品截图；共享记忆批准与拒绝流程](https://x.ai/news/data-bot)。\n\n图片访问说明：官方原图已由联网检索服务实际打开；本地直接请求返回403，第三方加载可能受访问限制。\n\n来源：[xAI官方：Giving every team a data scientist with Grok Bot，11月2日](https://x.ai/news/data-bot)。\n\n## 4. OpenAI公布Grid Protectors计划：未来算力园区拟参与电网削峰\n\n发布日期：11月2日，近七天未收录补充。OpenAI计划与美国公用事业、监管机构合作，让未来算力园区在电网紧张时降低需求，并视条件结合储能或现场发电。其佐治亚州Effingham园区的既有协议包含最高1000兆瓦灵活需求响应，但园区仍在开发，本次新增是全国计划框架，不能写成已兑现供电或新增1000兆瓦发电容量。具体响应规模、速度和持续时间因地点而异，后续承诺仍待确定。\n\n**为什么值得关注／对使用者或开发者的影响：**重要性3/5：电力接入、峰值需求和成本分担正成为AI算力扩张的现实约束。对使用者暂无可据此确认的API价格或服务可用性变化，对产业观察则应继续跟进合同执行与实际投运。\n\n配图：未附。已检查官方公告，未获得可确认公开访问、与本次计划直接相关的图片直链；页面直接抓取受限，不用无关数据中心图片替代。\n\n来源：[OpenAI官方：Introducing the Grid Protectors Program，11月2日](https://openai.com/index/grid-protectors-program/)；[Georgia Power：7月22日既有园区协议（背景）](https://www.georgiapower.com/news-hub/press-releases/georgia-power-to-serve-openai-project-in-effingham-county.html)。\n\n## 观察\n\n本期的共同变化是智能体从“能生成回答”转向管理长期状态、共享知识及持续界面；这是基于上述案例的归纳，不能等同于所有产品已有同样能力。基础设施计划与可交付产品分别看待，官方实验、内部案例与独立测试也不混用。\n\n重要性口径：4＝与智能体开发或主流AI产品使用直接相关的重要变化；3＝有工程借鉴或生态影响、但适用范围与落地仍有限的信息。\n",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "生成时间：2026-11-08T01:25:18.161Z；日期时区Asia/Shanghai。优先检索过去24小时，补充2026-11-02至2026-11-08未收录事件。读取本栏目2026-11-02至11-07全部现有日报去重；中英文搜索覆盖OpenAI、Anthropic、Google/DeepMind、xAI与Meta，实际打开官方公告及DeepMind新闻页。收录事件为11月6日、11月2日，明确区分日期与状态；Georgia Power七月协议仅作背景。3张图片均从实际检索页面或官方HTML提取：Meta直链GET返回200 image/png；Anthropic与xAI图片在检索服务成功打开，但本地GET返回403，原文已说明加载限制。OpenAI未取得合适可确认图片，images=[]。",
+      "score": 4,
+      "items": [
+        {
+          "id": "llm-2026-11-08-agent-memory-components",
+          "title": "Anthropic拆解智能体记忆：离线整理与原始记录核对同样重要",
+          "category": "Anthropic",
+          "summary": "发布日期：11月6日，近七天未收录补充。Anthropic把智能体记忆分为原始日志、记忆笔记、wiki等组织形式和预先注入的上下文，并展示空闲时整理记忆的“dreaming”流程。其内部CL-Bench及游戏实验表明，不同模型利用记忆的能力不同，核对原始日志能纠正错误笔记；这些是厂商特定实验，不能当成独立评测或通用增益承诺。文中所指记忆是跨会话保存、可再次读取的上下文，不是在线修改模型权重，也不是新的全账号功能发布。",
+          "analysis": "重要性4/5：对持续运行、跨会话工作的智能体有直接工程价值。开发者可借鉴保留可追溯原始记录、区分已核实事实与猜测、评估整理成本的思路，而非仅增加存储容量或机械要求记录所有失败。",
+          "importance": 4,
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "智能体",
+            "记忆",
+            "上下文工程",
+            "厂商实验"
+          ],
+          "sources": [
+            {
+              "title": "Anthropic Engineering：The components of agent memory，11月6日",
+              "url": "https://www.anthropic.com/research/components-of-agent-memory"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.anthropic.com/_next/image?q=75&url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fa0bcfa203214d817d2b4261b7188aba8be6db5b2-3840x1754.png&w=3840",
+              "alt": "Anthropic展示的智能体记忆层级与dreaming整理流程",
+              "sourceUrl": "https://www.anthropic.com/research/components-of-agent-memory",
+              "caption": "Anthropic官方工程图；属于厂商提出的组织方式"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-08-meta-muse-spaces",
+          "title": "Meta推出Muse spaces：用自然语言创建可持续更新的应用界面",
+          "category": "Meta",
+          "summary": "发布日期：11月6日，近七天未收录补充。Muse用户可描述目标创建购物汇总、计划看板或小游戏等space，再继续调整内容、外观和交互，并放入侧栏或主导航。连接支持的应用后，space可在后台刷新相关信息；官方称已向Muse现有可用范围开放，共享space仍在探索中。该公告没有给出新的地区清单、开发者API价格或可导出独立应用的承诺，不能解释为面向所有国家和账号开放。",
+          "analysis": "重要性4/5：AI产品正从一次性聊天结果转向可反复使用的界面与状态。对产品开发者的启示是把连接数据、持续更新和用户直接编辑一起设计；跨服务权限与数据新鲜度仍需独立验证。",
+          "importance": 4,
+          "tags": [
+            "Meta",
+            "Muse",
+            "spaces",
+            "智能体",
+            "生成式界面",
+            "应用连接"
+          ],
+          "sources": [
+            {
+              "title": "Meta官方：Design the Muse App, Just for You，11月6日",
+              "url": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://about.fb.com/wp-content/uploads/2026/11/Design-the-Muse-App_Just-for-You_Social-Share.png?w=1200",
+              "alt": "Meta Muse spaces官方产品展示图",
+              "sourceUrl": "https://about.fb.com/news/2026/11/introducing-spaces-customize-muse-app/",
+              "caption": "Meta官方公告分享图"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-08-grok-data-bot-case",
+          "title": "xAI展示Data Bot内部实践：共享Skills，记忆新增先经管理员审核",
+          "category": "xAI",
+          "summary": "发布日期：11月2日，近七天未收录补充。xAI官网展示其数据团队在Grok Bot中构建的Data Bot：通过共享Skills统一指标、查询逻辑、实验分析和图表规范，并在Slack中接收问题、执行定期报告。新增共享记忆由管理员批准或拒绝，复杂且需要判断的分析仍交给数据团队。文章是内部使用案例，末尾提供macOS下载和销售联系入口，未证明该内部机器人、数据连接或全部能力已向所有客户直接开放。",
+          "analysis": "重要性3/5：案例具体说明了如何将数据专家的口径与审核机制写入智能体流程。它可供企业分析工具借鉴，但不是独立验证的准确率报告，也不能据此跳过数据权限、查询成本和结果复核。",
+          "importance": 3,
+          "tags": [
+            "xAI",
+            "Grok Bot",
+            "Data Bot",
+            "Skills",
+            "共享记忆",
+            "企业数据分析"
+          ],
+          "sources": [
+            {
+              "title": "xAI官方：Giving every team a data scientist with Grok Bot，11月2日",
+              "url": "https://x.ai/news/data-bot"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://media.x.ai/cdn-cgi/image/fit%3Dscale-down%2Conerror%3Dredirect%2Cf%3Dauto/v1/website/editor-bot_v2-ca9e6ea6.png",
+              "alt": "Grok Bot管理员审核Data Bot拟新增共享记忆的官方截图",
+              "sourceUrl": "https://x.ai/news/data-bot",
+              "caption": "xAI官方产品截图；共享记忆批准与拒绝流程"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-08-grid-protectors-plan",
+          "title": "OpenAI公布Grid Protectors计划：未来算力园区拟参与电网削峰",
+          "category": "OpenAI",
+          "summary": "发布日期：11月2日，近七天未收录补充。OpenAI计划与美国公用事业、监管机构合作，让未来算力园区在电网紧张时降低需求，并视条件结合储能或现场发电。其佐治亚州Effingham园区的既有协议包含最高1000兆瓦灵活需求响应，但园区仍在开发，本次新增是全国计划框架，不能写成已兑现供电或新增1000兆瓦发电容量。具体响应规模、速度和持续时间因地点而异，后续承诺仍待确定。",
+          "analysis": "重要性3/5：电力接入、峰值需求和成本分担正成为AI算力扩张的现实约束。对使用者暂无可据此确认的API价格或服务可用性变化，对产业观察则应继续跟进合同执行与实际投运。",
+          "importance": 3,
+          "tags": [
+            "OpenAI",
+            "Grid Protectors",
+            "算力",
+            "电网",
+            "基础设施",
+            "计划"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI官方：Introducing the Grid Protectors Program，11月2日",
+              "url": "https://openai.com/index/grid-protectors-program/"
+            },
+            {
+              "title": "Georgia Power：7月22日既有园区协议（背景）",
+              "url": "https://www.georgiapower.com/news-hub/press-releases/georgia-power-to-serve-openai-project-in-effingham-county.html"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
     {
       "id": "llm-2026-11-07",
       "collectionId": "llm",
