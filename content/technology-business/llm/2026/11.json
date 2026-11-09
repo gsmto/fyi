@@ -2,8 +2,141 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-08T01:25:40.309Z",
+  "updatedAt": "2026-11-09T01:25:01Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-09",
+      "collectionId": "llm",
+      "date": "2026-11-09",
+      "title": "大模型｜2026-11-09",
+      "summary": "Grok API 文本水印已默认生效；补录 Codex CLI 更新和两项国内团队的权重发布。",
+      "analysis": "区分接口行为、部署与授权条件；官方自测只作参考。",
+      "rawText": "# 大模型｜2026-11-09\n\nGrok API 文本水印已默认生效；补录 Codex CLI 更新和两项国内团队的权重发布。\n\n最近24小时内未找到更多尚未收录、可核实的重要官宣，以下补录近7天事项并注明日期。\n\n## 1. Grok API 对七个模型的文本输出默认加水印\n\n**xAI｜11月7日生效**\n\nGrok 4.7、4.6、4.5、4.3 和 4.20 的三个变体默认加入不可见文本水印，覆盖全球及区域 API 端点。Responses 与 Chat Completions 的普通文本、结构化输出和工具参数均在范围内；团队管理员可按模型关闭，设置影响团队全部 API 密钥。响应头 `x-watermark: true` 表示这次生成启用了水印；对流转后的文本做检测需申请权限，检测为统计判断。\n\n**为什么值得关注：**4/5：无需改请求，但有内容溯源要求的系统可保存响应头和模型信息。响应头不能证明被编辑或转发后的文本仍可检测。\n\n来源：[xAI 官方水印说明](https://docs.x.ai/developers/advanced-api-usage/watermarking)\n\n缺图：官方说明未提供相关可核验图片，保留原文和接口示例链接。\n\n## 2. Codex CLI 0.167.0 加强多会话管理，新增 Vertex AI 配置向导\n\n**OpenAI｜11月6日发布（近7天补录）**\n\n稳定版允许用 `codex agents --no-daemon` 打开任务中心，并标记未读结果；在终端会话选择器切换已连接后端时可保留草稿。启用 `gcp_setup_wizard` 后可通过应用默认凭据或凭据文件配置 Vertex AI；macOS、Windows 系统代理仍是实验性选项。该公告针对 CLI，未公布新的模型定价或额度。\n\n**为什么值得关注：**4/5：多任务开发时更容易找回结果与草稿。向导简化配置，实际可调用模型和地区仍取决于云项目权限。\n\n来源：[OpenAI GitHub：0.167.0 发布记录](https://github.com/openai/codex/releases/tag/rust-v0.167.0)；[纯度AI：中文版本解读](https://chunduai.com/news/codex-cli-0-167)\n\n缺图：未核验到这一版本的真实功能截图直链。\n\n## 3. 文心 ERNIE 5.5 Flash Base 放出预训练权重\n\n**百度｜11月5日发布（近7天补录）**\n\n百度发布纯文本基座模型的 FP8 与 BF16 权重，总参数 280B、每 token 激活 14B，训练上下文上限 128K，发布配置支持最高约 1M 的微调和推理上下文。权重位于 Hugging Face 和 ModelScope，属于预训练终点，未进行中训练或后训练。采用自定义许可，授权地域排除欧盟、英国及韩国，部分商业用途需书面授权。\n\n**为什么值得关注：**4/5：适合有基础设施的团队评估继续训练；激活参数不代表只需装载 14B 权重。官方基准是厂商自测，不能据此判断聊天成品能力。\n\n来源：[百度发布说明](https://ernie.baidu.com/release/ernie-5-5-flash-base/)；[百度 Hugging Face 模型卡](https://huggingface.co/baidu/ERNIE-5.5-Flash-Base)；[权重许可原文](https://huggingface.co/baidu/ERNIE-5.5-Flash-Base/blob/main/LICENSE)\n\n缺图：模型卡架构图直链未能独立验证公开访问，未使用带签名的中转链接。\n\n## 4. Seed 公开 Cola2 权重，连续潜变量生成可供复测\n\n**字节跳动｜11月6日公开权重（近7天补录）；论文10月22日首发**\n\nCola2 先把文本压成连续语义片段，再用扩散 Transformer 生成潜变量，最后解码成文本 token。此次新增的是 Hugging Face 权重及 GitHub 推理和评测工具，不包含训练代码；Apache 2.0 适用于仓库代码，权重及其他资源不能据此推定同样授权。作者报告八项任务平均 60.10 分，各基线训练与计数口径不同。\n\n**为什么值得关注：**3/5：适合研究扩散生成和语义压缩。复测应分别测准确率、端到端延迟与显存，训练 token 少不等于推理更快。\n\n来源：[Seed 模型卡及权重](https://huggingface.co/ByteDance-Seed/Cola2)；[Seed 推理及评测代码](https://github.com/ByteDance-Seed/Cola2)；[作者预印本](https://arxiv.org/abs/2610.31305)；[权重公开日期记录](https://newruntime.com/posts/bytedance-seed-published-model-weights-on-hugging-face-8029c4/)\n\n缺图：项目架构图为 SVG，本次未能独立打开验证；不以无关图替代。\n",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "生成时间 2026-11-09T01:25:01Z；以北京时间核查近24小时，并回溯11月2日至9日上午；检索 OpenAI、Anthropic、Google DeepMind/Gemini、xAI、Meta 等官方日志和中英文线索，核对百度、字节跳动模型卡与许可，和近期归档去重。",
+      "score": 4,
+      "items": [
+        {
+          "id": "llm-2026-11-09-grok-output-watermark",
+          "category": "xAI",
+          "title": "Grok API 对七个模型的文本输出默认加水印",
+          "publishedAt": "11月7日生效",
+          "importance": 4,
+          "tags": [
+            "xAI",
+            "Grok",
+            "API",
+            "文本水印"
+          ],
+          "summary": "Grok 4.7、4.6、4.5、4.3 和 4.20 的三个变体默认加入不可见文本水印，覆盖全球及区域 API 端点。Responses 与 Chat Completions 的普通文本、结构化输出和工具参数均在范围内；团队管理员可按模型关闭，设置影响团队全部 API 密钥。响应头 `x-watermark: true` 表示这次生成启用了水印；对流转后的文本做检测需申请权限，检测为统计判断。",
+          "analysis": "4/5：无需改请求，但有内容溯源要求的系统可保存响应头和模型信息。响应头不能证明被编辑或转发后的文本仍可检测。",
+          "sources": [
+            {
+              "title": "xAI 官方水印说明",
+              "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking"
+            }
+          ],
+          "images": [],
+          "imageNote": "官方说明未提供相关可核验图片，保留原文和接口示例链接。"
+        },
+        {
+          "id": "llm-2026-11-09-codex-cli-0167",
+          "category": "OpenAI",
+          "title": "Codex CLI 0.167.0 加强多会话管理，新增 Vertex AI 配置向导",
+          "publishedAt": "11月6日发布（近7天补录）",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "Codex CLI",
+            "Vertex AI",
+            "智能体",
+            "开发工具"
+          ],
+          "summary": "稳定版允许用 `codex agents --no-daemon` 打开任务中心，并标记未读结果；在终端会话选择器切换已连接后端时可保留草稿。启用 `gcp_setup_wizard` 后可通过应用默认凭据或凭据文件配置 Vertex AI；macOS、Windows 系统代理仍是实验性选项。该公告针对 CLI，未公布新的模型定价或额度。",
+          "analysis": "4/5：多任务开发时更容易找回结果与草稿。向导简化配置，实际可调用模型和地区仍取决于云项目权限。",
+          "sources": [
+            {
+              "title": "OpenAI GitHub：0.167.0 发布记录",
+              "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0"
+            },
+            {
+              "title": "纯度AI：中文版本解读",
+              "url": "https://chunduai.com/news/codex-cli-0-167"
+            }
+          ],
+          "images": [],
+          "imageNote": "未核验到这一版本的真实功能截图直链。"
+        },
+        {
+          "id": "llm-2026-11-09-ernie-flash-base",
+          "category": "百度",
+          "title": "文心 ERNIE 5.5 Flash Base 放出预训练权重",
+          "publishedAt": "11月5日发布（近7天补录）",
+          "importance": 4,
+          "tags": [
+            "百度",
+            "ERNIE 5.5 Flash Base",
+            "MoE",
+            "开放权重"
+          ],
+          "summary": "百度发布纯文本基座模型的 FP8 与 BF16 权重，总参数 280B、每 token 激活 14B，训练上下文上限 128K，发布配置支持最高约 1M 的微调和推理上下文。权重位于 Hugging Face 和 ModelScope，属于预训练终点，未进行中训练或后训练。采用自定义许可，授权地域排除欧盟、英国及韩国，部分商业用途需书面授权。",
+          "analysis": "4/5：适合有基础设施的团队评估继续训练；激活参数不代表只需装载 14B 权重。官方基准是厂商自测，不能据此判断聊天成品能力。",
+          "sources": [
+            {
+              "title": "百度发布说明",
+              "url": "https://ernie.baidu.com/release/ernie-5-5-flash-base/"
+            },
+            {
+              "title": "百度 Hugging Face 模型卡",
+              "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base"
+            },
+            {
+              "title": "权重许可原文",
+              "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Base/blob/main/LICENSE"
+            }
+          ],
+          "images": [],
+          "imageNote": "模型卡架构图直链未能独立验证公开访问，未使用带签名的中转链接。"
+        },
+        {
+          "id": "llm-2026-11-09-cola2-weights",
+          "category": "字节跳动",
+          "title": "Seed 公开 Cola2 权重，连续潜变量生成可供复测",
+          "publishedAt": "11月6日公开权重（近7天补录）；论文10月22日首发",
+          "importance": 3,
+          "tags": [
+            "字节跳动",
+            "Seed",
+            "Cola2",
+            "扩散语言模型",
+            "开放权重"
+          ],
+          "summary": "Cola2 先把文本压成连续语义片段，再用扩散 Transformer 生成潜变量，最后解码成文本 token。此次新增的是 Hugging Face 权重及 GitHub 推理和评测工具，不包含训练代码；Apache 2.0 适用于仓库代码，权重及其他资源不能据此推定同样授权。作者报告八项任务平均 60.10 分，各基线训练与计数口径不同。",
+          "analysis": "3/5：适合研究扩散生成和语义压缩。复测应分别测准确率、端到端延迟与显存，训练 token 少不等于推理更快。",
+          "sources": [
+            {
+              "title": "Seed 模型卡及权重",
+              "url": "https://huggingface.co/ByteDance-Seed/Cola2"
+            },
+            {
+              "title": "Seed 推理及评测代码",
+              "url": "https://github.com/ByteDance-Seed/Cola2"
+            },
+            {
+              "title": "作者预印本",
+              "url": "https://arxiv.org/abs/2610.31305"
+            },
+            {
+              "title": "权重公开日期记录",
+              "url": "https://newruntime.com/posts/bytedance-seed-published-model-weights-on-hugging-face-8029c4/"
+            }
+          ],
+          "images": [],
+          "imageNote": "项目架构图为 SVG，本次未能独立打开验证；不以无关图替代。"
+        }
+      ]
+    },
     {
       "id": "llm-2026-11-08",
       "collectionId": "llm",
