@@ -3,10 +3,99 @@
   "region": "CN",
   "timezone": "Asia/Shanghai",
   "year": 2027,
-  "officialStatus": "pending",
-  "checkedAt": "2026-11-02T00:45:05Z",
-  "sources": [],
-  "holidays": [],
-  "workdays": [],
-  "events": []
+  "officialStatus": "confirmed",
+  "checkedAt": "2026-11-09T00:50:47Z",
+  "sources": [
+    {
+      "id": "sc-2027",
+      "title": "国务院办公厅关于2027年部分节假日安排的通知（国办发明电〔2026〕10号）",
+      "url": "https://www.forestry.gov.cn/lyj/1/szxx/20261105/695102.html",
+      "publishedAt": "2026-11-05"
+    },
+    {
+      "id": "npc-national-memorial-day",
+      "title": "全国人大常委会关于设立南京大屠杀死难者国家公祭日的决定",
+      "url": "https://www.zzrd.gov.cn/news/print.aspx?nid=6151",
+      "publishedAt": "2014-02-28"
+    }
+  ],
+  "holidays": [
+    {
+      "name": "元旦",
+      "start": "2027-01-01",
+      "end": "2027-01-03",
+      "sourceId": "sc-2027"
+    },
+    {
+      "name": "春节",
+      "start": "2027-02-05",
+      "end": "2027-02-13",
+      "sourceId": "sc-2027"
+    },
+    {
+      "name": "清明节",
+      "start": "2027-04-03",
+      "end": "2027-04-05",
+      "sourceId": "sc-2027"
+    },
+    {
+      "name": "劳动节",
+      "start": "2027-05-01",
+      "end": "2027-05-05",
+      "sourceId": "sc-2027"
+    },
+    {
+      "name": "端午节",
+      "start": "2027-06-09",
+      "end": "2027-06-09",
+      "sourceId": "sc-2027"
+    },
+    {
+      "name": "中秋节",
+      "start": "2027-09-15",
+      "end": "2027-09-15",
+      "sourceId": "sc-2027"
+    },
+    {
+      "name": "国庆节",
+      "start": "2027-10-01",
+      "end": "2027-10-07",
+      "sourceId": "sc-2027"
+    }
+  ],
+  "workdays": [
+    {
+      "date": "2027-01-31",
+      "name": "春节补班",
+      "sourceId": "sc-2027"
+    },
+    {
+      "date": "2027-02-14",
+      "name": "春节补班",
+      "sourceId": "sc-2027"
+    },
+    {
+      "date": "2027-05-08",
+      "name": "劳动节补班",
+      "sourceId": "sc-2027"
+    },
+    {
+      "date": "2027-09-26",
+      "name": "国庆补班",
+      "sourceId": "sc-2027"
+    },
+    {
+      "date": "2027-10-09",
+      "name": "国庆补班",
+      "sourceId": "sc-2027"
+    }
+  ],
+  "events": [
+    {
+      "date": "2027-12-13",
+      "name": "南京大屠杀死难者国家公祭日",
+      "kind": "observance",
+      "sourceId": "npc-national-memorial-day"
+    }
+  ]
 }

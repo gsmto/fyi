@@ -4,13 +4,19 @@
   "timezone": "Asia/Shanghai",
   "year": 2026,
   "officialStatus": "confirmed",
-  "checkedAt": "2026-11-02T00:45:05Z",
+  "checkedAt": "2026-11-09T00:50:47Z",
   "sources": [
     {
       "id": "sc-2026",
       "title": "国务院办公厅关于2026年部分节假日安排的通知（国办发明电〔2025〕7号）",
       "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/202511/t20251104_4258873.html",
       "publishedAt": "2025-11-04"
+    },
+    {
+      "id": "npc-national-memorial-day",
+      "title": "全国人大常委会关于设立南京大屠杀死难者国家公祭日的决定",
+      "url": "https://www.zzrd.gov.cn/news/print.aspx?nid=6151",
+      "publishedAt": "2014-02-28"
     }
   ],
   "holidays": [
@@ -89,5 +95,12 @@
       "sourceId": "sc-2026"
     }
   ],
-  "events": []
+  "events": [
+    {
+      "date": "2026-12-13",
+      "name": "南京大屠杀死难者国家公祭日",
+      "kind": "observance",
+      "sourceId": "npc-national-memorial-day"
+    }
+  ]
 }
