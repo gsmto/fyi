@@ -2,8 +2,192 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-11",
-  "updatedAt": "2026-11-08T01:07:42Z",
+  "updatedAt": "2026-11-09T00:58:38Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-11-09",
+      "collectionId": "daily-brief",
+      "date": "2026-11-09",
+      "title": "最新资讯｜2026-11-09",
+      "summary": "英伟达启动董事会独立调查；Anthropic 的电力采购出现新报道。另看苹果机器人仿真研究、ChromeOS 安全更新和独立游戏《Hozy》的主机交互设计。",
+      "analysis": "优先跟踪英伟达调查是否带来正式监管或治理变化；AI 算力项目则把设备采购、许可与投运分开观察。开发侧可先核对 Chromium 版本，再把多步任务的端到端成功率纳入评测。",
+      "rawText": "# 最新资讯｜2026-11-09\n\n英伟达启动董事会独立调查；Anthropic 的电力采购出现新报道。另看苹果机器人仿真研究、ChromeOS 安全更新和独立游戏《Hozy》的主机交互设计。\n\n## 1. 英伟达董事会启动独立调查，黄仁勋继续履职\n\n**全球科技 / 公司治理｜11 月 8 日（美国时间）**\n\n![黄仁勋在 GTC 2026 的资料图](https://media.xenospectrum.com/gtc_2026_huang_new_chip_00741ddc60.webp)\n\n[图片出处](https://xenospectrum.com/nvidia-gtc2026-jensen-surprise-chip-rubin-feynman/) · 会场资料图，非调查现场。\n\n路透社报道，英伟达董事会已启动独立调查，核实 CEO 黄仁勋是否曾成为外国情报活动的目标；调查由独立董事委员会监督，并由外部律师协助。公司称，董事会目前没有理由认为美国国家安全或英伟达机密已受损，黄仁勋将继续领导公司并配合调查。\n\n**为什么值得关注：**5/5：事件涉及全球主要 AI 芯片供应商的管理层和出口合规。接下来应关注调查结论及监管动作；调查启动本身不证明发生了泄密或出口违规。\n\n**来源：**[路透社：英伟达回应及调查范围](https://www.reuters.com/world/china/nvidia-launches-probe-after-report-ceo-huang-was-target-foreign-intelligence-2026-11-08/)\n\n## 2. FT：Anthropic 据报锁定 1.7 吉瓦燃气发电设备\n\n**财经 / AI基础设施｜11 月 8 日（报道；据报交易于 9 月下旬达成）**\n\n![卡特彼勒燃气发电机组的产品资料图](https://media.baumpub.com/files/slides/locale_image/full/0251/62709_en_a3cb7_64765_cat-g3516-natural-gas-generator.jpg)\n\n[图片出处](https://www.heavyequipmentguide.ca/article/44194/cat-to-deliver-2-gigawatts-of-power-to-ai-facility-in-west-virginia) · 另一项目的设备资料图，不代表这笔交易的实际型号。\n\n《金融时报》报道，Anthropic 据称以约 34 亿美元从 OnePWR Solutions 获得合计约 1.7 吉瓦的燃气发电设备供应承诺，协议还涉及安装所需的工程和施工能力。报道说交易不包含收购 OnePWR；路透社转述时称未能独立证实，双方未回应其置评请求。\n\n**为什么值得关注：**4/5：如果报道属实，模型公司正在把一部分算力扩建的瓶颈转成直接的电力采购问题。设备订单、获得许可与实际投运是三个不同节点，1.7 吉瓦不能直接算成今天可用的电力。\n\n**来源：**[金融时报：原始报道](https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0) · [路透社：转述与核实状态](https://www.reuters.com/business/energy/anthropic-secures-34-billion-generator-deal-ai-data-centers-ft-reports-2026-11-08/)\n\n## 3. 苹果 HALO 用仿真训练机器人，实测单项成功率 91%\n\n**AI / 机器人研究｜11 月 4 日（预印本首发）；11 月 7 日（中文报道）**\n\n![HALO 官方图：任务编排、动作生成和动作跟踪三层架构](https://apple-aiml-research.github.io/ml-halo/assets/fig-stack.webp)\n\n[图片出处](https://apple-aiml-research.github.io/ml-halo/)\n\n苹果研究团队用程序生成的住宅场景合成视觉、指令与动作数据，再将训练所得的控制系统部署到宇树 G1。作者在 6 个未预先建图的真实环境做了 360 次单项试验，平均成功率为 91%；多步骤任务只在 1 个真实环境测试，3 种组合平均为 70%。研究为预印本，代码已公开。\n\n**为什么值得关注：**4/5：值得借鉴的是把语言编排、动作规划和高频控制拆成三层，并分别验证。单项动作和多步任务之间的落差提醒开发者，评测要单列整条任务成功率和失败后恢复能力。\n\n**来源：**[arXiv 预印本](https://arxiv.org/abs/2611.06908) · [苹果研究团队项目页](https://apple-aiml-research.github.io/ml-halo/) · [GitHub 代码](https://github.com/apple-aiml-research/ml-halo) · [IT之家：中文报道](https://www.ithome.com/1/023/767.htm)\n\n## 4. ChromeOS 稳定版修复 WebXR、WebGL 等浏览器漏洞\n\n**软件工程 / Web安全｜11 月 6 日（官方公告）**\n\n![运行 ChromeOS Flex 的笔记本资料图](https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/URHXODDLU5BTXF6WLFBZ7CDNLQ.jpg)\n\n[图片出处](https://www.fayerwayer.com/internet/2022/07/24/google-lanza-chromeos-flex-un-sistema-operativo-gratuito-que-revive-computadoras-antiguas/) · 平台资料图，不是本次更新截图。\n\nGoogle 已向 ChromeOS 稳定频道推送系统版本 16836.32.0，内置浏览器版本为 156.0.8078.93。公告列出 10 项浏览器安全修复，其中 7 项为高危，包括 WebXR 和 WebGL 的释放后使用、媒体处理越界读取，以及 CacheStorage 类型混淆。\n\n**为什么值得关注：**4/5：维护 Chromebook 测试设备的团队可先核对实际安装版本，再回归 XR、3D 和媒体路径。Electron 自带 Chromium，需要单独核对 Electron 发布记录；ChromeOS 补丁不会自动修复已打包的桌面应用。\n\n**来源：**[Google Chrome Releases：版本与漏洞清单](https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-chromeos.html?amp=1)\n\n## 5. 独立游戏《Hozy》定于 11 月 9 日登陆 PS5 和 Xbox Series\n\n**游戏开发 / 交互设计｜11 月 6 日（平台公告）；11 月 9 日（公告发售日）**\n\n![《Hozy》PlayStation 官方配图](https://blog.playstation.com/tachyon/2048/11/e764de8347a5d741a749dd7bb7f43be000c90034.jpg?crop_strategy=smart&resize=1088%2C612)\n\n[图片出处](https://blog.playstation.com/2026/11/06/hozy-brings-calm-tactile-home-restoration-to-ps5-on-november-9/)\n\n已在 Steam 推出的房屋翻新游戏《Hozy》计划于 11 月 9 日登陆 PS5 和 Xbox Series X|S。玩法没有计时和评分，关卡先让玩家清洁和翻修，再提供一组家具供布置；PS5 版还用 DualSense 震动与自适应扳机呈现拖地、撬地板等动作的差别。\n\n**为什么值得关注：**3/5：房间布置类项目可以借鉴它的两种入口：主线给有限物件、降低起步门槛；沙盒开放完整物件库。声音与触感也能帮助玩家确认操作结果，减少对提示文字的依赖。\n\n**来源：**[PlayStation Blog：发行商介绍](https://blog.playstation.com/2026/11/06/hozy-brings-calm-tactile-home-restoration-to-ps5-on-november-9/) · [Xbox Wire：主机发售日历](https://news.xbox.com/en-us/2026/11/06/next-week-on-xbox-new-games-for-november-9-to-13/) · [Gematsu：平台与 PC 版背景](https://www.gematsu.com/2026/11/hozy-for-ps5-xbox-series-launches-november-9)\n\n生成时间 2026-11-09T00:58:38Z；按北京时间优先核查 11 月 8–9 日消息，补充 11 月 4–7 日研究、稳定版更新与 11 月 9 日主机发售节点。检索英文商业媒体、中文科技媒体、官方发布日志与平台公告、GitHub、arXiv；与本月近日报告去重。\n",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "生成时间 2026-11-09T00:58:38Z；按北京时间优先核查 11 月 8–9 日消息，补充 11 月 4–7 日研究、稳定版更新与 11 月 9 日主机发售节点。检索英文商业媒体、中文科技媒体、官方发布日志与平台公告、GitHub、arXiv；与本月近日报告去重。",
+      "score": 5,
+      "items": [
+        {
+          "id": "daily-brief-2026-11-09-nvidia-board-review",
+          "title": "英伟达董事会启动独立调查，黄仁勋继续履职",
+          "category": "全球科技 / 公司治理",
+          "publishedAt": "11 月 8 日（美国时间）",
+          "summary": "路透社报道，英伟达董事会已启动独立调查，核实 CEO 黄仁勋是否曾成为外国情报活动的目标；调查由独立董事委员会监督，并由外部律师协助。公司称，董事会目前没有理由认为美国国家安全或英伟达机密已受损，黄仁勋将继续领导公司并配合调查。",
+          "analysis": "5/5：事件涉及全球主要 AI 芯片供应商的管理层和出口合规。接下来应关注调查结论及监管动作；调查启动本身不证明发生了泄密或出口违规。",
+          "importance": 5,
+          "tags": [
+            "NVIDIA",
+            "公司治理",
+            "AI芯片",
+            "出口管制"
+          ],
+          "sources": [
+            {
+              "title": "路透社：英伟达回应及调查范围",
+              "url": "https://www.reuters.com/world/china/nvidia-launches-probe-after-report-ceo-huang-was-target-foreign-intelligence-2026-11-08/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://media.xenospectrum.com/gtc_2026_huang_new_chip_00741ddc60.webp",
+              "alt": "黄仁勋在 GTC 2026 的资料图",
+              "sourceUrl": "https://xenospectrum.com/nvidia-gtc2026-jensen-surprise-chip-rubin-feynman/",
+              "caption": "会场资料图，非调查现场。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-09-anthropic-gas-power",
+          "title": "FT：Anthropic 据报锁定 1.7 吉瓦燃气发电设备",
+          "category": "财经 / AI基础设施",
+          "publishedAt": "11 月 8 日（报道；据报交易于 9 月下旬达成）",
+          "summary": "《金融时报》报道，Anthropic 据称以约 34 亿美元从 OnePWR Solutions 获得合计约 1.7 吉瓦的燃气发电设备供应承诺，协议还涉及安装所需的工程和施工能力。报道说交易不包含收购 OnePWR；路透社转述时称未能独立证实，双方未回应其置评请求。",
+          "analysis": "4/5：如果报道属实，模型公司正在把一部分算力扩建的瓶颈转成直接的电力采购问题。设备订单、获得许可与实际投运是三个不同节点，1.7 吉瓦不能直接算成今天可用的电力。",
+          "importance": 4,
+          "tags": [
+            "Anthropic",
+            "数据中心",
+            "能源",
+            "资本开支"
+          ],
+          "sources": [
+            {
+              "title": "金融时报：原始报道",
+              "url": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0"
+            },
+            {
+              "title": "路透社：转述与核实状态",
+              "url": "https://www.reuters.com/business/energy/anthropic-secures-34-billion-generator-deal-ai-data-centers-ft-reports-2026-11-08/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://media.baumpub.com/files/slides/locale_image/full/0251/62709_en_a3cb7_64765_cat-g3516-natural-gas-generator.jpg",
+              "alt": "卡特彼勒燃气发电机组的产品资料图",
+              "sourceUrl": "https://www.heavyequipmentguide.ca/article/44194/cat-to-deliver-2-gigawatts-of-power-to-ai-facility-in-west-virginia",
+              "caption": "另一项目的设备资料图，不代表这笔交易的实际型号。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-09-apple-halo-sim",
+          "title": "苹果 HALO 用仿真训练机器人，实测单项成功率 91%",
+          "category": "AI / 机器人研究",
+          "publishedAt": "11 月 4 日（预印本首发）；11 月 7 日（中文报道）",
+          "summary": "苹果研究团队用程序生成的住宅场景合成视觉、指令与动作数据，再将训练所得的控制系统部署到宇树 G1。作者在 6 个未预先建图的真实环境做了 360 次单项试验，平均成功率为 91%；多步骤任务只在 1 个真实环境测试，3 种组合平均为 70%。研究为预印本，代码已公开。",
+          "analysis": "4/5：值得借鉴的是把语言编排、动作规划和高频控制拆成三层，并分别验证。单项动作和多步任务之间的落差提醒开发者，评测要单列整条任务成功率和失败后恢复能力。",
+          "importance": 4,
+          "tags": [
+            "Apple",
+            "HALO",
+            "宇树G1",
+            "机器人仿真"
+          ],
+          "sources": [
+            {
+              "title": "arXiv 预印本",
+              "url": "https://arxiv.org/abs/2611.06908"
+            },
+            {
+              "title": "苹果研究团队项目页",
+              "url": "https://apple-aiml-research.github.io/ml-halo/"
+            },
+            {
+              "title": "GitHub 代码",
+              "url": "https://github.com/apple-aiml-research/ml-halo"
+            },
+            {
+              "title": "IT之家：中文报道",
+              "url": "https://www.ithome.com/1/023/767.htm"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://apple-aiml-research.github.io/ml-halo/assets/fig-stack.webp",
+              "alt": "HALO 官方图：任务编排、动作生成和动作跟踪三层架构",
+              "sourceUrl": "https://apple-aiml-research.github.io/ml-halo/"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-09-chromeos-m156-security",
+          "title": "ChromeOS 稳定版修复 WebXR、WebGL 等浏览器漏洞",
+          "category": "软件工程 / Web安全",
+          "publishedAt": "11 月 6 日（官方公告）",
+          "summary": "Google 已向 ChromeOS 稳定频道推送系统版本 16836.32.0，内置浏览器版本为 156.0.8078.93。公告列出 10 项浏览器安全修复，其中 7 项为高危，包括 WebXR 和 WebGL 的释放后使用、媒体处理越界读取，以及 CacheStorage 类型混淆。",
+          "analysis": "4/5：维护 Chromebook 测试设备的团队可先核对实际安装版本，再回归 XR、3D 和媒体路径。Electron 自带 Chromium，需要单独核对 Electron 发布记录；ChromeOS 补丁不会自动修复已打包的桌面应用。",
+          "importance": 4,
+          "tags": [
+            "ChromeOS",
+            "Chromium",
+            "WebXR",
+            "WebGL",
+            "浏览器安全"
+          ],
+          "sources": [
+            {
+              "title": "Google Chrome Releases：版本与漏洞清单",
+              "url": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-chromeos.html?amp=1"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/URHXODDLU5BTXF6WLFBZ7CDNLQ.jpg",
+              "alt": "运行 ChromeOS Flex 的笔记本资料图",
+              "sourceUrl": "https://www.fayerwayer.com/internet/2022/07/24/google-lanza-chromeos-flex-un-sistema-operativo-gratuito-que-revive-computadoras-antiguas/",
+              "caption": "平台资料图，不是本次更新截图。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-09-hozy-console",
+          "title": "独立游戏《Hozy》定于 11 月 9 日登陆 PS5 和 Xbox Series",
+          "category": "游戏开发 / 交互设计",
+          "publishedAt": "11 月 6 日（平台公告）；11 月 9 日（公告发售日）",
+          "summary": "已在 Steam 推出的房屋翻新游戏《Hozy》计划于 11 月 9 日登陆 PS5 和 Xbox Series X|S。玩法没有计时和评分，关卡先让玩家清洁和翻修，再提供一组家具供布置；PS5 版还用 DualSense 震动与自适应扳机呈现拖地、撬地板等动作的差别。",
+          "analysis": "3/5：房间布置类项目可以借鉴它的两种入口：主线给有限物件、降低起步门槛；沙盒开放完整物件库。声音与触感也能帮助玩家确认操作结果，减少对提示文字的依赖。",
+          "importance": 3,
+          "tags": [
+            "Hozy",
+            "PS5",
+            "Xbox Series",
+            "独立游戏",
+            "触觉反馈"
+          ],
+          "sources": [
+            {
+              "title": "PlayStation Blog：发行商介绍",
+              "url": "https://blog.playstation.com/2026/11/06/hozy-brings-calm-tactile-home-restoration-to-ps5-on-november-9/"
+            },
+            {
+              "title": "Xbox Wire：主机发售日历",
+              "url": "https://news.xbox.com/en-us/2026/11/06/next-week-on-xbox-new-games-for-november-9-to-13/"
+            },
+            {
+              "title": "Gematsu：平台与 PC 版背景",
+              "url": "https://www.gematsu.com/2026/11/hozy-for-ps5-xbox-series-launches-november-9"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://blog.playstation.com/tachyon/2048/11/e764de8347a5d741a749dd7bb7f43be000c90034.jpg?crop_strategy=smart&resize=1088%2C612",
+              "alt": "《Hozy》PlayStation 官方配图",
+              "sourceUrl": "https://blog.playstation.com/2026/11/06/hozy-brings-calm-tactile-home-restoration-to-ps5-on-november-9/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "daily-brief-2026-11-08",
       "collectionId": "daily-brief",
