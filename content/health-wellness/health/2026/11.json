@@ -2,8 +2,115 @@
   "schemaVersion": 1,
   "collectionId": "health",
   "month": "2026-11",
-  "updatedAt": "2026-11-08T01:21:02.898Z",
+  "updatedAt": "2026-11-09T01:19:38Z",
   "briefs": [
+    {
+      "id": "health-2026-11-09",
+      "collectionId": "health",
+      "date": "2026-11-09",
+      "title": "健康｜2026-11-09",
+      "summary": "关注基层高血压管理、肥胖合并心衰的减重药机制证据，以及入冬后的居家安全。",
+      "analysis": "临床试验要按入组人群与终点解读；季节性提示可用于复查居家及集体场所的预防措施。",
+      "rawText": "# 健康｜2026-11-09\n\n## 今日 Top 3\n\n### 1. 基层团队管理试验：18个月收缩压比常规照护多降约10毫米汞柱\n\n**11月8日｜JAMA 同行评审整群随机试验**\n\n哥伦比亚和牙买加40家基层诊所按诊所随机，纳入1706名血压未控制的成人，1574人进入主要分析。18个月时，单片复方加团队照护组收缩压下降19.1毫米汞柱，常规照护组下降9.0毫米汞柱，相差10.1毫米汞柱。试验未设盲，且诊所在招募前已分组，可能存在选择偏差；该设计不能分离药物、家庭监测和健康辅导各自的贡献。\n\n**为什么值得关注：**5/5：结果直接关系到基层如何改善血压控制，适用于评估类似资源受限诊所的整套服务方案；不能据此选药或断言减少了心梗、卒中。\n\n缺图：期刊图表仅核验到带到期签名的链接，未采用。\n\n来源：[JAMA 原始试验](https://jamanetwork.com/journals/jama/fullarticle/2856399)；[JAMA 研究摘要](https://jamanetwork.com/journals/jama/fullarticle/2856398)\n\n### 2. 肥胖合并特定心衰：司美格鲁肽试验降低运动时心脏充盈压力\n\n**11月8日｜Nature Medicine 同行评审双盲随机试验**\n\n81名肥胖合并射血分数保留型心衰（HFpEF）的患者随机接受司美格鲁肽或安慰剂，共52周。低强度运动时，有创测得的肺动脉楔压变化在司美格鲁肽组比安慰剂组低10.6毫米汞柱（95%置信区间：低8.0至13.3）。这是小样本的机制试验，主要终点是压力指标，无法据此判断长期住院、死亡或停药后体重能否维持。\n\n**为什么值得关注：**4/5：为肥胖合并HFpEF的管理补充了生理证据；长期管理仍需兼顾体重维持与胃肠道等不良反应。中国和美国已有司美格鲁肽注射剂用于符合条件者长期体重管理的批准，本论文不是HFpEF适应证的获批公告，也不能外推到一般减重人群。\n\n缺图：未找到可稳定直连的本试验图，不用其他试验或药品宣传图替代。\n\n来源：[Nature Medicine 原始论文](https://www.nature.com/articles/s41591-026-04762-3)；[Mayo Clinic 试验登记页](https://www.mayo.edu/research/clinical-trials/cls-20532588)；[美国处方说明书](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee06186f-2aa3-4990-a760-757579d8f77b)；[中国体重管理获批公告](https://www.novonordisk.com.cn/content/dam/nncorp/cn/zh_cn/ir-materials/pdfs/2024/2024062501.pdf)\n\n### 3. 中国疾控11月风险提示：冬季取暖留意一氧化碳\n\n**11月7日｜中国疾控中心季节性风险提示（近7天补录）**\n\n中国疾控中心提醒，11月至次年3月是一氧化碳中毒多发期，密闭或通风不良处用煤炭、燃气设备取暖或烧烤需特别留意。公告也指出，诺如病毒胃肠炎目前处于较低水平，入冬后学校和托幼机构等集体场所的聚集风险可能增加。此为季节性风险提示，不提供某个地区的实时病例或发生率。\n\n**为什么值得关注：**3/5：家庭可用来检查通风、燃气设备与一氧化碳报警器；学校和托幼机构可复核洗手与呕吐物处置流程。\n\n![美国CDC关于一氧化碳报警器与便携式发电机的安全图解](https://pbs.twimg.com/media/FOtBAQHWYAYzjFk.png)\n\n[图源](https://x.com/CDCEnvironment/status/1507369975601897496)：防护资料图，便携式发电机示例；不是中国11月监测图。\n\n来源：[中国疾控中心：11月健康风险提示](https://www.chinacdc.cn/jkts/ydjkfxts/202611/t20261107_1842814.html)\n\n本文为健康资讯与一般科普。\n",
+      "completeness": "full",
+      "sourceConversation": "健康",
+      "provenance": "生成时间 2026-11-09T01:19:38Z；按北京时间优先检索近24小时，必要时回溯至11月3日，核对近日报告去重。检索中国疾控、卫健部门、WHO、FDA、AHA、JAMA、NEJM、Nature Medicine 等公共卫生与医学来源。",
+      "score": 5,
+      "items": [
+        {
+          "id": "health-2026-11-09-catch-hypertension",
+          "category": "医学",
+          "title": "基层团队管理试验：18个月收缩压比常规照护多降约10毫米汞柱",
+          "publishedAt": "11月8日｜JAMA 同行评审整群随机试验",
+          "importance": 5,
+          "tags": [
+            "高血压",
+            "基层医疗",
+            "家庭血压监测",
+            "整群随机试验"
+          ],
+          "summary": "哥伦比亚和牙买加40家基层诊所按诊所随机，纳入1706名血压未控制的成人，1574人进入主要分析。18个月时，单片复方加团队照护组收缩压下降19.1毫米汞柱，常规照护组下降9.0毫米汞柱，相差10.1毫米汞柱。试验未设盲，且诊所在招募前已分组，可能存在选择偏差；该设计不能分离药物、家庭监测和健康辅导各自的贡献。",
+          "analysis": "5/5：结果直接关系到基层如何改善血压控制，适用于评估类似资源受限诊所的整套服务方案；不能据此选药或断言减少了心梗、卒中。",
+          "sources": [
+            {
+              "title": "JAMA 原始试验",
+              "url": "https://jamanetwork.com/journals/jama/fullarticle/2856399"
+            },
+            {
+              "title": "JAMA 研究摘要",
+              "url": "https://jamanetwork.com/journals/jama/fullarticle/2856398"
+            }
+          ],
+          "images": [],
+          "imageNote": "期刊图表仅核验到带到期签名的链接，未采用。"
+        },
+        {
+          "id": "health-2026-11-09-cameo-sema",
+          "category": "减重",
+          "title": "肥胖合并特定心衰：司美格鲁肽试验降低运动时心脏充盈压力",
+          "publishedAt": "11月8日｜Nature Medicine 同行评审双盲随机试验",
+          "importance": 4,
+          "tags": [
+            "司美格鲁肽",
+            "肥胖",
+            "HFpEF",
+            "体重管理",
+            "随机试验"
+          ],
+          "summary": "81名肥胖合并射血分数保留型心衰（HFpEF）的患者随机接受司美格鲁肽或安慰剂，共52周。低强度运动时，有创测得的肺动脉楔压变化在司美格鲁肽组比安慰剂组低10.6毫米汞柱（95%置信区间：低8.0至13.3）。这是小样本的机制试验，主要终点是压力指标，无法据此判断长期住院、死亡或停药后体重能否维持。",
+          "analysis": "4/5：为肥胖合并HFpEF的管理补充了生理证据；长期管理仍需兼顾体重维持与胃肠道等不良反应。中国和美国已有司美格鲁肽注射剂用于符合条件者长期体重管理的批准，本论文不是HFpEF适应证的获批公告，也不能外推到一般减重人群。",
+          "sources": [
+            {
+              "title": "Nature Medicine 原始论文",
+              "url": "https://www.nature.com/articles/s41591-026-04762-3"
+            },
+            {
+              "title": "Mayo Clinic 试验登记页",
+              "url": "https://www.mayo.edu/research/clinical-trials/cls-20532588"
+            },
+            {
+              "title": "美国处方说明书",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ee06186f-2aa3-4990-a760-757579d8f77b"
+            },
+            {
+              "title": "中国体重管理获批公告",
+              "url": "https://www.novonordisk.com.cn/content/dam/nncorp/cn/zh_cn/ir-materials/pdfs/2024/2024062501.pdf"
+            }
+          ],
+          "images": [],
+          "imageNote": "未找到可稳定直连的本试验图，不用其他试验或药品宣传图替代。"
+        },
+        {
+          "id": "health-2026-11-09-china-cdc-nov-risks",
+          "category": "健康",
+          "title": "中国疾控11月风险提示：冬季取暖留意一氧化碳",
+          "publishedAt": "11月7日｜中国疾控中心季节性风险提示（近7天补录）",
+          "importance": 3,
+          "tags": [
+            "一氧化碳",
+            "冬季取暖",
+            "诺如病毒",
+            "公共卫生"
+          ],
+          "summary": "中国疾控中心提醒，11月至次年3月是一氧化碳中毒多发期，密闭或通风不良处用煤炭、燃气设备取暖或烧烤需特别留意。公告也指出，诺如病毒胃肠炎目前处于较低水平，入冬后学校和托幼机构等集体场所的聚集风险可能增加。此为季节性风险提示，不提供某个地区的实时病例或发生率。",
+          "analysis": "3/5：家庭可用来检查通风、燃气设备与一氧化碳报警器；学校和托幼机构可复核洗手与呕吐物处置流程。",
+          "sources": [
+            {
+              "title": "中国疾控中心：11月健康风险提示",
+              "url": "https://www.chinacdc.cn/jkts/ydjkfxts/202611/t20261107_1842814.html"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://pbs.twimg.com/media/FOtBAQHWYAYzjFk.png",
+              "alt": "美国CDC关于一氧化碳报警器与便携式发电机的安全图解",
+              "sourceUrl": "https://x.com/CDCEnvironment/status/1507369975601897496",
+              "caption": "防护资料图，便携式发电机示例；不是中国11月监测图。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "health-2026-11-08",
       "collectionId": "health",
