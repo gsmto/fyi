@@ -2,8 +2,117 @@
   "schemaVersion": 1,
   "collectionId": "health",
   "month": "2026-11",
-  "updatedAt": "2026-11-09T01:19:38Z",
+  "updatedAt": "2026-11-10T01:23:15Z",
   "briefs": [
+    {
+      "id": "health-2026-11-10",
+      "date": "2026-11-10",
+      "title": "健康｜2026-11-10",
+      "collectionId": "health",
+      "sourceConversation": "健康",
+      "completeness": "full",
+      "summary": "三条 11 月 9 日新增：GLP-1 类药罕见眼病警示、美国卒中二级预防新批准、在研减重药心血管安全性数据。",
+      "analysis": "按人群影响、证据强度和监管意义排序：5 分为影响用药沟通的监管措施，4 分为重要但仍处研发阶段的随机试验证据。",
+      "rawText": "# 健康｜2026-11-10\n\n## 今日 Top 3\n\n三条 11 月 9 日新增：GLP-1 类药罕见眼病警示、美国卒中二级预防新批准、在研减重药心血管安全性数据。\n\n### 1. 美国 FDA 要求 GLP-1 类药补充罕见视神经病变警示\n\n11 月 9 日，美国 FDA 要求相关药品说明书加入非动脉炎性前部缺血性视神经病变（NAION）的潜在风险，涉及用于长期体重管理的 Wegovy、Zepbound 等已获批药物，并未改变适应证。FDA 汇总 126 项随机试验，按随访人年计，用药组和安慰剂或其他降糖药对照组分别为每 10 万人年 6.4 和 3.8 例。病例很少，且分析汇总了不同药物和人群，不能据此估算单个品种或个人的风险。\n\n**为什么值得关注：**对长期体重管理而言，能否安全持续使用与体重变化同样重要。FDA 提醒突然出现单眼无痛视力下降应立即就医；是否继续用药由患者与医生讨论。\n\n*缺图：FDA 通告未提供对应图片，媒体药品照片直链未能验证。*\n\n来源：[FDA 安全通告](https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential)；[美国 NIDDK：长期体重管理处方药](https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity)\n\n### 2. 美国批准 asundexian 用于部分患者预防卒中复发\n\n11 月 9 日，美国 FDA 批准 Sunharbo（asundexian）与抗血小板治疗合用，适用于近期轻至中度非心源性缺血性卒中或高危短暂性脑缺血发作的成人。FDA 审评依据为 12,327 名成人参加的双盲随机三期试验；两组均使用抗血小板治疗，中位用药 14.2 个月，药物组缺血性卒中相对风险比安慰剂组低 26%。总体大出血发生率相近，但 FDA 提示 75 岁以上及用药最初 90 天的大出血风险增加，胃肠道出血也更常见。\n\n**为什么值得关注：**这是特定人群的美国二级预防新选择；该批准不适用于房颤相关卒中预防，也不代表其他地区已批准。\n\n![美国心脏协会年会 OCEANIC-STROKE 试验访谈画面](https://professional.heart.org/en/-/media/PHD-Images/Video-Thumbnails/s/SESSIONS/SS26/video_thumbnail_ss26_oceanic_stroke.jpg?h=346&iar=0&mw=600&sc_lang=en&w=600)\n\n试验会议访谈画面，非监管批准现场。 [图片出处](https://professional.heart.org/en/meetings/scientific-sessions/science-news-from-scientificsessions26)\n\n来源：[FDA 批准公告](https://www.fda.gov/news-events/press-announcements/fda-approves-first-factor-xla-inhibitor-help-prevent-stroke-certain-adults-high-risk)；[《新英格兰医学杂志》试验论文](https://www.nejm.org/doi/full/10.1056/NEJMoa2513880)\n\n### 3. 在研减重药 survodutide 达到心血管安全性试验目标\n\n11 月 9 日，美国心脏协会年会公布 5,507 人参加的三期双盲随机试验，纳入超重或肥胖且心血管风险较高的成人。与安慰剂相比，包含心血管死亡、非致死事件、血运重建和心衰事件的复合终点达到预设非劣效标准（风险比 0.89，95% 置信区间 0.67–1.18），未证明可减少这些事件。研究也报告 72 周体重和腰围下降；胃肠道不良反应导致停药更常见，且结果不能直接外推到低风险人群。\n\n**为什么值得关注：**试验把评估从减重幅度扩展到心血管结局和耐受性；停药后能否维持体重仍需专门数据。该药仍在研，本次结果不是上市批准。\n\n![美国心脏协会年会 SYNCHRONIZE-CVOT 研究结果访谈画面](https://professional.heart.org/en/-/media/PHD-Images/Video-Thumbnails/s/SESSIONS/SS26/video_thumbnail_ss26_synchronize.jpg?h=346&iar=0&mw=600&sc_lang=en&w=600)\n\n[图片出处](https://professional.heart.org/en/meetings/scientific-sessions/science-news-from-scientificsessions26)\n\n来源：[美国心脏协会：试验数据摘要](https://professional.heart.org/en/-/media/PHD-Files/Meetings/Scientific-Sessions/2026/scinews/Synchronize-CVOT.pdf?sc_lang=en)；[《柳叶刀》论文 DOI](https://doi.org/10.1016/S0140-6736(26)02140-9)；[试验申办方：数值与不良反应](https://www.boehringer-ingelheim.com/us/human-health/metabolic-diseases/obesity/synchronize-cvot-trial-results-presented-aha)\n\n按人群影响、证据强度和监管意义排序：5 分为影响用药沟通的监管措施，4 分为重要但仍处研发阶段的随机试验证据。\n",
+      "score": 5,
+      "provenance": "生成时间 2026-11-10T01:23:15Z；以北京时间最近 24 小时为主，补查近 7 日国内卫健与疾控、WHO、美国 FDA、专业学会和期刊，并与近期健康归档去重。",
+      "items": [
+        {
+          "id": "health-2026-11-10-fda-glp1-naion",
+          "title": "美国 FDA 要求 GLP-1 类药补充罕见视神经病变警示",
+          "category": "减重",
+          "summary": "11 月 9 日，美国 FDA 要求相关药品说明书加入非动脉炎性前部缺血性视神经病变（NAION）的潜在风险，涉及用于长期体重管理的 Wegovy、Zepbound 等已获批药物，并未改变适应证。FDA 汇总 126 项随机试验，按随访人年计，用药组和安慰剂或其他降糖药对照组分别为每 10 万人年 6.4 和 3.8 例。病例很少，且分析汇总了不同药物和人群，不能据此估算单个品种或个人的风险。",
+          "analysis": "对长期体重管理而言，能否安全持续使用与体重变化同样重要。FDA 提醒突然出现单眼无痛视力下降应立即就医；是否继续用药由患者与医生讨论。",
+          "importance": 5,
+          "tags": [
+            "GLP-1",
+            "减重药安全",
+            "NAION",
+            "美国 FDA"
+          ],
+          "sources": [
+            {
+              "title": "FDA 安全通告",
+              "url": "https://www.fda.gov/drugs/drug-safety-communications/fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras-due-potential"
+            },
+            {
+              "title": "美国 NIDDK：长期体重管理处方药",
+              "url": "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "health-2026-11-10-asundexian-fda-stroke",
+          "title": "美国批准 asundexian 用于部分患者预防卒中复发",
+          "category": "医学",
+          "summary": "11 月 9 日，美国 FDA 批准 Sunharbo（asundexian）与抗血小板治疗合用，适用于近期轻至中度非心源性缺血性卒中或高危短暂性脑缺血发作的成人。FDA 审评依据为 12,327 名成人参加的双盲随机三期试验；两组均使用抗血小板治疗，中位用药 14.2 个月，药物组缺血性卒中相对风险比安慰剂组低 26%。总体大出血发生率相近，但 FDA 提示 75 岁以上及用药最初 90 天的大出血风险增加，胃肠道出血也更常见。",
+          "analysis": "这是特定人群的美国二级预防新选择；该批准不适用于房颤相关卒中预防，也不代表其他地区已批准。",
+          "importance": 5,
+          "tags": [
+            "卒中",
+            "二级预防",
+            "asundexian",
+            "美国 FDA",
+            "随机试验"
+          ],
+          "sources": [
+            {
+              "title": "FDA 批准公告",
+              "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-factor-xla-inhibitor-help-prevent-stroke-certain-adults-high-risk"
+            },
+            {
+              "title": "《新英格兰医学杂志》试验论文",
+              "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2513880"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://professional.heart.org/en/-/media/PHD-Images/Video-Thumbnails/s/SESSIONS/SS26/video_thumbnail_ss26_oceanic_stroke.jpg?h=346&iar=0&mw=600&sc_lang=en&w=600",
+              "alt": "美国心脏协会年会 OCEANIC-STROKE 试验访谈画面",
+              "sourceUrl": "https://professional.heart.org/en/meetings/scientific-sessions/science-news-from-scientificsessions26",
+              "caption": "试验会议访谈画面，非监管批准现场。"
+            }
+          ]
+        },
+        {
+          "id": "health-2026-11-10-survodutide-cvot",
+          "title": "在研减重药 survodutide 达到心血管安全性试验目标",
+          "category": "减重",
+          "summary": "11 月 9 日，美国心脏协会年会公布 5,507 人参加的三期双盲随机试验，纳入超重或肥胖且心血管风险较高的成人。与安慰剂相比，包含心血管死亡、非致死事件、血运重建和心衰事件的复合终点达到预设非劣效标准（风险比 0.89，95% 置信区间 0.67–1.18），未证明可减少这些事件。研究也报告 72 周体重和腰围下降；胃肠道不良反应导致停药更常见，且结果不能直接外推到低风险人群。",
+          "analysis": "试验把评估从减重幅度扩展到心血管结局和耐受性；停药后能否维持体重仍需专门数据。该药仍在研，本次结果不是上市批准。",
+          "importance": 4,
+          "tags": [
+            "survodutide",
+            "肥胖",
+            "心血管安全",
+            "三期随机试验",
+            "长期体重管理"
+          ],
+          "sources": [
+            {
+              "title": "美国心脏协会：试验数据摘要",
+              "url": "https://professional.heart.org/en/-/media/PHD-Files/Meetings/Scientific-Sessions/2026/scinews/Synchronize-CVOT.pdf?sc_lang=en"
+            },
+            {
+              "title": "《柳叶刀》论文 DOI",
+              "url": "https://doi.org/10.1016/S0140-6736(26)02140-9"
+            },
+            {
+              "title": "试验申办方：数值与不良反应",
+              "url": "https://www.boehringer-ingelheim.com/us/human-health/metabolic-diseases/obesity/synchronize-cvot-trial-results-presented-aha"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://professional.heart.org/en/-/media/PHD-Images/Video-Thumbnails/s/SESSIONS/SS26/video_thumbnail_ss26_synchronize.jpg?h=346&iar=0&mw=600&sc_lang=en&w=600",
+              "alt": "美国心脏协会年会 SYNCHRONIZE-CVOT 研究结果访谈画面",
+              "sourceUrl": "https://professional.heart.org/en/meetings/scientific-sessions/science-news-from-scientificsessions26"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "health-2026-11-09",
       "collectionId": "health",
