@@ -2,8 +2,235 @@
   "schemaVersion": 1,
   "collectionId": "games",
   "month": "2026-11",
-  "updatedAt": "2026-11-09T01:14:50Z",
+  "updatedAt": "2026-11-10T01:11:51Z",
   "briefs": [
+    {
+      "id": "games-2026-11-10",
+      "date": "2026-11-10",
+      "title": "游戏｜2026-11-10",
+      "collectionId": "games",
+      "sourceConversation": "游戏",
+      "summary": "国内关注《最后的鸡堡》抢先体验与 Farlands 的新玩法细节；国外关注《Atelier Karia》新预告、《Beholder 4》公布，以及两款独立游戏的上线节点。",
+      "analysis": "今天最值得区分的是公告日、实际开玩时间和版本状态：Farlands 的新介绍不是新开服，《DREADMOOR》和《最后的鸡堡》仍是抢先体验，《狸狸：胖哒的夏日》则要看各区商店解锁时间。",
+      "rawText": "# 游戏｜2026-11-10\n\n## 今日重点\n\n国内关注《最后的鸡堡》抢先体验与 Farlands 的新玩法细节；国外关注《Atelier Karia》新预告、《Beholder 4》公布，以及两款独立游戏的上线节点。\n\n## 国内\n\n### 《FragPunk》详解常驻货运模式 Farlands\n\n网易旗下 Bad Guitar Studio 11 月 9 日通过 Xbox Wire 详解 Farlands；官网公告确认该模式已于 11 月 5 日开启抢先体验。国际版已在 PC 与主机开放，Xbox 公告确认可免费进入；本次未核实国服是否同步。模式采用五天一轮的持续服务器，天气、敌对势力和其他玩家会改变货运路线的风险。\n\n![Farlands 的载具设施画面](https://xboxwire.thesourcemediaassets.com/sites/2/2026/11/Vehicle-Station-Upgrade-f045f70d56e9a09be2c7.png)\n\n[图片出处](https://news.xbox.com/en-us/2026/11/09/fragpunk-farlands-early-access/)\n\n**为什么值得关注：**这是从 5v5 竞技扩展到长线 PvPvE 的一次实质性改动；官方明确本轮测试结束后会清除等级、资源和装备等进度。\n\n**来源：** [Xbox Wire 开发者说明](https://news.xbox.com/en-us/2026/11/09/fragpunk-farlands-early-access/) · [游戏官网更新公告](https://www.fragpunk.com/news/update/20261104/40588_1318642.html)\n\n### 国产动作 RPG《最后的鸡堡》开启抢先体验\n\n野人游戏开发的《最后的鸡堡》已登陆 Windows PC 的 Steam 抢先体验，国内报道确认于北京时间 11 月 9 日下午上线；Steam 英文页面显示 11 月 8 日，SteamDB 的购买包记录为 11 月 9 日。游戏让玩家从角斗场求生走向据点经营，每件武器仅有一种招式，敌人也会拾取装备和药品。当前版本主线尚未完结，商店另提供免费试玩。\n\n![《最后的鸡堡》Steam 商店主图](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/724930/23ffc3e4cb23d1643d00f54bac57cae20f606ee1/header_alt_assets_0.jpg?t=1794208524)\n\n[图片出处](https://store.steampowered.com/app/724930/Last_Chickenburg/)\n\n**为什么值得关注：**单招式武器、环境互动和敌我共用规则，是值得试玩验证的战斗设计；想一次体验完整主线的玩家可以等 1.0。\n\n**来源：** [Steam 商店](https://store.steampowered.com/app/724930/Last_Chickenburg/) · [3DM 国内上线报道](https://www.3dmgame.com/news/202611/3959397.html) · [SteamDB 发售记录](https://steamdb.info/sub/210879/)\n\n## 国外\n\n### 《Atelier Karia》公开剧情预告和据点玩法\n\n日本光荣特库摩与 Gust 于 11 月 9 日发布新剧情预告，并介绍地下世界 Noctrem 的据点建设与聚餐系统。部分家具能改变掉落或探索收益；聚餐可提升同伴羁绊，进而解锁对话和个人结局。数字版开启预购，已公布的 2027 年 2 月 25 日发售日维持不变，平台为 PS5、Xbox Series X|S、Switch 2 和 Steam。\n\n![光荣特库摩新闻稿中的《Atelier Karia》配图](https://drive.tiny.cloud/1/ggf8bwzagojfb4qeq2jai4ft6bp20j75mp4u5mhwezq5f4cb/6ac88606-a904-4410-9471-64bddd91d5a6)\n\n[图片出处](https://www.gamespress.com/Delve-into-Aladiss-Mysterious-Underworld-in-Atelier-Karia-The-Night-Ki)\n\n**为什么值得关注：**这次展示说明据点布置会影响战斗和探索收益，角色关系也会改变结局，是系列玩家判断新作玩法取向的直接依据。\n\n**来源：** [光荣特库摩美国分公司新闻稿](https://www.gamespress.com/Delve-into-Aladiss-Mysterious-Underworld-in-Atelier-Karia-The-Night-Ki) · [Gematsu 发布会报道](https://www.gematsu.com/2026/11/atelier-karia-the-night-kingdom-the-guide-of-memories-story-trailer-digital-pre-orders-now-available)\n\n### 《Beholder 4》正式公布，玩家将扮演双面官员\n\nAlawar 于 11 月 9 日正式公布反乌托邦叙事系列新作《Beholder 4》，并放出先导预告。主角在政府部门任职，同时为地下抵抗组织行动，要在警方突袭前处理证据，并在不同派系之间周旋。目前仅确认 PC（Steam），已开放愿望单，未给出发售日期。\n\n![《Beholder 4》Steam 商店主图](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5522030/4d06edbc3dcb84d601c9684cea0aa18a761ca861/header.jpg?t=1794256807)\n\n[图片出处](https://store.steampowered.com/app/5522030/Beholder_4/)\n\n**为什么值得关注：**这一作将监视压力转向玩家自己；双重身份及突击搜查是本次公开最值得追踪的变化。\n\n**来源：** [Steam 商店](https://store.steampowered.com/app/5522030/Beholder_4/) · [Alawar 公告](https://www.gamespress.com/en-US/Beholder-4-Revealed-for-the-Series-10th-Anniversary)\n\n### 独立恐怖钓鱼游戏《DREADMOOR》登陆 Steam 抢先体验\n\nDream Dock 开发、Digital Vortex Entertainment 发行的《DREADMOOR》于 11 月 9 日在 PC（Steam）开启抢先体验，支持简体中文字幕及界面。玩家驾驶拖网渔船，在淹没的废土钓鱼、交易和升级船只，并应对水陆怪物。开发者预计抢先体验持续约 6–12 个月，尚无 1.0 的确定日期。\n\n![《DREADMOOR》Steam 商店主图](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3629430/5b80c132b3479c69a92c25a5266db523850cfc36/header.jpg?t=1794233002)\n\n[图片出处](https://store.steampowered.com/app/3629430/DREADMOOR/)\n\n**为什么值得关注：**钓鱼在这里直接影响资源和生存，而非附属小游戏；可先关注首个区域的探索节奏，再判断是否等后续内容。\n\n**来源：** [Steam 商店](https://store.steampowered.com/app/3629430/DREADMOOR/) · [发行方抢先体验公告](https://thegg.net/press-releases/the-lovecraftian-fishing-adventure-dreadmoor-is-out-now-via-steam-ea/)\n\n### 《狸狸：胖哒的夏日》进入多平台发售窗口\n\n日本京都独立团队 Denkiworks 开发、塞浦路斯发行商 CRITICAL REFLEX 发行的《狸狸：胖哒的夏日》，官方档期为 11 月 10 日，覆盖 PC（Steam、Xbox on PC）、Switch／Switch 2、PS4／PS5 和 Xbox Series X|S，并公布将加入 Game Pass。Steam 截稿时尚未解锁，已有免费试玩；各区与各平台的具体开放时间以当地商店为准。游戏以骑 BMX 送货、认识镇民和修复神社为主线，Steam 列有简体中文。\n\n![《狸狸：胖哒的夏日》Steam 商店主图](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3218570/03a5efdc08ce01b4067a4aed0f0601e5de22790b/header.jpg?t=1794260672)\n\n[图片出处](https://store.steampowered.com/app/3218570/TANUKI_Pons_Summer/)\n\n**为什么值得关注：**想先试手感的玩家已有试玩可用；首发多平台对比可关注自行车操作与掌机体验。\n\n**来源：** [Steam 商店](https://store.steampowered.com/app/3218570/TANUKI_Pons_Summer/) · [发行方发售日公告](https://www.gamespress.com/en-US/YOUVE-GOT-MAIL-CRITICAL-REFLEX-DENKIWORKS-REVEAL-NOVEMBER-10-RELEASE-D) · [任天堂美国商店](https://www.nintendo.com/us/store/products/tanuki-pons-summer-switch/)\n\n今天最值得区分的是公告日、实际开玩时间和版本状态：Farlands 的新介绍不是新开服，《DREADMOOR》和《最后的鸡堡》仍是抢先体验，《狸狸：胖哒的夏日》则要看各区商店解锁时间。\n",
+      "completeness": "full",
+      "score": 4,
+      "provenance": "生成时间 2026-11-10T01:11:51Z；按北京时间优先检索 2026-11-09 至 2026-11-10 最近 24 小时的中英文公告、Steam 和主机商店，补核 11 月 5 日 Farlands 开放节点及 11 月 10 日发售档期；与近期游戏归档去重。",
+      "items": [
+        {
+          "id": "games-2026-11-10-fragpunk-farlands",
+          "title": "《FragPunk》详解常驻货运模式 Farlands",
+          "category": "国内",
+          "summary": "网易旗下 Bad Guitar Studio 11 月 9 日通过 Xbox Wire 详解 Farlands；官网公告确认该模式已于 11 月 5 日开启抢先体验。国际版已在 PC 与主机开放，Xbox 公告确认可免费进入；本次未核实国服是否同步。模式采用五天一轮的持续服务器，天气、敌对势力和其他玩家会改变货运路线的风险。",
+          "analysis": "这是从 5v5 竞技扩展到长线 PvPvE 的一次实质性改动；官方明确本轮测试结束后会清除等级、资源和装备等进度。",
+          "importance": 4,
+          "tags": [
+            "FragPunk",
+            "Farlands",
+            "PC",
+            "Xbox Series X|S",
+            "射击",
+            "PvPvE",
+            "抢先体验"
+          ],
+          "sources": [
+            {
+              "title": "Xbox Wire 开发者说明",
+              "url": "https://news.xbox.com/en-us/2026/11/09/fragpunk-farlands-early-access/"
+            },
+            {
+              "title": "游戏官网更新公告",
+              "url": "https://www.fragpunk.com/news/update/20261104/40588_1318642.html"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/11/Vehicle-Station-Upgrade-f045f70d56e9a09be2c7.png",
+              "alt": "Farlands 的载具设施画面",
+              "sourceUrl": "https://news.xbox.com/en-us/2026/11/09/fragpunk-farlands-early-access/"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-10-last-chickenburg",
+          "title": "国产动作 RPG《最后的鸡堡》开启抢先体验",
+          "category": "国内",
+          "summary": "野人游戏开发的《最后的鸡堡》已登陆 Windows PC 的 Steam 抢先体验，国内报道确认于北京时间 11 月 9 日下午上线；Steam 英文页面显示 11 月 8 日，SteamDB 的购买包记录为 11 月 9 日。游戏让玩家从角斗场求生走向据点经营，每件武器仅有一种招式，敌人也会拾取装备和药品。当前版本主线尚未完结，商店另提供免费试玩。",
+          "analysis": "单招式武器、环境互动和敌我共用规则，是值得试玩验证的战斗设计；想一次体验完整主线的玩家可以等 1.0。",
+          "importance": 3,
+          "tags": [
+            "最后的鸡堡",
+            "Last Chickenburg",
+            "Windows",
+            "Steam",
+            "动作 RPG",
+            "独立游戏",
+            "抢先体验"
+          ],
+          "sources": [
+            {
+              "title": "Steam 商店",
+              "url": "https://store.steampowered.com/app/724930/Last_Chickenburg/"
+            },
+            {
+              "title": "3DM 国内上线报道",
+              "url": "https://www.3dmgame.com/news/202611/3959397.html"
+            },
+            {
+              "title": "SteamDB 发售记录",
+              "url": "https://steamdb.info/sub/210879/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/724930/23ffc3e4cb23d1643d00f54bac57cae20f606ee1/header_alt_assets_0.jpg?t=1794208524",
+              "alt": "《最后的鸡堡》Steam 商店主图",
+              "sourceUrl": "https://store.steampowered.com/app/724930/Last_Chickenburg/"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-10-atelier-karia",
+          "title": "《Atelier Karia》公开剧情预告和据点玩法",
+          "category": "国外",
+          "summary": "日本光荣特库摩与 Gust 于 11 月 9 日发布新剧情预告，并介绍地下世界 Noctrem 的据点建设与聚餐系统。部分家具能改变掉落或探索收益；聚餐可提升同伴羁绊，进而解锁对话和个人结局。数字版开启预购，已公布的 2027 年 2 月 25 日发售日维持不变，平台为 PS5、Xbox Series X|S、Switch 2 和 Steam。",
+          "analysis": "这次展示说明据点布置会影响战斗和探索收益，角色关系也会改变结局，是系列玩家判断新作玩法取向的直接依据。",
+          "importance": 4,
+          "tags": [
+            "Atelier Karia",
+            "炼金工房",
+            "PS5",
+            "Xbox Series X|S",
+            "Switch 2",
+            "Steam",
+            "JRPG"
+          ],
+          "sources": [
+            {
+              "title": "光荣特库摩美国分公司新闻稿",
+              "url": "https://www.gamespress.com/Delve-into-Aladiss-Mysterious-Underworld-in-Atelier-Karia-The-Night-Ki"
+            },
+            {
+              "title": "Gematsu 发布会报道",
+              "url": "https://www.gematsu.com/2026/11/atelier-karia-the-night-kingdom-the-guide-of-memories-story-trailer-digital-pre-orders-now-available"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://drive.tiny.cloud/1/ggf8bwzagojfb4qeq2jai4ft6bp20j75mp4u5mhwezq5f4cb/6ac88606-a904-4410-9471-64bddd91d5a6",
+              "alt": "光荣特库摩新闻稿中的《Atelier Karia》配图",
+              "sourceUrl": "https://www.gamespress.com/Delve-into-Aladiss-Mysterious-Underworld-in-Atelier-Karia-The-Night-Ki"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-10-beholder-4",
+          "title": "《Beholder 4》正式公布，玩家将扮演双面官员",
+          "category": "国外",
+          "summary": "Alawar 于 11 月 9 日正式公布反乌托邦叙事系列新作《Beholder 4》，并放出先导预告。主角在政府部门任职，同时为地下抵抗组织行动，要在警方突袭前处理证据，并在不同派系之间周旋。目前仅确认 PC（Steam），已开放愿望单，未给出发售日期。",
+          "analysis": "这一作将监视压力转向玩家自己；双重身份及突击搜查是本次公开最值得追踪的变化。",
+          "importance": 4,
+          "tags": [
+            "Beholder 4",
+            "PC",
+            "Steam",
+            "叙事冒险",
+            "政治模拟"
+          ],
+          "sources": [
+            {
+              "title": "Steam 商店",
+              "url": "https://store.steampowered.com/app/5522030/Beholder_4/"
+            },
+            {
+              "title": "Alawar 公告",
+              "url": "https://www.gamespress.com/en-US/Beholder-4-Revealed-for-the-Series-10th-Anniversary"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/5522030/4d06edbc3dcb84d601c9684cea0aa18a761ca861/header.jpg?t=1794256807",
+              "alt": "《Beholder 4》Steam 商店主图",
+              "sourceUrl": "https://store.steampowered.com/app/5522030/Beholder_4/"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-10-dreadmoor-early-access",
+          "title": "独立恐怖钓鱼游戏《DREADMOOR》登陆 Steam 抢先体验",
+          "category": "国外",
+          "summary": "Dream Dock 开发、Digital Vortex Entertainment 发行的《DREADMOOR》于 11 月 9 日在 PC（Steam）开启抢先体验，支持简体中文字幕及界面。玩家驾驶拖网渔船，在淹没的废土钓鱼、交易和升级船只，并应对水陆怪物。开发者预计抢先体验持续约 6–12 个月，尚无 1.0 的确定日期。",
+          "analysis": "钓鱼在这里直接影响资源和生存，而非附属小游戏；可先关注首个区域的探索节奏，再判断是否等后续内容。",
+          "importance": 3,
+          "tags": [
+            "DREADMOOR",
+            "PC",
+            "Steam",
+            "独立游戏",
+            "生存恐怖",
+            "抢先体验"
+          ],
+          "sources": [
+            {
+              "title": "Steam 商店",
+              "url": "https://store.steampowered.com/app/3629430/DREADMOOR/"
+            },
+            {
+              "title": "发行方抢先体验公告",
+              "url": "https://thegg.net/press-releases/the-lovecraftian-fishing-adventure-dreadmoor-is-out-now-via-steam-ea/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3629430/5b80c132b3479c69a92c25a5266db523850cfc36/header.jpg?t=1794233002",
+              "alt": "《DREADMOOR》Steam 商店主图",
+              "sourceUrl": "https://store.steampowered.com/app/3629430/DREADMOOR/"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-10-tanuki-pons-summer",
+          "title": "《狸狸：胖哒的夏日》进入多平台发售窗口",
+          "category": "国外",
+          "summary": "日本京都独立团队 Denkiworks 开发、塞浦路斯发行商 CRITICAL REFLEX 发行的《狸狸：胖哒的夏日》，官方档期为 11 月 10 日，覆盖 PC（Steam、Xbox on PC）、Switch／Switch 2、PS4／PS5 和 Xbox Series X|S，并公布将加入 Game Pass。Steam 截稿时尚未解锁，已有免费试玩；各区与各平台的具体开放时间以当地商店为准。游戏以骑 BMX 送货、认识镇民和修复神社为主线，Steam 列有简体中文。",
+          "analysis": "想先试手感的玩家已有试玩可用；首发多平台对比可关注自行车操作与掌机体验。",
+          "importance": 3,
+          "tags": [
+            "狸狸：胖哒的夏日",
+            "TANUKI: Pon’s Summer",
+            "Steam",
+            "Switch",
+            "Switch 2",
+            "PS4",
+            "PS5",
+            "Xbox Series X|S",
+            "独立游戏",
+            "生活模拟"
+          ],
+          "sources": [
+            {
+              "title": "Steam 商店",
+              "url": "https://store.steampowered.com/app/3218570/TANUKI_Pons_Summer/"
+            },
+            {
+              "title": "发行方发售日公告",
+              "url": "https://www.gamespress.com/en-US/YOUVE-GOT-MAIL-CRITICAL-REFLEX-DENKIWORKS-REVEAL-NOVEMBER-10-RELEASE-D"
+            },
+            {
+              "title": "任天堂美国商店",
+              "url": "https://www.nintendo.com/us/store/products/tanuki-pons-summer-switch/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3218570/03a5efdc08ce01b4067a4aed0f0601e5de22790b/header.jpg?t=1794260672",
+              "alt": "《狸狸：胖哒的夏日》Steam 商店主图",
+              "sourceUrl": "https://store.steampowered.com/app/3218570/TANUKI_Pons_Summer/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "games-2026-11-09",
       "collectionId": "games",
