@@ -2,8 +2,148 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-09T01:25:01Z",
+  "updatedAt": "2026-11-10T01:29:11Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-10",
+      "collectionId": "llm",
+      "date": "2026-11-10",
+      "title": "大模型｜2026-11-10",
+      "summary": "Claude 升级并降价，Meta 为高频智能体任务推出 Muse Ember；Google 开源 TPU Sync，ChatGPT Enterprise 新增 AWS 采购渠道。",
+      "analysis": "模型价格、长上下文阶梯和采购渠道各自影响成本；实际部署还需看任务完成率、可用权限和数据留存条件。",
+      "rawText": "# 大模型｜2026-11-10\n\nClaude 升级并降价，Meta 为高频智能体任务推出 Muse Ember；Google 开源 TPU Sync，ChatGPT Enterprise 新增 AWS 采购渠道。\n\n## 1. Claude Fable 5.2／Mythos 5.2 发布，标准 API 费率降两成\n\n2026 年 11 月 9 日，Anthropic 发布共享底层模型的 Fable 5.2 和 Mythos 5.2。Fable 已上 Claude Platform、AWS、Google Cloud 和 Microsoft Azure；标准 API 每百万输入／输出词元 8／40 美元，较 5.1 降 20%，部分渠道的快速模式为 16／80 美元。Mythos 须通过资格审核；GitHub Copilot 上的 Fable 则向 Pro+、Max、Business、Enterprise 分批开放。厂商展示了编码与工程任务的改进，原型演示和厂商评测不能代表一般生产任务。\n\n![Anthropic 与 Diode 公布的三款电子实验原型](https://www.anthropic.com/_next/image?q=75&url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1a999b9164b6d23ac7b94c2dcdf4c9230e26e940-1920x1280.png&w=3840)\n\n[图片出处](https://www.anthropic.com/research/claude-electronics-design)\n\n**为什么值得关注：**评估迁移时，宜用同一批真实任务比较完成率、延迟和重试成本，并核对各渠道的数据保留条件；GitHub 说明该模型默认保留提示和输出用于安全监测。\n\n来源：[Anthropic 发布与定价](https://www.anthropic.com/claude-fable-and-mythos-5-2)；[GitHub Copilot 更新日志](https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot/)；[Anthropic 电子原型研究](https://www.anthropic.com/research/claude-electronics-design)\n\n## 2. Meta 发布 Muse Ember，超过 20 万词元触发更高费率\n\n2026 年 11 月 9 日，Meta 在 Muse Code 和 Meta Model API 发布 `muse-ember-1.0`，支持 Responses API，面向工具调用、抽取和编码子任务。官方公布 100 万词元上下文与最多 51.2 万输出词元；官方价格表中，低于 20 万词元一档每百万输入／缓存输入／输出为 0.10／0.004／0.50 美元，高于 20 万一档为 0.30／0.012／1.50 美元。此次公告确认的是开发者渠道，未宣布开权重或在 Meta AI 消费应用上线。\n\n*缺图：未核实到与此版本直接相关且可稳定公开访问的官方图。*\n\n**为什么值得关注：**长上下文上限不等于低价档可用上限。适合先用自身路由和抽取任务验证成功率与实际账单；Meta 发布稿援引的评测不能直接替代同条件的生产测试。\n\n来源：[Meta 发布公告](https://research.meta.ai/blog/muse-ember)；[Meta 开发者页面与价格表](https://dev.meta.ai/models/muse-ember)\n\n## 3. Google 公布两款 TPU，并公开 TPU Sync 推理工具\n\n2026 年 11 月 9 日，Google 公布 TPU 8tx 和 TPU 8i Max，分别面向机密推理和超长上下文；8i Max 以双芯片封装增加内存带宽。硬件处于公布阶段，未在官方公告中列出可直接订购的地区、价格或日期。同期公开的 TPU Sync 用于跨节点传输模型权重及分层管理 KV 缓存，支持 TPU 推理和强化学习；部分存储后端仍属实验功能。\n\n![Google Cloud 发布的 TPU Sync 架构图](https://storage.googleapis.com/gweb-cloudblog-publish/images/1-architecture_6N0ck5s.max-2100x2100.png)\n\n[图片出处](https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu)\n\n**为什么值得关注：**对维护 TPU 推理服务的团队，开源代码比硬件预告更可立即评估。Google 报告的延迟改善属于其测试结果，应按请求长度、缓存命中率和部署拓扑实测。\n\n来源：[Google Cloud TPU 公告](https://cloud.google.com/blog/topics/ai-infrastructure/tpu-8tx-and-tpu-8i-max)；[Google Cloud TPU Sync 技术说明](https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu)；[Google TPU Sync 官方仓库](https://github.com/google/tpu-sync)；[IT之家中文报道](https://www.ithome.com/1/024/525.htm)\n\n## 4. ChatGPT Enterprise 新增 AWS Marketplace 采购渠道\n\n2026 年 11 月 9 日，OpenAI 宣布 ChatGPT Enterprise 已通过 AWS Marketplace 提供，企业可使用既有 AWS 采购和账单关系，符合条件的支出可计入 AWS 承诺用量。OpenAI 表示通过该渠道购买的版本与直购版功能相同、同步获得新功能；Healthcare 和 Financial Services 版本亦面向符合条件的客户。是否有资格采购需向 OpenAI 或 AWS 客户团队确认。\n\n*缺图：公告未附对应产品图，未采用旧合作配图。*\n\n**为什么值得关注：**此变化主要简化企业采购与账单管理；公告没有宣布 API 调价或新增 Bedrock 模型。\n\n来源：[OpenAI 官方公告](https://openai.com/index/chatgpt-enterprise-aws-marketplace/)\n",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "生成时间 2026-11-10T01:29:11Z；以北京时间最近24小时为主，检索 OpenAI、Anthropic、Google、Meta、xAI 的公开公告、开发者文档及中英文报道，并与本栏目近日报告去重。",
+      "score": 5,
+      "items": [
+        {
+          "id": "llm-2026-11-10-claude-52",
+          "title": "Claude Fable 5.2／Mythos 5.2 发布，标准 API 费率降两成",
+          "category": "Anthropic",
+          "summary": "2026 年 11 月 9 日，Anthropic 发布共享底层模型的 Fable 5.2 和 Mythos 5.2。Fable 已上 Claude Platform、AWS、Google Cloud 和 Microsoft Azure；标准 API 每百万输入／输出词元 8／40 美元，较 5.1 降 20%，部分渠道的快速模式为 16／80 美元。Mythos 须通过资格审核；GitHub Copilot 上的 Fable 则向 Pro+、Max、Business、Enterprise 分批开放。厂商展示了编码与工程任务的改进，原型演示和厂商评测不能代表一般生产任务。",
+          "analysis": "评估迁移时，宜用同一批真实任务比较完成率、延迟和重试成本，并核对各渠道的数据保留条件；GitHub 说明该模型默认保留提示和输出用于安全监测。",
+          "importance": 5,
+          "tags": [
+            "Anthropic",
+            "Claude Fable 5.2",
+            "Claude Mythos 5.2",
+            "API 定价",
+            "GitHub Copilot"
+          ],
+          "sources": [
+            {
+              "title": "Anthropic 发布与定价",
+              "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+            },
+            {
+              "title": "GitHub Copilot 更新日志",
+              "url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot/"
+            },
+            {
+              "title": "Anthropic 电子原型研究",
+              "url": "https://www.anthropic.com/research/claude-electronics-design"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.anthropic.com/_next/image?q=75&url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F1a999b9164b6d23ac7b94c2dcdf4c9230e26e940-1920x1280.png&w=3840",
+              "alt": "Anthropic 与 Diode 公布的三款电子实验原型",
+              "sourceUrl": "https://www.anthropic.com/research/claude-electronics-design"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-10-muse-ember",
+          "title": "Meta 发布 Muse Ember，超过 20 万词元触发更高费率",
+          "category": "Meta",
+          "summary": "2026 年 11 月 9 日，Meta 在 Muse Code 和 Meta Model API 发布 `muse-ember-1.0`，支持 Responses API，面向工具调用、抽取和编码子任务。官方公布 100 万词元上下文与最多 51.2 万输出词元；官方价格表中，低于 20 万词元一档每百万输入／缓存输入／输出为 0.10／0.004／0.50 美元，高于 20 万一档为 0.30／0.012／1.50 美元。此次公告确认的是开发者渠道，未宣布开权重或在 Meta AI 消费应用上线。",
+          "analysis": "长上下文上限不等于低价档可用上限。适合先用自身路由和抽取任务验证成功率与实际账单；Meta 发布稿援引的评测不能直接替代同条件的生产测试。",
+          "importance": 5,
+          "tags": [
+            "Meta",
+            "Muse Ember",
+            "Muse Code",
+            "Meta Model API",
+            "智能体",
+            "长上下文定价"
+          ],
+          "sources": [
+            {
+              "title": "Meta 发布公告",
+              "url": "https://research.meta.ai/blog/muse-ember"
+            },
+            {
+              "title": "Meta 开发者页面与价格表",
+              "url": "https://dev.meta.ai/models/muse-ember"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "llm-2026-11-10-tpu-sync-8",
+          "title": "Google 公布两款 TPU，并公开 TPU Sync 推理工具",
+          "category": "Google",
+          "summary": "2026 年 11 月 9 日，Google 公布 TPU 8tx 和 TPU 8i Max，分别面向机密推理和超长上下文；8i Max 以双芯片封装增加内存带宽。硬件处于公布阶段，未在官方公告中列出可直接订购的地区、价格或日期。同期公开的 TPU Sync 用于跨节点传输模型权重及分层管理 KV 缓存，支持 TPU 推理和强化学习；部分存储后端仍属实验功能。",
+          "analysis": "对维护 TPU 推理服务的团队，开源代码比硬件预告更可立即评估。Google 报告的延迟改善属于其测试结果，应按请求长度、缓存命中率和部署拓扑实测。",
+          "importance": 4,
+          "tags": [
+            "Google Cloud",
+            "TPU 8tx",
+            "TPU 8i Max",
+            "TPU Sync",
+            "KV 缓存",
+            "开源"
+          ],
+          "sources": [
+            {
+              "title": "Google Cloud TPU 公告",
+              "url": "https://cloud.google.com/blog/topics/ai-infrastructure/tpu-8tx-and-tpu-8i-max"
+            },
+            {
+              "title": "Google Cloud TPU Sync 技术说明",
+              "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu"
+            },
+            {
+              "title": "Google TPU Sync 官方仓库",
+              "url": "https://github.com/google/tpu-sync"
+            },
+            {
+              "title": "IT之家中文报道",
+              "url": "https://www.ithome.com/1/024/525.htm"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1-architecture_6N0ck5s.max-2100x2100.png",
+              "alt": "Google Cloud 发布的 TPU Sync 架构图",
+              "sourceUrl": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-tpu-sync-fast-kv-cache-and-weight-transfer-on-tpu"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-10-chatgpt-enterprise-aws",
+          "title": "ChatGPT Enterprise 新增 AWS Marketplace 采购渠道",
+          "category": "OpenAI",
+          "summary": "2026 年 11 月 9 日，OpenAI 宣布 ChatGPT Enterprise 已通过 AWS Marketplace 提供，企业可使用既有 AWS 采购和账单关系，符合条件的支出可计入 AWS 承诺用量。OpenAI 表示通过该渠道购买的版本与直购版功能相同、同步获得新功能；Healthcare 和 Financial Services 版本亦面向符合条件的客户。是否有资格采购需向 OpenAI 或 AWS 客户团队确认。",
+          "analysis": "此变化主要简化企业采购与账单管理；公告没有宣布 API 调价或新增 Bedrock 模型。",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "ChatGPT Enterprise",
+            "AWS Marketplace",
+            "企业采购"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI 官方公告",
+              "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
     {
       "id": "llm-2026-11-09",
       "collectionId": "llm",

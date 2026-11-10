@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
   "collectionId": "llm",
-  "updatedAt": "2026-11-09T01:25:01Z",
+  "updatedAt": "2026-11-10T01:29:11Z",
   "shards": [
     {
       "month": "2026-11",
       "path": "2026/11.json",
-      "briefCount": 8,
-      "itemCount": 36
+      "briefCount": 9,
+      "itemCount": 40
     }
   ]
 }
