@@ -2,8 +2,202 @@
   "schemaVersion": 1,
   "collectionId": "games",
   "month": "2026-11",
-  "updatedAt": "2026-11-10T01:11:51Z",
+  "updatedAt": "2026-11-11T01:12:01.387Z",
   "briefs": [
+    {
+      "id": "games-2026-11-11",
+      "collectionId": "games",
+      "date": "2026-11-11",
+      "title": "游戏｜2026-11-11",
+      "sourceConversation": "游戏",
+      "summary": "Fairgame$取消、天外世界2扩展定档、奇点灰烬II发售；国内未核得重要新增，国外精选六条。",
+      "analysis": "优先确定的发售、更新和行业变化；玩法效果与技术稳定性等待实际版本验证。",
+      "rawText": "# 游戏｜2026-11-11\n\n## 今日重点\n\n《Fairgame$》取消开发、《天外世界2》扩展定档与《奇点灰烬II》正式发售居前；本期六条，主要为11月10日新增，另补录11月9日《黑暗异端》定档。\n\n## 国内\n\n**今日无重要新增。** 已检索国内单机、主机／PC与独立游戏线索，并与近7天归档去重；未核得足以单列的重要新增。11月10日《十五区：星落何处》报道提到Steam页面上线，但开发者网站已有7月15日对应公告，宣传片新增性也未核清，因此不作为新作官宣重复收录。\n\n核对来源：[王妙一工作室早前公告索引](https://wmy-studio.com/cn/categories/15lands/)；[游民星空11月10日报道](https://www.gamersky.com/news/202611/2244107.shtml)。\n\n## 国外\n\n### 1．《Fairgame$》被取消，Haven转为协作支持\n\n11月10日，Gematsu转述彭博报道：索尼确认取消Haven开发的多人射击游戏《Fairgame$》，发言人表示此次取消不会带来裁员，团队将支援集团其他工作室。该作原计划登陆PS5与PC；报道所述内部邮件把试玩反馈及留存未达目标列为原因。这里收录的是媒体获得公司回应的行业事件，未见单独公开官宣。\n\n**为什么值得关注：**这是对主机／PC项目投入与团队分工有实质影响的例外行业新闻；不能从单个项目取消推导所有多人游戏失效。\n\n*缺图：相关报道图片直链访问失败，未用无关图片替代。*\n\n来源：[Gematsu｜转述彭博及索尼发言人回应](https://www.gematsu.com/2026/11/fairgame-canceled)。\n\n### 2．《天外世界2》首章DLC定于12月2日推出\n\nObsidian于11月10日宣布《The Outer Worlds 2》DLC“Side Effects Guaranteed”12月2日登陆PS5、Xbox Series与PC。这是两部曲扩展的第一章，加入Elysium Valley区域、等级上限30→36、新专长和缺陷；第二章计划2027年春季，仍是窗口。同期还将向本体玩家提供洗点等更新，付费剧情与免费功能应分开理解。\n\n**为什么值得关注：**既有玩家获得新的构筑空间和可延续的剧情选择；想直接玩扩展可使用预设角色入口，无需重开完整主线。\n\n![《天外世界2》Side Effects Guaranteed扩展官方主视觉](https://xboxwire.thesourcemediaassets.com/sites/2/2026/11/XBOX_TOW-Expansion_KeyArt_Horizontal-3ff701b040bc3de8c709-1600x900.jpg)\n\n[图片出处](https://news.xbox.com/en-us/2026/11/10/side-effects-guaranteed-the-outer-worlds-2-dlc/)\n\n来源：[Xbox Wire｜Obsidian公告](https://news.xbox.com/en-us/2026/11/10/side-effects-guaranteed-the-outer-worlds-2-dlc/)；[PlayStation Blog｜DLC与免费更新](https://blog.playstation.com/2026/11/10/the-outer-worlds-2s-first-dlc-arrives-december-2/)。\n\n### 3．《奇点灰烬II》正式发售，聚焦大规模RTS\n\nStardock于11月10日宣布《Ashes of the Singularity II》正式登陆PC，可通过Steam或Stardock购买。游戏有单人战役、三阵营遭遇战，以及合作和对战；战略缩放用于在全局和前线间切换。官方称已按公开测试反馈改善平衡、性能与多人稳定性，这不等于独立评测结论。\n\n**为什么值得关注：**喜欢大规模即时战略的玩家有了可实际购买的版本；首发大军团性能仍应按自己的硬件与补丁情况评估。\n\n![《Ashes of the Singularity II》Steam商店主图](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499790/0c833c880e8edbf2f798c92f065ec991cd962a65/header.jpg?t=1794334597)\n\n[图片出处](https://store.steampowered.com/app/3499790/Ashes_of_the_Singularity_II/)\n\n来源：[Stardock正式发售公告](https://forums.stardock.net/542723/humanity-fights-back-ashes-of-the-singularity-ii-is-available-now)。\n\n### 4．《战锤40K：黑暗异端》定档2027年1月28日\n\n补录11月9日尚未收录的重要官宣：Owlcat确认《Warhammer 40,000: Dark Heresy》2027年1月28日登陆PS5、Xbox Series及PC的Steam、Epic、GOG，Switch 2版另择日期。该作是围绕审判庭调查、同伴和战术战斗的队伍制CRPG。当前创始者测试计划2027年1月7日关闭，测试资格并不等于正式发售。\n\n**为什么值得关注：**明确日期便于安排长篇RPG游玩；Switch 2玩家应等待单独日期与版本表现，不能按首批平台购买计划理解。\n\n![《Warhammer 40,000: Dark Heresy》定档报道配图](https://www.gematsu.com/wp-content/uploads/2026/11/Dark-Heresy-Date_11-09-26-320x180.jpg)\n\n[图片出处](https://www.gematsu.com/2026/11/warhammer-40000-dark-heresy-launches-january-28-2027-for-ps5-xbox-series-and-pc-later-for-switch-2)\n\n来源：[Owlcat Steam官方新闻](https://steamcommunity.com/app/3710600/allnews/)；[Gematsu｜多平台日期确认](https://www.gematsu.com/2026/11/warhammer-40000-dark-heresy-launches-january-28-2027-for-ps5-xbox-series-and-pc-later-for-switch-2)。\n\n### 5．《忍者神龟：斯普林特的命运》强化合作构筑\n\nSuper Evil Megacorp于11月10日推出免费“Shell Squad Co-Op Update”，增加24项合作能力、8项合作工具和8项角色合作精通，并支持合作局中切换角色。更新面向本地与在线合作，另售的风衣外观包属于付费DLC。现有主机／PC平台包括PS4、PS5、Xbox One、Xbox Series、Switch、Switch 2和PC；各商店下载以当地页面为准。\n\n**为什么值得关注：**合作构筑开始直接围绕队友互动设计，重玩价值来自战术配合；付费外观与免费玩法内容无需混为一谈。\n\n![《忍者神龟：斯普林特的命运》合作更新报道配图](https://www.gematsu.com/wp-content/uploads/2026/11/Teenage-Mutant-Ninja-Turtles-Splintered-Fate_2026_11-10-26_001-320x180.jpg)\n\n[图片出处](https://www.gematsu.com/2026/11/teenage-mutant-ninja-turtles-splintered-fate-shell-squad-co-op-update-now-available)\n\n来源：[Super Evil Megacorp Steam官方更新](https://steamcommunity.com/app/2996040/)；[Gematsu｜平台及更新清单](https://www.gematsu.com/2026/11/teenage-mutant-ninja-turtles-splintered-fate-shell-squad-co-op-update-now-available)。\n\n### 6．《All Army Attack》公布，11月16日起开放限时Demo\n\n海外发行商Devolver与BlackLight Games于11月10日公布单人肉鸽自动战斗游戏《All Army Attack》，Steam列出的PC发售窗口为2027年。玩家通过卡牌招募和改造动物、植物军团，并在战斗与城镇成长之间循环；Demo计划11月16—23日开放，并非现已发售。\n\n**为什么值得关注：**限时试玩是判断阵容组合、牺牲单位换收益等循环是否耐玩的实际机会；目前还没有正式版评测。\n\n![《All Army Attack》Steam商店主图](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4128840/743e6d51e433722e5d23cf5edf95683af84904ea/header.jpg?t=1794328800)\n\n[图片出处](https://store.steampowered.com/app/4128840/All_Army_Attack/)\n\n来源：[Steam官方商店](https://store.steampowered.com/app/4128840/All_Army_Attack/)；[Gematsu｜发布与试玩日期](https://www.gematsu.com/2026/11/devolver-digital-and-blacklight-games-announce-roguelike-auto-battler-all-army-attack-for-pc)。\n\n后续优先跟踪《奇点灰烬II》首发性能与合作更新的实际体验；已定档扩展和测试关闭日期则按平台页面继续确认。尚未发售、计划窗口与已发布内容分别看待，不将宣传片当作完成度证明。\n",
+      "completeness": "full",
+      "provenance": "生成时间 2026-11-11T01:12:01.385Z；检索北京时间最近24小时的国内外单机、主机、PC及独立游戏公告与媒体，必要时补查最近7天；与11月4—10日归档去重。补录11月9日黑暗异端定档。重要性5为重要平台项目取消，4为重要发售或扩展定档，3为实质更新与独立新作。",
+      "score": 5,
+      "items": [
+        {
+          "id": "games-2026-11-11-fairgames",
+          "title": "《Fairgame$》被取消，Haven转为协作支持",
+          "category": "国外",
+          "summary": "11月10日，Gematsu转述彭博报道：索尼确认取消Haven开发的多人射击游戏《Fairgame$》，发言人表示此次取消不会带来裁员，团队将支援集团其他工作室。该作原计划登陆PS5与PC；报道所述内部邮件把试玩反馈及留存未达目标列为原因。这里收录的是媒体获得公司回应的行业事件，未见单独公开官宣。",
+          "analysis": "这是对主机／PC项目投入与团队分工有实质影响的例外行业新闻；不能从单个项目取消推导所有多人游戏失效。",
+          "importance": 5,
+          "tags": [
+            "PS5",
+            "PC",
+            "Fairgame$",
+            "行业"
+          ],
+          "sources": [
+            {
+              "title": "Gematsu｜转述彭博及索尼发言人回应",
+              "url": "https://www.gematsu.com/2026/11/fairgame-canceled"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "games-2026-11-11-outerworlds2",
+          "title": "《天外世界2》首章DLC定于12月2日推出",
+          "category": "国外",
+          "summary": "Obsidian于11月10日宣布《The Outer Worlds 2》DLC“Side Effects Guaranteed”12月2日登陆PS5、Xbox Series与PC。这是两部曲扩展的第一章，加入Elysium Valley区域、等级上限30→36、新专长和缺陷；第二章计划2027年春季，仍是窗口。同期还将向本体玩家提供洗点等更新，付费剧情与免费功能应分开理解。",
+          "analysis": "既有玩家获得新的构筑空间和可延续的剧情选择；想直接玩扩展可使用预设角色入口，无需重开完整主线。",
+          "importance": 4,
+          "tags": [
+            "PS5",
+            "Xbox Series",
+            "PC",
+            "The Outer Worlds 2",
+            "DLC"
+          ],
+          "sources": [
+            {
+              "title": "Xbox Wire｜Obsidian公告",
+              "url": "https://news.xbox.com/en-us/2026/11/10/side-effects-guaranteed-the-outer-worlds-2-dlc/"
+            },
+            {
+              "title": "PlayStation Blog｜DLC与免费更新",
+              "url": "https://blog.playstation.com/2026/11/10/the-outer-worlds-2s-first-dlc-arrives-december-2/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/11/XBOX_TOW-Expansion_KeyArt_Horizontal-3ff701b040bc3de8c709-1600x900.jpg",
+              "alt": "《天外世界2》Side Effects Guaranteed扩展官方主视觉",
+              "sourceUrl": "https://news.xbox.com/en-us/2026/11/10/side-effects-guaranteed-the-outer-worlds-2-dlc/"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-11-ashes2",
+          "title": "《奇点灰烬II》正式发售，聚焦大规模RTS",
+          "category": "国外",
+          "summary": "Stardock于11月10日宣布《Ashes of the Singularity II》正式登陆PC，可通过Steam或Stardock购买。游戏有单人战役、三阵营遭遇战，以及合作和对战；战略缩放用于在全局和前线间切换。官方称已按公开测试反馈改善平衡、性能与多人稳定性，这不等于独立评测结论。",
+          "analysis": "喜欢大规模即时战略的玩家有了可实际购买的版本；首发大军团性能仍应按自己的硬件与补丁情况评估。",
+          "importance": 4,
+          "tags": [
+            "PC",
+            "Steam",
+            "RTS",
+            "Ashes of the Singularity II"
+          ],
+          "sources": [
+            {
+              "title": "Stardock正式发售公告",
+              "url": "https://forums.stardock.net/542723/humanity-fights-back-ashes-of-the-singularity-ii-is-available-now"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499790/0c833c880e8edbf2f798c92f065ec991cd962a65/header.jpg?t=1794334597",
+              "alt": "《Ashes of the Singularity II》Steam商店主图",
+              "sourceUrl": "https://store.steampowered.com/app/3499790/Ashes_of_the_Singularity_II/"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-11-darkheresy",
+          "title": "《战锤40K：黑暗异端》定档2027年1月28日",
+          "category": "国外",
+          "summary": "补录11月9日尚未收录的重要官宣：Owlcat确认《Warhammer 40,000: Dark Heresy》2027年1月28日登陆PS5、Xbox Series及PC的Steam、Epic、GOG，Switch 2版另择日期。该作是围绕审判庭调查、同伴和战术战斗的队伍制CRPG。当前创始者测试计划2027年1月7日关闭，测试资格并不等于正式发售。",
+          "analysis": "明确日期便于安排长篇RPG游玩；Switch 2玩家应等待单独日期与版本表现，不能按首批平台购买计划理解。",
+          "importance": 4,
+          "tags": [
+            "PC",
+            "PS5",
+            "Xbox Series",
+            "Switch 2",
+            "CRPG",
+            "Warhammer 40,000: Dark Heresy"
+          ],
+          "sources": [
+            {
+              "title": "Owlcat Steam官方新闻",
+              "url": "https://steamcommunity.com/app/3710600/allnews/"
+            },
+            {
+              "title": "Gematsu｜多平台日期确认",
+              "url": "https://www.gematsu.com/2026/11/warhammer-40000-dark-heresy-launches-january-28-2027-for-ps5-xbox-series-and-pc-later-for-switch-2"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.gematsu.com/wp-content/uploads/2026/11/Dark-Heresy-Date_11-09-26-320x180.jpg",
+              "alt": "《Warhammer 40,000: Dark Heresy》定档报道配图",
+              "sourceUrl": "https://www.gematsu.com/2026/11/warhammer-40000-dark-heresy-launches-january-28-2027-for-ps5-xbox-series-and-pc-later-for-switch-2"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-11-tmntcoop",
+          "title": "《忍者神龟：斯普林特的命运》强化合作构筑",
+          "category": "国外",
+          "summary": "Super Evil Megacorp于11月10日推出免费“Shell Squad Co-Op Update”，增加24项合作能力、8项合作工具和8项角色合作精通，并支持合作局中切换角色。更新面向本地与在线合作，另售的风衣外观包属于付费DLC。现有主机／PC平台包括PS4、PS5、Xbox One、Xbox Series、Switch、Switch 2和PC；各商店下载以当地页面为准。",
+          "analysis": "合作构筑开始直接围绕队友互动设计，重玩价值来自战术配合；付费外观与免费玩法内容无需混为一谈。",
+          "importance": 3,
+          "tags": [
+            "PC",
+            "PS5",
+            "Xbox Series",
+            "Switch",
+            "Switch 2",
+            "合作",
+            "Teenage Mutant Ninja Turtles: Splintered Fate"
+          ],
+          "sources": [
+            {
+              "title": "Super Evil Megacorp Steam官方更新",
+              "url": "https://steamcommunity.com/app/2996040/"
+            },
+            {
+              "title": "Gematsu｜平台及更新清单",
+              "url": "https://www.gematsu.com/2026/11/teenage-mutant-ninja-turtles-splintered-fate-shell-squad-co-op-update-now-available"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.gematsu.com/wp-content/uploads/2026/11/Teenage-Mutant-Ninja-Turtles-Splintered-Fate_2026_11-10-26_001-320x180.jpg",
+              "alt": "《忍者神龟：斯普林特的命运》合作更新报道配图",
+              "sourceUrl": "https://www.gematsu.com/2026/11/teenage-mutant-ninja-turtles-splintered-fate-shell-squad-co-op-update-now-available"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-11-allarmy",
+          "title": "《All Army Attack》公布，11月16日起开放限时Demo",
+          "category": "国外",
+          "summary": "海外发行商Devolver与BlackLight Games于11月10日公布单人肉鸽自动战斗游戏《All Army Attack》，Steam列出的PC发售窗口为2027年。玩家通过卡牌招募和改造动物、植物军团，并在战斗与城镇成长之间循环；Demo计划11月16—23日开放，并非现已发售。",
+          "analysis": "限时试玩是判断阵容组合、牺牲单位换收益等循环是否耐玩的实际机会；目前还没有正式版评测。",
+          "importance": 3,
+          "tags": [
+            "PC",
+            "Steam",
+            "肉鸽",
+            "自动战斗",
+            "All Army Attack"
+          ],
+          "sources": [
+            {
+              "title": "Steam官方商店",
+              "url": "https://store.steampowered.com/app/4128840/All_Army_Attack/"
+            },
+            {
+              "title": "Gematsu｜发布与试玩日期",
+              "url": "https://www.gematsu.com/2026/11/devolver-digital-and-blacklight-games-announce-roguelike-auto-battler-all-army-attack-for-pc"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4128840/743e6d51e433722e5d23cf5edf95683af84904ea/header.jpg?t=1794328800",
+              "alt": "《All Army Attack》Steam商店主图",
+              "sourceUrl": "https://store.steampowered.com/app/4128840/All_Army_Attack/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "games-2026-11-10",
       "date": "2026-11-10",
