@@ -2,8 +2,168 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-10T01:29:11Z",
+  "updatedAt": "2026-11-11T01:24:34.133Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-11",
+      "collectionId": "llm",
+      "date": "2026-11-11",
+      "title": "大模型｜2026-11-11",
+      "summary": "Gemini 4 Carbon扩大开放；Claude协作表格与白板测试、ChatGPT商家智能体测试；AlphaProof Code公开验证成果，Anthropic启动拟议IPO路演。",
+      "analysis": "区分正式可用、测试与计划；新能力应按实际任务成本、组织数据控制和可复核证据评估。",
+      "rawText": "# 大模型｜2026-11-11\n\n本期重点：Gemini 4 Carbon扩大可用范围，Claude新增协作载体，ChatGPT试推商家智能体；同时关注形式验证研究与Anthropic拟议IPO进展。事件均为11月10日新公布，已与本栏目近期归档去重。\n\n## 1．Gemini 4 Carbon扩大开放，API引入价到11月底\n\nGoogle于11月10日把Gemini 4 Carbon从受限安全项目扩展至付费开发者和企业，通过AI Studio API及Gemini for business提供。引入价为每百万输入／输出词元2／10美元，11月30日结束后为4／20美元。AI Ultra用户在Gemini、Antigravity及搜索AI模式中分批获得访问，Antigravity的`/swarm`仍为预览；地区和账号需以各产品支持范围为准。Google报告了长任务和编程能力改善，不能把厂商汇总的不同评测或演示直接视为真实业务效果。\n\n**为什么值得关注／影响：**对复杂调试、多步研究有了可用的新选择；比较时应记录完成率、总词元及重试成本，并按优惠结束后的费率测预算。\n\n*缺图：官方主视觉为嵌入页面；检得图片直链返回的文件类型无法确认。*\n\n来源：[Google发布公告](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/)；[Google开发者说明](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers/)；[Google日文官方公告及价格注释](https://blog.google/intl/ja-jp/company-news/technology/gemini-4-carbon/)。\n\n## 2．Claude推出协作表格与白板测试版，Data转为正式版\n\nAnthropic于11月10日推出Sheets、Whiteboards测试版，Dashboards改名Claude Data并正式提供，面向付费计划；Data的认证查询与实时分享仍属测试。Sheets和Whiteboards覆盖Pro、Max、Ultra、Team、Enterprise，Team默认开，Enterprise需管理员开启。Sheets支持网页和桌面编辑、移动端基本只读，尚不支持透视表、宏或实时拉取连接应用数据，也未支持HIPAA、CMEK、ZDR。Meetings仅宣布即将推出，不能当作已上线的会议助手。\n\n**为什么值得关注／影响：**适合轻量协作、公式复核及从讨论到数据展示的流程；企业应先核数据控制和管理员设置，功能名称相似不代表可直接替代完整Excel。\n\n*缺图：产品公告页面未成功返回可核验图片，帮助文档未见对应静态截图。*\n\n来源：[Anthropic产品公告](https://claude.com/resources/articles/sheets-whiteboards-data)；[Claude Sheets官方使用范围与限制](https://support.claude.com/en/articles/18324300-get-started-with-claude-sheets)；[Claude Whiteboards官方说明](https://support.claude.com/en/articles/18324319-get-started-with-claude-whiteboards)；[Anthropic｜Meetings仍为即将推出](https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors)。\n\n## 3．ChatGPT商家功能进入测试，美国部分商家可建Business Agent\n\nOpenAI于11月10日推出Businesses in ChatGPT测试版：符合条件且位于ChatGPT支持地区的企业可在Business Hub认领资料、维护商品信息并查看汇总洞察。Business Agents先面向美国符合条件的电商和线上服务商，用户主动进入明确标注的商家对话，区别于ChatGPT独立回答。OpenAI表示不会向商家共享用户原始对话，洞察须达到汇总阈值；更多市场仍是后续计划。\n\n**为什么值得关注／影响：**商家信息维护和客服型智能体出现新的入口；开发者要区分自然回答、商家智能体和付费推广，并按官方准入与权限要求设计接入。\n\n*缺图：已打开官方公告，但未核得该功能对应的静态图片直链。*\n\n来源：[OpenAI官方发布](https://openai.com/index/introducing-businesses-chatgpt/)；[Business Agents政策](https://openai.com/policies/business-agents-policy/)。\n\n## 4．AlphaProof Code公开Signal实现级形式验证成果与证明产物\n\nGoogle DeepMind于11月10日发布AlphaProof Code研究，公开libsignal的PQXDH握手及Triple Ratchet关键安全性质的机器码级证明产物。人类审核形式规范，智能体生成约650万行Lean证明，再由Lean内核检查；研究还重引入两个已修复漏洞进行验证。结果依赖约2.6万行可信规范和AArch64语义、密码原语等假设，验证特定性质不等于整个应用没有漏洞；也不是通用商业验证API已上线。\n\n**为什么值得关注／影响：**给高要求软件开发提供了可复核的“AI生成证明、确定性工具验收”样本；采用者仍须审查规范、信任边界及自身代码适用性。\n\n![AlphaProof Code官方流程图：规范、机器码与证明验收](https://lh3.googleusercontent.com/kF75VKGl2JdnK6eQJxqPLwQNsMq0CumACxUSMF5WoUME3lAw2-PBaQWpsOxaD1bTaXYhJd46zDMrx9s3kPW_oL9rg2rKh_HoCzYxN8Xd5XRIPQ2Vsg=w1440-h810-n-nu)\n\n[图片出处](https://deepmind.google/blog/introducing-alphaproof-code/)\n\n来源：[DeepMind研究公告](https://deepmind.google/blog/introducing-alphaproof-code/)；[官方技术论文及证明产物](https://google-deepmind.github.io/code-verification/)。\n\n## 5．Anthropic启动IPO路演，仍未完成发行或上市\n\nAnthropic于11月10日宣布IPO路演，拟发行8.25亿股A类股票，预期每股70—78美元，并申请以ANT代码在纳斯达克全球精选市场上市。其中约8.0135亿股由公司发行，其余为现有股东出售，公司不取得后者售股收益。公告明确注册声明尚未生效，因此这是拟议发行，不能写成已募资或已经上市。\n\n**为什么值得关注／影响：**这是可能影响头部AI公司融资与披露机制的重要进展；服务用户仍应依据产品能力、价格和合同判断，不将拟议融资额当作已实现收入。\n\n*缺图：官方公告为文字，未核得对应路演的真实现场图。*\n\n来源：[Anthropic路演公告](https://www.anthropic.com/news/roadshow-launch)。\n\n",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "生成时间 2026-11-11T01:24:16.576Z；覆盖北京时间最近24小时头部AI公司模型、产品、API、研究与重要公司动态，综合中英文线索并核对官方公告、帮助文档及论文，检索OpenAI、Anthropic、Google、xAI与Meta；与本栏目近7天归档去重。重要性5为旗舰模型可用范围变化，4为重要产品、研究或公司事件。",
+      "score": 5,
+      "items": [
+        {
+          "id": "llm-2026-11-11-carbon",
+          "title": "Gemini 4 Carbon扩大开放，API引入价到11月底",
+          "category": "Google",
+          "summary": "Google于11月10日把Gemini 4 Carbon从受限安全项目扩展至付费开发者和企业，通过AI Studio API及Gemini for business提供。引入价为每百万输入／输出词元2／10美元，11月30日结束后为4／20美元。AI Ultra用户在Gemini、Antigravity及搜索AI模式中分批获得访问，Antigravity的`/swarm`仍为预览；地区和账号需以各产品支持范围为准。Google报告了长任务和编程能力改善，不能把厂商汇总的不同评测或演示直接视为真实业务效果。",
+          "analysis": "对复杂调试、多步研究有了可用的新选择；比较时应记录完成率、总词元及重试成本，并按优惠结束后的费率测预算。",
+          "importance": 5,
+          "tags": [
+            "Google",
+            "Gemini 4 Carbon",
+            "API",
+            "智能体",
+            "Antigravity"
+          ],
+          "sources": [
+            {
+              "title": "Google发布公告",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+            },
+            {
+              "title": "Google开发者说明",
+              "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers/"
+            },
+            {
+              "title": "Google日文官方公告及价格注释",
+              "url": "https://blog.google/intl/ja-jp/company-news/technology/gemini-4-carbon/"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "llm-2026-11-11-claude-artifacts",
+          "title": "Claude推出协作表格与白板测试版，Data转为正式版",
+          "category": "Anthropic",
+          "summary": "Anthropic于11月10日推出Sheets、Whiteboards测试版，Dashboards改名Claude Data并正式提供，面向付费计划；Data的认证查询与实时分享仍属测试。Sheets和Whiteboards覆盖Pro、Max、Ultra、Team、Enterprise，Team默认开，Enterprise需管理员开启。Sheets支持网页和桌面编辑、移动端基本只读，尚不支持透视表、宏或实时拉取连接应用数据，也未支持HIPAA、CMEK、ZDR。Meetings仅宣布即将推出，不能当作已上线的会议助手。",
+          "analysis": "适合轻量协作、公式复核及从讨论到数据展示的流程；企业应先核数据控制和管理员设置，功能名称相似不代表可直接替代完整Excel。",
+          "importance": 4,
+          "tags": [
+            "Anthropic",
+            "Claude Sheets",
+            "Claude Whiteboards",
+            "Claude Data",
+            "协作",
+            "测试版"
+          ],
+          "sources": [
+            {
+              "title": "Anthropic产品公告",
+              "url": "https://claude.com/resources/articles/sheets-whiteboards-data"
+            },
+            {
+              "title": "Claude Sheets官方使用范围与限制",
+              "url": "https://support.claude.com/en/articles/18324300-get-started-with-claude-sheets"
+            },
+            {
+              "title": "Claude Whiteboards官方说明",
+              "url": "https://support.claude.com/en/articles/18324319-get-started-with-claude-whiteboards"
+            },
+            {
+              "title": "Anthropic｜Meetings仍为即将推出",
+              "url": "https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "llm-2026-11-11-business-agents",
+          "title": "ChatGPT商家功能进入测试，美国部分商家可建Business Agent",
+          "category": "OpenAI",
+          "summary": "OpenAI于11月10日推出Businesses in ChatGPT测试版：符合条件且位于ChatGPT支持地区的企业可在Business Hub认领资料、维护商品信息并查看汇总洞察。Business Agents先面向美国符合条件的电商和线上服务商，用户主动进入明确标注的商家对话，区别于ChatGPT独立回答。OpenAI表示不会向商家共享用户原始对话，洞察须达到汇总阈值；更多市场仍是后续计划。",
+          "analysis": "商家信息维护和客服型智能体出现新的入口；开发者要区分自然回答、商家智能体和付费推广，并按官方准入与权限要求设计接入。",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "ChatGPT",
+            "Business Hub",
+            "Business Agents",
+            "测试版"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI官方发布",
+              "url": "https://openai.com/index/introducing-businesses-chatgpt/"
+            },
+            {
+              "title": "Business Agents政策",
+              "url": "https://openai.com/policies/business-agents-policy/"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "llm-2026-11-11-alphaproof-code",
+          "title": "AlphaProof Code公开Signal实现级形式验证成果与证明产物",
+          "category": "Google",
+          "summary": "Google DeepMind于11月10日发布AlphaProof Code研究，公开libsignal的PQXDH握手及Triple Ratchet关键安全性质的机器码级证明产物。人类审核形式规范，智能体生成约650万行Lean证明，再由Lean内核检查；研究还重引入两个已修复漏洞进行验证。结果依赖约2.6万行可信规范和AArch64语义、密码原语等假设，验证特定性质不等于整个应用没有漏洞；也不是通用商业验证API已上线。",
+          "analysis": "给高要求软件开发提供了可复核的“AI生成证明、确定性工具验收”样本；采用者仍须审查规范、信任边界及自身代码适用性。",
+          "importance": 4,
+          "tags": [
+            "Google DeepMind",
+            "AlphaProof Code",
+            "Gemini",
+            "Lean",
+            "形式验证",
+            "开源"
+          ],
+          "sources": [
+            {
+              "title": "DeepMind研究公告",
+              "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+            },
+            {
+              "title": "官方技术论文及证明产物",
+              "url": "https://google-deepmind.github.io/code-verification/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://lh3.googleusercontent.com/kF75VKGl2JdnK6eQJxqPLwQNsMq0CumACxUSMF5WoUME3lAw2-PBaQWpsOxaD1bTaXYhJd46zDMrx9s3kPW_oL9rg2rKh_HoCzYxN8Xd5XRIPQ2Vsg=w1440-h810-n-nu",
+              "alt": "AlphaProof Code官方流程图：规范、机器码与证明验收",
+              "sourceUrl": "https://deepmind.google/blog/introducing-alphaproof-code/"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-11-anthropic-ipo",
+          "title": "Anthropic启动IPO路演，仍未完成发行或上市",
+          "category": "Anthropic",
+          "summary": "Anthropic于11月10日宣布IPO路演，拟发行8.25亿股A类股票，预期每股70—78美元，并申请以ANT代码在纳斯达克全球精选市场上市。其中约8.0135亿股由公司发行，其余为现有股东出售，公司不取得后者售股收益。公告明确注册声明尚未生效，因此这是拟议发行，不能写成已募资或已经上市。",
+          "analysis": "这是可能影响头部AI公司融资与披露机制的重要进展；服务用户仍应依据产品能力、价格和合同判断，不将拟议融资额当作已实现收入。",
+          "importance": 4,
+          "tags": [
+            "Anthropic",
+            "IPO",
+            "公司动态",
+            "融资"
+          ],
+          "sources": [
+            {
+              "title": "Anthropic路演公告",
+              "url": "https://www.anthropic.com/news/roadshow-launch"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
     {
       "id": "llm-2026-11-10",
       "collectionId": "llm",
