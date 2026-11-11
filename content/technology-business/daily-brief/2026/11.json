@@ -2,8 +2,150 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-11",
-  "updatedAt": "2026-11-10T01:07:11Z",
+  "updatedAt": "2026-11-11T01:05:49.381Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-11-11",
+      "date": "2026-11-11",
+      "title": "最新资讯｜2026-11-11",
+      "collectionId": "daily-brief",
+      "summary": "Gemini 4 Carbon 扩大开放；CoreWeave 财报显示算力扩张与盈利压力并存；美国通胀、GitHub 告警策略和 RTS 新作也值得关注。",
+      "analysis": "能力发布、收入增长和短期市场变化都需结合适用条件解读；开发实践重点是实际任务成本与持续依赖监控。",
+      "rawText": "# 最新资讯｜2026-11-11\n\nGemini 4 Carbon 扩大开放；CoreWeave 财报显示算力扩张与盈利压力并存；美国通胀、GitHub 告警策略和 RTS 新作也值得关注。\n\n## 1. Gemini 4 Carbon 扩大开放，促销 API 价格到月底\n\nGoogle 于11月10日将 Gemini 4 Carbon 从限定安全团队开放至付费开发者和企业，并向 AI Ultra 订阅者分批推送。API 引入价为每百万输入／输出词元2／10美元，11月30日后为4／20美元；Antigravity 的 `/swarm` 仍是预览。Google 公布的工作流评测和工程演示不等于用户真实任务表现。\n\n**为什么值得关注：**评估长任务时要同时记录完成率、总词元与重试成本，并按优惠结束后的费率测算预算。\n\n*缺图：官方主视觉是嵌入页面，另一图片直链返回的文件类型无法确认。*\n\n来源：[Google 公告](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/)；[开发者说明](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers/)\n\n## 2. CoreWeave 营收增长168%，净亏损与融资成本仍高\n\nCoreWeave 于11月10日公布截至9月30日的第三季度业绩：营收36.61亿美元，上年同期13.65亿美元；GAAP净亏损7.09亿美元，上年同期1.10亿美元。净利息支出8.46亿美元，公司把全年营收指引上调至130亿—133亿美元。全年资本开支预计370亿—390亿美元，属于前瞻计划。\n\n**为什么值得关注：**AI算力需求和会计盈利不是同一件事；跟踪扩张时，应把交付、融资成本与现金流放在一起看。\n\n*缺图：未核得与本次财报直接对应的稳定图片直链。*\n\n来源：[CoreWeave 业绩公告](https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx)；[智通财经中文报道](https://cn.investing.com/news/stock-market-news/article-3660692)\n\n## 3. 美国10月CPI环比涨0.4%，同比比较存在缺口\n\n美国劳工统计局11月10日公布，10月季调CPI环比上涨0.4%，低于9月的0.6%；核心CPI仍上涨0.3%。住房贡献超过三成的月度总涨幅。由于2025年10月部分调查数据缺失，官方无法公布缺少基期数据系列的12个月涨幅，不能自行补成同比数字。\n\n**为什么值得关注：**能源涨幅回落并未消除核心价格压力；对市场而言，利率路径仍需结合后续数据判断，单月数据不决定政策。\n\n*缺图：原始数据以表格发布，未找到本次相关的可验证图片。*\n\n来源：[美国劳工统计局原始数据](https://www.bls.gov/news.release/archives/cpi_11102026.htm)；[新华财经中文报道](https://www.cnfin.com/yw-lb/detail/20261111/4493785_1.html)\n\n## 4. GitHub 将暂停多数长期不活跃仓库的 Dependabot 告警\n\nGitHub 11月10日公告，自12月8日起，多数一年内无活动的仓库将关闭 Dependabot alerts，既有告警归档保存。向任意分支或标签推送可自动恢复；强制安全配置等情形可豁免。本次适用于 github.com 和采用数据驻留的 Enterprise Cloud，不适用于 Enterprise Server。\n\n**为什么值得关注：**长期运行但少改代码的项目也可能仍需漏洞监控，维护者应提前核对告警策略；无需为了此消息改动其他仓库。\n\n*缺图：公告仅有通用装饰图，未找到对应功能图。*\n\n来源：[GitHub 官方更新日志](https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories/)\n\n## 5. 《奇点灰烬II》正式发售，主打大规模即时战略\n\nStardock 于11月10日宣布《Ashes of the Singularity II》正式登陆PC，Steam商店已可购买。游戏包含单人战役、三阵营遭遇战和多人合作／对战，主打大量单位与战略缩放。官方称此前公开测试反馈已用于改善平衡、性能和多人稳定性；这不是独立评测结论。\n\n**为什么值得关注：**大规模单位调度和从全局到战场的缩放设计值得游戏开发者观察；首发性能表现仍应结合硬件与后续补丁。\n\n![《Ashes of the Singularity II》Steam商店主图](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499790/0c833c880e8edbf2f798c92f065ec991cd962a65/header.jpg?t=1794334597)\n\n[图片出处](https://store.steampowered.com/app/3499790/Ashes_of_the_Singularity_II/)\n\n来源：[Stardock 正式发售公告](https://forums.stardock.net/542723/humanity-fights-back-ashes-of-the-singularity-ii-is-available-now)；[Steam 商店](https://store.steampowered.com/app/3499790/Ashes_of_the_Singularity_II/)\n",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "生成时间 2026-11-11T01:04:07Z；以北京时间最近24小时的官方公告、公司财报、宏观数据、GitHub更新与PC游戏发布为主；综合英文一手及中文财经报道，核查开源与研究线索并与近期报告去重。",
+      "score": 5,
+      "items": [
+        {
+          "id": "daily-brief-2026-11-11-carbon",
+          "title": "Gemini 4 Carbon 扩大开放，促销 API 价格到月底",
+          "category": "AI / 大模型",
+          "summary": "Google 于11月10日将 Gemini 4 Carbon 从限定安全团队开放至付费开发者和企业，并向 AI Ultra 订阅者分批推送。API 引入价为每百万输入／输出词元2／10美元，11月30日后为4／20美元；Antigravity 的 `/swarm` 仍是预览。Google 公布的工作流评测和工程演示不等于用户真实任务表现。",
+          "analysis": "评估长任务时要同时记录完成率、总词元与重试成本，并按优惠结束后的费率测算预算。",
+          "importance": 5,
+          "tags": [
+            "Google",
+            "Gemini 4 Carbon",
+            "智能体",
+            "API"
+          ],
+          "sources": [
+            {
+              "title": "Google 公告",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+            },
+            {
+              "title": "开发者说明",
+              "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-4-carbon-developers/"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "daily-brief-2026-11-11-coreweave-q3",
+          "title": "CoreWeave 营收增长168%，净亏损与融资成本仍高",
+          "category": "全球科技与商业",
+          "summary": "CoreWeave 于11月10日公布截至9月30日的第三季度业绩：营收36.61亿美元，上年同期13.65亿美元；GAAP净亏损7.09亿美元，上年同期1.10亿美元。净利息支出8.46亿美元，公司把全年营收指引上调至130亿—133亿美元。全年资本开支预计370亿—390亿美元，属于前瞻计划。",
+          "analysis": "AI算力需求和会计盈利不是同一件事；跟踪扩张时，应把交付、融资成本与现金流放在一起看。",
+          "importance": 5,
+          "tags": [
+            "CoreWeave",
+            "AI算力",
+            "财报",
+            "资本开支"
+          ],
+          "sources": [
+            {
+              "title": "CoreWeave 业绩公告",
+              "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx"
+            },
+            {
+              "title": "智通财经中文报道",
+              "url": "https://cn.investing.com/news/stock-market-news/article-3660692"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "daily-brief-2026-11-11-cpi-october",
+          "title": "美国10月CPI环比涨0.4%，同比比较存在缺口",
+          "category": "财经 / 市场",
+          "summary": "美国劳工统计局11月10日公布，10月季调CPI环比上涨0.4%，低于9月的0.6%；核心CPI仍上涨0.3%。住房贡献超过三成的月度总涨幅。由于2025年10月部分调查数据缺失，官方无法公布缺少基期数据系列的12个月涨幅，不能自行补成同比数字。",
+          "analysis": "能源涨幅回落并未消除核心价格压力；对市场而言，利率路径仍需结合后续数据判断，单月数据不决定政策。",
+          "importance": 4,
+          "tags": [
+            "美国",
+            "CPI",
+            "通胀",
+            "利率"
+          ],
+          "sources": [
+            {
+              "title": "美国劳工统计局原始数据",
+              "url": "https://www.bls.gov/news.release/archives/cpi_11102026.htm"
+            },
+            {
+              "title": "新华财经中文报道",
+              "url": "https://www.cnfin.com/yw-lb/detail/20261111/4493785_1.html"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "daily-brief-2026-11-11-dependabot-inactive",
+          "title": "GitHub 将暂停多数长期不活跃仓库的 Dependabot 告警",
+          "category": "软件工程 / 开发工具",
+          "summary": "GitHub 11月10日公告，自12月8日起，多数一年内无活动的仓库将关闭 Dependabot alerts，既有告警归档保存。向任意分支或标签推送可自动恢复；强制安全配置等情形可豁免。本次适用于 github.com 和采用数据驻留的 Enterprise Cloud，不适用于 Enterprise Server。",
+          "analysis": "长期运行但少改代码的项目也可能仍需漏洞监控，维护者应提前核对告警策略；无需为了此消息改动其他仓库。",
+          "importance": 4,
+          "tags": [
+            "GitHub",
+            "Dependabot",
+            "供应链安全",
+            "依赖管理"
+          ],
+          "sources": [
+            {
+              "title": "GitHub 官方更新日志",
+              "url": "https://github.blog/changelog/2026-11-10-dependabot-alerts-will-pause-on-inactive-repositories/"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "daily-brief-2026-11-11-ashes2",
+          "title": "《奇点灰烬II》正式发售，主打大规模即时战略",
+          "category": "游戏开发 / 技术 / 行业",
+          "summary": "Stardock 于11月10日宣布《Ashes of the Singularity II》正式登陆PC，Steam商店已可购买。游戏包含单人战役、三阵营遭遇战和多人合作／对战，主打大量单位与战略缩放。官方称此前公开测试反馈已用于改善平衡、性能和多人稳定性；这不是独立评测结论。",
+          "analysis": "大规模单位调度和从全局到战场的缩放设计值得游戏开发者观察；首发性能表现仍应结合硬件与后续补丁。",
+          "importance": 3,
+          "tags": [
+            "Ashes of the Singularity II",
+            "Steam",
+            "PC",
+            "RTS"
+          ],
+          "sources": [
+            {
+              "title": "Stardock 正式发售公告",
+              "url": "https://forums.stardock.net/542723/humanity-fights-back-ashes-of-the-singularity-ii-is-available-now"
+            },
+            {
+              "title": "Steam 商店",
+              "url": "https://store.steampowered.com/app/3499790/Ashes_of_the_Singularity_II/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3499790/0c833c880e8edbf2f798c92f065ec991cd962a65/header.jpg?t=1794334597",
+              "alt": "《Ashes of the Singularity II》Steam商店主图",
+              "sourceUrl": "https://store.steampowered.com/app/3499790/Ashes_of_the_Singularity_II/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "daily-brief-2026-11-10",
       "collectionId": "daily-brief",
