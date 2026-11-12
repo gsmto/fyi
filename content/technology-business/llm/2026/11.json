@@ -2,8 +2,169 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-11T01:24:34.133Z",
+  "updatedAt": "2026-11-12T01:24:10Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-12",
+      "collectionId": "llm",
+      "date": "2026-11-12",
+      "title": "大模型｜2026-11-12",
+      "summary": "Gemini 推出决策接口；OpenAI 宣布 GPT Image 2 退役日期；百度发布预览模型，另有 Workspace MCP 和转写更新。",
+      "analysis": "开发者应区分 API 停用与授权规则的生效日期，并用自身样本验证模型路由、图像回归与语音识别。",
+      "rawText": "# 大模型｜2026-11-12\n\n## 今日重点\n\n关注 Gemini 封闭决策接口，以及图像 API 和 Workspace MCP 的迁移时点。\n\n### 1. Gemini Decision 1 用单次请求为最多千个封闭问题打分\n\n11月11日，Google DeepMind 在 Gemini API／Google AI Studio 推出 `gemini-decision-1`，单次读取最长 256K token 的共享多模态输入，对最多 1000 道是非、选择或有序分级题返回分数和置信度。计费为每百万输入 token 0.10 美元，输出不计费；共享输入每次请求计一次，各题指令仍计入输入，另有原型免费层，Google Cloud 支持尚待推出。150–250 毫秒端到端为厂商报告的测试范围，不应外推为满上下文或 1000 题的承诺。\n\n**为什么值得关注：** 工具路由、内容分流或质检可先用封闭决策模型处理，把低置信或高后果样本转给其他模型或人工。上线前应测实际类别的误判率和尾延迟。\n\n![Google 发布的 Gemini Decisions API 多题打分示例](https://the-decoder.com/wp-content/uploads/2026/11/gemini_decision_example.webp)\n\nGoogle 演示图，由 THE DECODER 刊载。 [图片出处](https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/)\n\n来源：[Google DeepMind｜官方公告、限制与价格](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/)；[THE DECODER｜接口演示与报道](https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/)。\n\n### 2. OpenAI 宣布 GPT Image 2 API 将于 2027 年 2 月停用\n\n11月10日，OpenAI 将 `gpt-image-2` 及固定快照 `gpt-image-2-2026-04-21` 标记为弃用，计划在 2027 年 2 月 10 日从 API 移除。官方建议替换为 `gpt-image-2.6-sunburst` 或 `gpt-image-2.6-flare`。此次公告只针对所列 API 模型，弃用标记不代表现在已下线。\n\n**为什么值得关注：** 图像生产流程应同时排查别名和固定快照，预先用真实样本比较版式、编辑一致性、延迟和成本。\n\n*缺图：未找到直接对应此次 API 停用通知的可验证配图。*\n\n来源：[OpenAI API｜弃用公告](https://developers.openai.com/api/docs/deprecations)；[OpenAI｜Images 2.6 替代方案](https://openai.com/index/introducing-images-2-6/?trk=article-ssr-frontend-pulse_little-text-block)。\n\n### 3. 文心 5.5 Flash Preview 已可通过千帆调用\n\n11月11日，百度正式公布 ERNIE 5.5 Flash Base 的首个后训练预览版本，报告总参数 2800 亿、每 token 激活 140 亿，支持最长 100 万 token 上下文。官方确认千帆 API 已上线，预览版权重计划在 11 月 25 日前开放，不能和此前已公布的 Base 权重混同。官方公开的 Unreal、Blender 和知识工作案例使用了外部工具或素材，属于厂商演示。\n\n**为什么值得关注：** 适合用实际工具链测试长程编码、文档交付与工作流成本；本地使用需等权重与许可正式可核。\n\n![百度发布页的文心预览版文档交付示例](https://ernie-blog.cdn.bcebos.com/research-assets/ernie-5-5-flash-preview/previews/the-ai-power-bill/d6633c8dda77/thumbnail.png)\n\n厂商演示，并非独立评测。 [图片出处](https://ernie.baidu.com/zh/release/ernie-5-5-flash-preview/)\n\n来源：[百度文心｜官方发布与演示](https://ernie.baidu.com/zh/release/ernie-5-5-flash-preview/)；[新华网｜发布核对](https://www3.xinhuanet.com/tech/20261111/183aa161e70b4942b622e10b5e3da605/c.html)。\n\n### 4. Google Workspace MCP 开始要求专用智能体 OAuth 客户端\n\nGoogle 10月12日已发预告，11月11日起按公告开始拒绝未标记为 AI 智能体的 OAuth 客户端调用 Workspace MCP 服务器。11月12日仍未标记的旧客户端须另建标记后的客户端才可继续接入；Gmail、Calendar、Docs、Drive 等相关 MCP 服务器仍属开发者预览。仅调用 Workspace REST API 的非智能体应用不受此次规则影响。\n\n**为什么值得关注：** 同时提供普通功能和智能体功能的集成，宜将两类客户端分开并回归验证各自的授权路径。\n\n*缺图：官方更新日志无对应的可用配置截图。*\n\n来源：[Google for Developers｜生效及迁移说明](https://developers.google.com/workspace/release-notes?hl=en)。\n\n### 5. ElevenLabs 发布 Scribe v3 与实时版，实时转写加入说话人标注\n\n11月10日，ElevenLabs 在 ElevenAPI 上线录音转写 `scribe_v3` 和实时 `scribe_v3_live`，后者也可在 ElevenAgents 使用。实时版新增说话人区分与改进的轮次检测；默认在美国处理，企业可按官方条件选择隔离的欧盟、印度或新加坡环境。厂商在其 FLEURS 评估中报告离线版较 v2 少 27% 词错误，实时版较 v2 Realtime 少 43% 语义词错误，两种数字的指标不同。\n\n**为什么值得关注：** 会议转录与语音智能体可分别评估离线和实时版本，重点复测重叠发言、专有名词、数字和中途切换语言。\n\n![ElevenLabs 的 Scribe v3 与 v2 分语言评测图](https://elevenlabs.io/_next/image?q=80&url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2Fopnzobf72hf-2-%C2%B7-Scribe-v3-vs-Scribe-v2-by-language--WER---semantic-WER-.webp&w=3840)\n\n厂商离线评测，不用于比较实时成绩。 [图片出处](https://elevenlabs.io/blog/scribe-v3)\n\n来源：[ElevenLabs｜发布、地区及评测口径](https://elevenlabs.io/blog/scribe-v3)；[ElevenLabs｜模型文档](https://elevenlabs.io/docs/overview/models?trk=article-ssr-frontend-pulse_little-text-block)。\n",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "2026-11-12T01:24:03Z 生成；Asia/Shanghai 定日，优先过去24小时，回看7天并标事件原日期；检索 OpenAI、Anthropic、Google、xAI、Meta、百度及 ElevenLabs 的中英文公告、文档和发布记录，对照本栏近期归档去重。",
+      "score": 5,
+      "items": [
+        {
+          "id": "llm-2026-11-12-gemini-decision-1",
+          "title": "Gemini Decision 1 用单次请求为最多千个封闭问题打分",
+          "category": "Google DeepMind",
+          "summary": "11月11日，Google DeepMind 在 Gemini API／Google AI Studio 推出 `gemini-decision-1`，单次读取最长 256K token 的共享多模态输入，对最多 1000 道是非、选择或有序分级题返回分数和置信度。计费为每百万输入 token 0.10 美元，输出不计费；共享输入每次请求计一次，各题指令仍计入输入，另有原型免费层，Google Cloud 支持尚待推出。150–250 毫秒端到端为厂商报告的测试范围，不应外推为满上下文或 1000 题的承诺。",
+          "analysis": "工具路由、内容分流或质检可先用封闭决策模型处理，把低置信或高后果样本转给其他模型或人工。上线前应测实际类别的误判率和尾延迟。",
+          "importance": 5,
+          "tags": [
+            "Google DeepMind",
+            "Gemini Decision 1",
+            "Gemini API",
+            "结构化决策",
+            "智能体"
+          ],
+          "sources": [
+            {
+              "title": "Google DeepMind｜官方公告、限制与价格",
+              "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+            },
+            {
+              "title": "THE DECODER｜接口演示与报道",
+              "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://the-decoder.com/wp-content/uploads/2026/11/gemini_decision_example.webp",
+              "alt": "Google 发布的 Gemini Decisions API 多题打分示例",
+              "sourceUrl": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/",
+              "caption": "Google 演示图，由 THE DECODER 刊载。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-12-gpt-image-2-retirement",
+          "title": "OpenAI 宣布 GPT Image 2 API 将于 2027 年 2 月停用",
+          "category": "OpenAI",
+          "summary": "11月10日，OpenAI 将 `gpt-image-2` 及固定快照 `gpt-image-2-2026-04-21` 标记为弃用，计划在 2027 年 2 月 10 日从 API 移除。官方建议替换为 `gpt-image-2.6-sunburst` 或 `gpt-image-2.6-flare`。此次公告只针对所列 API 模型，弃用标记不代表现在已下线。",
+          "analysis": "图像生产流程应同时排查别名和固定快照，预先用真实样本比较版式、编辑一致性、延迟和成本。",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "GPT Image 2",
+            "API 停用",
+            "模型迁移"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI API｜弃用公告",
+              "url": "https://developers.openai.com/api/docs/deprecations"
+            },
+            {
+              "title": "OpenAI｜Images 2.6 替代方案",
+              "url": "https://openai.com/index/introducing-images-2-6/?trk=article-ssr-frontend-pulse_little-text-block"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "llm-2026-11-12-ernie-flash-preview",
+          "title": "文心 5.5 Flash Preview 已可通过千帆调用",
+          "category": "百度",
+          "summary": "11月11日，百度正式公布 ERNIE 5.5 Flash Base 的首个后训练预览版本，报告总参数 2800 亿、每 token 激活 140 亿，支持最长 100 万 token 上下文。官方确认千帆 API 已上线，预览版权重计划在 11 月 25 日前开放，不能和此前已公布的 Base 权重混同。官方公开的 Unreal、Blender 和知识工作案例使用了外部工具或素材，属于厂商演示。",
+          "analysis": "适合用实际工具链测试长程编码、文档交付与工作流成本；本地使用需等权重与许可正式可核。",
+          "importance": 4,
+          "tags": [
+            "百度",
+            "ERNIE 5.5 Flash Preview",
+            "千帆",
+            "后训练",
+            "长上下文"
+          ],
+          "sources": [
+            {
+              "title": "百度文心｜官方发布与演示",
+              "url": "https://ernie.baidu.com/zh/release/ernie-5-5-flash-preview/"
+            },
+            {
+              "title": "新华网｜发布核对",
+              "url": "https://www3.xinhuanet.com/tech/20261111/183aa161e70b4942b622e10b5e3da605/c.html"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://ernie-blog.cdn.bcebos.com/research-assets/ernie-5-5-flash-preview/previews/the-ai-power-bill/d6633c8dda77/thumbnail.png",
+              "alt": "百度发布页的文心预览版文档交付示例",
+              "sourceUrl": "https://ernie.baidu.com/zh/release/ernie-5-5-flash-preview/",
+              "caption": "厂商演示，并非独立评测。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-12-workspace-mcp-oauth",
+          "title": "Google Workspace MCP 开始要求专用智能体 OAuth 客户端",
+          "category": "Google",
+          "summary": "Google 10月12日已发预告，11月11日起按公告开始拒绝未标记为 AI 智能体的 OAuth 客户端调用 Workspace MCP 服务器。11月12日仍未标记的旧客户端须另建标记后的客户端才可继续接入；Gmail、Calendar、Docs、Drive 等相关 MCP 服务器仍属开发者预览。仅调用 Workspace REST API 的非智能体应用不受此次规则影响。",
+          "analysis": "同时提供普通功能和智能体功能的集成，宜将两类客户端分开并回归验证各自的授权路径。",
+          "importance": 4,
+          "tags": [
+            "Google",
+            "Workspace",
+            "MCP",
+            "OAuth",
+            "开发者预览"
+          ],
+          "sources": [
+            {
+              "title": "Google for Developers｜生效及迁移说明",
+              "url": "https://developers.google.com/workspace/release-notes?hl=en"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "llm-2026-11-12-scribe-v3",
+          "title": "ElevenLabs 发布 Scribe v3 与实时版，实时转写加入说话人标注",
+          "category": "ElevenLabs",
+          "summary": "11月10日，ElevenLabs 在 ElevenAPI 上线录音转写 `scribe_v3` 和实时 `scribe_v3_live`，后者也可在 ElevenAgents 使用。实时版新增说话人区分与改进的轮次检测；默认在美国处理，企业可按官方条件选择隔离的欧盟、印度或新加坡环境。厂商在其 FLEURS 评估中报告离线版较 v2 少 27% 词错误，实时版较 v2 Realtime 少 43% 语义词错误，两种数字的指标不同。",
+          "analysis": "会议转录与语音智能体可分别评估离线和实时版本，重点复测重叠发言、专有名词、数字和中途切换语言。",
+          "importance": 3,
+          "tags": [
+            "ElevenLabs",
+            "Scribe v3",
+            "Scribe v3 Live",
+            "语音转写",
+            "说话人识别"
+          ],
+          "sources": [
+            {
+              "title": "ElevenLabs｜发布、地区及评测口径",
+              "url": "https://elevenlabs.io/blog/scribe-v3"
+            },
+            {
+              "title": "ElevenLabs｜模型文档",
+              "url": "https://elevenlabs.io/docs/overview/models?trk=article-ssr-frontend-pulse_little-text-block"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://elevenlabs.io/_next/image?q=80&url=https%3A%2F%2Feleven-public-cdn.elevenlabs.io%2Fpayloadcms%2Fopnzobf72hf-2-%C2%B7-Scribe-v3-vs-Scribe-v2-by-language--WER---semantic-WER-.webp&w=3840",
+              "alt": "ElevenLabs 的 Scribe v3 与 v2 分语言评测图",
+              "sourceUrl": "https://elevenlabs.io/blog/scribe-v3",
+              "caption": "厂商离线评测，不用于比较实时成绩。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "llm-2026-11-11",
       "collectionId": "llm",
