@@ -2,8 +2,114 @@
   "schemaVersion": 1,
   "collectionId": "health",
   "month": "2026-11",
-  "updatedAt": "2026-11-11T01:21:49.168Z",
+  "updatedAt": "2026-11-12T01:22:49Z",
   "briefs": [
+    {
+      "id": "health-2026-11-12",
+      "collectionId": "health",
+      "date": "2026-11-12",
+      "title": "健康｜2026-11-12",
+      "summary": "SOUL 预设二次分析补充心血管事件证据；在研 retatrutide 膝痛与减重试验；中外糖尿病早筛科普。",
+      "analysis": "研究结论限于各自纳入人群；体重长期维持、功能和安全性应一并评估。",
+      "rawText": "# 健康｜2026-11-12\n\n## 今日 Top 3\n\n### 1. SOUL 二次分析：高危 2 型糖尿病患者的心血管事件总数较少\n\n2026年11月11日，《JAMA Cardiology》发表 SOUL 双盲随机试验的预设二次分析：33 国共 9650 名合并动脉粥样硬化性心血管病和／或慢性肾病的 2 型糖尿病成人，中位随访 49.5 个月。标准治疗基础上，口服司美格鲁肽组与安慰剂组首次及后续心血管死亡、非致死心梗或非致死卒中合计为 683 对 791 件，模型估计事件总数比 0.86（95% CI 0.76–0.97）；单独分析第二次、第三次事件并未达到统计显著。因不良事件停药的比例为 15.5% 对 11.6%；分析未校正多重比较。\n\n**为什么值得关注：** 这补充了高危患者的总体事件负担证据。美国口服 Rybelsus／Ozempic 片剂标签已有高危 2 型糖尿病成人的相关心血管适应证；这篇分析并非新增批准，也不能外推给低风险人群或用作减重依据。\n\n*缺图：期刊图表仅核得带有效期签名的直链，未引用。*\n\n来源：[JAMA Cardiology｜原始二次分析](https://jamanetwork.com/journals/jamacardiology/fullarticle/2856457)；[DailyMed｜美国处方标签](https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98)。\n\n### 2. 两项随机试验：在研 retatrutide 对特定人群的减重与膝痛均有改善\n\n《NEJM》11月8日发表两项Ⅲ期随机对照试验，11月10日美国风湿病学会另展示 80 周试验结果。受试者为 BMI 至少 27、患疼痛性膝骨关节炎且无糖尿病的成人；在 68 周 TRIUMPH-4 中，两剂量组平均体重较基线下降 20.0% 和 23.7%，安慰剂组下降 4.6%，膝痛评分也改善。两项试验用药组严重不良事件都更常见，最常见不良事件为胃肠道反应；结果不说明停药后能否维持，也未证明膝关节结构修复。\n\n**为什么值得关注：** 对兼有体重与膝痛问题的人群，今后评估应同时看功能、体重维持和长期安全。该药仍在研究阶段，美国 FDA 未批准，不宜自行购买或使用。\n\n*缺图：未核实与这次膝骨关节炎研究对应的稳定可公开访问图表直链。*\n\n来源：[NEJM｜两项Ⅲ期试验原始论文](https://www.nejm.org/doi/full/10.1056/NEJMoa2610676)；[ACR｜11月10日 80 周试验会议摘要](https://acrabstracts.org/abstract/three-doses-of-once-weekly-retatrutide-in-adults-with-knee-osteoarthritis-and-obesity-an-80-week-phase-3-randomized-clinical-trial/)；[美国 FDA｜在研药品监管状态](https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss)。\n\n### 3. 世界糖尿病日前，WHO 更新事实页、中国疾控发布早筛科普\n\n11月11日，WHO 更新糖尿病事实页：据其汇总估计，2022 年全球约有 8.3 亿糖尿病患者，这是历史估计而非今年病例数。同日，中国疾控中心慢病中心发布公益视频，介绍高风险人群识别、空腹血糖与糖化血红蛋白筛查，以及生活方式在预防中的作用。这两项都是公共卫生资料，并非新的筛查试验或诊断标准。\n\n**为什么值得关注：** 国内公众可把科普作为了解何时与专业人员讨论筛查的入口；全球统计不代表个体风险或中国本地患病率。\n\n![国际糖尿病联盟 2026 世界糖尿病日倡议配图](https://media.idf.org/media/uploads/2026/11/IDF-News-40-1132x700.jpg)\n\n[图片出处](https://idf.org/news-and-resources/news/world-diabetes-day-join-the-global-call-for-early-action-on-diabetes/)\n\n来源：[WHO｜11月11日糖尿病事实页](https://www.who.int/news-room/fact-sheets/detail/diabetes)；[中国疾控中心慢病中心｜公益科普发布](https://ncncd.chinacdc.cn/zxdt/202611/t20261111_1842889.htm)；[国际糖尿病联盟｜2026 年行动倡议](https://idf.org/news-and-resources/news/world-diabetes-day-join-the-global-call-for-early-action-on-diabetes/)。\n",
+      "completeness": "full",
+      "sourceConversation": "健康",
+      "provenance": "2026-11-12T01:22:43Z 生成；以 Asia/Shanghai 定日，优先近24小时，回看7日；核对 WHO、中国疾控、FDA、DailyMed、NEJM、JAMA Cardiology 与 ACR，和本栏近期归档去重。",
+      "score": 4,
+      "items": [
+        {
+          "id": "health-2026-11-12-soul-total-events",
+          "title": "SOUL 二次分析：高危 2 型糖尿病患者的心血管事件总数较少",
+          "category": "医学",
+          "summary": "2026年11月11日，《JAMA Cardiology》发表 SOUL 双盲随机试验的预设二次分析：33 国共 9650 名合并动脉粥样硬化性心血管病和／或慢性肾病的 2 型糖尿病成人，中位随访 49.5 个月。标准治疗基础上，口服司美格鲁肽组与安慰剂组首次及后续心血管死亡、非致死心梗或非致死卒中合计为 683 对 791 件，模型估计事件总数比 0.86（95% CI 0.76–0.97）；单独分析第二次、第三次事件并未达到统计显著。因不良事件停药的比例为 15.5% 对 11.6%；分析未校正多重比较。",
+          "analysis": "这补充了高危患者的总体事件负担证据。美国口服 Rybelsus／Ozempic 片剂标签已有高危 2 型糖尿病成人的相关心血管适应证；这篇分析并非新增批准，也不能外推给低风险人群或用作减重依据。",
+          "importance": 4,
+          "tags": [
+            "2型糖尿病",
+            "心血管风险",
+            "口服司美格鲁肽",
+            "SOUL",
+            "预设二次分析"
+          ],
+          "sources": [
+            {
+              "title": "JAMA Cardiology｜原始二次分析",
+              "url": "https://jamanetwork.com/journals/jamacardiology/fullarticle/2856457"
+            },
+            {
+              "title": "DailyMed｜美国处方标签",
+              "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=27f15fac-7d98-4114-a2ec-92494a91da98"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "health-2026-11-12-retatrutide-knee-oa",
+          "title": "两项随机试验：在研 retatrutide 对特定人群的减重与膝痛均有改善",
+          "category": "减重",
+          "summary": "《NEJM》11月8日发表两项Ⅲ期随机对照试验，11月10日美国风湿病学会另展示 80 周试验结果。受试者为 BMI 至少 27、患疼痛性膝骨关节炎且无糖尿病的成人；在 68 周 TRIUMPH-4 中，两剂量组平均体重较基线下降 20.0% 和 23.7%，安慰剂组下降 4.6%，膝痛评分也改善。两项试验用药组严重不良事件都更常见，最常见不良事件为胃肠道反应；结果不说明停药后能否维持，也未证明膝关节结构修复。",
+          "analysis": "对兼有体重与膝痛问题的人群，今后评估应同时看功能、体重维持和长期安全。该药仍在研究阶段，美国 FDA 未批准，不宜自行购买或使用。",
+          "importance": 4,
+          "tags": [
+            "肥胖",
+            "减重",
+            "膝骨关节炎",
+            "retatrutide",
+            "Ⅲ期随机试验"
+          ],
+          "sources": [
+            {
+              "title": "NEJM｜两项Ⅲ期试验原始论文",
+              "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2610676"
+            },
+            {
+              "title": "ACR｜11月10日 80 周试验会议摘要",
+              "url": "https://acrabstracts.org/abstract/three-doses-of-once-weekly-retatrutide-in-adults-with-knee-osteoarthritis-and-obesity-an-80-week-phase-3-randomized-clinical-trial/"
+            },
+            {
+              "title": "美国 FDA｜在研药品监管状态",
+              "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "health-2026-11-12-diabetes-screening",
+          "title": "世界糖尿病日前，WHO 更新事实页、中国疾控发布早筛科普",
+          "category": "健康",
+          "summary": "11月11日，WHO 更新糖尿病事实页：据其汇总估计，2022 年全球约有 8.3 亿糖尿病患者，这是历史估计而非今年病例数。同日，中国疾控中心慢病中心发布公益视频，介绍高风险人群识别、空腹血糖与糖化血红蛋白筛查，以及生活方式在预防中的作用。这两项都是公共卫生资料，并非新的筛查试验或诊断标准。",
+          "analysis": "国内公众可把科普作为了解何时与专业人员讨论筛查的入口；全球统计不代表个体风险或中国本地患病率。",
+          "importance": 3,
+          "tags": [
+            "世界糖尿病日",
+            "2型糖尿病",
+            "早筛",
+            "慢病防控"
+          ],
+          "sources": [
+            {
+              "title": "WHO｜11月11日糖尿病事实页",
+              "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes"
+            },
+            {
+              "title": "中国疾控中心慢病中心｜公益科普发布",
+              "url": "https://ncncd.chinacdc.cn/zxdt/202611/t20261111_1842889.htm"
+            },
+            {
+              "title": "国际糖尿病联盟｜2026 年行动倡议",
+              "url": "https://idf.org/news-and-resources/news/world-diabetes-day-join-the-global-call-for-early-action-on-diabetes/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://media.idf.org/media/uploads/2026/11/IDF-News-40-1132x700.jpg",
+              "alt": "国际糖尿病联盟 2026 世界糖尿病日倡议配图",
+              "sourceUrl": "https://idf.org/news-and-resources/news/world-diabetes-day-join-the-global-call-for-early-action-on-diabetes/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "health-2026-11-11",
       "collectionId": "health",
