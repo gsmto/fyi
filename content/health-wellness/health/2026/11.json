@@ -2,8 +2,122 @@
   "schemaVersion": 1,
   "collectionId": "health",
   "month": "2026-11",
-  "updatedAt": "2026-11-12T01:22:49Z",
+  "updatedAt": "2026-11-13T01:22:41Z",
   "briefs": [
+    {
+      "id": "health-2026-11-13",
+      "collectionId": "health",
+      "date": "2026-11-13",
+      "title": "健康｜2026-11-13",
+      "summary": "WHO发布结核病年报，美国癌症协会更新前列腺癌筛查指南，四国队列比较BMI与多指标肥胖评估。",
+      "analysis": "按公共卫生影响、证据类型和适用范围排序。5分为全球公共卫生关键进展，4分为可影响筛查决策或风险评估的重要证据。",
+      "rawText": "# 今日 Top 3\n\n## 1. WHO：全球结核病死亡较2015年降35%，仍有约220万病例未获诊断或报告\n\n**发布日期** 2026-11-12\n\nWHO《2026年全球结核病报告》汇集187个国家和地区的报告，估计2025年全球约1060万人罹患结核病、113万人死亡。死亡人数较2015年下降35%，比原定里程碑晚五年达到；发病率同期仅下降14%。这是国家监测与模型估计，漏诊漏报及各地数据质量会影响估计。\n\n**为什么值得关注** 约220万病例尚未诊断或未向国家项目报告，说明改善检测与报告仍是公共卫生重点。跨年比较宜采用本版回溯修订后的同一序列。\n\n![2025年全球结核病估计发病病例分布](https://cdn.who.int/media/images/default-source/products/global-reports/tb-report/2026/fig_1-1-3.tmb-1920v.png?sfvrsn=dc6e2c4a_1)\n[图片出处](https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/tb-reports/global-tuberculosis-report-2026/tb-disease-burden/1-1-tb-incidence)\n\n来源 [WHO 报告](https://www.who.int/publications/i/item/9789240126480) · [WHO 发布说明](https://www.who.int/news/item/12-11-2026-amid-challenges-countries-increase-domestic-investment-to-protect-progress-against-tuberculosis)\n\n## 2. 美国癌症协会更新前列腺癌筛查指南，按风险区分起始年龄和间隔\n\n**发布日期** 2026-11-12\n\n美国癌症协会建议，在知情讨论后选择筛查的普通风险男性，50–69岁每两年做一次PSA检测；黑人男性和有强家族史的非黑人男性，45–69岁每年检测。指南综合了系统综述与模型，普通风险人群的两年间隔为中等确定性，高风险人群的年度间隔主要基于专家共识。初次PSA升高后，指南建议先复测，再决定是否进一步检查。\n\n**为什么值得关注** 这项美国指南有助于理解筛查获益与假阳性、活检及过度诊断之间的权衡。适用年龄和风险分组服务于美国临床共同决策。\n\n![美国癌症协会首席科学官 William Dahut 的指南解读配图](https://www.cancer.org/adobe/dynamicmedia/deliver/dm-aid--3c36b609-e06e-47cc-99d0-a002c3591b4f/dahut-qa.png?preferwebp=true&quality=82)\n[图片出处](https://www.cancer.org/cancer/latest-news/our-impact/what-you-need-to-know-about-updated-prostate-cancer-screening-guideline.html)\n\n来源 [CA: A Cancer Journal for Clinicians 指南原文](https://acsjournals.onlinelibrary.wiley.com/doi/10.3322/caac.70112) · [美国癌症协会公告](https://pressroom.cancer.org/prostate-cancer-screening-guideline-update-2026)\n\n## 3. 四国84万成人队列：仅用BMI可能漏判或高估肥胖状态\n\n**发布日期** 2026-11-11（期刊在线发表）\n\n《Nature》发表一项覆盖中国、英国、美国和西班牙844,108名成年人的回顾性队列研究。与结合腰围和腰围身高比的框架相比，仅用BMI在各队列中低估了5.2%–8.6%参与者的肥胖状态，高估了1.2%–3.1%，分母为各队列全部参与者。研究依赖既有医疗记录和诊断编码，群体统计无法判断个体的器官功能异常是否由肥胖引起。\n\n**为什么值得关注** 这提示体重管理的长期目标还应结合体脂分布、功能状态和随访，评估方案的可持续性与安全性。研究没有比较具体减重干预的效果。\n\n![体重秤与软尺，体重管理配图](https://www.kcl.ac.uk/newimages/folsm/main-article/scps/weighing-scales-and-tape-measure.xf955dc9f.png?f=webp)\n[图片出处](https://www.kcl.ac.uk/news/new-clinical-definition-outperforms-bmi-in-diagnosing-obesity)\n\n来源 [Nature 原始研究（PDF）](https://www.nature.com/articles/s41586-026-11237-5.pdf) · [伦敦国王学院研究说明](https://www.kcl.ac.uk/news/new-clinical-definition-outperforms-bmi-in-diagnosing-obesity) · [新华社中文报道](https://www1.xinhuanet.com/world/20261112/c63cab116f75445182d91a50e5a542b2/c.html)\n\n按公共卫生影响、证据类型和适用范围排序。5分为全球公共卫生关键进展，4分为可影响筛查决策或风险评估的重要证据。\n",
+      "completeness": "full",
+      "sourceConversation": "健康",
+      "provenance": "2026-11-13T01:22:41Z 生成；以 Asia/Shanghai 定日，优先近24小时，必要时回看7日；核对 WHO、中国疾控、美国癌症协会、Nature、伦敦国王学院及新华社，和本栏近期归档去重。",
+      "score": 5,
+      "items": [
+        {
+          "id": "health-2026-11-13-who-tuberculosis-report-2026",
+          "title": "WHO：全球结核病死亡较2015年降35%，仍有约220万病例未获诊断或报告",
+          "category": "健康",
+          "summary": "WHO《2026年全球结核病报告》汇集187个国家和地区的报告，估计2025年全球约1060万人罹患结核病、113万人死亡。死亡人数较2015年下降35%，比原定里程碑晚五年达到；发病率同期仅下降14%。这是国家监测与模型估计，漏诊漏报及各地数据质量会影响估计。",
+          "analysis": "约220万病例尚未诊断或未向国家项目报告，说明改善检测与报告仍是公共卫生重点。跨年比较宜采用本版回溯修订后的同一序列。",
+          "importance": 5,
+          "tags": [
+            "WHO",
+            "结核病",
+            "公共卫生",
+            "疾病监测"
+          ],
+          "sources": [
+            {
+              "title": "WHO 报告",
+              "url": "https://www.who.int/publications/i/item/9789240126480"
+            },
+            {
+              "title": "WHO 发布说明",
+              "url": "https://www.who.int/news/item/12-11-2026-amid-challenges-countries-increase-domestic-investment-to-protect-progress-against-tuberculosis"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn.who.int/media/images/default-source/products/global-reports/tb-report/2026/fig_1-1-3.tmb-1920v.png?sfvrsn=dc6e2c4a_1",
+              "alt": "2025年全球结核病估计发病病例分布",
+              "sourceUrl": "https://www.who.int/teams/global-programme-on-tuberculosis-and-lung-health/tb-reports/global-tuberculosis-report-2026/tb-disease-burden/1-1-tb-incidence"
+            }
+          ]
+        },
+        {
+          "id": "health-2026-11-13-acs-prostate-screening-2026",
+          "title": "美国癌症协会更新前列腺癌筛查指南，按风险区分起始年龄和间隔",
+          "category": "医学",
+          "summary": "美国癌症协会建议，在知情讨论后选择筛查的普通风险男性，50–69岁每两年做一次PSA检测；黑人男性和有强家族史的非黑人男性，45–69岁每年检测。指南综合了系统综述与模型，普通风险人群的两年间隔为中等确定性，高风险人群的年度间隔主要基于专家共识。初次PSA升高后，指南建议先复测，再决定是否进一步检查。",
+          "analysis": "这项美国指南有助于理解筛查获益与假阳性、活检及过度诊断之间的权衡。适用年龄和风险分组服务于美国临床共同决策。",
+          "importance": 4,
+          "tags": [
+            "前列腺癌",
+            "PSA",
+            "筛查",
+            "临床指南",
+            "美国癌症协会"
+          ],
+          "sources": [
+            {
+              "title": "CA: A Cancer Journal for Clinicians 指南原文",
+              "url": "https://acsjournals.onlinelibrary.wiley.com/doi/10.3322/caac.70112"
+            },
+            {
+              "title": "美国癌症协会公告",
+              "url": "https://pressroom.cancer.org/prostate-cancer-screening-guideline-update-2026"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.cancer.org/adobe/dynamicmedia/deliver/dm-aid--3c36b609-e06e-47cc-99d0-a002c3591b4f/dahut-qa.png?preferwebp=true&quality=82",
+              "alt": "美国癌症协会首席科学官 William Dahut 的指南解读配图",
+              "sourceUrl": "https://www.cancer.org/cancer/latest-news/our-impact/what-you-need-to-know-about-updated-prostate-cancer-screening-guideline.html"
+            }
+          ]
+        },
+        {
+          "id": "health-2026-11-13-clinical-obesity-global-cohorts",
+          "title": "四国84万成人队列：仅用BMI可能漏判或高估肥胖状态",
+          "category": "减重",
+          "summary": "《Nature》发表一项覆盖中国、英国、美国和西班牙844,108名成年人的回顾性队列研究。与结合腰围和腰围身高比的框架相比，仅用BMI在各队列中低估了5.2%–8.6%参与者的肥胖状态，高估了1.2%–3.1%，分母为各队列全部参与者。研究依赖既有医疗记录和诊断编码，群体统计无法判断个体的器官功能异常是否由肥胖引起。",
+          "analysis": "这提示体重管理的长期目标还应结合体脂分布、功能状态和随访，评估方案的可持续性与安全性。研究没有比较具体减重干预的效果。",
+          "importance": 4,
+          "tags": [
+            "体重管理",
+            "肥胖",
+            "BMI",
+            "腰围",
+            "观察性研究"
+          ],
+          "sources": [
+            {
+              "title": "Nature 原始研究（PDF）",
+              "url": "https://www.nature.com/articles/s41586-026-11237-5.pdf"
+            },
+            {
+              "title": "伦敦国王学院研究说明",
+              "url": "https://www.kcl.ac.uk/news/new-clinical-definition-outperforms-bmi-in-diagnosing-obesity"
+            },
+            {
+              "title": "新华社中文报道",
+              "url": "https://www1.xinhuanet.com/world/20261112/c63cab116f75445182d91a50e5a542b2/c.html"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.kcl.ac.uk/newimages/folsm/main-article/scps/weighing-scales-and-tape-measure.xf955dc9f.png?f=webp",
+              "alt": "体重秤与软尺，体重管理配图",
+              "sourceUrl": "https://www.kcl.ac.uk/news/new-clinical-definition-outperforms-bmi-in-diagnosing-obesity"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "health-2026-11-12",
       "collectionId": "health",
