@@ -2,8 +2,190 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-12T01:24:10Z",
+  "updatedAt": "2026-11-13T01:25:43Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-13",
+      "collectionId": "llm",
+      "date": "2026-11-13",
+      "title": "大模型｜2026-11-13",
+      "summary": "Gemini 4 Hydrogen 开放、NVIDIA 管理层交接、美国前沿 AI 诉讼、Qwen4-Max 预览及 Claude 使用政策生效。",
+      "analysis": "重要性 5 分用于直接影响主流模型接入或核心算力生态的事件，4 分用于涉及重要模型预览、平台使用规则或行业治理的进展。",
+      "rawText": "# 大模型资讯简报\n\n2026-11-13（北京时间）。优先收录过去 24 小时新公布或生效的事件，千问预览为近七日补录。\n\n## 1. Google 发布 Gemini 4 Hydrogen，免费 API 层可用\n\n**发布日期** 2026-11-12（Google 公告日期）\n\nGoogle 开放主打日常编码、多模态任务和智能体执行的 Gemini 4 Hydrogen，上下文上限为 100 万词元，支持四档推理强度。Gemini API 与 AI Studio 覆盖免费及付费层，付费 API 每百万输入和输出词元分别为 1.50 和 7.50 美元。Gemini 应用免费账号由系统自动选择模型，Antigravity 首发面向 Google AI Pro 和 Ultra。\n\n**为什么值得关注** 开发者可以在同一批真实任务上测量成功率、端到端延迟和总成本，再决定是否从 3.8 Flash 迁移。Google 公布的速度对比对应特定测试设置，无法直接外推到生产负载。\n\n![Google DeepMind 的 Gemini 4 Hydrogen 发布配图](https://lh3.googleusercontent.com/0VI_oqs5V2Rqndmavj5yW2hRtDx77PntoqLbTYnM6N3xArATly0zTFuHz9uiw-o0gAr_u-hC_4Kjej6ZXBfFjuJN9covrBOXudEjOthwvMyeXvEq=w2464-h2464-n-nu)\n[图片出处](https://deepmind.google/blog/)\n\n来源 [Google 发布公告](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/) · [Google AI Studio API 与价格说明](https://aistudio.google.com/docs/whats-new-gemini-4-hydrogen) · [DeepMind 模型卡](https://deepmind.google/models/model-cards/gemini-4-hydrogen/)\n\n## 2. 黄仁勋卸任 NVIDIA CEO，财务长 Colette Kress 临时接任\n\n**发布日期** 2026-11-12（公司公告，美国当地时间）\n\nNVIDIA 公布黄仁勋卸任总裁、CEO 和董事，SEC 文件记载董事会于 11 月 11 日接受辞呈并即时生效。CFO Colette Kress 兼任临时 CEO，董事会启动正式继任者遴选。董事会表示预期运营、客户承诺和产品路线图会继续推进。\n\n**为什么值得关注** NVIDIA 的加速器和软件生态是许多模型团队训练与部署的基础，管理层交接使后续产品与供货更新更值得跟踪。11 月 17 日（美国太平洋时间）的财报电话会是下一次已公布的观察节点。\n\n![NVIDIA 临时 CEO 兼 CFO Colette Kress 官方肖像](https://iprsoftwaremedia.com/219/files/202604/009d8f4094e9d6f702bde11cad96c0a7/69e6b9443d633260e4c67800_colette-1920x1920/colette-1920x1920_4d360fa4-e97d-4505-9857-284d03141162-prv.jpg?v=4d360fa4-e97d-4505-9857-284d03141162)\n[图片出处](https://nvidianews.nvidia.com/file?fid=69e6b9443d633260e4c67800)\n\n来源 [NVIDIA 投资者关系公告](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/) · [NVIDIA 向 SEC 提交的 Form 8-K](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm)\n\n## 3. 美国四家非营利组织起诉五家 AI 公司，请求冻结前沿模型开发\n\n**发布日期** 2026-11-12（旧金山当地时间）\n\n四家非营利组织向旧金山高等法院起诉 OpenAI、Anthropic、Google、Meta 和 SpaceX Super Intelligence，依据加州不正当竞争法，请求法院限制进一步开发或部署先进模型。截至本报截稿，公开消息确认的是起诉及其请求，尚未查到法院签发相关禁令。\n\n**为什么值得关注** 这起案件关系到州法能否影响前沿模型发布节奏。对依赖特定模型的开发者而言，具有实际意义的信号是法院后续命令及供应商的正式可用性公告。\n\n![美联社资料照片：2026年9月旧金山 OpenAI DevDay 会场](https://dims.apnews.com/dims4/default/f5f52aa/2147483647/strip/true/crop/4662x3108%2B0%2B0/resize/599x399%21/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F30%2F0e%2Fef26d3feddcef8b768b205a106a9%2F4fd0f97a72934b7eb0c5305851250919)\n[图片出处](https://apnews.com/article/artificial-intelligence-ai-lawsuit-cyberattacks-anthropic-openai-03ece37b96979fe834f60976648504ba)\n\n来源 [原告之一 Public Citizen 的公告](https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/) · [美联社报道](https://apnews.com/article/artificial-intelligence-ai-lawsuit-cyberattacks-anthropic-openai-03ece37b96979fe834f60976648504ba)\n\n## 4. 阿里开放 Qwen4-Max 预览，API 首发限 Token Plan\n\n**发布日期** 2026-11-11 10:00（北京时间，近7日补录）\n\n千问平台上线 `qwen4-max-preview`，支持百万词元上下文、图片和视频理解、工具调用及文本输出。API 仅通过 Token Plan 订阅提供，预览模型将在北京时间 11 月 25 日 24:00 后下线。OpenAI Chat Completions 兼容接口中，思考与最终回答共用 `max_tokens` 或 `max_completion_tokens` 设定的额度。\n\n**为什么值得关注** 现有客户端可以用真实编程与多模态任务短期试用。迁移时需要复核输出预算，并为预览标识下线预留回退选项。\n\n![阿里云开发者社区刊载的 Qwen4 上线配图](https://ucc.alicdn.com/pic/developer-ecology/p77onh336chi6_da555ea3435044be9fce62f15f2addc3.png?x-oss-process=image%2Fresize%2Cw_1400%2Fformat%2Cwebp)\n[图片出处](https://developer.aliyun.com/article/1782441)\n\n来源 [千问 AI 平台规格及预览期](https://platform.qianwenai.com/docs/developer-guides/getting-started/latest-model) · [阿里云百炼模型文档](https://help.aliyun.cn/zh/model-studio/qwen4-max-preview) · [机器之心 Pro 发布报道](https://t.cj.sina.com.cn/articles/view/3996876140/mee3b7d6c0330181qo)\n\n## 5. Claude 使用政策新版生效，明确高风险复核及硬件控制要求\n\n**发布日期** 2026-11-12（生效，原公告发布于10月8日）\n\nAnthropic 新版政策正式适用于 Claude 应用、API、云合作渠道及集成产品的终端用户。政策细化了医疗、金融、法律权益等高风险用途的适用范围，延续由合格人员复核和向受影响人士告知 AI 使用的要求。对可能造成人身伤害的自主硬件，新增要求包括操作者能观察和停止设备，以及 Claude 断连时设备能维持安全状态。\n\n**为什么值得关注** API 集成方和能触发实体操作的智能体团队应核对现有人工复核、告知和停机设计。采购渠道不同，仍应核查适用于终端用户的条款。\n\n配图：未找到与该事件直接相关且可验证的公开图片直链。\n\n来源 [Anthropic 生效版使用政策](https://www.anthropic.com/legal/aup) · [Anthropic 修订说明](https://www.anthropic.com/news/2026-usage-policy-update)\n\n重要性 5 分用于直接影响主流模型接入或核心算力生态的事件，4 分用于涉及重要模型预览、平台使用规则或行业治理的进展。\n",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "2026-11-13T01:25:43Z 生成；以 Asia/Shanghai 定日，优先近24小时，必要时回看7日；检索 OpenAI、Anthropic、Google/DeepMind、xAI、Meta、阿里巴巴与 NVIDIA 官方公告、发布日志、开发者文档、SEC 文件及中英文媒体，并对照本栏目11月近期报告去重。",
+      "score": 5,
+      "items": [
+        {
+          "id": "llm-2026-11-13-gemini-4-hydrogen",
+          "title": "Google 发布 Gemini 4 Hydrogen，免费 API 层可用",
+          "category": "Google",
+          "summary": "Google 开放主打日常编码、多模态任务和智能体执行的 Gemini 4 Hydrogen，上下文上限为 100 万词元，支持四档推理强度。Gemini API 与 AI Studio 覆盖免费及付费层，付费 API 每百万输入和输出词元分别为 1.50 和 7.50 美元。Gemini 应用免费账号由系统自动选择模型，Antigravity 首发面向 Google AI Pro 和 Ultra。",
+          "analysis": "开发者可以在同一批真实任务上测量成功率、端到端延迟和总成本，再决定是否从 3.8 Flash 迁移。Google 公布的速度对比对应特定测试设置，无法直接外推到生产负载。",
+          "importance": 5,
+          "tags": [
+            "Google",
+            "Google DeepMind",
+            "Gemini 4 Hydrogen",
+            "Gemini API",
+            "智能体",
+            "API 定价"
+          ],
+          "sources": [
+            {
+              "title": "Google 发布公告",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+            },
+            {
+              "title": "Google AI Studio API 与价格说明",
+              "url": "https://aistudio.google.com/docs/whats-new-gemini-4-hydrogen"
+            },
+            {
+              "title": "DeepMind 模型卡",
+              "url": "https://deepmind.google/models/model-cards/gemini-4-hydrogen/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://lh3.googleusercontent.com/0VI_oqs5V2Rqndmavj5yW2hRtDx77PntoqLbTYnM6N3xArATly0zTFuHz9uiw-o0gAr_u-hC_4Kjej6ZXBfFjuJN9covrBOXudEjOthwvMyeXvEq=w2464-h2464-n-nu",
+              "alt": "Google DeepMind 的 Gemini 4 Hydrogen 发布配图",
+              "sourceUrl": "https://deepmind.google/blog/"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-13-nvidia-ceo-transition",
+          "title": "黄仁勋卸任 NVIDIA CEO，财务长 Colette Kress 临时接任",
+          "category": "NVIDIA",
+          "summary": "NVIDIA 公布黄仁勋卸任总裁、CEO 和董事，SEC 文件记载董事会于 11 月 11 日接受辞呈并即时生效。CFO Colette Kress 兼任临时 CEO，董事会启动正式继任者遴选。董事会表示预期运营、客户承诺和产品路线图会继续推进。",
+          "analysis": "NVIDIA 的加速器和软件生态是许多模型团队训练与部署的基础，管理层交接使后续产品与供货更新更值得跟踪。11 月 17 日（美国太平洋时间）的财报电话会是下一次已公布的观察节点。",
+          "importance": 5,
+          "tags": [
+            "NVIDIA",
+            "高管变动",
+            "AI 算力",
+            "Colette Kress"
+          ],
+          "sources": [
+            {
+              "title": "NVIDIA 投资者关系公告",
+              "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/"
+            },
+            {
+              "title": "NVIDIA 向 SEC 提交的 Form 8-K",
+              "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://iprsoftwaremedia.com/219/files/202604/009d8f4094e9d6f702bde11cad96c0a7/69e6b9443d633260e4c67800_colette-1920x1920/colette-1920x1920_4d360fa4-e97d-4505-9857-284d03141162-prv.jpg?v=4d360fa4-e97d-4505-9857-284d03141162",
+              "alt": "NVIDIA 临时 CEO 兼 CFO Colette Kress 官方肖像",
+              "sourceUrl": "https://nvidianews.nvidia.com/file?fid=69e6b9443d633260e4c67800"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-13-sf-frontier-ai-lawsuit",
+          "title": "美国四家非营利组织起诉五家 AI 公司，请求冻结前沿模型开发",
+          "category": "其他",
+          "summary": "四家非营利组织向旧金山高等法院起诉 OpenAI、Anthropic、Google、Meta 和 SpaceX Super Intelligence，依据加州不正当竞争法，请求法院限制进一步开发或部署先进模型。截至本报截稿，公开消息确认的是起诉及其请求，尚未查到法院签发相关禁令。",
+          "analysis": "这起案件关系到州法能否影响前沿模型发布节奏。对依赖特定模型的开发者而言，具有实际意义的信号是法院后续命令及供应商的正式可用性公告。",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "Anthropic",
+            "Google",
+            "Meta",
+            "xAI",
+            "AI 治理",
+            "美国诉讼"
+          ],
+          "sources": [
+            {
+              "title": "原告之一 Public Citizen 的公告",
+              "url": "https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/"
+            },
+            {
+              "title": "美联社报道",
+              "url": "https://apnews.com/article/artificial-intelligence-ai-lawsuit-cyberattacks-anthropic-openai-03ece37b96979fe834f60976648504ba"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://dims.apnews.com/dims4/default/f5f52aa/2147483647/strip/true/crop/4662x3108%2B0%2B0/resize/599x399%21/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F30%2F0e%2Fef26d3feddcef8b768b205a106a9%2F4fd0f97a72934b7eb0c5305851250919",
+              "alt": "美联社资料照片：2026年9月旧金山 OpenAI DevDay 会场",
+              "sourceUrl": "https://apnews.com/article/artificial-intelligence-ai-lawsuit-cyberattacks-anthropic-openai-03ece37b96979fe834f60976648504ba"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-13-qwen4-max-preview",
+          "title": "阿里开放 Qwen4-Max 预览，API 首发限 Token Plan",
+          "category": "阿里巴巴",
+          "summary": "千问平台上线 `qwen4-max-preview`，支持百万词元上下文、图片和视频理解、工具调用及文本输出。API 仅通过 Token Plan 订阅提供，预览模型将在北京时间 11 月 25 日 24:00 后下线。OpenAI Chat Completions 兼容接口中，思考与最终回答共用 `max_tokens` 或 `max_completion_tokens` 设定的额度。",
+          "analysis": "现有客户端可以用真实编程与多模态任务短期试用。迁移时需要复核输出预算，并为预览标识下线预留回退选项。",
+          "importance": 4,
+          "tags": [
+            "阿里巴巴",
+            "千问",
+            "Qwen4-Max",
+            "模型预览",
+            "Token Plan",
+            "多模态",
+            "API"
+          ],
+          "sources": [
+            {
+              "title": "千问 AI 平台规格及预览期",
+              "url": "https://platform.qianwenai.com/docs/developer-guides/getting-started/latest-model"
+            },
+            {
+              "title": "阿里云百炼模型文档",
+              "url": "https://help.aliyun.cn/zh/model-studio/qwen4-max-preview"
+            },
+            {
+              "title": "机器之心 Pro 发布报道",
+              "url": "https://t.cj.sina.com.cn/articles/view/3996876140/mee3b7d6c0330181qo"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://ucc.alicdn.com/pic/developer-ecology/p77onh336chi6_da555ea3435044be9fce62f15f2addc3.png?x-oss-process=image%2Fresize%2Cw_1400%2Fformat%2Cwebp",
+              "alt": "阿里云开发者社区刊载的 Qwen4 上线配图",
+              "sourceUrl": "https://developer.aliyun.com/article/1782441"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-13-claude-usage-policy-effective",
+          "title": "Claude 使用政策新版生效，明确高风险复核及硬件控制要求",
+          "category": "Anthropic",
+          "summary": "Anthropic 新版政策正式适用于 Claude 应用、API、云合作渠道及集成产品的终端用户。政策细化了医疗、金融、法律权益等高风险用途的适用范围，延续由合格人员复核和向受影响人士告知 AI 使用的要求。对可能造成人身伤害的自主硬件，新增要求包括操作者能观察和停止设备，以及 Claude 断连时设备能维持安全状态。",
+          "analysis": "API 集成方和能触发实体操作的智能体团队应核对现有人工复核、告知和停机设计。采购渠道不同，仍应核查适用于终端用户的条款。",
+          "importance": 4,
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "使用政策",
+            "API",
+            "智能体",
+            "人工复核"
+          ],
+          "sources": [
+            {
+              "title": "Anthropic 生效版使用政策",
+              "url": "https://www.anthropic.com/legal/aup"
+            },
+            {
+              "title": "Anthropic 修订说明",
+              "url": "https://www.anthropic.com/news/2026-usage-policy-update"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
     {
       "id": "llm-2026-11-12",
       "collectionId": "llm",
