@@ -2,8 +2,194 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-11",
-  "updatedAt": "2026-11-12T01:08:58Z",
+  "updatedAt": "2026-11-13T01:08:06Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-11-13",
+      "collectionId": "daily-brief",
+      "date": "2026-11-13",
+      "title": "最新资讯｜2026-11-13",
+      "summary": "英伟达更换 CEO，五家 AI 公司面临要求暂停前沿模型开发的诉讼。另关注思科财报、Qwen Code 1.0 预览更新和《浪漫沙加 3》重制版档期。",
+      "analysis": "接下来可看英伟达财报如何交代产品与交付，以及加州法院是否采取临时措施。思科网络业务的已实现增速提供了一项观察数据中心投资的补充指标。",
+      "rawText": "# 最新资讯｜2026-11-13\n\n英伟达更换 CEO，五家 AI 公司面临要求暂停前沿模型开发的诉讼。另关注思科财报、Qwen Code 1.0 预览更新和《浪漫沙加 3》重制版档期。\n\n## 1. 黄仁勋辞任英伟达 CEO，财务长 Kress 临时接任\n\n11月12日（美国时间），英伟达宣布创始人黄仁勋辞任总裁、CEO 和董事，即刻生效。财务长 Colette Kress 兼任临时 CEO，Harvey C. Jones 出任公司首位董事会主席，董事会已启动正式继任者遴选。公司预计营运、客户承诺和产品路线图照常推进，第三财季财报仍定于美国时间11月17日公布。\n\n![英伟达财务长 Colette Kress 的资料图](https://i.cdn.newsbytesapp.com/images/l144_13941780193604.jpg)\n\n财务长任内资料图。 [图片出处](https://www.newsbytesapp.com/news/business/nvidia-cfo-kress-says-ai-necessary-as-revenue-hits-816b/tldr)\n\n**为什么值得关注**　这是英伟达创立以来首次 CEO 更替。财报电话会将是观察新管理层如何说明芯片交付、产品路线图和大客户承诺的近期节点。\n\n**来源**　[英伟达官方公告](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition) · [SEC 8-K 备案](https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/0001045810-26-000082-index.html) · [深潮 TechFlow｜PANews 中文报道](https://www.panewslab.com/zh-hant/articles/01a1d0a3-2a26-7717-bcb3-adf47d6c6d14)\n\n## 2. 四家非营利组织起诉五家 AI 公司，请求暂停前沿模型开发\n\n11月12日（美国时间），Public Citizen 等四家非营利组织在加州旧金山县高等法院起诉 OpenAI、Anthropic、Google、Meta 和 SpaceXSI。原告援引加州《不正当竞争法》，要求法院限制最先进模型的进一步开发与部署，并主张相关活动危及公共安全。截至检索时，此案处于起诉阶段。\n\n![2026年9月29日 OpenAI DevDay 会场](https://dims.apnews.com/dims4/default/f5f52aa/2147483647/strip/true/crop/4662x3108%2B0%2B0/resize/599x399%21/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F30%2F0e%2Fef26d3feddcef8b768b205a106a9%2F4fd0f97a72934b7eb0c5305851250919)\n\n美联社 Jeff Chiu 摄，资料图。 [图片出处](https://apnews.com/article/artificial-intelligence-ai-lawsuit-cyberattacks-anthropic-openai-03ece37b96979fe834f60976648504ba)\n\n**为什么值得关注**　若法院随后采取限制措施，影响可能延伸到模型训练与上线的审批流程。后续应关注法院是否签发禁令及其适用范围。\n\n**来源**　[原告 Public Citizen 公告](https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/) · [美联社｜诉讼报道](https://apnews.com/article/artificial-intelligence-ai-lawsuit-cyberattacks-anthropic-openai-03ece37b96979fe834f60976648504ba) · [路透社｜起诉与监管背景](https://www.reuters.com/business/openai-google-anthropic-hit-with-lawsuit-seeking-halt-frontier-ai-development-2026-11-12/)\n\n## 3. 思科营收同比增 24%，上调大型云客户 AI 基础设施收入预期\n\n11月12日美股盘后，思科公布截至10月24日的2027财年第一财季业绩，营收185亿美元，同比增长24%，网络业务产品收入同比增长43%。公司把本财年来自超大规模云客户的 AI 基础设施收入预期调至90亿美元，并将全年总营收指引上调至748亿—758亿美元。\n\n![带有思科标识的办公楼](https://newsroom.cisco.com/c/dam/r/newsroom/en/us/assets/earnings/cisco-building-w-sign-800x450.jpg)\n\n思科财报公告配图。 [图片出处](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html)\n\n**为什么值得关注**　网络设备收入提供了观察 AI 基建支出向 GPU 以外环节扩散的线索。90亿美元仍是管理层对全年收入的预期，后续可跟踪季度收入兑现。\n\n**来源**　[思科官方财报](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html)\n\n## 4. Qwen Code 1.0 预览整合 Qoder，更新订阅模型与并行工具调用\n\nQwen Code 11月11日发布 1.0 预览，将 Qoder 与 Qwen Code 的编程智能体能力整合，支持多模型提供商和自定义兼容端点。预览提供 macOS、Linux 和 Windows 原生安装包，无需单独安装 Node.js，并支持恢复会话与非交互执行。11月12日的 preview.1 修复了登录后订阅模型不可用的问题，并为 Qoder 模型加入并行工具调用。\n\n![Qwen Code 的项目与任务界面](https://img.alicdn.com/imgextra/i4/6000000000486/O1CN01QwpvkvH1XVE3Y2m4_%21%216000000000486-0-tbvideo.jpg)\n\n官方演示画面。 [图片出处](https://qwenlm.github.io/qwen-code-docs/en/showcase/)\n\n**为什么值得关注**　原生包与非交互模式降低了在本地脚本中试用的门槛。官方注明预览期接口与配置仍可能调整，接入团队可以先核对现有脚本和配置的兼容性。\n\n**来源**　[GitHub｜1.0 预览发布说明](https://github.com/QwenLM/qwen-code/releases/tag/v1.0.0-preview) · [GitHub｜preview.1 发布说明](https://github.com/QwenLM/qwen-code/releases/tag/v1.0.0-preview.1) · [Qwen Code 官方演示](https://qwenlm.github.io/qwen-code-docs/en/showcase/)\n\n## 5. 《浪漫沙加 3》全 3D 重制版提前至 2027 年 2 月 4 日发售\n\n11月12日，Square Enix 宣布《Romancing SaGa 3: Destinies United》将提前至2027年2月4日发售，登陆 PS5、Xbox Series X|S、PC（Steam 和 Xbox PC）、Switch 及 Switch 2。Switch 系列数字预购定于11月19日开启。重制版保留八位主角与自由剧本结构，重做画面，并为事件场景加入日英配音。\n\n![《Romancing SaGa 3: Destinies United》官方游戏截图](https://www.square-enix.com/saga/assets/images/games/romancing-saga-3-destinies-united/hexagon-2.webp)\n\nSquare Enix 官网截图。 [图片出处](https://www.square-enix.com/saga/en-us/games/romancing-saga-3-destinies-united/)\n\n**为什么值得关注**　这给经典非线性 JRPG 的重制提供了一个可跟踪的案例，值得观察自由选角、任务分支与现代导航如何配合。\n\n**来源**　[Square Enix｜游戏官网](https://www.square-enix.com/saga/en-us/games/romancing-saga-3-destinies-united/) · [Games Press｜Square Enix 发售日期公告](https://www.gamespress.com/RELEASE-VON-ROMANCING-SAGA-3-DESTINIES-UNITED-AUF-DEN-4-FEBRUAR-VORGEZ)\n\n## 接下来关注\n\n接下来可看英伟达财报如何交代产品与交付，以及加州法院是否采取临时措施。思科网络业务的已实现增速提供了一项观察数据中心投资的补充指标。\n",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "2026-11-13T01:07:14Z 生成。按 Asia/Shanghai 定日，重点核对当地11月12日发布及跨时区公告，11月11日发布的预览只作为11月12日更新背景。检索英文与中文媒体、官方公告、SEC、开源发布与研究动态，并对照9—11月本栏目归档。",
+      "score": 5,
+      "items": [
+        {
+          "id": "daily-brief-2026-11-13-nvidia-ceo-transition",
+          "title": "黄仁勋辞任英伟达 CEO，财务长 Kress 临时接任",
+          "category": "全球科技与商业",
+          "summary": "11月12日（美国时间），英伟达宣布创始人黄仁勋辞任总裁、CEO 和董事，即刻生效。财务长 Colette Kress 兼任临时 CEO，Harvey C. Jones 出任公司首位董事会主席，董事会已启动正式继任者遴选。公司预计营运、客户承诺和产品路线图照常推进，第三财季财报仍定于美国时间11月17日公布。",
+          "analysis": "这是英伟达创立以来首次 CEO 更替。财报电话会将是观察新管理层如何说明芯片交付、产品路线图和大客户承诺的近期节点。",
+          "importance": 5,
+          "tags": [
+            "英伟达",
+            "半导体",
+            "公司治理"
+          ],
+          "sources": [
+            {
+              "title": "英伟达官方公告",
+              "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+            },
+            {
+              "title": "SEC 8-K 备案",
+              "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/0001045810-26-000082-index.html"
+            },
+            {
+              "title": "深潮 TechFlow｜PANews 中文报道",
+              "url": "https://www.panewslab.com/zh-hant/articles/01a1d0a3-2a26-7717-bcb3-adf47d6c6d14"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://i.cdn.newsbytesapp.com/images/l144_13941780193604.jpg",
+              "alt": "英伟达财务长 Colette Kress 的资料图",
+              "sourceUrl": "https://www.newsbytesapp.com/news/business/nvidia-cfo-kress-says-ai-necessary-as-revenue-hits-816b/tldr",
+              "caption": "财务长任内资料图。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-13-california-frontier-ai-lawsuit",
+          "title": "四家非营利组织起诉五家 AI 公司，请求暂停前沿模型开发",
+          "category": "AI 与监管",
+          "summary": "11月12日（美国时间），Public Citizen 等四家非营利组织在加州旧金山县高等法院起诉 OpenAI、Anthropic、Google、Meta 和 SpaceXSI。原告援引加州《不正当竞争法》，要求法院限制最先进模型的进一步开发与部署，并主张相关活动危及公共安全。截至检索时，此案处于起诉阶段。",
+          "analysis": "若法院随后采取限制措施，影响可能延伸到模型训练与上线的审批流程。后续应关注法院是否签发禁令及其适用范围。",
+          "importance": 5,
+          "tags": [
+            "OpenAI",
+            "Anthropic",
+            "Google",
+            "Meta",
+            "SpaceXSI",
+            "AI 治理"
+          ],
+          "sources": [
+            {
+              "title": "原告 Public Citizen 公告",
+              "url": "https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/"
+            },
+            {
+              "title": "美联社｜诉讼报道",
+              "url": "https://apnews.com/article/artificial-intelligence-ai-lawsuit-cyberattacks-anthropic-openai-03ece37b96979fe834f60976648504ba"
+            },
+            {
+              "title": "路透社｜起诉与监管背景",
+              "url": "https://www.reuters.com/business/openai-google-anthropic-hit-with-lawsuit-seeking-halt-frontier-ai-development-2026-11-12/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://dims.apnews.com/dims4/default/f5f52aa/2147483647/strip/true/crop/4662x3108%2B0%2B0/resize/599x399%21/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F30%2F0e%2Fef26d3feddcef8b768b205a106a9%2F4fd0f97a72934b7eb0c5305851250919",
+              "alt": "2026年9月29日 OpenAI DevDay 会场",
+              "sourceUrl": "https://apnews.com/article/artificial-intelligence-ai-lawsuit-cyberattacks-anthropic-openai-03ece37b96979fe834f60976648504ba",
+              "caption": "美联社 Jeff Chiu 摄，资料图。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-13-cisco-fy27-q1",
+          "title": "思科营收同比增 24%，上调大型云客户 AI 基础设施收入预期",
+          "category": "财经与商业",
+          "summary": "11月12日美股盘后，思科公布截至10月24日的2027财年第一财季业绩，营收185亿美元，同比增长24%，网络业务产品收入同比增长43%。公司把本财年来自超大规模云客户的 AI 基础设施收入预期调至90亿美元，并将全年总营收指引上调至748亿—758亿美元。",
+          "analysis": "网络设备收入提供了观察 AI 基建支出向 GPU 以外环节扩散的线索。90亿美元仍是管理层对全年收入的预期，后续可跟踪季度收入兑现。",
+          "importance": 4,
+          "tags": [
+            "思科",
+            "财报",
+            "数据中心",
+            "网络设备"
+          ],
+          "sources": [
+            {
+              "title": "思科官方财报",
+              "url": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://newsroom.cisco.com/c/dam/r/newsroom/en/us/assets/earnings/cisco-building-w-sign-800x450.jpg",
+              "alt": "带有思科标识的办公楼",
+              "sourceUrl": "https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-reports-first-quarter-earnings.html",
+              "caption": "思科财报公告配图。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-13-qwen-code-preview",
+          "title": "Qwen Code 1.0 预览整合 Qoder，更新订阅模型与并行工具调用",
+          "category": "软件工程与开发工具",
+          "summary": "Qwen Code 11月11日发布 1.0 预览，将 Qoder 与 Qwen Code 的编程智能体能力整合，支持多模型提供商和自定义兼容端点。预览提供 macOS、Linux 和 Windows 原生安装包，无需单独安装 Node.js，并支持恢复会话与非交互执行。11月12日的 preview.1 修复了登录后订阅模型不可用的问题，并为 Qoder 模型加入并行工具调用。",
+          "analysis": "原生包与非交互模式降低了在本地脚本中试用的门槛。官方注明预览期接口与配置仍可能调整，接入团队可以先核对现有脚本和配置的兼容性。",
+          "importance": 4,
+          "tags": [
+            "Qwen Code",
+            "Qoder",
+            "CLI",
+            "GitHub",
+            "编码智能体"
+          ],
+          "sources": [
+            {
+              "title": "GitHub｜1.0 预览发布说明",
+              "url": "https://github.com/QwenLM/qwen-code/releases/tag/v1.0.0-preview"
+            },
+            {
+              "title": "GitHub｜preview.1 发布说明",
+              "url": "https://github.com/QwenLM/qwen-code/releases/tag/v1.0.0-preview.1"
+            },
+            {
+              "title": "Qwen Code 官方演示",
+              "url": "https://qwenlm.github.io/qwen-code-docs/en/showcase/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://img.alicdn.com/imgextra/i4/6000000000486/O1CN01QwpvkvH1XVE3Y2m4_%21%216000000000486-0-tbvideo.jpg",
+              "alt": "Qwen Code 的项目与任务界面",
+              "sourceUrl": "https://qwenlm.github.io/qwen-code-docs/en/showcase/",
+              "caption": "官方演示画面。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-13-saga-3-release-date",
+          "title": "《浪漫沙加 3》全 3D 重制版提前至 2027 年 2 月 4 日发售",
+          "category": "游戏与行业",
+          "summary": "11月12日，Square Enix 宣布《Romancing SaGa 3: Destinies United》将提前至2027年2月4日发售，登陆 PS5、Xbox Series X|S、PC（Steam 和 Xbox PC）、Switch 及 Switch 2。Switch 系列数字预购定于11月19日开启。重制版保留八位主角与自由剧本结构，重做画面，并为事件场景加入日英配音。",
+          "analysis": "这给经典非线性 JRPG 的重制提供了一个可跟踪的案例，值得观察自由选角、任务分支与现代导航如何配合。",
+          "importance": 3,
+          "tags": [
+            "Square Enix",
+            "Romancing SaGa 3",
+            "JRPG",
+            "PC",
+            "主机"
+          ],
+          "sources": [
+            {
+              "title": "Square Enix｜游戏官网",
+              "url": "https://www.square-enix.com/saga/en-us/games/romancing-saga-3-destinies-united/"
+            },
+            {
+              "title": "Games Press｜Square Enix 发售日期公告",
+              "url": "https://www.gamespress.com/RELEASE-VON-ROMANCING-SAGA-3-DESTINIES-UNITED-AUF-DEN-4-FEBRUAR-VORGEZ"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.square-enix.com/saga/assets/images/games/romancing-saga-3-destinies-united/hexagon-2.webp",
+              "alt": "《Romancing SaGa 3: Destinies United》官方游戏截图",
+              "sourceUrl": "https://www.square-enix.com/saga/en-us/games/romancing-saga-3-destinies-united/",
+              "caption": "Square Enix 官网截图。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "daily-brief-2026-11-12",
       "collectionId": "daily-brief",
