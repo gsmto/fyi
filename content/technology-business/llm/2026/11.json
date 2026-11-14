@@ -2,8 +2,141 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-13T01:25:43Z",
+  "updatedAt": "2026-11-14T01:23:30Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-14",
+      "collectionId": "llm",
+      "date": "2026-11-14",
+      "title": "大模型｜2026-11-14",
+      "summary": "OpenAI 灰度开放智能体支付，Anthropic 提供完整智能体服务自托管，llama.cpp 和 ggml 发布 1.0，Codex CLI 更新终端工作区。",
+      "analysis": "支付授权和企业自托管按生态影响评为 5 分，本地推理库和开发工具的明确变更评为 4 分。",
+      "rawText": "# 大模型｜2026-11-14\n\n以近 24 小时发布的动态为主，补充一项近 7 天内尚未收录的服务更新。日期按来源发布口径标注。\n\n## 1. ChatGPT Wallet 向美国 Pro 用户灰度开放\n\n**时间** 2026-11-13｜产品公告\n\nOpenAI 开始在 dots 中向年满 18 岁、持有符合条件的美国发行银行卡的美国 ChatGPT Pro 订阅者推出钱包。用户每笔需确认商品和金额并完成身份验证，支付网络再给智能体结账流程提供支付令牌，智能体和商家均看不到真实卡信息。按预算、品类和时段预先授权属于后续计划。\n\n**为什么值得关注** 智能体可代为完成付款操作，用户仍逐笔明确授权。商家和支付团队可评估现有结账、风控及交易记录如何处理这类订单，首轮体验受账号、地区及银行卡条件限制。\n\n![路透社报道使用的 OpenAI 与 ChatGPT 资料照片](https://content-media.investing.com/trkd-images/LYNXNPEMAC1FB_L.jpg)\n\n路透社资料图。 [图片出处](https://www.investing.com/news/stock-market-news/openai-launches-chatgpt-wallet-letting-ai-agents-pay-for-purchases-5026114)\n\n[OpenAI 产品公告](https://openai.com/index/introducing-chatgpt-wallet/) · [OpenAI 帮助中心](https://help.openai.com/en/articles/20001654-making-purchases-with-chatgpt-wallet) · [财联社报道](https://www.cls.cn/detail/2534281)\n\n## 2. Anthropic 开放申请自托管完整 Claude Managed Agents\n\n**时间** 2026-11-12｜近 7 天补充\n\nAnthropic 发布可自托管的 Claude Managed Agents，企业可以在自己的基础设施上运行智能体服务与沙箱，保存配置、会话及历史。需要模型时，服务端仍调用配置的推理供应商，默认是 Anthropic。下载权限须向 Anthropic 客户团队申请，部分功能仍仅在托管服务提供。\n\n**为什么值得关注** 这给有会话留存或基础设施控制要求的团队增加了一种部署方式。评估时需分别核对会话存储和模型推理的数据流向，并把服务升级和安全运维计入成本。\n\n**配图** 官方发布记录和自托管文档没有可验证的相关静态图片直链。\n\n[Claude Platform 更新日志](https://platform.claude.com/docs/en/release-notes/overview) · [自托管官方文档](https://platform.claude.com/docs/en/managed-agents/self-hosted)\n\n## 3. llama.cpp 与 ggml 发布 1.0，明确 API 和 ABI 兼容规则\n\n**时间** 2026-11-13｜开源版本发布\n\nggml-org 发布 llama.cpp 和 ggml 两个库的 1.0.0，今后的公共接口和二进制接口不兼容变更将对应主版本升级。llama.cpp 这次移除 35 个已弃用函数，并把 NextN 推测解码接口纳入公共头文件。版本已在 GitHub 发布，项目公告列出了各平台分发渠道。\n\n**为什么值得关注** 将本地推理集成到应用的维护者可以据此制定依赖升级策略。迁移至 1.0 时应核对现有语言绑定、头文件和动态链接产物是否用到了移除的接口。\n\n![llama.cpp 项目标识](https://upload.wikimedia.org/wikipedia/commons/d/d5/Llama1-logo.png?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org)\n\n项目资料图。 [图片出处](https://commons.wikimedia.org/wiki/File:Llama1-logo.png)\n\n[维护者发布说明](https://huggingface.co/blog/ggml-org/llama-cpp-v1) · [GitHub v1.0.0 发行记录](https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0)\n\n## 4. Codex CLI 0.169.0 增加可恢复的侧边会话\n\n**时间** 2026-11-13｜GitHub 版本发布\n\n新版 CLI 的可选终端工作区支持多个侧边聊天标签，重启后可恢复本地保存的会话。终端也可添加或修改自定义模型供应商，在启用相应功能后可为兼容网关使用设备码登录。macOS 与 Linux 上主动启用 Cloud 连接后，可在终端发送图片、选择模型和推理强度，并归档或恢复云端会话。\n\n**为什么值得关注** 并行查看主任务和辅助会话，或在远程终端配置受支持的模型网关时，可以减少工具切换。侧边会话和 Cloud 连接均按发布说明选择启用。\n\n**配图** 未找到能稳定访问且可确认对应此版本的终端截图直链。\n\n[OpenAI GitHub 发行记录](https://github.com/openai/codex/releases/tag/rust-v0.169.0)\n",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "生成时间 2026-11-14T01:23:24Z（UTC）。日报日期按 Asia/Shanghai 确定。检索近 24 小时及 7 天补充窗口，覆盖 OpenAI、Anthropic、Google／DeepMind／Gemini、xAI、Meta 及开源推理项目，综合中英文线索，核对官方公告、产品文档及 GitHub 发行记录并对照本栏目近期归档去重。",
+      "score": 5,
+      "items": [
+        {
+          "id": "llm-2026-11-14-chatgpt-wallet",
+          "title": "ChatGPT Wallet 向美国 Pro 用户灰度开放",
+          "category": "OpenAI",
+          "summary": "OpenAI 开始在 dots 中向年满 18 岁、持有符合条件的美国发行银行卡的美国 ChatGPT Pro 订阅者推出钱包。用户每笔需确认商品和金额并完成身份验证，支付网络再给智能体结账流程提供支付令牌，智能体和商家均看不到真实卡信息。按预算、品类和时段预先授权属于后续计划。",
+          "analysis": "智能体可代为完成付款操作，用户仍逐笔明确授权。商家和支付团队可评估现有结账、风控及交易记录如何处理这类订单，首轮体验受账号、地区及银行卡条件限制。",
+          "importance": 5,
+          "tags": [
+            "OpenAI",
+            "ChatGPT Wallet",
+            "dots",
+            "智能体支付"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI 产品公告",
+              "url": "https://openai.com/index/introducing-chatgpt-wallet/"
+            },
+            {
+              "title": "OpenAI 帮助中心",
+              "url": "https://help.openai.com/en/articles/20001654-making-purchases-with-chatgpt-wallet"
+            },
+            {
+              "title": "财联社报道",
+              "url": "https://www.cls.cn/detail/2534281"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://content-media.investing.com/trkd-images/LYNXNPEMAC1FB_L.jpg",
+              "alt": "路透社报道使用的 OpenAI 与 ChatGPT 资料照片",
+              "sourceUrl": "https://www.investing.com/news/stock-market-news/openai-launches-chatgpt-wallet-letting-ai-agents-pay-for-purchases-5026114",
+              "caption": "路透社资料图。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-14-claude-agents-self-hosted",
+          "title": "Anthropic 开放申请自托管完整 Claude Managed Agents",
+          "category": "Anthropic",
+          "summary": "Anthropic 发布可自托管的 Claude Managed Agents，企业可以在自己的基础设施上运行智能体服务与沙箱，保存配置、会话及历史。需要模型时，服务端仍调用配置的推理供应商，默认是 Anthropic。下载权限须向 Anthropic 客户团队申请，部分功能仍仅在托管服务提供。",
+          "analysis": "这给有会话留存或基础设施控制要求的团队增加了一种部署方式。评估时需分别核对会话存储和模型推理的数据流向，并把服务升级和安全运维计入成本。",
+          "importance": 5,
+          "tags": [
+            "Anthropic",
+            "Claude Managed Agents",
+            "智能体",
+            "自托管"
+          ],
+          "sources": [
+            {
+              "title": "Claude Platform 更新日志",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview"
+            },
+            {
+              "title": "自托管官方文档",
+              "url": "https://platform.claude.com/docs/en/managed-agents/self-hosted"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "llm-2026-11-14-llama-cpp-ggml-v1",
+          "title": "llama.cpp 与 ggml 发布 1.0，明确 API 和 ABI 兼容规则",
+          "category": "其他",
+          "summary": "ggml-org 发布 llama.cpp 和 ggml 两个库的 1.0.0，今后的公共接口和二进制接口不兼容变更将对应主版本升级。llama.cpp 这次移除 35 个已弃用函数，并把 NextN 推测解码接口纳入公共头文件。版本已在 GitHub 发布，项目公告列出了各平台分发渠道。",
+          "analysis": "将本地推理集成到应用的维护者可以据此制定依赖升级策略。迁移至 1.0 时应核对现有语言绑定、头文件和动态链接产物是否用到了移除的接口。",
+          "importance": 4,
+          "tags": [
+            "ggml-org",
+            "llama.cpp",
+            "ggml",
+            "开源",
+            "本地推理",
+            "API",
+            "ABI"
+          ],
+          "sources": [
+            {
+              "title": "维护者发布说明",
+              "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+            },
+            {
+              "title": "GitHub v1.0.0 发行记录",
+              "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Llama1-logo.png?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+              "alt": "llama.cpp 项目标识",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:Llama1-logo.png",
+              "caption": "项目资料图。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-14-codex-cli-0169",
+          "title": "Codex CLI 0.169.0 增加可恢复的侧边会话",
+          "category": "OpenAI",
+          "summary": "新版 CLI 的可选终端工作区支持多个侧边聊天标签，重启后可恢复本地保存的会话。终端也可添加或修改自定义模型供应商，在启用相应功能后可为兼容网关使用设备码登录。macOS 与 Linux 上主动启用 Cloud 连接后，可在终端发送图片、选择模型和推理强度，并归档或恢复云端会话。",
+          "analysis": "并行查看主任务和辅助会话，或在远程终端配置受支持的模型网关时，可以减少工具切换。侧边会话和 Cloud 连接均按发布说明选择启用。",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "Codex CLI",
+            "开发者工具",
+            "智能体",
+            "模型网关"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI GitHub 发行记录",
+              "url": "https://github.com/openai/codex/releases/tag/rust-v0.169.0"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
     {
       "id": "llm-2026-11-13",
       "collectionId": "llm",
