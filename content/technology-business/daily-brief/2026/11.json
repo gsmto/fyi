@@ -2,8 +2,181 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-11",
-  "updatedAt": "2026-11-13T01:08:06Z",
+  "updatedAt": "2026-11-14T01:08:11Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-11-14",
+      "collectionId": "daily-brief",
+      "date": "2026-11-14",
+      "title": "最新资讯｜2026-11-14",
+      "summary": "智能体支付逐笔授权、本地推理库采用语义化版本、美国公布生产者价格、京东完成欧洲零售收购、PS5 扩展 AI 超分支持。",
+      "analysis": "5 分表示对宏观判断或开发与产品流程有广泛影响，4 分表示对特定行业或平台有实质影响。",
+      "rawText": "# 晨间简报｜2026-11-14\n\n精选 11 月 13 日前后的五项进展。\n\n## 1. ChatGPT Wallet 开始开放，智能体代购仍需逐笔确认\n\n11 月 13 日，OpenAI 开始向美国年满 18 岁、持合资格美国发行银行卡的 ChatGPT Pro 用户开放 Wallet，可由 dot 代办结账。用户在每笔交易前核对商品、金额和卡片并通过安全验证，支付网络随后提供交易令牌，智能体和商家无需接触真实卡号。按金额或类别预授权仍是规划。\n\n![路透社 ChatGPT Wallet 报道配图](https://content-media.investing.com/trkd-images/LYNXNPEMAC1FB_L.jpg)\n[图片出处](https://www.investing.com/news/stock-market-news/openai-launches-chatgpt-wallet-letting-ai-agents-pay-for-purchases-5026114)\n\n**为什么值得关注** 结账开始成为智能体可以代办的环节。对商家和应用开发者，逐笔确认、风控兼容和可追溯授权是首批部署要验证的部分。\n\n[OpenAI 发布公告](https://openai.com/index/introducing-chatgpt-wallet/) · [OpenAI 帮助中心](https://help.openai.com/en/articles/20001654-making-purchases-with-chatgpt-wallet) · [财联社中文报道](https://www.cls.cn/detail/2534281)\n\n## 2. llama.cpp 和 ggml 发布 1.0，为本地推理集成明确兼容规则\n\n11 月 13 日，开源本地推理项目 llama.cpp 和底层张量库 ggml 同步发布 1.0。维护者明确，今后的不兼容 API 或 ABI 变更将通过主版本升级标识。本次更新移除了多项弃用接口，并把 NextN 推测解码接口纳入公开头文件。\n\n![llama.cpp 项目历史标识](https://upload.wikimedia.org/wikipedia/commons/d/d5/Llama1-logo.png?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org)\n[图片出处](https://commons.wikimedia.org/wiki/File:Llama1-logo.png)\n\n**为什么值得关注** 桌面和移动应用可以据此规划依赖升级。已有 C/C++ 绑定和分发流程在切换到 1.0 时仍需检查被移除的符号并重跑构建测试。\n\n[GitHub 发布说明](https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0) · [ggml-org 维护者文章](https://huggingface.co/blog/ggml-org/llama-cpp-v1)\n\n## 3. 美国 10 月 PPI 环比涨幅放缓，同比升至 6.5%\n\n美国劳工统计局 11 月 13 日公布，10 月最终需求 PPI 经季调环比上涨 0.3%，9 月修订为上涨 1.4%。未经季调的同比涨幅为 6.5%，为 2022 年 11 月以来最大。剔除食品、能源和贸易服务的指标环比上涨 0.5%，与 9 月相同。\n\n![美联社照片：美国伊利诺伊州格伦维尤一家食品杂货店](https://dims.apnews.com/dims4/default/ae72582/2147483647/strip/true/crop/4032x2688%2B0%2B0/resize/599x399%21/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F78%2Ff5%2Fdd802ca8e30be736f8680ada1d44%2F021f2d16f70b4703b896cc77f50e706f)\n[图片出处](https://apnews.com/article/producer-prices-inflation-economy-iran-5f427443fd31a4aa2bd2a1b6cebfe549)\n\n**为什么值得关注** 月度涨幅回落与同比高企同时出现，部分生产者价格分项也会进入美联储关注的 PCE 价格指标。判断政策和市场影响仍需结合后续消费端数据。\n\n[美国劳工统计局原始发布](https://www.bls.gov/news.release/archives/ppi_11132026.htm) · [美联社解读](https://apnews.com/article/producer-prices-inflation-economy-iran-5f427443fd31a4aa2bd2a1b6cebfe549)\n\n## 4. 京东完成收购 CECONOMY 控股权，覆盖逾千家欧洲门店\n\n京东 11 月 12 日披露，已以 13.35 亿欧元取得德国消费电子零售集团 CECONOMY 59.8% 的股本和投票权，自当日起并表。标的通过 MediaMarkt、Saturn 和 MediaWorld 等品牌在 11 个市场经营超过 1,000 家门店。德国之声 11 月 13 日跟进了京东管理层关于欧洲线上电子零售的计划。\n\n![德国之声报道所用的京东标识资料图](https://static.dw.com/image/77334607_800.webp)\n[图片出处](https://amp.dw.com/zh/%E4%BA%AC%E4%B8%9C%E6%94%B6%E8%B4%ADceconomy-%E6%AC%B2%E6%89%93%E9%80%A0%E6%AC%A7%E6%B4%B2%E9%A2%86%E5%85%88%E5%B9%B3%E5%8F%B0/a-79933405)\n\n**为什么值得关注** 京东在欧洲获得成规模的本地门店和售后网络。后续可观察跨境供应链如何与现有门店及线上零售衔接。\n\n[京东向 SEC 提交的交割公告](https://www.sec.gov/Archives/edgar/data/1549802/000119312526456897/d114554dex992.htm) · [德国之声中文报道](https://amp.dw.com/zh/%E4%BA%AC%E4%B8%9C%E6%94%B6%E8%B4%ADceconomy-%E6%AC%B2%E6%89%93%E9%80%A0%E6%AC%A7%E6%B4%B2%E9%A2%86%E5%85%88%E5%B9%B3%E5%8F%B0/a-79933405)\n\n## 5. 标准版 PS5 的 QSSR 扩至更多游戏，《漫威蜘蛛侠 2》已更新\n\n索尼 11 月 13 日公布下一批支持 AI 超分辨率 QSSR 的游戏。Insomniac 确认《漫威蜘蛛侠 2》已更新，覆盖画质和性能两种模式，Remedy 的《Control Resonant》计划于 12 月更新，其他作品将陆续跟进。索尼称 QSSR 和 PS5 Pro 的 PSSR 共享接口，画质描述来自厂商及开发团队。\n\n![索尼公布的《漫威蜘蛛侠 2》QSSR 实机画面](https://blog.playstation.com/uploads/2026/11/105d12450fe9246de305a3a43412100d0e299216.jpg)\n[图片出处](https://blog.playstation.com/2026/11/13/qssr-arrives-in-marvels-spider-man-2-control-resonant-the-finals-arc-raiders-and-hell-let-loose-vietnam/)\n\n**为什么值得关注** 共享接口让已适配 PSSR 的团队有机会复用集成工作。实际收益仍适合按游戏、画质模式和场景比较。\n\n[PlayStation 官方技术公告与开发者说明](https://blog.playstation.com/2026/11/13/qssr-arrives-in-marvels-spider-man-2-control-resonant-the-finals-arc-raiders-and-hell-let-loose-vietnam/)\n\n5 分表示对宏观判断或开发与产品流程有广泛影响，4 分表示对特定行业或平台有实质影响。\n",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "2026-11-14T01:08:11Z 生成。北京时间 11 月 14 日晨，优先检索 11 月 13 日发布或跟进的重要动态，核对公司公告、GitHub、维护者文章、监管文件、官方统计及中英文报道，并与本栏近期记录去重。",
+      "score": 5,
+      "items": [
+        {
+          "id": "daily-brief-2026-11-14-chatgpt-wallet",
+          "title": "ChatGPT Wallet 开始开放，智能体代购仍需逐笔确认",
+          "category": "AI / 智能体",
+          "summary": "11 月 13 日，OpenAI 开始向美国年满 18 岁、持合资格美国发行银行卡的 ChatGPT Pro 用户开放 Wallet，可由 dot 代办结账。用户在每笔交易前核对商品、金额和卡片并通过安全验证，支付网络随后提供交易令牌，智能体和商家无需接触真实卡号。按金额或类别预授权仍是规划。",
+          "analysis": "结账开始成为智能体可以代办的环节。对商家和应用开发者，逐笔确认、风控兼容和可追溯授权是首批部署要验证的部分。",
+          "importance": 5,
+          "tags": [
+            "OpenAI",
+            "ChatGPT Wallet",
+            "智能体支付"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI 发布公告",
+              "url": "https://openai.com/index/introducing-chatgpt-wallet/"
+            },
+            {
+              "title": "OpenAI 帮助中心",
+              "url": "https://help.openai.com/en/articles/20001654-making-purchases-with-chatgpt-wallet"
+            },
+            {
+              "title": "财联社中文报道",
+              "url": "https://www.cls.cn/detail/2534281"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://content-media.investing.com/trkd-images/LYNXNPEMAC1FB_L.jpg",
+              "alt": "路透社 ChatGPT Wallet 报道配图",
+              "sourceUrl": "https://www.investing.com/news/stock-market-news/openai-launches-chatgpt-wallet-letting-ai-agents-pay-for-purchases-5026114"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-14-llama-cpp-v1",
+          "title": "llama.cpp 和 ggml 发布 1.0，为本地推理集成明确兼容规则",
+          "category": "软件工程 / 开发工具",
+          "summary": "11 月 13 日，开源本地推理项目 llama.cpp 和底层张量库 ggml 同步发布 1.0。维护者明确，今后的不兼容 API 或 ABI 变更将通过主版本升级标识。本次更新移除了多项弃用接口，并把 NextN 推测解码接口纳入公开头文件。",
+          "analysis": "桌面和移动应用可以据此规划依赖升级。已有 C/C++ 绑定和分发流程在切换到 1.0 时仍需检查被移除的符号并重跑构建测试。",
+          "importance": 5,
+          "tags": [
+            "llama.cpp",
+            "ggml",
+            "本地推理",
+            "开源",
+            "API",
+            "ABI"
+          ],
+          "sources": [
+            {
+              "title": "GitHub 发布说明",
+              "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0"
+            },
+            {
+              "title": "ggml-org 维护者文章",
+              "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Llama1-logo.png?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+              "alt": "llama.cpp 项目历史标识",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:Llama1-logo.png"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-14-us-october-ppi",
+          "title": "美国 10 月 PPI 环比涨幅放缓，同比升至 6.5%",
+          "category": "财经 / 市场",
+          "summary": "美国劳工统计局 11 月 13 日公布，10 月最终需求 PPI 经季调环比上涨 0.3%，9 月修订为上涨 1.4%。未经季调的同比涨幅为 6.5%，为 2022 年 11 月以来最大。剔除食品、能源和贸易服务的指标环比上涨 0.5%，与 9 月相同。",
+          "analysis": "月度涨幅回落与同比高企同时出现，部分生产者价格分项也会进入美联储关注的 PCE 价格指标。判断政策和市场影响仍需结合后续消费端数据。",
+          "importance": 5,
+          "tags": [
+            "美国",
+            "PPI",
+            "通胀",
+            "美联储"
+          ],
+          "sources": [
+            {
+              "title": "美国劳工统计局原始发布",
+              "url": "https://www.bls.gov/news.release/archives/ppi_11132026.htm"
+            },
+            {
+              "title": "美联社解读",
+              "url": "https://apnews.com/article/producer-prices-inflation-economy-iran-5f427443fd31a4aa2bd2a1b6cebfe549"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://dims.apnews.com/dims4/default/ae72582/2147483647/strip/true/crop/4032x2688%2B0%2B0/resize/599x399%21/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F78%2Ff5%2Fdd802ca8e30be736f8680ada1d44%2F021f2d16f70b4703b896cc77f50e706f",
+              "alt": "美联社照片：美国伊利诺伊州格伦维尤一家食品杂货店",
+              "sourceUrl": "https://apnews.com/article/producer-prices-inflation-economy-iran-5f427443fd31a4aa2bd2a1b6cebfe549"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-14-jd-ceconomy-completion",
+          "title": "京东完成收购 CECONOMY 控股权，覆盖逾千家欧洲门店",
+          "category": "全球科技 / 商业",
+          "summary": "京东 11 月 12 日披露，已以 13.35 亿欧元取得德国消费电子零售集团 CECONOMY 59.8% 的股本和投票权，自当日起并表。标的通过 MediaMarkt、Saturn 和 MediaWorld 等品牌在 11 个市场经营超过 1,000 家门店。德国之声 11 月 13 日跟进了京东管理层关于欧洲线上电子零售的计划。",
+          "analysis": "京东在欧洲获得成规模的本地门店和售后网络。后续可观察跨境供应链如何与现有门店及线上零售衔接。",
+          "importance": 4,
+          "tags": [
+            "京东",
+            "CECONOMY",
+            "MediaMarkt",
+            "欧洲",
+            "跨境零售"
+          ],
+          "sources": [
+            {
+              "title": "京东向 SEC 提交的交割公告",
+              "url": "https://www.sec.gov/Archives/edgar/data/1549802/000119312526456897/d114554dex992.htm"
+            },
+            {
+              "title": "德国之声中文报道",
+              "url": "https://amp.dw.com/zh/%E4%BA%AC%E4%B8%9C%E6%94%B6%E8%B4%ADceconomy-%E6%AC%B2%E6%89%93%E9%80%A0%E6%AC%A7%E6%B4%B2%E9%A2%86%E5%85%88%E5%B9%B3%E5%8F%B0/a-79933405"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://static.dw.com/image/77334607_800.webp",
+              "alt": "德国之声报道所用的京东标识资料图",
+              "sourceUrl": "https://amp.dw.com/zh/%E4%BA%AC%E4%B8%9C%E6%94%B6%E8%B4%ADceconomy-%E6%AC%B2%E6%89%93%E9%80%A0%E6%AC%A7%E6%B4%B2%E9%A2%86%E5%85%88%E5%B9%B3%E5%8F%B0/a-79933405"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-14-ps5-qssr-wave",
+          "title": "标准版 PS5 的 QSSR 扩至更多游戏，《漫威蜘蛛侠 2》已更新",
+          "category": "游戏 / 图形技术",
+          "summary": "索尼 11 月 13 日公布下一批支持 AI 超分辨率 QSSR 的游戏。Insomniac 确认《漫威蜘蛛侠 2》已更新，覆盖画质和性能两种模式，Remedy 的《Control Resonant》计划于 12 月更新，其他作品将陆续跟进。索尼称 QSSR 和 PS5 Pro 的 PSSR 共享接口，画质描述来自厂商及开发团队。",
+          "analysis": "共享接口让已适配 PSSR 的团队有机会复用集成工作。实际收益仍适合按游戏、画质模式和场景比较。",
+          "importance": 4,
+          "tags": [
+            "PS5",
+            "QSSR",
+            "PSSR",
+            "漫威蜘蛛侠 2",
+            "图形渲染"
+          ],
+          "sources": [
+            {
+              "title": "PlayStation 官方技术公告与开发者说明",
+              "url": "https://blog.playstation.com/2026/11/13/qssr-arrives-in-marvels-spider-man-2-control-resonant-the-finals-arc-raiders-and-hell-let-loose-vietnam/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://blog.playstation.com/uploads/2026/11/105d12450fe9246de305a3a43412100d0e299216.jpg",
+              "alt": "索尼公布的《漫威蜘蛛侠 2》QSSR 实机画面",
+              "sourceUrl": "https://blog.playstation.com/2026/11/13/qssr-arrives-in-marvels-spider-man-2-control-resonant-the-finals-arc-raiders-and-hell-let-loose-vietnam/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "daily-brief-2026-11-13",
       "collectionId": "daily-brief",
