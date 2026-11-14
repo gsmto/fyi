@@ -2,8 +2,128 @@
   "schemaVersion": 1,
   "collectionId": "health",
   "month": "2026-11",
-  "updatedAt": "2026-11-13T01:22:41Z",
+  "updatedAt": "2026-11-14T01:22:01Z",
   "briefs": [
+    {
+      "id": "health-2026-11-14",
+      "collectionId": "health",
+      "date": "2026-11-14",
+      "title": "健康｜2026-11-14",
+      "summary": "两项三期试验报告 orforglipron 对中重度睡眠呼吸暂停的结果，佛州随机试验检验 HPV 接种提醒，国家卫健委解读营养标签。",
+      "analysis": "重要性 4 分代表对特定人群有直接影响的高质量新证据，3 分代表有实际参考价值但适用场景有限的研究或科普更新。",
+      "rawText": "# 今日 Top 3\n\n以过去 24 小时新公布的信息为主，补充一项近 7 天内发表的三期研究。条目按证据强度与实际影响排序，4 分表示对特定人群有直接影响的高质量新证据，3 分表示适用场景较明确的研究或科普更新。\n\n### 1. 两项三期试验：口服 orforglipron 降低睡眠呼吸暂停频率\n\n**时间** 2026-11-09 在线发表｜近 7 天补充\n\n《JAMA》发表两项为期 52 周的多中心双盲随机试验，纳入 BMI ≥27 且患中重度阻塞性睡眠呼吸暂停的成人，分别包括未接受气道正压治疗的 363 人和正在接受该治疗的 349 人。第 52 周，按随机分配的治疗方案估计，口服 orforglipron 组的呼吸暂停低通气指数较安慰剂组分别多下降 13.2 和 12.0 次/小时。胃肠道不良事件在药物组约为 68%–71%，安慰剂组约为 37%。\n\n**为什么值得关注** 这为上述成人群体增加了兼顾体重管理和睡眠呼吸症状的三期证据，停药后能否维持效果以及更长期的心血管结局仍待研究。美国 FDA 已于 2026-04-01 批准该药配合减少热量摄入和增加活动，用于肥胖成人或至少有一项体重相关合并症的超重成人长期管理体重，截至检索时睡眠呼吸暂停仍未列为该药的独立适应证。\n\n![一名佩戴持续气道正压通气面罩的人](https://upload.wikimedia.org/wikipedia/commons/f/fc/CPAP_Mask.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org)\n\n气道正压治疗示意，非试验参与者。照片 Mikael Granberg，CC BY-SA 4.0，未修改。 [图片出处](https://commons.wikimedia.org/wiki/File:CPAP_Mask.jpg) · [图片许可](https://creativecommons.org/licenses/by-sa/4.0/)\n\n[JAMA 原始研究](https://jamanetwork.com/journals/jama/fullarticle/2856406) · [美国 FDA 批准公告](https://www.fda.gov/news-events/press-announcements/fda-approves-first-new-molecular-entity-under-national-priority-voucher-program) · [美国 FDA 初始获批说明书](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220934Orig1s000lbl.pdf)\n\n### 2. 医生沟通培训和短信提醒在佛州试验中未显著提高 HPV 接种率\n\n**时间** 2026-11-13 在线发表｜研究开展于 2022-02 至 2024-09\n\n《JAMA Network Open》刊登一项在诊所和儿童两个层级随机分配的试验，纳入佛州 30 家儿科初级保健诊所的 7,234 名 10–12 岁儿童，6,498 名儿童有两年随访记录。按随机分组比较，医生沟通培训或分配短信提醒，均未显著提高首剂接种率或两剂完成率。实际收到短信者的接种率较高，但这项比较未按随机分组，且存在发送失败与号码变更。\n\n**为什么值得关注** 对接种项目而言，短信送达率和覆盖人群是评估干预时可直接监测的指标。结果适用于这一地区和服务模式，研究衡量的是接种行为。\n\n![一瓶四价 HPV 疫苗和外包装的资料照片](https://upload.wikimedia.org/wikipedia/commons/c/c3/Gardasil_vaccine_and_box.jpg)\n\nHPV 疫苗资料图。照片 Jan Christian，CC BY-SA 2.0，未修改。 [图片出处](https://commons.wikimedia.org/wiki/File:Gardasil_vaccine_and_box.jpg) · [图片许可](https://creativecommons.org/licenses/by-sa/2.0/)\n\n[JAMA Network Open 原始研究](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856638)\n\n### 3. 国家卫健委发布会解读预包装食品营养标签\n\n**时间** 2026-11-13 发布会｜标签新国标 2027-03-16 实施\n\n国家食品安全风险评估中心专家在发布会上提示，“0 蔗糖”产品仍可能含其他糖类，比较营养成分时需统一每 100 克、每 100 毫升或每份的基准，并按实际摄入量换算。2025 年已发布的预包装食品营养标签国标将于 2027 年 3 月 16 日实施，在现有必标项目中增加饱和脂肪和糖。本次新增是官方科普解读，发布会未报告标签更新后的健康结局数据。\n\n**为什么值得关注** 对选购预包装食品的人，用相同单位比较同类产品，再按实际份量核算，能更准确理解一整包或一整瓶带来的摄入量。\n\n![每 100 克标示饱和脂肪和糖的新国标营养成分表示例](https://www.cqcdc.org/uploadfile/20250715/1752563685468443.png)\n\n国家食品安全风险评估中心样表，重庆市疾病预防控制中心刊载。 [图片出处](https://www.cqcdc.org/index.php?a=shows&catid=2283&id=3548)\n\n[国家卫健委发布会实录转载](https://www.ecphf.cn/general-information/2026-11/7395.htm) · [国家卫健委与市场监管总局发布公告](https://www.nhc.gov.cn/wjw/zcwjgg/202503/97802a2683b840dd8be0e1449982c6a5.shtml) · [重庆疾控标准解读](https://www.cqcdc.org/index.php?a=shows&catid=2283&id=3548) · [新华社现场报道](https://www.news.cn/politics/20261113/96fc2bab09f54aeeb3c6b1fc086a732f/c.html)\n",
+      "completeness": "full",
+      "sourceConversation": "健康",
+      "provenance": "生成时间 2026-11-14T01:21:10Z（UTC）。按 Asia/Shanghai 确定报告日期。检索过去 24 小时及 7 天补充窗口，覆盖国家卫健委、疾控机构、WHO、美国 FDA、JAMA 系列期刊及国内外研究线索，核对原始研究、适应证和国内食品标签标准，并与本栏目近期报告去重。",
+      "score": 4,
+      "items": [
+        {
+          "id": "health-2026-11-14-orforglipron-attain-osa",
+          "title": "两项三期试验：口服 orforglipron 降低睡眠呼吸暂停频率",
+          "category": "减重",
+          "summary": "《JAMA》发表两项为期 52 周的多中心双盲随机试验，纳入 BMI ≥27 且患中重度阻塞性睡眠呼吸暂停的成人，分别包括未接受气道正压治疗的 363 人和正在接受该治疗的 349 人。第 52 周，按随机分配的治疗方案估计，口服 orforglipron 组的呼吸暂停低通气指数较安慰剂组分别多下降 13.2 和 12.0 次/小时。胃肠道不良事件在药物组约为 68%–71%，安慰剂组约为 37%。",
+          "analysis": "这为上述成人群体增加了兼顾体重管理和睡眠呼吸症状的三期证据，停药后能否维持效果以及更长期的心血管结局仍待研究。美国 FDA 已于 2026-04-01 批准该药配合减少热量摄入和增加活动，用于肥胖成人或至少有一项体重相关合并症的超重成人长期管理体重，截至检索时睡眠呼吸暂停仍未列为该药的独立适应证。",
+          "importance": 4,
+          "tags": [
+            "体重管理",
+            "阻塞性睡眠呼吸暂停",
+            "orforglipron",
+            "三期随机试验"
+          ],
+          "sources": [
+            {
+              "title": "JAMA 原始研究",
+              "url": "https://jamanetwork.com/journals/jama/fullarticle/2856406"
+            },
+            {
+              "title": "美国 FDA 批准公告",
+              "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-new-molecular-entity-under-national-priority-voucher-program"
+            },
+            {
+              "title": "美国 FDA 初始获批说明书",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/220934Orig1s000lbl.pdf"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/CPAP_Mask.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+              "alt": "一名佩戴持续气道正压通气面罩的人",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:CPAP_Mask.jpg",
+              "caption": "气道正压治疗示意，非试验参与者。照片 Mikael Granberg，CC BY-SA 4.0，未修改。"
+            }
+          ]
+        },
+        {
+          "id": "health-2026-11-14-hpv-text-talk-rct",
+          "title": "医生沟通培训和短信提醒在佛州试验中未显著提高 HPV 接种率",
+          "category": "医学",
+          "summary": "《JAMA Network Open》刊登一项在诊所和儿童两个层级随机分配的试验，纳入佛州 30 家儿科初级保健诊所的 7,234 名 10–12 岁儿童，6,498 名儿童有两年随访记录。按随机分组比较，医生沟通培训或分配短信提醒，均未显著提高首剂接种率或两剂完成率。实际收到短信者的接种率较高，但这项比较未按随机分组，且存在发送失败与号码变更。",
+          "analysis": "对接种项目而言，短信送达率和覆盖人群是评估干预时可直接监测的指标。结果适用于这一地区和服务模式，研究衡量的是接种行为。",
+          "importance": 3,
+          "tags": [
+            "HPV",
+            "疫苗接种",
+            "公共卫生",
+            "随机试验",
+            "短信提醒"
+          ],
+          "sources": [
+            {
+              "title": "JAMA Network Open 原始研究",
+              "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856638"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Gardasil_vaccine_and_box.jpg",
+              "alt": "一瓶四价 HPV 疫苗和外包装的资料照片",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gardasil_vaccine_and_box.jpg",
+              "caption": "HPV 疫苗资料图。照片 Jan Christian，CC BY-SA 2.0，未修改。"
+            }
+          ]
+        },
+        {
+          "id": "health-2026-11-14-nhc-food-label",
+          "title": "国家卫健委发布会解读预包装食品营养标签",
+          "category": "健康",
+          "summary": "国家食品安全风险评估中心专家在发布会上提示，“0 蔗糖”产品仍可能含其他糖类，比较营养成分时需统一每 100 克、每 100 毫升或每份的基准，并按实际摄入量换算。2025 年已发布的预包装食品营养标签国标将于 2027 年 3 月 16 日实施，在现有必标项目中增加饱和脂肪和糖。本次新增是官方科普解读，发布会未报告标签更新后的健康结局数据。",
+          "analysis": "对选购预包装食品的人，用相同单位比较同类产品，再按实际份量核算，能更准确理解一整包或一整瓶带来的摄入量。",
+          "importance": 3,
+          "tags": [
+            "中国",
+            "营养标签",
+            "预包装食品",
+            "食品安全国家标准"
+          ],
+          "sources": [
+            {
+              "title": "国家卫健委发布会实录转载",
+              "url": "https://www.ecphf.cn/general-information/2026-11/7395.htm"
+            },
+            {
+              "title": "国家卫健委与市场监管总局发布公告",
+              "url": "https://www.nhc.gov.cn/wjw/zcwjgg/202503/97802a2683b840dd8be0e1449982c6a5.shtml"
+            },
+            {
+              "title": "重庆疾控标准解读",
+              "url": "https://www.cqcdc.org/index.php?a=shows&catid=2283&id=3548"
+            },
+            {
+              "title": "新华社现场报道",
+              "url": "https://www.news.cn/politics/20261113/96fc2bab09f54aeeb3c6b1fc086a732f/c.html"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.cqcdc.org/uploadfile/20250715/1752563685468443.png",
+              "alt": "每 100 克标示饱和脂肪和糖的新国标营养成分表示例",
+              "sourceUrl": "https://www.cqcdc.org/index.php?a=shows&catid=2283&id=3548",
+              "caption": "国家食品安全风险评估中心样表，重庆市疾病预防控制中心刊载。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "health-2026-11-13",
       "collectionId": "health",
