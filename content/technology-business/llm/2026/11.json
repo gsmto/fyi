@@ -2,8 +2,154 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-14T01:23:30Z",
+  "updatedAt": "2026-11-15T01:26:43Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-15",
+      "collectionId": "llm",
+      "date": "2026-11-15",
+      "title": "大模型｜2026-11-15",
+      "summary": "本期收录 4 条近七天尚未入档的动态，涉及 Google Antigravity 多智能体协作、Perplexity 决策模型、Meta Muse 的浏览器与电话入口，以及 Gemini 的钱包连接。",
+      "analysis": "面向开发者，最值得检验的是多智能体工作流的验收结果，以及决策模型返回的原文位置能否降低人工复核成本。面向用户，扩展、代拨和钱包连接的开放范围与权限各不相同。",
+      "rawText": "# 大模型｜2026-11-15\n\n本期收录 4 条近七天尚未入档的动态，涉及 Google Antigravity 多智能体协作、Perplexity 决策模型、Meta Muse 的浏览器与电话入口，以及 Gemini 的钱包连接。\n\n## 1. Google Antigravity 开放多智能体协作工作流\n\n发布日期 · 2026-11-13（Google Research 公告）\n\nGoogle Research 介绍了 Antigravity 中已对外开放的 `/teamwork` 多智能体工作流，覆盖并行编程、长证明和文稿审阅，用户也可单独调用 `/boost` 反复求解和验证。公开案例使用 Lean 4 或现有的软件测试来检查候选方案，研究人员负责界定问题和确认验证条件。面向大型代码迁移的 rewrite 模式仍待开放。\n\n**为什么值得关注**\n\n有现成测试或形式化校验的团队可以试用这些工作流，并用自己的任务衡量成本和通过率。公告展示的是 Google 与研究合作者的案例，实际效果取决于任务和验收标准。\n\n![Google Research 的 Antigravity 多智能体协作公告配图](https://storage.googleapis.com/gweb-research2023-media/original_images/AntigravityTeamwork_HeroFinal.jpg)\n\n[图片出处](https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/)\n\n- [Google Research 公告与案例](https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/)\n\n## 2. Perplexity 发布 Decider v1.3，新增原文定位\n\n发布日期 · 2026-11-12（Perplexity 技术文章）\n\nPerplexity 发布 Decider v1.3 和轻量蒸馏版 Decider Flash v1.3，提供可下载权重，也可通过 Perplexity Decisions API 和 OpenRouter 调用。新功能 `locate` 会返回输入中的匹配原文及起止字符位置，同一次请求可对同一输入做定位、分类和评分。官方文章包含厂商内部评测及其在外部基准上的测试。\n\n**为什么值得关注**\n\n对工单分流、文档提取和检索重排，字符偏移让开发者可以直接回到原文复核。准确率和延迟可用自己的数据及部署环境实测。\n\n官方功能示意图为 SVG，本次未能验证其可直接打开，未收录配图。\n\n- [Perplexity 技术文章](https://www.perplexity.ai/en-GB/hub/blog/perplexity-decider)\n- [Decider v1.3 官方模型卡](https://huggingface.co/perplexity-ai/pplx-decider-v1.3)\n- [Perplexity Decisions API 文档](https://docs.perplexity.ai/docs/decisions/quickstart)\n\n## 3. Meta Muse 上架 Chrome 扩展，并向美国付费用户开放代打电话\n\n发布日期 · 2026-11-12（美国时间，电话功能）。2026-11-13（Chrome 扩展上架报道）\n\nMeta 的 Muse 扩展已上架 Chrome 应用商店，用户可从侧边栏继续对话或委托网页任务，商店描述列出了任务审批和活动记录。Meta 还结束了代打电话功能的小范围测试，向美国 Muse 付费订阅者开放，可代用户拨打美国商家的电话。电话功能与 Chrome 扩展是不同入口。\n\n**为什么值得关注**\n\n网页和电话让智能体能处理更多日常事务。网页权限和操作记录值得核对，电话任务是否办成还取决于接听方。\n\n![Meta Muse 的 Chrome 应用商店页面截图](https://storage.ghost.io/c/2a/1b/2a1b1782-8506-4d7d-bf53-ad3fb52e2a0f/content/images/2026/11/Muse-from-Meta-Chrome-Web-Store-11-13-2026_02_55_PM.jpg)\n\n[图片出处](https://www.testingcatalog.com/meta-brings-muse-ai-agent-to-chrome-with-new-extension/)\n\n- [Meta 的 Chrome 应用商店页面](https://chromewebstore.google.com/detail/muse-from-meta/jnakhhjmpmoohbjgfccbccfoifnmbdjd?pli=1&ref=testingcatalog.com)\n- [TestingCatalog 扩展实测](https://www.testingcatalog.com/meta-brings-muse-ai-agent-to-chrome-with-new-extension/)\n- [TechCrunch 对 Meta 代打电话功能的报道](https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/)\n\n## 4. Gemini 在美国逐步开放 Google Wallet 只读连接\n\n发布日期 · 2026-11-13（Google 公告，开始逐步开放）\n\nGoogle 开始为美国 Gemini 用户逐步开放 Google Wallet 连接，覆盖网页、Android 和 iOS。用户可主动开启或关闭授权，也可选择通过 Plaid 关联银行或信用卡账户，以分析支出和经常性订阅。Gemini 获得的是只读权限，资金操作仍由用户决定。\n\n**为什么值得关注**\n\n用户可在对话中核查交易和订阅，覆盖范围取决于所授权的账户。预算建议和归类结果仍可回看账单核对。\n\n![Gemini 应用中的 Google Wallet 集成界面截图](https://9to5google.com/wp-content/uploads/sites/4/2026/11/Gemini-app-Google-Wallet-1.jpg?quality=82&strip=all&w=459)\n\n[图片出处](https://9to5google.com/2026/11/13/gemini-google-wallet/)\n\n- [Google 产品公告](https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/)\n- [9to5Google 设置说明](https://9to5google.com/2026/11/13/gemini-google-wallet/)\n",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "生成时间 2026-11-15T01:26:04Z（UTC），日报日期按 Asia/Shanghai 确定。检索以近 24 小时为主，补充近七天未入档动态，覆盖 OpenAI、Anthropic、Google Research／DeepMind／Gemini、xAI、Meta 及 Perplexity 等相关厂商，综合中英文线索，核对官方公告、产品与 API 文档、模型卡、商店与可靠报道，对照本栏目近期月档去重。",
+      "score": 4,
+      "items": [
+        {
+          "id": "llm-2026-11-15-google-antigravity-teamwork",
+          "title": "Google Antigravity 开放多智能体协作工作流",
+          "category": "Google",
+          "importance": 5,
+          "analysis": "有现成测试或形式化校验的团队可以试用这些工作流，并用自己的任务衡量成本和通过率。公告展示的是 Google 与研究合作者的案例，实际效果取决于任务和验收标准。",
+          "tags": [
+            "Google",
+            "Google Research",
+            "Antigravity",
+            "多智能体",
+            "形式化验证",
+            "开发者工具"
+          ],
+          "sources": [
+            {
+              "title": "Google Research 公告与案例",
+              "url": "https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AntigravityTeamwork_HeroFinal.jpg",
+              "alt": "Google Research 的 Antigravity 多智能体协作公告配图",
+              "sourceUrl": "https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+            }
+          ],
+          "summary": "2026-11-13（Google Research 公告）。Google Research 介绍了 Antigravity 中已对外开放的 `/teamwork` 多智能体工作流，覆盖并行编程、长证明和文稿审阅，用户也可单独调用 `/boost` 反复求解和验证。公开案例使用 Lean 4 或现有的软件测试来检查候选方案，研究人员负责界定问题和确认验证条件。面向大型代码迁移的 rewrite 模式仍待开放。"
+        },
+        {
+          "id": "llm-2026-11-15-perplexity-decider-v13",
+          "title": "Perplexity 发布 Decider v1.3，新增原文定位",
+          "category": "Perplexity",
+          "importance": 4,
+          "analysis": "对工单分流、文档提取和检索重排，字符偏移让开发者可以直接回到原文复核。准确率和延迟可用自己的数据及部署环境实测。",
+          "tags": [
+            "Perplexity",
+            "Decider v1.3",
+            "Decider Flash v1.3",
+            "开放权重",
+            "信息抽取",
+            "API"
+          ],
+          "sources": [
+            {
+              "title": "Perplexity 技术文章",
+              "url": "https://www.perplexity.ai/en-GB/hub/blog/perplexity-decider"
+            },
+            {
+              "title": "Decider v1.3 官方模型卡",
+              "url": "https://huggingface.co/perplexity-ai/pplx-decider-v1.3"
+            },
+            {
+              "title": "Perplexity Decisions API 文档",
+              "url": "https://docs.perplexity.ai/docs/decisions/quickstart"
+            }
+          ],
+          "images": [],
+          "summary": "2026-11-12（Perplexity 技术文章）。Perplexity 发布 Decider v1.3 和轻量蒸馏版 Decider Flash v1.3，提供可下载权重，也可通过 Perplexity Decisions API 和 OpenRouter 调用。新功能 `locate` 会返回输入中的匹配原文及起止字符位置，同一次请求可对同一输入做定位、分类和评分。官方文章包含厂商内部评测及其在外部基准上的测试。"
+        },
+        {
+          "id": "llm-2026-11-15-meta-muse-browser-and-calls",
+          "title": "Meta Muse 上架 Chrome 扩展，并向美国付费用户开放代打电话",
+          "category": "Meta",
+          "importance": 4,
+          "analysis": "网页和电话让智能体能处理更多日常事务。网页权限和操作记录值得核对，电话任务是否办成还取决于接听方。",
+          "tags": [
+            "Meta",
+            "Muse",
+            "Chrome",
+            "浏览器扩展",
+            "语音智能体",
+            "美国"
+          ],
+          "sources": [
+            {
+              "title": "Meta 的 Chrome 应用商店页面",
+              "url": "https://chromewebstore.google.com/detail/muse-from-meta/jnakhhjmpmoohbjgfccbccfoifnmbdjd?pli=1&ref=testingcatalog.com"
+            },
+            {
+              "title": "TestingCatalog 扩展实测",
+              "url": "https://www.testingcatalog.com/meta-brings-muse-ai-agent-to-chrome-with-new-extension/"
+            },
+            {
+              "title": "TechCrunch 对 Meta 代打电话功能的报道",
+              "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://storage.ghost.io/c/2a/1b/2a1b1782-8506-4d7d-bf53-ad3fb52e2a0f/content/images/2026/11/Muse-from-Meta-Chrome-Web-Store-11-13-2026_02_55_PM.jpg",
+              "alt": "Meta Muse 的 Chrome 应用商店页面截图",
+              "sourceUrl": "https://www.testingcatalog.com/meta-brings-muse-ai-agent-to-chrome-with-new-extension/"
+            }
+          ],
+          "summary": "2026-11-12（美国时间，电话功能）。2026-11-13（Chrome 扩展上架报道）。Meta 的 Muse 扩展已上架 Chrome 应用商店，用户可从侧边栏继续对话或委托网页任务，商店描述列出了任务审批和活动记录。Meta 还结束了代打电话功能的小范围测试，向美国 Muse 付费订阅者开放，可代用户拨打美国商家的电话。电话功能与 Chrome 扩展是不同入口。"
+        },
+        {
+          "id": "llm-2026-11-15-google-gemini-wallet-readonly",
+          "title": "Gemini 在美国逐步开放 Google Wallet 只读连接",
+          "category": "Google",
+          "importance": 3,
+          "analysis": "用户可在对话中核查交易和订阅，覆盖范围取决于所授权的账户。预算建议和归类结果仍可回看账单核对。",
+          "tags": [
+            "Google",
+            "Gemini",
+            "Google Wallet",
+            "Plaid",
+            "个人财务",
+            "美国",
+            "灰度开放"
+          ],
+          "sources": [
+            {
+              "title": "Google 产品公告",
+              "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/"
+            },
+            {
+              "title": "9to5Google 设置说明",
+              "url": "https://9to5google.com/2026/11/13/gemini-google-wallet/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/Gemini-app-Google-Wallet-1.jpg?quality=82&strip=all&w=459",
+              "alt": "Gemini 应用中的 Google Wallet 集成界面截图",
+              "sourceUrl": "https://9to5google.com/2026/11/13/gemini-google-wallet/"
+            }
+          ],
+          "summary": "2026-11-13（Google 公告，开始逐步开放）。Google 开始为美国 Gemini 用户逐步开放 Google Wallet 连接，覆盖网页、Android 和 iOS。用户可主动开启或关闭授权，也可选择通过 Plaid 关联银行或信用卡账户，以分析支出和经常性订阅。Gemini 获得的是只读权限，资金操作仍由用户决定。"
+        }
+      ]
+    },
     {
       "id": "llm-2026-11-14",
       "collectionId": "llm",
