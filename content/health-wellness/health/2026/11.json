@@ -2,8 +2,129 @@
   "schemaVersion": 1,
   "collectionId": "health",
   "month": "2026-11",
-  "updatedAt": "2026-11-14T01:22:01Z",
+  "updatedAt": "2026-11-15T01:13:54Z",
   "briefs": [
+    {
+      "id": "health-2026-11-15",
+      "collectionId": "health",
+      "date": "2026-11-15",
+      "title": "健康｜2026-11-15",
+      "summary": "中国发布新版医保药品目录，WHO 公告成人1型糖尿病指南，CagriSema 较低剂量三期结果公布。",
+      "analysis": "5分用于可能广泛影响保障或诊疗的政策和指南，4分用于特定人群的重要临床试验。",
+      "rawText": "# 今日 Top 3\n\n## 1. 新版国家医保药品目录新增107种药品，2027年元旦执行\n\n**时间** 2026-11-14 公布，2027-01-01 生效\n\n国家医保局、人社部发布新版基本医保药品目录和商业健康保险创新药品目录。基本医保药品目录新增107种药品，其中51种为1类创新药，涵盖肿瘤、罕见病及慢性病等领域。商保创新药目录另增12种，此类目录内药品由商业保险产品按合同确定保障，医保统筹基金和工伤保险基金不予支付。\n\n**为什么值得关注** 这是支付政策更新，影响的是参保人的用药可及性。具体支付取决于药品限定范围、当地配备和医保或商保条款。\n\n![新华社发布的新版国家医保药品目录新闻配图](https://www.xinhuanet.com/politics/20261114/ee398c5473214b7ebd8a547e70f43e65/20261114c30f9b253c4f457692d14990d8efd333_c3ffbf7f528e47d7abc3baa2c4b8b944.jpg)\n\n新华社权威快报配图。 [图片出处](https://www.xinhuanet.com/politics/20261114/ee398c5473214b7ebd8a547e70f43e65/c.html)\n\n[国家医保局｜调整说明](https://www.nhsa.gov.cn/art/2026/11/14/art_14_23385.html) · [国家医保局、人社部｜正式通知及目录](https://www.nhsa.gov.cn/art/2026/11/14/art_104_23384.html)\n\n## 2. WHO发布首份面向成人的1型糖尿病指南\n\n**时间** 2026-11-12 指南上线，11-14 世界糖尿病日发布新闻公告\n\n世界卫生组织发布循证指南，涵盖成人1型糖尿病的诊断分类、胰岛素治疗和定期血糖监测。指南支持按监测结果在专业指导下调整胰岛素，并为资源有限或医疗服务中断的环境列出可行选项。实际实施依赖胰岛素、监测工具和医疗随访的可及性。\n\n**为什么值得关注** 它将成人患者在日常和应急环境的持续照护纳入统一指引。适用对象是成人1型糖尿病患者，具体方案由临床团队结合个人情况确定。\n\n![使用血糖仪进行指尖血糖自测](https://upload.wikimedia.org/wikipedia/commons/5/5b/Glucose_test.JPG?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org)\n\n血糖监测资料图。Erik1980，CC BY-SA 3.0，未修改。 [图片出处](https://commons.wikimedia.org/wiki/File:Glucose_test.JPG) · [图片许可](https://creativecommons.org/licenses/by-sa/3.0/)\n\n[WHO｜指南原文入口](https://www.who.int/publications/i/item/9789240126244) · [WHO｜11月14日发布公告](https://www.who.int/news/item/14-11-2026-who-issues-first-guidelines-on-type-1-diabetes-for-adults)\n\n## 3. CagriSema 低剂量三期试验公布68周减重结果\n\n**时间** 2026-11-14 美国当地时间公布；随访68周\n\nREDEFINE 9 是一项多中心三期随机安慰剂对照试验，纳入309名无糖尿病的肥胖成人，或超重且有至少一项体重相关并发症的成人，各组均接受生活方式干预。按考虑停药等情况的治疗方案估计，第68周两种较低试验剂量的组平均减重19.4%和18.6%，合并安慰剂组为4.6%。最常报告的是多为轻至中度的胃肠道不良事件，试验未专门比较两个剂量的优劣。本简报核对了申办方公开结果与试验登记，期刊全文链接在检索时未能打开。\n\n**为什么值得关注** 这补充了较低试验剂量的疗效和耐受性数据，停药后体重维持、长期健康结局及罕见不良事件仍待更多研究。截至公布时，美国 FDA 尚未批准该复方用于体重管理，已提交审评的是更高剂量的申请。\n\n![体重测量资料照](https://upload.wikimedia.org/wikipedia/commons/0/03/Feet_on_scale.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org)\n\n美国国家癌症研究所 Bill Branson 摄，资料图。 [图片出处](https://commons.wikimedia.org/wiki/File:Feet_on_scale.jpg)\n\n[The Lancet Diabetes & Endocrinology｜论文 DOI](https://doi.org/10.1016/s2213-8587%2826%2900275-5) · [ClinicalTrials.gov｜REDEFINE 9 试验登记](https://clinicaltrials.gov/study/NCT06388187) · [申办方｜公开的试验数据及申报状态](https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=920561) · [美国 FDA｜未批准减重药品说明](https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss)\n",
+      "completeness": "full",
+      "sourceConversation": "健康",
+      "provenance": "生成时间 2026-11-15T01:13:53Z（UTC）。日期按 Asia/Shanghai 确定。优先检索过去24小时，补查近7天。覆盖国家医保局、国家卫健委、中国疾控、WHO、FDA、医学期刊、临床试验注册及肥胖研究会议公开结果，对照近期归档去重。",
+      "score": 5,
+      "items": [
+        {
+          "id": "health-2026-11-15-china-drug-catalog",
+          "title": "新版国家医保药品目录新增107种药品，2027年元旦执行",
+          "category": "健康",
+          "summary": "国家医保局、人社部发布新版基本医保药品目录和商业健康保险创新药品目录。基本医保药品目录新增107种药品，其中51种为1类创新药，涵盖肿瘤、罕见病及慢性病等领域。商保创新药目录另增12种，此类目录内药品由商业保险产品按合同确定保障，医保统筹基金和工伤保险基金不予支付。",
+          "analysis": "这是支付政策更新，影响的是参保人的用药可及性。具体支付取决于药品限定范围、当地配备和医保或商保条款。",
+          "importance": 5,
+          "tags": [
+            "中国",
+            "医保目录",
+            "商业健康保险",
+            "用药可及性"
+          ],
+          "sources": [
+            {
+              "title": "国家医保局｜调整说明",
+              "url": "https://www.nhsa.gov.cn/art/2026/11/14/art_14_23385.html"
+            },
+            {
+              "title": "国家医保局、人社部｜正式通知及目录",
+              "url": "https://www.nhsa.gov.cn/art/2026/11/14/art_104_23384.html"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.xinhuanet.com/politics/20261114/ee398c5473214b7ebd8a547e70f43e65/20261114c30f9b253c4f457692d14990d8efd333_c3ffbf7f528e47d7abc3baa2c4b8b944.jpg",
+              "alt": "新华社发布的新版国家医保药品目录新闻配图",
+              "sourceUrl": "https://www.xinhuanet.com/politics/20261114/ee398c5473214b7ebd8a547e70f43e65/c.html",
+              "caption": "新华社权威快报配图。"
+            }
+          ]
+        },
+        {
+          "id": "health-2026-11-15-who-adult-type1",
+          "title": "WHO发布首份面向成人的1型糖尿病指南",
+          "category": "医学",
+          "summary": "世界卫生组织发布循证指南，涵盖成人1型糖尿病的诊断分类、胰岛素治疗和定期血糖监测。指南支持按监测结果在专业指导下调整胰岛素，并为资源有限或医疗服务中断的环境列出可行选项。实际实施依赖胰岛素、监测工具和医疗随访的可及性。",
+          "analysis": "它将成人患者在日常和应急环境的持续照护纳入统一指引。适用对象是成人1型糖尿病患者，具体方案由临床团队结合个人情况确定。",
+          "importance": 5,
+          "tags": [
+            "WHO",
+            "成人1型糖尿病",
+            "循证指南",
+            "胰岛素",
+            "血糖监测"
+          ],
+          "sources": [
+            {
+              "title": "WHO｜指南原文入口",
+              "url": "https://www.who.int/publications/i/item/9789240126244"
+            },
+            {
+              "title": "WHO｜11月14日发布公告",
+              "url": "https://www.who.int/news/item/14-11-2026-who-issues-first-guidelines-on-type-1-diabetes-for-adults"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Glucose_test.JPG?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+              "alt": "使用血糖仪进行指尖血糖自测",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:Glucose_test.JPG",
+              "caption": "血糖监测资料图。Erik1980，CC BY-SA 3.0，未修改。"
+            }
+          ]
+        },
+        {
+          "id": "health-2026-11-15-cagrisema-redefine9",
+          "title": "CagriSema 低剂量三期试验公布68周减重结果",
+          "category": "减重",
+          "summary": "REDEFINE 9 是一项多中心三期随机安慰剂对照试验，纳入309名无糖尿病的肥胖成人，或超重且有至少一项体重相关并发症的成人，各组均接受生活方式干预。按考虑停药等情况的治疗方案估计，第68周两种较低试验剂量的组平均减重19.4%和18.6%，合并安慰剂组为4.6%。最常报告的是多为轻至中度的胃肠道不良事件，试验未专门比较两个剂量的优劣。本简报核对了申办方公开结果与试验登记，期刊全文链接在检索时未能打开。",
+          "analysis": "这补充了较低试验剂量的疗效和耐受性数据，停药后体重维持、长期健康结局及罕见不良事件仍待更多研究。截至公布时，美国 FDA 尚未批准该复方用于体重管理，已提交审评的是更高剂量的申请。",
+          "importance": 4,
+          "tags": [
+            "CagriSema",
+            "肥胖",
+            "体重管理",
+            "三期随机试验",
+            "用药安全"
+          ],
+          "sources": [
+            {
+              "title": "The Lancet Diabetes & Endocrinology｜论文 DOI",
+              "url": "https://doi.org/10.1016/s2213-8587%2826%2900275-5"
+            },
+            {
+              "title": "ClinicalTrials.gov｜REDEFINE 9 试验登记",
+              "url": "https://clinicaltrials.gov/study/NCT06388187"
+            },
+            {
+              "title": "申办方｜公开的试验数据及申报状态",
+              "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=920561"
+            },
+            {
+              "title": "美国 FDA｜未批准减重药品说明",
+              "url": "https://www.fda.gov/drugs/drug-alerts-and-statements/fdas-concerns-unapproved-glp-1-drugs-used-weight-loss"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Feet_on_scale.jpg?utm_campaign=index&utm_content=original&utm_source=commons.wikimedia.org",
+              "alt": "体重测量资料照",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:Feet_on_scale.jpg",
+              "caption": "美国国家癌症研究所 Bill Branson 摄，资料图。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "health-2026-11-14",
       "collectionId": "health",
