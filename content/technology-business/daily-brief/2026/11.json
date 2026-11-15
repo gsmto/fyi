@@ -2,8 +2,203 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-11",
-  "updatedAt": "2026-11-14T01:08:11Z",
+  "updatedAt": "2026-11-15T01:04:15Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-11-15",
+      "collectionId": "daily-brief",
+      "date": "2026-11-15",
+      "title": "最新资讯｜2026-11-15",
+      "summary": "星舰完成首次上面级塔架回收，Google 开放多智能体研究工作流，Cloudflare 开源 Kitesurf，证监会提出评估交易制度，独立战棋公布主机发售窗口。",
+      "analysis": "按影响范围与信息成熟度排序。5 分为有明确实证的重大进展，4 分为影响开发实践或市场规则的重要动态，3 分为有明确时间窗口的行业更新。",
+      "rawText": "# 最新资讯｜2026-11-15\n\n## 1. 星舰第 15 次试飞首次在发射塔回收轨道级飞船\n\n**时间** 美国当地 11 月 14 日，北京时间 11 月 15 日\n\nSpaceX 星舰上面级绕地球飞行 14 圈、在轨逾 22 小时后返回得克萨斯州发射场，由塔架机械臂接住。飞船此前已部署 26 颗星链卫星。同次任务的超重型助推器未能回收，在海上空域爆炸。\n\n**为什么值得关注** 上面级的轨道返回和塔架捕获有了全程实测，下一步要观察回收后的检查与整备周期、同一飞船的复飞表现，以及两级在同一任务中能否稳定回收。\n\n![星舰第 15 次试飞的一级助推器爆炸现场](https://static.dw.com/image/79946067_800.webp)\n\n同一次任务的一级助推器失利画面。Ricardo Arduengo／AFP，经德国之声刊载。 [图片出处](https://amp.dw.com/en/spacex-launches-starship-rocket-fails-to-recover-booster/a-79946091)\n\n[SpaceX 任务页](https://www.spacex.com/launches/starship-flight-15) · [路透社任务结果](https://www.reuters.com/business/aerospace-defense/spacexs-starship-aces-first-return-texas-2026-11-14/) · [美联社报道](https://www.houstonchronicle.com/news/article/spacex-s-starship-returns-from-orbit-and-is-22531009.php)\n\n## 2. Google 公布 Antigravity 多智能体研究案例，向外部开放工作流\n\n**时间** 11 月 13 日，Google Research 公告\n\nGoogle 介绍了 Gemini 4 与专业智能体协作完成数学证明和系统优化的案例。工作流将候选解的并行探索与验证分开，可用 Lean 4 或现有软件测试检查结果，研究人员参与设题、核验和整理。外部用户可使用 Antigravity 的 `/teamwork` 与 `/boost`，部分正式证明工作流仍计划后续加入。\n\n**为什么值得关注** 工程团队可借鉴这种分工，把自动生成的结果交给可独立运行的测试或验证器。公告列举的是团队与学术合作者的个案，尚不足以估计一般任务的成功率和成本。\n\n![Google Research 的 Antigravity Teamwork 公告配图](https://storage.googleapis.com/gweb-research2023-media/original_images/AntigravityTeamwork_HeroFinal.jpg)\n\nGoogle Research 官方配图。 [图片出处](https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/)\n\n[Google Research 公告](https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/) · [Courtade–Kumar 证明预印本（9 月）](https://arxiv.org/abs/2609.24931)\n\n## 3. Cloudflare 开源 Kitesurf，可在 Workers 自托管浏览器引擎\n\n**时间** 11 月 12 日，官方变更日志；11 月 13 日，技术公告\n\nCloudflare 在 GitHub 以 Apache 2.0 许可开放 Kitesurf。它利用 Rust 和 WebAssembly 组件，在 Workers 上完成 HTML 与 CSS 解析、网页 JavaScript 执行和截图，并可通过 Chrome DevTools Protocol 接入 Puppeteer。项目支持本地开发，部署到 Cloudflare 账户需要 Workers Paid，仓库将引擎标记为实验性。\n\n**为什么值得关注** 已有网页自动化流程的团队可用真实页面检验兼容性，再比较轻量引擎和完整浏览器在运行成本与功能覆盖上的差异。\n\n![Cloudflare 首次介绍 Kitesurf 时的官方配图](https://blog.cloudflare.com/_emdash/api/media/file/01KZBWYMKT77FDVB07PHA3R5WM.png)\n\nCloudflare 项目资料图。 [图片出处](https://blog.cloudflare.com/kitesurf/)\n\n[Cloudflare 技术公告](https://blog.cloudflare.com/kitesurf-open-source/) · [Kitesurf GitHub 仓库](https://github.com/cloudflare/kitesurf) · [官方变更日志](https://developers.cloudflare.com/changelog/post/2026-11-12-kitesurf-open-source/)\n\n## 4. 证监会主席提出研究量化交易与股份减持规则\n\n**时间** 11 月 14 日，证监会发布致辞\n\n证监会主席吴清在首届中国资本市场学术年会上提出，进一步研究市场稳定机制、价格发现、流动性和交易成本，并评估如何优化量化交易和股份减持制度。致辞还提到研究大型和新型科技企业发行上市的制度适配性与风险应对机制。该次发言明确了研究方向，未公布具体规则变更或实施日期。\n\n**为什么值得关注** 正式征求意见稿或交易所配套安排将提供更直接的判断依据，可据此评估交易执行与上市公司股东披露是否需要调整。\n\n![证监会发布的首届中国资本市场学术年会现场照片](https://www.csrc.gov.cn/csrc/c106311/c7670983/7670983/images/1-20261114113701882.jpg)\n\n中国证监会发布。 [图片出处](https://www.csrc.gov.cn/csrc/c106311/c7670983/content.shtml)\n\n[证监会致辞全文](https://www.csrc.gov.cn/csrc/c106311/c7670983/content.shtml) · [新华财经报道](https://www.cnfin.com/gs-lb/detail/20261114/4495737_1.html) · [财联社报道](https://m.cls.cn/detail/2534426)\n\n## 5. 战棋 RPG《Guild Saga: Vanished Worlds》将同步推出 PS5 与 Steam 正式版\n\n**时间** 11 月 13 日，开发商公告\n\nOcelot Technologies 宣布，游戏计划在 2027 年 5 月登陆 PS5，Steam 1.0 计划同月推出，具体日期待定。现有 Steam 版本为抢先体验，提供简体中文文本和免费试玩。新版预告展示了跨职业技能搭配，以及天气和地表状态参与回合制战斗的设计。\n\n**为什么值得关注** 对于关注独立战棋的玩家，PC 试玩已经可用。主机版会纳入 PC 抢先体验阶段累计的内容更新，正式版可用同一窗口观察主机适配和玩法扩充。\n\n![Guild Saga: Vanished Worlds 的 PlayStation 官方公告配图](https://blog.playstation.com/tachyon/2026/11/b76ffd50c3d63cbe3bcbf54cd2965dceb1a4e8b5.png?crop_strategy=smart&resize=1088%2C612)\n\nOcelot Technologies／PlayStation Blog。 [图片出处](https://blog.playstation.com/2026/11/13/guild-saga-vanished-worlds-brings-tactical-adventure-to-ps5-in-may-2027/)\n\n[开发者在 PlayStation Blog 的公告](https://blog.playstation.com/2026/11/13/guild-saga-vanished-worlds-brings-tactical-adventure-to-ps5-in-may-2027/) · [Ocelot Technologies 新闻稿](https://www.gamespress.com/Tactical-adventure-Guild-Saga-Vanished-Worlds-launches-on-PS5-in-May-2) · [Steam 商店](https://store.steampowered.com/app/2184350)\n",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "生成时间 2026-11-15T01:04:14Z（UTC）。检索 2026-11-12 至 11-15 上午的公告和报道，近期动态优先，单项按来源的当地日期标注。核对英文国际媒体、中文财经媒体、公司及监管机构公告、GitHub、论文预印本和游戏商店，并查阅本栏目近期归档去重。",
+      "score": 5,
+      "items": [
+        {
+          "id": "daily-brief-2026-11-15-starship-flight-15",
+          "title": "星舰第 15 次试飞首次在发射塔回收轨道级飞船",
+          "category": "科技商业",
+          "summary": "SpaceX 星舰上面级绕地球飞行 14 圈、在轨逾 22 小时后返回得克萨斯州发射场，由塔架机械臂接住。飞船此前已部署 26 颗星链卫星。同次任务的超重型助推器未能回收，在海上空域爆炸。",
+          "analysis": "上面级的轨道返回和塔架捕获有了全程实测，下一步要观察回收后的检查与整备周期、同一飞船的复飞表现，以及两级在同一任务中能否稳定回收。",
+          "importance": 5,
+          "tags": [
+            "SpaceX",
+            "Starship",
+            "可重复使用火箭",
+            "Starlink"
+          ],
+          "sources": [
+            {
+              "title": "SpaceX 任务页",
+              "url": "https://www.spacex.com/launches/starship-flight-15"
+            },
+            {
+              "title": "路透社任务结果",
+              "url": "https://www.reuters.com/business/aerospace-defense/spacexs-starship-aces-first-return-texas-2026-11-14/"
+            },
+            {
+              "title": "美联社报道",
+              "url": "https://www.houstonchronicle.com/news/article/spacex-s-starship-returns-from-orbit-and-is-22531009.php"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://static.dw.com/image/79946067_800.webp",
+              "alt": "星舰第 15 次试飞的一级助推器爆炸现场",
+              "sourceUrl": "https://amp.dw.com/en/spacex-launches-starship-rocket-fails-to-recover-booster/a-79946091",
+              "caption": "同一次任务的一级助推器失利画面。Ricardo Arduengo／AFP，经德国之声刊载。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-15-antigravity-teamwork",
+          "title": "Google 公布 Antigravity 多智能体研究案例，向外部开放工作流",
+          "category": "AI / 大模型",
+          "summary": "Google 介绍了 Gemini 4 与专业智能体协作完成数学证明和系统优化的案例。工作流将候选解的并行探索与验证分开，可用 Lean 4 或现有软件测试检查结果，研究人员参与设题、核验和整理。外部用户可使用 Antigravity 的 `/teamwork` 与 `/boost`，部分正式证明工作流仍计划后续加入。",
+          "analysis": "工程团队可借鉴这种分工，把自动生成的结果交给可独立运行的测试或验证器。公告列举的是团队与学术合作者的个案，尚不足以估计一般任务的成功率和成本。",
+          "importance": 4,
+          "tags": [
+            "Google Research",
+            "Antigravity",
+            "Gemini 4",
+            "多智能体",
+            "形式化验证"
+          ],
+          "sources": [
+            {
+              "title": "Google Research 公告",
+              "url": "https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+            },
+            {
+              "title": "Courtade–Kumar 证明预印本（9 月）",
+              "url": "https://arxiv.org/abs/2609.24931"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/AntigravityTeamwork_HeroFinal.jpg",
+              "alt": "Google Research 的 Antigravity Teamwork 公告配图",
+              "sourceUrl": "https://www.research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+              "caption": "Google Research 官方配图。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-15-cloudflare-kitesurf-opensource",
+          "title": "Cloudflare 开源 Kitesurf，可在 Workers 自托管浏览器引擎",
+          "category": "软件工程",
+          "summary": "Cloudflare 在 GitHub 以 Apache 2.0 许可开放 Kitesurf。它利用 Rust 和 WebAssembly 组件，在 Workers 上完成 HTML 与 CSS 解析、网页 JavaScript 执行和截图，并可通过 Chrome DevTools Protocol 接入 Puppeteer。项目支持本地开发，部署到 Cloudflare 账户需要 Workers Paid，仓库将引擎标记为实验性。",
+          "analysis": "已有网页自动化流程的团队可用真实页面检验兼容性，再比较轻量引擎和完整浏览器在运行成本与功能覆盖上的差异。",
+          "importance": 4,
+          "tags": [
+            "Cloudflare Workers",
+            "Kitesurf",
+            "WebAssembly",
+            "开源",
+            "浏览器自动化"
+          ],
+          "sources": [
+            {
+              "title": "Cloudflare 技术公告",
+              "url": "https://blog.cloudflare.com/kitesurf-open-source/"
+            },
+            {
+              "title": "Kitesurf GitHub 仓库",
+              "url": "https://github.com/cloudflare/kitesurf"
+            },
+            {
+              "title": "官方变更日志",
+              "url": "https://developers.cloudflare.com/changelog/post/2026-11-12-kitesurf-open-source/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://blog.cloudflare.com/_emdash/api/media/file/01KZBWYMKT77FDVB07PHA3R5WM.png",
+              "alt": "Cloudflare 首次介绍 Kitesurf 时的官方配图",
+              "sourceUrl": "https://blog.cloudflare.com/kitesurf/",
+              "caption": "Cloudflare 项目资料图。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-15-csrc-market-microstructure",
+          "title": "证监会主席提出研究量化交易与股份减持规则",
+          "category": "财经 / 市场",
+          "summary": "证监会主席吴清在首届中国资本市场学术年会上提出，进一步研究市场稳定机制、价格发现、流动性和交易成本，并评估如何优化量化交易和股份减持制度。致辞还提到研究大型和新型科技企业发行上市的制度适配性与风险应对机制。该次发言明确了研究方向，未公布具体规则变更或实施日期。",
+          "analysis": "正式征求意见稿或交易所配套安排将提供更直接的判断依据，可据此评估交易执行与上市公司股东披露是否需要调整。",
+          "importance": 4,
+          "tags": [
+            "中国证监会",
+            "量化交易",
+            "股份减持",
+            "A 股",
+            "资本市场"
+          ],
+          "sources": [
+            {
+              "title": "证监会致辞全文",
+              "url": "https://www.csrc.gov.cn/csrc/c106311/c7670983/content.shtml"
+            },
+            {
+              "title": "新华财经报道",
+              "url": "https://www.cnfin.com/gs-lb/detail/20261114/4495737_1.html"
+            },
+            {
+              "title": "财联社报道",
+              "url": "https://m.cls.cn/detail/2534426"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.csrc.gov.cn/csrc/c106311/c7670983/7670983/images/1-20261114113701882.jpg",
+              "alt": "证监会发布的首届中国资本市场学术年会现场照片",
+              "sourceUrl": "https://www.csrc.gov.cn/csrc/c106311/c7670983/content.shtml",
+              "caption": "中国证监会发布。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-15-guild-saga-console-launch",
+          "title": "战棋 RPG《Guild Saga: Vanished Worlds》将同步推出 PS5 与 Steam 正式版",
+          "category": "游戏",
+          "summary": "Ocelot Technologies 宣布，游戏计划在 2027 年 5 月登陆 PS5，Steam 1.0 计划同月推出，具体日期待定。现有 Steam 版本为抢先体验，提供简体中文文本和免费试玩。新版预告展示了跨职业技能搭配，以及天气和地表状态参与回合制战斗的设计。",
+          "analysis": "对于关注独立战棋的玩家，PC 试玩已经可用。主机版会纳入 PC 抢先体验阶段累计的内容更新，正式版可用同一窗口观察主机适配和玩法扩充。",
+          "importance": 3,
+          "tags": [
+            "Ocelot Technologies",
+            "战棋 RPG",
+            "独立游戏",
+            "Steam",
+            "PS5"
+          ],
+          "sources": [
+            {
+              "title": "开发者在 PlayStation Blog 的公告",
+              "url": "https://blog.playstation.com/2026/11/13/guild-saga-vanished-worlds-brings-tactical-adventure-to-ps5-in-may-2027/"
+            },
+            {
+              "title": "Ocelot Technologies 新闻稿",
+              "url": "https://www.gamespress.com/Tactical-adventure-Guild-Saga-Vanished-Worlds-launches-on-PS5-in-May-2"
+            },
+            {
+              "title": "Steam 商店",
+              "url": "https://store.steampowered.com/app/2184350"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://blog.playstation.com/tachyon/2026/11/b76ffd50c3d63cbe3bcbf54cd2965dceb1a4e8b5.png?crop_strategy=smart&resize=1088%2C612",
+              "alt": "Guild Saga: Vanished Worlds 的 PlayStation 官方公告配图",
+              "sourceUrl": "https://blog.playstation.com/2026/11/13/guild-saga-vanished-worlds-brings-tactical-adventure-to-ps5-in-may-2027/",
+              "caption": "Ocelot Technologies／PlayStation Blog。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "daily-brief-2026-11-14",
       "collectionId": "daily-brief",
