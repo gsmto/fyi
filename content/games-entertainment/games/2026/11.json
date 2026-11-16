@@ -2,8 +2,185 @@
   "schemaVersion": 1,
   "collectionId": "games",
   "month": "2026-11",
-  "updatedAt": "2026-11-15T01:16:43Z",
+  "updatedAt": "2026-11-16T01:17:44Z",
   "briefs": [
+    {
+      "id": "games-2026-11-16",
+      "date": "2026-11-16",
+      "collectionId": "games",
+      "title": "游戏｜2026-11-16",
+      "summary": "本期关注《GTA VI》的首发云渠道、《Chronicles: Medieval》获接手，以及《杀戮尖塔2》测试更新。国内检索未发现可确认且达到收录标准的重要新增。",
+      "analysis": "关注云游玩开放条件、新工作室公布档期，以及测试内容何时进入正式分支。",
+      "rawText": "# 游戏｜2026-11-16\n\n## 今日重点\n\n本期关注《GTA VI》的首发云渠道、《Chronicles: Medieval》获接手，以及《杀戮尖塔2》测试更新。国内检索未发现可确认且达到收录标准的重要新增。\n\n重要性评分以影响范围和进展确定性衡量。5 分为大型作品或平台的重要可用性变化，4 分为实质内容或开发进展，3 分为值得跟进的早期展示。\n\n## 国内\n\n近24小时未核得足够重要的新动态，回查近7天暂未找到可确认且未入档的条目。\n\n## 国外\n\n### 《GTA VI》首发日将开放 Xbox One 云游玩\n\nXbox 11 月 10 日公告确认，《GTA VI》将在 11 月 19 日美东时间 01:00（北京时间 14:00）通过 Xbox Cloud Gaming 上线，支持 Xbox One 与 Xbox Series X|S。云端按 Series S 画面设置运行，Series X|S 同时有原生版。云服务地区及账户条件以 Xbox 为准。\n\n![《GTA VI》官方主视觉](https://xboxwire.thesourcemediaassets.com/sites/2/2026/06/GTA-6-Official_Cover_Art_landscape-c3e36df9ed6c80b13d50.jpg)\n\n[图片出处](https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/?ocid=Announce_soc_omc_xbo_tw_Photo_lrn_11.10.1)\n\n**为什么值得关注**\n\n对仍在用 Xbox One 的玩家，这是首发日新增的游玩方式，体验取决于当地云服务和网络。\n\n- [Xbox Wire 云游戏平台公告](https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/?ocid=Announce_soc_omc_xbo_tw_Photo_lrn_11.10.1)\n- [Rockstar 官方说明](https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now)\n\n### Coffee Stain 签约接手《Chronicles: Medieval》\n\n瑞典 Coffee Stain 于 11 月 14 日公告，已与丹麦 Raw Power Games 的破产财产管理方签约，以 3,675 万丹麦克朗收购该中世纪沙盒游戏的 IP 和相关资产。新公司由 Coffee Stain 持股 75%，部分原团队成员持股 25%。Steam 仍列 2027 年，具体发售计划待新团队更新。\n\n![Raw Power Games 发布的《Chronicles: Medieval》骑兵画面](https://cdn.mos.cms.futurecdn.net/XKegTpWNWNwSysdkzRKN3o.jpg)\n\n[图片出处](https://www.pcgamer.com/games/strategy/chronicles-medieval-developer-declared-bankruptcy-on-the-day-it-announced-it-was-in-trouble-but-development-will-continue-after-a-usd5-million-reprieve-from-coffee-stain/)\n\n**为什么值得关注**\n\n原团队骨干参与接手并有新资金支持，项目具备继续开发的条件。Steam PC 版的时间仍以新公告为准。\n\n- [Coffee Stain 原始公告](https://coffeestain.com/release/coffee-stain-enters-into-agreement-to-acquire-chronicles-medieval-ip/)\n- [Steam 商店](https://store.steampowered.com/app/2231020?l=english)\n\n### 《杀戮尖塔2》测试版加入新角色 The Fool 与两种模式\n\nMega Crit 于 11 月 12 日在 Steam PC 抢先体验的公开测试分支推出 v0.113.0，11 月 15 日有媒体跟进实玩。补丁加入首位抢先体验新增角色、使用弓的乐手 The Fool，并加入取消地图、压缩流程的 Blitz 和高难度 Dread。主分支上线时间待定。\n\n![《杀戮尖塔2》测试分支的 The Fool 角色实机画面](https://cdn.mos.cms.futurecdn.net/x9vhfxw5ceaXKpPPz2vWid-1200-80.png)\n\n[图片出处](https://www.pcgamer.com/games/roguelike/slay-the-spire-2-has-a-new-character-in-testing-and-shes-really-quite-busted/)\n\n**为什么值得关注**\n\n这是改动构筑和关卡节奏的一次集中测试。测试分支的角色强度与规则仍可能调整。\n\n- [Mega Crit Steam 补丁说明](https://store.steampowered.com/news/app/2868840/view/708914333639245837)\n- [PC Gamer 实玩](https://www.pcgamer.com/games/roguelike/slay-the-spire-2-has-a-new-character-in-testing-and-shes-really-quite-busted/)\n\n### 《Halo: Campaign Evolved》将免费加入四人 Firefight\n\nXbox 11 月 12 日宣布，四人合作 PvE 模式 Firefight 将随冬季免费更新加入，玩家在新地图上共同应对多波敌人。西雅图 Xbox FanFest 已安排现场试玩，进一步消息将在 12 月 12—13 日的 Halo Fest 公布。游戏现有平台为 Xbox Series X|S、PS5 和 PC，更新具体日期待公布。\n\n![Xbox Game Studios 的《Halo: Campaign Evolved》游戏画面](https://cdn.mos.cms.futurecdn.net/9xZdAKCFkjWDKecaxJ9te9.jpg)\n\n[图片出处](https://www.windowscentral.com/gaming/halo/firefight-mode-is-coming-to-halo-campaign-evolved)\n\n**为什么值得关注**\n\n重制版增加战役之外可重复游玩的合作内容。活动试玩与面向玩家发布的更新之间仍有时间差。\n\n- [Xbox Wire 公告](https://news.xbox.com/en-us/2026/11/12/halo-campaign-evolved-firefight-free-update-this-winter/)\n- [Halo 官方安装平台说明](https://support.halowaypoint.com/hc/en-us/articles/50948791026196-Installing-Uninstalling-Halo-Campaign-Evolved)\n\n### 独立即时战略《Horu》展示太空与地面战斗\n\nPC Gamer 11 月 15 日报道 GlassBeaver 的《Horu》新预告，游戏计划将星际经营、太空舰队和地面大军战斗放进同一战役。预告和商店介绍提到玩家可预设登陆区与部队指令。Steam PC 暂列 2027 年第四季度，未确定具体发售日。\n\n![GlassBeaver 发布的《Horu》大型交战画面](https://cdn.mos.cms.futurecdn.net/hhLWdaiVBvMyPsbkoeiiuW.jpg)\n\n[图片出处](https://www.pcgamer.com/games/rts/this-rts-inspired-by-star-wars-empire-at-war-promises-colossal-space-encounters-and-planetary-battles-with-hundreds-of-thousands-of-units/)\n\n**为什么值得关注**\n\n它值得关注的是大规模交战下的部队管理和战场切换。预告中的规模仍要等可玩版本检验。\n\n- [Horu 官方 Steam 商店](https://store.steampowered.com/app/1297450/Horu/)\n- [PC Gamer 预告报道](https://www.pcgamer.com/games/rts/this-rts-inspired-by-star-wars-empire-at-war-promises-colossal-space-encounters-and-planetary-battles-with-hundreds-of-thousands-of-units/)\n",
+      "completeness": "full",
+      "sourceConversation": "游戏",
+      "provenance": "生成于 2026-11-16T01:17:43Z（UTC），报告日期按 Asia/Shanghai。优先检索近24小时中英文动态，并用近7天官方公告补充，对照本栏目月档去重。覆盖中外 PC、主机、独立游戏与开发行业，核对 Steam、Xbox Wire、开发商、发行商和游戏媒体。",
+      "score": 4,
+      "items": [
+        {
+          "id": "games-2026-11-16-gta-vi-console-cloud",
+          "title": "《GTA VI》首发日将开放 Xbox One 云游玩",
+          "category": "国外",
+          "importance": 5,
+          "summary": "Xbox 11 月 10 日公告确认，《GTA VI》将在 11 月 19 日美东时间 01:00（北京时间 14:00）通过 Xbox Cloud Gaming 上线，支持 Xbox One 与 Xbox Series X|S。云端按 Series S 画面设置运行，Series X|S 同时有原生版。云服务地区及账户条件以 Xbox 为准。",
+          "analysis": "对仍在用 Xbox One 的玩家，这是首发日新增的游玩方式，体验取决于当地云服务和网络。",
+          "tags": [
+            "GTA VI",
+            "Xbox One",
+            "Xbox Series X|S",
+            "云游戏",
+            "开放世界"
+          ],
+          "sources": [
+            {
+              "title": "Xbox Wire 云游戏平台公告",
+              "url": "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/?ocid=Announce_soc_omc_xbo_tw_Photo_lrn_11.10.1"
+            },
+            {
+              "title": "Rockstar 官方说明",
+              "url": "https://www.rockstargames.com/newswire/article/89834o94713o21/pre-load-grand-theft-auto-vi-now"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/06/GTA-6-Official_Cover_Art_landscape-c3e36df9ed6c80b13d50.jpg",
+              "alt": "《GTA VI》官方主视觉",
+              "sourceUrl": "https://news.xbox.com/en-us/2026/11/10/grand-theft-auto-6-comes-to-xbox-cloud-gaming-november-19/?ocid=Announce_soc_omc_xbo_tw_Photo_lrn_11.10.1"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-16-coffee-stain-chronicles-medieval",
+          "title": "Coffee Stain 签约接手《Chronicles: Medieval》",
+          "category": "国外",
+          "importance": 4,
+          "summary": "瑞典 Coffee Stain 于 11 月 14 日公告，已与丹麦 Raw Power Games 的破产财产管理方签约，以 3,675 万丹麦克朗收购该中世纪沙盒游戏的 IP 和相关资产。新公司由 Coffee Stain 持股 75%，部分原团队成员持股 25%。Steam 仍列 2027 年，具体发售计划待新团队更新。",
+          "analysis": "原团队骨干参与接手并有新资金支持，项目具备继续开发的条件。Steam PC 版的时间仍以新公告为准。",
+          "tags": [
+            "Chronicles: Medieval",
+            "Steam",
+            "PC",
+            "中世纪沙盒",
+            "行业并购"
+          ],
+          "sources": [
+            {
+              "title": "Coffee Stain 原始公告",
+              "url": "https://coffeestain.com/release/coffee-stain-enters-into-agreement-to-acquire-chronicles-medieval-ip/"
+            },
+            {
+              "title": "Steam 商店",
+              "url": "https://store.steampowered.com/app/2231020?l=english"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn.mos.cms.futurecdn.net/XKegTpWNWNwSysdkzRKN3o.jpg",
+              "alt": "Raw Power Games 发布的《Chronicles: Medieval》骑兵画面",
+              "sourceUrl": "https://www.pcgamer.com/games/strategy/chronicles-medieval-developer-declared-bankruptcy-on-the-day-it-announced-it-was-in-trouble-but-development-will-continue-after-a-usd5-million-reprieve-from-coffee-stain/"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-16-slay-the-spire-2-fool",
+          "title": "《杀戮尖塔2》测试版加入新角色 The Fool 与两种模式",
+          "category": "国外",
+          "importance": 4,
+          "summary": "Mega Crit 于 11 月 12 日在 Steam PC 抢先体验的公开测试分支推出 v0.113.0，11 月 15 日有媒体跟进实玩。补丁加入首位抢先体验新增角色、使用弓的乐手 The Fool，并加入取消地图、压缩流程的 Blitz 和高难度 Dread。主分支上线时间待定。",
+          "analysis": "这是改动构筑和关卡节奏的一次集中测试。测试分支的角色强度与规则仍可能调整。",
+          "tags": [
+            "杀戮尖塔2",
+            "Steam",
+            "PC",
+            "卡牌构筑",
+            "Roguelike",
+            "公开测试"
+          ],
+          "sources": [
+            {
+              "title": "Mega Crit Steam 补丁说明",
+              "url": "https://store.steampowered.com/news/app/2868840/view/708914333639245837"
+            },
+            {
+              "title": "PC Gamer 实玩",
+              "url": "https://www.pcgamer.com/games/roguelike/slay-the-spire-2-has-a-new-character-in-testing-and-shes-really-quite-busted/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn.mos.cms.futurecdn.net/x9vhfxw5ceaXKpPPz2vWid-1200-80.png",
+              "alt": "《杀戮尖塔2》测试分支的 The Fool 角色实机画面",
+              "sourceUrl": "https://www.pcgamer.com/games/roguelike/slay-the-spire-2-has-a-new-character-in-testing-and-shes-really-quite-busted/"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-16-halo-ce-firefight",
+          "title": "《Halo: Campaign Evolved》将免费加入四人 Firefight",
+          "category": "国外",
+          "importance": 4,
+          "summary": "Xbox 11 月 12 日宣布，四人合作 PvE 模式 Firefight 将随冬季免费更新加入，玩家在新地图上共同应对多波敌人。西雅图 Xbox FanFest 已安排现场试玩，进一步消息将在 12 月 12—13 日的 Halo Fest 公布。游戏现有平台为 Xbox Series X|S、PS5 和 PC，更新具体日期待公布。",
+          "analysis": "重制版增加战役之外可重复游玩的合作内容。活动试玩与面向玩家发布的更新之间仍有时间差。",
+          "tags": [
+            "Halo: Campaign Evolved",
+            "Xbox Series X|S",
+            "PS5",
+            "PC",
+            "合作PvE",
+            "免费更新"
+          ],
+          "sources": [
+            {
+              "title": "Xbox Wire 公告",
+              "url": "https://news.xbox.com/en-us/2026/11/12/halo-campaign-evolved-firefight-free-update-this-winter/"
+            },
+            {
+              "title": "Halo 官方安装平台说明",
+              "url": "https://support.halowaypoint.com/hc/en-us/articles/50948791026196-Installing-Uninstalling-Halo-Campaign-Evolved"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn.mos.cms.futurecdn.net/9xZdAKCFkjWDKecaxJ9te9.jpg",
+              "alt": "Xbox Game Studios 的《Halo: Campaign Evolved》游戏画面",
+              "sourceUrl": "https://www.windowscentral.com/gaming/halo/firefight-mode-is-coming-to-halo-campaign-evolved"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-16-horu-space-rts",
+          "title": "独立即时战略《Horu》展示太空与地面战斗",
+          "category": "国外",
+          "importance": 3,
+          "summary": "PC Gamer 11 月 15 日报道 GlassBeaver 的《Horu》新预告，游戏计划将星际经营、太空舰队和地面大军战斗放进同一战役。预告和商店介绍提到玩家可预设登陆区与部队指令。Steam PC 暂列 2027 年第四季度，未确定具体发售日。",
+          "analysis": "它值得关注的是大规模交战下的部队管理和战场切换。预告中的规模仍要等可玩版本检验。",
+          "tags": [
+            "Horu",
+            "Steam",
+            "PC",
+            "独立游戏",
+            "即时战略"
+          ],
+          "sources": [
+            {
+              "title": "Horu 官方 Steam 商店",
+              "url": "https://store.steampowered.com/app/1297450/Horu/"
+            },
+            {
+              "title": "PC Gamer 预告报道",
+              "url": "https://www.pcgamer.com/games/rts/this-rts-inspired-by-star-wars-empire-at-war-promises-colossal-space-encounters-and-planetary-battles-with-hundreds-of-thousands-of-units/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn.mos.cms.futurecdn.net/hhLWdaiVBvMyPsbkoeiiuW.jpg",
+              "alt": "GlassBeaver 发布的《Horu》大型交战画面",
+              "sourceUrl": "https://www.pcgamer.com/games/rts/this-rts-inspired-by-star-wars-empire-at-war-promises-colossal-space-encounters-and-planetary-battles-with-hundreds-of-thousands-of-units/"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "games-2026-11-15",
       "collectionId": "games",
