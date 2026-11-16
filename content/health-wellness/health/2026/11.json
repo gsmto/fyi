@@ -2,8 +2,115 @@
   "schemaVersion": 1,
   "collectionId": "health",
   "month": "2026-11",
-  "updatedAt": "2026-11-15T01:13:54Z",
+  "updatedAt": "2026-11-16T01:19:26Z",
   "briefs": [
+    {
+      "id": "health-2026-11-16",
+      "date": "2026-11-16",
+      "collectionId": "health",
+      "title": "健康｜2026-11-16",
+      "summary": "两项三期随机试验分别补充青少年和中国成人体重管理用药证据，中国疾控最新周报显示流感活动上升。",
+      "analysis": "体重管理数据需结合耐受性、持续性和具体监管适应证阅读，流感趋势以哨点监测为依据。",
+      "rawText": "# 健康｜2026-11-16\n\n## 今日 Top 3\n\n两项三期随机试验分别补充青少年和中国成人体重管理用药证据，中国疾控最新周报显示流感活动上升。\n\n评分按证据质量、适用人群和现实影响排序。5 分为对特定人群有重要临床意义的新证据，4 分为值得跟进的三期结果或公共卫生变化。\n\n### 替尔泊肽青少年三期试验公布 72 周 BMI 结果\n\n《JAMA》11 月 15 日发布一项三期双盲随机试验，2023 年 10 月至 2026 年 6 月在六国纳入 160 名 12–17 岁青少年，几乎均为肥胖。两组均接受生活方式干预，72 周时替尔泊肽组 BMI 平均下降 18.5%，安慰剂组上升 0.5%，组间估计差为 19.0 个百分点。胃肠道不良反应最常见，因不良反应停药为 10/108 人，对照组为 0/51。\n\n原论文有研究图表，本次未核验到可公开访问的独立图片直链，未配图。\n\n**为什么值得关注**\n\n这为青少年肥胖专科评估提供了随机试验证据。美国 Zepbound 体重管理适应证仍为符合条件的成人，青少年的生长发育、停药后体重维持和长期安全性尚需随访。\n\n- [JAMA 原始随机试验](https://jamanetwork.com/journals/jama/fullarticle/2856796)\n- [美国 FDA｜Zepbound 批准和标签记录](https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?ApplNo=217806&event=overview.process)\n- [美国处方资料｜适应证及儿科使用](https://pi.lilly.com/us/zepbound-uspi.pdf)\n\n### 中国成人三期试验公布在研瑞普泊肽的减重与耐受性结果\n\n《JAMA》11 月 15 日发表 GEMINI-1。中国 55 个中心纳入 567 名无糖尿病的超重或肥胖成人，在生活方式干预基础上进行了 48 周双盲随机试验。三个瑞普泊肽注射组的估计平均体重分别下降 10.7%、16.4% 和 17.7%，安慰剂组下降 1.4%。胃肠道不良反应最常见，试验纳入人群相对年轻。\n\n原论文有研究图表，本次未核验到该试验可公开访问的图片直链，未配图。\n\n**为什么值得关注**\n\n这为中国成人提供了本地三期数据，但停药后的体重维持、长期健康获益和老年人安全性仍待研究。国内成人长期体重管理上市申请已受理，截至发稿未查得国家药监局批准公告。\n\n- [JAMA 原始随机试验](https://jamanetwork.com/journals/jama/fullarticle/2856795)\n- [恒瑞医药｜国内上市申请状态](https://www.hengrui.com/en/media/detail-1008.html)\n- [Kailera｜11 月 10 日研发及申报状态](https://investors.kailera.com/news-releases/news-release-details/kailera-therapeutics-present-obesityweek-2026)\n\n### 中国疾控第 45 周监测显示南北方流感检测阳性率上升\n\n中国疾控中心 11 月 12 日公布 11 月 2—8 日哨点监测结果。在中国大陆 216 家开展多病原监测的哨点医院，门急诊流感样病例样本的流感病毒检测阳性率为 18.8%，较前周高 3.1 个百分点。监测显示北方处于低流行水平但上升较快，南方处于中流行水平。\n\n![中国疾控哨点医院门急诊流感样病例样本病原体检测阳性率周趋势图](https://www.chinacdc.cn/jksj/jksj04_14275/202611/W020261112517347832711.png)\n\n[图片出处](https://www.chinacdc.cn/jksj/jksj04_14275/202611/t20261112_1842956.html)\n\n**为什么值得关注**\n\n这给家庭和学校提供了季节性防护的时间参考。哨点阳性率反映的是抽样就诊者，具体地区和年龄组仍要看当地监测。\n\n- [中国疾控中心｜第45周全国急性呼吸道传染病哨点监测](https://www.chinacdc.cn/jksj/jksj04_14275/202611/t20261112_1842956.html)\n- [中国疾控中心｜第45周流感监测周报](https://www.chinacdc.cn/jksj/jksj04_14249/202611/t20261111_1842933.html)\n",
+      "completeness": "full",
+      "sourceConversation": "健康",
+      "provenance": "生成于 2026-11-16T01:19:25Z（UTC），按 Asia/Shanghai 定日。查对近24小时国内外医学、公共健康与体重管理动态，近7天监测作为补充窗口，核对同行评审原文、FDA 及中国疾控发布、企业公开的申请状态，并与本栏目近期报告去重。",
+      "score": 4,
+      "items": [
+        {
+          "id": "health-2026-11-16-tirzepatide-adolescents",
+          "title": "替尔泊肽青少年三期试验公布 72 周 BMI 结果",
+          "category": "减重",
+          "importance": 5,
+          "summary": "《JAMA》11 月 15 日发布一项三期双盲随机试验，2023 年 10 月至 2026 年 6 月在六国纳入 160 名 12–17 岁青少年，几乎均为肥胖。两组均接受生活方式干预，72 周时替尔泊肽组 BMI 平均下降 18.5%，安慰剂组上升 0.5%，组间估计差为 19.0 个百分点。胃肠道不良反应最常见，因不良反应停药为 10/108 人，对照组为 0/51。",
+          "analysis": "这为青少年肥胖专科评估提供了随机试验证据。美国 Zepbound 体重管理适应证仍为符合条件的成人，青少年的生长发育、停药后体重维持和长期安全性尚需随访。",
+          "tags": [
+            "青少年肥胖",
+            "替尔泊肽",
+            "三期随机试验",
+            "BMI",
+            "长期安全性"
+          ],
+          "sources": [
+            {
+              "title": "JAMA 原始随机试验",
+              "url": "https://jamanetwork.com/journals/jama/fullarticle/2856796"
+            },
+            {
+              "title": "美国 FDA｜Zepbound 批准和标签记录",
+              "url": "https://www.accessdata.fda.gov/scripts/cder/daf/index.cfm?ApplNo=217806&event=overview.process"
+            },
+            {
+              "title": "美国处方资料｜适应证及儿科使用",
+              "url": "https://pi.lilly.com/us/zepbound-uspi.pdf"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "health-2026-11-16-ribupatide-gemini-1",
+          "title": "中国成人三期试验公布在研瑞普泊肽的减重与耐受性结果",
+          "category": "减重",
+          "importance": 4,
+          "summary": "《JAMA》11 月 15 日发表 GEMINI-1。中国 55 个中心纳入 567 名无糖尿病的超重或肥胖成人，在生活方式干预基础上进行了 48 周双盲随机试验。三个瑞普泊肽注射组的估计平均体重分别下降 10.7%、16.4% 和 17.7%，安慰剂组下降 1.4%。胃肠道不良反应最常见，试验纳入人群相对年轻。",
+          "analysis": "这为中国成人提供了本地三期数据，但停药后的体重维持、长期健康获益和老年人安全性仍待研究。国内成人长期体重管理上市申请已受理，截至发稿未查得国家药监局批准公告。",
+          "tags": [
+            "瑞普泊肽",
+            "ribupatide",
+            "GEMINI-1",
+            "中国成人",
+            "三期随机试验",
+            "监管"
+          ],
+          "sources": [
+            {
+              "title": "JAMA 原始随机试验",
+              "url": "https://jamanetwork.com/journals/jama/fullarticle/2856795"
+            },
+            {
+              "title": "恒瑞医药｜国内上市申请状态",
+              "url": "https://www.hengrui.com/en/media/detail-1008.html"
+            },
+            {
+              "title": "Kailera｜11 月 10 日研发及申报状态",
+              "url": "https://investors.kailera.com/news-releases/news-release-details/kailera-therapeutics-present-obesityweek-2026"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "health-2026-11-16-china-flu-week-45",
+          "title": "中国疾控第 45 周监测显示南北方流感检测阳性率上升",
+          "category": "健康",
+          "importance": 4,
+          "summary": "中国疾控中心 11 月 12 日公布 11 月 2—8 日哨点监测结果。在中国大陆 216 家开展多病原监测的哨点医院，门急诊流感样病例样本的流感病毒检测阳性率为 18.8%，较前周高 3.1 个百分点。监测显示北方处于低流行水平但上升较快，南方处于中流行水平。",
+          "analysis": "这给家庭和学校提供了季节性防护的时间参考。哨点阳性率反映的是抽样就诊者，具体地区和年龄组仍要看当地监测。",
+          "tags": [
+            "流感",
+            "中国疾控中心",
+            "哨点监测",
+            "呼吸道健康"
+          ],
+          "sources": [
+            {
+              "title": "中国疾控中心｜第45周全国急性呼吸道传染病哨点监测",
+              "url": "https://www.chinacdc.cn/jksj/jksj04_14275/202611/t20261112_1842956.html"
+            },
+            {
+              "title": "中国疾控中心｜第45周流感监测周报",
+              "url": "https://www.chinacdc.cn/jksj/jksj04_14249/202611/t20261111_1842933.html"
+            }
+          ],
+          "images": [
+            {
+              "alt": "中国疾控哨点医院门急诊流感样病例样本病原体检测阳性率周趋势图",
+              "url": "https://www.chinacdc.cn/jksj/jksj04_14275/202611/W020261112517347832711.png",
+              "sourceUrl": "https://www.chinacdc.cn/jksj/jksj04_14275/202611/t20261112_1842956.html"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "health-2026-11-15",
       "collectionId": "health",
