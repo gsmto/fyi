@@ -2,8 +2,183 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-15T01:26:43Z",
+  "updatedAt": "2026-11-16T01:29:04Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-16",
+      "collectionId": "llm",
+      "date": "2026-11-16",
+      "title": "大模型｜2026-11-16",
+      "summary": "OpenAI 披露 GPT‑6 Astra 在理论物理预印本中的具体贡献。Claude Code 调整默认审批，SGLang 成立跨厂商联盟，Google DeepMind 开放天气数据，Meta 与纽约大学发表视觉编码消融研究。",
+      "analysis": "近期动态集中在科研工作流、开发工具与推理基础设施。科研结论按作者自述和预印本处理，已发布的软件行为与联盟后续计划分别说明。",
+      "rawText": "# 大模型｜2026-11-16\n\nOpenAI 披露 GPT‑6 Astra 在理论物理预印本中的具体贡献。Claude Code 调整默认审批，SGLang 成立跨厂商联盟，Google DeepMind 开放天气数据，Meta 与纽约大学发表视觉编码消融研究。\n\n以近 24 小时发布为主，补充近七天本栏目未收录的进展。文中日期为来源所示的公告或预印本日期。\n\n## 物理学家披露 GPT‑6 Astra 如何参与标准模型格点研究\n\n11 月 15 日，OpenAI 上线科学博客。首篇客座文章由加州大学圣塔芭芭拉分校物理学家、OpenAI 访问科学家 Nathaniel Craig 撰写。他在 10 月预印本中提出有限格距下的候选构造，并在新文中解释自己如何提出研究策略、Astra 如何推进构造和详细证明。连续时空中的完整理论定义仍是开放问题。\n\n![预印本图 2，示意如何重构和采样不同格距的规范链](https://arxiv.org/html/2610.09093v1/gauge_sampling.png)\n\n[图片出处](https://arxiv.org/html/2610.09093v1)\n\n**为什么值得关注**\n\n这篇第一手记录让研究人员能具体审视模型在证明中的贡献，并结合预印本检查假设和推导。现有证据来自作者自述和预印本，仍有待学界检验。\n\n[OpenAI 客座文章](https://openai.com/index/step-toward-defining-the-standard-model/) · [科学博客公告](https://openai.com/index/our-new-blog-for-science/) · [arXiv 预印本](https://arxiv.org/abs/2610.09093)\n\n## Claude Code 调整沙箱内 Bash 的默认审批行为\n\n11 月 13 日发布的 Claude Code 2.1.325 将沙箱内 Bash 命令默认纳入常规权限流程，是否提示取决于适用的许可规则。更新也让定时任务在执行声明了工具权限或钩子的技能前，按规则请求授权。\n\n未配图。官方版本日志未提供能展示此次权限变化的截图。\n\n**为什么值得关注**\n\n依赖沙箱默认行为的开发团队升级后，可在测试环境核对脚本、定时任务和团队权限策略，确认无人值守运行是否会等待审批。\n\n[Claude Code 官方更新日志](https://code.claude.com/docs/en/changelog) · [GitHub 版本页](https://github.com/anthropics/claude-code/releases/tag/v2.1.325)\n\n## SGLang 成立联盟，Google、Meta 和芯片厂商共同参与\n\n11 月 12 日，LMSYS 宣布成立 SGLang Consortium，创始成员包括 NVIDIA、AMD、Intel、Google、Meta、Cloudflare、Modal 和 RadixArk。联盟把多模态、分布式推理和硬件优化列为协作方向，并计划公开更新路线图。技术决策与合并权限仍由 SGLang 维护者负责。\n\n![LMSYS 公布的 SGLang 联盟成员图](https://www.lmsys.org/images/blog/sglang-consortium/consortium.png)\n\n[图片出处](https://www.lmsys.org/blog/2026-11-12-sglang-consortium/)\n\n**为什么值得关注**\n\n运行自托管推理的团队，可以从公开路线图跟踪不同加速器的适配进度。实际收益取决于后续合入的实现及其在目标模型和硬件上的表现。\n\n[LMSYS 联盟公告](https://www.lmsys.org/blog/2026-11-12-sglang-consortium/) · [SGLang 开源仓库](https://github.com/sgl-project/sglang)\n\n## Google DeepMind 开放 WeatherNext 3 使用的两套数据\n\n11 月 13 日，WeatherNext 团队通过 Google Cloud Storage 开放 SatWeave 和 PARDIG 的历史数据与实时数据流。SatWeave 每小时更新全球卫星拼图。PARDIG 提供约 10 公里、15 分钟分辨率的降水估计，平均延迟约五小时，历史数据也可在 Google Earth Engine 获取。\n\n![Google DeepMind 的天气数据示意图，展示卫星影像与降水数据层](https://lh3.googleusercontent.com/EyHOPdy1RZC6ksZ50GThErLowPjtqkzgITH_CSP2Rh4UbsF4muddzfQ0id_Qro5VhuMNYIg9Sxk8ukt7gFVRbLsC4m47HUj07fAAGbhHm1se-h4N=w1440-h810-n-nu)\n\n[图片出处](https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/?type=AI)\n\n**为什么值得关注**\n\n天气、水文和能源团队可用相同数据做历史回测，再用持续更新的数据测试下游应用。降水时间分辨率与数据到达延迟需要分别纳入评估。\n\n[Google DeepMind 公告](https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/?type=AI) · [WeatherNext 开发者文档](https://developers.google.com/weathernext) · [IT之家交叉报道](https://www.ithome.com/1/026/939.htm)\n\n## Meta 与纽约大学拆解视觉编码器的三项设计取舍\n\n11 月 12 日上线的预印本使用相同训练数据和匹配的总训练算力，比较视觉编码器的预训练、专用视觉容量和融合位置。在论文的视觉问答实验中，保留专用视觉组件并与主干联合训练，可以达到单独预训练编码器的水平。将视觉组件放在主干前几层的融合方案也取得相近表现，并在实验中可降低首个词元延迟。\n\n![论文作者发布的视觉编码架构与实验结果示意图](https://cdn-uploads.huggingface.co/production/uploads/626dc5105f7327906f0b2a4e/erGz01WMMG9V1LuvBmt7V.png)\n\n[图片出处](https://huggingface.co/papers/2611.17334)\n\n**为什么值得关注**\n\n多模态模型团队可以据此把联合训练和早期融合列为消融实验的候选方案，同时按自己的数据、模型规模和延迟目标验证。\n\n[arXiv 原始预印本](https://arxiv.org/abs/2611.17334) · [作者在 Hugging Face 的论文页面](https://huggingface.co/papers/2611.17334)\n",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "生成时间 2026-11-16T01:28:24Z（UTC），日期采用 Asia/Shanghai。检索以生成前 24 小时为主，补充此前 7 天，覆盖 OpenAI、Anthropic、Google DeepMind／Gemini、xAI、Meta 及开源推理生态。综合中英文线索，核实官方公告、开发文档、GitHub 版本记录和预印本，并对照本栏目近期月档去重。",
+      "score": 4,
+      "items": [
+        {
+          "id": "llm-2026-11-16-openai-astra-lattice",
+          "title": "物理学家披露 GPT‑6 Astra 如何参与标准模型格点研究",
+          "category": "OpenAI",
+          "summary": "11 月 15 日，OpenAI 上线科学博客。首篇客座文章由加州大学圣塔芭芭拉分校物理学家、OpenAI 访问科学家 Nathaniel Craig 撰写。他在 10 月预印本中提出有限格距下的候选构造，并在新文中解释自己如何提出研究策略、Astra 如何推进构造和详细证明。连续时空中的完整理论定义仍是开放问题。",
+          "analysis": "这篇第一手记录让研究人员能具体审视模型在证明中的贡献，并结合预印本检查假设和推导。现有证据来自作者自述和预印本，仍有待学界检验。",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "GPT‑6 Astra",
+            "AI 科研",
+            "理论物理"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI 客座文章",
+              "url": "https://openai.com/index/step-toward-defining-the-standard-model/"
+            },
+            {
+              "title": "科学博客公告",
+              "url": "https://openai.com/index/our-new-blog-for-science/"
+            },
+            {
+              "title": "arXiv 预印本",
+              "url": "https://arxiv.org/abs/2610.09093"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://arxiv.org/html/2610.09093v1/gauge_sampling.png",
+              "alt": "预印本图 2，示意如何重构和采样不同格距的规范链",
+              "sourceUrl": "https://arxiv.org/html/2610.09093v1"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-16-claude-code-bash-permissions",
+          "title": "Claude Code 调整沙箱内 Bash 的默认审批行为",
+          "category": "Anthropic",
+          "summary": "11 月 13 日发布的 Claude Code 2.1.325 将沙箱内 Bash 命令默认纳入常规权限流程，是否提示取决于适用的许可规则。更新也让定时任务在执行声明了工具权限或钩子的技能前，按规则请求授权。",
+          "analysis": "依赖沙箱默认行为的开发团队升级后，可在测试环境核对脚本、定时任务和团队权限策略，确认无人值守运行是否会等待审批。",
+          "importance": 4,
+          "tags": [
+            "Anthropic",
+            "Claude Code",
+            "开发工具",
+            "智能体权限"
+          ],
+          "sources": [
+            {
+              "title": "Claude Code 官方更新日志",
+              "url": "https://code.claude.com/docs/en/changelog"
+            },
+            {
+              "title": "GitHub 版本页",
+              "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "llm-2026-11-16-sglang-consortium",
+          "title": "SGLang 成立联盟，Google、Meta 和芯片厂商共同参与",
+          "category": "其他",
+          "summary": "11 月 12 日，LMSYS 宣布成立 SGLang Consortium，创始成员包括 NVIDIA、AMD、Intel、Google、Meta、Cloudflare、Modal 和 RadixArk。联盟把多模态、分布式推理和硬件优化列为协作方向，并计划公开更新路线图。技术决策与合并权限仍由 SGLang 维护者负责。",
+          "analysis": "运行自托管推理的团队，可以从公开路线图跟踪不同加速器的适配进度。实际收益取决于后续合入的实现及其在目标模型和硬件上的表现。",
+          "importance": 4,
+          "tags": [
+            "SGLang",
+            "Google",
+            "Meta",
+            "开源",
+            "推理部署"
+          ],
+          "sources": [
+            {
+              "title": "LMSYS 联盟公告",
+              "url": "https://www.lmsys.org/blog/2026-11-12-sglang-consortium/"
+            },
+            {
+              "title": "SGLang 开源仓库",
+              "url": "https://github.com/sgl-project/sglang"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.lmsys.org/images/blog/sglang-consortium/consortium.png",
+              "alt": "LMSYS 公布的 SGLang 联盟成员图",
+              "sourceUrl": "https://www.lmsys.org/blog/2026-11-12-sglang-consortium/"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-16-deepmind-weathernext-datasets",
+          "title": "Google DeepMind 开放 WeatherNext 3 使用的两套数据",
+          "category": "Google DeepMind",
+          "summary": "11 月 13 日，WeatherNext 团队通过 Google Cloud Storage 开放 SatWeave 和 PARDIG 的历史数据与实时数据流。SatWeave 每小时更新全球卫星拼图。PARDIG 提供约 10 公里、15 分钟分辨率的降水估计，平均延迟约五小时，历史数据也可在 Google Earth Engine 获取。",
+          "analysis": "天气、水文和能源团队可用相同数据做历史回测，再用持续更新的数据测试下游应用。降水时间分辨率与数据到达延迟需要分别纳入评估。",
+          "importance": 4,
+          "tags": [
+            "Google DeepMind",
+            "WeatherNext 3",
+            "PARDIG",
+            "SatWeave",
+            "开放数据"
+          ],
+          "sources": [
+            {
+              "title": "Google DeepMind 公告",
+              "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/?type=AI"
+            },
+            {
+              "title": "WeatherNext 开发者文档",
+              "url": "https://developers.google.com/weathernext"
+            },
+            {
+              "title": "IT之家交叉报道",
+              "url": "https://www.ithome.com/1/026/939.htm"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://lh3.googleusercontent.com/EyHOPdy1RZC6ksZ50GThErLowPjtqkzgITH_CSP2Rh4UbsF4muddzfQ0id_Qro5VhuMNYIg9Sxk8ukt7gFVRbLsC4m47HUj07fAAGbhHm1se-h4N=w1440-h810-n-nu",
+              "alt": "Google DeepMind 的天气数据示意图，展示卫星影像与降水数据层",
+              "sourceUrl": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/?type=AI"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-16-meta-unbundling-vision",
+          "title": "Meta 与纽约大学拆解视觉编码器的三项设计取舍",
+          "category": "Meta",
+          "summary": "11 月 12 日上线的预印本使用相同训练数据和匹配的总训练算力，比较视觉编码器的预训练、专用视觉容量和融合位置。在论文的视觉问答实验中，保留专用视觉组件并与主干联合训练，可以达到单独预训练编码器的水平。将视觉组件放在主干前几层的融合方案也取得相近表现，并在实验中可降低首个词元延迟。",
+          "analysis": "多模态模型团队可以据此把联合训练和早期融合列为消融实验的候选方案，同时按自己的数据、模型规模和延迟目标验证。",
+          "importance": 3,
+          "tags": [
+            "Meta",
+            "Meta FAIR",
+            "纽约大学",
+            "多模态",
+            "视觉编码"
+          ],
+          "sources": [
+            {
+              "title": "arXiv 原始预印本",
+              "url": "https://arxiv.org/abs/2611.17334"
+            },
+            {
+              "title": "作者在 Hugging Face 的论文页面",
+              "url": "https://huggingface.co/papers/2611.17334"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn-uploads.huggingface.co/production/uploads/626dc5105f7327906f0b2a4e/erGz01WMMG9V1LuvBmt7V.png",
+              "alt": "论文作者发布的视觉编码架构与实验结果示意图",
+              "sourceUrl": "https://huggingface.co/papers/2611.17334"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "llm-2026-11-15",
       "collectionId": "llm",
