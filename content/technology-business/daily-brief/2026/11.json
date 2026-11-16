@@ -2,8 +2,186 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-11",
-  "updatedAt": "2026-11-15T01:04:15Z",
+  "updatedAt": "2026-11-16T01:06:47Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-11-16",
+      "date": "2026-11-16",
+      "collectionId": "daily-brief",
+      "title": "最新资讯｜2026-11-16",
+      "summary": "今日 5 条关注英特尔股东诉讼、国内外汇存款准备金率调整生效、《英雄联盟》客户端改版预告、SGLang 开源联盟及多模态视觉编码研究。",
+      "analysis": "本期把生效政策、诉讼指控、产品预告和研究结果按各自证据表述，便于追踪后续变化。",
+      "rawText": "# 最新资讯｜2026-11-16\n\n今日 5 条关注英特尔股东诉讼、国内外汇存款准备金率调整生效、《英雄联盟》客户端改版预告、SGLang 开源联盟及多模态视觉编码研究。\n\n## 1. 英特尔遭股东起诉，争议围绕 PC 放缓与库存披露\n\n11 月 13 日在加州提交诉状，路透社 11 月 15 日报道。由密歇根州一支公共养老金领衔的股东提起拟议集体诉讼，指称英特尔未及时披露 PC 销售放缓和库存积压对收入的影响。英特尔 10 月 29 日发布第四季度业绩指引，次日股价下跌 28.6%。路透社报道发稿时，英特尔尚未回应置评请求。\n\n![英特尔位于圣克拉拉的总部外景](https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Intel_Headquarters_in_2023.jpg/1280px-Intel_Headquarters_in_2023.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org)\n\n资料图，Coolcaesar 摄，CC BY-SA 4.0 · [图片出处](https://commons.wikimedia.org/wiki/File:Intel_Headquarters_in_2023.jpg)\n\n**为什么值得关注**\n\n这是待审理的股东指控。观察公司经营时，PC 需求、库存和数据中心增长需要分别跟踪。\n\n- [路透社诉讼报道](https://www.reuters.com/business/intel-sued-by-shareholders-following-29-stock-plunge-2026-11-15/)\n- [英特尔第三季度财报及第四季度指引](https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results)\n\n## 2. 央行外汇存款准备金率上调至 6%\n\n中国人民银行于 11 月 3 日公布调整，11 月 15 日生效。金融机构外汇存款准备金率从 4% 提高至 6%，上调 2 个百分点。央行将此次调整的目的表述为加强金融机构外汇流动性管理。\n\n![中国人民银行北京总部外景](https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7Jg_JNr7KR0/v1/-1x-1.webp)\n\n资料图 · [图片出处](https://www.bloomberg.com/news/articles/2022-01-18/pboc-says-market-forces-policy-will-help-correct-any-yuan-moves)\n\n**为什么值得关注**\n\n这会提高金融机构须留存的外汇准备金比例，从而影响银行体系可动用的外汇资金。汇率走向仍取决于资金流动、市场预期和外部利率等因素。\n\n- [新华网转载央行发布](https://www.xinhuanet.com/fortune/20261103/80f848e7f7e547b2a7b72ef4c64c3262/c.html)\n- [上海证券报 11 月 15 日生效报道](https://cj.sina.com.cn/articles/view/1905628462/7195952e01901rrsg)\n\n## 3. 《英雄联盟》预告 New Dawn，计划改版客户端与召唤师峡谷\n\nRiot Games 公布《英雄联盟》New Dawn 预告，PC Gamer 于 11 月 15 日报道。公开内容包括客户端现代化、5v5 召唤师峡谷视觉更新和新的英雄玩法。官方专题页已开放订阅，预告阶段的具体玩法和上线时间仍待确认。\n\n![Riot Games 发布的《英雄联盟》New Dawn 预告截图](https://cdn.mos.cms.futurecdn.net/9ioSw2Gug8fVTiMxZ36YyA.png)\n\n[图片出处](https://www.pcgamer.com/games/moba/league-of-legends-will-get-an-overhaul-called-new-dawn-with-new-visuals-build-options-and-an-updated-client/)\n\n**为什么值得关注**\n\n老牌竞技游戏同时翻新客户端、美术和玩法，值得观察后续如何保留已有玩家的操作习惯，以及测试范围和迁移安排。\n\n- [Riot Games 官方专题](https://www.leagueoflegends.com/en-us/new-dawn/)\n- [Riot Games 官方预告](https://youtu.be/vs3p3mNhRXo)\n- [PC Gamer 报道](https://www.pcgamer.com/games/moba/league-of-legends-will-get-an-overhaul-called-new-dawn-with-new-visuals-build-options-and-an-updated-client/)\n\n## 4. LMSYS 成立 SGLang 联盟，联合推进开源推理\n\nLMSYS Org 于 11 月 12 日在首届 SGLang Summit 宣布成立联盟，HPCwire 于 11 月 13 日跟进。创始成员包括 NVIDIA、AMD、Intel、Google、Meta、Cloudflare、Modal 和 RadixArk。各方将与维护者就模型接入、分布式推理和硬件优化协作，并以开发、测试资源和部署反馈参与。\n\n![LMSYS 与 SGLang 联盟创始成员标识](https://www.lmsys.org/images/blog/sglang-consortium/consortium.png)\n\n[图片出处](https://www.lmsys.org/blog/2026-11-12-sglang-consortium/)\n\n**为什么值得关注**\n\n部署团队有望从共同测试和跨硬件适配中受益。具体收益仍要看路线图上的工作最终如何进入发行版。\n\n- [LMSYS Org 公告](https://www.lmsys.org/blog/2026-11-12-sglang-consortium/)\n- [SGLang GitHub 仓库](https://github.com/sgl-project/sglang)\n\n## 5. Meta FAIR 与纽约大学比较多模态模型的视觉编码方案\n\n这项预印本于 11 月 12 日提交 arXiv，作者于 11 月 13 日提交到 Hugging Face Papers。研究在相同数据和总训练算力下比较多种架构，发现保留专用视觉模块时，从头联合训练在所测任务上可达到独立预训练视觉编码器的水平。把视觉模块放进主干早期层，也能取得相近表现，并在作者部分测试条件下缩短首 token 延迟。\n\n![多模态视觉编码论文在 Hugging Face Papers 的配图](https://cdn-uploads.huggingface.co/production/uploads/626dc5105f7327906f0b2a4e/erGz01WMMG9V1LuvBmt7V.png)\n\n[图片出处](https://huggingface.co/papers/2611.17334)\n\n**为什么值得关注**\n\n团队可以把视觉模块的位置和训练方式拆开评估，分别测准确率和部署延迟。结论来自作者控制实验，适用范围受训练数据、模型规模和硬件配置限制。\n\n- [arXiv 原始预印本](https://arxiv.org/abs/2611.17334)\n- [Hugging Face Papers 作者页面](https://huggingface.co/papers/2611.17334)\n",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "生成于 2026-11-16T01:05:46Z（UTC），按北京时间定日。核对 11 月 12 至 16 日动态，覆盖公司公告、开源仓库、预印本、全球科技与游戏媒体及中文财经报道，以近期同栏目报告去重。",
+      "score": 4,
+      "items": [
+        {
+          "id": "daily-brief-2026-11-16-intel-investor-lawsuit",
+          "title": "英特尔遭股东起诉，争议围绕 PC 放缓与库存披露",
+          "category": "全球科技与商业",
+          "importance": 5,
+          "summary": "11 月 13 日在加州提交诉状，路透社 11 月 15 日报道。由密歇根州一支公共养老金领衔的股东提起拟议集体诉讼，指称英特尔未及时披露 PC 销售放缓和库存积压对收入的影响。英特尔 10 月 29 日发布第四季度业绩指引，次日股价下跌 28.6%。路透社报道发稿时，英特尔尚未回应置评请求。",
+          "analysis": "这是待审理的股东指控。观察公司经营时，PC 需求、库存和数据中心增长需要分别跟踪。",
+          "tags": [
+            "英特尔",
+            "PC",
+            "芯片",
+            "证券诉讼"
+          ],
+          "sources": [
+            {
+              "title": "路透社诉讼报道",
+              "url": "https://www.reuters.com/business/intel-sued-by-shareholders-following-29-stock-plunge-2026-11-15/"
+            },
+            {
+              "title": "英特尔第三季度财报及第四季度指引",
+              "url": "https://www.intc.com/news-events/press-releases/detail/1786/intel-reports-third-quarter-2026-financial-results"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Intel_Headquarters_in_2023.jpg/1280px-Intel_Headquarters_in_2023.jpg?utm_campaign=index&utm_content=thumbnail&utm_source=commons.wikimedia.org",
+              "alt": "英特尔位于圣克拉拉的总部外景",
+              "sourceUrl": "https://commons.wikimedia.org/wiki/File:Intel_Headquarters_in_2023.jpg",
+              "caption": "资料图，Coolcaesar 摄，CC BY-SA 4.0"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-16-pboc-fx-reserve-effective",
+          "title": "央行外汇存款准备金率上调至 6%",
+          "category": "财经与市场",
+          "importance": 4,
+          "summary": "中国人民银行于 11 月 3 日公布调整，11 月 15 日生效。金融机构外汇存款准备金率从 4% 提高至 6%，上调 2 个百分点。央行将此次调整的目的表述为加强金融机构外汇流动性管理。",
+          "analysis": "这会提高金融机构须留存的外汇准备金比例，从而影响银行体系可动用的外汇资金。汇率走向仍取决于资金流动、市场预期和外部利率等因素。",
+          "tags": [
+            "中国人民银行",
+            "外汇准备金",
+            "人民币",
+            "流动性"
+          ],
+          "sources": [
+            {
+              "title": "新华网转载央行发布",
+              "url": "https://www.xinhuanet.com/fortune/20261103/80f848e7f7e547b2a7b72ef4c64c3262/c.html"
+            },
+            {
+              "title": "上海证券报 11 月 15 日生效报道",
+              "url": "https://cj.sina.com.cn/articles/view/1905628462/7195952e01901rrsg"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7Jg_JNr7KR0/v1/-1x-1.webp",
+              "alt": "中国人民银行北京总部外景",
+              "sourceUrl": "https://www.bloomberg.com/news/articles/2022-01-18/pboc-says-market-forces-policy-will-help-correct-any-yuan-moves",
+              "caption": "资料图"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-16-riot-new-dawn",
+          "title": "《英雄联盟》预告 New Dawn，计划改版客户端与召唤师峡谷",
+          "category": "游戏开发与行业",
+          "importance": 4,
+          "summary": "Riot Games 公布《英雄联盟》New Dawn 预告，PC Gamer 于 11 月 15 日报道。公开内容包括客户端现代化、5v5 召唤师峡谷视觉更新和新的英雄玩法。官方专题页已开放订阅，预告阶段的具体玩法和上线时间仍待确认。",
+          "analysis": "老牌竞技游戏同时翻新客户端、美术和玩法，值得观察后续如何保留已有玩家的操作习惯，以及测试范围和迁移安排。",
+          "tags": [
+            "Riot Games",
+            "英雄联盟",
+            "客户端",
+            "游戏改版"
+          ],
+          "sources": [
+            {
+              "title": "Riot Games 官方专题",
+              "url": "https://www.leagueoflegends.com/en-us/new-dawn/"
+            },
+            {
+              "title": "Riot Games 官方预告",
+              "url": "https://youtu.be/vs3p3mNhRXo"
+            },
+            {
+              "title": "PC Gamer 报道",
+              "url": "https://www.pcgamer.com/games/moba/league-of-legends-will-get-an-overhaul-called-new-dawn-with-new-visuals-build-options-and-an-updated-client/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn.mos.cms.futurecdn.net/9ioSw2Gug8fVTiMxZ36YyA.png",
+              "alt": "Riot Games 发布的《英雄联盟》New Dawn 预告截图",
+              "sourceUrl": "https://www.pcgamer.com/games/moba/league-of-legends-will-get-an-overhaul-called-new-dawn-with-new-visuals-build-options-and-an-updated-client/"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-16-sglang-consortium",
+          "title": "LMSYS 成立 SGLang 联盟，联合推进开源推理",
+          "category": "软件工程与开源",
+          "importance": 4,
+          "summary": "LMSYS Org 于 11 月 12 日在首届 SGLang Summit 宣布成立联盟，HPCwire 于 11 月 13 日跟进。创始成员包括 NVIDIA、AMD、Intel、Google、Meta、Cloudflare、Modal 和 RadixArk。各方将与维护者就模型接入、分布式推理和硬件优化协作，并以开发、测试资源和部署反馈参与。",
+          "analysis": "部署团队有望从共同测试和跨硬件适配中受益。具体收益仍要看路线图上的工作最终如何进入发行版。",
+          "tags": [
+            "SGLang",
+            "LMSYS",
+            "开源",
+            "推理服务",
+            "硬件适配"
+          ],
+          "sources": [
+            {
+              "title": "LMSYS Org 公告",
+              "url": "https://www.lmsys.org/blog/2026-11-12-sglang-consortium/"
+            },
+            {
+              "title": "SGLang GitHub 仓库",
+              "url": "https://github.com/sgl-project/sglang"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.lmsys.org/images/blog/sglang-consortium/consortium.png",
+              "alt": "LMSYS 与 SGLang 联盟创始成员标识",
+              "sourceUrl": "https://www.lmsys.org/blog/2026-11-12-sglang-consortium/"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-16-meta-nyu-vision-encoding",
+          "title": "Meta FAIR 与纽约大学比较多模态模型的视觉编码方案",
+          "category": "AI 与研究",
+          "importance": 4,
+          "summary": "这项预印本于 11 月 12 日提交 arXiv，作者于 11 月 13 日提交到 Hugging Face Papers。研究在相同数据和总训练算力下比较多种架构，发现保留专用视觉模块时，从头联合训练在所测任务上可达到独立预训练视觉编码器的水平。把视觉模块放进主干早期层，也能取得相近表现，并在作者部分测试条件下缩短首 token 延迟。",
+          "analysis": "团队可以把视觉模块的位置和训练方式拆开评估，分别测准确率和部署延迟。结论来自作者控制实验，适用范围受训练数据、模型规模和硬件配置限制。",
+          "tags": [
+            "Meta FAIR",
+            "纽约大学",
+            "多模态",
+            "视觉编码器",
+            "预印本"
+          ],
+          "sources": [
+            {
+              "title": "arXiv 原始预印本",
+              "url": "https://arxiv.org/abs/2611.17334"
+            },
+            {
+              "title": "Hugging Face Papers 作者页面",
+              "url": "https://huggingface.co/papers/2611.17334"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn-uploads.huggingface.co/production/uploads/626dc5105f7327906f0b2a4e/erGz01WMMG9V1LuvBmt7V.png",
+              "alt": "多模态视觉编码论文在 Hugging Face Papers 的配图",
+              "sourceUrl": "https://huggingface.co/papers/2611.17334"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "daily-brief-2026-11-15",
       "collectionId": "daily-brief",
