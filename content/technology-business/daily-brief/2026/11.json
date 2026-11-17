@@ -2,8 +2,192 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-11",
-  "updatedAt": "2026-11-16T01:06:47Z",
+  "updatedAt": "2026-11-17T01:10:16Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-11-17",
+      "collectionId": "daily-brief",
+      "date": "2026-11-17",
+      "title": "最新资讯｜2026-11-17",
+      "summary": "美国先进 AI 算力管制纳入部分境外远程访问，中国 10 月工业与零售增速放缓。开发者侧关注 GitHub Copilot 的自托管企业仓库支持、盘古 2.1 Pro 云 API，以及《战神：斯巴达之子》的双平台玩法更新。",
+      "analysis": "本期区分规则公布与生效、模型云 API 与权重开放，以及开发功能的正式发布与试验阶段。",
+      "rawText": "# 最新资讯｜2026-11-17\n\n美国先进 AI 算力管制纳入部分境外远程访问，中国 10 月工业与零售增速放缓。开发者侧关注 GitHub Copilot 的自托管企业仓库支持、盘古 2.1 Pro 云 API，以及《战神：斯巴达之子》的双平台玩法更新。\n\n## 美国将先进 AI 算力出口管制延伸至境外远程访问\n\n11 月 16 日，美国商务部工业与安全局（BIS）公布临时最终规则，将部分通过第三国数据中心远程获取的先进算力纳入许可。规则同时对运往印尼、马来西亚、新加坡、泰国和巴西的受控芯片增设许可要求。文本为合规范围内的既有算力服务设置自生效起 90 天的过渡期，具体生效日以《联邦公报》为准。\n\n![Euronews 报道所用的半导体测试现场资料照](https://images.euronews.com/articles/stories/09/99/46/25/1536x864_cmsv2_e22a3ef4-5cf6-5f4a-a42f-b82c33798b80-9994625.jpg)\n\n[图片出处](https://www.euronews.com/2026/11/16/us-clamps-down-on-chip-loophole-in-foreign-access-to-advanced-ai-chips)\n\n跨境部署受影响的范围取决于客户所在地、算力门槛和运营主体。采购方需要让供应商确认合同覆盖的地区、服务连续性和许可责任。\n\n[美国商务部 BIS 公告](https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology) · [BIS｜临时最终规则全文](https://www.bis.gov/media/documents/rin-0694-ak50.pdf) · [路透社｜政策与产业背景](https://www.reuters.com/legal/litigation/us-issues-rule-protect-advanced-ai-chips-being-accessed-remotely-2026-11-16/) · [Euronews｜规则报道与配图](https://www.euronews.com/2026/11/16/us-clamps-down-on-chip-loophole-in-foreign-access-to-advanced-ai-chips)\n\n## 中国 10 月工业与零售增速放缓，高技术制造业仍较快\n\n11 月 16 日，国家统计局公布，10 月规模以上工业增加值同比增长 4.8%，社会消费品零售总额同比增 0.4%，两项增速均较 9 月低 0.7 个百分点。高技术制造业增加值同比增长 17.6%。1—10 月固定资产投资（不含农户）同比下降 8.1%。\n\n![路透报道配图，中国制造业生产场景](https://content-media.investing.com/trkd-images/LYNXNPEMAF06H_L.jpg)\n\n[图片出处](https://www.investing.com/news/economy-news/chinas-factory-output-retail-sales-growth-slow-in-october-5028313)\n\n工业总量、消费和高技术制造分化，判断需求时可分别跟踪终端消费、投资与高技术产出，避免用单个行业增速外推全局。\n\n[国家统计局｜10月国民经济数据](https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965844.html) · [路透社｜同比增速与市场预期](https://www.reuters.com/world/chinas-factory-output-retail-sales-growth-slow-october-2026-11-16/) · [路透社报道，经 Investing.com 刊载](https://www.investing.com/news/economy-news/chinas-factory-output-retail-sales-growth-slow-in-october-5028313)\n\n## GitHub Copilot App 正式支持 GHES，VS Code 试验会话收件箱\n\nGitHub 11 月 16 日公布，Copilot App 可正式使用 GitHub Enterprise Server 的仓库、议题和拉取请求，登录仍需 GitHub.com 或 GHE.com 账号，GHES 暂无云端会话。VS Code 1.146 公布实验性 Inbox 模式，能跨工作区把等待人工处理的智能体会话排在前面。GitHub 还计划在 2027 年 2 月移除旧的 Local harness。\n\n![GitHub Copilot 官方周更封面](https://github.blog/wp-content/uploads/2026/11/649772462-cd2b8dcf-4eac-422d-81a2-5e9ef2709240_397cd9.jpg?resize=2064%2C848)\n\n[图片出处](https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9/)\n\n自托管团队应按登录、数据和任务执行位置核对部署条件。依赖旧会话运行环境的团队可提前测试迁移，避免工作流在下线时中断。\n\n[GitHub 官方更新日志](https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9/)\n\n## 华为云 MaaS 上线盘古 2.1 Pro，开放 512K 上下文 API\n\n华为云公告显示，openPangu-2.1-Pro 于 11 月 15 日上线 MaaS 西南—贵阳一区域，11 月 16 日有媒体跟进。该版本支持 512K 上下文、函数调用、前缀续写和前缀缓存，厂商将鸿蒙代码和昇腾算子开发列为优化方向。已核对的是云 API 的可用范围，权重公开情况仍待确认。\n\n![飞象网盘古 2.1 Pro 上线报道配图](https://i1.go2yd.com/image.php?url=YD_cnt_280_0216Cl1nuwOG)\n\n[图片出处](https://www.cctime.com/html/2026-11-16/1746679.htm)\n\n面向鸿蒙与昇腾的开发团队可以将它纳入真实任务评测，重点看长上下文的实际时延、工具调用成功率和代码通过率。\n\n[华为云 MaaS 版本公告](https://support.huaweicloud.com/bulletin-maas/bulletin-maas-0001.html) · [华为云｜快速体验文档](https://support.huaweicloud.com/bestpractice-maas/bestpractice_maas_0021_03.html) · [飞象网｜上线报道与配图](https://www.cctime.com/html/2026-11-16/1746679.htm)\n\n## 《战神：斯巴达之子》登陆 PS4，双平台加入挑战模式\n\nPlayStation 公告确认，《战神：斯巴达之子》于 11 月 16 日推出 PS4 版，同时在 PS4 和 PS5 加入两种模式。Hermes 提供分段计时与成绩榜，Erebus 采用敌我一击即倒规则。模式在创建存档时选定，该存档内无法改换。\n\n![PlayStation 官方文章中的《战神：斯巴达之子》预告画面](https://i.ytimg.com/vi/YLwmJ1pSkxA/maxresdefault.jpg)\n\n[图片出处](https://blog.playstation.com/?p=415541)\n\nPS4 版扩大了这款 2D 动作平台游戏的覆盖范围。两种模式展示了如何用计时、榜单与规则变体延长通关后的可玩性。\n\n[PlayStation Blog｜官方更新公告](https://blog.playstation.com/?p=415541) · [PlayStation Store｜游戏详情](https://store.playstation.com/en-us/product/UP9000-PPSA28997_00-SONSOFSPARTAPS50/)\n",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "生成于 2026-11-17T01:10:11Z（UTC）。按 Asia/Shanghai 归档，优先核对11月16—17日新增，结合原始统计、监管文本、GitHub 更新日志、厂商文档、平台公告及中英文报道，并对照最新资讯近期归档去重。",
+      "score": 4,
+      "items": [
+        {
+          "id": "daily-brief-2026-11-17-bis-cloud-compute",
+          "title": "美国将先进 AI 算力出口管制延伸至境外远程访问",
+          "category": "全球科技与商业",
+          "summary": "11 月 16 日，美国商务部工业与安全局（BIS）公布临时最终规则，将部分通过第三国数据中心远程获取的先进算力纳入许可。规则同时对运往印尼、马来西亚、新加坡、泰国和巴西的受控芯片增设许可要求。文本为合规范围内的既有算力服务设置自生效起 90 天的过渡期，具体生效日以《联邦公报》为准。",
+          "analysis": "跨境部署受影响的范围取决于客户所在地、算力门槛和运营主体。采购方需要让供应商确认合同覆盖的地区、服务连续性和许可责任。",
+          "importance": 5,
+          "tags": [
+            "BIS",
+            "AI 芯片",
+            "云算力",
+            "出口管制"
+          ],
+          "sources": [
+            {
+              "title": "美国商务部 BIS 公告",
+              "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology"
+            },
+            {
+              "title": "BIS｜临时最终规则全文",
+              "url": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf"
+            },
+            {
+              "title": "路透社｜政策与产业背景",
+              "url": "https://www.reuters.com/legal/litigation/us-issues-rule-protect-advanced-ai-chips-being-accessed-remotely-2026-11-16/"
+            },
+            {
+              "title": "Euronews｜规则报道与配图",
+              "url": "https://www.euronews.com/2026/11/16/us-clamps-down-on-chip-loophole-in-foreign-access-to-advanced-ai-chips"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.euronews.com/articles/stories/09/99/46/25/1536x864_cmsv2_e22a3ef4-5cf6-5f4a-a42f-b82c33798b80-9994625.jpg",
+              "alt": "Euronews 报道所用的半导体测试现场资料照",
+              "sourceUrl": "https://www.euronews.com/2026/11/16/us-clamps-down-on-chip-loophole-in-foreign-access-to-advanced-ai-chips"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-17-china-october-data",
+          "title": "中国 10 月工业与零售增速放缓，高技术制造业仍较快",
+          "category": "财经与市场",
+          "summary": "11 月 16 日，国家统计局公布，10 月规模以上工业增加值同比增长 4.8%，社会消费品零售总额同比增 0.4%，两项增速均较 9 月低 0.7 个百分点。高技术制造业增加值同比增长 17.6%。1—10 月固定资产投资（不含农户）同比下降 8.1%。",
+          "analysis": "工业总量、消费和高技术制造分化，判断需求时可分别跟踪终端消费、投资与高技术产出，避免用单个行业增速外推全局。",
+          "importance": 5,
+          "tags": [
+            "国家统计局",
+            "零售",
+            "高技术制造业",
+            "固定资产投资"
+          ],
+          "sources": [
+            {
+              "title": "国家统计局｜10月国民经济数据",
+              "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965844.html"
+            },
+            {
+              "title": "路透社｜同比增速与市场预期",
+              "url": "https://www.reuters.com/world/chinas-factory-output-retail-sales-growth-slow-october-2026-11-16/"
+            },
+            {
+              "title": "路透社报道，经 Investing.com 刊载",
+              "url": "https://www.investing.com/news/economy-news/chinas-factory-output-retail-sales-growth-slow-in-october-5028313"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://content-media.investing.com/trkd-images/LYNXNPEMAF06H_L.jpg",
+              "alt": "路透报道配图，中国制造业生产场景",
+              "sourceUrl": "https://www.investing.com/news/economy-news/chinas-factory-output-retail-sales-growth-slow-in-october-5028313"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-17-copilot-ghes-inbox",
+          "title": "GitHub Copilot App 正式支持 GHES，VS Code 试验会话收件箱",
+          "category": "开发工具",
+          "summary": "GitHub 11 月 16 日公布，Copilot App 可正式使用 GitHub Enterprise Server 的仓库、议题和拉取请求，登录仍需 GitHub.com 或 GHE.com 账号，GHES 暂无云端会话。VS Code 1.146 公布实验性 Inbox 模式，能跨工作区把等待人工处理的智能体会话排在前面。GitHub 还计划在 2027 年 2 月移除旧的 Local harness。",
+          "analysis": "自托管团队应按登录、数据和任务执行位置核对部署条件。依赖旧会话运行环境的团队可提前测试迁移，避免工作流在下线时中断。",
+          "importance": 4,
+          "tags": [
+            "GitHub Copilot",
+            "GHES",
+            "VS Code",
+            "智能体"
+          ],
+          "sources": [
+            {
+              "title": "GitHub 官方更新日志",
+              "url": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://github.blog/wp-content/uploads/2026/11/649772462-cd2b8dcf-4eac-422d-81a2-5e9ef2709240_397cd9.jpg?resize=2064%2C848",
+              "alt": "GitHub Copilot 官方周更封面",
+              "sourceUrl": "https://github.blog/changelog/2026-11-16-github-copilot-weekly-releases-november-9/"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-17-pangu-21pro",
+          "title": "华为云 MaaS 上线盘古 2.1 Pro，开放 512K 上下文 API",
+          "category": "AI 与大模型",
+          "summary": "华为云公告显示，openPangu-2.1-Pro 于 11 月 15 日上线 MaaS 西南—贵阳一区域，11 月 16 日有媒体跟进。该版本支持 512K 上下文、函数调用、前缀续写和前缀缓存，厂商将鸿蒙代码和昇腾算子开发列为优化方向。已核对的是云 API 的可用范围，权重公开情况仍待确认。",
+          "analysis": "面向鸿蒙与昇腾的开发团队可以将它纳入真实任务评测，重点看长上下文的实际时延、工具调用成功率和代码通过率。",
+          "importance": 4,
+          "tags": [
+            "华为云",
+            "openPangu-2.1-Pro",
+            "鸿蒙",
+            "昇腾",
+            "API"
+          ],
+          "sources": [
+            {
+              "title": "华为云 MaaS 版本公告",
+              "url": "https://support.huaweicloud.com/bulletin-maas/bulletin-maas-0001.html"
+            },
+            {
+              "title": "华为云｜快速体验文档",
+              "url": "https://support.huaweicloud.com/bestpractice-maas/bestpractice_maas_0021_03.html"
+            },
+            {
+              "title": "飞象网｜上线报道与配图",
+              "url": "https://www.cctime.com/html/2026-11-16/1746679.htm"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://i1.go2yd.com/image.php?url=YD_cnt_280_0216Cl1nuwOG",
+              "alt": "飞象网盘古 2.1 Pro 上线报道配图",
+              "sourceUrl": "https://www.cctime.com/html/2026-11-16/1746679.htm"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-17-sparta-ps4",
+          "title": "《战神：斯巴达之子》登陆 PS4，双平台加入挑战模式",
+          "category": "游戏与行业",
+          "summary": "PlayStation 公告确认，《战神：斯巴达之子》于 11 月 16 日推出 PS4 版，同时在 PS4 和 PS5 加入两种模式。Hermes 提供分段计时与成绩榜，Erebus 采用敌我一击即倒规则。模式在创建存档时选定，该存档内无法改换。",
+          "analysis": "PS4 版扩大了这款 2D 动作平台游戏的覆盖范围。两种模式展示了如何用计时、榜单与规则变体延长通关后的可玩性。",
+          "importance": 3,
+          "tags": [
+            "PlayStation",
+            "PS4",
+            "PS5",
+            "战神",
+            "竞速模式"
+          ],
+          "sources": [
+            {
+              "title": "PlayStation Blog｜官方更新公告",
+              "url": "https://blog.playstation.com/?p=415541"
+            },
+            {
+              "title": "PlayStation Store｜游戏详情",
+              "url": "https://store.playstation.com/en-us/product/UP9000-PPSA28997_00-SONSOFSPARTAPS50/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://i.ytimg.com/vi/YLwmJ1pSkxA/maxresdefault.jpg",
+              "alt": "PlayStation 官方文章中的《战神：斯巴达之子》预告画面",
+              "sourceUrl": "https://blog.playstation.com/?p=415541"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "daily-brief-2026-11-16",
       "date": "2026-11-16",
