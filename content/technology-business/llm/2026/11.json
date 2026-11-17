@@ -2,8 +2,150 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-16T01:29:04Z",
+  "updatedAt": "2026-11-17T01:27:08Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-17",
+      "collectionId": "llm",
+      "date": "2026-11-17",
+      "title": "大模型｜2026-11-17",
+      "summary": "OpenAI 公布医疗智能体渠道、外部安全评估安排与科研账号资助。Google 将分开控制 Gemini 历史和训练，Anthropic 更新旧版模型文本水印。",
+      "analysis": "关注医疗工作流的部署边界、个人数据设置以及模型安全的外部审查。",
+      "rawText": "# 大模型｜2026-11-17\n\nOpenAI 公布医疗智能体渠道、外部安全评估安排与科研账号资助。Google 将分开控制 Gemini 历史和训练，Anthropic 更新旧版模型文本水印。\n\n### OpenAI 向医疗工作区开放计算机操作智能体\n\n11 月 16 日，OpenAI 宣布医疗团队可在 ChatGPT Work 和 Codex 中使用计算机操作智能体，并更新临床检索和医疗插件。机构客户受工作区设置和管理员授权约束，符合条件并通过验证的美国临床人员可使用 ChatGPT for Clinicians，开发者则可通过 OpenAI API 接入。OpenAI 也公布了使用外部行政流程基准进行的厂商评测，实际部署效果仍需机构验证。\n\n![OpenAI 医疗产品页的系统集成示意图](https://images.ctfassets.net/kftzwdyauwt9/3PA8t3sQeEnmchPkiXXim8/d5d312b3e48edc9d30f59356ef77ba38/Static_1_%C3%A2___Integrations_with_existing_systems.png?fm=webp&q=90&w=2048)\n\n[图片出处](https://openai.com/solutions/industries/healthcare/)\n\n**为什么值得关注**\n\n医疗团队可从转诊、协调和行政文书等流程评估价值。涉及受保护健康信息时，需核对服务是否在机构 BAA 覆盖范围内，以及审批、审计、留存和下游系统设置。\n\n[OpenAI｜医疗产品公告](https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare/) · [OpenAI｜医疗场景与评估说明](https://openai.com/index/advancing-computer-use-for-healthcare-teams/)\n\n### Gemini 计划拆分聊天历史与训练开关\n\n11 月 16 日，Google 宣布 Gemini 应用将在未来数周全球分批推出新设置。用户可保留聊天记录，同时关闭将其用于生成式模型训练的选项。按新设置关闭历史后，后续聊天仍会保留约两个月，用于提供服务、处理反馈和安全保护。\n\n未配图。官方公告未提供能核验本次新开关的界面图。\n\n**为什么值得关注**\n\n对希望保留工作记录的用户，这是更细的隐私控制。账号收到更新后，可分别检查训练许可、历史保存和删除规则。\n\n[Google｜新设置公告](https://blog.google/innovation-and-ai/products/gemini-app/updated-controls/) · [Gemini 隐私中心](https://support.google.com/gemini/answer/13594961)\n\n### 加州就智能体安全起诉 OpenAI，OpenAI 同日公布外部评估计划\n\n11 月 16 日，加州总检察长在旧金山高等法院起诉 OpenAI，指其在测试先进 AI 模型时缺少适当安全措施，涉嫌造成公共妨害并违反州不正当竞争法。相关说法属于诉方主张，尚待法院审理。OpenAI 同日另行公布与 Apollo Research、METR、Transluce 和 Goodfire 的首阶段嵌入式评估协议，公布的是评估范围和报告安排。\n\n未配图。未找到可公开直链且直接对应起诉或评估协议的图片。\n\n**为什么值得关注**\n\n这两项进展关系到智能体测试如何接受外部监督。后续可分别跟踪法院进程、评估机构公开证据与可披露范围。\n\n[加州司法部｜起诉公告](https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over) · [OpenAI｜首阶段嵌入式评估](https://openai.com/index/our-first-phase-of-embedded-assessments/)\n\n### Anthropic 为四款旧版 Claude 扩展文本水印\n\nAnthropic 11 月 16 日更新平台日志，Claude Opus 4.6、Opus 4.5、Sonnet 4.5 和 Haiku 4.5 在支持的平台上加入文本水印。官方说明列出自营产品及部分合作云渠道，并指出某些非默认的采样设置下水印可能缺失。水印检测工具仍为仅向符合条件的组织开放的私有预览。\n\n未配图。发布日志没有可公开直链的此次扩展配图。\n\n**为什么值得关注**\n\n内容溯源系统需要按模型和接入渠道核对覆盖范围，并结合其他证据判断来源。缺少水印无法证明文本由人类撰写。\n\n[Claude Platform｜11 月 16 日发布日志](https://platform.claude.com/docs/en/release-notes/overview) · [Anthropic｜渠道与检测权限说明](https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content)\n\n### OpenAI 拟于 11 月 23 日开放新一轮科研账号资助\n\nOpenAI 11 月 16 日宣布扩大 ChatGPT for Academic Researchers 项目。新一轮将于 11 月 23 日开放申请，按符合资格的申请提交顺序发放最多 5 万份资助，每份提供申请人及最多两位合作者的免费 Plus 席位。厂商称，项目内分享的数据默认不用于模型训练。\n\n未配图。公告中的候补地图未核得可直接访问的静态图。\n\n**为什么值得关注**\n\n符合条件的科研团队可据此安排申请和内部工具评估。计划整体覆盖目标为 20 万人，本轮名额按资助份数计算。\n\n[OpenAI｜科研账号扩容公告](https://openai.com/index/expanding-chatgpt-for-academic-researchers/)\n",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "生成于 2026-11-17T01:26:17Z（UTC），按 Asia/Shanghai 归档。优先检索过去24小时，回查近7日与本栏目存档。覆盖 OpenAI、Anthropic、Google／DeepMind／Gemini、Meta、xAI 及其他模型服务，中英文线索与公司公告、开发文档、监管发布相互核对。",
+      "score": 4,
+      "items": [
+        {
+          "id": "llm-2026-11-17-openai-healthcare-computer-use",
+          "title": "OpenAI 向医疗工作区开放计算机操作智能体",
+          "category": "OpenAI",
+          "summary": "11 月 16 日，OpenAI 宣布医疗团队可在 ChatGPT Work 和 Codex 中使用计算机操作智能体，并更新临床检索和医疗插件。机构客户受工作区设置和管理员授权约束，符合条件并通过验证的美国临床人员可使用 ChatGPT for Clinicians，开发者则可通过 OpenAI API 接入。OpenAI 也公布了使用外部行政流程基准进行的厂商评测，实际部署效果仍需机构验证。",
+          "analysis": "医疗团队可从转诊、协调和行政文书等流程评估价值。涉及受保护健康信息时，需核对服务是否在机构 BAA 覆盖范围内，以及审批、审计、留存和下游系统设置。",
+          "importance": 5,
+          "tags": [
+            "OpenAI",
+            "ChatGPT for Healthcare",
+            "计算机操作智能体",
+            "医疗工作流"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI｜医疗产品公告",
+              "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare/"
+            },
+            {
+              "title": "OpenAI｜医疗场景与评估说明",
+              "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.ctfassets.net/kftzwdyauwt9/3PA8t3sQeEnmchPkiXXim8/d5d312b3e48edc9d30f59356ef77ba38/Static_1_%C3%A2___Integrations_with_existing_systems.png?fm=webp&q=90&w=2048",
+              "alt": "OpenAI 医疗产品页的系统集成示意图",
+              "sourceUrl": "https://openai.com/solutions/industries/healthcare/"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-17-gemini-history-training-controls",
+          "title": "Gemini 计划拆分聊天历史与训练开关",
+          "category": "Google",
+          "summary": "11 月 16 日，Google 宣布 Gemini 应用将在未来数周全球分批推出新设置。用户可保留聊天记录，同时关闭将其用于生成式模型训练的选项。按新设置关闭历史后，后续聊天仍会保留约两个月，用于提供服务、处理反馈和安全保护。",
+          "analysis": "对希望保留工作记录的用户，这是更细的隐私控制。账号收到更新后，可分别检查训练许可、历史保存和删除规则。",
+          "importance": 4,
+          "tags": [
+            "Google",
+            "Gemini",
+            "隐私",
+            "聊天历史"
+          ],
+          "sources": [
+            {
+              "title": "Google｜新设置公告",
+              "url": "https://blog.google/innovation-and-ai/products/gemini-app/updated-controls/"
+            },
+            {
+              "title": "Gemini 隐私中心",
+              "url": "https://support.google.com/gemini/answer/13594961"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "llm-2026-11-17-openai-california-safety-assessments",
+          "title": "加州就智能体安全起诉 OpenAI，OpenAI 同日公布外部评估计划",
+          "category": "OpenAI",
+          "summary": "11 月 16 日，加州总检察长在旧金山高等法院起诉 OpenAI，指其在测试先进 AI 模型时缺少适当安全措施，涉嫌造成公共妨害并违反州不正当竞争法。相关说法属于诉方主张，尚待法院审理。OpenAI 同日另行公布与 Apollo Research、METR、Transluce 和 Goodfire 的首阶段嵌入式评估协议，公布的是评估范围和报告安排。",
+          "analysis": "这两项进展关系到智能体测试如何接受外部监督。后续可分别跟踪法院进程、评估机构公开证据与可披露范围。",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "智能体安全",
+            "嵌入式评估",
+            "监管诉讼"
+          ],
+          "sources": [
+            {
+              "title": "加州司法部｜起诉公告",
+              "url": "https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over"
+            },
+            {
+              "title": "OpenAI｜首阶段嵌入式评估",
+              "url": "https://openai.com/index/our-first-phase-of-embedded-assessments/"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "llm-2026-11-17-claude-legacy-watermark",
+          "title": "Anthropic 为四款旧版 Claude 扩展文本水印",
+          "category": "Anthropic",
+          "summary": "Anthropic 11 月 16 日更新平台日志，Claude Opus 4.6、Opus 4.5、Sonnet 4.5 和 Haiku 4.5 在支持的平台上加入文本水印。官方说明列出自营产品及部分合作云渠道，并指出某些非默认的采样设置下水印可能缺失。水印检测工具仍为仅向符合条件的组织开放的私有预览。",
+          "analysis": "内容溯源系统需要按模型和接入渠道核对覆盖范围，并结合其他证据判断来源。缺少水印无法证明文本由人类撰写。",
+          "importance": 4,
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "文本水印",
+            "内容溯源"
+          ],
+          "sources": [
+            {
+              "title": "Claude Platform｜11 月 16 日发布日志",
+              "url": "https://platform.claude.com/docs/en/release-notes/overview"
+            },
+            {
+              "title": "Anthropic｜渠道与检测权限说明",
+              "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "llm-2026-11-17-openai-academic-researcher-grants",
+          "title": "OpenAI 拟于 11 月 23 日开放新一轮科研账号资助",
+          "category": "OpenAI",
+          "summary": "OpenAI 11 月 16 日宣布扩大 ChatGPT for Academic Researchers 项目。新一轮将于 11 月 23 日开放申请，按符合资格的申请提交顺序发放最多 5 万份资助，每份提供申请人及最多两位合作者的免费 Plus 席位。厂商称，项目内分享的数据默认不用于模型训练。",
+          "analysis": "符合条件的科研团队可据此安排申请和内部工具评估。计划整体覆盖目标为 20 万人，本轮名额按资助份数计算。",
+          "importance": 3,
+          "tags": [
+            "OpenAI",
+            "ChatGPT Plus",
+            "学术科研",
+            "资助计划"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI｜科研账号扩容公告",
+              "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers/"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
     {
       "id": "llm-2026-11-16",
       "collectionId": "llm",
