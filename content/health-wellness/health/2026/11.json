@@ -2,8 +2,103 @@
   "schemaVersion": 1,
   "collectionId": "health",
   "month": "2026-11",
-  "updatedAt": "2026-11-16T01:19:26Z",
+  "updatedAt": "2026-11-17T01:19:38Z",
   "briefs": [
+    {
+      "id": "health-2026-11-17",
+      "collectionId": "health",
+      "date": "2026-11-17",
+      "title": "健康｜2026-11-17",
+      "summary": "美国 FDA 批准一项适用于特定分子亚型的乳腺癌联合方案。另两条关注抗阻训练与抑郁症状，以及药物减重过程中瘦体重与安全性的权衡。",
+      "analysis": "5 分表示有明确适用人群的监管批准，4 分表示有较充分随机证据或直接影响临床研究判断，仍需结合研究边界。",
+      "rawText": "# 健康｜2026-11-17\n\n## 今日 Top 3\n\n美国 FDA 批准一项适用于特定分子亚型的乳腺癌联合方案。另两条关注抗阻训练与抑郁症状，以及药物减重过程中瘦体重与安全性的权衡。\n\n### 美国批准 giredestrant 联合依维莫司用于特定晚期乳腺癌\n\n11 月 16 日，美国 FDA 批准该联合方案用于经授权检测确认 ESR1 突变、ER 阳性且 HER2 阴性的局部晚期或转移性乳腺癌成人，患者需有辅助内分泌治疗期间或之后复发，或转移期至少一线内分泌方案后进展。开放标签随机试验的 207 名 ESR1 突变患者中，与医生选择的内分泌治疗联合依维莫司相比，中位无进展生存期为 10.0 对 5.5 个月。总生存数据尚未成熟，联合方案可出现口腔炎等不良反应。\n\n![美国国家癌症研究所的乳腺癌细胞生物标志物示意图](https://www.cancer.gov/sites/www/files/styles/cgov_article/public/cgov_image/media_image/2024-09/Breast%20Cancer%20Biomarkers.jpg?h=3663b350&itok=5hizF2fo)\n\n[图片出处](https://www.cancer.gov/types/breast/diagnosis/breast-cancer-biomarker-tests)\n\n**为什么值得关注**\n\n这为符合检测和既往治疗条件的美国患者新增了一个选择，并使分子检测结果直接影响用药评估。无进展生存期的改善仍需后续总生存数据补充。\n\n[FDA 批准公告与试验结果](https://www.fda.gov/drugs/cancer-approvals/fda-approves-giredestrant-combination-everolimus-er-positive-her2-negative-esr1-mutated-locally)\n\n### 80 项随机试验汇总显示抗阻训练可小幅减轻抑郁症状\n\n11 月 16 日，《JAMA Network Open》发表荟萃分析，纳入 80 项随机试验、6,123 人，平均年龄 57 岁，研究至少有三周干预与测量。抗阻训练对抑郁症状的标准化效应量较无训练等对照为 0.54，较有氧运动等各类主动对照为 0.21。研究人群、训练方案与对照各异，主要比较症状量表。\n\n![使用弹力带进行抗阻训练的资料照，非本研究参与者](https://cdn.kpbs.org/img/photos/2010/05/25/exercise.jpg)\n\n[图片出处](https://www.kpbs.org/news/health/2010/05/25/why-should-seniors-exercise-regularily)\n\n**为什么值得关注**\n\n抗阻训练可作为综合管理中的运动选项。研究可帮助讨论选择适合且能坚持的活动，具体训练剂量和长期维持效果仍需更多一致证据。\n\n[JAMA Network Open 原始荟萃分析](https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856737)\n\n### 二期试验评估司美格鲁肽减重时保留瘦体组织的在研方案\n\n11 月 11 日，《柳叶刀》发表美国 60 个中心开展的双盲二期随机试验，研究共纳入 975 名肥胖成人。26 周部分纳入 605 人，司美格鲁肽加安慰剂组瘦体重较基线下降 6.6%，加用在研抗体 trevogrumab 的两个单抗组分别少下降 3.1 和 2.7 个百分点。再加 garetosmab 的三联组有 14/149 人发生严重不良事件、48/149 人停药。\n\n未配图。未核得公开可直链访问的该试验图表。\n\n**为什么值得关注**\n\n减重研究还应看体成分、日常功能和能否长期维持。瘦体重是体成分指标，长期功能获益及安全性仍待研究，这些抗体联合方案用于减重保留瘦体重仍属美国在研用途。\n\n[《柳叶刀》原始论文摘要（PubMed）](https://pubmed.ncbi.nlm.nih.gov/43014326/) · [美国临床试验登记 NCT06299098](https://clinicaltrials.gov/study/NCT06299098)\n",
+      "completeness": "full",
+      "sourceConversation": "健康",
+      "provenance": "生成于 2026-11-17T01:18:46Z（UTC）。按北京时间归档，优先检索过去24小时，补查近7日。覆盖国家卫健委、中国疾控、WHO、美国 FDA、JAMA Network Open、《柳叶刀》及临床试验登记，并对照本栏目近期归档去重。",
+      "score": 4,
+      "items": [
+        {
+          "id": "health-2026-11-17-fda-giredestrant-esr1",
+          "category": "医学",
+          "title": "美国批准 giredestrant 联合依维莫司用于特定晚期乳腺癌",
+          "summary": "11 月 16 日，美国 FDA 批准该联合方案用于经授权检测确认 ESR1 突变、ER 阳性且 HER2 阴性的局部晚期或转移性乳腺癌成人，患者需有辅助内分泌治疗期间或之后复发，或转移期至少一线内分泌方案后进展。开放标签随机试验的 207 名 ESR1 突变患者中，与医生选择的内分泌治疗联合依维莫司相比，中位无进展生存期为 10.0 对 5.5 个月。总生存数据尚未成熟，联合方案可出现口腔炎等不良反应。",
+          "analysis": "这为符合检测和既往治疗条件的美国患者新增了一个选择，并使分子检测结果直接影响用药评估。无进展生存期的改善仍需后续总生存数据补充。",
+          "importance": 5,
+          "tags": [
+            "乳腺癌",
+            "ESR1",
+            "FDA",
+            "随机试验"
+          ],
+          "sources": [
+            {
+              "title": "FDA 批准公告与试验结果",
+              "url": "https://www.fda.gov/drugs/cancer-approvals/fda-approves-giredestrant-combination-everolimus-er-positive-her2-negative-esr1-mutated-locally"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.cancer.gov/sites/www/files/styles/cgov_article/public/cgov_image/media_image/2024-09/Breast%20Cancer%20Biomarkers.jpg?h=3663b350&itok=5hizF2fo",
+              "alt": "美国国家癌症研究所的乳腺癌细胞生物标志物示意图",
+              "sourceUrl": "https://www.cancer.gov/types/breast/diagnosis/breast-cancer-biomarker-tests"
+            }
+          ]
+        },
+        {
+          "id": "health-2026-11-17-resistance-training-depressive-symptoms",
+          "category": "健康",
+          "title": "80 项随机试验汇总显示抗阻训练可小幅减轻抑郁症状",
+          "summary": "11 月 16 日，《JAMA Network Open》发表荟萃分析，纳入 80 项随机试验、6,123 人，平均年龄 57 岁，研究至少有三周干预与测量。抗阻训练对抑郁症状的标准化效应量较无训练等对照为 0.54，较有氧运动等各类主动对照为 0.21。研究人群、训练方案与对照各异，主要比较症状量表。",
+          "analysis": "抗阻训练可作为综合管理中的运动选项。研究可帮助讨论选择适合且能坚持的活动，具体训练剂量和长期维持效果仍需更多一致证据。",
+          "importance": 4,
+          "tags": [
+            "抗阻训练",
+            "抑郁症状",
+            "荟萃分析",
+            "随机试验"
+          ],
+          "sources": [
+            {
+              "title": "JAMA Network Open 原始荟萃分析",
+              "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2856737"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn.kpbs.org/img/photos/2010/05/25/exercise.jpg",
+              "alt": "使用弹力带进行抗阻训练的资料照，非本研究参与者",
+              "sourceUrl": "https://www.kpbs.org/news/health/2010/05/25/why-should-seniors-exercise-regularily"
+            }
+          ]
+        },
+        {
+          "id": "health-2026-11-17-courage-lean-mass",
+          "category": "减重",
+          "title": "二期试验评估司美格鲁肽减重时保留瘦体组织的在研方案",
+          "summary": "11 月 11 日，《柳叶刀》发表美国 60 个中心开展的双盲二期随机试验，研究共纳入 975 名肥胖成人。26 周部分纳入 605 人，司美格鲁肽加安慰剂组瘦体重较基线下降 6.6%，加用在研抗体 trevogrumab 的两个单抗组分别少下降 3.1 和 2.7 个百分点。再加 garetosmab 的三联组有 14/149 人发生严重不良事件、48/149 人停药。",
+          "analysis": "减重研究还应看体成分、日常功能和能否长期维持。瘦体重是体成分指标，长期功能获益及安全性仍待研究，这些抗体联合方案用于减重保留瘦体重仍属美国在研用途。",
+          "importance": 4,
+          "tags": [
+            "减重",
+            "瘦体重",
+            "司美格鲁肽",
+            "COURAGE",
+            "二期随机试验"
+          ],
+          "sources": [
+            {
+              "title": "《柳叶刀》原始论文摘要（PubMed）",
+              "url": "https://pubmed.ncbi.nlm.nih.gov/43014326/"
+            },
+            {
+              "title": "美国临床试验登记 NCT06299098",
+              "url": "https://clinicaltrials.gov/study/NCT06299098"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
     {
       "id": "health-2026-11-16",
       "date": "2026-11-16",
