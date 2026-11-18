@@ -2,8 +2,183 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-17T01:27:08Z",
+  "updatedAt": "2026-11-18T01:26:02Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-18",
+      "collectionId": "llm",
+      "date": "2026-11-18",
+      "title": "大模型｜2026-11-18",
+      "summary": "GPT‑6.2 Astra／Sol 上线；Gemini Tasks 扩展免费范围；微软决策模型正式可用；Google 披露智能体滥用；Responses API 增加延迟折扣窗口。",
+      "analysis": "本次新增集中在可执行任务与成本分层：通用模型、专用决策模型和后台窗口分别影响质量、响应速度与预算。上线范围、独立验证和权限治理仍需逐项核实。",
+      "rawText": "# 大模型｜2026-11-18\n\n## 今日重点\n\nGPT‑6.2 Astra／Sol 上线；Gemini Tasks 扩展免费范围；微软决策模型正式可用；Google 披露智能体滥用；Responses API 增加延迟折扣窗口。\n\n日期采用 Asia/Shanghai；以下事件官方发布日期均为 **2026‑11‑17**，按影响排序。已对照近期归档去重。重要性说明：5＝核心模型及成本重大变化；4＝广泛产品开放、关键模型或安全进展；3＝对特定开发工作流有明确影响。\n\n## 1. OpenAI 发布 GPT‑6.2 Astra／Sol：专业任务升级，Astra API 降价\n\n**事件／发布日期：2026-11-17｜重要性：5/5**\n\nGPT‑6.2 Astra 面向复杂专业工作，Sol 面向日常编码与智能体任务；两款模型已向 ChatGPT Work、Codex 的 Plus、Pro、Enterprise、Edu 用户开放，符合条件的企业与教育工作区需管理员启用，API 同步提供。Astra 的 Standard 短上下文价格为每百万输入／缓存输入／输出 token 8／0.40／40 美元，Sol 为 2／0.10／10 美元；Astra 输入与输出单价较前代降低 20%。文档、编程和计算机操作的提升主要来自厂商发布材料，不能直接当成所有实际任务的独立评测结论。\n\n值得关注：可用真实代码库与文档任务重新比较成功率、总 token 和端到端成本。接入时需注意工具调用要求 Responses API；上述价格适用于输入不超过 272K token 的 Standard 请求，长上下文、其他处理层级及工具费用另计，产品发布也不意味着所有地区都可使用。\n\n![OpenAI 展示的 GPT‑6.2 Astra 财务工作簿示例](https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/29d193ad-95cb-4a0d-892b-d4b391669684.d6868bd8.webp)\n\n*官方产品演示，不代表独立性能评测。 [图片出处](https://openai.com/index/introducing-gpt-6-2-astra-sol/)*\n\n来源：[OpenAI：GPT‑6.2 Astra／Sol 发布公告](https://openai.com/index/introducing-gpt-6-2-astra-sol/)；[OpenAI：Astra 模型文档与计费条件](https://developers.openai.com/api/docs/models/gpt-6.2-astra)；[OpenAI API 更新日志：工具调用接口要求](https://developers.openai.com/api/docs/changelog)。\n\n## 2. Gemini Tasks 开始向六国免费开放，多步骤任务入口扩大\n\n**事件／发布日期：2026-11-17｜重要性：4/5**\n\nGoogle 开始向美国、印度、加拿大、澳大利亚、日本和韩国免费推出 Tasks in Gemini，使用 Gemini 4 Hydrogen 处理后台多步骤项目和重复任务，并在完成后通知用户。免费使用要求年满 18 岁、个人 Google 账号及开启 History；工作或学校账号目前不适用。Google Pay 购买、短信与邮件交办等新增高级功能从美国开始，具体受语言、账号及当地功能条件限制，不能把六国免费 Tasks 等同于所有高级功能同时开放。\n\n值得关注：智能体竞争正在转向可持续委托、跨应用执行和结果交付。实际使用前应检查账号是否已获开放，并核对连接器权限及购买确认机制；逐步推出并不代表所有账号即时可用，也不代表支持中国大陆。\n\n缺图：已检索官方任务界面配图，但图片服务器返回无法确认的内容类型，未能验证为可直接展示的公开图片，故不使用。\n\n来源：[Google：Tasks 免费扩展与新功能](https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/)；[Gemini：2026‑11‑17 发布说明](https://gemini.google/gl/release-notes/?hl=en)；[Google 帮助：Tasks 账号与地区条件](https://support.google.com/gemini/answer/17094507?hl=en)。\n\n## 3. 微软 Decision‑1.1 正式可用：用专门模型做路由和结构化判断\n\n**事件／发布日期：2026-11-17｜重要性：4/5**\n\nMicrosoft‑Decision‑1.1 已在 Microsoft Foundry、OpenRouter 和 Vercel 正式提供，新增图像输入，并针对路由、分类、优先级、核验和工作流控制返回固定选项的概率分数。官方模型卡显示，它基于 Gemma 4 26B‑A4B 后训练，输入上下文约 32K；其输出是结构化评分，不生成自由文本或解释。微软公布的速度与综合能力提升具有任务及测评条件限制，不能推广成通用聊天能力排名。\n\n值得关注：把高频判断交给专用模型，再让大模型处理复杂生成，可能改善智能体成本与响应速度，仍需在自有数据上校准阈值。模型卡明确不适合单独自动决定医疗、信贷、招聘等重大个人权益事项；正式可用渠道也不等于所有 Azure 区域均可部署。\n\n缺图：已检索官方发布与模型卡，未确认可公开直连且专属于该模型的合适图片；不使用第三方生成的性能宣传图。\n\n来源：[Microsoft：Decision‑1.1 正式发布](https://commandline.microsoft.com/microsoft-decision-model-ga/)；[Microsoft Foundry：能力与适用限制模型卡](https://ai.azure.com/catalog/models/Microsoft-Decision-1.1?publisher=microsoft)；[Microsoft Ignite：正式可用公告汇总](https://news.microsoft.com/source/2026/11/17/microsoft-ignite-2026-empowering-human-ambition-intelligence-and-trust/)。\n\n## 4. Google GTIG 报告：多智能体滥用与 LLM 资源盗用进入真实攻击链\n\n**事件／发布日期：2026-11-17｜重要性：4/5**\n\nGoogle GTIG 与 Mandiant 的新一期威胁追踪报告记录了攻击者在实际入侵中使用多智能体框架，以及利用被盗凭据消耗或转售 LLM 资源的案例。报告还讨论了已知漏洞利用自动化和编码助手配置带来的供应链风险，证据来自事件响应、威胁追踪与平台防御观察。它反映的是研究团队可见范围内的活动，并非全球发生率统计，也不能据此认定所有攻击已全程无人化。\n\n值得关注：模型接入后的密钥、工具权限和费用控制正成为实际工程风险。开发团队应核对密钥隔离、预算告警和工具配置审查，并把最小权限及可追溯执行记录纳入智能体部署。\n\n![Google GTIG 报告中的多智能体框架能力对照图](https://storage.googleapis.com/gweb-cloudblog-publish/images/Figure_1_Multi-agent_LLM_offensive_framewo.max-2000x2000.jpg)\n\n*官方威胁研究说明图，不是攻击成功率排行榜。 [图片出处](https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold)*\n\n来源：[Google GTIG：Agentic Threat Activity Crosses a Significant Threshold](https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold)。\n\n## 5. Responses API 公测两小时／八小时完成窗口，以延迟换 token 折扣\n\n**事件／发布日期：2026-11-17｜重要性：3/5**\n\nOpenAI 在 Responses API 公开测试中加入两小时或八小时后台完成窗口，模型 token 费率分别比 Standard 低 30% 和 40%。更新日志列出的适用模型为 GPT‑6.2 Astra、GPT‑6.2 Sol、GPT‑6.1 Terra 与 GPT‑6 Luna。该变更仍属 public beta，不能把窗口折扣推广为所有接口、模型或工具费用的统一降价。\n\n值得关注：离线研究、定期评估和文档处理可重新权衡等待时间与预算。开发者应先核实请求支持条件并测试失败恢复；公开测试的窗口机制与实时交互服务具有不同使用取舍。\n\n缺图：该更新为 API 文字发布日志，未发现经验证的对应功能截图，保留文字说明。\n\n来源：[OpenAI API：2026‑11‑17 后台完成窗口更新](https://developers.openai.com/api/docs/changelog)。\n\n接下来值得跟进的是真实任务成功率、总费用和逐步推出后的账号可用性。模型与功能发布不能替代自身评估；本期未将厂商自测包装为无条件的跨模型排名。\n",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "生成于 2026-11-18T01:26:02Z（UTC），按 Asia/Shanghai 归档。重点检索生成前24小时，回查近7日，并对照本栏目11月近期归档去重。覆盖 OpenAI、Anthropic、Google／DeepMind／Gemini、xAI、Meta 及微软；综合中英文检索，核对官方公告、API日志、模型卡与安全研究。所收录事件均为官方标注2026‑11‑17发布，官网未逐项提供精确发布时间，因此不声称每条均严格落入滚动24小时。Meta澳大利亚区域扩展已核查但未列入；未用传闻或旧版本补数量。",
+      "score": 5,
+      "items": [
+        {
+          "id": "llm-2026-11-18-openai-gpt-6-2-astra-sol",
+          "title": "OpenAI 发布 GPT‑6.2 Astra／Sol：专业任务升级，Astra API 降价",
+          "category": "OpenAI",
+          "eventDate": "2026-11-17",
+          "summary": "GPT‑6.2 Astra 面向复杂专业工作，Sol 面向日常编码与智能体任务；两款模型已向 ChatGPT Work、Codex 的 Plus、Pro、Enterprise、Edu 用户开放，符合条件的企业与教育工作区需管理员启用，API 同步提供。Astra 的 Standard 短上下文价格为每百万输入／缓存输入／输出 token 8／0.40／40 美元，Sol 为 2／0.10／10 美元；Astra 输入与输出单价较前代降低 20%。文档、编程和计算机操作的提升主要来自厂商发布材料，不能直接当成所有实际任务的独立评测结论。",
+          "analysis": "值得关注：可用真实代码库与文档任务重新比较成功率、总 token 和端到端成本。接入时需注意工具调用要求 Responses API；上述价格适用于输入不超过 272K token 的 Standard 请求，长上下文、其他处理层级及工具费用另计，产品发布也不意味着所有地区都可使用。",
+          "importance": 5,
+          "tags": [
+            "OpenAI",
+            "GPT-6.2 Astra",
+            "GPT-6.2 Sol",
+            "模型发布",
+            "API 定价",
+            "Codex"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI：GPT‑6.2 Astra／Sol 发布公告",
+              "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/"
+            },
+            {
+              "title": "OpenAI：Astra 模型文档与计费条件",
+              "url": "https://developers.openai.com/api/docs/models/gpt-6.2-astra"
+            },
+            {
+              "title": "OpenAI API 更新日志：工具调用接口要求",
+              "url": "https://developers.openai.com/api/docs/changelog"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn.openai.com/mdx-assets/e193aefe-5e58-431c-8cd2-adadac0c1496/29d193ad-95cb-4a0d-892b-d4b391669684.d6868bd8.webp",
+              "alt": "OpenAI 展示的 GPT‑6.2 Astra 财务工作簿示例",
+              "sourceUrl": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+              "caption": "官方产品演示，不代表独立性能评测。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-18-gemini-tasks-free-expansion",
+          "title": "Gemini Tasks 开始向六国免费开放，多步骤任务入口扩大",
+          "category": "Google",
+          "eventDate": "2026-11-17",
+          "summary": "Google 开始向美国、印度、加拿大、澳大利亚、日本和韩国免费推出 Tasks in Gemini，使用 Gemini 4 Hydrogen 处理后台多步骤项目和重复任务，并在完成后通知用户。免费使用要求年满 18 岁、个人 Google 账号及开启 History；工作或学校账号目前不适用。Google Pay 购买、短信与邮件交办等新增高级功能从美国开始，具体受语言、账号及当地功能条件限制，不能把六国免费 Tasks 等同于所有高级功能同时开放。",
+          "analysis": "值得关注：智能体竞争正在转向可持续委托、跨应用执行和结果交付。实际使用前应检查账号是否已获开放，并核对连接器权限及购买确认机制；逐步推出并不代表所有账号即时可用，也不代表支持中国大陆。",
+          "importance": 4,
+          "tags": [
+            "Google",
+            "Gemini",
+            "Gemini 4 Hydrogen",
+            "Tasks",
+            "智能体",
+            "地区开放"
+          ],
+          "sources": [
+            {
+              "title": "Google：Tasks 免费扩展与新功能",
+              "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+            },
+            {
+              "title": "Gemini：2026‑11‑17 发布说明",
+              "url": "https://gemini.google/gl/release-notes/?hl=en"
+            },
+            {
+              "title": "Google 帮助：Tasks 账号与地区条件",
+              "url": "https://support.google.com/gemini/answer/17094507?hl=en"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：已检索官方任务界面配图，但图片服务器返回无法确认的内容类型，未能验证为可直接展示的公开图片，故不使用。"
+        },
+        {
+          "id": "llm-2026-11-18-microsoft-decision-1-1-ga",
+          "title": "微软 Decision‑1.1 正式可用：用专门模型做路由和结构化判断",
+          "category": "其他",
+          "eventDate": "2026-11-17",
+          "summary": "Microsoft‑Decision‑1.1 已在 Microsoft Foundry、OpenRouter 和 Vercel 正式提供，新增图像输入，并针对路由、分类、优先级、核验和工作流控制返回固定选项的概率分数。官方模型卡显示，它基于 Gemma 4 26B‑A4B 后训练，输入上下文约 32K；其输出是结构化评分，不生成自由文本或解释。微软公布的速度与综合能力提升具有任务及测评条件限制，不能推广成通用聊天能力排名。",
+          "analysis": "值得关注：把高频判断交给专用模型，再让大模型处理复杂生成，可能改善智能体成本与响应速度，仍需在自有数据上校准阈值。模型卡明确不适合单独自动决定医疗、信贷、招聘等重大个人权益事项；正式可用渠道也不等于所有 Azure 区域均可部署。",
+          "importance": 4,
+          "tags": [
+            "Microsoft",
+            "Microsoft-Decision-1.1",
+            "决策模型",
+            "Gemma 4",
+            "Foundry",
+            "模型路由"
+          ],
+          "sources": [
+            {
+              "title": "Microsoft：Decision‑1.1 正式发布",
+              "url": "https://commandline.microsoft.com/microsoft-decision-model-ga/"
+            },
+            {
+              "title": "Microsoft Foundry：能力与适用限制模型卡",
+              "url": "https://ai.azure.com/catalog/models/Microsoft-Decision-1.1?publisher=microsoft"
+            },
+            {
+              "title": "Microsoft Ignite：正式可用公告汇总",
+              "url": "https://news.microsoft.com/source/2026/11/17/microsoft-ignite-2026-empowering-human-ambition-intelligence-and-trust/"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：已检索官方发布与模型卡，未确认可公开直连且专属于该模型的合适图片；不使用第三方生成的性能宣传图。"
+        },
+        {
+          "id": "llm-2026-11-18-google-gtig-agentic-threats",
+          "title": "Google GTIG 报告：多智能体滥用与 LLM 资源盗用进入真实攻击链",
+          "category": "Google",
+          "eventDate": "2026-11-17",
+          "summary": "Google GTIG 与 Mandiant 的新一期威胁追踪报告记录了攻击者在实际入侵中使用多智能体框架，以及利用被盗凭据消耗或转售 LLM 资源的案例。报告还讨论了已知漏洞利用自动化和编码助手配置带来的供应链风险，证据来自事件响应、威胁追踪与平台防御观察。它反映的是研究团队可见范围内的活动，并非全球发生率统计，也不能据此认定所有攻击已全程无人化。",
+          "analysis": "值得关注：模型接入后的密钥、工具权限和费用控制正成为实际工程风险。开发团队应核对密钥隔离、预算告警和工具配置审查，并把最小权限及可追溯执行记录纳入智能体部署。",
+          "importance": 4,
+          "tags": [
+            "Google",
+            "GTIG",
+            "Mandiant",
+            "智能体安全",
+            "API 密钥",
+            "供应链安全"
+          ],
+          "sources": [
+            {
+              "title": "Google GTIG：Agentic Threat Activity Crosses a Significant Threshold",
+              "url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://storage.googleapis.com/gweb-cloudblog-publish/images/Figure_1_Multi-agent_LLM_offensive_framewo.max-2000x2000.jpg",
+              "alt": "Google GTIG 报告中的多智能体框架能力对照图",
+              "sourceUrl": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold",
+              "caption": "官方威胁研究说明图，不是攻击成功率排行榜。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-18-openai-background-completion-windows",
+          "title": "Responses API 公测两小时／八小时完成窗口，以延迟换 token 折扣",
+          "category": "OpenAI",
+          "eventDate": "2026-11-17",
+          "summary": "OpenAI 在 Responses API 公开测试中加入两小时或八小时后台完成窗口，模型 token 费率分别比 Standard 低 30% 和 40%。更新日志列出的适用模型为 GPT‑6.2 Astra、GPT‑6.2 Sol、GPT‑6.1 Terra 与 GPT‑6 Luna。该变更仍属 public beta，不能把窗口折扣推广为所有接口、模型或工具费用的统一降价。",
+          "analysis": "值得关注：离线研究、定期评估和文档处理可重新权衡等待时间与预算。开发者应先核实请求支持条件并测试失败恢复；公开测试的窗口机制与实时交互服务具有不同使用取舍。",
+          "importance": 3,
+          "tags": [
+            "OpenAI",
+            "Responses API",
+            "后台任务",
+            "API 价格",
+            "公开测试"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI API：2026‑11‑17 后台完成窗口更新",
+              "url": "https://developers.openai.com/api/docs/changelog"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：该更新为 API 文字发布日志，未发现经验证的对应功能截图，保留文字说明。"
+        }
+      ]
+    },
     {
       "id": "llm-2026-11-17",
       "collectionId": "llm",
