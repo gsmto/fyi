@@ -2,8 +2,111 @@
   "schemaVersion": 1,
   "collectionId": "health",
   "month": "2026-11",
-  "updatedAt": "2026-11-17T01:19:38Z",
+  "updatedAt": "2026-11-18T01:20:08Z",
   "briefs": [
+    {
+      "id": "health-2026-11-18",
+      "collectionId": "health",
+      "date": "2026-11-18",
+      "title": "健康｜2026-11-18",
+      "summary": "宫颈癌筛查缺口、内分泌干扰物新评估，以及6个月饮食随机试验的减重结果与局限。",
+      "analysis": "区分公共健康估计、综合科学评估与随机试验；强调适用范围、证据局限与可持续健康管理。",
+      "rawText": "# 健康｜2026-11-18\n\n## 今日 Top 3\n\n精选两条11月17日官方公共健康更新，并补收一项11月16日发表、近期未归档的减重饮食研究。已综合检索国内外来源；国内重复的营养标签解读和已收录药物试验不再重复。以下为新闻与一般健康科普。\n\n### 1. WHO：宫颈癌筛查仍有明显缺口，阳性后的随访同样关键\n\n11月17日，WHO发布宫颈癌消除进展更新，援引全球估计：30—49岁女性中约五分之三从未接受宫颈癌筛查。过去5年接受过HPV检测筛查的比例，在低中收入国家约为2%，高收入国家为32%；这些是群体估计，不是中国单独数据或个人风险。更新强调扩大高性能HPV筛查，并让筛查阳性者及时得到随访和治疗。证据类型为官方公共卫生监测与政策进展汇总，受各国数据覆盖和可比性限制，不是新的人体随机试验。\n\n值得关注：筛查服务能否触达、阳性结果能否转化为后续诊疗，决定预防措施能否真正发挥作用。面向宫颈癌预防的一般科普；个体筛查起始年龄、间隔及异常处理应按当地指南、既往结果和医务人员评估确定。\n\n重要性：4/5（涉及广泛人群预防或环境健康风险）。\n\n![WHO 宫颈癌预防与定期筛查科普图](https://www.who.int/images/default-source/health-topics/cervical-cancer/cc-prevention.png?sfvrsn=7a148ff9_2)\n\nWHO既有科普配图，用于说明筛查主题，非此次新估计的数据图。\n\n[图片出处](https://www.who.int/activities/screening-for-cervical-cancer)\n\n[WHO｜11月17日宫颈癌筛查与治疗进展](https://www.who.int/news/item/17-11-2026-countries-expand-cervical-cancer-screening-and-treatment--bringing-elimination-closer) · [WHO｜宫颈癌筛查科普与配图出处](https://www.who.int/activities/screening-for-cervical-cancer)\n\n### 2. UNEP与WHO更新内分泌干扰物证据，强调早期与混合暴露\n\n11月17日，UNEP与WHO发布2026年内分泌干扰化学物科学评估，是2012年评估后的全球重大更新，报告库登记日期为11月16日。综合人体、动物和机制研究的评估指出，部分物质暴露可在出生前开始，与生殖、神经发育、甲状腺及代谢等健康问题有关，混合暴露也是监管难点。证据类型是多领域科学评估，不同化学物与结局的证据强弱不同；检出某种物质或某类成分，不等于某件产品一定造成疾病，个体风险还取决于具体物质、剂量和暴露时机。\n\n值得关注：它推动产品安全、监测和监管从单一物质转向更真实的长期暴露情境。一般家庭可参考UNEP建议，按用途选择食品接触容器并关注成分与合规信息；这不支持“排毒”疗法、恐慌式更换所有物品或凭检出结果自行诊断。\n\n重要性：4/5（涉及广泛人群预防或环境健康风险）。\n\n未配图：已查找报告相关图像，但未取得确认可访问且适合使用的直链，不以旧版报告封面代替。\n\n[WHO／UNEP｜11月17日联合发布](https://www.who.int/news/item/17-11-2026-evidence-mounts-that-exposure-to-hormone-disrupting-chemicals-starts-before-birth--unep-who-report) · [UNEP／WHO｜2026科学评估原报告](https://wedocs.unep.org/items/30aed16d-b89c-433b-8d4a-587019ea55a3) · [UNEP｜风险取决于具体物质与暴露，及日常建议](https://www.unep.org/en/news-and-stories/story/what-are-endocrine-disrupting-chemicals-and-how-do-they-affect-our-health)\n\n### 3. 6个月饮食随机试验：未发现低碳或低脂对腹部脂肪更有优势\n\n补收近7日新研究：11月16日《European Journal of Clinical Nutrition》发表巴西单中心人体随机试验，141名超重或肥胖成人被分到均衡限能量、低碳、低脂或团体营养指导组，随访6个月。101人有完整随访资料；总体平均体重下降约3%，超声测得内脏脂肪厚度随时间减少，但各组变化轨迹未见显著差异。它没有证明低碳、低脂或均衡饮食彼此等效，也不能把总体改善全部归因于某一种方案。主要局限是约28%随访流失、以可用数据分析、样本小且仅6个月，尚不能判断长期维持、反弹或疾病结局。\n\n值得关注：研究为“不必迷信某个宏量营养素比例”提供有限的新证据，重视可持续执行、营养充足和长期代谢健康更有实际意义。适用范围限于相近成人群体的一般营养讨论，不应据此开展极端节食，合并疾病者仍需专业评估。\n\n重要性：3/5（提供直接相关但样本和随访有限的减重证据）。\n\n未配图：论文PDF可读，但图页访问受限，未核得可公开访问的研究图片直链。\n\n[原始论文PDF｜Rodrigues等，6个月饮食随机试验，11月16日](https://www.nature.com/articles/s41430-026-01845-9.pdf) · [原始论文｜DOI 10.1038/s41430-026-01845-9](https://doi.org/10.1038/s41430-026-01845-9)\n",
+      "completeness": "full",
+      "sourceConversation": "健康",
+      "provenance": "生成于2026-11-18T01:20:08Z。优先检索近24小时医学、公共卫生、营养与减重信息，补查2026-11-11至11-18未收录研究，读取本栏近期归档去重。检索国内卫健委、疾控及国外WHO、UNEP、原始期刊；核对两份11月17日WHO更新、UNEP科学评估原件与11月16日期刊PDF。未使用个人健康资料；媒体仅作线索。配图已实际打开确认，未找到合适直链的条目注明原因。",
+      "score": 4,
+      "items": [
+        {
+          "id": "health-2026-11-18-cervical",
+          "title": "WHO：宫颈癌筛查仍有明显缺口，阳性后的随访同样关键",
+          "category": "医学",
+          "importance": 4,
+          "tags": [
+            "宫颈癌",
+            "HPV",
+            "筛查",
+            "公共健康"
+          ],
+          "summary": "11月17日，WHO发布宫颈癌消除进展更新，援引全球估计：30—49岁女性中约五分之三从未接受宫颈癌筛查。过去5年接受过HPV检测筛查的比例，在低中收入国家约为2%，高收入国家为32%；这些是群体估计，不是中国单独数据或个人风险。更新强调扩大高性能HPV筛查，并让筛查阳性者及时得到随访和治疗。证据类型为官方公共卫生监测与政策进展汇总，受各国数据覆盖和可比性限制，不是新的人体随机试验。",
+          "analysis": "值得关注：筛查服务能否触达、阳性结果能否转化为后续诊疗，决定预防措施能否真正发挥作用。面向宫颈癌预防的一般科普；个体筛查起始年龄、间隔及异常处理应按当地指南、既往结果和医务人员评估确定。",
+          "sources": [
+            {
+              "title": "WHO｜11月17日宫颈癌筛查与治疗进展",
+              "url": "https://www.who.int/news/item/17-11-2026-countries-expand-cervical-cancer-screening-and-treatment--bringing-elimination-closer"
+            },
+            {
+              "title": "WHO｜宫颈癌筛查科普与配图出处",
+              "url": "https://www.who.int/activities/screening-for-cervical-cancer"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.who.int/images/default-source/health-topics/cervical-cancer/cc-prevention.png?sfvrsn=7a148ff9_2",
+              "alt": "WHO 宫颈癌预防与定期筛查科普图",
+              "sourceUrl": "https://www.who.int/activities/screening-for-cervical-cancer",
+              "caption": "WHO既有科普配图，用于说明筛查主题，非此次新估计的数据图。"
+            }
+          ]
+        },
+        {
+          "id": "health-2026-11-18-edc",
+          "title": "UNEP与WHO更新内分泌干扰物证据，强调早期与混合暴露",
+          "category": "健康",
+          "importance": 4,
+          "tags": [
+            "环境健康",
+            "内分泌干扰物",
+            "孕期",
+            "儿童健康"
+          ],
+          "summary": "11月17日，UNEP与WHO发布2026年内分泌干扰化学物科学评估，是2012年评估后的全球重大更新，报告库登记日期为11月16日。综合人体、动物和机制研究的评估指出，部分物质暴露可在出生前开始，与生殖、神经发育、甲状腺及代谢等健康问题有关，混合暴露也是监管难点。证据类型是多领域科学评估，不同化学物与结局的证据强弱不同；检出某种物质或某类成分，不等于某件产品一定造成疾病，个体风险还取决于具体物质、剂量和暴露时机。",
+          "analysis": "值得关注：它推动产品安全、监测和监管从单一物质转向更真实的长期暴露情境。一般家庭可参考UNEP建议，按用途选择食品接触容器并关注成分与合规信息；这不支持“排毒”疗法、恐慌式更换所有物品或凭检出结果自行诊断。",
+          "sources": [
+            {
+              "title": "WHO／UNEP｜11月17日联合发布",
+              "url": "https://www.who.int/news/item/17-11-2026-evidence-mounts-that-exposure-to-hormone-disrupting-chemicals-starts-before-birth--unep-who-report"
+            },
+            {
+              "title": "UNEP／WHO｜2026科学评估原报告",
+              "url": "https://wedocs.unep.org/items/30aed16d-b89c-433b-8d4a-587019ea55a3"
+            },
+            {
+              "title": "UNEP｜风险取决于具体物质与暴露，及日常建议",
+              "url": "https://www.unep.org/en/news-and-stories/story/what-are-endocrine-disrupting-chemicals-and-how-do-they-affect-our-health"
+            }
+          ],
+          "images": []
+        },
+        {
+          "id": "health-2026-11-18-diet",
+          "title": "6个月饮食随机试验：未发现低碳或低脂对腹部脂肪更有优势",
+          "category": "减重",
+          "importance": 3,
+          "tags": [
+            "营养",
+            "体重管理",
+            "随机试验",
+            "内脏脂肪",
+            "低碳饮食",
+            "低脂饮食"
+          ],
+          "summary": "补收近7日新研究：11月16日《European Journal of Clinical Nutrition》发表巴西单中心人体随机试验，141名超重或肥胖成人被分到均衡限能量、低碳、低脂或团体营养指导组，随访6个月。101人有完整随访资料；总体平均体重下降约3%，超声测得内脏脂肪厚度随时间减少，但各组变化轨迹未见显著差异。它没有证明低碳、低脂或均衡饮食彼此等效，也不能把总体改善全部归因于某一种方案。主要局限是约28%随访流失、以可用数据分析、样本小且仅6个月，尚不能判断长期维持、反弹或疾病结局。",
+          "analysis": "值得关注：研究为“不必迷信某个宏量营养素比例”提供有限的新证据，重视可持续执行、营养充足和长期代谢健康更有实际意义。适用范围限于相近成人群体的一般营养讨论，不应据此开展极端节食，合并疾病者仍需专业评估。",
+          "sources": [
+            {
+              "title": "原始论文PDF｜Rodrigues等，6个月饮食随机试验，11月16日",
+              "url": "https://www.nature.com/articles/s41430-026-01845-9.pdf"
+            },
+            {
+              "title": "原始论文｜DOI 10.1038/s41430-026-01845-9",
+              "url": "https://doi.org/10.1038/s41430-026-01845-9"
+            }
+          ],
+          "images": []
+        }
+      ]
+    },
     {
       "id": "health-2026-11-17",
       "collectionId": "health",
