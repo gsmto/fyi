@@ -2,8 +2,167 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-18T01:26:02Z",
+  "updatedAt": "2026-11-19T01:21:51Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-19",
+      "collectionId": "llm",
+      "date": "2026-11-19",
+      "title": "大模型｜2026-11-19",
+      "summary": "Gemini 4 Neon 发布；Anthropic IPO 定价落定；OpenAI 披露芯片设计结果；Project Genie 扩展访问与创作；Codex 沙箱公开工程细节。",
+      "analysis": "本期重点是实际可用性、总任务成本与可验证执行。新模型榜单、芯片局部优化、研究产品和公开发行分别采用不同证据口径，不直接混作能力或投资结论。",
+      "rawText": "# 大模型｜2026-11-19\n\n## 今日重点\n\nGemini 4 Neon 发布；Anthropic IPO 定价落定；OpenAI 披露芯片设计结果；Project Genie 扩展访问与创作；Codex 沙箱公开工程细节。\n\n日期采用 Asia/Shanghai；以下按重要程度排序，事件／发布日期均为 **2026-11-18**，已对照近期归档去重。官网多数只提供日期，未逐项标明时刻。重要性：5＝核心模型、成本或行业资本结构重大变化；4＝关键研究或实质性产品更新；3＝对特定开发实践有明确影响。\n\n## 1. Gemini 4 Neon 上线：百万上下文，需按真实任务核算成本\n\n**事件／发布日期：2026-11-18｜重要性：5/5**\n\nGoogle 于 11 月 18 日发布 Gemini 4 Neon，提供 100 万 token 上下文，开始向 Gemini API／AI Studio、Gemini for business，以及付费 Pro／Ultra 的 Gemini 应用与 Antigravity 推出。API Standard 每百万输入／缓存输入／输出 token 分别为 3／0.15／15 美元，输出包含思考 token，且无免费层级。官网所述编码、科学与智能体表现包含引用第三方榜单和内部测试，不能据此认定它在所有工作流全面领先。\n\n值得关注：可用自有代码库比较成功率、耗时和总账单；厂商所称“单任务成本更低”与 token 单价不同。Carbon 在 11 月 30 日前的 Standard 促销价仍为输入 2、输出 10 美元／百万 token，Neon 当前单价更高；渠道开放还受账号、地区及管理员设置限制。\n\n缺图：已实际打开官方主图与评测图直链，但图片服务返回无法解析的内容类型，未能确认可直接展示；不使用第三方生成的宣传图。\n\n来源：[Google：Introducing Gemini 4 Neon](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)；[Google AI Studio：Neon 与 Carbon 实时价格及计费口径](https://aistudio.google.com/docs/pricing#gemini-4-neon)。\n\n## 2. Anthropic 确定 IPO 发行价 83 美元，预计美国时间 19 日交易\n\n**事件／发布日期：2026-11-18｜重要性：5/5**\n\nAnthropic 于 11 月 18 日官宣 IPO 定价为每股 83 美元，发行 9.8 亿股，其中约 9.56 亿股由公司出售，其余为现有股东出售，公司不取得后者收益。按股数与发行价计算，合计发行规模约 813.4 亿美元，未扣费用、未计超额配售，不能全部算成公司净融资。股票预计于美国时间 11 月 19 日在纳斯达克以 ANT 开始交易，预计 20 日完成交割；截至本报告生成时尚未开始该交易日。\n\n值得关注：这将使头部模型公司的增长、算力投入与经营表现接受更持续的公开市场检验，可能影响行业融资环境。上述是发行安排，不是二级市场成交价，也不代表 Claude 产品价格或服务条款发生变化。\n\n缺图：官方定价公告未提供可核验的新闻配图，所检索 Reuters／CNA 图片直链读取失败，故保留文字。\n\n来源：[Anthropic：IPO 定价与交易、交割安排](https://www.anthropic.com/news/anthropic-prices-initial-public-offering)；[Reuters／CNA：发行规模与完全稀释估值口径](https://www.channelnewsasia.com/business/anthropic-share-price-ipo-6563856)。\n\n## 3. OpenAI 披露芯片设计新结果：AMD 电路优化进入生产设计\n\n**事件／发布日期：2026-11-18｜重要性：4/5**\n\nOpenAI 于 11 月 18 日披露模型辅助 RTL 电路设计的研究与产业合作结果，称相对已深度优化的 AMD GPU IP 基线取得最高 14% 的功耗、性能与面积（PPA）指标改善，部分改动已进入送厂或未来生产设计。其 Jalapeño 向量与矩阵单元的标准单元面积节省估计分别约 13% 和 10%，并称已通过硅片验证。上述为厂商及合作方披露的局部设计结果，不能写成整颗 GPU 性能提升 14%，也不是新芯片正式上市公告。\n\n值得关注：模型与验证工具的闭环开始影响真实硬件设计，而非仅生成示例代码。同期 RISC‑V 自测仍容许较宽面积约束，部分任务可省略原核特性，距离完整生产约束下的独立验证尚有差距。\n\n缺图：本次研究页面未检索到可确认对应这些新结果的公开图片直链；不以旧合作宣传图替代研究结果。\n\n来源：[OpenAI：Advancing chip design with OpenAI models](https://openai.com/index/advancing-chip-design-with-our-models/)。\n\n## 4. Project Genie 更新：向合资格 Ultra 用户推出 Genie 4 与创作智能体\n\n**事件／发布日期：2026-11-18｜重要性：4/5**\n\nGoogle 于 11 月 18 日更新 Project Genie，向合资格 Google AI Ultra 订阅用户逐步开放 Genie 4、创作智能体和社区画廊，Pro 用户可加入候补名单。此次新增是产品开放与工作流更新：Genie 4 支持探索中用文字改变环境并生成原生音频，智能体协助构建和修改世界，作品可分享与再创作。Genie 4 模型本身已于 10 月 27 日公布，本条不把它包装成今日首次发布，也不把有限产品访问写成 API 全面开放。\n\n值得关注：世界模型从展示走向可交互创作，可供游戏原型与智能体环境研究参考。它仍属前沿研究产品，官方承认延迟、复杂物理、音频精度和场景长期一致性等限制；尚不能据此视为可直接替代游戏引擎的完整生产工具，实际使用需满足地区及账号资格。\n\n![Google DeepMind 的 Genie 4 官方研究展示图](https://lh3.googleusercontent.com/mKq26Yz8rlcAthtTHS2GaID7LuUM9a4zM16VHUszY-zyKly80QRUt5nn6V4jQN8_bJ4_UMesp1D_88ethzTEJPoo6NUPyhO76QZ7zNJM5KzfPE5GKjM=w1440-h810-n-nu)\n\n*来自 10 月 27 日模型研究介绍的官方配图，作为背景展示；本次新闻为 11 月 18 日产品更新。 [图片出处](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/)*\n\n来源：[Google：11 月 18 日 Project Genie 更新及订阅条件](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/)；[Google DeepMind：10 月 27 日 Genie 4 研究介绍（背景）](https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/)。\n\n## 5. OpenAI 详解 Codex 沙箱：自建工具可复用权限隔离机制\n\n**事件／发布日期：2026-11-18｜重要性：3/5**\n\nOpenAI 于 11 月 18 日发布 Codex 沙箱工程说明，解释如何通过权限配置限制文件系统与网络访问，并用 codex sandbox 将隔离机制用于自建工具。文章特别说明，stdio MCP 服务的启动命令不会被默认自动套入沙箱，需要按其实际权限需求另行约束。Windows 正向 MXC 方案迁移，兼容设备已有支持，但不能把进行中的迁移写成所有设备完成切换；这是一篇新工程披露，不是独立的新模型或全量功能发布。\n\n值得关注：给智能体接入终端和 MCP 时，模型行为约束之外，还需可执行、可验证的工具权限边界。团队可借此检查自身部署的文件写入范围、网络代理和服务启动方式，具体能力取决于操作系统及当前配置。\n\n缺图：已检索官方工程说明，未取得可公开直连且对应本条内容的独立配图，保留文字与原文链接。\n\n来源：[OpenAI：Inside the Codex sandbox](https://openai.com/index/inside-the-codex-sandbox/)。\n\n后续关注真实任务成功率和完整费用、产品逐步开放后的账号可用性，以及研究结果能否在更严格约束下复现。\n",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "生成于 2026-11-19T01:21:43Z（UTC），按 Asia/Shanghai 归档。重点检索生成前24小时、回查近7日，并对照本栏目2026年11月近期归档去重；覆盖 OpenAI、Anthropic、Google／DeepMind／Gemini、xAI、Meta 及微软，综合中英文检索，实际打开官方新闻、价格页、工程和研究说明，并参考 Reuters／CNA、中文科技媒体发现线索。入选5条官方新信息均标注2026-11-18，未逐一提供精确发布时间，故不声称全部严格落入滚动24小时；10月27日Genie研究和Carbon既有促销价仅作背景。未用较低影响的地区合作或旧版本消息补位。",
+      "score": 5,
+      "items": [
+        {
+          "id": "llm-2026-11-19-gemini-4-neon",
+          "title": "Gemini 4 Neon 上线：百万上下文，需按真实任务核算成本",
+          "category": "Google",
+          "eventDate": "2026-11-18",
+          "summary": "Google 于 11 月 18 日发布 Gemini 4 Neon，提供 100 万 token 上下文，开始向 Gemini API／AI Studio、Gemini for business，以及付费 Pro／Ultra 的 Gemini 应用与 Antigravity 推出。API Standard 每百万输入／缓存输入／输出 token 分别为 3／0.15／15 美元，输出包含思考 token，且无免费层级。官网所述编码、科学与智能体表现包含引用第三方榜单和内部测试，不能据此认定它在所有工作流全面领先。",
+          "analysis": "值得关注：可用自有代码库比较成功率、耗时和总账单；厂商所称“单任务成本更低”与 token 单价不同。Carbon 在 11 月 30 日前的 Standard 促销价仍为输入 2、输出 10 美元／百万 token，Neon 当前单价更高；渠道开放还受账号、地区及管理员设置限制。",
+          "importance": 5,
+          "tags": [
+            "Google",
+            "Gemini 4 Neon",
+            "模型发布",
+            "API 定价",
+            "智能体",
+            "Antigravity"
+          ],
+          "sources": [
+            {
+              "title": "Google：Introducing Gemini 4 Neon",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+            },
+            {
+              "title": "Google AI Studio：Neon 与 Carbon 实时价格及计费口径",
+              "url": "https://aistudio.google.com/docs/pricing#gemini-4-neon"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：已实际打开官方主图与评测图直链，但图片服务返回无法解析的内容类型，未能确认可直接展示；不使用第三方生成的宣传图。"
+        },
+        {
+          "id": "llm-2026-11-19-anthropic-ipo-pricing",
+          "title": "Anthropic 确定 IPO 发行价 83 美元，预计美国时间 19 日交易",
+          "category": "Anthropic",
+          "eventDate": "2026-11-18",
+          "summary": "Anthropic 于 11 月 18 日官宣 IPO 定价为每股 83 美元，发行 9.8 亿股，其中约 9.56 亿股由公司出售，其余为现有股东出售，公司不取得后者收益。按股数与发行价计算，合计发行规模约 813.4 亿美元，未扣费用、未计超额配售，不能全部算成公司净融资。股票预计于美国时间 11 月 19 日在纳斯达克以 ANT 开始交易，预计 20 日完成交割；截至本报告生成时尚未开始该交易日。",
+          "analysis": "值得关注：这将使头部模型公司的增长、算力投入与经营表现接受更持续的公开市场检验，可能影响行业融资环境。上述是发行安排，不是二级市场成交价，也不代表 Claude 产品价格或服务条款发生变化。",
+          "importance": 5,
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "IPO",
+            "公司动态",
+            "AI 融资"
+          ],
+          "sources": [
+            {
+              "title": "Anthropic：IPO 定价与交易、交割安排",
+              "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+            },
+            {
+              "title": "Reuters／CNA：发行规模与完全稀释估值口径",
+              "url": "https://www.channelnewsasia.com/business/anthropic-share-price-ipo-6563856"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：官方定价公告未提供可核验的新闻配图，所检索 Reuters／CNA 图片直链读取失败，故保留文字。"
+        },
+        {
+          "id": "llm-2026-11-19-openai-chip-design-research",
+          "title": "OpenAI 披露芯片设计新结果：AMD 电路优化进入生产设计",
+          "category": "OpenAI",
+          "eventDate": "2026-11-18",
+          "summary": "OpenAI 于 11 月 18 日披露模型辅助 RTL 电路设计的研究与产业合作结果，称相对已深度优化的 AMD GPU IP 基线取得最高 14% 的功耗、性能与面积（PPA）指标改善，部分改动已进入送厂或未来生产设计。其 Jalapeño 向量与矩阵单元的标准单元面积节省估计分别约 13% 和 10%，并称已通过硅片验证。上述为厂商及合作方披露的局部设计结果，不能写成整颗 GPU 性能提升 14%，也不是新芯片正式上市公告。",
+          "analysis": "值得关注：模型与验证工具的闭环开始影响真实硬件设计，而非仅生成示例代码。同期 RISC‑V 自测仍容许较宽面积约束，部分任务可省略原核特性，距离完整生产约束下的独立验证尚有差距。",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "AMD",
+            "芯片设计",
+            "RTL",
+            "PPA",
+            "RISC-V",
+            "研究"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI：Advancing chip design with OpenAI models",
+              "url": "https://openai.com/index/advancing-chip-design-with-our-models/"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：本次研究页面未检索到可确认对应这些新结果的公开图片直链；不以旧合作宣传图替代研究结果。"
+        },
+        {
+          "id": "llm-2026-11-19-project-genie-4-access",
+          "title": "Project Genie 更新：向合资格 Ultra 用户推出 Genie 4 与创作智能体",
+          "category": "Google",
+          "eventDate": "2026-11-18",
+          "summary": "Google 于 11 月 18 日更新 Project Genie，向合资格 Google AI Ultra 订阅用户逐步开放 Genie 4、创作智能体和社区画廊，Pro 用户可加入候补名单。此次新增是产品开放与工作流更新：Genie 4 支持探索中用文字改变环境并生成原生音频，智能体协助构建和修改世界，作品可分享与再创作。Genie 4 模型本身已于 10 月 27 日公布，本条不把它包装成今日首次发布，也不把有限产品访问写成 API 全面开放。",
+          "analysis": "值得关注：世界模型从展示走向可交互创作，可供游戏原型与智能体环境研究参考。它仍属前沿研究产品，官方承认延迟、复杂物理、音频精度和场景长期一致性等限制；尚不能据此视为可直接替代游戏引擎的完整生产工具，实际使用需满足地区及账号资格。",
+          "importance": 4,
+          "tags": [
+            "Google",
+            "Google DeepMind",
+            "Genie 4",
+            "Project Genie",
+            "世界模型",
+            "智能体",
+            "产品开放"
+          ],
+          "sources": [
+            {
+              "title": "Google：11 月 18 日 Project Genie 更新及订阅条件",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"
+            },
+            {
+              "title": "Google DeepMind：10 月 27 日 Genie 4 研究介绍（背景）",
+              "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://lh3.googleusercontent.com/mKq26Yz8rlcAthtTHS2GaID7LuUM9a4zM16VHUszY-zyKly80QRUt5nn6V4jQN8_bJ4_UMesp1D_88ethzTEJPoo6NUPyhO76QZ7zNJM5KzfPE5GKjM=w1440-h810-n-nu",
+              "alt": "Google DeepMind 的 Genie 4 官方研究展示图",
+              "sourceUrl": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+              "caption": "来自 10 月 27 日模型研究介绍的官方配图，作为背景展示；本次新闻为 11 月 18 日产品更新。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-19-codex-sandbox-engineering",
+          "title": "OpenAI 详解 Codex 沙箱：自建工具可复用权限隔离机制",
+          "category": "OpenAI",
+          "eventDate": "2026-11-18",
+          "summary": "OpenAI 于 11 月 18 日发布 Codex 沙箱工程说明，解释如何通过权限配置限制文件系统与网络访问，并用 codex sandbox 将隔离机制用于自建工具。文章特别说明，stdio MCP 服务的启动命令不会被默认自动套入沙箱，需要按其实际权限需求另行约束。Windows 正向 MXC 方案迁移，兼容设备已有支持，但不能把进行中的迁移写成所有设备完成切换；这是一篇新工程披露，不是独立的新模型或全量功能发布。",
+          "analysis": "值得关注：给智能体接入终端和 MCP 时，模型行为约束之外，还需可执行、可验证的工具权限边界。团队可借此检查自身部署的文件写入范围、网络代理和服务启动方式，具体能力取决于操作系统及当前配置。",
+          "importance": 3,
+          "tags": [
+            "OpenAI",
+            "Codex",
+            "开发者工具",
+            "MCP",
+            "沙箱",
+            "智能体安全"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI：Inside the Codex sandbox",
+              "url": "https://openai.com/index/inside-the-codex-sandbox/"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：已检索官方工程说明，未取得可公开直连且对应本条内容的独立配图，保留文字与原文链接。"
+        }
+      ]
+    },
     {
       "id": "llm-2026-11-18",
       "collectionId": "llm",
