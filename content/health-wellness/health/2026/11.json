@@ -2,8 +2,119 @@
   "schemaVersion": 1,
   "collectionId": "health",
   "month": "2026-11",
-  "updatedAt": "2026-11-18T01:20:08Z",
+  "updatedAt": "2026-11-19T01:17:03Z",
   "briefs": [
+    {
+      "id": "health-2026-11-19",
+      "collectionId": "health",
+      "date": "2026-11-19",
+      "title": "健康｜2026-11-19",
+      "summary": "疫苗处方指导意见、儿童肥胖随机试验与数字心理健康路线图：三种不同证据分别说明实施范围、疗效局限和服务治理。",
+      "analysis": "研究进展、政策目标和现实可用服务应分别判断；体重管理关注长期安全与可持续性，AI健康工具仍需证据和专业照护衔接。",
+      "rawText": "# 健康｜2026-11-19\n\n## 今日 Top 3\n\n疫苗处方指导意见、儿童肥胖随机试验与数字心理健康路线图：三种不同证据分别说明实施范围、疗效局限和服务治理。\n\n近24小时合适的重要新增不足3条，本期明确补收近7日尚未收录内容；日期逐条标注。重要性5＝广泛公共健康与服务变化，4＝重要临床或健康治理进展。以下为新闻与一般科普。\n\n### 1. 三部门推行疫苗处方：在诊疗中评估接种，接种前仍须核查禁忌\n\n**发布／研究时间：2026-11-17｜重要性：5/5**\n\n国家疾控局、国家卫生健康委、国家中医药局于11月17日公开疫苗处方指导意见，文件落款为10月30日，提出“十五五”期间逐步覆盖二级及以上医疗机构和基层机构。具备资质的医师可在就诊、慢病随访、体检等场景，结合年龄、接种史、过敏史及基础疾病提供接种建议，再转接种门诊；网络诊疗不得开具疫苗处方。接种单位仍需核验处方、评估健康状况与接种禁忌，并落实留观。证据类型为正式政策及实施规范，不是疗效试验，也不表示各地已同时完成覆盖或所有疫苗免费。\n\n为什么值得关注：有助于把诊疗与预防衔接，尤其涉及老年人、慢性病患者及儿童等重点人群。适用疫苗和实际服务进度仍由当地机构及专业评估决定，不能将持有处方等同于必然适合接种。\n\n缺图：官方原件为PDF，未找到可核实的对应独立图片直链；不将临床接种资料照当成本次政策图解。\n\n来源：[国家疾控局：三部门正式通知](https://www.ndcpa.gov.cn/jbkzzx/c100014/common/content/content_2122513349662380032.html)；[原始附件：指导意见、处方模板与实施流程](https://www.ndcpa.gov.cn/jbkzzx/c100014/2122513349662380032/f3IXcPXE.pdf)。\n\n### 2. 儿童肥胖三期试验公布：司美格鲁肽降低BMI，但低龄适应证尚未获美国批准\n\n**发布／研究时间：2026-11-16｜重要性：4/5**\n\n近7日补收：11月16日NEJM发表STEP Young三期双盲随机试验，167名6至不足12岁肥胖儿童按2:1接受司美格鲁肽或安慰剂，均有生活方式辅导。68周主要终点中，包含停药等情况的治疗方案估计下，BMI平均变化为−13.5%与+2.7%，组间差为−16.2个百分点；这是BMI变化，不是体重直接下降同等比例。胃肠道不良事件在用药组更常见，并导致1人停药；试验由诺和诺德资助，样本较小，治疗104周加7周停药观察仍不能回答成年后安全性与多年维持效果。\n\n为什么值得关注：结果为低龄重度肥胖的专业治疗提供新证据，长期营养、生长发育和可持续管理比短期数字更重要。核对美国FDA标签及11月16日研究公告，Wegovy注射剂儿童肥胖适应证为12岁及以上，本研究6至不足12岁用途在美国仍属在研；不能据此自行用药，也不能推定中国批准状态。\n\n缺图：检索未找到经验证的STEP Young公开图片直链；结果中出现的STEP UP成人试验图属于另一研究，未采用。\n\n来源：[NEJM：原始随机试验，DOI 10.1056/NEJMoa2604058](https://www.nejm.org/doi/full/10.1056/NEJMoa2604058)；[FDA：Wegovy说明书及适应证](https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/218316s002lbl.pdf)；[研究资助方：完整终点口径及美国低龄用途在研声明](https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=920731)。\n\n### 3. WHO欧洲新路线图：数字心理服务应补充人际照护，保留线下入口\n\n**发布／研究时间：2026-11-18｜重要性：4/5**\n\nWHO欧洲区域办事处11月18日介绍2027—2035年数字心理健康路线图，由WHO与爱尔兰卫生部门合作推进。文件要求在线治疗、应用和AI纳入安全、质量、伦理、证据与数据保护治理，不能把数字渠道设为所有人的唯一入口。特别需要考虑老年人、严重精神健康问题者及数字技能或资源不足群体的可及性。证据类型为区域政策框架及服务经验，不是证明某款AI应用有效的随机试验，也不是对消费级聊天机器人的医疗认可。\n\n为什么值得关注：选择心理健康工具时，应同时看服务证据、隐私、专业人员参与和转介渠道，而不仅是“随时可聊”。路线图面向欧洲地区，原则有一般参考价值，但不能直接替代中国诊疗规范或个人专业评估。\n\n![WHO刊载的都柏林数字心理健康路线图发布现场](https://cdn.who.int/media/images/librariesprovider2/default-album/news-images/people-still-need-people-apps-and-ai-won-t-replace-the-human-touch-in-mental-health-care-001-web001416.jpg?sfvrsn=b68a6dc2_5)\n\n*官方现场图片，非AI治疗疗效展示。 [图片出处](https://www.who.int/europe/news/item/18-11-2026-people-still-need-people--apps-and-ai-won-t-replace-the-human-touch-in-mental-health-care)*\n\n来源：[WHO欧洲：11月18日发布说明](https://www.who.int/europe/news/item/18-11-2026-people-still-need-people--apps-and-ai-won-t-replace-the-human-touch-in-mental-health-care)；[WHO：数字心理健康路线图原件入口](https://www.who.int/europe/publications/i/item/WHO-EURO-2026-13995-53769-84844)。",
+      "completeness": "full",
+      "sourceConversation": "健康",
+      "provenance": "生成于 2026-11-19T01:17:02Z（UTC），按 Asia/Shanghai 归档。读取本栏目近期报告去重；优先检索近24小时，重要新增不足3条，补收11月17日疫苗处方正式公开文件与11月16日尚未收录的STEP Young论文。综合国内卫健／疾控、WHO、医学期刊及监管资料；原始研究通过NEJM可检索摘要核对，正文直接读取受403限制，以资助方完整终点表交叉核实，不采用媒体混合估计量。仅公开新闻与科普，不含个人健康资料。",
+      "score": 4,
+      "items": [
+        {
+          "id": "health-2026-11-19-vaccine-prescriptions",
+          "title": "三部门推行疫苗处方：在诊疗中评估接种，接种前仍须核查禁忌",
+          "category": "医学",
+          "eventDate": "2026-11-17",
+          "summary": "国家疾控局、国家卫生健康委、国家中医药局于11月17日公开疫苗处方指导意见，文件落款为10月30日，提出“十五五”期间逐步覆盖二级及以上医疗机构和基层机构。具备资质的医师可在就诊、慢病随访、体检等场景，结合年龄、接种史、过敏史及基础疾病提供接种建议，再转接种门诊；网络诊疗不得开具疫苗处方。接种单位仍需核验处方、评估健康状况与接种禁忌，并落实留观。证据类型为正式政策及实施规范，不是疗效试验，也不表示各地已同时完成覆盖或所有疫苗免费。",
+          "analysis": "为什么值得关注：有助于把诊疗与预防衔接，尤其涉及老年人、慢性病患者及儿童等重点人群。适用疫苗和实际服务进度仍由当地机构及专业评估决定，不能将持有处方等同于必然适合接种。",
+          "importance": 5,
+          "tags": [
+            "疫苗",
+            "国家疾控局",
+            "预防接种",
+            "医防融合",
+            "慢病管理"
+          ],
+          "sources": [
+            {
+              "title": "国家疾控局：三部门正式通知",
+              "url": "https://www.ndcpa.gov.cn/jbkzzx/c100014/common/content/content_2122513349662380032.html"
+            },
+            {
+              "title": "原始附件：指导意见、处方模板与实施流程",
+              "url": "https://www.ndcpa.gov.cn/jbkzzx/c100014/2122513349662380032/f3IXcPXE.pdf"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：官方原件为PDF，未找到可核实的对应独立图片直链；不将临床接种资料照当成本次政策图解。"
+        },
+        {
+          "id": "health-2026-11-19-step-young-semaglutide",
+          "title": "儿童肥胖三期试验公布：司美格鲁肽降低BMI，但低龄适应证尚未获美国批准",
+          "category": "减重",
+          "eventDate": "2026-11-16",
+          "summary": "近7日补收：11月16日NEJM发表STEP Young三期双盲随机试验，167名6至不足12岁肥胖儿童按2:1接受司美格鲁肽或安慰剂，均有生活方式辅导。68周主要终点中，包含停药等情况的治疗方案估计下，BMI平均变化为−13.5%与+2.7%，组间差为−16.2个百分点；这是BMI变化，不是体重直接下降同等比例。胃肠道不良事件在用药组更常见，并导致1人停药；试验由诺和诺德资助，样本较小，治疗104周加7周停药观察仍不能回答成年后安全性与多年维持效果。",
+          "analysis": "为什么值得关注：结果为低龄重度肥胖的专业治疗提供新证据，长期营养、生长发育和可持续管理比短期数字更重要。核对美国FDA标签及11月16日研究公告，Wegovy注射剂儿童肥胖适应证为12岁及以上，本研究6至不足12岁用途在美国仍属在研；不能据此自行用药，也不能推定中国批准状态。",
+          "importance": 4,
+          "tags": [
+            "儿童肥胖",
+            "司美格鲁肽",
+            "STEP Young",
+            "随机试验",
+            "BMI",
+            "长期安全性"
+          ],
+          "sources": [
+            {
+              "title": "NEJM：原始随机试验，DOI 10.1056/NEJMoa2604058",
+              "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2604058"
+            },
+            {
+              "title": "FDA：Wegovy说明书及适应证",
+              "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/218316s002lbl.pdf"
+            },
+            {
+              "title": "研究资助方：完整终点口径及美国低龄用途在研声明",
+              "url": "https://www.novonordisk.com/news-and-media/news-and-ir-materials/news-details.html?id=920731"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：检索未找到经验证的STEP Young公开图片直链；结果中出现的STEP UP成人试验图属于另一研究，未采用。"
+        },
+        {
+          "id": "health-2026-11-19-digital-mental-health-roadmap",
+          "title": "WHO欧洲新路线图：数字心理服务应补充人际照护，保留线下入口",
+          "category": "健康",
+          "eventDate": "2026-11-18",
+          "summary": "WHO欧洲区域办事处11月18日介绍2027—2035年数字心理健康路线图，由WHO与爱尔兰卫生部门合作推进。文件要求在线治疗、应用和AI纳入安全、质量、伦理、证据与数据保护治理，不能把数字渠道设为所有人的唯一入口。特别需要考虑老年人、严重精神健康问题者及数字技能或资源不足群体的可及性。证据类型为区域政策框架及服务经验，不是证明某款AI应用有效的随机试验，也不是对消费级聊天机器人的医疗认可。",
+          "analysis": "为什么值得关注：选择心理健康工具时，应同时看服务证据、隐私、专业人员参与和转介渠道，而不仅是“随时可聊”。路线图面向欧洲地区，原则有一般参考价值，但不能直接替代中国诊疗规范或个人专业评估。",
+          "importance": 4,
+          "tags": [
+            "心理健康",
+            "WHO",
+            "数字健康",
+            "AI",
+            "隐私",
+            "医疗可及性"
+          ],
+          "sources": [
+            {
+              "title": "WHO欧洲：11月18日发布说明",
+              "url": "https://www.who.int/europe/news/item/18-11-2026-people-still-need-people--apps-and-ai-won-t-replace-the-human-touch-in-mental-health-care"
+            },
+            {
+              "title": "WHO：数字心理健康路线图原件入口",
+              "url": "https://www.who.int/europe/publications/i/item/WHO-EURO-2026-13995-53769-84844"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn.who.int/media/images/librariesprovider2/default-album/news-images/people-still-need-people-apps-and-ai-won-t-replace-the-human-touch-in-mental-health-care-001-web001416.jpg?sfvrsn=b68a6dc2_5",
+              "alt": "WHO刊载的都柏林数字心理健康路线图发布现场",
+              "sourceUrl": "https://www.who.int/europe/news/item/18-11-2026-people-still-need-people--apps-and-ai-won-t-replace-the-human-touch-in-mental-health-care",
+              "caption": "官方现场图片，非AI治疗疗效展示。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "health-2026-11-18",
       "collectionId": "health",
