@@ -2,8 +2,175 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-11",
-  "updatedAt": "2026-11-17T01:10:16Z",
+  "updatedAt": "2026-11-19T01:04:48Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-11-19",
+      "collectionId": "daily-brief",
+      "date": "2026-11-19",
+      "title": "最新资讯｜2026-11-19",
+      "summary": "Gemini 4 Neon 上线；英伟达营收翻倍但毛利指引回落；腾讯披露 AI 投入与现金流代价；Copilot 扩展 MCP；Godot 4.8 接近 RC。",
+      "analysis": "今天的共同信号是 AI 从能力展示走向成本与工作流验证。模型应按真实任务总成本比较，基础设施投入应与现金回报对照，开发工具则要通过权限、测试和回归检查落地。",
+      "rawText": "# 最新资讯｜2026-11-19\n\nGemini 4 Neon 上线；英伟达营收翻倍但毛利指引回落；腾讯披露 AI 投入与现金流代价；Copilot 扩展 MCP；Godot 4.8 接近 RC。\n\n精选 5 条，按重要程度排序。事件日期单列；财务指引和厂商自测均注明性质。重要性：5＝核心技术或财务重大变化，4＝具有明确产业／开发实践影响。\n\n## 1. Gemini 4 Neon 发布：百万上下文，开发者需重算价格与任务成本\n\n**事件日期：2026-11-18｜重要性：5/5**\n\nGoogle 发布 Gemini 4 Neon，面向复杂编码、知识工作与科学任务，提供 100 万 token 上下文，并开始向 Gemini API 付费层、Gemini 应用 Pro／Ultra 和 Antigravity 等渠道推出。Standard API 每百万输入／缓存输入／输出 token 为 3／0.15／15 美元，输出包含思考 token，未提供免费 API 层。官方对任务效率和减少虚构结果的描述包含内部测试，不能直接视为所有真实代码库的独立结论。\n\n为什么值得关注：Neon 位于 Hydrogen 与 Carbon 之间，适合用自身长任务测试完成质量、重试次数及总费用。尤其别直接称它“比 Carbon 便宜”：Carbon 在 11 月 30 日前的促销输入／输出单价仍为 2／10 美元，12 月 1 日才变为 4／20 美元；价格优势与每任务 token 用量应分开比较。\n\n缺图：实际检索了官方 Neon 主图和型号对照图，但图片服务器返回 application/octet-stream，未能确认可直接展示；不以其他型号图片代替。\n\n来源：[Google：Introducing Gemini 4 Neon](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/)；[Gemini Developer API：当前价格与促销截止条件](https://aistudio.google.com/docs/pricing#gemini-4-neon)。\n\n## 2. 英伟达季度营收翻倍，但下一季毛利率指引回落\n\n**事件日期：2026-11-17｜重要性：5/5**\n\n英伟达 11 月 17 日公布截至 10 月 25 日的 2027 财年第三季业绩：营收 1,158 亿美元、同比增长 103%，数据中心营收 1,076 亿美元、同比增长 110%，并确认 Vera Rubin NVL72 已出货。公司预计第四季营收 1,300 亿美元、上下浮动 3%，但该季多一周，且指引未计入中国数据中心计算收入。GAAP 毛利率本季为 74.8%，下季预计 71%—72%；这是公司预测，尚非已实现业绩。\n\n为什么值得关注：算力需求扩张与盈利、交付条件需要同时看，不能只用营收增长推断 AI 基建投资回报。11 月 18 日路透跟进显示市场仍担忧管理层不确定性；对开发者而言，Rubin 实际云端可用时间、租用成本与迁移效率比发布数字更有决策价值。\n\n![Vera Rubin NVL72 机架与发布展示](https://www.techspot.com/images2/news/bigimage/2026/03/2026-03-16-image-52.jpg)\n\n*相关硬件资料图，来自 2026 年 3 月 GTC 展示；不是本次财报现场图，图中性能为当时厂商展示口径。 [图片出处](https://www.techspot.com/news/111712-nvidia-unveils-vera-88-core-arm-cpu-ai.html)*\n\n来源：[NVIDIA：2027 财年第三季财务结果](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/)；[Reuters：11 月 18 日财报后的市场反应](https://www.reuters.com/business/ai-stocks-rally-nvidia-outlook-calms-demand-fears-2026-11-18/)。\n\n## 3. 腾讯 Q3 营收增 8%，新 AI 投入与算力预付款压低现金流\n\n**事件日期：2026-11-18｜重要性：4/5**\n\n腾讯公布截至 9 月 30 日第三季未经审计业绩：营收约 2,073 亿元、同比增长 8%，非 IFRS 经营利润约 681 亿元、同比下降 6%。当季资本开支付款为 651 亿元、同比增长 225%，自由现金流为负 691 亿元；公司说明经营现金流含大额算力采购预付款，剔除该预付款后的自由现金流为正 169 亿元。其披露的“剔除新 AI 产品经营利润”增长 8%，属于补充口径，不能替代整体经营利润。\n\n为什么值得关注：这份财报把 AI 扩张的即时资金代价显性化，应继续观察云服务增长能否转化为可持续现金回报。采购预付款、资本开支付款与会计资本开支不是同一指标，也不能将单季负自由现金流直接解释为核心业务失去盈利能力。\n\n缺图：检索了本季官方财报及图片结果，未找到已验证的第三季专用公开图片直链；搜索返回的第一季封面与旧年报不用于本条。\n\n来源：[腾讯：2026 年第三季业绩原始公告](https://www.tencent.com/wp-content/uploads/2026/11/Tencent-Announces-2026-Third-Quarter-Results.pdf)；[港交所：腾讯三个月与九个月业绩公告](https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1118/2026111800448.pdf)；[Reuters：腾讯业绩、云服务与算力限制](https://www.reuters.com/technology/tencent-q3-revenue-growth-slows-8-misses-estimates-2026-11-18/)。\n\n## 4. Copilot 新增 Supabase 等八项连接器，进入跨系统开发流程\n\n**事件日期：2026-11-18｜重要性：4/5**\n\nGitHub 为 Copilot 增加 Supabase、Buildkite、Box、Calendly、ClickUp、Mixpanel、Webflow 和 Wix 八项经 GitHub 验证的 MCP 连接器，目前为所有 Copilot 计划的公开预览。开发者可在 Copilot app、CLI、VS Code 或 github.com 授权连接，结合数据库结构或构建信息处理编码任务。Business／Enterprise 需管理员开放 Editor preview features；企业 MCP 白名单及服务提供方的管理设置仍可能限制访问。\n\n为什么值得关注：模型获得实际 schema、构建日志和项目状态，能减少凭空编写迁移或排查流程的上下文缺口。连接器的“经验证”不等于每次修改都正确，数据库迁移仍应经过差异审阅、权限约束与测试环境验证。\n\n缺图：官方公告仅提供通用更新 SVG 图，未找到本次八项连接器的具体截图；检索命中的旧版 Supabase Copilot 扩展图属于另一项旧产品，不作为本次配图。\n\n来源：[GitHub Changelog：新增连接器与开放条件](https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot/)。\n\n## 5. Godot 4.8 beta 4 发布，进入发布候选版前的回归修复阶段\n\n**事件日期：2026-11-18｜重要性：4/5**\n\nGodot 发布 4.8 beta 4，58 位贡献者提交 123 项修复，维护者称多数发布阻断问题已解决，可能接近本轮最后一个 beta。更新包含 VoxelGI 非均匀边界渲染、3D 拖尾缩放、字体导入检查等修复，并为 Web 平台增加 HTTPS serve 选项。这仍是预发布快照，官方尚未承诺正式版日期；该分支的 .NET 构建要求 .NET 10 或更新版本。\n\n为什么值得关注：已有 Godot 项目可在独立副本中检查场景保存、资源导入和 Web 导出是否出现回归，及时提交最小复现。临近 RC 表示测试窗口收窄，不能等同生产稳定性保证，也不宜直接覆盖唯一工程副本。\n\n![Godot 4.8 beta 4 公告采用的 JOHN GLEEP 游戏封面](https://godotengine.org/storage/blog/covers/dev-snapshot-godot-4-8-beta-4.jpg)\n\n*官方版本公告封面，展示 Godot 游戏 JOHN GLEEP；不是引擎编辑器截图。 [图片出处](https://godotengine.org/article/dev-snapshot-godot-4-8-beta-4/)*\n\n来源：[Godot：4.8 beta 4 公告与修复列表](https://godotengine.org/article/dev-snapshot-godot-4-8-beta-4/)；[Godot：beta 4 下载与版本说明](https://godotengine.org/download/archive/4.8-beta4/)。\n\n今天的共同信号是 AI 从能力展示走向成本与工作流验证。模型应按真实任务总成本比较，基础设施投入应与现金回报对照，开发工具则要通过权限、测试和回归检查落地。\n",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "生成于 2026-11-19T01:04:48Z（UTC）；按 Asia/Shanghai 归档。综合中英文科技商业媒体线索、GitHub／开源社区、公司公告与开发文档，重点检索11月18日至生成时的新公布信息，并读取本栏目近期月档去重。英伟达财报事件为11月17日，以11月18日市场跟进补充；其余事件均标明11月18日。图片实际检索并打开核对；未验证的图片明确留空。",
+      "score": 5,
+      "items": [
+        {
+          "id": "daily-brief-2026-11-19-gemini-4-neon",
+          "title": "Gemini 4 Neon 发布：百万上下文，开发者需重算价格与任务成本",
+          "category": "AI / 大模型",
+          "eventDate": "2026-11-18",
+          "summary": "Google 发布 Gemini 4 Neon，面向复杂编码、知识工作与科学任务，提供 100 万 token 上下文，并开始向 Gemini API 付费层、Gemini 应用 Pro／Ultra 和 Antigravity 等渠道推出。Standard API 每百万输入／缓存输入／输出 token 为 3／0.15／15 美元，输出包含思考 token，未提供免费 API 层。官方对任务效率和减少虚构结果的描述包含内部测试，不能直接视为所有真实代码库的独立结论。",
+          "analysis": "为什么值得关注：Neon 位于 Hydrogen 与 Carbon 之间，适合用自身长任务测试完成质量、重试次数及总费用。尤其别直接称它“比 Carbon 便宜”：Carbon 在 11 月 30 日前的促销输入／输出单价仍为 2／10 美元，12 月 1 日才变为 4／20 美元；价格优势与每任务 token 用量应分开比较。",
+          "importance": 5,
+          "tags": [
+            "Google",
+            "Gemini 4 Neon",
+            "API",
+            "定价",
+            "智能体"
+          ],
+          "sources": [
+            {
+              "title": "Google：Introducing Gemini 4 Neon",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+            },
+            {
+              "title": "Gemini Developer API：当前价格与促销截止条件",
+              "url": "https://aistudio.google.com/docs/pricing#gemini-4-neon"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：实际检索了官方 Neon 主图和型号对照图，但图片服务器返回 application/octet-stream，未能确认可直接展示；不以其他型号图片代替。"
+        },
+        {
+          "id": "daily-brief-2026-11-19-nvidia-fy2027-q3",
+          "title": "英伟达季度营收翻倍，但下一季毛利率指引回落",
+          "category": "全球科技 / 财经",
+          "eventDate": "2026-11-17",
+          "summary": "英伟达 11 月 17 日公布截至 10 月 25 日的 2027 财年第三季业绩：营收 1,158 亿美元、同比增长 103%，数据中心营收 1,076 亿美元、同比增长 110%，并确认 Vera Rubin NVL72 已出货。公司预计第四季营收 1,300 亿美元、上下浮动 3%，但该季多一周，且指引未计入中国数据中心计算收入。GAAP 毛利率本季为 74.8%，下季预计 71%—72%；这是公司预测，尚非已实现业绩。",
+          "analysis": "为什么值得关注：算力需求扩张与盈利、交付条件需要同时看，不能只用营收增长推断 AI 基建投资回报。11 月 18 日路透跟进显示市场仍担忧管理层不确定性；对开发者而言，Rubin 实际云端可用时间、租用成本与迁移效率比发布数字更有决策价值。",
+          "importance": 5,
+          "tags": [
+            "NVIDIA",
+            "财报",
+            "Vera Rubin",
+            "AI 基础设施",
+            "市场"
+          ],
+          "sources": [
+            {
+              "title": "NVIDIA：2027 财年第三季财务结果",
+              "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/"
+            },
+            {
+              "title": "Reuters：11 月 18 日财报后的市场反应",
+              "url": "https://www.reuters.com/business/ai-stocks-rally-nvidia-outlook-calms-demand-fears-2026-11-18/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.techspot.com/images2/news/bigimage/2026/03/2026-03-16-image-52.jpg",
+              "alt": "Vera Rubin NVL72 机架与发布展示",
+              "sourceUrl": "https://www.techspot.com/news/111712-nvidia-unveils-vera-88-core-arm-cpu-ai.html",
+              "caption": "相关硬件资料图，来自 2026 年 3 月 GTC 展示；不是本次财报现场图，图中性能为当时厂商展示口径。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-19-tencent-q3-ai-cashflow",
+          "title": "腾讯 Q3 营收增 8%，新 AI 投入与算力预付款压低现金流",
+          "category": "中国科技 / 商业",
+          "eventDate": "2026-11-18",
+          "summary": "腾讯公布截至 9 月 30 日第三季未经审计业绩：营收约 2,073 亿元、同比增长 8%，非 IFRS 经营利润约 681 亿元、同比下降 6%。当季资本开支付款为 651 亿元、同比增长 225%，自由现金流为负 691 亿元；公司说明经营现金流含大额算力采购预付款，剔除该预付款后的自由现金流为正 169 亿元。其披露的“剔除新 AI 产品经营利润”增长 8%，属于补充口径，不能替代整体经营利润。",
+          "analysis": "为什么值得关注：这份财报把 AI 扩张的即时资金代价显性化，应继续观察云服务增长能否转化为可持续现金回报。采购预付款、资本开支付款与会计资本开支不是同一指标，也不能将单季负自由现金流直接解释为核心业务失去盈利能力。",
+          "importance": 4,
+          "tags": [
+            "腾讯",
+            "财报",
+            "AI 投资",
+            "现金流",
+            "云计算"
+          ],
+          "sources": [
+            {
+              "title": "腾讯：2026 年第三季业绩原始公告",
+              "url": "https://www.tencent.com/wp-content/uploads/2026/11/Tencent-Announces-2026-Third-Quarter-Results.pdf"
+            },
+            {
+              "title": "港交所：腾讯三个月与九个月业绩公告",
+              "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/1118/2026111800448.pdf"
+            },
+            {
+              "title": "Reuters：腾讯业绩、云服务与算力限制",
+              "url": "https://www.reuters.com/technology/tencent-q3-revenue-growth-slows-8-misses-estimates-2026-11-18/"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：检索了本季官方财报及图片结果，未找到已验证的第三季专用公开图片直链；搜索返回的第一季封面与旧年报不用于本条。"
+        },
+        {
+          "id": "daily-brief-2026-11-19-copilot-mcp-connectors",
+          "title": "Copilot 新增 Supabase 等八项连接器，进入跨系统开发流程",
+          "category": "软件工程 / 开发工具",
+          "eventDate": "2026-11-18",
+          "summary": "GitHub 为 Copilot 增加 Supabase、Buildkite、Box、Calendly、ClickUp、Mixpanel、Webflow 和 Wix 八项经 GitHub 验证的 MCP 连接器，目前为所有 Copilot 计划的公开预览。开发者可在 Copilot app、CLI、VS Code 或 github.com 授权连接，结合数据库结构或构建信息处理编码任务。Business／Enterprise 需管理员开放 Editor preview features；企业 MCP 白名单及服务提供方的管理设置仍可能限制访问。",
+          "analysis": "为什么值得关注：模型获得实际 schema、构建日志和项目状态，能减少凭空编写迁移或排查流程的上下文缺口。连接器的“经验证”不等于每次修改都正确，数据库迁移仍应经过差异审阅、权限约束与测试环境验证。",
+          "importance": 4,
+          "tags": [
+            "GitHub Copilot",
+            "Supabase",
+            "MCP",
+            "Buildkite",
+            "开发工作流"
+          ],
+          "sources": [
+            {
+              "title": "GitHub Changelog：新增连接器与开放条件",
+              "url": "https://github.blog/changelog/2026-11-18-connect-supabase-box-calendly-and-more-to-copilot/"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：官方公告仅提供通用更新 SVG 图，未找到本次八项连接器的具体截图；检索命中的旧版 Supabase Copilot 扩展图属于另一项旧产品，不作为本次配图。"
+        },
+        {
+          "id": "daily-brief-2026-11-19-godot-4-8-beta4",
+          "title": "Godot 4.8 beta 4 发布，进入发布候选版前的回归修复阶段",
+          "category": "游戏开发 / 开源",
+          "eventDate": "2026-11-18",
+          "summary": "Godot 发布 4.8 beta 4，58 位贡献者提交 123 项修复，维护者称多数发布阻断问题已解决，可能接近本轮最后一个 beta。更新包含 VoxelGI 非均匀边界渲染、3D 拖尾缩放、字体导入检查等修复，并为 Web 平台增加 HTTPS serve 选项。这仍是预发布快照，官方尚未承诺正式版日期；该分支的 .NET 构建要求 .NET 10 或更新版本。",
+          "analysis": "为什么值得关注：已有 Godot 项目可在独立副本中检查场景保存、资源导入和 Web 导出是否出现回归，及时提交最小复现。临近 RC 表示测试窗口收窄，不能等同生产稳定性保证，也不宜直接覆盖唯一工程副本。",
+          "importance": 4,
+          "tags": [
+            "Godot",
+            "Godot 4.8",
+            "游戏引擎",
+            "Web",
+            "开源"
+          ],
+          "sources": [
+            {
+              "title": "Godot：4.8 beta 4 公告与修复列表",
+              "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-beta-4/"
+            },
+            {
+              "title": "Godot：beta 4 下载与版本说明",
+              "url": "https://godotengine.org/download/archive/4.8-beta4/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://godotengine.org/storage/blog/covers/dev-snapshot-godot-4-8-beta-4.jpg",
+              "alt": "Godot 4.8 beta 4 公告采用的 JOHN GLEEP 游戏封面",
+              "sourceUrl": "https://godotengine.org/article/dev-snapshot-godot-4-8-beta-4/",
+              "caption": "官方版本公告封面，展示 Godot 游戏 JOHN GLEEP；不是引擎编辑器截图。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "daily-brief-2026-11-17",
       "collectionId": "daily-brief",
