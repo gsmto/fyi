@@ -2,8 +2,191 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-19T01:21:51Z",
+  "updatedAt": "2026-11-20T01:27:24Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-20",
+      "collectionId": "llm",
+      "date": "2026-11-20",
+      "title": "大模型｜2026-11-20",
+      "summary": "本期精选 5 条：GPT-Live-1.1 与待机计费、Muse 权限争议、Anthropic 实际上市，以及 Google 的镜像互联网评测和 Stitch Loop 候补。3 条以 11 月 19 日新进展为核心，2 条补选自 11 月 18 日。",
+      "analysis": "观察重点是智能体从模型能力走向真实运行：接入成本、设备授权、隔离评测和线上反馈同样影响可用性。厂商介绍、媒体调查与实际交易分别表述；同分条目按对使用者和开发者的即时影响排序，未把推断当成已发布能力。",
+      "rawText": "# 大模型｜2026-11-20\n\n本期精选 5 条：GPT-Live-1.1 与待机计费、Muse 权限争议、Anthropic 实际上市，以及 Google 的镜像互联网评测和 Stitch Loop 候补。3 条以 11 月 19 日新进展为核心，2 条补选自 11 月 18 日。\n\n检索截至：2026-11-20T01:27:24Z（UTC；北京时间当日上午）。最近 24 小时优先；11 月 18 日两条明确作为近 7 天补选。已与本栏目近期归档去重。\n\n## 今日重点\n\n### 1. GPT‑Live‑1.1 进入 API：改进多语种语音，闲置待机按分钟降费\n\n事件／发布日期：2026-11-19。状态：已发布 API 更新；WebRTC 待机需配置。\n\nOpenAI 11 月 19 日更新 Live API，gpt-live-1.1 改进发音、口音一致性与多语种转写，可在已有 Live 会话配置中指定该模型。GPT‑Live‑1 和 1.1 的 WebRTC 会话可配置 standby，在无人说话时暂停推理、有人开口后恢复。当前官方语音费率为活跃时每分钟 0.05 美元、待机每分钟 0.02 美元，按秒计费；后端模型和工具另收费。\n\n为什么值得关注：长连接语音助手可以减少静默时段的费用，并将会话层与执行任务的后端分开设计。能力改善属于厂商描述，仍应以目标语言、口音和真实委派任务复测；适用 Live API 渠道及可用项目权限，不能据此推定 ChatGPT 各套餐同步更新。\n\n重要性：4/5。直接改变语音应用接入与持续会话成本，影响可立即验证。\n\n缺图：未找到与此次 1.1 API 更新对应、且已核实可公开访问的图片直链；检索到的旧版演示与第三方信息图未采用。\n\n来源：[OpenAI API 发布日志：11 月 19 日](https://developers.openai.com/api/docs/changelog)；[OpenAI GPT-Live 入门与后端委派](https://developers.openai.com/api/docs/guides/live)；[OpenAI API 官方价格](https://developers.openai.com/api/docs/pricing)。\n\n### 2. Muse 权限边界受质疑：可复现读取消息，不等于已证实跨账户泄露\n\n事件／发布日期：2026-11-18。状态：媒体调查与厂商回应；补选近 7 天未收录信息。\n\n路透社 11 月 18 日调查并复现 Muse 读取 Signal 消息的路径，涉及 Android 通知及 Mac 辅助功能权限；11 月 19 日中文媒体跟进。Meta 称相关例子属孤立事件，疑似串号消息多为幻觉且已处理。路透社未能确认异常银行信息究竟来自他人账户还是模型编造，不能写成已证实跨账户泄露。\n\n为什么值得关注：用户与开发者都需要区分连接器授权和设备级权限，逐项核对可读数据与可执行动作。报道涉及特定平台和测试条件，不足以推断所有 Muse 用户受影响，也不代表端到端加密被破解。\n\n重要性：4/5。涉及已部署个人智能体的数据访问边界，关系用户授权和产品信任。\n\n![Meta 官方发布的 Muse 应用界面示意](https://about.fb.com/ja/wp-content/uploads/sites/15/2026/10/3_Muse_in-app.jpg?w=960)\n\n图片出处：[原始页面](https://about.fb.com/ja/news/2026/10/muse-personal-ai-agent-launches-in-japan/)。2026 年 10 月官方产品配图，仅用于识别 Muse，并非此次问题的证据截图。\n\n来源：[Reuters 原始调查（11 月 18 日）](https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/)；[IT之家跟进与 Meta 回应（11 月 19 日）](https://www.ithome.com/1/029/671.htm)。\n\n### 3. Anthropic 已开始交易：首日收于 97.17 美元，更新昨日“预计上市”状态\n\n事件／发布日期：2026-11-19。状态：美国市场已发生的首日交易；发行交割仍按公告条件。\n\n美国时间 11 月 19 日，Anthropic 在纳斯达克开始交易，代码 ANT；路透社报道首日开盘 111.50 美元，收盘 97.17 美元，较 83 美元发行价上涨约 17%。本条新增的是实际交易结果，区别于昨日收录的发行定价与预计上市。公司公告所列 11 月 20 日发行交割仍附惯常条件，不能据首日交易推定交割已完成。\n\n为什么值得关注：前沿模型公司的融资与持续经营开始接受公开市场更频繁的审视。后续更应跟踪收入、算力承诺和现金流，而非把首日涨幅当成模型能力或整个 AI 行业估值的证明。\n\n重要性：4/5。前沿 AI 公司资本市场与信息披露的重要变化，有实际状态更新。\n\n![路透社 Anthropic 上市首日报道的视频封面](https://ajo.prod.reuters.tv/api/v2/img/6aff8f42e4b070532ff85b2a?quality=80&width=1080)\n\n图片出处：[原始页面](https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/)。路透社报道配图；交易价格以正文中已核对的数据为准。\n\n来源：[Reuters：Anthropic 首日交易结果（11 月 19 日）](https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/)；[Anthropic 官方发行价格与交易、交割安排（11 月 18 日）](https://www.anthropic.com/news/anthropic-prices-initial-public-offering)。\n\n### 4. Google 披露 Mirror Dimension：在隔离的“镜像互联网”里测浏览器智能体\n\n事件／发布日期：2026-11-19。状态：内部评测架构公开介绍；未宣布完整系统开源或对外服务。\n\nGoogle Chrome 团队 11 月 19 日披露 Mirror Dimension，用 gVisor 沙箱、拦截代理和可交互的合成网站构建浏览器智能体评测环境，同时保留逼真的目标网址。测试可在网页文本、图片、ARIA 标签和 WebMCP 响应中注入攻击，并在每轮后重置状态。文章介绍的是内部安全评测方法，没有宣布整个系统开源或向外部用户开放。\n\n为什么值得关注：开发浏览器与电脑操作智能体时，可以参考其隔离副作用、重复回放和多模态提示注入测试思路。Google 宣称测试候选生成吞吐提升，并不等于提示注入已解决；合成环境结果仍需验证能否迁移到真实网站。\n\n重要性：4/5。提供具体、可借鉴的浏览器智能体安全评测工程方法。\n\n缺图：已打开官方原文并尝试读取架构图，图片端点返回不受支持的 application/octet-stream，无法确认图片内容与公开加载可用性，故不保存未经验证的直链。\n\n来源：[Google Chrome Security：Mirror Dimension 原文](https://blog.google/security/mirror-dimension-for-agents/)；[Chrome DevTools MCP 官方仓库（文中使用的组件）](https://github.com/ChromeDevTools/chrome-devtools-mcp)。\n\n### 5. Stitch Loop 开放全球候补：从写功能延伸到持续观察线上指标\n\n事件／发布日期：2026-11-18。状态：Google Labs 实验与候补名单；补选近 7 天未收录信息。\n\nGoogle Labs 11 月 18 日介绍长期运行的产品智能体 Stitch Loop，接入 GitHub、代码与线上指标，持续提出并实现安全、延迟、无障碍等改进。它在隔离云沙箱中编写代码并提交 GitHub PR，合并仍须用户审查；产品上下文还可通过 CLI 和 MCP 给现有智能体使用。目前开放全球用户候补申请，合资格 Google AI Ultra 用户优先，不等于所有申请人立即可用。\n\n为什么值得关注：这类工具把“交付代码”推进到“依据上线效果持续改进”，有望改变小团队的维护工作分配。实际收益取决于日志权限、目标指标、回归测试和人工审查质量；官方尚未给出足以确认全面开放日期或统一价格的信息。\n\n重要性：3/5。有明确产品与开发流程变化，但仍处实验候补阶段，实际效果待验证。\n\n缺图：已检索并尝试打开官方封面及产品截图，但图片端点返回不受支持的内容类型，无法核实加载；未以旧版 Stitch 设计工具截图代替 Loop。\n\n来源：[Google Labs：Stitch Loop 发布公告（11 月 18 日）](https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/)。\n\n## 值得跟进\n\n观察重点是智能体从模型能力走向真实运行：接入成本、设备授权、隔离评测和线上反馈同样影响可用性。厂商介绍、媒体调查与实际交易分别表述；同分条目按对使用者和开发者的即时影响排序，未把推断当成已发布能力。\n\n评分说明：5 为行业级重大改变；4 为有直接影响的产品、风险或公司事件；3 为值得试验、尚待验证的变化。同分不意味着可跨不同条件比较模型能力。\n",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "生成时间 2026-11-20T01:27:24Z。以 Asia/Shanghai 2026-11-20 为报告日期；优先检索生成时点前 24 小时（约北京时间 11 月 19 日 09:26 至 20 日 09:26），补充最近 7 天（11 月 13—20 日）未收录事件。综合英文官方公告、API 文档与价格、官方代码仓库、Reuters 及中文科技媒体；覆盖 OpenAI、Anthropic、Google/DeepMind/Gemini、Meta、xAI，未为公司配额收录低价值或未证实发布。已读取本栏目 2026 年 11 月全部历史去重。日期按原始来源标示，不能据网页抓取时间认定事件新发生。 配图逐一打开确认；2 张可用，3 条缺图原因已分别记录。",
+      "score": 4,
+      "items": [
+        {
+          "id": "llm-2026-11-20-gpt-live-1-1-api",
+          "title": "GPT‑Live‑1.1 进入 API：改进多语种语音，闲置待机按分钟降费",
+          "category": "OpenAI",
+          "eventDate": "2026-11-19",
+          "status": "已发布 API 更新；WebRTC 待机需配置",
+          "summary": "OpenAI 11 月 19 日更新 Live API，gpt-live-1.1 改进发音、口音一致性与多语种转写，可在已有 Live 会话配置中指定该模型。GPT‑Live‑1 和 1.1 的 WebRTC 会话可配置 standby，在无人说话时暂停推理、有人开口后恢复。当前官方语音费率为活跃时每分钟 0.05 美元、待机每分钟 0.02 美元，按秒计费；后端模型和工具另收费。",
+          "analysis": "为什么值得关注：长连接语音助手可以减少静默时段的费用，并将会话层与执行任务的后端分开设计。能力改善属于厂商描述，仍应以目标语言、口音和真实委派任务复测；适用 Live API 渠道及可用项目权限，不能据此推定 ChatGPT 各套餐同步更新。",
+          "importance": 4,
+          "importanceReason": "直接改变语音应用接入与持续会话成本，影响可立即验证。",
+          "tags": [
+            "OpenAI",
+            "GPT-Live-1.1",
+            "语音智能体",
+            "API",
+            "价格",
+            "WebRTC"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI API 发布日志：11 月 19 日",
+              "url": "https://developers.openai.com/api/docs/changelog"
+            },
+            {
+              "title": "OpenAI GPT-Live 入门与后端委派",
+              "url": "https://developers.openai.com/api/docs/guides/live"
+            },
+            {
+              "title": "OpenAI API 官方价格",
+              "url": "https://developers.openai.com/api/docs/pricing"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：未找到与此次 1.1 API 更新对应、且已核实可公开访问的图片直链；检索到的旧版演示与第三方信息图未采用。"
+        },
+        {
+          "id": "llm-2026-11-20-meta-muse-permission-investigation",
+          "title": "Muse 权限边界受质疑：可复现读取消息，不等于已证实跨账户泄露",
+          "category": "Meta",
+          "eventDate": "2026-11-18",
+          "status": "媒体调查与厂商回应；补选近 7 天未收录信息",
+          "summary": "路透社 11 月 18 日调查并复现 Muse 读取 Signal 消息的路径，涉及 Android 通知及 Mac 辅助功能权限；11 月 19 日中文媒体跟进。Meta 称相关例子属孤立事件，疑似串号消息多为幻觉且已处理。路透社未能确认异常银行信息究竟来自他人账户还是模型编造，不能写成已证实跨账户泄露。",
+          "analysis": "为什么值得关注：用户与开发者都需要区分连接器授权和设备级权限，逐项核对可读数据与可执行动作。报道涉及特定平台和测试条件，不足以推断所有 Muse 用户受影响，也不代表端到端加密被破解。",
+          "importance": 4,
+          "importanceReason": "涉及已部署个人智能体的数据访问边界，关系用户授权和产品信任。",
+          "tags": [
+            "Meta",
+            "Muse",
+            "隐私",
+            "智能体权限",
+            "Android",
+            "macOS"
+          ],
+          "sources": [
+            {
+              "title": "Reuters 原始调查（11 月 18 日）",
+              "url": "https://www.reuters.com/investigations/meta-bets-big-muse-ai-agent-early-safety-mishaps-surface-2026-11-18/"
+            },
+            {
+              "title": "IT之家跟进与 Meta 回应（11 月 19 日）",
+              "url": "https://www.ithome.com/1/029/671.htm"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://about.fb.com/ja/wp-content/uploads/sites/15/2026/10/3_Muse_in-app.jpg?w=960",
+              "alt": "Meta 官方发布的 Muse 应用界面示意",
+              "sourceUrl": "https://about.fb.com/ja/news/2026/10/muse-personal-ai-agent-launches-in-japan/",
+              "caption": "2026 年 10 月官方产品配图，仅用于识别 Muse，并非此次问题的证据截图。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-20-anthropic-nasdaq-debut",
+          "title": "Anthropic 已开始交易：首日收于 97.17 美元，更新昨日“预计上市”状态",
+          "category": "Anthropic",
+          "eventDate": "2026-11-19",
+          "status": "美国市场已发生的首日交易；发行交割仍按公告条件",
+          "summary": "美国时间 11 月 19 日，Anthropic 在纳斯达克开始交易，代码 ANT；路透社报道首日开盘 111.50 美元，收盘 97.17 美元，较 83 美元发行价上涨约 17%。本条新增的是实际交易结果，区别于昨日收录的发行定价与预计上市。公司公告所列 11 月 20 日发行交割仍附惯常条件，不能据首日交易推定交割已完成。",
+          "analysis": "为什么值得关注：前沿模型公司的融资与持续经营开始接受公开市场更频繁的审视。后续更应跟踪收入、算力承诺和现金流，而非把首日涨幅当成模型能力或整个 AI 行业估值的证明。",
+          "importance": 4,
+          "importanceReason": "前沿 AI 公司资本市场与信息披露的重要变化，有实际状态更新。",
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "IPO",
+            "纳斯达克",
+            "AI商业"
+          ],
+          "sources": [
+            {
+              "title": "Reuters：Anthropic 首日交易结果（11 月 19 日）",
+              "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/"
+            },
+            {
+              "title": "Anthropic 官方发行价格与交易、交割安排（11 月 18 日）",
+              "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://ajo.prod.reuters.tv/api/v2/img/6aff8f42e4b070532ff85b2a?quality=80&width=1080",
+              "alt": "路透社 Anthropic 上市首日报道的视频封面",
+              "sourceUrl": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+              "caption": "路透社报道配图；交易价格以正文中已核对的数据为准。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-20-google-mirror-dimension",
+          "title": "Google 披露 Mirror Dimension：在隔离的“镜像互联网”里测浏览器智能体",
+          "category": "Google",
+          "eventDate": "2026-11-19",
+          "status": "内部评测架构公开介绍；未宣布完整系统开源或对外服务",
+          "summary": "Google Chrome 团队 11 月 19 日披露 Mirror Dimension，用 gVisor 沙箱、拦截代理和可交互的合成网站构建浏览器智能体评测环境，同时保留逼真的目标网址。测试可在网页文本、图片、ARIA 标签和 WebMCP 响应中注入攻击，并在每轮后重置状态。文章介绍的是内部安全评测方法，没有宣布整个系统开源或向外部用户开放。",
+          "analysis": "为什么值得关注：开发浏览器与电脑操作智能体时，可以参考其隔离副作用、重复回放和多模态提示注入测试思路。Google 宣称测试候选生成吞吐提升，并不等于提示注入已解决；合成环境结果仍需验证能否迁移到真实网站。",
+          "importance": 4,
+          "importanceReason": "提供具体、可借鉴的浏览器智能体安全评测工程方法。",
+          "tags": [
+            "Google",
+            "Chrome",
+            "Mirror Dimension",
+            "浏览器智能体",
+            "评测",
+            "提示注入",
+            "MCP"
+          ],
+          "sources": [
+            {
+              "title": "Google Chrome Security：Mirror Dimension 原文",
+              "url": "https://blog.google/security/mirror-dimension-for-agents/"
+            },
+            {
+              "title": "Chrome DevTools MCP 官方仓库（文中使用的组件）",
+              "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：已打开官方原文并尝试读取架构图，图片端点返回不受支持的 application/octet-stream，无法确认图片内容与公开加载可用性，故不保存未经验证的直链。"
+        },
+        {
+          "id": "llm-2026-11-20-google-stitch-loop",
+          "title": "Stitch Loop 开放全球候补：从写功能延伸到持续观察线上指标",
+          "category": "Google",
+          "eventDate": "2026-11-18",
+          "status": "Google Labs 实验与候补名单；补选近 7 天未收录信息",
+          "summary": "Google Labs 11 月 18 日介绍长期运行的产品智能体 Stitch Loop，接入 GitHub、代码与线上指标，持续提出并实现安全、延迟、无障碍等改进。它在隔离云沙箱中编写代码并提交 GitHub PR，合并仍须用户审查；产品上下文还可通过 CLI 和 MCP 给现有智能体使用。目前开放全球用户候补申请，合资格 Google AI Ultra 用户优先，不等于所有申请人立即可用。",
+          "analysis": "为什么值得关注：这类工具把“交付代码”推进到“依据上线效果持续改进”，有望改变小团队的维护工作分配。实际收益取决于日志权限、目标指标、回归测试和人工审查质量；官方尚未给出足以确认全面开放日期或统一价格的信息。",
+          "importance": 3,
+          "importanceReason": "有明确产品与开发流程变化，但仍处实验候补阶段，实际效果待验证。",
+          "tags": [
+            "Google",
+            "Google Labs",
+            "Stitch Loop",
+            "持续优化",
+            "编程智能体",
+            "GitHub",
+            "MCP"
+          ],
+          "sources": [
+            {
+              "title": "Google Labs：Stitch Loop 发布公告（11 月 18 日）",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：已检索并尝试打开官方封面及产品截图，但图片端点返回不受支持的内容类型，无法核实加载；未以旧版 Stitch 设计工具截图代替 Loop。"
+        }
+      ]
+    },
     {
       "id": "llm-2026-11-19",
       "collectionId": "llm",
