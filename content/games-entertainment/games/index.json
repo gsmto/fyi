@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "collectionId": "games",
-  "updatedAt": "2026-11-20T01:17:31Z",
+  "updatedAt": "2026-11-21T01:14:58Z",
   "shards": [
     {
       "month": "2026-11",
       "path": "2026/11.json",
-      "briefCount": 20,
-      "itemCount": 107,
-      "updatedAt": "2026-11-20T01:17:31Z"
+      "briefCount": 21,
+      "itemCount": 112,
+      "updatedAt": "2026-11-21T01:14:58Z"
     },
     {
       "month": "2026-10",
