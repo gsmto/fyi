@@ -2,8 +2,188 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-11",
-  "updatedAt": "2026-11-20T01:00:39Z",
+  "updatedAt": "2026-11-21T01:00:25Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-11-21",
+      "collectionId": "daily-brief",
+      "date": "2026-11-21",
+      "title": "最新资讯｜2026-11-21",
+      "summary": "精选 5 条：英伟达会计调查与科技股回撤、开源智能体框架适配、Genie 4 API、GitHub 漏洞协作权限，以及中国 11 月 LPR。",
+      "analysis": "今天的共同线索是：AI 的投入与估值需要现金流检验，开发端则继续向任务适配、可计量成本和最小权限推进。世界模型适合先做限额原型，研究自测与真实业务结果仍需分开看待。",
+      "rawText": "# 最新资讯｜2026-11-21\n\n精选 5 条：英伟达会计调查与科技股回撤、开源智能体框架适配、Genie 4 API、GitHub 漏洞协作权限，以及中国 11 月 LPR。\n\n检索截至 2026-11-21T01:00:25Z（北京时间 11 月 21 日上午）。以 11 月 20 日新增为主，Genie 4 API 补选 11 月 19 日尚未收录的进展；已读取近期本栏目归档去重。覆盖中英文官方公告、原始研究、开源模型卡与可靠媒体，未为地区或领域配额凑条。\n\n## 1. 英伟达会计调查引发关注，科技股出现大幅回撤\n\n事件／发布日期：2026-11-20。\n\n路透社 11 月 20 日援引两名知情人士称，美国 SEC 正审视英伟达潜在会计问题；具体范围和启动时间仍未明确，调查不等于已认定违法。美国当日收盘，英伟达跌约 14%，纳斯达克综合指数跌 5.3%，半导体指数跌约 11%。这些是单日市场表现，不能直接推断 AI 需求长期逆转。\n\n为什么值得关注：AI 基础设施投资同时面临盈利质量、融资结构和估值风险。观察重点应放在后续正式披露、回款及现金流，而不是仅凭股价下跌作出行业或个股买卖判断。\n\n重要性：5/5。涉及 AI 核心供应商与广泛市场风险，影响超出单家公司。\n\n![英伟达圣克拉拉园区入口及公司标识](https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/11/20/e2cec5c1-5814-4ac1-9e77-b15b2bc69e3c_1dbedc12.jpg?itok=wt5El1Am&v=1763603216)\n\n图片出处：[原始页面](https://www.scmp.com/tech/big-tech/article/3333473/nvidias-strong-forecast-calms-ai-bubble-jitters-now)。南华早报 2025 年报道中的园区资料图，用于识别公司；不是本次调查现场。\n\n来源：[Reuters：英伟达调查焦点（11 月 20 日）](https://www.reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/)；[Reuters：11 月 20 日美国市场收盘与评论](https://www.reuters.com/business/view-nasdaq-plunges-5-day-after-anthropic-debut-investors-still-believe-ai-2026-11-20/)。\n\n## 2. Hugging Face 发布 harness adapters：在真实智能体框架内训练效率\n\n事件／发布日期：2026-11-20。\n\nHugging Face 11 月 20 日公开基于 Qwen3.8‑27B 的强化学习适配方法，在 pi、Hermes Agent 和 OpenCode 内分别训练 LoRA，并提供合并适配器与复现实验材料。作者在关闭 thinking 的六组“框架—基准”配对测试中，报告合并适配器平均 pass@1 从 39.5% 升至 49.0%；共同解出任务的工具调用数减少 53%—73%。这些属于作者自测，不能横向推成某个框架天然更强。\n\n为什么值得关注：本地智能体优化不必只换更大的模型，也可以针对工具、控制流程和任务分布训练。合并权重曾用 Terminal-Bench 选择，存在乐观偏差；开发者应在自有留出任务上同时测通过率、token 和工具成本。\n\n重要性：4/5。给出开放模型、训练方法和可复现评测，直接关联智能体部署成本。\n\n缺图：已检索并尝试打开原文流程图，但资源重定向至无法读取的临时签名端点，未能确认稳定公开加载，故不保存该图片或签名链接。\n\n来源：[Hugging Face 原始研究与复现说明](https://huggingface.co/blog/harness-adapters-at-scale)；[合并适配器官方模型卡](https://huggingface.co/harness-hub/Qwen3.8-27B-super-adapter)。\n\n## 3. Genie 4 开放 API：可交互世界进入原型开发，视频约每分钟 6.05 美元\n\n事件／发布日期：2026-11-19。\n\nGoogle 11 月 19 日宣布 Genie 4 可通过 Gemini API 的 Interactions API 和 AI Studio 接入，生成 720p、24fps、带同步音频的可交互世界，支持实时移动与文字修改。这是开发者调用渠道的新增，而非重报消费者端体验。官方当前价格页确认仅付费层可用，视频输出含音频折合约每秒 0.10 美元、每分钟 6.05 美元，输入和文本输出另计。\n\n为什么值得关注：游戏场景、空间设计和智能体环境可以更快做交互原型，但仍需验证物理、延迟与长时一致性，不能直接当成成熟游戏引擎。开发实践上应限制会话预算，并显式调用 complete() 结束活跃会话以停止计费；项目权限和地区可用性需在控制台确认。\n\n重要性：4/5。世界模型新增可调用渠道与明确成本，影响交互原型和研究实践。\n\n![TestingCatalog 报道中的 Google AI Studio Genie 4 界面截图](https://storage.ghost.io/c/2a/1b/2a1b1782-8506-4d7d-bf53-ad3fb52e2a0f/content/images/size/w2000/2026/11/Google-AI-Studio-11-19-2026_08_02_PM--1-.jpg)\n\n图片出处：[原始页面](https://www.testingcatalog.com/google-opens-genie-4-world-model-to-developers-in-gemini-api/)。开发者界面截图；能力与价格结论以 Google 官方公告及价格页为准。\n\n来源：[Google：Genie 4 API 正式公告（11 月 19 日）](https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/)；[Google Gemini API 官方价格：Genie 4](https://ai.google.dev/gemini-api/docs/pricing#genie-4)；[Google：模型与 Project Genie 的能力局限](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/)。\n\n## 4. GitHub 安全公告权限正式可用：协作处理漏洞不再必须授予管理员\n\n事件／发布日期：2026-11-20。\n\nGitHub 11 月 20 日将安全公告细分权限正式提供给支持自定义仓库角色的组织套餐，包括 Enterprise Cloud。组织可按仓库分别授予查看、创建编辑管理、接受私人漏洞报告以及发布公告／申请 CVE 等权限。临时私有分支的合并仍须仓库管理员或安全经理，新权限也不能删除该分支。\n\n为什么值得关注：维护者可以让安全响应团队参与私密漏洞处理，同时缩小管理员权限和跨仓库可见范围。适合检查现有组织角色与漏洞响应流程；这项变化并不代表免费组织或个人仓库自动获得同样的角色配置。\n\n重要性：3/5。实质改进工程权限管理，但适用组织与套餐范围有限。\n\n![GitHub 自定义仓库角色新增安全公告权限的设置界面](https://github.blog/wp-content/uploads/2026/11/711393264-910d7f23-663a-4aca-a2bc-31315dbade37.jpg?resize=2064%2C1096)\n\n图片出处：[原始页面](https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available/)。GitHub 官方发布截图。\n\n来源：[GitHub Changelog：Security advisory permissions GA](https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available/)。\n\n## 5. 11 月 LPR 维持 3.0%／3.5%，融资成本观察仍要看实际贷款报价\n\n事件／发布日期：2026-11-20。\n\n全国银行间同业拆借中心 11 月 20 日公布，1 年期 LPR 为 3.0%、5 年期以上为 3.5%，均未调整，在下一次发布前有效。新华社同时报道，10 月企业新发放贷款加权平均利率约 2.9%，同比低约 0.2 个百分点；个人住房新发放贷款约 3.1%，同比基本持平。后两项是新发贷款统计均值，不能等同于所有借款人的合同利率。\n\n为什么值得关注：企业现金流、住房贷款和消费融资的利率基准本月保持稳定，但个人实际成本仍受加点、信用条件及重定价日影响。不能由本次未调整就断言未来不会降息，也不能把 LPR 直接当成投资收益率。\n\n重要性：3/5。最新官方利率与融资成本信息，影响广泛但本次报价无变化。\n\n缺图：官方利率公告与新华社正文未提供对应数据图片；另检索到的新闻摄影附转载授权限制，未取得可用于公开归档的合适配图。\n\n来源：[中国货币网：11 月 20 日 LPR 原始公告](https://www.chinamoney.com.cn/chinese/rdgz/20261120/3453464.html)；[新华社：LPR 与 10 月实际新发贷款利率](https://www.xinhuanet.com/20261120/3be19c9469fb4992beda43b8bf6462d2/c.html)。\n\n## 跟进观察\n\n今天的共同线索是：AI 的投入与估值需要现金流检验，开发端则继续向任务适配、可计量成本和最小权限推进。世界模型适合先做限额原型，研究自测与真实业务结果仍需分开看待。\n\n重要性说明：5 为广泛行业／市场影响，4 为重要技术或产品变化，3 为有直接实践价值但影响或适用范围较有限。市场数据仅作资讯，未据单日走势推断长期趋势。\n",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "生成时间 2026-11-21T01:00:25Z；主要检索窗口为北京时间 2026-11-20 至 2026-11-21 上午，补充 11 月 19 日未收录事件。已读取 2026 年 9—11 月本栏目归档，核查最近报告去重；中英文技术、游戏、商业和财经检索后按价值选取 5 条。3 张图片实际打开确认，2 条缺图原因单列。",
+      "score": 4,
+      "items": [
+        {
+          "id": "daily-brief-2026-11-21-nvidia-sec-accounting",
+          "title": "英伟达会计调查引发关注，科技股出现大幅回撤",
+          "category": "全球科技与商业",
+          "eventDate": "2026-11-20",
+          "summary": "路透社 11 月 20 日援引两名知情人士称，美国 SEC 正审视英伟达潜在会计问题；具体范围和启动时间仍未明确，调查不等于已认定违法。美国当日收盘，英伟达跌约 14%，纳斯达克综合指数跌 5.3%，半导体指数跌约 11%。这些是单日市场表现，不能直接推断 AI 需求长期逆转。",
+          "analysis": "为什么值得关注：AI 基础设施投资同时面临盈利质量、融资结构和估值风险。观察重点应放在后续正式披露、回款及现金流，而不是仅凭股价下跌作出行业或个股买卖判断。",
+          "importance": 5,
+          "importanceReason": "涉及 AI 核心供应商与广泛市场风险，影响超出单家公司。",
+          "tags": [
+            "NVIDIA",
+            "SEC",
+            "AI基础设施",
+            "美股",
+            "会计披露"
+          ],
+          "sources": [
+            {
+              "title": "Reuters：英伟达调查焦点（11 月 20 日）",
+              "url": "https://www.reuters.com/world/us-secs-nvidia-probe-is-examining-potential-accounting-issues-sources-say-2026-11-20/"
+            },
+            {
+              "title": "Reuters：11 月 20 日美国市场收盘与评论",
+              "url": "https://www.reuters.com/business/view-nasdaq-plunges-5-day-after-anthropic-debut-investors-still-believe-ai-2026-11-20/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2025/11/20/e2cec5c1-5814-4ac1-9e77-b15b2bc69e3c_1dbedc12.jpg?itok=wt5El1Am&v=1763603216",
+              "alt": "英伟达圣克拉拉园区入口及公司标识",
+              "sourceUrl": "https://www.scmp.com/tech/big-tech/article/3333473/nvidias-strong-forecast-calms-ai-bubble-jitters-now",
+              "caption": "南华早报 2025 年报道中的园区资料图，用于识别公司；不是本次调查现场。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-21-harness-adapters",
+          "title": "Hugging Face 发布 harness adapters：在真实智能体框架内训练效率",
+          "category": "AI / 大模型 / 智能体",
+          "eventDate": "2026-11-20",
+          "summary": "Hugging Face 11 月 20 日公开基于 Qwen3.8‑27B 的强化学习适配方法，在 pi、Hermes Agent 和 OpenCode 内分别训练 LoRA，并提供合并适配器与复现实验材料。作者在关闭 thinking 的六组“框架—基准”配对测试中，报告合并适配器平均 pass@1 从 39.5% 升至 49.0%；共同解出任务的工具调用数减少 53%—73%。这些属于作者自测，不能横向推成某个框架天然更强。",
+          "analysis": "为什么值得关注：本地智能体优化不必只换更大的模型，也可以针对工具、控制流程和任务分布训练。合并权重曾用 Terminal-Bench 选择，存在乐观偏差；开发者应在自有留出任务上同时测通过率、token 和工具成本。",
+          "importance": 4,
+          "importanceReason": "给出开放模型、训练方法和可复现评测，直接关联智能体部署成本。",
+          "tags": [
+            "Hugging Face",
+            "Qwen3.8-27B",
+            "LoRA",
+            "强化学习",
+            "开源",
+            "智能体评测"
+          ],
+          "sources": [
+            {
+              "title": "Hugging Face 原始研究与复现说明",
+              "url": "https://huggingface.co/blog/harness-adapters-at-scale"
+            },
+            {
+              "title": "合并适配器官方模型卡",
+              "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-super-adapter"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：已检索并尝试打开原文流程图，但资源重定向至无法读取的临时签名端点，未能确认稳定公开加载，故不保存该图片或签名链接。"
+        },
+        {
+          "id": "daily-brief-2026-11-21-genie-4-api",
+          "title": "Genie 4 开放 API：可交互世界进入原型开发，视频约每分钟 6.05 美元",
+          "category": "游戏开发 / 技术",
+          "eventDate": "2026-11-19",
+          "summary": "Google 11 月 19 日宣布 Genie 4 可通过 Gemini API 的 Interactions API 和 AI Studio 接入，生成 720p、24fps、带同步音频的可交互世界，支持实时移动与文字修改。这是开发者调用渠道的新增，而非重报消费者端体验。官方当前价格页确认仅付费层可用，视频输出含音频折合约每秒 0.10 美元、每分钟 6.05 美元，输入和文本输出另计。",
+          "analysis": "为什么值得关注：游戏场景、空间设计和智能体环境可以更快做交互原型，但仍需验证物理、延迟与长时一致性，不能直接当成成熟游戏引擎。开发实践上应限制会话预算，并显式调用 complete() 结束活跃会话以停止计费；项目权限和地区可用性需在控制台确认。",
+          "importance": 4,
+          "importanceReason": "世界模型新增可调用渠道与明确成本，影响交互原型和研究实践。",
+          "tags": [
+            "Google",
+            "Genie 4",
+            "Gemini API",
+            "世界模型",
+            "游戏开发",
+            "价格"
+          ],
+          "sources": [
+            {
+              "title": "Google：Genie 4 API 正式公告（11 月 19 日）",
+              "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/"
+            },
+            {
+              "title": "Google Gemini API 官方价格：Genie 4",
+              "url": "https://ai.google.dev/gemini-api/docs/pricing#genie-4"
+            },
+            {
+              "title": "Google：模型与 Project Genie 的能力局限",
+              "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://storage.ghost.io/c/2a/1b/2a1b1782-8506-4d7d-bf53-ad3fb52e2a0f/content/images/size/w2000/2026/11/Google-AI-Studio-11-19-2026_08_02_PM--1-.jpg",
+              "alt": "TestingCatalog 报道中的 Google AI Studio Genie 4 界面截图",
+              "sourceUrl": "https://www.testingcatalog.com/google-opens-genie-4-world-model-to-developers-in-gemini-api/",
+              "caption": "开发者界面截图；能力与价格结论以 Google 官方公告及价格页为准。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-21-github-advisory-roles",
+          "title": "GitHub 安全公告权限正式可用：协作处理漏洞不再必须授予管理员",
+          "category": "软件工程 / 开发工具",
+          "eventDate": "2026-11-20",
+          "summary": "GitHub 11 月 20 日将安全公告细分权限正式提供给支持自定义仓库角色的组织套餐，包括 Enterprise Cloud。组织可按仓库分别授予查看、创建编辑管理、接受私人漏洞报告以及发布公告／申请 CVE 等权限。临时私有分支的合并仍须仓库管理员或安全经理，新权限也不能删除该分支。",
+          "analysis": "为什么值得关注：维护者可以让安全响应团队参与私密漏洞处理，同时缩小管理员权限和跨仓库可见范围。适合检查现有组织角色与漏洞响应流程；这项变化并不代表免费组织或个人仓库自动获得同样的角色配置。",
+          "importance": 3,
+          "importanceReason": "实质改进工程权限管理，但适用组织与套餐范围有限。",
+          "tags": [
+            "GitHub",
+            "供应链安全",
+            "漏洞披露",
+            "CVE",
+            "权限管理"
+          ],
+          "sources": [
+            {
+              "title": "GitHub Changelog：Security advisory permissions GA",
+              "url": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://github.blog/wp-content/uploads/2026/11/711393264-910d7f23-663a-4aca-a2bc-31315dbade37.jpg?resize=2064%2C1096",
+              "alt": "GitHub 自定义仓库角色新增安全公告权限的设置界面",
+              "sourceUrl": "https://github.blog/changelog/2026-11-20-security-advisory-permissions-are-now-generally-available/",
+              "caption": "GitHub 官方发布截图。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-21-china-november-lpr",
+          "title": "11 月 LPR 维持 3.0%／3.5%，融资成本观察仍要看实际贷款报价",
+          "category": "财经 / 市场 / 投资",
+          "eventDate": "2026-11-20",
+          "summary": "全国银行间同业拆借中心 11 月 20 日公布，1 年期 LPR 为 3.0%、5 年期以上为 3.5%，均未调整，在下一次发布前有效。新华社同时报道，10 月企业新发放贷款加权平均利率约 2.9%，同比低约 0.2 个百分点；个人住房新发放贷款约 3.1%，同比基本持平。后两项是新发贷款统计均值，不能等同于所有借款人的合同利率。",
+          "analysis": "为什么值得关注：企业现金流、住房贷款和消费融资的利率基准本月保持稳定，但个人实际成本仍受加点、信用条件及重定价日影响。不能由本次未调整就断言未来不会降息，也不能把 LPR 直接当成投资收益率。",
+          "importance": 3,
+          "importanceReason": "最新官方利率与融资成本信息，影响广泛但本次报价无变化。",
+          "tags": [
+            "中国",
+            "LPR",
+            "利率",
+            "融资成本",
+            "宏观经济"
+          ],
+          "sources": [
+            {
+              "title": "中国货币网：11 月 20 日 LPR 原始公告",
+              "url": "https://www.chinamoney.com.cn/chinese/rdgz/20261120/3453464.html"
+            },
+            {
+              "title": "新华社：LPR 与 10 月实际新发贷款利率",
+              "url": "https://www.xinhuanet.com/20261120/3be19c9469fb4992beda43b8bf6462d2/c.html"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：官方利率公告与新华社正文未提供对应数据图片；另检索到的新闻摄影附转载授权限制，未取得可用于公开归档的合适配图。"
+        }
+      ]
+    },
     {
       "id": "daily-brief-2026-11-20",
       "collectionId": "daily-brief",
