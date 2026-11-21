@@ -2,8 +2,194 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-20T01:27:24Z",
+  "updatedAt": "2026-11-21T01:23:47Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-21",
+      "collectionId": "llm",
+      "date": "2026-11-21",
+      "title": "大模型｜2026-11-21",
+      "summary": "Claude 企业电脑操作进入测试；Space 扩至 Plus；Genie 4 新增 API 渠道；OpenAI 使用政策生效；Gemini 开放工具按需检索预览。",
+      "analysis": "本期重点是智能体可用范围、开发接口与接入规则，分别说明测试、逐步开放及正式可用。未把厂商机制说明视为独立性能结论，也未重复模型发布和上市首日行情。",
+      "rawText": "# 大模型｜2026-11-21\n\nClaude 企业电脑操作进入测试；Space 扩至 Plus；Genie 4 新增 API 渠道；OpenAI 使用政策生效；Gemini 开放工具按需检索预览。\n\n检索截至北京时间2026年11月21日09:23。优先近24小时新增，第3、5条为11月19日未归档进展；第4条明确区分公布日与生效日。重要性4＝影响较广的产品、接口或生态规则变化，3＝有实际工程价值但仍需验证的预览功能。\n\n## 1. Claude 电脑操作向 Team／Enterprise 组织开放测试，默认关闭\n\n**事件／发布日期：2026-11-20｜状态：beta，分批开放｜重要性：4/5**\n\nAnthropic 11月20日发布说明确认，电脑操作功能开始向 Team 与 Enterprise 组织分批开放测试，默认关闭，须管理员启用。它在统一版 Claude 体验中通过 Claude Desktop 操作用户授权的应用；支持 macOS 14及以后版本与 Windows，网页或手机远程使用另需 Computer access 及电脑端保持开启。HIPAA-ready、部分零保留／客户管理密钥及教育配置不适用，且这不是 Claude Code 新增同等入口。\n\n为什么值得关注：企业智能体从连接器扩展到桌面操作，但官方明确没有隔离用户应用的沙箱，已连接文件夹的只读限制也不约束此能力。部署评估应关注应用授权、屏幕数据及操作范围，不能把“企业版测试”理解为已具备完整隔离。\n\n缺图：官方发布说明和配置文档未提供此轮开放的产品截图，未确认可公开直连且能准确对应功能的图片。\n\n来源：[Claude：11月20日产品发布说明](https://support.claude.com/en/articles/12138966-release-notes)；[Claude：组织电脑操作设置、平台条件与限制](https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans)。\n\n## 2. ChatGPT Space 开始向成年 Plus 用户开放，协作仍需账号与权限\n\n**事件／发布日期：2026-11-20｜状态：全球逐步推出，账号可用时间不同｜重要性：4/5**\n\nOpenAI 11月20日宣布，Space 开始全球逐步向18岁及以上 Plus 用户推出，可创建协作页面、演示文稿，并让内容通过已连接工具持续更新。具备入口的账号中，Space 接替 Library 的内容管理位置，Projects 继续独立；创建与编辑支持网页、桌面及移动端。共享内容要求接收方具有 Space 访问资格及查看权限，Free 用户不能打开共享页面，当前没有公开链接。\n\n为什么值得关注：它把一次性聊天产物延伸为持续更新和多人协作的工作资料。组织分享设置仍然适用，Business／Enterprise 的加拿大或阿联酋数据驻留工作区仍待开放，不能将全球推出理解为所有账号已经可用。\n\n缺图：官方说明未提供此轮开放配图；检索所得第三方示意图无法确认是真实产品截图，因此未采用。\n\n来源：[OpenAI：ChatGPT 11月20日发布说明](https://help.openai.com/en/articles/6825453-chatgpt-release-notes)；[OpenAI：Space 使用资格、共享与数据驻留条件](https://help.openai.com/en/articles/20001549-getting-started-with-space-in-chatgpt)。\n\n## 3. Genie 4 新增付费 API 渠道，交互世界按生成视频计费\n\n**事件／发布日期：2026-11-19｜状态：模型正式可用，Interactions API 使用 v1beta 接口｜重要性：4/5**\n\n补收11月19日未归档进展：Genie 4 在此前 Project Genie 消费者入口之外，正式进入 Gemini API 与 Google AI Studio，要求付费层 API key。模型通过 Interactions API 的 v1beta 接口生成720p、24fps交互世界及同步音频；官方标准价为每百万输入 token 1.50美元、文本输出9美元、视频输出17.50美元，音频包含在视频费率内。按24fps约为每秒0.10美元、每分钟6.05美元；需调用 complete() 结束服务器生成和计费，单会话硬上限120秒，画面与物体持久性仍有限。\n\n为什么值得关注：第三方开发者可把世界模拟接入自己的交互原型，而不再仅使用订阅产品演示。它尚不能替代确定性游戏引擎；部署需实测目标地区延迟、连续生成成本和场景稳定性，服务节点位于美国、西欧与日本不等于所有地区均获准使用。\n\n![Google DeepMind 新闻页采用的 Genie 4 官方配图](https://lh3.googleusercontent.com/LIXBN0ot27NEk_mTKSHrCuqkBuX3T7bsPZ_dUrbVgfQDWcPnESgEq09WdFFeq3RnKJJkPyvnvSXzBKLT5zcOTOHTOpQih0SZVt-0c5OxUrrykWKqRA=w704-h704-n-nu)\n\n图片出处：[Google DeepMind](https://deepmind.google/blog/)。官方产品示意配图，用于介绍同一 Genie 4 模型，不代表第三方 API 实测。\n\n来源：[Google：11月19日 Genie 4 API 发布公告](https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/)；[Gemini API：Genie 4 标准价与计费规则](https://aistudio.google.com/docs/pricing#genie-4)；[Gemini API：Genie 4 交互、服务节点与模型限制](https://aistudio.google.com/docs/genie)。\n\n## 4. OpenAI 新版使用政策生效：模型访问中介须事先审核\n\n**事件／发布日期：2026-11-20（首次公布2026-10-21）｜状态：11月20日已生效，非当天首次公布｜重要性：4/5**\n\n10月21日公布的 OpenAI 使用政策新版于11月20日生效；本条记录生效状态变化，并非将旧公告当作新发布。为第三方提供直接模型访问的中介服务须事先获得审核批准，而普通应用仅因集成 OpenAI 功能不会自动落入该要求。政策同时明确：不得用 OpenAI 模型或输出为拟替代其模型／服务的模型准备训练材料、评分或筛选信号；适用协议明确许可的例外继续保留。\n\n为什么值得关注：模型网关、转售渠道和使用模型做训练数据处理的团队，需要结合适用协议核对现有产品与工作流。政策仍允许边界内的研究、评测及产品开发，不能笼统解释为禁止一切模型评测或所有应用集成。\n\n缺图：政策正文为文字规则，无适合说明此次生效的事件图片；未用公司标志或无关机房图凑数。\n\n来源：[OpenAI：使用政策正文及10月21日／11月20日日期](https://openai.com/policies/usage-policies/)；[OpenAI：政策更新说明与适用协议例外](https://help.openai.com/en/articles/12092907-were-updating-our-usage-policies)。\n\n## 5. Gemini 工具检索进入预览，参数定义改为按需加载\n\n**事件／发布日期：2026-11-19｜状态：Interactions API 预览｜重要性：3/5**\n\n补收11月19日进展：Google 为 Interactions API 推出 Tool Retrieval 预览，支持 Gemini 3.6及后续型号，包括 Gemini 4。开发者加入 tool_search，并为低频函数或远程 MCP 服务器设置 defer_loading，可先保留名称及描述，待需要时再加载完整参数定义。功能本身不另收费，但检索所需固定输入及后来加载的定义仍按模型正常 token 价格计费，不代表所有工具成本消失。\n\n为什么值得关注：工具库较大的智能体可减少未使用定义进入上下文，并保持提示词前缀更稳定。是否省钱、调用选择是否更好都需以自家流量验证；本次是预览功能及厂商机制说明，没有可直接横比其他厂商的独立评测结论。\n\n缺图：已打开官方文章图片链接，但图片服务返回无法核验为可展示图片的内容类型；不保存未经确认的直链。\n\n来源：[Google：Introducing Tool Retrieval in the Gemini API](https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/)；[Gemini API：11月19日正式发布日志](https://aistudio.google.com/docs/changelog#11-19-2026)。",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "生成于2026-11-21T01:23:47Z（UTC），按Asia/Shanghai 2026-11-21归档。先通过GitHub读取归档协议、catalog、month schema、llm索引和11月全部近期记录去重。以生成前24小时为主，回查2026-11-14以来尚未归档事件；综合英文官方公告、产品／API发布日志、价格与帮助文档，并检索中文科技报道线索。实际核对OpenAI、Anthropic、Google资料及xAI、Meta新闻入口；未强行收录后二者缺乏重要新增的内容。11月20日Space与Claude电脑操作为新公布；OpenAI政策为10月21日公布、11月20日生效的状态变化；Google两条为11月19日明确补收。排除搜索摘要误将旧日期串入新日期的Agents API首发、Claude月度API赠额，以及已有归档的GPT-Live、Neon、IPO交易消息。Genie API价格按官方标准每百万token口径核对；主文档已说明持续计费与120秒上限。Genie官方图片已实际打开确认可访问；Space第三方示意图未采用，工具检索图片返回异常内容类型，其余条目缺图原因见正文。",
+      "score": 4,
+      "items": [
+        {
+          "id": "llm-2026-11-21-claude-computer-use-teams",
+          "title": "Claude 电脑操作向 Team／Enterprise 组织开放测试，默认关闭",
+          "category": "Anthropic",
+          "eventDate": "2026-11-20",
+          "status": "beta，分批开放",
+          "summary": "Anthropic 11月20日发布说明确认，电脑操作功能开始向 Team 与 Enterprise 组织分批开放测试，默认关闭，须管理员启用。它在统一版 Claude 体验中通过 Claude Desktop 操作用户授权的应用；支持 macOS 14及以后版本与 Windows，网页或手机远程使用另需 Computer access 及电脑端保持开启。HIPAA-ready、部分零保留／客户管理密钥及教育配置不适用，且这不是 Claude Code 新增同等入口。",
+          "analysis": "为什么值得关注：企业智能体从连接器扩展到桌面操作，但官方明确没有隔离用户应用的沙箱，已连接文件夹的只读限制也不约束此能力。部署评估应关注应用授权、屏幕数据及操作范围，不能把“企业版测试”理解为已具备完整隔离。",
+          "importance": 4,
+          "importanceReason": "企业桌面智能体可用范围发生实质变化，同时存在明确权限与数据边界。",
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "computer use",
+            "Team",
+            "Enterprise",
+            "智能体",
+            "beta"
+          ],
+          "sources": [
+            {
+              "title": "Claude：11月20日产品发布说明",
+              "url": "https://support.claude.com/en/articles/12138966-release-notes"
+            },
+            {
+              "title": "Claude：组织电脑操作设置、平台条件与限制",
+              "url": "https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：官方发布说明和配置文档未提供此轮开放的产品截图，未确认可公开直连且能准确对应功能的图片。"
+        },
+        {
+          "id": "llm-2026-11-21-space-plus",
+          "title": "ChatGPT Space 开始向成年 Plus 用户开放，协作仍需账号与权限",
+          "category": "OpenAI",
+          "eventDate": "2026-11-20",
+          "status": "全球逐步推出，账号可用时间不同",
+          "summary": "OpenAI 11月20日宣布，Space 开始全球逐步向18岁及以上 Plus 用户推出，可创建协作页面、演示文稿，并让内容通过已连接工具持续更新。具备入口的账号中，Space 接替 Library 的内容管理位置，Projects 继续独立；创建与编辑支持网页、桌面及移动端。共享内容要求接收方具有 Space 访问资格及查看权限，Free 用户不能打开共享页面，当前没有公开链接。",
+          "analysis": "为什么值得关注：它把一次性聊天产物延伸为持续更新和多人协作的工作资料。组织分享设置仍然适用，Business／Enterprise 的加拿大或阿联酋数据驻留工作区仍待开放，不能将全球推出理解为所有账号已经可用。",
+          "importance": 4,
+          "importanceReason": "主流订阅产品扩大持续协作与智能体更新能力的覆盖面。",
+          "tags": [
+            "OpenAI",
+            "ChatGPT",
+            "Space",
+            "Plus",
+            "协作",
+            "智能体",
+            "灰度开放"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI：ChatGPT 11月20日发布说明",
+              "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+            },
+            {
+              "title": "OpenAI：Space 使用资格、共享与数据驻留条件",
+              "url": "https://help.openai.com/en/articles/20001549-getting-started-with-space-in-chatgpt"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：官方说明未提供此轮开放配图；检索所得第三方示意图无法确认是真实产品截图，因此未采用。"
+        },
+        {
+          "id": "llm-2026-11-21-genie-api",
+          "title": "Genie 4 新增付费 API 渠道，交互世界按生成视频计费",
+          "category": "Google",
+          "eventDate": "2026-11-19",
+          "status": "模型正式可用，Interactions API 使用 v1beta 接口",
+          "summary": "补收11月19日未归档进展：Genie 4 在此前 Project Genie 消费者入口之外，正式进入 Gemini API 与 Google AI Studio，要求付费层 API key。模型通过 Interactions API 的 v1beta 接口生成720p、24fps交互世界及同步音频；官方标准价为每百万输入 token 1.50美元、文本输出9美元、视频输出17.50美元，音频包含在视频费率内。按24fps约为每秒0.10美元、每分钟6.05美元；需调用 complete() 结束服务器生成和计费，单会话硬上限120秒，画面与物体持久性仍有限。",
+          "analysis": "为什么值得关注：第三方开发者可把世界模拟接入自己的交互原型，而不再仅使用订阅产品演示。它尚不能替代确定性游戏引擎；部署需实测目标地区延迟、连续生成成本和场景稳定性，服务节点位于美国、西欧与日本不等于所有地区均获准使用。",
+          "importance": 4,
+          "importanceReason": "世界模型新增开发者可调用渠道，并有明确成本与限制。",
+          "tags": [
+            "Google",
+            "Google DeepMind",
+            "Genie 4",
+            "Gemini API",
+            "世界模型",
+            "API价格",
+            "开发者工具"
+          ],
+          "sources": [
+            {
+              "title": "Google：11月19日 Genie 4 API 发布公告",
+              "url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/"
+            },
+            {
+              "title": "Gemini API：Genie 4 标准价与计费规则",
+              "url": "https://aistudio.google.com/docs/pricing#genie-4"
+            },
+            {
+              "title": "Gemini API：Genie 4 交互、服务节点与模型限制",
+              "url": "https://aistudio.google.com/docs/genie"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://lh3.googleusercontent.com/LIXBN0ot27NEk_mTKSHrCuqkBuX3T7bsPZ_dUrbVgfQDWcPnESgEq09WdFFeq3RnKJJkPyvnvSXzBKLT5zcOTOHTOpQih0SZVt-0c5OxUrrykWKqRA=w704-h704-n-nu",
+              "alt": "Google DeepMind 新闻页采用的 Genie 4 官方配图",
+              "sourceUrl": "https://deepmind.google/blog/",
+              "caption": "官方产品示意配图，用于介绍同一 Genie 4 模型，不代表第三方 API 实测。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-21-openai-policies-effective",
+          "title": "OpenAI 新版使用政策生效：模型访问中介须事先审核",
+          "category": "OpenAI",
+          "eventDate": "2026-11-20",
+          "publishedAt": "2026-10-21",
+          "status": "11月20日已生效，非当天首次公布",
+          "summary": "10月21日公布的 OpenAI 使用政策新版于11月20日生效；本条记录生效状态变化，并非将旧公告当作新发布。为第三方提供直接模型访问的中介服务须事先获得审核批准，而普通应用仅因集成 OpenAI 功能不会自动落入该要求。政策同时明确：不得用 OpenAI 模型或输出为拟替代其模型／服务的模型准备训练材料、评分或筛选信号；适用协议明确许可的例外继续保留。",
+          "analysis": "为什么值得关注：模型网关、转售渠道和使用模型做训练数据处理的团队，需要结合适用协议核对现有产品与工作流。政策仍允许边界内的研究、评测及产品开发，不能笼统解释为禁止一切模型评测或所有应用集成。",
+          "importance": 4,
+          "importanceReason": "已生效的生态接入与训练用途规则，直接影响部分开发者和渠道。",
+          "tags": [
+            "OpenAI",
+            "使用政策",
+            "模型网关",
+            "API渠道",
+            "训练数据",
+            "生态"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI：使用政策正文及10月21日／11月20日日期",
+              "url": "https://openai.com/policies/usage-policies/"
+            },
+            {
+              "title": "OpenAI：政策更新说明与适用协议例外",
+              "url": "https://help.openai.com/en/articles/12092907-were-updating-our-usage-policies"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：政策正文为文字规则，无适合说明此次生效的事件图片；未用公司标志或无关机房图凑数。"
+        },
+        {
+          "id": "llm-2026-11-21-gemini-tool-retrieval",
+          "title": "Gemini 工具检索进入预览，参数定义改为按需加载",
+          "category": "Google",
+          "eventDate": "2026-11-19",
+          "status": "Interactions API 预览",
+          "summary": "补收11月19日进展：Google 为 Interactions API 推出 Tool Retrieval 预览，支持 Gemini 3.6及后续型号，包括 Gemini 4。开发者加入 tool_search，并为低频函数或远程 MCP 服务器设置 defer_loading，可先保留名称及描述，待需要时再加载完整参数定义。功能本身不另收费，但检索所需固定输入及后来加载的定义仍按模型正常 token 价格计费，不代表所有工具成本消失。",
+          "analysis": "为什么值得关注：工具库较大的智能体可减少未使用定义进入上下文，并保持提示词前缀更稳定。是否省钱、调用选择是否更好都需以自家流量验证；本次是预览功能及厂商机制说明，没有可直接横比其他厂商的独立评测结论。",
+          "importance": 3,
+          "importanceReason": "有直接工程价值的预览功能，收益依赖工具规模及工作负载。",
+          "tags": [
+            "Google",
+            "Gemini",
+            "Tool Retrieval",
+            "Interactions API",
+            "MCP",
+            "智能体",
+            "开发者工具",
+            "预览"
+          ],
+          "sources": [
+            {
+              "title": "Google：Introducing Tool Retrieval in the Gemini API",
+              "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
+            },
+            {
+              "title": "Gemini API：11月19日正式发布日志",
+              "url": "https://aistudio.google.com/docs/changelog#11-19-2026"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：已打开官方文章图片链接，但图片服务返回无法核验为可展示图片的内容类型；不保存未经确认的直链。"
+        }
+      ]
+    },
     {
       "id": "llm-2026-11-20",
       "collectionId": "llm",
