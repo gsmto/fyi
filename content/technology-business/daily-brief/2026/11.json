@@ -2,8 +2,192 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-11",
-  "updatedAt": "2026-11-21T01:00:25Z",
+  "updatedAt": "2026-11-22T01:07:54Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-11-22",
+      "collectionId": "daily-brief",
+      "date": "2026-11-22",
+      "title": "最新资讯｜2026-11-22",
+      "summary": "AI 推理链路隐私调查、Electron 更新工具预览、To Do 迁移安排、育碧 AI 游戏团队独立化，以及比特币反弹中的风险观察。",
+      "analysis": "围绕开发实践、产品依赖与市场波动选取五条；明确预发布、计划及研究局限，避免将转载日当作事件日。",
+      "rawText": "# 最新资讯｜2026-11-22\n\nAI 推理链路隐私调查、Electron 更新工具预览、To Do 迁移安排、育碧 AI 游戏团队独立化，以及比特币反弹中的风险观察。\n\n检索截至北京时间2026年11月22日09:07。五条均未见近期本栏目收录；部分为近几日重要消息补选，以下明确事件与跟进日期。重要性4＝直接影响开发安全与发布链路，3＝重要产品／行业变化或值得持续观察的市场信号。\n\n## 1. AI 推理链路调查发现提示词外流迹象，“零保留”标签仍需核验\n\n**事件／发布日期：2026-11-19｜重要性：4/5**\n\nDragos 11月19日公开研究，7—11月向 AI 服务提交约200万条含独立测试链接和诱饵凭据的提示词，观察到涉及至少三家服务商的数据暴露迹象。研究还发现，部分转售商可通过日志读取请求，以及部分标为零数据保留的链路仍出现后续访问。11月21日 Ars Technica 跟进；这是受控诱饵实验，并非已公布真实客户泄露总量，也不能把问题归于某个路由平台的全部上游。\n\n为什么值得关注：把模型接入应用时，应核对完整上游路径、日志与保留策略，避免让真实密钥进入提示词。研究提示供应链可见性的重要性，但诱饵被访问本身未必足以确认泄露发生在哪一跳。\n\n![Dragos 原始研究图6：按路由划分的诱饵提示词与事件控制台](https://dragos.brightspotcdn.com/dims4/default/66bc558/2147483647/strip/true/crop/2336x1462%2B0%2B0/resize/1440x901%21/format/webp/quality/90/?url=https%3A%2F%2Fdragos-production-dragos.s3.us-west-2.amazonaws.com%2Fbrightspot%2F2c%2Fb2%2F8ee5d66a4e74800c4153576d5a49%2Ffigure-6-console-overview.png)\n\n图片出处：[原始页面](https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens)。研究团队公开的受控实验图表，不代表真实客户泄露规模。\n\n来源：[Dragos 原始研究：Three breaches, endless leaks（11月19日）](https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens)；[Ars Technica 11月21日跟进报道](https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/)。\n\n## 2. Electron 构建与更新工具发布预览版，收紧更新链路规则\n\n**事件／发布日期：2026-11-21｜重要性：4/5**\n\nGitHub 官方仓库11月21日发布 electron-builder 27.0.0-alpha.15 与 electron-updater 7.0.0-alpha.14，均为预发布版本。新版本收紧更新清单、安装包及网络请求校验：包括非本地 HTTP 更新限制、清单大小限制，以及跨源请求头须显式配置等迁移要求。builder 同时加入过滤部分发布凭据向签名及安装工具子进程传递的修复；这不是所有环境变量都已隔离。\n\n为什么值得关注：对 Electron 桌面应用，升级影响实际用户的下载、鉴权和安装路径，值得在发布链路中提前验证。当前仍是 alpha，宜先验证旧版本到新版本的完整更新与回滚流程，不能按普通补丁直接认定兼容。\n\n缺图：发行记录及迁移说明为代码和文字，未找到可验证、能展示此次更新内容的产品图片直链，不以仓库头像凑数。\n\n来源：[GitHub：electron-builder 27.0.0-alpha.15 发行记录](https://github.com/electron-userland/electron-builder/releases/tag/electron-builder%4027.0.0-alpha.15)；[GitHub：electron-updater 7.0.0-alpha.14 发行记录](https://github.com/electron-userland/electron-builder/releases/tag/electron-updater%407.0.0-alpha.14)；[官方 v27 运行时迁移说明](https://www.electron.build/docs/migration/v27-runtime-changes/)；[发布凭据过滤修复 PR #10586](https://github.com/electron-userland/electron-builder/pull/10586)。\n\n## 3. 微软确认 To Do 停用安排，既有任务不会自动迁入 Planner\n\n**事件／发布日期：2026-11-21｜重要性：3/5**\n\n微软11月21日回应 To Do 停用争议；官方支持页确认，各平台 To Do 应用计划于2027年6月30日停用，工作和学校账号改用 Planner，个人账号没有同等官方接替入口。现有任务不会自动迁入新的 Planner 私人计划，导出说明仍待补充；应用停用不等同当天删除全部数据。底层服务、API及同步支持将按另行公布的时间表处理，不应统称为同日全部停服。\n\n为什么值得关注：用户与集成开发者需要分别盘点账号类型、离线能力、共享清单及 API 依赖，避免误以为登录 Planner 就完成迁移。12月开始推出的新“我的任务”体验仍是计划，桌面和离线能力也并非等价替换。\n\n![微软官方 Planner 网页版新版我的任务预览](https://support.microsoft.com/en-us/planner/media/to-do-to-planner/to-do-to-planner-my-tasks.png)\n\n图片出处：[原始页面](https://support.microsoft.com/en-us/planner/to-do-to-planner)。官方预览，设计可能变化，不代表现有 To Do 数据已迁移。\n\n来源：[微软官方：To Do 到 Planner 的变更、数据与 API 时间表](https://support.microsoft.com/en-us/planner/to-do-to-planner)；[IT之家：11月21日微软回应及迁移背景](https://www.ithome.com/1/030/385.htm)。\n\n## 4. 育碧将 Motherbrain 独立为子公司，推进 AI 原生玩法\n\n**事件／发布日期：2026-11-19｜重要性：3/5**\n\n补收11月19日育碧半年度业绩公告：Teammates 实验团队 Motherbrain 已成为专门研发生成式 AI 玩法技术的子公司。公司将其定位为支持游戏创作者的技术团队，方向涉及有记忆的 NPC 与系统性世界体验；组织成立已确认，具体商业产品及发售时间尚未公布。11月21日行业报道继续跟进，不能把既有 Teammates 原型当成当天新发售游戏。\n\n为什么值得关注：它显示大型发行商正将 AI 从资产生产工具推进到游戏运行时与玩法系统。是否形成可交付价值，仍取决于响应延迟、行为可控性、记忆一致性和持续推理成本，组织调整本身不证明技术已成熟。\n\n缺图：已检索 Teammates 相关图片，但候选截图直链实际打开失败；未用旧原型或无关游戏图片冒充本次成立公告配图。\n\n来源：[育碧官方发布：2026—27财年上半年业绩与 Motherbrain 定位](https://www.globenewswire.com/news-release/2026/11/19/3406965/0/en/ubisoft-reports-first-half-2026-27-earnings-figures.html)；[VGC：11月19日成立消息及产品状态](https://www.videogameschronicle.com/news/ubisoft-has-founded-a-studio-dedicated-to-generative-ai-in-games/)。\n\n## 5. 比特币短暂回到6万美元，反弹尚不足以确认风险偏好逆转\n\n**事件／发布日期：2026-11-21｜重要性：3/5**\n\n路透11月21日15:25 UTC报道，比特币在当日15:16 UTC约报60,192.07美元，涨幅约2.14%；此前一天曾跌破57,742美元。该数字是报道时点快照，非本简报生成时实时行情，涨幅口径也不应与日内低点反弹混用。\n\n为什么值得关注：这是风险资产剧烈波动的新增信号，价格重新越过整数关口不等于趋势反转。观察应结合持续成交与资金流，不把一次反弹当作入场依据。\n\n![路透比特币报道配发的加密货币示意图片](https://www.srnnews.com/media/2026/11/1795277104986823Z1xJv6n7Pa.jpg?x54510=&x54510=)\n\n图片出处：[原始页面](https://srnnews.com/bitcoin-rises-over-2-to-more-than-60000/)。报道配图为示意图片，并非实时行情图。\n\n来源：[Reuters：11月21日比特币时点报价](https://www.reuters.com/business/bitcoin-rises-over-2-more-than-60000-2026-11-21/)；[SRN：路透同篇全文转载](https://srnnews.com/bitcoin-rises-over-2-to-more-than-60000/)。",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "生成于2026-11-22T01:07:54Z（UTC），Asia/Shanghai归档。已通过GitHub读取协议、catalog、索引与9—11月文件，按近期报告去重。综合检索全球英文科技与商业媒体、中文科技媒体、GitHub官方发行与研究报告；以近24小时报道和新增进展为线索，明确补收11月19日尚未归档的Dragos研究及育碧公告。Electron版本日期由GitHub API实际核对，未将预发布写为稳定版；To Do最新回应结合官方支持页核对，未把应用、API和数据删除时间混为一谈。比特币采用路透11月21日15:16 UTC报价，原始页面直开失败后以路透检索原文及SRN全文转载交叉核对。图片实际打开验证3张，另外2条缺图原因分别说明；未采用不相关的AI能力图或无法访问的原型截图。",
+      "score": 4,
+      "items": [
+        {
+          "id": "daily-brief-2026-11-22-ai-canary",
+          "title": "AI 推理链路调查发现提示词外流迹象，“零保留”标签仍需核验",
+          "category": "AI / 智能体",
+          "eventDate": "2026-11-19",
+          "summary": "Dragos 11月19日公开研究，7—11月向 AI 服务提交约200万条含独立测试链接和诱饵凭据的提示词，观察到涉及至少三家服务商的数据暴露迹象。研究还发现，部分转售商可通过日志读取请求，以及部分标为零数据保留的链路仍出现后续访问。11月21日 Ars Technica 跟进；这是受控诱饵实验，并非已公布真实客户泄露总量，也不能把问题归于某个路由平台的全部上游。",
+          "analysis": "为什么值得关注：把模型接入应用时，应核对完整上游路径、日志与保留策略，避免让真实密钥进入提示词。研究提示供应链可见性的重要性，但诱饵被访问本身未必足以确认泄露发生在哪一跳。",
+          "importance": 4,
+          "tags": [
+            "AI安全",
+            "Dragos",
+            "推理路由",
+            "数据保留",
+            "开发实践"
+          ],
+          "sources": [
+            {
+              "title": "Dragos 原始研究：Three breaches, endless leaks（11月19日）",
+              "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens"
+            },
+            {
+              "title": "Ars Technica 11月21日跟进报道",
+              "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://dragos.brightspotcdn.com/dims4/default/66bc558/2147483647/strip/true/crop/2336x1462%2B0%2B0/resize/1440x901%21/format/webp/quality/90/?url=https%3A%2F%2Fdragos-production-dragos.s3.us-west-2.amazonaws.com%2Fbrightspot%2F2c%2Fb2%2F8ee5d66a4e74800c4153576d5a49%2Ffigure-6-console-overview.png",
+              "alt": "Dragos 原始研究图6：按路由划分的诱饵提示词与事件控制台",
+              "sourceUrl": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+              "caption": "研究团队公开的受控实验图表，不代表真实客户泄露规模。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-22-electron-builder-alpha",
+          "title": "Electron 构建与更新工具发布预览版，收紧更新链路规则",
+          "category": "软件工程 / 开发工具",
+          "eventDate": "2026-11-21",
+          "summary": "GitHub 官方仓库11月21日发布 electron-builder 27.0.0-alpha.15 与 electron-updater 7.0.0-alpha.14，均为预发布版本。新版本收紧更新清单、安装包及网络请求校验：包括非本地 HTTP 更新限制、清单大小限制，以及跨源请求头须显式配置等迁移要求。builder 同时加入过滤部分发布凭据向签名及安装工具子进程传递的修复；这不是所有环境变量都已隔离。",
+          "analysis": "为什么值得关注：对 Electron 桌面应用，升级影响实际用户的下载、鉴权和安装路径，值得在发布链路中提前验证。当前仍是 alpha，宜先验证旧版本到新版本的完整更新与回滚流程，不能按普通补丁直接认定兼容。",
+          "importance": 4,
+          "tags": [
+            "Electron",
+            "electron-builder",
+            "electron-updater",
+            "GitHub",
+            "开源",
+            "自动更新",
+            "预发布"
+          ],
+          "sources": [
+            {
+              "title": "GitHub：electron-builder 27.0.0-alpha.15 发行记录",
+              "url": "https://github.com/electron-userland/electron-builder/releases/tag/electron-builder%4027.0.0-alpha.15"
+            },
+            {
+              "title": "GitHub：electron-updater 7.0.0-alpha.14 发行记录",
+              "url": "https://github.com/electron-userland/electron-builder/releases/tag/electron-updater%407.0.0-alpha.14"
+            },
+            {
+              "title": "官方 v27 运行时迁移说明",
+              "url": "https://www.electron.build/docs/migration/v27-runtime-changes/"
+            },
+            {
+              "title": "发布凭据过滤修复 PR #10586",
+              "url": "https://github.com/electron-userland/electron-builder/pull/10586"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：发行记录及迁移说明为代码和文字，未找到可验证、能展示此次更新内容的产品图片直链，不以仓库头像凑数。"
+        },
+        {
+          "id": "daily-brief-2026-11-22-todo-retirement",
+          "title": "微软确认 To Do 停用安排，既有任务不会自动迁入 Planner",
+          "category": "全球科技 / 软件产品",
+          "eventDate": "2026-11-21",
+          "summary": "微软11月21日回应 To Do 停用争议；官方支持页确认，各平台 To Do 应用计划于2027年6月30日停用，工作和学校账号改用 Planner，个人账号没有同等官方接替入口。现有任务不会自动迁入新的 Planner 私人计划，导出说明仍待补充；应用停用不等同当天删除全部数据。底层服务、API及同步支持将按另行公布的时间表处理，不应统称为同日全部停服。",
+          "analysis": "为什么值得关注：用户与集成开发者需要分别盘点账号类型、离线能力、共享清单及 API 依赖，避免误以为登录 Planner 就完成迁移。12月开始推出的新“我的任务”体验仍是计划，桌面和离线能力也并非等价替换。",
+          "importance": 3,
+          "tags": [
+            "Microsoft",
+            "To Do",
+            "Planner",
+            "产品迁移",
+            "API",
+            "数据导出"
+          ],
+          "sources": [
+            {
+              "title": "微软官方：To Do 到 Planner 的变更、数据与 API 时间表",
+              "url": "https://support.microsoft.com/en-us/planner/to-do-to-planner"
+            },
+            {
+              "title": "IT之家：11月21日微软回应及迁移背景",
+              "url": "https://www.ithome.com/1/030/385.htm"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://support.microsoft.com/en-us/planner/media/to-do-to-planner/to-do-to-planner-my-tasks.png",
+              "alt": "微软官方 Planner 网页版新版我的任务预览",
+              "sourceUrl": "https://support.microsoft.com/en-us/planner/to-do-to-planner",
+              "caption": "官方预览，设计可能变化，不代表现有 To Do 数据已迁移。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-22-ubisoft-motherbrain",
+          "title": "育碧将 Motherbrain 独立为子公司，推进 AI 原生玩法",
+          "category": "游戏开发 / 行业",
+          "eventDate": "2026-11-19",
+          "summary": "补收11月19日育碧半年度业绩公告：Teammates 实验团队 Motherbrain 已成为专门研发生成式 AI 玩法技术的子公司。公司将其定位为支持游戏创作者的技术团队，方向涉及有记忆的 NPC 与系统性世界体验；组织成立已确认，具体商业产品及发售时间尚未公布。11月21日行业报道继续跟进，不能把既有 Teammates 原型当成当天新发售游戏。",
+          "analysis": "为什么值得关注：它显示大型发行商正将 AI 从资产生产工具推进到游戏运行时与玩法系统。是否形成可交付价值，仍取决于响应延迟、行为可控性、记忆一致性和持续推理成本，组织调整本身不证明技术已成熟。",
+          "importance": 3,
+          "tags": [
+            "Ubisoft",
+            "Motherbrain",
+            "Teammates",
+            "游戏AI",
+            "NPC",
+            "游戏开发"
+          ],
+          "sources": [
+            {
+              "title": "育碧官方发布：2026—27财年上半年业绩与 Motherbrain 定位",
+              "url": "https://www.globenewswire.com/news-release/2026/11/19/3406965/0/en/ubisoft-reports-first-half-2026-27-earnings-figures.html"
+            },
+            {
+              "title": "VGC：11月19日成立消息及产品状态",
+              "url": "https://www.videogameschronicle.com/news/ubisoft-has-founded-a-studio-dedicated-to-generative-ai-in-games/"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：已检索 Teammates 相关图片，但候选截图直链实际打开失败；未用旧原型或无关游戏图片冒充本次成立公告配图。"
+        },
+        {
+          "id": "daily-brief-2026-11-22-bitcoin-rebound",
+          "title": "比特币短暂回到6万美元，反弹尚不足以确认风险偏好逆转",
+          "category": "财经 / 市场",
+          "eventDate": "2026-11-21",
+          "summary": "路透11月21日15:25 UTC报道，比特币在当日15:16 UTC约报60,192.07美元，涨幅约2.14%；此前一天曾跌破57,742美元。该数字是报道时点快照，非本简报生成时实时行情，涨幅口径也不应与日内低点反弹混用。",
+          "analysis": "为什么值得关注：这是风险资产剧烈波动的新增信号，价格重新越过整数关口不等于趋势反转。观察应结合持续成交与资金流，不把一次反弹当作入场依据。",
+          "importance": 3,
+          "tags": [
+            "比特币",
+            "加密资产",
+            "风险偏好",
+            "市场波动"
+          ],
+          "sources": [
+            {
+              "title": "Reuters：11月21日比特币时点报价",
+              "url": "https://www.reuters.com/business/bitcoin-rises-over-2-more-than-60000-2026-11-21/"
+            },
+            {
+              "title": "SRN：路透同篇全文转载",
+              "url": "https://srnnews.com/bitcoin-rises-over-2-to-more-than-60000/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.srnnews.com/media/2026/11/1795277104986823Z1xJv6n7Pa.jpg?x54510=&x54510=",
+              "alt": "路透比特币报道配发的加密货币示意图片",
+              "sourceUrl": "https://srnnews.com/bitcoin-rises-over-2-to-more-than-60000/",
+              "caption": "报道配图为示意图片，并非实时行情图。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "daily-brief-2026-11-21",
       "collectionId": "daily-brief",
