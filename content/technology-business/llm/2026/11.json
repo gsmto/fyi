@@ -2,8 +2,158 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-21T01:23:47Z",
+  "updatedAt": "2026-11-22T01:23:39Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-22",
+      "collectionId": "llm",
+      "date": "2026-11-22",
+      "title": "大模型｜2026-11-22",
+      "summary": "近 24 小时未核得足够重要且未收录的可靠新增；补选近 7 天 4 条：Gemini Mac 电脑操作、Inkling 2 Mini 开放权重、OpenAI 反蒸馏防护与 MedChemBench。",
+      "analysis": "本期重点是本地部署与桌面执行的实际门槛，以及专业评测和安全指标的适用边界。产品开放条件、官方模型自测和真实任务效果应分别判断；未将未核实的数学突破说法或重复上市报道纳入。",
+      "rawText": "# 大模型｜2026-11-22\n\n## 今日重点\n\n近 24 小时未核得足够重要且未收录的可靠新增；补选近 7 天 4 条：Gemini Mac 电脑操作、Inkling 2 Mini 开放权重、OpenAI 反蒸馏防护与 MedChemBench。\n\n检索截至 2026-11-22T01:23:39Z（北京时间当日上午），已读取本栏目近期完整报告去重。以下事件原始公布时间为 11 月 19—20 日，均为近 7 天未收录补选，不把 11 月 21 日转载日期当成首次发布。检索覆盖 OpenAI、Anthropic、Google／Google DeepMind／Gemini、xAI、Meta 与重要开放模型公司；不要求每家公司出现。\n\n## 1. Gemini Mac 电脑操作逐步开放：美国英语、成年个人付费账号适用\n\n事件／发布日期：2026-11-19（近 7 天补选）。状态：逐步开放。\n\nGoogle 11 月 19 日宣布，Gemini Mac 应用可在独立后台窗口操作本地文件、桌面应用和网页，用户可看实时预览、暂停并批准关键动作。首批在美国以英语逐步开放，要求 Apple 芯片 Mac、macOS Sequoia 15.0 及以上，适用于 18 岁以上个人 Google 账号的 AI Plus、Pro、Ultra 订阅用户。该公告描述的是应用层电脑操作功能，不能据此推定全球、免费账号或 API 同步开放。\n\n为什么值得关注／对使用者或开发者的影响：使用者可将跨应用的重复操作交给智能体，但实际能否使用仍取决于地区、账号与推出进度。对桌面工具开发者，它体现了后台独立操作窗口、应用权限和关键步骤审批这一交互方向，完成率仍需真实任务验证。\n\n重要性：4/5。面向真实桌面任务的智能体能力进入订阅产品，使用范围限制明确。\n\n缺图：已打开官方示例配图直链，但端点返回 application/octet-stream，检索工具无法确认其图片内容，未归档该地址。\n\n来源：[Google 官方公告：Gemini Mac 电脑操作及完整脚注条件](https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/)。\n\n## 2. Inkling 2 Mini 开放权重：循环层模型面向本地智能体，Mac 门槛 32GB\n\n事件／发布日期：2026-11-20（近 7 天补选）。状态：已发布开放权重。\n\nThinking Machines Lab 11 月 20 日发布 Inkling 2 Mini，并按 Apache 2.0 开放权重，支持文字和图像输入、文字输出。模型总参数 26.4B，中间层循环三次；官方区分 3.4B 激活参数与计入循环后的每 token 5.4B 有效激活计算，最高上下文为 100 万 token。约 20GB 混合低精度检查点可本地部署，官方列出的 Apple 芯片设备要求为至少 32GB 内存；也提供 Tinker 与第三方 API 渠道。\n\n为什么值得关注／对使用者或开发者的影响：它为本地编程、工具调用与循环架构研究增加一个可下载选项；20GB 权重大小不能当成整机内存需求，更不能保证长上下文流畅运行。官方性能表与“领先”表述需按各自测试框架理解，本期不把不同工具、预算条件下的成绩直接排榜。\n\n重要性：4/5。有明确许可证、权重与本地运行条件的新模型，对本地 AI 与开发工具有实际增量。\n\n![Inkling 2 Mini 官方 Hugging Face 模型卡配图](https://cdn-uploads.huggingface.co/production/uploads/630e8f0bf6f6d700f50ebd2e/AvmDwmrWRMnKjOWvmLieg.png)\n\n图片出处：[官方原始页面](https://huggingface.co/thinkingmachines/Inkling-2-Mini)。官方模型卡配图；其中若涉及性能，按原始评测配置解读，不作为统一条件的独立排名。\n\n来源：[Thinking Machines Lab 官方发布公告（2026-11-20）](https://thinkingmachines.ai/news/inkling-2-mini/)；[官方模型卡：许可证、参数、渠道与硬件条件](https://thinkingmachines.ai/model-card/inkling-2-mini/)；[官方 Hugging Face 权重与部署说明](https://huggingface.co/thinkingmachines/Inkling-2-Mini)。\n\n## 3. OpenAI 披露反蒸馏防护：加强受保护推理提取防御与账号协同检测\n\n事件／发布日期：2026-11-20（近 7 天补选）。状态：已公布研究与防护更新。\n\nOpenAI 11 月 20 日披露结合模型训练、分类器、API 控制和跨账号活动检测的反对抗蒸馏措施，重点保护内部推理轨迹。公司称 GPT-6.2 Astra／Sol 已加强相应防护；在其内部自适应黑盒测试中，提取先前请求推理的平均攻击成功率由旧版防护下 GPT-6 Astra 的 54.0% 降至新版 GPT-6.2 Astra 的 0.2%。这是指定模型和防护组合的厂商测试，不代表现实攻击零风险，也不是独立评测。\n\n为什么值得关注／对使用者或开发者的影响：模型平台与代理工具开发者需要关注工具调用和完整交互中的推理泄露，以及请求级防护与批量滥用检测的配合。公告提供的是安全设计与测试增量，不应把它扩写成新的通用 API 价格或全面使用禁令。\n\n重要性：3/5。披露模型安全与平台防护的具体更新，但效果仍主要来自厂商内部条件。\n\n缺图：官方页面主要以交互图表和文字呈现，本次未找到并验证与该事件直接相关的独立 HTTPS 图片直链。\n\n来源：[OpenAI 官方研究说明与自适应黑盒测试表（2026-11-20）](https://openai.com/index/combatting-adversarial-distillation/)。\n\n## 4. OpenAI 发布 MedChemBench：药物化学推理评测仍暴露选择与预测短板\n\n事件／发布日期：2026-11-20（近 7 天补选）。状态：已公布基准与论文预印本。\n\nOpenAI 11 月 20 日介绍 MedChemBench，以 117 篇论文和专利中的 99 道问题、761 种分子结构，测试结构重建、证据解释、化合物选择与性质预测。厂商报告 GPT-6.2 Astra 在 xhigh 设置取得可得分的 84.5%，不能等同新药发现成功率。测试依据历史资料、单次无工具作答，无法排除模型接触过原始来源；化合物选择和数值预测仍较困难。\n\n为什么值得关注／对使用者或开发者的影响：专业应用开发者可借鉴其把“识别结构、解释证据、做决策”拆开衡量的方式。该结果尚不能证明模型能改善实验室决策或发现有效药物，实际科研仍需要实验反馈和专业复核。\n\n重要性：3/5。新增专业领域评测方法与失败边界，实际科研效益尚待验证。\n\n![OpenAI MedChemBench 官方介绍配图](https://images.ctfassets.net/kftzwdyauwt9/6kbw4PSOhEqlbbiM3ZYhOb/1c770a466f57e0117f970cb124b921ee/introducing-medchembench-header-poster-4k.png?fm=webp&q=50&w=3840)\n\n图片出处：[官方原始页面](https://openai.com/index/introducing-medchembench/)。官方基准介绍配图，不能解读为临床或真实新药发现结果。\n\n来源：[OpenAI 官方介绍与评测局限（2026-11-20）](https://openai.com/index/introducing-medchembench/)；[MedChemBench 原始论文 PDF](https://cdn.openai.com/pdf/09c4ec60-a32e-4652-837b-1811368a3bb0/medchembench-paper.pdf)。\n\n## 持续观察\n\n本期重点是本地部署与桌面执行的实际门槛，以及专业评测和安全指标的适用边界。产品开放条件、官方模型自测和真实任务效果应分别判断；未将未核实的数学突破说法或重复上市报道纳入。\n\n评分说明：4 分代表有明确可用渠道或范围的重要产品／模型增量，3 分代表有参考价值的研究与安全更新；同分按实际使用影响排序。\n",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "真实生成时间 2026-11-22T01:23:39Z。按 Asia/Shanghai 当天归档；重点检索过去24小时，补查2026-11-15至11-22未收录事件。先读取11月近期归档去重，综合中英文发现线索，关键技术与范围核对Google、OpenAI、Thinking Machines Lab官方公告／模型卡／Hugging Face及原始论文；并检索Anthropic、Meta研究页与xAI发布日志。两张配图实际打开确认公开可访问；Google图端点类型无法确认、反蒸馏页无合适直链，分别注明。",
+      "score": 4,
+      "items": [
+        {
+          "id": "llm-2026-11-22-gemini-mac-computer-use",
+          "title": "Gemini Mac 电脑操作逐步开放：美国英语、成年个人付费账号适用",
+          "category": "Google",
+          "eventDate": "2026-11-19",
+          "status": "逐步开放",
+          "summary": "Google 11 月 19 日宣布，Gemini Mac 应用可在独立后台窗口操作本地文件、桌面应用和网页，用户可看实时预览、暂停并批准关键动作。首批在美国以英语逐步开放，要求 Apple 芯片 Mac、macOS Sequoia 15.0 及以上，适用于 18 岁以上个人 Google 账号的 AI Plus、Pro、Ultra 订阅用户。该公告描述的是应用层电脑操作功能，不能据此推定全球、免费账号或 API 同步开放。",
+          "analysis": "使用者可将跨应用的重复操作交给智能体，但实际能否使用仍取决于地区、账号与推出进度。对桌面工具开发者，它体现了后台独立操作窗口、应用权限和关键步骤审批这一交互方向，完成率仍需真实任务验证。",
+          "importance": 4,
+          "importanceReason": "面向真实桌面任务的智能体能力进入订阅产品，使用范围限制明确。",
+          "tags": [
+            "Google",
+            "Gemini",
+            "Mac",
+            "电脑操作",
+            "智能体",
+            "逐步开放"
+          ],
+          "sources": [
+            {
+              "title": "Google 官方公告：Gemini Mac 电脑操作及完整脚注条件",
+              "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：已打开官方示例配图直链，但端点返回 application/octet-stream，检索工具无法确认其图片内容，未归档该地址。"
+        },
+        {
+          "id": "llm-2026-11-22-inkling-2-mini",
+          "title": "Inkling 2 Mini 开放权重：循环层模型面向本地智能体，Mac 门槛 32GB",
+          "category": "其他",
+          "eventDate": "2026-11-20",
+          "status": "已发布开放权重",
+          "summary": "Thinking Machines Lab 11 月 20 日发布 Inkling 2 Mini，并按 Apache 2.0 开放权重，支持文字和图像输入、文字输出。模型总参数 26.4B，中间层循环三次；官方区分 3.4B 激活参数与计入循环后的每 token 5.4B 有效激活计算，最高上下文为 100 万 token。约 20GB 混合低精度检查点可本地部署，官方列出的 Apple 芯片设备要求为至少 32GB 内存；也提供 Tinker 与第三方 API 渠道。",
+          "analysis": "它为本地编程、工具调用与循环架构研究增加一个可下载选项；20GB 权重大小不能当成整机内存需求，更不能保证长上下文流畅运行。官方性能表与“领先”表述需按各自测试框架理解，本期不把不同工具、预算条件下的成绩直接排榜。",
+          "importance": 4,
+          "importanceReason": "有明确许可证、权重与本地运行条件的新模型，对本地 AI 与开发工具有实际增量。",
+          "tags": [
+            "Thinking Machines Lab",
+            "Inkling 2 Mini",
+            "开放权重",
+            "Apache 2.0",
+            "本地部署",
+            "循环Transformer",
+            "智能体"
+          ],
+          "sources": [
+            {
+              "title": "Thinking Machines Lab 官方发布公告（2026-11-20）",
+              "url": "https://thinkingmachines.ai/news/inkling-2-mini/"
+            },
+            {
+              "title": "官方模型卡：许可证、参数、渠道与硬件条件",
+              "url": "https://thinkingmachines.ai/model-card/inkling-2-mini/"
+            },
+            {
+              "title": "官方 Hugging Face 权重与部署说明",
+              "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn-uploads.huggingface.co/production/uploads/630e8f0bf6f6d700f50ebd2e/AvmDwmrWRMnKjOWvmLieg.png",
+              "alt": "Inkling 2 Mini 官方 Hugging Face 模型卡配图",
+              "sourceUrl": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+              "caption": "官方模型卡配图；其中若涉及性能，按原始评测配置解读，不作为统一条件的独立排名。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-22-openai-distillation-defense",
+          "title": "OpenAI 披露反蒸馏防护：加强受保护推理提取防御与账号协同检测",
+          "category": "OpenAI",
+          "eventDate": "2026-11-20",
+          "status": "已公布研究与防护更新",
+          "summary": "OpenAI 11 月 20 日披露结合模型训练、分类器、API 控制和跨账号活动检测的反对抗蒸馏措施，重点保护内部推理轨迹。公司称 GPT-6.2 Astra／Sol 已加强相应防护；在其内部自适应黑盒测试中，提取先前请求推理的平均攻击成功率由旧版防护下 GPT-6 Astra 的 54.0% 降至新版 GPT-6.2 Astra 的 0.2%。这是指定模型和防护组合的厂商测试，不代表现实攻击零风险，也不是独立评测。",
+          "analysis": "模型平台与代理工具开发者需要关注工具调用和完整交互中的推理泄露，以及请求级防护与批量滥用检测的配合。公告提供的是安全设计与测试增量，不应把它扩写成新的通用 API 价格或全面使用禁令。",
+          "importance": 3,
+          "importanceReason": "披露模型安全与平台防护的具体更新，但效果仍主要来自厂商内部条件。",
+          "tags": [
+            "OpenAI",
+            "GPT-6.2 Astra",
+            "GPT-6.2 Sol",
+            "蒸馏",
+            "模型安全",
+            "推理保护",
+            "API"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI 官方研究说明与自适应黑盒测试表（2026-11-20）",
+              "url": "https://openai.com/index/combatting-adversarial-distillation/"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：官方页面主要以交互图表和文字呈现，本次未找到并验证与该事件直接相关的独立 HTTPS 图片直链。"
+        },
+        {
+          "id": "llm-2026-11-22-medchembench",
+          "title": "OpenAI 发布 MedChemBench：药物化学推理评测仍暴露选择与预测短板",
+          "category": "OpenAI",
+          "eventDate": "2026-11-20",
+          "status": "已公布基准与论文预印本",
+          "summary": "OpenAI 11 月 20 日介绍 MedChemBench，以 117 篇论文和专利中的 99 道问题、761 种分子结构，测试结构重建、证据解释、化合物选择与性质预测。厂商报告 GPT-6.2 Astra 在 xhigh 设置取得可得分的 84.5%，不能等同新药发现成功率。测试依据历史资料、单次无工具作答，无法排除模型接触过原始来源；化合物选择和数值预测仍较困难。",
+          "analysis": "专业应用开发者可借鉴其把“识别结构、解释证据、做决策”拆开衡量的方式。该结果尚不能证明模型能改善实验室决策或发现有效药物，实际科研仍需要实验反馈和专业复核。",
+          "importance": 3,
+          "importanceReason": "新增专业领域评测方法与失败边界，实际科研效益尚待验证。",
+          "tags": [
+            "OpenAI",
+            "MedChemBench",
+            "GPT-6.2 Astra",
+            "AI科研",
+            "药物化学",
+            "评测",
+            "预印本"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI 官方介绍与评测局限（2026-11-20）",
+              "url": "https://openai.com/index/introducing-medchembench/"
+            },
+            {
+              "title": "MedChemBench 原始论文 PDF",
+              "url": "https://cdn.openai.com/pdf/09c4ec60-a32e-4652-837b-1811368a3bb0/medchembench-paper.pdf"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.ctfassets.net/kftzwdyauwt9/6kbw4PSOhEqlbbiM3ZYhOb/1c770a466f57e0117f970cb124b921ee/introducing-medchembench-header-poster-4k.png?fm=webp&q=50&w=3840",
+              "alt": "OpenAI MedChemBench 官方介绍配图",
+              "sourceUrl": "https://openai.com/index/introducing-medchembench/",
+              "caption": "官方基准介绍配图，不能解读为临床或真实新药发现结果。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "llm-2026-11-21",
       "collectionId": "llm",
