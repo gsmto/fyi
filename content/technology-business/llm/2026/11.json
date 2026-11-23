@@ -2,8 +2,112 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-22T01:23:39Z",
+  "updatedAt": "2026-11-23T01:27:36Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-23",
+      "collectionId": "llm",
+      "date": "2026-11-23",
+      "title": "大模型｜2026-11-23",
+      "summary": "OpenAI提出困惑度安全标准讨论；补收METR独立能力测量与Google Duplex电话智能体架构说明，共3条。",
+      "analysis": "厂商观点、独立评测与产品技术说明分开；不以困惑度跨实验室硬比，不把任务测量当通用替代工程师结论，不把Tasks扩展等同电话全球可用。",
+      "rawText": "# 大模型｜2026-11-23\n\n精选3条：1条11月22日新增，2条近7天尚未收录的研究与技术说明。Anthropic、xAI、Meta已检索；IPO进展、既有模型发布和一般宣传不为地区或公司配额重复收录。\n\n## 1．OpenAI提出以困惑度辅助行业安全边界，披露内部预训练测量\n\n**发布日期：2026-11-22。**\n\n11月22日，首席科学家Jakub Pachocki提出以困惑度／交叉熵损失辅助跨实验室透明度和安全标准，并公开基于固定内部代码快照的预训练测量。这是研究观点与厂商内部数据披露，并非已达成的行业协议，也不是新模型、API或价格发布。文章承认不同数据集与训练混合使跨实验室比较困难，且思维链推理的能力增益不体现为困惑度降低。\n\n为什么值得关注：安全评估可能需要同时跟踪基础模型进步与下游能力；开发者不能把单项损失值当成实际任务排名。重要性4/5：提出可操作的行业讨论方向，但预测性判断与内部结果尚不能替代独立验证或现行部署要求。\n\n*缺图：网页检索未提供可核验图片直链，进一步获取原页被拒绝；不猜测图表地址，也不用公司通用标志替代事件图。*\n\n来源：[OpenAI首席科学家：Perplexity and Intelligence（11月22日）](https://openai.com/index/perplexity-and-intelligence/)\n\n## 2．METR独立评测：编程表现强，缺少即时反馈时判断仍较弱\n\n**发布日期：2026-11-20。**\n\n近7天补收：METR于11月20日更新公开模型的AI研发相关能力测量，发现模型在其编程和优化任务中通常达到或超过熟练人类，但在缺少清晰经验反馈的判断任务中更弱。报告指出，综合公开前沿能力趋势未显示强烈加速或减速；不同厂商趋势变化对方法选择敏感。测试任务、推理预算和人类基线均有限制，不能据此宣称模型已能替代全部工程师。\n\n为什么值得关注：开发实践应分别验证可自动打分任务与开放式判断，避免让模型自评分代替验收；多智能体也非对所有任务都有收益。重要性4/5：独立测量直接涉及头部模型与智能体可靠性，但不是最新型号的实时榜单，结论限定于报告测试设置。\n\n![METR 2026年11月AI能力测量更新总览图](https://metr.org/assets/images/q4-2026-capability-update/1eb15f15412f8e86.webp)\n\n*图片出处：[METR](https://metr.org/blog/2026-11-20-q4-2026-capability-update/)；图源METR；原图标注CC-BY，未作修改。图中的能力轮廓及趋势是报告测量与示意，不是所有现实任务的统一排名。*\n\n来源：[METR：2026年第四季度能力测量原始报告（11月20日）](https://metr.org/blog/2026-11-20-q4-2026-capability-update/)\n\n## 3．Google详解Gemini电话智能体：统一模型仍需专门语音工程\n\n**发布日期：2026-11-20。**\n\n近7天补收：Google Research在11月20日说明Duplex如何从封闭领域对话系统演进为以Gemini统一理解、规划与对话生成的电话架构。实时电话仍依赖针对噪声、停顿、轮流发言和低延迟优化的声学与节奏模型；每通电话会声明AI身份，商家可退出自动来电。本次新增是技术说明，Tasks此前开放的消息已归档，不把它重复当新上线。\n\n为什么值得关注：语音智能体落地需要模型之外的交互、状态和失败处理工程，公开介绍未给出可供开发者直接调用的新通用电话API。重要性3/5：有实践参考价值；电话功能按地区受限，官方产品页列印第安纳、路易斯安那、明尼苏达、蒙大拿和内布拉斯加州暂不可用，不能由Tasks六国扩展推断全球都可代打。\n\n![Google Duplex电话与Gemini任务系统连接示意图](https://storage.googleapis.com/gweb-research2023-media/original_images/Duplex1-TasksInGeminiHero.png)\n\n*图片出处：[Google Research](https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/)；Google Research官方文章配图；为概念示意，不代表新增API开放。*\n\n来源：[Google Research：Duplex在Gemini中的架构演进（11月20日）](https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/)｜[Google：Tasks产品条件与电话功能地区限制（11月17日，背景）](https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/)\n\n本期没有将研究观点、厂商内部测量或技术说明当作新的API价格及产品可用性承诺；模型选择仍需按自己的任务、成本与可靠性验收。\n",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "生成于2026-11-23T01:27:36Z；Asia/Shanghai 2026-11-23。通过GitHub连接读取docs/ARCHIVING.md、catalog、month schema、llm index与最近8日报告去重，再固定最新main读取月文件。主检索近24小时、补查11月16—23日OpenAI、Anthropic、Google／DeepMind、xAI、Meta的中英文消息；实际打开OpenAI新文、Google Research技术全文与产品脚注、METR研究总览及方法限制、Anthropic newsroom、xAI news和Meta newsroom，并以Google中文官方博客辅助核对既有Neon消息。新收OpenAI11月22日研究观点，补收11月20日METR与Duplex技术内容；不重复Tasks11月17日范围扩展或已报IPO和旧模型，不采Grok 5传闻。OpenAI内部代码测量非跨实验室可比榜，METR限定测试任务及方法，不作模型全能排名。Google图经网页实际打开；METR网页提取实际图址后HTTPS GET200 image/webp并视觉核对原图CC-BY署名，均在rawText与images对应。OpenAI原文未返回图链且直接抓取403，images空并说明。未改变其他栏目、模型前线或任何模型快照，不含凭据及私人标识。",
+      "score": 4,
+      "items": [
+        {
+          "id": "llm-2026-11-23-openai-perplexity",
+          "title": "OpenAI提出以困惑度辅助行业安全边界，披露内部预训练测量",
+          "category": "OpenAI",
+          "publishedAt": "2026-11-22",
+          "summary": "11月22日，首席科学家Jakub Pachocki提出以困惑度／交叉熵损失辅助跨实验室透明度和安全标准，并公开基于固定内部代码快照的预训练测量。这是研究观点与厂商内部数据披露，并非已达成的行业协议，也不是新模型、API或价格发布。文章承认不同数据集与训练混合使跨实验室比较困难，且思维链推理的能力增益不体现为困惑度降低。",
+          "analysis": "为什么值得关注：安全评估可能需要同时跟踪基础模型进步与下游能力；开发者不能把单项损失值当成实际任务排名。重要性4/5：提出可操作的行业讨论方向，但预测性判断与内部结果尚不能替代独立验证或现行部署要求。",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "困惑度",
+            "预训练",
+            "评测",
+            "AI安全"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI首席科学家：Perplexity and Intelligence（11月22日）",
+              "url": "https://openai.com/index/perplexity-and-intelligence/"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：网页检索未提供可核验图片直链，进一步获取原页被拒绝；不猜测图表地址，也不用公司通用标志替代事件图。"
+        },
+        {
+          "id": "llm-2026-11-23-metr-capability-update",
+          "title": "METR独立评测：编程表现强，缺少即时反馈时判断仍较弱",
+          "category": "其他",
+          "publishedAt": "2026-11-20",
+          "summary": "近7天补收：METR于11月20日更新公开模型的AI研发相关能力测量，发现模型在其编程和优化任务中通常达到或超过熟练人类，但在缺少清晰经验反馈的判断任务中更弱。报告指出，综合公开前沿能力趋势未显示强烈加速或减速；不同厂商趋势变化对方法选择敏感。测试任务、推理预算和人类基线均有限制，不能据此宣称模型已能替代全部工程师。",
+          "analysis": "为什么值得关注：开发实践应分别验证可自动打分任务与开放式判断，避免让模型自评分代替验收；多智能体也非对所有任务都有收益。重要性4/5：独立测量直接涉及头部模型与智能体可靠性，但不是最新型号的实时榜单，结论限定于报告测试设置。",
+          "importance": 4,
+          "tags": [
+            "METR",
+            "OpenAI",
+            "Anthropic",
+            "独立评测",
+            "智能体",
+            "软件工程"
+          ],
+          "sources": [
+            {
+              "title": "METR：2026年第四季度能力测量原始报告（11月20日）",
+              "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://metr.org/assets/images/q4-2026-capability-update/1eb15f15412f8e86.webp",
+              "alt": "METR 2026年11月AI能力测量更新总览图",
+              "sourceUrl": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+              "caption": "图源METR；原图标注CC-BY，未作修改。图中的能力轮廓及趋势是报告测量与示意，不是所有现实任务的统一排名。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-23-google-duplex-architecture",
+          "title": "Google详解Gemini电话智能体：统一模型仍需专门语音工程",
+          "category": "Google",
+          "publishedAt": "2026-11-20",
+          "summary": "近7天补收：Google Research在11月20日说明Duplex如何从封闭领域对话系统演进为以Gemini统一理解、规划与对话生成的电话架构。实时电话仍依赖针对噪声、停顿、轮流发言和低延迟优化的声学与节奏模型；每通电话会声明AI身份，商家可退出自动来电。本次新增是技术说明，Tasks此前开放的消息已归档，不把它重复当新上线。",
+          "analysis": "为什么值得关注：语音智能体落地需要模型之外的交互、状态和失败处理工程，公开介绍未给出可供开发者直接调用的新通用电话API。重要性3/5：有实践参考价值；电话功能按地区受限，官方产品页列印第安纳、路易斯安那、明尼苏达、蒙大拿和内布拉斯加州暂不可用，不能由Tasks六国扩展推断全球都可代打。",
+          "importance": 3,
+          "tags": [
+            "Google",
+            "Gemini",
+            "Duplex",
+            "语音智能体",
+            "工程架构"
+          ],
+          "sources": [
+            {
+              "title": "Google Research：Duplex在Gemini中的架构演进（11月20日）",
+              "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/"
+            },
+            {
+              "title": "Google：Tasks产品条件与电话功能地区限制（11月17日，背景）",
+              "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://storage.googleapis.com/gweb-research2023-media/original_images/Duplex1-TasksInGeminiHero.png",
+              "alt": "Google Duplex电话与Gemini任务系统连接示意图",
+              "sourceUrl": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+              "caption": "Google Research官方文章配图；为概念示意，不代表新增API开放。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "llm-2026-11-22",
       "collectionId": "llm",
