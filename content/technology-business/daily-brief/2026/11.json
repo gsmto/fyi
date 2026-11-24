@@ -2,8 +2,188 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-11",
-  "updatedAt": "2026-11-23T01:00:21Z",
+  "updatedAt": "2026-11-24T01:01:29Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-11-24",
+      "collectionId": "daily-brief",
+      "date": "2026-11-24",
+      "title": "最新资讯｜2026-11-24",
+      "summary": "CrowdStrike拟收购Zscaler；Shirudo开源临时防护；DeepMind开放Lean量子验证库；GitHub任务状态预览；补收Mailchimp交易。",
+      "analysis": "安全基础设施与智能体工作流成为本期主线；区分预发布、受控测试、形式化资源估计和真实部署，交易均保留待审批交割状态，不把时点市场反应当长期趋势。",
+      "rawText": "# 最新资讯｜2026-11-24\n\n精选5条，按重要程度排序：4条以11月23日正式发布为核心，另补收1条11月19日未归档的重大软件交易。结合公司公告、原始论文与开源仓库，并交叉核对中文财经报道；日期均按原始事件标注。\n\n## 1．CrowdStrike拟以约439亿美元收购Zscaler，网络安全平台继续整合\n\n**事件／发布日期：2026-11-23。**\n\n11月23日双方宣布签署全股票收购协议：Zscaler每股拟换取1.135股CrowdStrike股票，交易企业价值约439亿美元，基于11月20日股价计算。预计于CrowdStrike 2028财年下半年完成，尚需股东、监管等批准，交割前两家公司继续独立运营。双方计划结合终端防护、云安全和零信任网络连接能力，协同收益仍是前瞻目标。\n\n为什么值得关注：大型企业安全采购可能更集中于统一平台，客户需关注集成路线、合同与迁移成本；对投资者而言，全股票交易价值随股价变化，签约不等于交割。重要性5/5：交易规模及安全基础设施影响显著，不以盘前波动推断长期回报。\n\n![财联社11月23日CrowdStrike收购Zscaler报道配图](https://image.cls.cn/images/20261123/h971mDrCE0_1414x580.png)\n\n*图片出处：[财联社：交易条件、平台定位与交割前独立运营](https://api3.cls.cn/share/article/2542085?app=&os=CailianpressWeb&sv=815)；图源：财联社对应收购报道；时点市场信息不代表交易已完成。*\n\n来源：[CrowdStrike：11月23日并购正式公告](https://www.crowdstrike.com/en-us/press-releases/crowdstrike-to-acquire-zscaler-bringing-network-security-and-zero-trust-to-the-falcon-platform/)｜[财联社：交易条件、平台定位与交割前独立运营](https://api3.cls.cn/share/article/2542085?app=&os=CailianpressWeb&sv=815)\n\n## 2．OpenAI与Cisco开源Shirudo，在补丁部署前测试临时防护\n\n**事件／发布日期：2026-11-23。**\n\n11月23日发布的Shirudo利用eBPF和签名微补丁，对运行中的Linux系统施加定向防护；厂商受控测试中，Codex生成的防护拦截了针对Elasticsearch的Java4Shell利用。部署仍由安全团队批准，不是智能体自动获得生产权限。官方仓库明确项目处于预发布，生产目标需要带signed-loader ABI及项目补丁的Linux内核和TPM 2.0；“运行中防护无需重启”不等于初始部署没有要求。\n\n为什么值得关注：提供“发现漏洞—生成防护—验证合法业务—授权部署”的开源工程路径，适合先在虚拟机评估，仍需永久补丁与兼容性测试。重要性4/5：直接连接AI防御与Linux基础设施，但单个受控案例不证明能防住全部攻击。\n\n![Shirudo官方仓库项目标识](https://raw.githubusercontent.com/shirudo-dev/shirudo/main/Documentation/logos/shirudo-horizontal-for-light-back.png)\n\n*图片出处：[Shirudo官方仓库：预发布状态、生产要求与许可](https://github.com/shirudo-dev/shirudo)；图源：Shirudo官方仓库；项目标识，并非测试结果图。*\n\n来源：[OpenAI：11月23日Shirudo发布与受控测试](https://openai.com/index/introducing-shirudo/)｜[Shirudo官方仓库：预发布状态、生产要求与许可](https://github.com/shirudo-dev/shirudo)\n\n## 3．DeepMind开源量子程序验证库，把智能体搜索接到Lean证明\n\n**事件／发布日期：2026-11-23。**\n\nGoogle DeepMind于11月23日介绍Gemini 4智能体团队优化量子算法，并开放Lean 4库、问题规格与验证解。原始预印本11月6日提交、16日修订，并非今日新论文；厂商报告融合能相关电路的计算资源成本降低约11.8倍。这里是形式化规格下的正确性与资源计数，运行科学模拟仍需超出现阶段硬件的资源，不能写成现实量子计算已提速11.8倍。\n\n为什么值得关注：对可形式化问题，可让AI探索方案、由证明器提供检查依据；这种方法值得开发工具与科研工程借鉴，收益取决于规格是否准确覆盖目标。重要性4/5：有可检查的开源产物，区别于单纯展示回答，但成果尚属预印本及厂商研究。\n\n![Google DeepMind量子算法与形式化验证研究官方配图](https://lh3.googleusercontent.com/ppTuFPcwer2JwP-NysiQGW7mZrWpEmV6QsV_YD6IJn-skKzS1jTbtLbietmjpGkVxUOZBn3jQaCKfzcJVVR1FvvS-3QglWPDyh520ZSF7tvsHtdy=w1440-h810-n-nu)\n\n*图片出处：[Google DeepMind：11月23日技术公布与开源](https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/)；Google DeepMind文章配图；为研究示意，不是量子硬件运行实测。*\n\n来源：[Google DeepMind：11月23日技术公布与开源](https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/)｜[arXiv原始预印本：11月6日提交、16日修订](https://arxiv.org/abs/2611.09822)｜[官方Lean 4库：代码、问题规格及已验证解](https://github.com/google-deepmind/formal-quantum-computation)\n\n## 4．GitHub公开预览Issue状态与仓库看板，智能体可通过API读写进度\n\n**事件／发布日期：2026-11-23。**\n\n11月23日GitHub将Issue状态与仓库看板列为公开预览，状态可表达Backlog、Todo、In progress、In review等阶段，并支持在看板拖动更新。GraphQL、REST及MCP可读取、设置状态；分配智能体或关联PR也能触发自动更新。同名的GitHub Project状态可同步，Issue字段不再必须先映射类型才能添加。\n\n为什么值得关注：人和智能体能共享更细的任务状态，减少只靠标签或“开／关”判断进度；接入时应核对预览功能权限及自动转换，避免自建同步与内置规则互相覆盖。重要性3/5：对日常仓库协作直接有用，仍是公开预览而非所有企业部署都已正式可用。\n\n![GitHub官方展示Issue状态下拉菜单中选择In progress](https://github.blog/wp-content/uploads/2026/11/716292665-b61bd263-dd28-430c-a147-fa22594ac67f.png?resize=1720%2C1000)\n\n*图片出处：[GitHub Changelog：Issue状态与仓库看板公开预览](https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview/)*\n\n来源：[GitHub Changelog：Issue状态与仓库看板公开预览](https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview/)\n\n## 5．Mailchimp拟以36.8亿美元转手Bending Spoons，交易尚未完成\n\n**事件／发布日期：2026-11-19。**\n\n补收近7天未归档事件：11月19日Intuit与Bending Spoons宣布Mailchimp出售协议，交易价值约36.8亿美元，计划2027年初交割，仍需监管等条件。Intuit的10-Q列示约33.1亿美元现金和3.68亿美元Bending Spoons股票，股权最终价值在交割时确定。买方新闻稿将安排描述为现金收购并由Intuit再投资部分款项，本期以财务申报说明实际对价构成，不把不同表述当两笔收购。\n\n为什么值得关注：邮件营销服务的所有权与产品整合方向可能变化，使用者宜持续关注正式的价格、服务及数据条款公告，当前不能推定会涨价或停服。重要性3/5：成熟软件继续并入收购平台，适合观察客户黏性与整合兑现，不是11月23日才签约的新消息。\n\n*缺图：交易双方原始公告及财务申报未提供已确认可用的交易相关图片，未使用付费媒体照片或无关界面凑数。*\n\n来源：[Bending Spoons：11月19日Mailchimp收购协议](https://investors.bendingspoons.com/newsroom/bending-spoons-to-acquire-mailchimp)｜[Intuit原始10-Q：对价构成与交割条件（附注14）](https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000045/intu-20261031.htm)\n",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "生成于2026-11-24T01:01:29Z；Asia/Shanghai 2026-11-24晨间。GitHub连接读取协议、catalog、栏目index、月schema及11月最近7日报告去重，后固定最新main读取11、10、9月与索引。主检索近24小时英文与中文AI、工程、游戏及商业金融消息，补查近7天；实际打开OpenAI Shirudo正文与官方GitHub README、Google DeepMind11月23日介绍及arXiv原稿和Lean库、GitHub11月23日Changelog、财联社11月23日收购全文、Bending Spoons11月19日原始公告和Intuit10-Q附注14。CrowdStrike正式网页与IR PDF打开失败，检索返回公告条款并与财联社、路透及公开申报检索交叉核对，未引用单日股价作趋势。量子论文6日提交16日修订，23日为研究介绍及开源宣布，明确非新论文与实机结果；Shirudo预发布、内核与TPM条件纳入摘要。Mailchimp对价采用申报现金与股票构成，解释买方公告现金及再投资口径。4图：财联社交易配图、GitHub预览截图、DeepMind官方研究图经网页实际打开；Shirudo官方仓库观察到的原始标识路径经HTTPS GET200 image/png确认。Mailchimp无合适交易图，images空并注明。未重收昨日OpenAI困惑度或服务器提价，未采数学证明轰动传闻、泄露移植或营销榜单。未记录私人标识或凭据。",
+      "score": 4,
+      "items": [
+        {
+          "id": "daily-brief-2026-11-24-crowdstrike-zscaler",
+          "title": "CrowdStrike拟以约439亿美元收购Zscaler，网络安全平台继续整合",
+          "category": "全球科技与商业",
+          "eventDate": "2026-11-23",
+          "summary": "11月23日双方宣布签署全股票收购协议：Zscaler每股拟换取1.135股CrowdStrike股票，交易企业价值约439亿美元，基于11月20日股价计算。预计于CrowdStrike 2028财年下半年完成，尚需股东、监管等批准，交割前两家公司继续独立运营。双方计划结合终端防护、云安全和零信任网络连接能力，协同收益仍是前瞻目标。",
+          "analysis": "为什么值得关注：大型企业安全采购可能更集中于统一平台，客户需关注集成路线、合同与迁移成本；对投资者而言，全股票交易价值随股价变化，签约不等于交割。重要性5/5：交易规模及安全基础设施影响显著，不以盘前波动推断长期回报。",
+          "importance": 5,
+          "tags": [
+            "CrowdStrike",
+            "Zscaler",
+            "网络安全",
+            "并购",
+            "市场"
+          ],
+          "sources": [
+            {
+              "title": "CrowdStrike：11月23日并购正式公告",
+              "url": "https://www.crowdstrike.com/en-us/press-releases/crowdstrike-to-acquire-zscaler-bringing-network-security-and-zero-trust-to-the-falcon-platform/"
+            },
+            {
+              "title": "财联社：交易条件、平台定位与交割前独立运营",
+              "url": "https://api3.cls.cn/share/article/2542085?app=&os=CailianpressWeb&sv=815"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://image.cls.cn/images/20261123/h971mDrCE0_1414x580.png",
+              "alt": "财联社11月23日CrowdStrike收购Zscaler报道配图",
+              "sourceUrl": "https://api3.cls.cn/share/article/2542085?app=&os=CailianpressWeb&sv=815",
+              "caption": "图源：财联社对应收购报道；时点市场信息不代表交易已完成。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-24-shirudo",
+          "title": "OpenAI与Cisco开源Shirudo，在补丁部署前测试临时防护",
+          "category": "AI／智能体与安全",
+          "eventDate": "2026-11-23",
+          "summary": "11月23日发布的Shirudo利用eBPF和签名微补丁，对运行中的Linux系统施加定向防护；厂商受控测试中，Codex生成的防护拦截了针对Elasticsearch的Java4Shell利用。部署仍由安全团队批准，不是智能体自动获得生产权限。官方仓库明确项目处于预发布，生产目标需要带signed-loader ABI及项目补丁的Linux内核和TPM 2.0；“运行中防护无需重启”不等于初始部署没有要求。",
+          "analysis": "为什么值得关注：提供“发现漏洞—生成防护—验证合法业务—授权部署”的开源工程路径，适合先在虚拟机评估，仍需永久补丁与兼容性测试。重要性4/5：直接连接AI防御与Linux基础设施，但单个受控案例不证明能防住全部攻击。",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "Cisco",
+            "Shirudo",
+            "eBPF",
+            "Linux",
+            "开源"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI：11月23日Shirudo发布与受控测试",
+              "url": "https://openai.com/index/introducing-shirudo/"
+            },
+            {
+              "title": "Shirudo官方仓库：预发布状态、生产要求与许可",
+              "url": "https://github.com/shirudo-dev/shirudo"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/shirudo-dev/shirudo/main/Documentation/logos/shirudo-horizontal-for-light-back.png",
+              "alt": "Shirudo官方仓库项目标识",
+              "sourceUrl": "https://github.com/shirudo-dev/shirudo",
+              "caption": "图源：Shirudo官方仓库；项目标识，并非测试结果图。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-24-verified-quantum-agents",
+          "title": "DeepMind开源量子程序验证库，把智能体搜索接到Lean证明",
+          "category": "AI／研究与开源",
+          "eventDate": "2026-11-23",
+          "summary": "Google DeepMind于11月23日介绍Gemini 4智能体团队优化量子算法，并开放Lean 4库、问题规格与验证解。原始预印本11月6日提交、16日修订，并非今日新论文；厂商报告融合能相关电路的计算资源成本降低约11.8倍。这里是形式化规格下的正确性与资源计数，运行科学模拟仍需超出现阶段硬件的资源，不能写成现实量子计算已提速11.8倍。",
+          "analysis": "为什么值得关注：对可形式化问题，可让AI探索方案、由证明器提供检查依据；这种方法值得开发工具与科研工程借鉴，收益取决于规格是否准确覆盖目标。重要性4/5：有可检查的开源产物，区别于单纯展示回答，但成果尚属预印本及厂商研究。",
+          "importance": 4,
+          "tags": [
+            "Google DeepMind",
+            "Gemini 4",
+            "Lean 4",
+            "量子计算",
+            "形式化验证"
+          ],
+          "sources": [
+            {
+              "title": "Google DeepMind：11月23日技术公布与开源",
+              "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+            },
+            {
+              "title": "arXiv原始预印本：11月6日提交、16日修订",
+              "url": "https://arxiv.org/abs/2611.09822"
+            },
+            {
+              "title": "官方Lean 4库：代码、问题规格及已验证解",
+              "url": "https://github.com/google-deepmind/formal-quantum-computation"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://lh3.googleusercontent.com/ppTuFPcwer2JwP-NysiQGW7mZrWpEmV6QsV_YD6IJn-skKzS1jTbtLbietmjpGkVxUOZBn3jQaCKfzcJVVR1FvvS-3QglWPDyh520ZSF7tvsHtdy=w1440-h810-n-nu",
+              "alt": "Google DeepMind量子算法与形式化验证研究官方配图",
+              "sourceUrl": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+              "caption": "Google DeepMind文章配图；为研究示意，不是量子硬件运行实测。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-24-github-issue-status",
+          "title": "GitHub公开预览Issue状态与仓库看板，智能体可通过API读写进度",
+          "category": "软件工程／开发工具",
+          "eventDate": "2026-11-23",
+          "summary": "11月23日GitHub将Issue状态与仓库看板列为公开预览，状态可表达Backlog、Todo、In progress、In review等阶段，并支持在看板拖动更新。GraphQL、REST及MCP可读取、设置状态；分配智能体或关联PR也能触发自动更新。同名的GitHub Project状态可同步，Issue字段不再必须先映射类型才能添加。",
+          "analysis": "为什么值得关注：人和智能体能共享更细的任务状态，减少只靠标签或“开／关”判断进度；接入时应核对预览功能权限及自动转换，避免自建同步与内置规则互相覆盖。重要性3/5：对日常仓库协作直接有用，仍是公开预览而非所有企业部署都已正式可用。",
+          "importance": 3,
+          "tags": [
+            "GitHub",
+            "Issues",
+            "看板",
+            "MCP",
+            "API",
+            "公开预览"
+          ],
+          "sources": [
+            {
+              "title": "GitHub Changelog：Issue状态与仓库看板公开预览",
+              "url": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://github.blog/wp-content/uploads/2026/11/716292665-b61bd263-dd28-430c-a147-fa22594ac67f.png?resize=1720%2C1000",
+              "alt": "GitHub官方展示Issue状态下拉菜单中选择In progress",
+              "sourceUrl": "https://github.blog/changelog/2026-11-23-issue-statuses-and-repository-boards-are-in-public-preview/"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-24-mailchimp-agreement",
+          "title": "Mailchimp拟以36.8亿美元转手Bending Spoons，交易尚未完成",
+          "category": "财经／软件商业",
+          "eventDate": "2026-11-19",
+          "summary": "补收近7天未归档事件：11月19日Intuit与Bending Spoons宣布Mailchimp出售协议，交易价值约36.8亿美元，计划2027年初交割，仍需监管等条件。Intuit的10-Q列示约33.1亿美元现金和3.68亿美元Bending Spoons股票，股权最终价值在交割时确定。买方新闻稿将安排描述为现金收购并由Intuit再投资部分款项，本期以财务申报说明实际对价构成，不把不同表述当两笔收购。",
+          "analysis": "为什么值得关注：邮件营销服务的所有权与产品整合方向可能变化，使用者宜持续关注正式的价格、服务及数据条款公告，当前不能推定会涨价或停服。重要性3/5：成熟软件继续并入收购平台，适合观察客户黏性与整合兑现，不是11月23日才签约的新消息。",
+          "importance": 3,
+          "tags": [
+            "Mailchimp",
+            "Intuit",
+            "Bending Spoons",
+            "SaaS",
+            "并购"
+          ],
+          "sources": [
+            {
+              "title": "Bending Spoons：11月19日Mailchimp收购协议",
+              "url": "https://investors.bendingspoons.com/newsroom/bending-spoons-to-acquire-mailchimp"
+            },
+            {
+              "title": "Intuit原始10-Q：对价构成与交割条件（附注14）",
+              "url": "https://investors.intuit.com/sec-filings/all-sec-filings/content/0000896878-26-000045/intu-20261031.htm"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：交易双方原始公告及财务申报未提供已确认可用的交易相关图片，未使用付费媒体照片或无关界面凑数。"
+        }
+      ]
+    },
     {
       "id": "daily-brief-2026-11-23",
       "collectionId": "daily-brief",
