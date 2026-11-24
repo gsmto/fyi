@@ -2,8 +2,252 @@
   "schemaVersion": 1,
   "collectionId": "games",
   "month": "2026-11",
-  "updatedAt": "2026-11-23T01:13:45Z",
+  "updatedAt": "2026-11-24T01:15:45Z",
   "briefs": [
+    {
+      "id": "games-2026-11-24",
+      "collectionId": "games",
+      "date": "2026-11-24",
+      "title": "游戏｜2026-11-24",
+      "summary": "精选6条国外实质进展：群星Willpower发售、GTA VI的PS5新使用数据、Acts of Blood及Acacia延期、The Regreening定档、INDIE Live Expo新阵容；国内无符合标准的重要未归档新增。",
+      "analysis": "优先官方公告和商店，区分玩家数与销量、试玩与正式发售、公布日期与发售日期；旧商店日期与新公告冲突明确说明。",
+      "rawText": "# 游戏｜2026-11-24\n\n## 今日重点\n\n今日精选6条，按重要程度排列：《群星》扩展正式上线、《GTA VI》新增PS5使用数据，以及延期、独立游戏定档和展示会阵容。优先生成前24小时公告；《Acts of Blood》为11月22日未收录事件补收。重要性4分指大型作品／平台的实质变化，3分指明确排期、独立作品与集中展示窗口。\n\n## 国内\n\n已检索中文游戏媒体与近7日国内单机、PC及主机线索。今日未核得足够重要且未归档的新增；不重报《时空低语》《怪物猎人：旅人》等已收录事件，也不以移动端日常运营或普通促销补位。\n\n## 国外\n\n### 1．《群星：Willpower》正式发售，情景功能另延至2027年\n\n**事件／发布日期：2026-11-23（官方发售公告）。**\n\n![《Stellaris: Willpower》官方商店横幅](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4241440/fb25001895de76e36e82311eda81104b10e2c507/header.jpg?t=1795442236)\n\n*图片出处：[原页面](https://store.steampowered.com/app/4241440/Stellaris_Willpower/)。*\n\nParadox与Abrakam联合开发的新扩展已登陆PC，引入跨国界传播的意识形态、可迁移星海殿堂、三种起源及新胜利路线；免费4.6“Corona Borealis”更新同日推出。需拥有《群星》本体，Steam列有Windows、macOS及Linux支持；本次不能视为主机版同步更新。官方另外确认，情景功能不在4.6内，现计划随2027年第一季度4.7推出。\n\n**为什么值得关注：**对老玩家是实质性的策略体系扩展；更新与付费内容、未来情景包须分开判断。首发用户评价仍少，不据此归纳稳定评测共识，使用模组者宜先核版本兼容。\n\n来源：[Paradox：正式发售与免费更新公告](https://www.paradoxinteractive.com/media/press-releases/paradox-interactive/new-willpower-expansion-available-today-for-stellaris)｜[官方Steam公告：Willpower上线与Scenarios延期](https://steamcommunity.com/app/281990/allnews/)｜[Steam：Willpower商店与系统支持](https://store.steampowered.com/app/4241440/Stellaris_Willpower/)。\n\n### 2．索尼公布《GTA VI》PS5首发窗口3900万独立玩家\n\n**事件／发布日期：2026-11-23（索尼公告）；统计期11月19—22日。**\n\n![PlayStation官方《GTA VI》首发数据公告配图](https://blog.playstation.com/tachyon/2026/11/fd8023623ccb61c2b195870ea714209ebf52e951.jpg?crop_strategy=smart&resize=1088%2C612)\n\n*图片出处：[原页面](https://blog.playstation.com/2026/11/23/thank-you-for-making-grand-theft-auto-vi-the-biggest-launch-in-playstation-history/)。*\n\nSIE称《GTA VI》在PS5已有超过3900万独立玩家，累计游玩6.83亿小时、人均17.4小时，并刷新PlayStation游戏同时在线纪录。数据来自SIE内部统计，覆盖11月19—22日；它是玩家数而非售出份数，也不是独立审计。《GTA VI》已于11月19日登陆PS5与Xbox Series，本次新增指标仅限PS5。\n\n**为什么值得关注：**这是继已归档首日销售额之后的新平台使用数据，显示大型单机内容对主机活跃度的拉动。不能把玩家账号数直接换算销量、收入或新增主机销量，也不据此推定PC版本日期。\n\n来源：[PlayStation.Blog：官方首发窗口数据](https://blog.playstation.com/2026/11/23/thank-you-for-making-grand-theft-auto-vi-the-biggest-launch-in-playstation-history/)｜[Gematsu：PS5玩家数及平台背景](https://www.gematsu.com/2026/11/grand-theft-auto-vi-for-ps5-tops-39-million-players)。\n\n### 3．印尼动作游戏《Acts of Blood》PC版延期至2027年春\n\n**事件／发布日期：2026-11-22（Steam官方公告，近7日补收）；11月23日媒体跟进。**\n\n![《Acts of Blood》官方Steam社区封面](https://shared.akamai.steamstatic.com/community_assets/images/apps/3031890/7827f75c8f002d8efe1c2da49da7b100797587c2.jpg)\n\n*图片出处：[原页面](https://steamcommunity.com/app/3031890/allnews/)。*\n\nEksil Team确认，原定12月推出的PC／Steam版延至2027年春，理由是玩家、测试者和团队反馈中仍有需要改进的问题，具体日子未定。Gematsu补充，原排期为12月4日，PS5与Xbox Series版本仍列2027年；公告没有确认主机与PC同日发售。开发团队位于印尼，Big Fan负责发行；Steam商店仍显示旧的“2026年12月”，应以较新官方公告为准。\n\n**为什么值得关注：**对计划年末体验近身格斗与环境互动的玩家，延期比旧商店日期更有实际意义。额外开发时间是团队解释，尚不能保证完成质量，也不应把春季窗口写成确定某日。\n\n来源：[Eksil Team：Steam发售日更新公告](https://steamcommunity.com/app/3031890/allnews/)｜[Gematsu：延期与主机排期](https://www.gematsu.com/2026/11/acts-of-blood-for-pc-delayed-to-spring-2027)｜[Steam：仍残留旧日期的商店页](https://store.steampowered.com/app/3031890/Acts_of_Blood/)。\n\n### 4．Acacia两作延期，Steam新日期将分两场公布\n\n**事件／发布日期：2026-11-23（官方通知及日英媒体报道）。**\n\n![《魔法少女ノ因習村》官方主视觉](https://mahoumura.com/wp-content/themes/original/images/top.webp)\n\n*图片出处：[原页面](https://mahoumura.com/)；本图对应两作中的《魔法少女ノ因習村》。。*\n\n日本Acacia宣布《魔法少女ノ因習村》《配信少女ノ裏垢迷宮》均离开原2026年档期：前者正在面向2027年做最终调整，后者新发售时间仍未公布。两作均规划PC／Steam和Nintendo Switch；《配信少女》将于11月27日20:00日本时间（北京时间19:00）直播公布Steam日期，《因習村》则于12月1日公布Steam日期。两场都是“公布日期”的节点，并非游戏发售日，Switch新排期仍未确认。\n\n**为什么值得关注：**关注叙事冒险与迷宫RPG的玩家应更新日历，不能将Steam信息自动套用到Switch。两作合并为一条开发品牌排期变化，避免把同批公告拆开凑数。\n\n来源：[《魔法少女ノ因習村》官网：发售时期变更](https://mahoumura.com/)｜[《配信少女ノ裏垢迷宮》官网：发售时期变更](https://hanoura-maze.com/)｜[电击Online：11月23日延期报道](https://dengekionline.com/article/202611/94830)。\n\n### 5．生态修复独立游戏《The Regreening》定档12月7日\n\n**事件／发布日期：2026-11-23（发行公告）。**\n\n![《The Regreening》官方商店横幅](https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419080/9e468a5e5e90ac7b03d44a036d28122a4998a7ed/header.jpg?t=1794321912)\n\n*图片出处：[原页面](https://store.steampowered.com/app/3419080/The_Regreening/)。*\n\n德国汉堡团队Positive Impact Games与发行商ByteRockers’ Games宣布，本作12月7日登陆PC／Steam；商店同步列出该日期，目前仍未正式发售。玩法围绕种植、恢复动物栖息地、回收制作与自然精灵互动，采用无计时压力的生态修复体验，现有试玩可供尝试。Steam另列Gamirror Games参与发行，属德国开发、中国发行伙伴参与的跨国合作，本报按主要开发团队列“国外”。\n\n**为什么值得关注：**对温馨模拟与环境叙事玩家，这是明确且临近的独立游戏排期。现阶段玩法介绍主要来自厂商，试玩能帮助判断节奏，不能据此宣称已获优秀口碑或确认主机版本。\n\n来源：[发行方新闻稿：Games Press托管（11月23日）](https://www.gamespress.com/en-US/Trade-Crime-for-Cozy-Restoration-when-The-Regreening-Launches-on-Steam)｜[Steam：日期、试玩及开发发行信息](https://store.steampowered.com/app/3419080/The_Regreening/)。\n\n### 6．INDIE Live Expo公布逾百项内容规模，12月1日播出\n\n**事件／发布日期：2026-11-23（新阵容与节目内容预告）。**\n\n![INDIE Live Expo 2026年12月1日节目主视觉](https://cdn.theouterhaven.net/wp-content/uploads/2026/11/ILE2026121_KeyVisual.jpeg)\n\n*图片出处：[原页面](https://www.theouterhaven.net/indie-live-expo-returns-december-1st/)。*\n\n日本Ryu’s office主办的INDIE Live Expo确认，12月1日节目将带来超过100项独立游戏首曝、更新与新闻，并预告《Dressmaker》《Ember & Blade》等作品内容。北京时间12月1日18:00开播，提供中、英、日、韩语言节目，渠道包括YouTube、Steam与bilibili等。举办日期此前已公布，本次新增是阵容与节目规模；“100项”不能解读为100款新作正式发售。\n\n**为什么值得关注：**它是近期追踪小团队PC与主机作品的集中窗口，也便于开发者观察不同玩法与展示方式。节目尚未举行，具体平台、试玩及发售承诺须等待各项目正式公告；涉及多国作品，本条按日本主办方列“国外”。\n\n来源：[INDIE Live Expo官方站：12月1日场次](https://indie.live-expo.games/en/)｜[Gematsu：11月23日阵容与规模公告](https://www.gematsu.com/2026/11/indie-live-expo-december-1-2026-to-feature-more-than-100-games)｜[The Outerhaven：主办方新闻稿、时区和频道](https://www.theouterhaven.net/indie-live-expo-returns-december-1st/)。\n\n接下来优先跟进《群星》更新稳定性、Acacia两场Steam定档公告，以及12月独立游戏展示的实际试玩与平台信息。延期公告、未来计划与已发布内容各自标注，不将厂商玩法介绍当成独立评测结论。\n",
+      "completeness": "full",
+      "sourceConversation": "游戏",
+      "provenance": "生成于2026-11-24T01:15:45Z；Asia/Shanghai 2026-11-24。通过GitHub读取协议、catalog、栏目索引及11月近期归档去重。检索生成前24小时，补查11月17—24日国内外单机／主机／PC游戏；覆盖IT之家、游民、3DM、17173、Gematsu、电击Online及Steam、PlayStation、发行方官方网站与新闻稿。实际打开Paradox11月23日发售公告及Steam社区完整发布说明、DLC商店；SIE首发统计原文；Eksil Team11月22日Steam延期原文与商店旧日期；Acacia两游戏官网延期通知及电击报道；The Regreening厂商托管新闻稿及商店；INDIE Live Expo官网与Gematsu／Outerhaven阵容稿。Acts of Blood为近7日未归档补收；国内线索中旧公告及移动运营等未入选。X公告打开403时改用游戏官网及Steam原文，不以访问失败推断内容。6张真实HTTPS图片均由已打开来源点击发现并实际打开显示，非签名链接，结构化与Markdown一一对应。地域按主开发团队或主办主体，跨国发行注明；未记录私人标识。",
+      "score": 4,
+      "items": [
+        {
+          "id": "games-2026-11-24-stellaris-willpower",
+          "title": "《群星：Willpower》正式发售，情景功能另延至2027年",
+          "category": "国外",
+          "summary": "Paradox与Abrakam联合开发的新扩展已登陆PC，引入跨国界传播的意识形态、可迁移星海殿堂、三种起源及新胜利路线；免费4.6“Corona Borealis”更新同日推出。需拥有《群星》本体，Steam列有Windows、macOS及Linux支持；本次不能视为主机版同步更新。官方另外确认，情景功能不在4.6内，现计划随2027年第一季度4.7推出。",
+          "analysis": "对老玩家是实质性的策略体系扩展；更新与付费内容、未来情景包须分开判断。首发用户评价仍少，不据此归纳稳定评测共识，使用模组者宜先核版本兼容。",
+          "importance": 4,
+          "tags": [
+            "PC",
+            "Windows",
+            "macOS",
+            "Linux",
+            "大战略",
+            "DLC",
+            "群星",
+            "Stellaris: Willpower"
+          ],
+          "sources": [
+            {
+              "title": "Paradox：正式发售与免费更新公告",
+              "url": "https://www.paradoxinteractive.com/media/press-releases/paradox-interactive/new-willpower-expansion-available-today-for-stellaris"
+            },
+            {
+              "title": "官方Steam公告：Willpower上线与Scenarios延期",
+              "url": "https://steamcommunity.com/app/281990/allnews/"
+            },
+            {
+              "title": "Steam：Willpower商店与系统支持",
+              "url": "https://store.steampowered.com/app/4241440/Stellaris_Willpower/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4241440/fb25001895de76e36e82311eda81104b10e2c507/header.jpg?t=1795442236",
+              "alt": "《Stellaris: Willpower》官方商店横幅",
+              "sourceUrl": "https://store.steampowered.com/app/4241440/Stellaris_Willpower/"
+            }
+          ],
+          "publishedAt": "2026-11-23（官方发售公告）"
+        },
+        {
+          "id": "games-2026-11-24-gta6-ps5-players",
+          "title": "索尼公布《GTA VI》PS5首发窗口3900万独立玩家",
+          "category": "国外",
+          "summary": "SIE称《GTA VI》在PS5已有超过3900万独立玩家，累计游玩6.83亿小时、人均17.4小时，并刷新PlayStation游戏同时在线纪录。数据来自SIE内部统计，覆盖11月19—22日；它是玩家数而非售出份数，也不是独立审计。《GTA VI》已于11月19日登陆PS5与Xbox Series，本次新增指标仅限PS5。",
+          "analysis": "这是继已归档首日销售额之后的新平台使用数据，显示大型单机内容对主机活跃度的拉动。不能把玩家账号数直接换算销量、收入或新增主机销量，也不据此推定PC版本日期。",
+          "importance": 4,
+          "tags": [
+            "PS5",
+            "Xbox Series",
+            "开放世界",
+            "动作冒险",
+            "GTA VI",
+            "平台数据"
+          ],
+          "sources": [
+            {
+              "title": "PlayStation.Blog：官方首发窗口数据",
+              "url": "https://blog.playstation.com/2026/11/23/thank-you-for-making-grand-theft-auto-vi-the-biggest-launch-in-playstation-history/"
+            },
+            {
+              "title": "Gematsu：PS5玩家数及平台背景",
+              "url": "https://www.gematsu.com/2026/11/grand-theft-auto-vi-for-ps5-tops-39-million-players"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://blog.playstation.com/tachyon/2026/11/fd8023623ccb61c2b195870ea714209ebf52e951.jpg?crop_strategy=smart&resize=1088%2C612",
+              "alt": "PlayStation官方《GTA VI》首发数据公告配图",
+              "sourceUrl": "https://blog.playstation.com/2026/11/23/thank-you-for-making-grand-theft-auto-vi-the-biggest-launch-in-playstation-history/"
+            }
+          ],
+          "publishedAt": "2026-11-23（索尼公告）；统计期11月19—22日"
+        },
+        {
+          "id": "games-2026-11-24-acts-of-blood-delay",
+          "title": "印尼动作游戏《Acts of Blood》PC版延期至2027年春",
+          "category": "国外",
+          "summary": "Eksil Team确认，原定12月推出的PC／Steam版延至2027年春，理由是玩家、测试者和团队反馈中仍有需要改进的问题，具体日子未定。Gematsu补充，原排期为12月4日，PS5与Xbox Series版本仍列2027年；公告没有确认主机与PC同日发售。开发团队位于印尼，Big Fan负责发行；Steam商店仍显示旧的“2026年12月”，应以较新官方公告为准。",
+          "analysis": "对计划年末体验近身格斗与环境互动的玩家，延期比旧商店日期更有实际意义。额外开发时间是团队解释，尚不能保证完成质量，也不应把春季窗口写成确定某日。",
+          "importance": 3,
+          "tags": [
+            "PC",
+            "Steam",
+            "PS5",
+            "Xbox Series",
+            "动作",
+            "格斗",
+            "延期",
+            "Acts of Blood"
+          ],
+          "sources": [
+            {
+              "title": "Eksil Team：Steam发售日更新公告",
+              "url": "https://steamcommunity.com/app/3031890/allnews/"
+            },
+            {
+              "title": "Gematsu：延期与主机排期",
+              "url": "https://www.gematsu.com/2026/11/acts-of-blood-for-pc-delayed-to-spring-2027"
+            },
+            {
+              "title": "Steam：仍残留旧日期的商店页",
+              "url": "https://store.steampowered.com/app/3031890/Acts_of_Blood/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.akamai.steamstatic.com/community_assets/images/apps/3031890/7827f75c8f002d8efe1c2da49da7b100797587c2.jpg",
+              "alt": "《Acts of Blood》官方Steam社区封面",
+              "sourceUrl": "https://steamcommunity.com/app/3031890/allnews/"
+            }
+          ],
+          "publishedAt": "2026-11-22（Steam官方公告，近7日补收）；11月23日媒体跟进"
+        },
+        {
+          "id": "games-2026-11-24-acacia-delays",
+          "title": "Acacia两作延期，Steam新日期将分两场公布",
+          "category": "国外",
+          "summary": "日本Acacia宣布《魔法少女ノ因習村》《配信少女ノ裏垢迷宮》均离开原2026年档期：前者正在面向2027年做最终调整，后者新发售时间仍未公布。两作均规划PC／Steam和Nintendo Switch；《配信少女》将于11月27日20:00日本时间（北京时间19:00）直播公布Steam日期，《因習村》则于12月1日公布Steam日期。两场都是“公布日期”的节点，并非游戏发售日，Switch新排期仍未确认。",
+          "analysis": "关注叙事冒险与迷宫RPG的玩家应更新日历，不能将Steam信息自动套用到Switch。两作合并为一条开发品牌排期变化，避免把同批公告拆开凑数。",
+          "importance": 3,
+          "tags": [
+            "PC",
+            "Steam",
+            "Nintendo Switch",
+            "视觉小说",
+            "RPG",
+            "延期",
+            "魔法少女ノ因習村",
+            "配信少女ノ裏垢迷宮",
+            "Acacia"
+          ],
+          "sources": [
+            {
+              "title": "《魔法少女ノ因習村》官网：发售时期变更",
+              "url": "https://mahoumura.com/"
+            },
+            {
+              "title": "《配信少女ノ裏垢迷宮》官网：发售时期变更",
+              "url": "https://hanoura-maze.com/"
+            },
+            {
+              "title": "电击Online：11月23日延期报道",
+              "url": "https://dengekionline.com/article/202611/94830"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://mahoumura.com/wp-content/themes/original/images/top.webp",
+              "alt": "《魔法少女ノ因習村》官方主视觉",
+              "sourceUrl": "https://mahoumura.com/",
+              "caption": "本图对应两作中的《魔法少女ノ因習村》。"
+            }
+          ],
+          "publishedAt": "2026-11-23（官方通知及日英媒体报道）"
+        },
+        {
+          "id": "games-2026-11-24-regreening-release",
+          "title": "生态修复独立游戏《The Regreening》定档12月7日",
+          "category": "国外",
+          "summary": "德国汉堡团队Positive Impact Games与发行商ByteRockers’ Games宣布，本作12月7日登陆PC／Steam；商店同步列出该日期，目前仍未正式发售。玩法围绕种植、恢复动物栖息地、回收制作与自然精灵互动，采用无计时压力的生态修复体验，现有试玩可供尝试。Steam另列Gamirror Games参与发行，属德国开发、中国发行伙伴参与的跨国合作，本报按主要开发团队列“国外”。",
+          "analysis": "对温馨模拟与环境叙事玩家，这是明确且临近的独立游戏排期。现阶段玩法介绍主要来自厂商，试玩能帮助判断节奏，不能据此宣称已获优秀口碑或确认主机版本。",
+          "importance": 3,
+          "tags": [
+            "PC",
+            "Steam",
+            "独立游戏",
+            "模拟",
+            "生态修复",
+            "The Regreening"
+          ],
+          "sources": [
+            {
+              "title": "发行方新闻稿：Games Press托管（11月23日）",
+              "url": "https://www.gamespress.com/en-US/Trade-Crime-for-Cozy-Restoration-when-The-Regreening-Launches-on-Steam"
+            },
+            {
+              "title": "Steam：日期、试玩及开发发行信息",
+              "url": "https://store.steampowered.com/app/3419080/The_Regreening/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3419080/9e468a5e5e90ac7b03d44a036d28122a4998a7ed/header.jpg?t=1794321912",
+              "alt": "《The Regreening》官方商店横幅",
+              "sourceUrl": "https://store.steampowered.com/app/3419080/The_Regreening/"
+            }
+          ],
+          "publishedAt": "2026-11-23（发行公告）"
+        },
+        {
+          "id": "games-2026-11-24-indie-live-expo-lineup",
+          "title": "INDIE Live Expo公布逾百项内容规模，12月1日播出",
+          "category": "国外",
+          "summary": "日本Ryu’s office主办的INDIE Live Expo确认，12月1日节目将带来超过100项独立游戏首曝、更新与新闻，并预告《Dressmaker》《Ember & Blade》等作品内容。北京时间12月1日18:00开播，提供中、英、日、韩语言节目，渠道包括YouTube、Steam与bilibili等。举办日期此前已公布，本次新增是阵容与节目规模；“100项”不能解读为100款新作正式发售。",
+          "analysis": "它是近期追踪小团队PC与主机作品的集中窗口，也便于开发者观察不同玩法与展示方式。节目尚未举行，具体平台、试玩及发售承诺须等待各项目正式公告；涉及多国作品，本条按日本主办方列“国外”。",
+          "importance": 3,
+          "tags": [
+            "PC",
+            "主机",
+            "独立游戏",
+            "展示会",
+            "INDIE Live Expo",
+            "Dressmaker",
+            "Ember & Blade"
+          ],
+          "sources": [
+            {
+              "title": "INDIE Live Expo官方站：12月1日场次",
+              "url": "https://indie.live-expo.games/en/"
+            },
+            {
+              "title": "Gematsu：11月23日阵容与规模公告",
+              "url": "https://www.gematsu.com/2026/11/indie-live-expo-december-1-2026-to-feature-more-than-100-games"
+            },
+            {
+              "title": "The Outerhaven：主办方新闻稿、时区和频道",
+              "url": "https://www.theouterhaven.net/indie-live-expo-returns-december-1st/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn.theouterhaven.net/wp-content/uploads/2026/11/ILE2026121_KeyVisual.jpeg",
+              "alt": "INDIE Live Expo 2026年12月1日节目主视觉",
+              "sourceUrl": "https://www.theouterhaven.net/indie-live-expo-returns-december-1st/"
+            }
+          ],
+          "publishedAt": "2026-11-23（新阵容与节目内容预告）"
+        }
+      ]
+    },
     {
       "id": "games-2026-11-23",
       "collectionId": "games",
