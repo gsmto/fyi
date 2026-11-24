@@ -2,8 +2,173 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-23T01:27:36Z",
+  "updatedAt": "2026-11-24T01:23:39Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-24",
+      "collectionId": "llm",
+      "date": "2026-11-24",
+      "title": "大模型｜2026-11-24",
+      "summary": "Claude Ship公开测试、OpenAI／Cisco开源Shirudo、Gemini量子算法与Lean验证框架、美国两州起诉Grok相关主体。",
+      "analysis": "区分正式功能、测试与预发布；量子资源模型不当硬件实测，诉讼主张不当裁判。明确组织限制、token计费与合并权限。",
+      "rawText": "# 大模型｜2026-11-24\n\n精选4条11月23日新增公告，已与本栏目近期报告去重。5分表示直接改变开发工作流的重要产品，4分表示重要开源、研究或生态变化；评分为编辑判断。未要求每家公司出现，不重复此前Muse权限争议、旧模型发布或旧价格。\n\n## 1．Claude Ship进入测试：把PR审查、修复和审批衔接起来\n\n**事件／发布日期：2026-11-23。**\n\n\n\nAnthropic于11月23日推出Claude Ship，面向Claude Team／Enterprise组织的GitHub仓库：Code Review已正式可用，PR Steward与Claude Approvals为公开测试。Steward处理CI失败、冲突与审查反馈，但自身不负责审批或合并；Approvals依仓库政策决定所需审批，最终合并仍受GitHub分支规则约束，Claude Code的/ship入口开始逐步推出。智能体按token通过组织usage credits另计费，策略触发的分类和审查在观察模式也可能收费；启用零数据保留、HIPAA配置或客户自管加密密钥的组织暂不适用。\n\n**为什么值得关注／影响：**对开发团队，变化在于编码后的交付流程也可交给智能体协助，但应先核审批政策、分支保护和预算上限。产品可能漏检问题，厂商内部提效数据不等于独立评测，也不能把测试版理解为无人审核下安全自动上线。\n\n来源：[Anthropic：11月23日发布公告](https://claude.com/resources/articles/introducing-claude-ship)｜[Claude Ship产品页：可用范围、功能与计费](https://claude.com/product/claude-ship)｜[Claude Code官方文档：计划、限制与合并规则](https://code.claude.com/docs/en/claude-ship)。\n\n*缺图：已发现官方产品配图，但资产直链返回403；不以客户Logo替代产品图。*\n\n## 2．OpenAI与Cisco开源Shirudo，尝试用智能体生成临时防护\n\n**事件／发布日期：2026-11-23。**\n\n![Shirudo官方项目标识](https://raw.githubusercontent.com/shirudo-dev/shirudo/main/Documentation/logos/shirudo-horizontal-for-light-back.png)\n\n*图片出处：[原页面](https://github.com/shirudo-dev/shirudo)；项目Logo，非防护效果测试图。*\n\n11月23日OpenAI与Cisco公布Shirudo，利用Linux eBPF及签名微补丁，在正式补丁部署前为运行中的系统增加针对性防护，由运维人员批准实际部署。官方受控演示中，Codex生成的防护阻断了针对运行中Elasticsearch的Java4Shell利用，无需重启该服务。代码已开放，但仓库明确标注pre-release；生产目标要求带signed-loader ABI及项目内核补丁的Linux，并需TPM 2.0，不是普通Linux安装后即可直接获得同等保障。\n\n**为什么值得关注／影响：**值得开发者关注的是模型从“发现漏洞”延伸到生成、验证临时防护，但受控案例不代表对所有漏洞有效，也不替代正式修补。适合安全与基础设施团队先按官方VM流程验证兼容性、业务影响和签名边界；更广泛的自动防御仍属长期目标。\n\n来源：[OpenAI：Introducing Shirudo（11月23日）](https://openai.com/index/introducing-shirudo/)｜[Shirudo官方仓库：预发布状态与系统要求](https://github.com/shirudo-dev/shirudo)。\n\n\n\n## 3．DeepMind公开Gemini量子算法成果与Lean验证框架\n\n**事件／发布日期：2026-11-23。**\n\n![Google DeepMind量子算法与形式化验证公告配图](https://lh3.googleusercontent.com/ppTuFPcwer2JwP-NysiQGW7mZrWpEmV6QsV_YD6IJn-skKzS1jTbtLbietmjpGkVxUOZBn3jQaCKfzcJVVR1FvvS-3QglWPDyh520ZSF7tvsHtdy=w1440-h810-n-nu)\n\n*图片出处：[原页面](https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/)；官方公告配图，不代表量子硬件实测。*\n\nGoogle DeepMind与Google Quantum AI于11月23日介绍Gemini 4智能体团队的量子算法发现流程，并公开Lean 4框架、问题规范与验证解；相关预印本首发11月6日、v3为11月16日，并非今日才发表论文。厂商报告某聚变模拟任务的计算资源成本降低11.8倍，这一口径综合量子比特和操作数；所需纠错量子比特由5650降至4338。结果依赖形式化规范与资源模型的证明，尚非量子硬件运行实测，也不是Gemini API新增通用量子计算功能。\n\n**为什么值得关注／影响：**对研究及智能体开发者，价值在于用可检查的规格和证明约束开放式搜索，降低只凭模型自述判断正确性的风险。代码按Apache 2.0开放、其他材料为CC BY；框架仍在开发，成本模型和实际硬件假设需要复核，不能跨任务直接套用倍数。\n\n来源：[DeepMind：11月23日成果与开源公告](https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/)｜[原始预印本：Discovering formally verified quantum programs with AI](https://arxiv.org/abs/2611.09822)｜[原论文HTML：工作流与资源模型](https://arxiv.org/html/2611.09822v3)｜[Google DeepMind：formal-quantum-computation仓库与许可](https://github.com/google-deepmind/formal-quantum-computation)。\n\n\n\n## 4．美国两州就Grok非自愿私密影像提起诉讼，尚无裁判结论\n\n**事件／发布日期：2026-11-23。**\n\n\n\n弗吉尼亚州总检察长11月23日公布，其与俄勒冈州分别对涉及X、xAI／Grok的SpaceX相关主体提起诉讼。两州指控生成和传播未经同意的性化影像、涉及儿童的有害内容，以及平台安全宣传误导消费者，寻求追责和新的保护措施；弗州案件提交里士满市巡回法院，俄州为Multnomah County巡回法院。原始起诉文件已公开，但上述均为原告主张，本次核查未发现法院已作责任裁判或宣布全国性功能禁令。\n\n**为什么值得关注／影响：**对生成式图像产品和平台开发者，潜在影响在于同意机制、生成限制、传播治理与安全宣传均可能受到审查；这是对诉讼焦点的观察，非已生效的新统一法规。用户不能由起诉本身推断Grok已经全面停用，具体可用性仍应看平台及后续司法公告。\n\n来源：[弗吉尼亚州总检察长办公室：11月23日起诉公告](https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform)｜[弗吉尼亚州起诉状原件（54页PDF）](https://www.oag.state.va.us/files/Grok-SpaceX-Complaint-As-Filed.pdf)。\n\n*缺图：原始公告与起诉状没有适合展示的对应新闻实景，不使用受害者影像或无关人物照片。*\n",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "生成于2026-11-24T01:23:39Z；Asia/Shanghai 2026-11-24。通过GitHub读取main归档协议、catalog、month schema、llm索引及11月近期报告去重。检索生成前24小时并补查11月17—24日OpenAI、Anthropic、Google／DeepMind／Gemini、xAI、Meta官方动态及中英文媒体线索。实际打开OpenAI Shirudo公告及GitHub README、Claude Ship官方产品页与Code文档、Google量子研究arXiv摘要及HTML与官方仓库、弗吉尼亚州总检察长公告和54页原始起诉状。Claude发布稿与DeepMind博客直接打开受限，但搜索检索返回正文，分别以产品文档、原论文及仓库核对关键事实。量子博客11月23日新公告与11月6日／16日论文日期明确区分；没有使用传闻、未核实黎曼猜想话题或重复Muse报道填充。2张配图来自已观察官方来源直链，HTTP实际返回200，分别为image/png 17158字节及image/jpeg 153135字节；Claude资产403和诉讼缺图分别说明。只修改本栏目月文件及索引；不写私人标识。",
+      "score": 5,
+      "items": [
+        {
+          "id": "llm-2026-11-24-claude-ship",
+          "title": "Claude Ship进入测试：把PR审查、修复和审批衔接起来",
+          "category": "Anthropic",
+          "summary": "Anthropic于11月23日推出Claude Ship，面向Claude Team／Enterprise组织的GitHub仓库：Code Review已正式可用，PR Steward与Claude Approvals为公开测试。Steward处理CI失败、冲突与审查反馈，但自身不负责审批或合并；Approvals依仓库政策决定所需审批，最终合并仍受GitHub分支规则约束，Claude Code的/ship入口开始逐步推出。智能体按token通过组织usage credits另计费，策略触发的分类和审查在观察模式也可能收费；启用零数据保留、HIPAA配置或客户自管加密密钥的组织暂不适用。",
+          "analysis": "对开发团队，变化在于编码后的交付流程也可交给智能体协助，但应先核审批政策、分支保护和预算上限。产品可能漏检问题，厂商内部提效数据不等于独立评测，也不能把测试版理解为无人审核下安全自动上线。",
+          "importance": 5,
+          "tags": [
+            "Anthropic",
+            "Claude Ship",
+            "Claude Code",
+            "智能体",
+            "代码审查",
+            "开发工具",
+            "GitHub",
+            "公开测试",
+            "计费"
+          ],
+          "sources": [
+            {
+              "title": "Anthropic：11月23日发布公告",
+              "url": "https://claude.com/resources/articles/introducing-claude-ship"
+            },
+            {
+              "title": "Claude Ship产品页：可用范围、功能与计费",
+              "url": "https://claude.com/product/claude-ship"
+            },
+            {
+              "title": "Claude Code官方文档：计划、限制与合并规则",
+              "url": "https://code.claude.com/docs/en/claude-ship"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：已发现官方产品配图，但资产直链返回403；不以客户Logo替代产品图。",
+          "publishedAt": "2026-11-23"
+        },
+        {
+          "id": "llm-2026-11-24-shirudo",
+          "title": "OpenAI与Cisco开源Shirudo，尝试用智能体生成临时防护",
+          "category": "OpenAI",
+          "summary": "11月23日OpenAI与Cisco公布Shirudo，利用Linux eBPF及签名微补丁，在正式补丁部署前为运行中的系统增加针对性防护，由运维人员批准实际部署。官方受控演示中，Codex生成的防护阻断了针对运行中Elasticsearch的Java4Shell利用，无需重启该服务。代码已开放，但仓库明确标注pre-release；生产目标要求带signed-loader ABI及项目内核补丁的Linux，并需TPM 2.0，不是普通Linux安装后即可直接获得同等保障。",
+          "analysis": "值得开发者关注的是模型从“发现漏洞”延伸到生成、验证临时防护，但受控案例不代表对所有漏洞有效，也不替代正式修补。适合安全与基础设施团队先按官方VM流程验证兼容性、业务影响和签名边界；更广泛的自动防御仍属长期目标。",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "Cisco",
+            "Codex",
+            "Shirudo",
+            "开源",
+            "eBPF",
+            "Linux",
+            "智能体安全"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI：Introducing Shirudo（11月23日）",
+              "url": "https://openai.com/index/introducing-shirudo/"
+            },
+            {
+              "title": "Shirudo官方仓库：预发布状态与系统要求",
+              "url": "https://github.com/shirudo-dev/shirudo"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://raw.githubusercontent.com/shirudo-dev/shirudo/main/Documentation/logos/shirudo-horizontal-for-light-back.png",
+              "alt": "Shirudo官方项目标识",
+              "sourceUrl": "https://github.com/shirudo-dev/shirudo",
+              "caption": "项目Logo，非防护效果测试图。"
+            }
+          ],
+          "publishedAt": "2026-11-23"
+        },
+        {
+          "id": "llm-2026-11-24-gemini-quantum-verification",
+          "title": "DeepMind公开Gemini量子算法成果与Lean验证框架",
+          "category": "Google",
+          "summary": "Google DeepMind与Google Quantum AI于11月23日介绍Gemini 4智能体团队的量子算法发现流程，并公开Lean 4框架、问题规范与验证解；相关预印本首发11月6日、v3为11月16日，并非今日才发表论文。厂商报告某聚变模拟任务的计算资源成本降低11.8倍，这一口径综合量子比特和操作数；所需纠错量子比特由5650降至4338。结果依赖形式化规范与资源模型的证明，尚非量子硬件运行实测，也不是Gemini API新增通用量子计算功能。",
+          "analysis": "对研究及智能体开发者，价值在于用可检查的规格和证明约束开放式搜索，降低只凭模型自述判断正确性的风险。代码按Apache 2.0开放、其他材料为CC BY；框架仍在开发，成本模型和实际硬件假设需要复核，不能跨任务直接套用倍数。",
+          "importance": 4,
+          "tags": [
+            "Google",
+            "Google DeepMind",
+            "Google Quantum AI",
+            "Gemini 4",
+            "多智能体",
+            "Lean 4",
+            "形式化验证",
+            "开源",
+            "研究"
+          ],
+          "sources": [
+            {
+              "title": "DeepMind：11月23日成果与开源公告",
+              "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+            },
+            {
+              "title": "原始预印本：Discovering formally verified quantum programs with AI",
+              "url": "https://arxiv.org/abs/2611.09822"
+            },
+            {
+              "title": "原论文HTML：工作流与资源模型",
+              "url": "https://arxiv.org/html/2611.09822v3"
+            },
+            {
+              "title": "Google DeepMind：formal-quantum-computation仓库与许可",
+              "url": "https://github.com/google-deepmind/formal-quantum-computation"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://lh3.googleusercontent.com/ppTuFPcwer2JwP-NysiQGW7mZrWpEmV6QsV_YD6IJn-skKzS1jTbtLbietmjpGkVxUOZBn3jQaCKfzcJVVR1FvvS-3QglWPDyh520ZSF7tvsHtdy=w1440-h810-n-nu",
+              "alt": "Google DeepMind量子算法与形式化验证公告配图",
+              "sourceUrl": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+              "caption": "官方公告配图，不代表量子硬件实测。"
+            }
+          ],
+          "publishedAt": "2026-11-23"
+        },
+        {
+          "id": "llm-2026-11-24-grok-state-lawsuits",
+          "title": "美国两州就Grok非自愿私密影像提起诉讼，尚无裁判结论",
+          "category": "xAI",
+          "summary": "弗吉尼亚州总检察长11月23日公布，其与俄勒冈州分别对涉及X、xAI／Grok的SpaceX相关主体提起诉讼。两州指控生成和传播未经同意的性化影像、涉及儿童的有害内容，以及平台安全宣传误导消费者，寻求追责和新的保护措施；弗州案件提交里士满市巡回法院，俄州为Multnomah County巡回法院。原始起诉文件已公开，但上述均为原告主张，本次核查未发现法院已作责任裁判或宣布全国性功能禁令。",
+          "analysis": "对生成式图像产品和平台开发者，潜在影响在于同意机制、生成限制、传播治理与安全宣传均可能受到审查；这是对诉讼焦点的观察，非已生效的新统一法规。用户不能由起诉本身推断Grok已经全面停用，具体可用性仍应看平台及后续司法公告。",
+          "importance": 4,
+          "tags": [
+            "xAI",
+            "Grok",
+            "X",
+            "SpaceX",
+            "公司动态",
+            "诉讼",
+            "生成式图像",
+            "平台治理"
+          ],
+          "sources": [
+            {
+              "title": "弗吉尼亚州总检察长办公室：11月23日起诉公告",
+              "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform"
+            },
+            {
+              "title": "弗吉尼亚州起诉状原件（54页PDF）",
+              "url": "https://www.oag.state.va.us/files/Grok-SpaceX-Complaint-As-Filed.pdf"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：原始公告与起诉状没有适合展示的对应新闻实景，不使用受害者影像或无关人物照片。",
+          "publishedAt": "2026-11-23"
+        }
+      ]
+    },
     {
       "id": "llm-2026-11-23",
       "collectionId": "llm",
