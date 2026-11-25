@@ -2,8 +2,175 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-24T01:23:39Z",
+  "updatedAt": "2026-11-25T01:25:51Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-25",
+      "collectionId": "llm",
+      "date": "2026-11-25",
+      "title": "大模型｜2026-11-25",
+      "summary": "Workspace智能体接入与计费规则、Claude可安装Artifacts、OpenAI医疗API配置及蛋白设计研究、Meta Muse进入Instagram私信。",
+      "analysis": "区分GA与逐步测试、2027年未来规则与现行状态、Standard免费配额与Scaled MCP首请求计费；厂商研究与产品权限声明均保留证据边界。",
+      "rawText": "# 大模型｜2026-11-25\n\n精选5条11月24日新增公告或报道，已与本栏目近期归档去重。以生成前24小时为主并补查最近7天；日期按发布方所标当地日期。5分表示会直接改变重要开发工作流或接入规则，4分表示重要产品或研究进展，3分表示值得跟踪的应用扩展；评分为编辑判断。\n\n## 1．Google Workspace MCP与CLI正式可用，明确智能体接入与计费时间表\n\n**事件／发布日期：2026-11-24。**\n\nGoogle于11月24日宣布Workspace托管MCP服务器与官方CLI正式可用，面向Workspace客户和开发者逐步推出；MCP覆盖Gmail、Drive、Docs等八项服务，Keep尚待开放。正式配额文档规定，2027年2月1日起执行智能体通过MCP访问的要求，直接调用REST的智能体将被限制在Standard配额；4月1日起执行新计费与配额规则。Standard档免费但限额；Scaled档的Gmail、Calendar、Drive MCP从首个成功请求计费，REST则按各档每日免费额度后的用量计费，不能混为一谈。\n\n**为什么值得关注／影响：**接入邮件、日程和文档的智能体团队需要同时检查迁移路径与成本模型，不能把“正式可用”理解成无限免费。上述未来规则尚未生效；应按正式文档核对项目档位、配额和组织政策，而不是据公告概述估算账单。\n\n来源：[Google Workspace：11月24日GA与接入公告](https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html)｜[Google开发文档：配额、MCP与REST计费差异及生效日期](https://developers.google.com/workspace/guides/quota-usage-tiers)。\n\n*缺图：公告配图为品牌标识，直链返回403；未找到可确认访问的对应功能截图。*\n\n## 2．Claude Artifacts可安装为Mac与Windows应用，正逐步开放测试\n\n**事件／发布日期：2026-11-24。**\n\n![Claude官方展示的Artifacts桌面应用与应用库示意](https://assets.claude.com/1d558aa9dd6599dfad2f4ae46a5f7bcff085d8bb.png)\n\n*图片出处：[原页面](https://claude.com/resources/articles/install-as-app)；官方像素风演示图，非独立测试。*\n\nAnthropic于11月24日推出Install as app测试功能：Artifacts可拥有独立窗口和图标，底层内容编辑后应用随之更新，并能使用Claude与已连接服务。功能正向Free、Pro、Max、Ultra、Team和Enterprise逐步开放，依赖在线且登录的Claude Desktop，不支持Linux、网页或手机；请求计入原套餐用量。Team默认开放安装但关闭完整电脑访问，Enterprise需所有者开启；HIPAA-ready组织暂不适用。\n\n**为什么值得关注／影响：**它降低了把一次性生成内容变成日常工具的门槛，但仍是测试功能。“完整访问”可运行程序并读改删文件，不会逐次确认；授权应结合应用作者与组织策略判断，不能将独立窗口等同于经过审核的原生软件。\n\n来源：[Anthropic：Install as app发布公告（11月24日）](https://claude.com/resources/articles/install-as-app)｜[Claude帮助中心：平台、套餐、权限与限制](https://support.claude.com/en/articles/18516354-install-an-artifact-as-an-app)。\n\n## 3．OpenAI将医疗专用模型配置开放给API组织\n\n**事件／发布日期：2026-11-24。**\n\nOpenAI于11月24日在发布日志中宣布，Astra、Sol等模型的医疗配置已可通过Responses API供API组织使用，无需拥有ChatGPT for Healthcare工作区。配置结合医疗专用指令与临床检索；只有启用web search，才能使用专用医疗索引，可用于查找、比较和带引用汇总医学证据。它是现有模型的专门配置与检索渠道，公告并未宣称新增独立临床认证模型或全球所有账号自动具备相同权限。\n\n**为什么值得关注／影响：**医疗信息产品的开发者可以减少自行搭建证据检索流程的工作，但仍须检查回答与原始引文，不能替代专业医疗判断。获得配置访问权不等于获准处理受保护健康信息；处理PHI还需适用BAA及账户、工具配置满足要求，接入前也应核对当前费率。\n\n来源：[OpenAI模型发布日志：11月24日医疗配置](https://help.openai.com/en/articles/9624314-model-release-notes)｜[OpenAI：API医疗配置、可用范围及PHI要求](https://help.openai.com/en/articles/20001656-healthcare-model-configurations-in-the-openai-api)。\n\n*缺图：对应官方发布日志和功能文档没有合适的公开功能配图，不以无关医学照片替代。*\n\n## 4．OpenAI展示通用模型蛋白设计研究：有湿实验信号，仍属初步成果\n\n**事件／发布日期：2026-11-24。**\n\n![OpenAI内部研究模型的小蛋白设计与计算预测结构比较](https://images.ctfassets.net/kftzwdyauwt9/6YdRXyaFP4SEp3mku9AcPi/e8675d403db99751eac6a843d6d32507/specific-responsive-legend-poster.svg?q=50&w=3840)\n\n*图片出处：[原页面](https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/)；官方研究图比较设计与计算预测，不是湿实验疗效证据。*\n\nOpenAI于11月24日公布蛋白设计预印本研究，展示GPT-6系列利用推理和通用代码生成蛋白结构及序列的能力。与Onava合作的一项湿实验测试了针对5个靶点的322个小蛋白，35个（10.9%）检测到目标结合信号；该流程的结构来自预发布GPT-6.2，但序列补充及候选筛选仍使用专用生物模型。部分更好的计算成绩来自内部研究模型，不能直接当作公众可用API的能力承诺，也不能跨不同筛选标准比较命中率。\n\n**为什么值得关注／影响：**价值在于通用模型开始把自然语言约束、代码搜索与实验验证连接起来，值得科研工具开发者跟进。证据仍为厂商预印本、计算评估和早期体外实验；结合信号不代表药物有效、安全或可临床使用，需要独立复现与更多实验。\n\n来源：[OpenAI：研究方法、实验结果与局限（11月24日）](https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/)。\n\n## 5．Meta将Muse接入Instagram私信，在五国逐步推出\n\n**事件／发布日期：2026-11-24。**\n\n![Muse在Instagram中的产品展示图](https://images.macrumors.com/t/oOPcxmmYDLCmpl1JkSCXciTMzRs=/400x0/article-new/2026/11/muse-instagram.jpg?lossy=)\n\n*图片出处：[原页面](https://www.macrumors.com/2026/11/24/meta-muse-instagram-dms/)；MacRumors报道配图。*\n\nMacRumors于11月24日报道，Meta开始把Muse智能体接入Instagram私信，用户可围绕帖子提问并整理收藏内容，相关对话也会出现在Muse应用中。私信入口自当日起向美国、加拿大、墨西哥、日本和新加坡逐步推出；保存帖子时的Muse整理选项目前限定美国、加拿大，二者开放范围不同。报道转述Meta称，智能体不会未经用户许可自行修改或采取行动；本次没有独立权限安全测试可证明这一表述。\n\n**为什么值得关注／影响：**这让智能体直接进入内容发现与沟通入口，可能降低使用门槛，并把收藏转化为行程或清单；这是产品分发方向的观察。尚未宣布中国大陆开放，灰度推出也不等于上述国家每个账号立即可用。\n\n来源：[MacRumors：Muse进入Instagram私信与地区范围（11月24日）](https://www.macrumors.com/2026/11/24/meta-muse-instagram-dms/)。\n\n智能体正从独立聊天进入桌面工具、企业数据与社交入口；值得优先观察的是实际权限、迁移期限和收费口径。研究进展则应继续区分公开产品、内部模型与实验结果，不把发布公告当作独立评测。\n",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "生成于2026-11-25T01:25:51Z；Asia/Shanghai 2026-11-25。通过GitHub连接读取main归档协议、catalog、month schema、llm索引和11月近期完整归档去重。检索生成前24小时，并补查2026-11-18至25日OpenAI、Anthropic、Google／DeepMind／Gemini、xAI、Meta的官方发布、文档及中英文媒体线索；未按公司配额填充。实际打开Google公告与正式配额文档，以文档区分Scaled MCP首成功请求计费和REST免费额度；实际读取Claude公告及帮助中心、OpenAI发布日志与医疗配置文档、蛋白设计官方研究说明及MacRumors。蛋白论文PDF因体积读取失败，未声称通读论文；Meta官方X帖访问受限，地区与产品状态明确归因可靠媒体。Claude与Meta图片实测HTTP200，分别image/png 1254233字节、image/jpeg 13476字节；OpenAI研究SVG此前本次检索已实测HTTP200 image/svg+xml 492596字节。Google配图403、医疗配置无适当功能图分别注明。不使用私人会话标识；只更新本栏目月文件与索引。",
+      "score": 5,
+      "items": [
+        {
+          "id": "llm-2026-11-25-workspace-agent-access",
+          "publishedAt": "2026-11-24",
+          "title": "Google Workspace MCP与CLI正式可用，明确智能体接入与计费时间表",
+          "category": "Google",
+          "importance": 5,
+          "tags": [
+            "Google",
+            "Workspace",
+            "MCP",
+            "CLI",
+            "智能体",
+            "API计费"
+          ],
+          "summary": "Google于11月24日宣布Workspace托管MCP服务器与官方CLI正式可用，面向Workspace客户和开发者逐步推出；MCP覆盖Gmail、Drive、Docs等八项服务，Keep尚待开放。正式配额文档规定，2027年2月1日起执行智能体通过MCP访问的要求，直接调用REST的智能体将被限制在Standard配额；4月1日起执行新计费与配额规则。Standard档免费但限额；Scaled档的Gmail、Calendar、Drive MCP从首个成功请求计费，REST则按各档每日免费额度后的用量计费，不能混为一谈。",
+          "analysis": "接入邮件、日程和文档的智能体团队需要同时检查迁移路径与成本模型，不能把“正式可用”理解成无限免费。上述未来规则尚未生效；应按正式文档核对项目档位、配额和组织政策，而不是据公告概述估算账单。",
+          "sources": [
+            {
+              "title": "Google Workspace：11月24日GA与接入公告",
+              "url": "https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html"
+            },
+            {
+              "title": "Google开发文档：配额、MCP与REST计费差异及生效日期",
+              "url": "https://developers.google.com/workspace/guides/quota-usage-tiers"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：公告配图为品牌标识，直链返回403；未找到可确认访问的对应功能截图。"
+        },
+        {
+          "id": "llm-2026-11-25-claude-install-artifact",
+          "publishedAt": "2026-11-24",
+          "title": "Claude Artifacts可安装为Mac与Windows应用，正逐步开放测试",
+          "category": "Anthropic",
+          "importance": 4,
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "Artifacts",
+            "桌面应用",
+            "智能体权限"
+          ],
+          "summary": "Anthropic于11月24日推出Install as app测试功能：Artifacts可拥有独立窗口和图标，底层内容编辑后应用随之更新，并能使用Claude与已连接服务。功能正向Free、Pro、Max、Ultra、Team和Enterprise逐步开放，依赖在线且登录的Claude Desktop，不支持Linux、网页或手机；请求计入原套餐用量。Team默认开放安装但关闭完整电脑访问，Enterprise需所有者开启；HIPAA-ready组织暂不适用。",
+          "analysis": "它降低了把一次性生成内容变成日常工具的门槛，但仍是测试功能。“完整访问”可运行程序并读改删文件，不会逐次确认；授权应结合应用作者与组织策略判断，不能将独立窗口等同于经过审核的原生软件。",
+          "sources": [
+            {
+              "title": "Anthropic：Install as app发布公告（11月24日）",
+              "url": "https://claude.com/resources/articles/install-as-app"
+            },
+            {
+              "title": "Claude帮助中心：平台、套餐、权限与限制",
+              "url": "https://support.claude.com/en/articles/18516354-install-an-artifact-as-an-app"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://assets.claude.com/1d558aa9dd6599dfad2f4ae46a5f7bcff085d8bb.png",
+              "alt": "Claude官方展示的Artifacts桌面应用与应用库示意",
+              "sourceUrl": "https://claude.com/resources/articles/install-as-app",
+              "caption": "官方像素风演示图，非独立测试。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-25-openai-healthcare-api",
+          "publishedAt": "2026-11-24",
+          "title": "OpenAI将医疗专用模型配置开放给API组织",
+          "category": "OpenAI",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "GPT-6.2",
+            "Astra",
+            "Sol",
+            "Responses API",
+            "医疗检索"
+          ],
+          "summary": "OpenAI于11月24日在发布日志中宣布，Astra、Sol等模型的医疗配置已可通过Responses API供API组织使用，无需拥有ChatGPT for Healthcare工作区。配置结合医疗专用指令与临床检索；只有启用web search，才能使用专用医疗索引，可用于查找、比较和带引用汇总医学证据。它是现有模型的专门配置与检索渠道，公告并未宣称新增独立临床认证模型或全球所有账号自动具备相同权限。",
+          "analysis": "医疗信息产品的开发者可以减少自行搭建证据检索流程的工作，但仍须检查回答与原始引文，不能替代专业医疗判断。获得配置访问权不等于获准处理受保护健康信息；处理PHI还需适用BAA及账户、工具配置满足要求，接入前也应核对当前费率。",
+          "sources": [
+            {
+              "title": "OpenAI模型发布日志：11月24日医疗配置",
+              "url": "https://help.openai.com/en/articles/9624314-model-release-notes"
+            },
+            {
+              "title": "OpenAI：API医疗配置、可用范围及PHI要求",
+              "url": "https://help.openai.com/en/articles/20001656-healthcare-model-configurations-in-the-openai-api"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：对应官方发布日志和功能文档没有合适的公开功能配图，不以无关医学照片替代。"
+        },
+        {
+          "id": "llm-2026-11-25-openai-protein-design",
+          "publishedAt": "2026-11-24",
+          "title": "OpenAI展示通用模型蛋白设计研究：有湿实验信号，仍属初步成果",
+          "category": "OpenAI",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "GPT-6.2",
+            "蛋白设计",
+            "AI科学",
+            "预印本"
+          ],
+          "summary": "OpenAI于11月24日公布蛋白设计预印本研究，展示GPT-6系列利用推理和通用代码生成蛋白结构及序列的能力。与Onava合作的一项湿实验测试了针对5个靶点的322个小蛋白，35个（10.9%）检测到目标结合信号；该流程的结构来自预发布GPT-6.2，但序列补充及候选筛选仍使用专用生物模型。部分更好的计算成绩来自内部研究模型，不能直接当作公众可用API的能力承诺，也不能跨不同筛选标准比较命中率。",
+          "analysis": "价值在于通用模型开始把自然语言约束、代码搜索与实验验证连接起来，值得科研工具开发者跟进。证据仍为厂商预印本、计算评估和早期体外实验；结合信号不代表药物有效、安全或可临床使用，需要独立复现与更多实验。",
+          "sources": [
+            {
+              "title": "OpenAI：研究方法、实验结果与局限（11月24日）",
+              "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.ctfassets.net/kftzwdyauwt9/6YdRXyaFP4SEp3mku9AcPi/e8675d403db99751eac6a843d6d32507/specific-responsive-legend-poster.svg?q=50&w=3840",
+              "alt": "OpenAI内部研究模型的小蛋白设计与计算预测结构比较",
+              "sourceUrl": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+              "caption": "官方研究图比较设计与计算预测，不是湿实验疗效证据。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-25-meta-muse-instagram",
+          "publishedAt": "2026-11-24",
+          "title": "Meta将Muse接入Instagram私信，在五国逐步推出",
+          "category": "Meta",
+          "importance": 3,
+          "tags": [
+            "Meta",
+            "Muse",
+            "Instagram",
+            "智能体",
+            "地区开放"
+          ],
+          "summary": "MacRumors于11月24日报道，Meta开始把Muse智能体接入Instagram私信，用户可围绕帖子提问并整理收藏内容，相关对话也会出现在Muse应用中。私信入口自当日起向美国、加拿大、墨西哥、日本和新加坡逐步推出；保存帖子时的Muse整理选项目前限定美国、加拿大，二者开放范围不同。报道转述Meta称，智能体不会未经用户许可自行修改或采取行动；本次没有独立权限安全测试可证明这一表述。",
+          "analysis": "这让智能体直接进入内容发现与沟通入口，可能降低使用门槛，并把收藏转化为行程或清单；这是产品分发方向的观察。尚未宣布中国大陆开放，灰度推出也不等于上述国家每个账号立即可用。",
+          "sources": [
+            {
+              "title": "MacRumors：Muse进入Instagram私信与地区范围（11月24日）",
+              "url": "https://www.macrumors.com/2026/11/24/meta-muse-instagram-dms/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://images.macrumors.com/t/oOPcxmmYDLCmpl1JkSCXciTMzRs=/400x0/article-new/2026/11/muse-instagram.jpg?lossy=",
+              "alt": "Muse在Instagram中的产品展示图",
+              "sourceUrl": "https://www.macrumors.com/2026/11/24/meta-muse-instagram-dms/",
+              "caption": "MacRumors报道配图。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "llm-2026-11-24",
       "collectionId": "llm",
