@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
   "collectionId": "daily-brief",
-  "updatedAt": "2026-11-24T01:01:29Z",
+  "updatedAt": "2026-11-25T01:06:32Z",
   "shards": [
     {
       "month": "2026-11",
       "path": "2026/11.json",
-      "briefCount": 23,
-      "itemCount": 115,
-      "updatedAt": "2026-11-24T01:01:29Z"
+      "briefCount": 24,
+      "itemCount": 120,
+      "updatedAt": "2026-11-25T01:06:32Z"
     },
     {
       "month": "2026-10",
