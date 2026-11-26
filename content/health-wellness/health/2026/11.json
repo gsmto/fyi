@@ -2,8 +2,80 @@
   "schemaVersion": 1,
   "collectionId": "health",
   "month": "2026-11",
-  "updatedAt": "2026-11-25T01:18:52Z",
+  "updatedAt": "2026-11-26T01:16:53Z",
   "briefs": [
+    {
+      "id": "health-2026-11-26",
+      "collectionId": "health",
+      "date": "2026-11-26",
+      "title": "健康｜2026-11-26",
+      "summary": "WHO新增淋病口服治疗的有条件推荐；新版东南亚食品营养分类模型支持长期健康饮食政策。本期2条，不重复减重旧研究。",
+      "analysis": "区分指南与药品批准、低确定性证据与优效结论、食品政策工具与个人减重效果，保留适用人群和监管地区边界。",
+      "rawText": "# 健康｜2026-11-26\n\n## 今日 Top 3\n\n本期精选2条11月25日新增权威信息，按重要性排序；4分表示重要医疗推荐变化，3分表示具有长期影响的公共健康工具。已与近期报告去重，最近24小时并补查7天后，未找到第三条同时满足时效与原始证据核验要求的重要信息；减重药重复研究和把旧论文重新报道的内容未收录，不凑数。\n\n### 1．WHO新增淋病口服治疗选项，但一线方案与适用边界未变\n\n**发布时间：2026-11-25。**\n\nWHO于11月25日发布临时推荐，将口服zoliflodacin作为非复杂性泌尿生殖道淋病的额外选择，适用于年满12岁、体重至少35公斤的青少年及成人。证据类型是基于人体三期随机试验的指南评估，推荐为“有条件、低确定性”；主要证据来自男性，且没有与WHO现行一线头孢曲松方案直接比较，不能推断新药更优。推荐不覆盖咽部、肛直肠、复杂或播散性感染，妊娠期也不推荐使用。美国FDA已于2025年12月12日批准Nuzolvence用于相应非复杂性泌尿生殖道感染，这是美国既有批准，不是今日批准或中国获批消息。\n\n**为什么值得关注及适用范围：**新增口服选择可能降低注射给药的实施障碍，但WHO现行一线治疗仍保留，临时指南完整正文和附件尚在准备。药物涉及有限的生殖安全证据和潜在相互作用，应由专业人员结合感染部位、药敏与当地批准状态选择，不能自行购买替代抗生素。\n\n来源：[WHO：11月25日推荐及耐药监测公告](https://www.who.int/news/item/25-11-2026-who-recommends-new-oral-treatment-option-for-gonorrhoea-and-reports-new-data-on-antimicrobial-resistance)｜[WHO技术说明：有条件推荐、低确定性与比较方案局限](https://www.who.int/teams/global-hiv-hepatitis-and-stis-programmes/stis/treatment-care/additional-treatment-options-for-gonorrhoea)｜[FDA：2025年12月12日美国批准与安全注意事项](https://www.fda.gov/news-events/press-announcements/fda-approves-two-oral-therapies-treat-gonorrhea)。\n\n*缺图：对应WHO监测报告封面直链返回403；不使用门诊患者照片替代药物／指南配图。*\n\n### 2．WHO更新东南亚食品营养分类模型，支持限制高糖盐脂食品营销\n\n**发布时间：2026-11-25。**\n\nWHO于11月25日发布东南亚区域新版Nutrient Profile Model，替代2017年版本，覆盖16类食品与饮料，用于识别高糖、盐和脂肪产品。它是结合科学证据和区域实施经验形成的政策技术工具，可支持儿童营销限制、营养声称管理、税补政策和公共食品采购，而非一项证明个人减重效果的临床试验。成员国可依本国情境采用或调整，发布本身不代表中国已经实施新标准；本次核对到官方概述，完整50页文件读取受限，不摘录未核实阈值。\n\n**为什么值得关注及适用范围：**价值在于把健康饮食从个人意志扩展到食品环境和长期政策，有助于关注体重与代谢健康的人理解包装宣称和营销限制的依据。模型不是个人食谱或快速减肥方案，不能由食品分类推算某人能减多少体重，仍需重视饮食整体质量、可持续性和安全性。\n\n来源：[WHO原始出版页：新版模型、16类食品与政策用途](https://www.who.int/publications/i/item/9789292800352)。\n\n*缺图：已找到WHO原始报告封面，但公开资产直链返回403；未以无关食物图片凑数。*\n\n本简报为新闻与一般健康科普，不作个人诊断、处方或治疗安排。\n",
+      "completeness": "full",
+      "sourceConversation": "健康",
+      "provenance": "生成于2026-11-26T01:16:53Z；Asia/Shanghai 2026-11-26。通过GitHub读取main归档协议、catalog、health索引与10—11月归档，阅读近7日标题并全文关键词去重。综合检索生成前24小时及11月19—26日国内外医学、公共卫生、营养与体重管理来源，实际打开WHO11月25日淋病公告和技术说明、FDA美国既有批准公告、WHO新版营养模型原始出版概述及中英文媒体研究线索。淋病为有条件低确定性推荐，比较方案非现行一线，完整指南与附件尚未发布；美国批准时间2025-12-12不当作新批准。营养模型50页完整PDF及两项WHO封面资产实际读取403，仅依据出版页概述，不声称通读PDF或引用具体阈值。排除11月25日间歇性禁食报道所引7月7日JHEP原论文及2025年主试验，儿童GLP-1线索重复既有归档，11月15日ribupatide论文超出7天。不以企业顶线试验营销补足3条，未核得新的可靠个人减重疗效信息。两条images=[]并逐条说明；只提交health月文件及索引，不含私人健康资料或会话标识。",
+      "score": 4,
+      "items": [
+        {
+          "id": "health-2026-11-26-who-gonorrhoea",
+          "title": "WHO新增淋病口服治疗选项，但一线方案与适用边界未变",
+          "category": "医学",
+          "importance": 4,
+          "tags": [
+            "WHO",
+            "淋病",
+            "抗菌药物耐药",
+            "zoliflodacin",
+            "指南"
+          ],
+          "publishedAt": "2026-11-25",
+          "summary": "WHO于11月25日发布临时推荐，将口服zoliflodacin作为非复杂性泌尿生殖道淋病的额外选择，适用于年满12岁、体重至少35公斤的青少年及成人。证据类型是基于人体三期随机试验的指南评估，推荐为“有条件、低确定性”；主要证据来自男性，且没有与WHO现行一线头孢曲松方案直接比较，不能推断新药更优。推荐不覆盖咽部、肛直肠、复杂或播散性感染，妊娠期也不推荐使用。美国FDA已于2025年12月12日批准Nuzolvence用于相应非复杂性泌尿生殖道感染，这是美国既有批准，不是今日批准或中国获批消息。",
+          "analysis": "新增口服选择可能降低注射给药的实施障碍，但WHO现行一线治疗仍保留，临时指南完整正文和附件尚在准备。药物涉及有限的生殖安全证据和潜在相互作用，应由专业人员结合感染部位、药敏与当地批准状态选择，不能自行购买替代抗生素。",
+          "sources": [
+            {
+              "title": "WHO：11月25日推荐及耐药监测公告",
+              "url": "https://www.who.int/news/item/25-11-2026-who-recommends-new-oral-treatment-option-for-gonorrhoea-and-reports-new-data-on-antimicrobial-resistance"
+            },
+            {
+              "title": "WHO技术说明：有条件推荐、低确定性与比较方案局限",
+              "url": "https://www.who.int/teams/global-hiv-hepatitis-and-stis-programmes/stis/treatment-care/additional-treatment-options-for-gonorrhoea"
+            },
+            {
+              "title": "FDA：2025年12月12日美国批准与安全注意事项",
+              "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-two-oral-therapies-treat-gonorrhea"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：对应WHO监测报告封面直链返回403；不使用门诊患者照片替代药物／指南配图。"
+        },
+        {
+          "id": "health-2026-11-26-who-nutrient-profile",
+          "title": "WHO更新东南亚食品营养分类模型，支持限制高糖盐脂食品营销",
+          "category": "健康",
+          "importance": 3,
+          "tags": [
+            "WHO",
+            "营养",
+            "食品环境",
+            "体重管理",
+            "儿童健康",
+            "公共健康"
+          ],
+          "publishedAt": "2026-11-25",
+          "summary": "WHO于11月25日发布东南亚区域新版Nutrient Profile Model，替代2017年版本，覆盖16类食品与饮料，用于识别高糖、盐和脂肪产品。它是结合科学证据和区域实施经验形成的政策技术工具，可支持儿童营销限制、营养声称管理、税补政策和公共食品采购，而非一项证明个人减重效果的临床试验。成员国可依本国情境采用或调整，发布本身不代表中国已经实施新标准；本次核对到官方概述，完整50页文件读取受限，不摘录未核实阈值。",
+          "analysis": "价值在于把健康饮食从个人意志扩展到食品环境和长期政策，有助于关注体重与代谢健康的人理解包装宣称和营销限制的依据。模型不是个人食谱或快速减肥方案，不能由食品分类推算某人能减多少体重，仍需重视饮食整体质量、可持续性和安全性。",
+          "sources": [
+            {
+              "title": "WHO原始出版页：新版模型、16类食品与政策用途",
+              "url": "https://www.who.int/publications/i/item/9789292800352"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：已找到WHO原始报告封面，但公开资产直链返回403；未以无关食物图片凑数。"
+        }
+      ]
+    },
     {
       "id": "health-2026-11-25",
       "collectionId": "health",
