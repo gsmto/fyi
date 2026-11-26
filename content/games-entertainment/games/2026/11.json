@@ -2,8 +2,211 @@
   "schemaVersion": 1,
   "collectionId": "games",
   "month": "2026-11",
-  "updatedAt": "2026-11-25T01:15:00Z",
+  "updatedAt": "2026-11-26T01:13:49Z",
   "briefs": [
+    {
+      "id": "games-2026-11-26",
+      "collectionId": "games",
+      "date": "2026-11-26",
+      "title": "游戏｜2026-11-26",
+      "summary": "信长之野望·飞翔定档、MELTY BLOOD跨平台及剧情、火星求生自动化扩展、台湾团队定海定档与浪漫沙加3机制资料。",
+      "analysis": "区分日期新增与旧日期复述、预购和正式发售、Advance Access与开发期抢先体验；遇到Steam与公告日期差异并列口径，不擅自推算解锁时刻。",
+      "rawText": "# 游戏｜2026-11-26\n\n## 今日重点\n\n按重要性关注：《信长之野望·飞翔》明确发售日、MELTY BLOOD跨平台对战、《火星求生：重启》自动化扩展，随后是《定海》定档与《浪漫沙加3》新机制。精选5条，已与近期归档去重；5分用于重大平台或旗舰变化，4分为重要定档／扩展／机制，3分为值得跟进的新作及系统资料。按开发团队／发行主体所在地分类；台湾团队在国内注明背景，中国大陆本轮未核得额外值得单列的重要新增，不以手游运营或促销补数。\n\n## 国内\n\n### 《定海》公布12月3日发售计划，Steam试玩继续开放\n\n**公告／报道日期：2026-11-25（北京时间报道）。**\n\n![《定海》Steam官方商店宣传图](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4542740/c2104ff0ffa50786d50e03c4344db53fcff7bbd7/header.jpg?t=1795584197)\n\n*图片出处：[原页面](https://store.steampowered.com/app/4542740/Dinghai_The_Ocean_Pillar/)；官方商店图，不代表实机性能测试。*\n\n台湾台北团队杰仕登宣布，自研单机动作RPG Roguelike《定海》（Dinghai: The Ocean Pillar）计划于2026年12月3日登陆PC Steam，简繁中文、英日文及韩文列入支持范围。游戏以山海经与大禹治水为背景，结合双武器、局内技能搭配和据点养成，目前可下载Demo；现阶段仍未正式发售。本次Steam页面显示12月2日，与公告口径差一天，尚未核得统一解锁时刻，需按账号地区商店确认。\n\n**为什么值得关注：**值得关注的是华语团队把神话题材与可重复构筑玩法结合，并已提供可验证手感的试玩。归入国内并注明台湾开发背景，不据预告提前给出品质或性能结论。\n\n来源：[Steam官方商店：平台、开发发行主体、试玩及当前显示日期](https://store.steampowered.com/app/4542740/Dinghai_The_Ocean_Pillar/)｜[17173：11月25日《定海》公告资料](https://news.17173.com/content/11252026/133034515.shtml)｜[Gematsu：开发商公告与发售日期](https://www.gematsu.com/2026/11/dinghai-the-ocean-pillar-launches-december-3)。\n\n## 国外\n\n### 《信长之野望·飞翔》定档2027年3月12日，日本及亚洲平台明确\n\n**公告／报道日期：2026-11-25。**\n\n![《信长之野望·飞翔》官方城下町建设系统画面](https://www.gamecity.ne.jp/hishou/assets/img/top_system_sec02_movie.png)\n\n*图片出处：[原页面](https://www.gamecity.ne.jp/hishou/jp/)；官网系统展示图，非已发售版本评测。*\n\n日本光荣特库摩与Kou Shibusawa团队宣布，《信长之野望·飞翔》将在2027年3月12日于日本及亚洲发售，平台为PS5、Switch 2和PC Steam，并支持日文及简繁中文。此次新增是确切日期与新预告；城下町建设及以织田信长人生为轴的剧情模式进一步展示。此前已收录的初代Switch版取消不重复当新闻，欧美发行安排也不由亚洲日期外推。\n\n**为什么值得关注：**明确日期便于策略游戏玩家规划，城建与剧情引导则关系到本作能否同时服务系列老玩家和新人。目前仍为开发中展示，没有正式版评测共识。\n\n来源：[GAMECITY官方商城：3月12日发售与对应机种](https://shop.gamecity.ne.jp/var/limited/2026/hishou/)｜[光荣特库摩官网：系统与平台](https://www.gamecity.ne.jp/hishou/jp/)｜[Gematsu：11月25日日本及亚洲定档公告](https://www.gematsu.com/2026/11/nobunagas-ambition-hishou-launches-march-12-2027-in-japan-asia)。\n\n### MELTY BLOOD新作确认跨平台对战，并公开大规模剧情模式\n\n**公告／报道日期：2026-11-25。**\n\n![MELTY BLOOD TWI-LUMINA官方商店主视觉](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4113000/475ef7b77db69201f849c024ac52b9d7cf90a983/header.jpg?t=1795611501)\n\n*图片出处：[原页面](https://store.steampowered.com/app/4113000/MELTY_BLOOD_TWILUMINA/)；官方宣传主视觉。*\n\n日本Aniplex与French-Bread在11月25日节目中公开《MELTY BLOOD: TWI-LUMINA》主预告，确认系列首次跨平台对战、弓塚五月参战，以及奈须蘑菇编写的Grand Scenario Mode。Act简化操作与Duel传统指令两种控制方式同步披露。平台为PS5、PS4、Switch／Switch 2、Xbox One及PC；日版官网发售日仍为2027年4月22日，本次Steam页面显示4月21日，地区显示与具体解锁时间须分别确认，日期本身不是今日首公布。\n\n**为什么值得关注：**跨平台联机会影响玩家池规模，剧情模式和简化输入也扩大了单人及新手价值，属于玩法实质信息。不要把新预告、11月26日日本实体预购与正式发售混为一谈。\n\n来源：[MELTY BLOOD日版官网：模式、角色、跨平台与发售日](https://meltyblood.twilumina.com/)｜[Steam官方商店：平台版本与当前日期显示](https://store.steampowered.com/app/4113000/MELTY_BLOOD_TWILUMINA/)｜[Gematsu：11月25日节目新内容](https://www.gematsu.com/2026/11/melty-blood-twi-lumina-main-trailer-playable-character-satsuki-yumizuka-cross-play-and-more-revealed)。\n\n### 《火星求生：重启》Machine Utopia扩展12月9日上线\n\n**公告／报道日期：2026-11-25。**\n\n![Machine Utopia扩展官方商店宣传图](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3889440/d9bbba099ad2e50fb78a1bf963c0b8674c7cb9da/header.jpg?t=1795597058)\n\n*图片出处：[原页面](https://store.steampowered.com/app/3889440/Surviving_Mars_Relaunched_Machine_Utopia/)；官方DLC图，扩展尚未发售。*\n\n瑞典发行商Paradox与保加利亚Haemimont Games于11月25日宣布，《Surviving Mars: Relaunched》的Machine Utopia扩展将在2026年12月9日登陆PC、PS5和Xbox Series X|S。新增机器人劳动力、生产Compute的数据中心、大型采矿及地表到地下的列车运输，可尝试无人类殖民地；当前尚未上线。扩展可单独购买，也包含于Ultimate Edition及Prime Mission扩展通行证，Steam明确要求拥有重启版本体，不是给2018原版自动补发的免费更新。\n\n**为什么值得关注：**这会改变人口、算力和物流之间的经营约束，比单纯增加建筑外观更值得模拟经营玩家关注。实际平衡、存档兼容和稳定性还需等待正式上线验证。\n\n来源：[Paradox官方：11月25日扩展公告与平台日期](https://www.paradoxinteractive.com/media/press-releases/paradox-interactive/embrace-martian-automation-in-machine-utopia-for-surviving-mars-relaunched-on-december-9-2026)｜[Steam官方DLC商店：内容与本体要求](https://store.steampowered.com/app/3889440/Surviving_Mars_Relaunched_Machine_Utopia/)。\n\n### 《浪漫沙加3》重制版详解经营、锦标赛与战斗系统\n\n**公告／报道日期：2026-11-25。**\n\n![浪漫沙加3 Destinies United官方商店宣传图](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4214960/ed8b297631e87b3983714a901cef852f3f8c84b5/header.jpg?t=1794467115)\n\n*图片出处：[原页面](https://store.steampowered.com/app/4214960/Romancing_SaGa_3_Destinies_United/)；官方重制版宣传图。*\n\n日本Square Enix于11月25日公开《Romancing SaGa 3: Destinies United》新系统资料：商业竞价小游戏提供三档难度，原作一次性锦标赛扩展为多轮不同规则比赛，并展示技法领悟路径与单角色使用合成术等调整。日本Square Enix／xeen开发，PS5、Xbox Series、Switch、Switch 2及PC版仍定于2027年2月4日；该日期已于11月13日日报收录，本次只收新增玩法细节。Steam豪华版的提前3天游玩属于Advance Access，不是抢先体验开发。\n\n**为什么值得关注：**经营与战斗变化有助于判断它是否是机制层面的重制，而不仅是3D画面升级。仍需正式评测核实系统深度与节奏，不能将官方功能说明写成已有口碑共识。\n\n来源：[Gematsu：11月25日Square Enix系统资料与截图](https://www.gematsu.com/2026/11/romancing-saga-3-destinies-united-details-more-traveling-companions-business-minigames-zwei-tournament-and-battle-elements)｜[Steam官方商店：开发团队、日期与提前游玩](https://store.steampowered.com/app/4214960/Romancing_SaGa_3_Destinies_United/)。\n\n后续值得跟进的是跨平台联机的实际支持细节，以及模拟经营扩展对旧存档和经济系统的影响。近期几项明年发售作品进入系统展示期，但预告与明确日期仍不能替代正式版性能及品质评测。\n",
+      "completeness": "full",
+      "sourceConversation": "游戏",
+      "provenance": "生成于2026-11-26T01:13:49Z；Asia/Shanghai 2026-11-26。通过GitHub读取main归档协议、catalog、games索引及10—11月归档，阅读近7日报告并全文匹配去重。综合检索生成前24小时国内外开发发行公告、官方商店及Gematsu、17173等中英文游戏媒体，补查最近7天；实际打开光荣官网与GAMECITY商城、MELTY BLOOD日版官网、Paradox官方扩展公告、四个Steam商店及详细报道。定海报道EST11月24日晚对应北京时间25日，明确台湾台北Justdan开发发行；已检索大陆单机动态但未以运营稿填充。浪漫沙加3的2月4日已于11月13日归档，今日仅增机制资料；信长初代Switch取消不重复。Steam定海12月2日／公告3日、MELTY BLOOD Steam4月21日／日本官网22日并列，不假定原因。Gematsu五张缩略图虽可在网页图片入口打开，但命令行均403，改用实际观察到的Steam与官方系统图；前四张HTTP200已验证，火星DLC图已由公开网页图片入口实际打开。仅修改games月文件与索引，不含私人标识。",
+      "score": 4,
+      "items": [
+        {
+          "id": "games-2026-11-26-dinghai",
+          "title": "《定海》公布12月3日发售计划，Steam试玩继续开放",
+          "category": "国内",
+          "importance": 3,
+          "tags": [
+            "PC",
+            "Steam",
+            "动作RPG",
+            "Roguelike",
+            "定海"
+          ],
+          "publishedAt": "2026-11-25（北京时间报道）",
+          "summary": "台湾台北团队杰仕登宣布，自研单机动作RPG Roguelike《定海》（Dinghai: The Ocean Pillar）计划于2026年12月3日登陆PC Steam，简繁中文、英日文及韩文列入支持范围。游戏以山海经与大禹治水为背景，结合双武器、局内技能搭配和据点养成，目前可下载Demo；现阶段仍未正式发售。本次Steam页面显示12月2日，与公告口径差一天，尚未核得统一解锁时刻，需按账号地区商店确认。",
+          "analysis": "值得关注的是华语团队把神话题材与可重复构筑玩法结合，并已提供可验证手感的试玩。归入国内并注明台湾开发背景，不据预告提前给出品质或性能结论。",
+          "sources": [
+            {
+              "title": "Steam官方商店：平台、开发发行主体、试玩及当前显示日期",
+              "url": "https://store.steampowered.com/app/4542740/Dinghai_The_Ocean_Pillar/"
+            },
+            {
+              "title": "17173：11月25日《定海》公告资料",
+              "url": "https://news.17173.com/content/11252026/133034515.shtml"
+            },
+            {
+              "title": "Gematsu：开发商公告与发售日期",
+              "url": "https://www.gematsu.com/2026/11/dinghai-the-ocean-pillar-launches-december-3"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4542740/c2104ff0ffa50786d50e03c4344db53fcff7bbd7/header.jpg?t=1795584197",
+              "alt": "《定海》Steam官方商店宣传图",
+              "sourceUrl": "https://store.steampowered.com/app/4542740/Dinghai_The_Ocean_Pillar/",
+              "caption": "官方商店图，不代表实机性能测试。"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-26-nobunaga-hishou-date",
+          "title": "《信长之野望·飞翔》定档2027年3月12日，日本及亚洲平台明确",
+          "category": "国外",
+          "importance": 4,
+          "tags": [
+            "PS5",
+            "Switch 2",
+            "PC",
+            "策略",
+            "信长之野望·飞翔"
+          ],
+          "publishedAt": "2026-11-25",
+          "summary": "日本光荣特库摩与Kou Shibusawa团队宣布，《信长之野望·飞翔》将在2027年3月12日于日本及亚洲发售，平台为PS5、Switch 2和PC Steam，并支持日文及简繁中文。此次新增是确切日期与新预告；城下町建设及以织田信长人生为轴的剧情模式进一步展示。此前已收录的初代Switch版取消不重复当新闻，欧美发行安排也不由亚洲日期外推。",
+          "analysis": "明确日期便于策略游戏玩家规划，城建与剧情引导则关系到本作能否同时服务系列老玩家和新人。目前仍为开发中展示，没有正式版评测共识。",
+          "sources": [
+            {
+              "title": "GAMECITY官方商城：3月12日发售与对应机种",
+              "url": "https://shop.gamecity.ne.jp/var/limited/2026/hishou/"
+            },
+            {
+              "title": "光荣特库摩官网：系统与平台",
+              "url": "https://www.gamecity.ne.jp/hishou/jp/"
+            },
+            {
+              "title": "Gematsu：11月25日日本及亚洲定档公告",
+              "url": "https://www.gematsu.com/2026/11/nobunagas-ambition-hishou-launches-march-12-2027-in-japan-asia"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.gamecity.ne.jp/hishou/assets/img/top_system_sec02_movie.png",
+              "alt": "《信长之野望·飞翔》官方城下町建设系统画面",
+              "sourceUrl": "https://www.gamecity.ne.jp/hishou/jp/",
+              "caption": "官网系统展示图，非已发售版本评测。"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-26-melty-crossplay",
+          "title": "MELTY BLOOD新作确认跨平台对战，并公开大规模剧情模式",
+          "category": "国外",
+          "importance": 4,
+          "tags": [
+            "PS5",
+            "PS4",
+            "Switch",
+            "Switch 2",
+            "Xbox One",
+            "PC",
+            "格斗",
+            "MELTY BLOOD: TWI-LUMINA"
+          ],
+          "publishedAt": "2026-11-25",
+          "summary": "日本Aniplex与French-Bread在11月25日节目中公开《MELTY BLOOD: TWI-LUMINA》主预告，确认系列首次跨平台对战、弓塚五月参战，以及奈须蘑菇编写的Grand Scenario Mode。Act简化操作与Duel传统指令两种控制方式同步披露。平台为PS5、PS4、Switch／Switch 2、Xbox One及PC；日版官网发售日仍为2027年4月22日，本次Steam页面显示4月21日，地区显示与具体解锁时间须分别确认，日期本身不是今日首公布。",
+          "analysis": "跨平台联机会影响玩家池规模，剧情模式和简化输入也扩大了单人及新手价值，属于玩法实质信息。不要把新预告、11月26日日本实体预购与正式发售混为一谈。",
+          "sources": [
+            {
+              "title": "MELTY BLOOD日版官网：模式、角色、跨平台与发售日",
+              "url": "https://meltyblood.twilumina.com/"
+            },
+            {
+              "title": "Steam官方商店：平台版本与当前日期显示",
+              "url": "https://store.steampowered.com/app/4113000/MELTY_BLOOD_TWILUMINA/"
+            },
+            {
+              "title": "Gematsu：11月25日节目新内容",
+              "url": "https://www.gematsu.com/2026/11/melty-blood-twi-lumina-main-trailer-playable-character-satsuki-yumizuka-cross-play-and-more-revealed"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4113000/475ef7b77db69201f849c024ac52b9d7cf90a983/header.jpg?t=1795611501",
+              "alt": "MELTY BLOOD TWI-LUMINA官方商店主视觉",
+              "sourceUrl": "https://store.steampowered.com/app/4113000/MELTY_BLOOD_TWILUMINA/",
+              "caption": "官方宣传主视觉。"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-26-mars-machine-utopia",
+          "title": "《火星求生：重启》Machine Utopia扩展12月9日上线",
+          "category": "国外",
+          "importance": 4,
+          "tags": [
+            "PC",
+            "PS5",
+            "Xbox Series",
+            "殖民模拟",
+            "DLC",
+            "Surviving Mars: Relaunched"
+          ],
+          "publishedAt": "2026-11-25",
+          "summary": "瑞典发行商Paradox与保加利亚Haemimont Games于11月25日宣布，《Surviving Mars: Relaunched》的Machine Utopia扩展将在2026年12月9日登陆PC、PS5和Xbox Series X|S。新增机器人劳动力、生产Compute的数据中心、大型采矿及地表到地下的列车运输，可尝试无人类殖民地；当前尚未上线。扩展可单独购买，也包含于Ultimate Edition及Prime Mission扩展通行证，Steam明确要求拥有重启版本体，不是给2018原版自动补发的免费更新。",
+          "analysis": "这会改变人口、算力和物流之间的经营约束，比单纯增加建筑外观更值得模拟经营玩家关注。实际平衡、存档兼容和稳定性还需等待正式上线验证。",
+          "sources": [
+            {
+              "title": "Paradox官方：11月25日扩展公告与平台日期",
+              "url": "https://www.paradoxinteractive.com/media/press-releases/paradox-interactive/embrace-martian-automation-in-machine-utopia-for-surviving-mars-relaunched-on-december-9-2026"
+            },
+            {
+              "title": "Steam官方DLC商店：内容与本体要求",
+              "url": "https://store.steampowered.com/app/3889440/Surviving_Mars_Relaunched_Machine_Utopia/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3889440/d9bbba099ad2e50fb78a1bf963c0b8674c7cb9da/header.jpg?t=1795597058",
+              "alt": "Machine Utopia扩展官方商店宣传图",
+              "sourceUrl": "https://store.steampowered.com/app/3889440/Surviving_Mars_Relaunched_Machine_Utopia/",
+              "caption": "官方DLC图，扩展尚未发售。"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-26-saga3-systems",
+          "title": "《浪漫沙加3》重制版详解经营、锦标赛与战斗系统",
+          "category": "国外",
+          "importance": 3,
+          "tags": [
+            "PS5",
+            "Xbox Series",
+            "Switch",
+            "Switch 2",
+            "PC",
+            "JRPG",
+            "Romancing SaGa 3: Destinies United"
+          ],
+          "publishedAt": "2026-11-25",
+          "summary": "日本Square Enix于11月25日公开《Romancing SaGa 3: Destinies United》新系统资料：商业竞价小游戏提供三档难度，原作一次性锦标赛扩展为多轮不同规则比赛，并展示技法领悟路径与单角色使用合成术等调整。日本Square Enix／xeen开发，PS5、Xbox Series、Switch、Switch 2及PC版仍定于2027年2月4日；该日期已于11月13日日报收录，本次只收新增玩法细节。Steam豪华版的提前3天游玩属于Advance Access，不是抢先体验开发。",
+          "analysis": "经营与战斗变化有助于判断它是否是机制层面的重制，而不仅是3D画面升级。仍需正式评测核实系统深度与节奏，不能将官方功能说明写成已有口碑共识。",
+          "sources": [
+            {
+              "title": "Gematsu：11月25日Square Enix系统资料与截图",
+              "url": "https://www.gematsu.com/2026/11/romancing-saga-3-destinies-united-details-more-traveling-companions-business-minigames-zwei-tournament-and-battle-elements"
+            },
+            {
+              "title": "Steam官方商店：开发团队、日期与提前游玩",
+              "url": "https://store.steampowered.com/app/4214960/Romancing_SaGa_3_Destinies_United/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4214960/ed8b297631e87b3983714a901cef852f3f8c84b5/header.jpg?t=1794467115",
+              "alt": "浪漫沙加3 Destinies United官方商店宣传图",
+              "sourceUrl": "https://store.steampowered.com/app/4214960/Romancing_SaGa_3_Destinies_United/",
+              "caption": "官方重制版宣传图。"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "games-2026-11-25",
       "collectionId": "games",
