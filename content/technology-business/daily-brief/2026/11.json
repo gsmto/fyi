@@ -2,8 +2,170 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-11",
-  "updatedAt": "2026-11-25T01:06:32Z",
+  "updatedAt": "2026-11-26T01:03:07Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-11-26",
+      "collectionId": "daily-brief",
+      "date": "2026-11-26",
+      "title": "最新资讯｜2026-11-26",
+      "summary": "美国10月PCE与消费、Claude MCP技能及后台任务、Perplexity历史网页API、Google托管检索预览、金山软件办公与游戏业务分化。",
+      "analysis": "重点观察真实消费与名义增长的差别、智能体工具的状态和权限边界，以及AI商业化收入与会计利润口径；不以厂商自测替代独立验证。",
+      "rawText": "# 最新资讯｜2026-11-26\n\n今日精选5条，已与本栏目近期归档去重。以11月25日新增信息为主，补收两条11月24日尚未收录且对开发实践有价值的更新，并分别标明日期。重要性5分表示重要宏观变化或直接改变开发工作流，4分表示值得跟踪的产品和行业变化；评分为编辑判断。\n\n## 1．美国10月通胀仍偏高，实际消费支出近乎停滞\n\n**发布／事件日期：2026-11-25。**\n\n美国BEA于11月25日发布10月个人收入与支出数据：PCE价格指数同比上涨3.8%，剔除食品能源的核心PCE上涨3.3%，两项环比均为0.3%。名义消费支出环比增0.3%，但扣除价格因素后的实际PCE下降不足0.1%（四舍五入为0.0%），弱于9月的增0.1%。个人收入环比增0.7%，其中包含政府社会福利的一次性支付因素，不能全部视为持续工资增长。\n\n**为什么值得关注／可能影响：**这组“物价继续上涨、实际消费偏弱”的组合，是观察美国需求和利率路径的重要信号，也影响科技公司估值的宏观背景。单月数据会修订，不能由此直接推出降息时间或股价方向。\n\n来源：[BEA：10月个人收入与支出，11月25日发布](https://bea.gov/news/2026/personal-income-and-outlays-october-2026)。\n\n*缺图：官方发布正文以数据表为主，未发现适合归档的独立HTTPS新闻图；不以无关市场照片替代。*\n\n## 2．Claude让MCP服务器提供技能与后台任务，工具接入开始承载工作流程\n\n**发布／事件日期：2026-11-24。**\n\n![Skills over MCP的技能、工具和资源三层官方示意图](https://assets.claude.com/c801d50355ebd35519eb1d82598a4c903298e966.png)\n\n*图片出处：[原页面](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more)；官方功能示意图；本次通过公开网页图片入口打开，非独立效果评测。*\n\n补收11月24日官方更新：Skills over MCP在Claude与Claude Code进入公开测试，服务器可随工具分发按需加载的专业操作指引；Pro、Max、Ultra默认开启，Team需管理员启用，Enterprise尚待开放。Tasks与Elicitation已对上述个人付费套餐正式可用，并向Team、Enterprise逐步推出，分别用于后台长任务与执行中请求用户输入。File Uploads仍是即将推出，不能把文件传输功能当作已经普遍可用。\n\n**为什么值得关注／可能影响：**对智能体开发者，MCP接入从列出工具扩展为提供流程、异步状态与确认入口，值得用于设计长任务交互。技能内容仍需审查和权限约束，协议支持本身不代表接入服务的动作已获得用户授权。\n\n来源：[Anthropic：MCP Skills、Tasks与Elicitation的状态及套餐范围](https://claude.com/resources/articles/skills-over-mcp-tasks-and-more)。\n\n## 3．Perplexity推出历史网页检索，帮助智能体评测避开事后信息\n\n**发布／事件日期：2026-11-25。**\n\n![Perplexity Time Machine官方历史检索实验结果图](https://cdn.sanity.io/images/aqo64vfr/production/92866b5a38a04e14f23353f95af2b40f8d0af360-1280x720.svg?auto=format&fit=max&q=80&w=1280)\n\n*图片出处：[原页面](https://www.perplexity.ai/en-GB/hub/blog/freeze-the-web-with-perplexity-time-machine)；厂商实验图，不能视为独立预测评测或投资回报。*\n\nPerplexity于11月25日推出Time Machine，在Search API与Context API中加入snapshot_as_of，以所选时点之前保存的网页副本完成搜索和全文读取，当前可回溯最多365天。官方称历史请求不额外加价：Search为每千次请求5美元，Context为每千个URL 1美元；文档给出历史搜索默认每秒1次的独立限流。历史副本可能缺失，检索与读取必须使用同一截止时间；这不是对整个历史互联网的完整还原。\n\n**为什么值得关注／可能影响：**它为新闻研究、财务回测和已知结局问题的智能体评测提供了更可复查的信息边界。截止时间只能限制外部检索，不能消除模型训练中已经记住结局的影响，厂商实验结果也不等于预测收益保证。\n\n来源：[Perplexity：Time Machine发布与定价](https://www.perplexity.ai/en-GB/hub/blog/freeze-the-web-with-perplexity-time-machine)｜[Perplexity官方文档：截止时间、365天范围、限流与缺失处理](https://docs.perplexity.ai/docs/search/time-machine)。\n\n## 4．Google托管文件与视频检索进入公开预览，返回页码或时间段\n\n**发布／事件日期：2026-11-24。**\n\n![Google托管文档与视频导入后通过SearchDocuments检索的官方流程图](https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/after_en.original.png)\n\n*图片出处：[原页面](https://developers.googleblog.com/en/from-files-to-cited-answers-in-one-api-call-managed-ingestion-and-searchdocuments-in-agent-retrieval/)；官方架构图，非独立性能测试。*\n\n补收11月24日Google开发者公告：Agent Retrieval（原Vector Search 2.0）新增托管导入和SearchDocuments公开预览，可从Cloud Storage导入文档或视频，由服务完成解析、分段和嵌入，返回带源文件、页码或视频时间段的匹配片段。预览仅在us-east4、europe-west4提供，通过REST v1beta调用，Python SDK支持尚在计划中。托管导入在预览期不另收费，但底层Collection仍按标准价格计费，不能理解为整个检索方案免费。\n\n**为什么值得关注／可能影响：**对知识库和多媒体资料应用，直接价值是减少通用导入管线维护，保留可追溯的引用位置。返回检索片段并不等于生成正确答案，生产接入仍需验证权限过滤、召回质量与地区适用性。\n\n来源：[Google Developers：托管导入、SearchDocuments、预览限制与计费](https://developers.googleblog.com/en/from-files-to-cited-answers-in-one-api-call-managed-ingestion-and-searchdocuments-in-agent-retrieval/)。\n\n## 5．金山软件Q3办公增16%、游戏降25%，调整后盈利与归母亏损须分开看\n\n**发布／事件日期：2026-11-25。**\n\n金山软件11月25日披露截至9月30日的第三季度未经审计业绩：营收24.39亿元，同比增长约1%；办公软件及服务17.66亿元、增16%，网络游戏及其他6.72亿元、降25%。营运利润3.88亿元、增40%，但按国际财务报告准则的母公司拥有人应占亏损为2.04亿元；非IFRS调整后归母净利润则为3.01亿元、增12%。公告称合营和联营公司的亏损主要受到股权投资未实现损益影响，不能把调整后利润直接写成会计净利润。\n\n**为什么值得关注／可能影响：**这提供了办公AI商业化与游戏产品周期同时作用的实证观察，比单看AI增长叙事更有价值。公司对AI提效与付费转化的解释属于管理层归因，不能据此推断整个软件或游戏行业已同步复苏。\n\n来源：[港交所：金山软件2026年第三季度业绩公告](https://www.hkexnews.hk/listedco/listconews/sehk/2026/1125/2026112500559_c.pdf)｜[证券时报报道转载：11月25日发布的业绩线索](https://stock.stockstar.com/IG2026112500041792.shtml)。\n\n*缺图：已核对原始业绩PDF；没有确认适合展示本次业绩且可稳定读取的独立图片，未使用无关办公或游戏宣传图。*\n\n",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "生成于2026-11-26T01:03:07Z；Asia/Shanghai 2026-11-26。通过已授权GitHub连接读取main归档协议、catalog、月schema、脚本、索引及2026年9—11月数据，阅读近期标题及全文检索去重。综合检索11月25日及最近7天中英文科技商业媒体、开发者与开源社区线索，实际打开BEA原始数据、Anthropic官方公告、Perplexity公告及API文档、Google开发者公告、金山软件港交所原始财报及公司新闻稿。两条11月24日补收明确注明；未采用GTA非官方移植或未经核实市场传闻。图片3张均为已发现的官方直链：Google PNG和Perplexity SVG实际HTTP200；Claude图通过公开网页图片入口成功打开，但命令行读取403，第三方加载可能受限制；两条缺图明确说明。保留历史，只提交本栏目月文件与索引，不含私人标识。",
+      "score": 5,
+      "items": [
+        {
+          "id": "daily-brief-2026-11-26-us-october-pce",
+          "title": "美国10月通胀仍偏高，实际消费支出近乎停滞",
+          "category": "财经与市场",
+          "publishedAt": "2026-11-25",
+          "importance": 5,
+          "tags": [
+            "美国",
+            "PCE",
+            "消费",
+            "利率"
+          ],
+          "summary": "美国BEA于11月25日发布10月个人收入与支出数据：PCE价格指数同比上涨3.8%，剔除食品能源的核心PCE上涨3.3%，两项环比均为0.3%。名义消费支出环比增0.3%，但扣除价格因素后的实际PCE下降不足0.1%（四舍五入为0.0%），弱于9月的增0.1%。个人收入环比增0.7%，其中包含政府社会福利的一次性支付因素，不能全部视为持续工资增长。",
+          "analysis": "这组“物价继续上涨、实际消费偏弱”的组合，是观察美国需求和利率路径的重要信号，也影响科技公司估值的宏观背景。单月数据会修订，不能由此直接推出降息时间或股价方向。",
+          "sources": [
+            {
+              "title": "BEA：10月个人收入与支出，11月25日发布",
+              "url": "https://bea.gov/news/2026/personal-income-and-outlays-october-2026"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：官方发布正文以数据表为主，未发现适合归档的独立HTTPS新闻图；不以无关市场照片替代。"
+        },
+        {
+          "id": "daily-brief-2026-11-26-claude-mcp-skills",
+          "title": "Claude让MCP服务器提供技能与后台任务，工具接入开始承载工作流程",
+          "category": "AI与开发工具",
+          "publishedAt": "2026-11-24",
+          "importance": 5,
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "MCP",
+            "Skills",
+            "智能体",
+            "开发工具"
+          ],
+          "summary": "补收11月24日官方更新：Skills over MCP在Claude与Claude Code进入公开测试，服务器可随工具分发按需加载的专业操作指引；Pro、Max、Ultra默认开启，Team需管理员启用，Enterprise尚待开放。Tasks与Elicitation已对上述个人付费套餐正式可用，并向Team、Enterprise逐步推出，分别用于后台长任务与执行中请求用户输入。File Uploads仍是即将推出，不能把文件传输功能当作已经普遍可用。",
+          "analysis": "对智能体开发者，MCP接入从列出工具扩展为提供流程、异步状态与确认入口，值得用于设计长任务交互。技能内容仍需审查和权限约束，协议支持本身不代表接入服务的动作已获得用户授权。",
+          "sources": [
+            {
+              "title": "Anthropic：MCP Skills、Tasks与Elicitation的状态及套餐范围",
+              "url": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://assets.claude.com/c801d50355ebd35519eb1d82598a4c903298e966.png",
+              "alt": "Skills over MCP的技能、工具和资源三层官方示意图",
+              "sourceUrl": "https://claude.com/resources/articles/skills-over-mcp-tasks-and-more",
+              "caption": "官方功能示意图；本次通过公开网页图片入口打开，非独立效果评测。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-26-perplexity-time-machine",
+          "title": "Perplexity推出历史网页检索，帮助智能体评测避开事后信息",
+          "category": "AI与研究工具",
+          "publishedAt": "2026-11-25",
+          "importance": 4,
+          "tags": [
+            "Perplexity",
+            "Time Machine",
+            "API",
+            "评测",
+            "回测"
+          ],
+          "summary": "Perplexity于11月25日推出Time Machine，在Search API与Context API中加入snapshot_as_of，以所选时点之前保存的网页副本完成搜索和全文读取，当前可回溯最多365天。官方称历史请求不额外加价：Search为每千次请求5美元，Context为每千个URL 1美元；文档给出历史搜索默认每秒1次的独立限流。历史副本可能缺失，检索与读取必须使用同一截止时间；这不是对整个历史互联网的完整还原。",
+          "analysis": "它为新闻研究、财务回测和已知结局问题的智能体评测提供了更可复查的信息边界。截止时间只能限制外部检索，不能消除模型训练中已经记住结局的影响，厂商实验结果也不等于预测收益保证。",
+          "sources": [
+            {
+              "title": "Perplexity：Time Machine发布与定价",
+              "url": "https://www.perplexity.ai/en-GB/hub/blog/freeze-the-web-with-perplexity-time-machine"
+            },
+            {
+              "title": "Perplexity官方文档：截止时间、365天范围、限流与缺失处理",
+              "url": "https://docs.perplexity.ai/docs/search/time-machine"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn.sanity.io/images/aqo64vfr/production/92866b5a38a04e14f23353f95af2b40f8d0af360-1280x720.svg?auto=format&fit=max&q=80&w=1280",
+              "alt": "Perplexity Time Machine官方历史检索实验结果图",
+              "sourceUrl": "https://www.perplexity.ai/en-GB/hub/blog/freeze-the-web-with-perplexity-time-machine",
+              "caption": "厂商实验图，不能视为独立预测评测或投资回报。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-26-google-managed-retrieval",
+          "title": "Google托管文件与视频检索进入公开预览，返回页码或时间段",
+          "category": "软件工程与AI",
+          "publishedAt": "2026-11-24",
+          "importance": 4,
+          "tags": [
+            "Google",
+            "Agent Retrieval",
+            "RAG",
+            "文档检索",
+            "视频检索",
+            "公开预览"
+          ],
+          "summary": "补收11月24日Google开发者公告：Agent Retrieval（原Vector Search 2.0）新增托管导入和SearchDocuments公开预览，可从Cloud Storage导入文档或视频，由服务完成解析、分段和嵌入，返回带源文件、页码或视频时间段的匹配片段。预览仅在us-east4、europe-west4提供，通过REST v1beta调用，Python SDK支持尚在计划中。托管导入在预览期不另收费，但底层Collection仍按标准价格计费，不能理解为整个检索方案免费。",
+          "analysis": "对知识库和多媒体资料应用，直接价值是减少通用导入管线维护，保留可追溯的引用位置。返回检索片段并不等于生成正确答案，生产接入仍需验证权限过滤、召回质量与地区适用性。",
+          "sources": [
+            {
+              "title": "Google Developers：托管导入、SearchDocuments、预览限制与计费",
+              "url": "https://developers.googleblog.com/en/from-files-to-cited-answers-in-one-api-call-managed-ingestion-and-searchdocuments-in-agent-retrieval/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://storage.googleapis.com/gweb-developer-goog-blog-assets/images/after_en.original.png",
+              "alt": "Google托管文档与视频导入后通过SearchDocuments检索的官方流程图",
+              "sourceUrl": "https://developers.googleblog.com/en/from-files-to-cited-answers-in-one-api-call-managed-ingestion-and-searchdocuments-in-agent-retrieval/",
+              "caption": "官方架构图，非独立性能测试。"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-26-kingsoft-q3-results",
+          "title": "金山软件Q3办公增16%、游戏降25%，调整后盈利与归母亏损须分开看",
+          "category": "科技商业与游戏行业",
+          "publishedAt": "2026-11-25",
+          "importance": 4,
+          "tags": [
+            "金山软件",
+            "WPS",
+            "游戏行业",
+            "财报",
+            "AI商业化"
+          ],
+          "summary": "金山软件11月25日披露截至9月30日的第三季度未经审计业绩：营收24.39亿元，同比增长约1%；办公软件及服务17.66亿元、增16%，网络游戏及其他6.72亿元、降25%。营运利润3.88亿元、增40%，但按国际财务报告准则的母公司拥有人应占亏损为2.04亿元；非IFRS调整后归母净利润则为3.01亿元、增12%。公告称合营和联营公司的亏损主要受到股权投资未实现损益影响，不能把调整后利润直接写成会计净利润。",
+          "analysis": "这提供了办公AI商业化与游戏产品周期同时作用的实证观察，比单看AI增长叙事更有价值。公司对AI提效与付费转化的解释属于管理层归因，不能据此推断整个软件或游戏行业已同步复苏。",
+          "sources": [
+            {
+              "title": "港交所：金山软件2026年第三季度业绩公告",
+              "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1125/2026112500559_c.pdf"
+            },
+            {
+              "title": "证券时报报道转载：11月25日发布的业绩线索",
+              "url": "https://stock.stockstar.com/IG2026112500041792.shtml"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：已核对原始业绩PDF；没有确认适合展示本次业绩且可稳定读取的独立图片，未使用无关办公或游戏宣传图。"
+        }
+      ]
+    },
     {
       "id": "daily-brief-2026-11-25",
       "collectionId": "daily-brief",
