@@ -2,8 +2,118 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-26T01:23:40Z",
+  "updatedAt": "2026-11-27T01:24:55Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-27",
+      "collectionId": "llm",
+      "date": "2026-11-27",
+      "title": "大模型｜2026-11-27",
+      "summary": "Anthropic公开Rust迁移验证方法，NVIDIA开放Parse训练资源，OpenAI私密推理进入有限客户测试。",
+      "analysis": "区分工程经验、厂商性能测试与Alpha客户试用；观察可验证性和真实部署条件。",
+      "rawText": "# 大模型｜2026-11-27\n\n本期精选3条，优先最近24小时新增，并补收11月25日尚未在本栏目归档的重要动态；已与11月20—26日报告去重。检索覆盖OpenAI、Anthropic、Google／DeepMind、xAI、Meta及重要其他厂商；未为凑公司数量重复旧闻。\n\n## 1. Anthropic公开Messages API重写经验：验证比生成更难\n\n11月25日工程披露，近7天补收：Messages API已于9月迁至Rust，Claude参与代码生成、差异定位和修复，并非今天才切换。公司报告每请求CPU约降70%，Claude Code请求首token中位耗时约降20%；4月测试通过约98%时，真实流量输入仅约四分之一与旧系统一致。团队以生产系统为参照、复用同一次模型输出做影子比较，修复经人工审查后进入外层验证。\n\n**为什么值得关注：**对开发者，价值是建立可追溯差异和验证闭环，不能只看测试通过率，也不能让智能体同时弱化测试标准。数字为厂商特定业务、时段和样本口径的工程测量，不代表通用Rust提速比例或模型能力独立评测。\n\n![Anthropic对比局部重写与完整Rust请求路径的官方示意图](https://assets.claude.com/a518c8d4f3c915a99fc745d5cced4fa806274650.png?fit=max&fm=webp&q=75&w=3840)\n\n[图片出处](https://www.anthropic.com/research/migrating-api-to-rust)\n\n来源：[Anthropic原始工程报告（11月25日）](https://www.anthropic.com/research/migrating-api-to-rust)。\n\n重要性：4/5：为生产级编码智能体提供可复用的验证方法。\n\n## 2. NVIDIA开放文档解析训练数据、微调配方与DFlash2\n\n11月26日新增：NVIDIA围绕此前发布的Nemotron 3.5 Parse，开放998万图表、100万表格和790万多语言OCR合成样本，以及SFT与可验证奖励强化学习配方。官方在单张H200、BF16、同一组2078页上测试，DFlash2相对关闭推测解码的Parse 3.5，在并发1时吞吐提高7.62倍，并发512时为1.52倍。新增重点是数据、训练和推理组件，并非新一代通用聊天模型。\n\n**为什么值得关注：**文档RAG与智能体开发者可用自有页面和校验器适配模型，并按真实并发评估收益。上述为厂商测试；合成版式上的表现不能直接外推真实业务，多遍解析还会增加计算量。\n\n![Nemotron Parse对合成业务页面的结构化输出示例](https://huggingface.co/datasets/nvidia/Nemotron-Parse-Blog-Assets/resolve/main/images/figure-01-page-structure.png)\n\n[图片出处](https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin)\n\n来源：[NVIDIA官方Hugging Face技术文章与数据、配方链接（11月26日）](https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin)。\n\n重要性：4/5：为文档智能体带来可使用的数据和训练资源。\n\n## 3. OpenAI Private Inference进入小范围客户测试，仍为Alpha\n\n11月25日动态，近7天补收：据The Next Web对Sam Altman公告的报道，Private Inference已由小部分企业客户试用。OpenAI官方产品页仍标注Alpha／API Preview，方案结合机密计算与访问控制，目标是保护模型处理期间的提示和回答；ZDR则针对处理后的数据保留，二者不能混同。所核公告未明确支持模型、价格、地区名单或全面开放时间，不能据此视为普通ChatGPT账号已可使用。\n\n**为什么值得关注：**对敏感业务，这意味着评估托管模型时应同时审查处理过程、留存和工具权限。当前仍须等待具体准入条件和可验证保障，不将产品设计目标当作已获独立证明的绝对隐私承诺。\n\n缺图：已核产品页未取得与本次客户测试直接对应的稳定图片直链，媒体采用通用图库照，未用其凑图。\n\n来源：[OpenAI官方产品页：Alpha状态与保护范围](https://openai.com/business/private-intelligence/)；[The Next Web：11月25日客户试用报道及原始公告链接](https://thenextweb.com/news/openai-private-inference-testing-customers)。\n\n重要性：3/5：企业隐私部署的早期进展，具体可用性仍有限。\n\n观察：本期更值得跟进的是生产验证、文档适配和推理过程隐私，而非仅看新模型名称；自测结果、预览状态和实际可用条件仍应分别核验。\n",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "生成于2026-11-27T01:24:55Z；检索最近24小时中英文AI消息，回溯2026-11-20至生成时重要未收录事件。通过GitHub读取归档规范、catalog、schema、栏目索引和11月完整月文件去重。实际读取Anthropic原始工程报告及官方配图、OpenAI产品页与TNW报道；原始X公告403，客户试用日期归因可靠媒体，未声称直接读取。NVIDIA原文网页工具受限后以HTTP200实际读取完整HTML，确认发布日期2026-11-26T05:05:36.737Z；配图从原文提取并HTTP200 image/png验证。检索Google、DeepMind、xAI及Meta未选取重复或依据不足消息。",
+      "score": 4,
+      "items": [
+        {
+          "id": "llm-2026-11-27-messages-rust",
+          "category": "Anthropic",
+          "title": "Anthropic公开Messages API重写经验：验证比生成更难",
+          "publishedAt": "2026-11-25",
+          "summary": "11月25日工程披露，近7天补收：Messages API已于9月迁至Rust，Claude参与代码生成、差异定位和修复，并非今天才切换。公司报告每请求CPU约降70%，Claude Code请求首token中位耗时约降20%；4月测试通过约98%时，真实流量输入仅约四分之一与旧系统一致。团队以生产系统为参照、复用同一次模型输出做影子比较，修复经人工审查后进入外层验证。",
+          "analysis": "对开发者，价值是建立可追溯差异和验证闭环，不能只看测试通过率，也不能让智能体同时弱化测试标准。数字为厂商特定业务、时段和样本口径的工程测量，不代表通用Rust提速比例或模型能力独立评测。",
+          "importance": 4,
+          "tags": [
+            "Anthropic",
+            "Claude",
+            "Messages API",
+            "Rust",
+            "智能体",
+            "软件验证"
+          ],
+          "sources": [
+            {
+              "title": "Anthropic原始工程报告（11月25日）",
+              "url": "https://www.anthropic.com/research/migrating-api-to-rust"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://assets.claude.com/a518c8d4f3c915a99fc745d5cced4fa806274650.png?fit=max&fm=webp&q=75&w=3840",
+              "alt": "Anthropic对比局部重写与完整Rust请求路径的官方示意图",
+              "sourceUrl": "https://www.anthropic.com/research/migrating-api-to-rust"
+            }
+          ],
+          "importanceReason": "4/5：为生产级编码智能体提供可复用的验证方法。"
+        },
+        {
+          "id": "llm-2026-11-27-nvidia-parse-data",
+          "category": "其他",
+          "title": "NVIDIA开放文档解析训练数据、微调配方与DFlash2",
+          "publishedAt": "2026-11-26",
+          "summary": "11月26日新增：NVIDIA围绕此前发布的Nemotron 3.5 Parse，开放998万图表、100万表格和790万多语言OCR合成样本，以及SFT与可验证奖励强化学习配方。官方在单张H200、BF16、同一组2078页上测试，DFlash2相对关闭推测解码的Parse 3.5，在并发1时吞吐提高7.62倍，并发512时为1.52倍。新增重点是数据、训练和推理组件，并非新一代通用聊天模型。",
+          "analysis": "文档RAG与智能体开发者可用自有页面和校验器适配模型，并按真实并发评估收益。上述为厂商测试；合成版式上的表现不能直接外推真实业务，多遍解析还会增加计算量。",
+          "importance": 4,
+          "tags": [
+            "NVIDIA",
+            "Nemotron 3.5 Parse",
+            "开源数据",
+            "OCR",
+            "RAG",
+            "SFT",
+            "RLVR",
+            "DFlash2"
+          ],
+          "sources": [
+            {
+              "title": "NVIDIA官方Hugging Face技术文章与数据、配方链接（11月26日）",
+              "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://huggingface.co/datasets/nvidia/Nemotron-Parse-Blog-Assets/resolve/main/images/figure-01-page-structure.png",
+              "alt": "Nemotron Parse对合成业务页面的结构化输出示例",
+              "sourceUrl": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
+            }
+          ],
+          "importanceReason": "4/5：为文档智能体带来可使用的数据和训练资源。"
+        },
+        {
+          "id": "llm-2026-11-27-private-inference",
+          "category": "OpenAI",
+          "title": "OpenAI Private Inference进入小范围客户测试，仍为Alpha",
+          "publishedAt": "2026-11-25",
+          "summary": "11月25日动态，近7天补收：据The Next Web对Sam Altman公告的报道，Private Inference已由小部分企业客户试用。OpenAI官方产品页仍标注Alpha／API Preview，方案结合机密计算与访问控制，目标是保护模型处理期间的提示和回答；ZDR则针对处理后的数据保留，二者不能混同。所核公告未明确支持模型、价格、地区名单或全面开放时间，不能据此视为普通ChatGPT账号已可使用。",
+          "analysis": "对敏感业务，这意味着评估托管模型时应同时审查处理过程、留存和工具权限。当前仍须等待具体准入条件和可验证保障，不将产品设计目标当作已获独立证明的绝对隐私承诺。",
+          "importance": 3,
+          "tags": [
+            "OpenAI",
+            "Private Inference",
+            "Private Intelligence",
+            "API",
+            "隐私",
+            "机密计算",
+            "Alpha"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI官方产品页：Alpha状态与保护范围",
+              "url": "https://openai.com/business/private-intelligence/"
+            },
+            {
+              "title": "The Next Web：11月25日客户试用报道及原始公告链接",
+              "url": "https://thenextweb.com/news/openai-private-inference-testing-customers"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：已核产品页未取得与本次客户测试直接对应的稳定图片直链，媒体采用通用图库照，未用其凑图。",
+          "importanceReason": "3/5：企业隐私部署的早期进展，具体可用性仍有限。"
+        }
+      ]
+    },
     {
       "id": "llm-2026-11-26",
       "collectionId": "llm",
