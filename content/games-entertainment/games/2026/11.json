@@ -2,8 +2,164 @@
   "schemaVersion": 1,
   "collectionId": "games",
   "month": "2026-11",
-  "updatedAt": "2026-11-26T01:13:49Z",
+  "updatedAt": "2026-11-27T01:09:42Z",
   "briefs": [
+    {
+      "id": "games-2026-11-27",
+      "collectionId": "games",
+      "date": "2026-11-27",
+      "title": "游戏｜2026-11-27",
+      "summary": "Cherry Time今晚披露丝之歌扩展进展；原始袭变停服安排明确，HARK定档，Hack '95确认发行商。国内无重要新增。",
+      "analysis": "明确区分节目预告、未来发售、现有试玩和停服，不以旧版本说明或宣传演示代替正式质量结论。",
+      "rawText": "# 游戏｜2026-11-27\n\n## 今日重点\n\n今晚关注《丝之歌》扩展进展；《原始袭变》的停服安排影响已购版本可玩性。本期精选4条，2条为11月26日新增、2条为近7天尚未收录的11月25日官宣；按重要程度排列，不凑条数。\n\n## 国内\n\n今日无重要新增。已检索国内单机／主机／PC报道与近7天线索；《昭和米国物语》延期及《定海》日期已归档，不重复。普通角色展示、手游公测与未经核实的移植传闻不纳入。\n\n## 国外\n\n### 1. 《丝之歌》免费扩展将于Cherry Time披露进展，直播今晚23时举行\n\n11月25日公告，补收。澳大利亚Team Cherry安排11月27日7:00 PT／10:00 ET举办Cherry Time，对应北京时间27日23:00，节目包含《空洞骑士：丝之歌》免费扩展“Sea of Sorrow”的新进展。当前确认的是节目安排，不是扩展已经上线，也尚不能据此确认新的发售日。\n\n**为什么值得关注：**对已通关玩家，这是直接关联后续内容的关注节点；可等直播确认玩法和上线安排，避免把玩家猜测当作发布消息。\n\n![Team Cherry的Cherry Time节目预告图](https://www.gematsu.com/wp-content/uploads/2026/11/Cherry-Time_11-25-26-320x180.jpg)\n\n[图片出处](https://www.gematsu.com/2026/11/cherry-time-broadcast-set-for-november-27-featuring-exciting-announcements-and-hollow-knight-silksong-free-expansion-sea-of-sorrow)\n\n来源：[Team Cherry官方节目页面（本次抓取受限）](https://www.youtube.com/watch?v=M-QUgdcBpZU)；[Gematsu：节目内容与太平洋／东部时间](https://www.gematsu.com/2026/11/cherry-time-broadcast-set-for-november-27-featuring-exciting-announcements-and-hollow-knight-silksong-free-expansion-sea-of-sorrow)。\n\n重要性：4/5（重要内容节点或已购游戏可玩性变化）。\n\n### 2. 《原始袭变》宣布停服日，届时将完全无法游玩\n\n卡普空11月25日官方通知，补收：PS5、PS4、Xbox Series、Xbox One及PC版《原始袭变》将于2027年3月30日18:00 PDT停止游戏及DLC销售，9月29日20:00 PDT结束服务。对应北京时间分别为3月31日9:00、9月30日11:00；停售后至停服前仍可重新下载，停服后无法游玩。\n\n**为什么值得关注：**虽为联机动作游戏，但关系到已购主机／PC产品的可玩性，因此例外收录。购入实体或保留下载均不能代替服务器，收藏与补票前应把服务期限计入判断。\n\n![卡普空《原始袭变》官方停服安排图](https://exoprimal-news.g.kuroco-img.app/v=1794966260/files/topics/993_ext_1_en_0.jpg)\n\n[图片出处](https://info.exoprimal.com/en/pages/important_261125_001/)\n\n来源：[CAPCOM：停服、停售与不可游玩官方通知](https://info.exoprimal.com/en/pages/important_261125_001/)。\n\n重要性：4/5（重要内容节点或已购游戏可玩性变化）。\n\n### 3. 《HARK THE GHOUL》定档明年1月21日，新增多主机版本\n\n11月26日，Kwalee与Deep Denizens确认第一人称地牢探索游戏《HARK THE GHOUL》于2027年1月21日登陆PC（Steam）、PS5、Xbox Series、Switch 2和Switch，主机版为本次新公布。Steam已列该日期并提供Demo下载，游戏仍未正式发售。\n\n**为什么值得关注：**互联地图、可兼作移动工具的武器与复古哥特美术，是值得通过试玩验证的独立作品设计。宣传中的自由探索不等于已有评测共识，各平台性能仍待确认。\n\n![《HARK THE GHOUL》定档预告配图](https://www.gematsu.com/wp-content/uploads/2026/11/Hark-Ghoul_11-26-26-320x180.jpg)\n\n[图片出处](https://www.gematsu.com/2026/11/hark-the-ghoul-launches-january-21-2027-for-ps5-xbox-series-switch-2-switch-and-pc)\n\n来源：[官方Steam：日期、开发商与Demo](https://store.steampowered.com/app/3058660/HARK_THE_GHOUL/)；[Gematsu：11月26日主机与发售日公告](https://www.gematsu.com/2026/11/hark-the-ghoul-launches-january-21-2027-for-ps5-xbox-series-switch-2-switch-and-pc)。\n\n重要性：3/5（有明确日期／发行进展的独立作品）。\n\n### 4. PQube接手发行《Hack '95》，卡牌黑客冒险计划2027年推出\n\n11月26日公布，PQube将发行Village Studio开发的《Hack '95》，确认PC（Steam）渠道，时间仍为2027年，未定具体日期。游戏把90年代桌面系统、聊天与文件探索结合回合制卡组战斗；Steam目前有Demo，正式版尚未上市。\n\n**为什么值得关注：**它把桌面界面本身变成叙事与交互空间，值得关注喜欢卡牌策略、复古电脑文化的玩家。此次新增是发行合作与预告，试玩存在不应写成今天刚上线或抢先体验。\n\n![《Hack '95》复古电脑界面宣传图](https://www.gematsu.com/wp-content/uploads/2026/11/Hack-95_11-26-26-320x180.png)\n\n[图片出处](https://www.gematsu.com/2026/11/card-based-hacking-adventure-game-hack-95-to-be-published-by-pqube)\n\n来源：[官方Steam：发行商、2027窗口及Demo](https://store.steampowered.com/app/4159720/Hack_95/)；[Gematsu：11月26日发行合作公布](https://www.gematsu.com/2026/11/card-based-hacking-adventure-game-hack-95-to-be-published-by-pqube)。\n\n重要性：3/5（有明确日期／发行进展的独立作品）。\n\n后续重点核对Cherry Time的实际内容，尤其是扩展的日期与平台。独立游戏先用Demo判断手感和交互，主机性能与正式版质量仍需后续证据。\n",
+      "completeness": "full",
+      "sourceConversation": "游戏",
+      "provenance": "生成于2026-11-27T01:09:42Z；优先检索过去24小时，回溯2026-11-20至生成时未收录事件。读取归档规范、catalog及本栏目10—11月归档去重，综合检索中英文媒体及官方Steam、CAPCOM通知。国内未发现足够重要且可核未收录新增；国外收录4条。Team Cherry官方YouTube抓取限流，节目安排以Gematsu及多家游戏媒体交叉核对，不声称视频已观看；其他核心日期由官方商店或原公告核对，跨时区日期单列。四张图片均从实际打开的来源链接取得并成功公开打开；卡普空图URL版本号不是临时签名。",
+      "score": 4,
+      "items": [
+        {
+          "id": "games-2026-11-27-silksong-cherry-time",
+          "title": "《丝之歌》免费扩展将于Cherry Time披露进展，直播今晚23时举行",
+          "category": "国外",
+          "publishedAt": "2026-11-25",
+          "summary": "11月25日公告，补收。澳大利亚Team Cherry安排11月27日7:00 PT／10:00 ET举办Cherry Time，对应北京时间27日23:00，节目包含《空洞骑士：丝之歌》免费扩展“Sea of Sorrow”的新进展。当前确认的是节目安排，不是扩展已经上线，也尚不能据此确认新的发售日。",
+          "analysis": "对已通关玩家，这是直接关联后续内容的关注节点；可等直播确认玩法和上线安排，避免把玩家猜测当作发布消息。",
+          "importance": 4,
+          "tags": [
+            "空洞骑士：丝之歌",
+            "Sea of Sorrow",
+            "PC",
+            "PS5",
+            "PS4",
+            "Xbox Series",
+            "Xbox One",
+            "Switch",
+            "Switch 2",
+            "类银河战士恶魔城"
+          ],
+          "sources": [
+            {
+              "title": "Team Cherry官方节目页面（本次抓取受限）",
+              "url": "https://www.youtube.com/watch?v=M-QUgdcBpZU"
+            },
+            {
+              "title": "Gematsu：节目内容与太平洋／东部时间",
+              "url": "https://www.gematsu.com/2026/11/cherry-time-broadcast-set-for-november-27-featuring-exciting-announcements-and-hollow-knight-silksong-free-expansion-sea-of-sorrow"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.gematsu.com/wp-content/uploads/2026/11/Cherry-Time_11-25-26-320x180.jpg",
+              "alt": "Team Cherry的Cherry Time节目预告图",
+              "sourceUrl": "https://www.gematsu.com/2026/11/cherry-time-broadcast-set-for-november-27-featuring-exciting-announcements-and-hollow-knight-silksong-free-expansion-sea-of-sorrow"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-27-exoprimal-end-service",
+          "title": "《原始袭变》宣布停服日，届时将完全无法游玩",
+          "category": "国外",
+          "publishedAt": "2026-11-25",
+          "summary": "卡普空11月25日官方通知，补收：PS5、PS4、Xbox Series、Xbox One及PC版《原始袭变》将于2027年3月30日18:00 PDT停止游戏及DLC销售，9月29日20:00 PDT结束服务。对应北京时间分别为3月31日9:00、9月30日11:00；停售后至停服前仍可重新下载，停服后无法游玩。",
+          "analysis": "虽为联机动作游戏，但关系到已购主机／PC产品的可玩性，因此例外收录。购入实体或保留下载均不能代替服务器，收藏与补票前应把服务期限计入判断。",
+          "importance": 4,
+          "tags": [
+            "原始袭变",
+            "Exoprimal",
+            "PS5",
+            "PS4",
+            "Xbox Series",
+            "Xbox One",
+            "PC",
+            "停服",
+            "游戏保存"
+          ],
+          "sources": [
+            {
+              "title": "CAPCOM：停服、停售与不可游玩官方通知",
+              "url": "https://info.exoprimal.com/en/pages/important_261125_001/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://exoprimal-news.g.kuroco-img.app/v=1794966260/files/topics/993_ext_1_en_0.jpg",
+              "alt": "卡普空《原始袭变》官方停服安排图",
+              "sourceUrl": "https://info.exoprimal.com/en/pages/important_261125_001/"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-27-hark-the-ghoul",
+          "title": "《HARK THE GHOUL》定档明年1月21日，新增多主机版本",
+          "category": "国外",
+          "publishedAt": "2026-11-26",
+          "summary": "11月26日，Kwalee与Deep Denizens确认第一人称地牢探索游戏《HARK THE GHOUL》于2027年1月21日登陆PC（Steam）、PS5、Xbox Series、Switch 2和Switch，主机版为本次新公布。Steam已列该日期并提供Demo下载，游戏仍未正式发售。",
+          "analysis": "互联地图、可兼作移动工具的武器与复古哥特美术，是值得通过试玩验证的独立作品设计。宣传中的自由探索不等于已有评测共识，各平台性能仍待确认。",
+          "importance": 3,
+          "tags": [
+            "HARK THE GHOUL",
+            "PC",
+            "PS5",
+            "Xbox Series",
+            "Switch",
+            "Switch 2",
+            "独立游戏",
+            "地牢探索"
+          ],
+          "sources": [
+            {
+              "title": "官方Steam：日期、开发商与Demo",
+              "url": "https://store.steampowered.com/app/3058660/HARK_THE_GHOUL/"
+            },
+            {
+              "title": "Gematsu：11月26日主机与发售日公告",
+              "url": "https://www.gematsu.com/2026/11/hark-the-ghoul-launches-january-21-2027-for-ps5-xbox-series-switch-2-switch-and-pc"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.gematsu.com/wp-content/uploads/2026/11/Hark-Ghoul_11-26-26-320x180.jpg",
+              "alt": "《HARK THE GHOUL》定档预告配图",
+              "sourceUrl": "https://www.gematsu.com/2026/11/hark-the-ghoul-launches-january-21-2027-for-ps5-xbox-series-switch-2-switch-and-pc"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-27-hack95-pqube",
+          "title": "PQube接手发行《Hack '95》，卡牌黑客冒险计划2027年推出",
+          "category": "国外",
+          "publishedAt": "2026-11-26",
+          "summary": "11月26日公布，PQube将发行Village Studio开发的《Hack '95》，确认PC（Steam）渠道，时间仍为2027年，未定具体日期。游戏把90年代桌面系统、聊天与文件探索结合回合制卡组战斗；Steam目前有Demo，正式版尚未上市。",
+          "analysis": "它把桌面界面本身变成叙事与交互空间，值得关注喜欢卡牌策略、复古电脑文化的玩家。此次新增是发行合作与预告，试玩存在不应写成今天刚上线或抢先体验。",
+          "importance": 3,
+          "tags": [
+            "Hack '95",
+            "PC",
+            "Steam",
+            "独立游戏",
+            "卡牌",
+            "叙事冒险"
+          ],
+          "sources": [
+            {
+              "title": "官方Steam：发行商、2027窗口及Demo",
+              "url": "https://store.steampowered.com/app/4159720/Hack_95/"
+            },
+            {
+              "title": "Gematsu：11月26日发行合作公布",
+              "url": "https://www.gematsu.com/2026/11/card-based-hacking-adventure-game-hack-95-to-be-published-by-pqube"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.gematsu.com/wp-content/uploads/2026/11/Hack-95_11-26-26-320x180.png",
+              "alt": "《Hack '95》复古电脑界面宣传图",
+              "sourceUrl": "https://www.gematsu.com/2026/11/card-based-hacking-adventure-game-hack-95-to-be-published-by-pqube"
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "games-2026-11-26",
       "collectionId": "games",
