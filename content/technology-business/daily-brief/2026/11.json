@@ -2,8 +2,150 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-11",
-  "updatedAt": "2026-11-26T01:03:07Z",
+  "updatedAt": "2026-11-27T01:13:50Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-11-27",
+      "collectionId": "daily-brief",
+      "date": "2026-11-27",
+      "title": "最新资讯｜2026-11-27",
+      "summary": "1Password后端安全事件、Cloudflare站点智能体检索、NVIDIA文档训练数据、JetBrains本地编码模型与小米Q3盈利压力。",
+      "analysis": "优先能影响开发实践和科技商业判断的信息，区分厂商自测、测试服务及正式财务口径。",
+      "rawText": "# 最新资讯｜2026-11-27\n\n今日精选5条。优先核对最近新增；NVIDIA数据与推理配方发表于11月26日，其余补收11月24—25日未在本栏目收录的重要公告，日期分别注明。已与近期归档去重。\n\n## 1. 1Password披露后端入侵：账户资料外泄，密码库未受影响\n\n11月25日官方公告，补收。1Password称攻击者盗用员工GitHub账号，访问代码并向后端推入恶意代码，获取部分客户姓名、邮箱及账户元数据；公司称密码库内容、保护密钥、客户端和扩展未受影响。已撤销访问、轮换可能暴露的内部凭据，完整根因分析仍待发布。\n\n**为什么值得关注：**对用户，需留意伪造邀请或恢复邮件；官方未要求普遍修改账户内容。对开发团队，事件说明源码与CI/CD权限同样是生产安全边界；“密码库未泄露”是公司调查结论，不能泛化成没有资料泄露。\n\n缺图：官方事件页配图为通用业务插画，未采用与本次入侵缺乏直接对应的图片。\n\n来源：[1Password：11月25日事件披露与当前处置](https://1password.com/blog/update-on-nov-2026-security-incident)。\n\n重要性：4/5（影响开发部署、安全或科技商业判断的实质变化）。\n\n## 2. Cloudflare公测Search for Agents，网站可提供可发现的检索接口\n\n11月25日发布，补收。Search for Agents可为已接入Cloudflare的域名创建AI Search索引，通过/.well-known/search返回Markdown内容片段，并在页面声明端点。所有套餐可用测试版，抓取、索引和查询受AI Search配额及计费约束；默认24小时同步，并非实时全站副本。\n\n**为什么值得关注：**适合文档站和开发者门户，减少智能体逐页抓取的成本。只应索引准备公开的内容，WAF与AI Crawl Control仍适用；返回的是检索内容，答案质量与权限边界仍需应用侧处理。\n\n![Cloudflare控制台Search for Agents Beta开关](https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=958,height=244,format=webp/_astro/search-for-agents.CkMydMyZ.png)\n\n[图片出处](https://developers.cloudflare.com/ai-search/how-to/search-for-agents/)\n\n来源：[Cloudflare：发布公告（11月25日）](https://blog.cloudflare.com/search-for-agents/)；[官方文档：Beta、默认设置与计费边界](https://developers.cloudflare.com/ai-search/how-to/search-for-agents/)。\n\n重要性：4/5（影响开发部署、安全或科技商业判断的实质变化）。\n\n## 3. NVIDIA开放文档解析训练数据与配方，加速效果取决于并发\n\n11月26日，NVIDIA为已发布的Nemotron 3.5 Parse补充三套合成数据：998万图表、100万表格、790万多语言OCR示例，并公开SFT／可验证奖励强化学习配方及DFlash2推测解码。厂商在单张H200、BF16、2078页的测试中，相对关闭推测解码的同版模型，低并发提速7.62倍，高并发512时为1.52倍。\n\n**为什么值得关注：**对PDF知识库和数据录入应用，价值在于可按自有版式训练与检验，而不是把旧模型当成今天新发布。以上为厂商特定条件测试；合成表单成功率不能直接外推真实业务，多次重读也会增加计算成本。\n\n![NVIDIA文档解析模型对合成页面的结构化输出示意](https://huggingface.co/datasets/nvidia/Nemotron-Parse-Blog-Assets/resolve/main/images/figure-01-page-structure.png)\n\n[图片出处](https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin)\n\n来源：[NVIDIA原始技术文章与数据、配方链接（11月26日）](https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin)。\n\n重要性：4/5（影响开发部署、安全或科技商业判断的实质变化）。\n\n## 4. JetBrains推出Mellum2.1 Instruct，面向本地编码智能体的快速执行层\n\n11月25日发布介绍，补收。Mellum2.1 Instruct为总参数120亿、每token激活25亿的MoE模型，Apache 2.0许可，直接回答而不输出思维链；提供GGUF及MTP版本。官方模型卡报告其仓库任务生成token约为Thinking版一半，但复杂推理任务仍更适合Thinking。\n\n**为什么值得关注：**适合评估小修复、工具循环和代码问答的本地执行成本，不能据参数或自测断言可替代旗舰模型。模型卡列明成绩均为JetBrains自报；部署还需核对推理框架、量化与工具调用兼容性。\n\n缺图：未核得与本次Instruct发布直接对应且已确认可公开加载的图片直链。\n\n来源：[JetBrains官方模型卡：参数、许可、基准和局限](https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Instruct)；[JetBrains发布文章转载（11月25日，仅核发布时间）](https://dev48.org/en/articles/mellum21-instruct-is-out-bringing-faster-answers-for-coding-agents)。\n\n重要性：3/5（可供本地编码工具验证的开源进展）。\n\n## 5. 小米Q3营收1072亿元、调整后净利降57%，看投入也要看盈利口径\n\n11月24日财报，补收。小米2026年第三季度营收1072.40亿元，同比−5.2%；经调整净利润48.84亿元、同比−56.8%，期间利润38.62亿元、同比−68.8%，两种利润口径不同。官方材料显示季度研发开支92.4亿元、同比+31.9%，新能源汽车及AI等创新业务收入239亿元。\n\n**为什么值得关注：**对产业观察，研发投入、手机高端化与新业务规模增长，需要同利润和支出压力一起看。材料中的AI Cube仍是原型，不能视为已有量产收入；单季财务结果也不构成个股买卖结论。\n\n缺图：官方财报为PDF，未找到对应业绩图表的稳定HTTPS图片直链。\n\n来源：[小米官方Q3业绩材料：第3、31、32页等](https://ir.mi.com/static-files/64e70c31-b94e-4e0e-9eaf-bb28f922613f)；[中文财经交叉报道：营收与盈利压力（11月25日）](https://finance.eastmoney.com/a/202611253939639686.html)。\n\n重要性：4/5（影响开发部署、安全或科技商业判断的实质变化）。\n\n观察：智能体工具在走向可发现接口、可自定义模型与更细的权限边界。工程评估应同时核对真实负载、数据权限和运行成本；财报与厂商基准都不能单独作为投资或选型结论。\n",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "生成于2026-11-27T01:13:50Z；检索近24小时全球中英文科技与商业动态，并补收2026-11-24—25日未归档的重要事件；读取GitHub归档规范、catalog、索引和近期月文件去重。核对1Password官方事件公告、Cloudflare公告及文档、NVIDIA官方Hugging Face文章与数据链接、JetBrains官方模型卡（HTTP200实际读取）、小米官方业绩PDF（实际打开并查看第3、31、32页截图），辅以中文财经报道和JetBrains文章转载确认日期。Hugging Face部分网页抓取失败后经HTTP200读取原文，不以媒体复述代替技术资料。Cloudflare图已实际打开；NVIDIA图HTTP200 image/png；其余缺图明示。",
+      "score": 4,
+      "items": [
+        {
+          "id": "daily-brief-2026-11-27-password-incident",
+          "title": "1Password披露后端入侵：账户资料外泄，密码库未受影响",
+          "category": "软件工程 / 安全",
+          "publishedAt": "2026-11-25",
+          "summary": "11月25日官方公告，补收。1Password称攻击者盗用员工GitHub账号，访问代码并向后端推入恶意代码，获取部分客户姓名、邮箱及账户元数据；公司称密码库内容、保护密钥、客户端和扩展未受影响。已撤销访问、轮换可能暴露的内部凭据，完整根因分析仍待发布。",
+          "analysis": "对用户，需留意伪造邀请或恢复邮件；官方未要求普遍修改账户内容。对开发团队，事件说明源码与CI/CD权限同样是生产安全边界；“密码库未泄露”是公司调查结论，不能泛化成没有资料泄露。",
+          "importance": 4,
+          "sources": [
+            {
+              "title": "1Password：11月25日事件披露与当前处置",
+              "url": "https://1password.com/blog/update-on-nov-2026-security-incident"
+            }
+          ],
+          "tags": [
+            "软件工程",
+            "安全"
+          ],
+          "images": [],
+          "imageNote": "缺图：官方事件页配图为通用业务插画，未采用与本次入侵缺乏直接对应的图片。"
+        },
+        {
+          "id": "daily-brief-2026-11-27-cloudflare-search",
+          "title": "Cloudflare公测Search for Agents，网站可提供可发现的检索接口",
+          "category": "Web / 智能体",
+          "publishedAt": "2026-11-25",
+          "summary": "11月25日发布，补收。Search for Agents可为已接入Cloudflare的域名创建AI Search索引，通过/.well-known/search返回Markdown内容片段，并在页面声明端点。所有套餐可用测试版，抓取、索引和查询受AI Search配额及计费约束；默认24小时同步，并非实时全站副本。",
+          "analysis": "适合文档站和开发者门户，减少智能体逐页抓取的成本。只应索引准备公开的内容，WAF与AI Crawl Control仍适用；返回的是检索内容，答案质量与权限边界仍需应用侧处理。",
+          "importance": 4,
+          "sources": [
+            {
+              "title": "Cloudflare：发布公告（11月25日）",
+              "url": "https://blog.cloudflare.com/search-for-agents/"
+            },
+            {
+              "title": "官方文档：Beta、默认设置与计费边界",
+              "url": "https://developers.cloudflare.com/ai-search/how-to/search-for-agents/"
+            }
+          ],
+          "tags": [
+            "Web",
+            "智能体"
+          ],
+          "images": [
+            {
+              "url": "https://developers.cloudflare.com/cdn-cgi/image/onerror=redirect,width=958,height=244,format=webp/_astro/search-for-agents.CkMydMyZ.png",
+              "alt": "Cloudflare控制台Search for Agents Beta开关",
+              "sourceUrl": "https://developers.cloudflare.com/ai-search/how-to/search-for-agents/"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-27-nvidia-parse",
+          "title": "NVIDIA开放文档解析训练数据与配方，加速效果取决于并发",
+          "category": "AI / 开源研究",
+          "publishedAt": "2026-11-26",
+          "summary": "11月26日，NVIDIA为已发布的Nemotron 3.5 Parse补充三套合成数据：998万图表、100万表格、790万多语言OCR示例，并公开SFT／可验证奖励强化学习配方及DFlash2推测解码。厂商在单张H200、BF16、2078页的测试中，相对关闭推测解码的同版模型，低并发提速7.62倍，高并发512时为1.52倍。",
+          "analysis": "对PDF知识库和数据录入应用，价值在于可按自有版式训练与检验，而不是把旧模型当成今天新发布。以上为厂商特定条件测试；合成表单成功率不能直接外推真实业务，多次重读也会增加计算成本。",
+          "importance": 4,
+          "sources": [
+            {
+              "title": "NVIDIA原始技术文章与数据、配方链接（11月26日）",
+              "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
+            }
+          ],
+          "tags": [
+            "AI",
+            "开源研究"
+          ],
+          "images": [
+            {
+              "url": "https://huggingface.co/datasets/nvidia/Nemotron-Parse-Blog-Assets/resolve/main/images/figure-01-page-structure.png",
+              "alt": "NVIDIA文档解析模型对合成页面的结构化输出示意",
+              "sourceUrl": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
+            }
+          ]
+        },
+        {
+          "id": "daily-brief-2026-11-27-mellum-instruct",
+          "title": "JetBrains推出Mellum2.1 Instruct，面向本地编码智能体的快速执行层",
+          "category": "开发工具 / 开源模型",
+          "publishedAt": "2026-11-25",
+          "summary": "11月25日发布介绍，补收。Mellum2.1 Instruct为总参数120亿、每token激活25亿的MoE模型，Apache 2.0许可，直接回答而不输出思维链；提供GGUF及MTP版本。官方模型卡报告其仓库任务生成token约为Thinking版一半，但复杂推理任务仍更适合Thinking。",
+          "analysis": "适合评估小修复、工具循环和代码问答的本地执行成本，不能据参数或自测断言可替代旗舰模型。模型卡列明成绩均为JetBrains自报；部署还需核对推理框架、量化与工具调用兼容性。",
+          "importance": 3,
+          "sources": [
+            {
+              "title": "JetBrains官方模型卡：参数、许可、基准和局限",
+              "url": "https://huggingface.co/JetBrains/Mellum2.1-12B-A2.5B-Instruct"
+            },
+            {
+              "title": "JetBrains发布文章转载（11月25日，仅核发布时间）",
+              "url": "https://dev48.org/en/articles/mellum21-instruct-is-out-bringing-faster-answers-for-coding-agents"
+            }
+          ],
+          "tags": [
+            "开发工具",
+            "开源模型"
+          ],
+          "images": [],
+          "imageNote": "缺图：未核得与本次Instruct发布直接对应且已确认可公开加载的图片直链。"
+        },
+        {
+          "id": "daily-brief-2026-11-27-xiaomi-q3",
+          "title": "小米Q3营收1072亿元、调整后净利降57%，看投入也要看盈利口径",
+          "category": "科技商业 / 财经",
+          "publishedAt": "2026-11-24",
+          "summary": "11月24日财报，补收。小米2026年第三季度营收1072.40亿元，同比−5.2%；经调整净利润48.84亿元、同比−56.8%，期间利润38.62亿元、同比−68.8%，两种利润口径不同。官方材料显示季度研发开支92.4亿元、同比+31.9%，新能源汽车及AI等创新业务收入239亿元。",
+          "analysis": "对产业观察，研发投入、手机高端化与新业务规模增长，需要同利润和支出压力一起看。材料中的AI Cube仍是原型，不能视为已有量产收入；单季财务结果也不构成个股买卖结论。",
+          "importance": 4,
+          "sources": [
+            {
+              "title": "小米官方Q3业绩材料：第3、31、32页等",
+              "url": "https://ir.mi.com/static-files/64e70c31-b94e-4e0e-9eaf-bb28f922613f"
+            },
+            {
+              "title": "中文财经交叉报道：营收与盈利压力（11月25日）",
+              "url": "https://finance.eastmoney.com/a/202611253939639686.html"
+            }
+          ],
+          "tags": [
+            "科技商业",
+            "财经"
+          ],
+          "images": [],
+          "imageNote": "缺图：官方财报为PDF，未找到对应业绩图表的稳定HTTPS图片直链。"
+        }
+      ]
+    },
     {
       "id": "daily-brief-2026-11-26",
       "collectionId": "daily-brief",
