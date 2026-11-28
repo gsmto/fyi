@@ -2,8 +2,229 @@
   "schemaVersion": 1,
   "collectionId": "games",
   "month": "2026-11",
-  "updatedAt": "2026-11-27T01:09:42Z",
+  "updatedAt": "2026-11-28T01:20:55Z",
   "briefs": [
+    {
+      "id": "games-2026-11-28",
+      "collectionId": "games",
+      "date": "2026-11-28",
+      "title": "游戏｜2026-11-28",
+      "summary": "《丝之歌》免费扩展定于12月11日；Team Cherry以新品牌支持三款独立游戏；《配信少女》确认新档期，另补充两项国内发行相关上市进展。",
+      "analysis": "优先关注明确发售日期与有玩法内容的新作公布；平台到齐宣传需与商店真实日期区分，首发小样本好评不足以构成质量共识。",
+      "completeness": "full",
+      "sourceConversation": "游戏",
+      "provenance": "生成于2026-11-28T01:20:55Z（Asia/Shanghai 2026-11-28）；优先检索过去24小时，覆盖2026-11-22至28日国内外PC/主机/独立游戏公告；核对Team Cherry、Steam、G-MODE原稿、Nintendo、Xbox，并交叉检索Gematsu、Shacknews、AUTOMATON中文、3DM/17173及Deku Deals；与本栏目截至11月27日归档去重。图片从对应官方公告、商店或原稿实际提取并经HTTPS公开访问验证。",
+      "score": 4,
+      "items": [
+        {
+          "id": "games-2026-11-28-silksong-sea-of-sorrow-date",
+          "title": "《丝之歌》Sea of Sorrow免费扩展定于12月11日",
+          "category": "国外",
+          "summary": "澳大利亚 Team Cherry 在11月27日 Cherry Time 节目及官方公告中确认，首个大型内容扩展 Sea of Sorrow 将于2026年12月11日免费推出，并公布新预告。冒险将进入海面岛屿、堡垒及海底洞穴，加入角色、首领与 Christopher Larkin 的新音乐；这是昨日节目预告之后的实质更新。",
+          "analysis": "值得关注：明确日期替代此前仅有的2026年窗口，方便安排回归游玩。平台为PC、PS4/PS5、Xbox One/Series X|S、Switch/Switch 2；尚未发售，各地区具体解锁时刻仍待商店确认。重要性4/5：热门单机游戏的重要免费扩展与正式日期。",
+          "importance": 4,
+          "tags": [
+            "PC",
+            "PS5",
+            "PS4",
+            "Xbox Series X|S",
+            "Xbox One",
+            "Switch",
+            "Switch 2",
+            "类银河恶魔城",
+            "DLC",
+            "空洞骑士：丝之歌",
+            "Sea of Sorrow"
+          ],
+          "sources": [
+            {
+              "title": "Team Cherry 11月27日官方公告",
+              "url": "https://www.teamcherry.com.au/blog/its-cherry-time"
+            },
+            {
+              "title": "官方Steam扩展公告",
+              "url": "https://store.steampowered.com/news/app/1030300/view/687523504123283104"
+            },
+            {
+              "title": "Shacknews：全平台12月11日推出",
+              "url": "https://www.shacknews.com/article/151497/hollow-knight-silksong-sea-of-sorrow-expansion-release-date"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://clan.fastly.steamstatic.com/images/34523478/1dd285331e6891497f51e0e6c6e9988c49628888.png",
+              "alt": "《空洞骑士：丝之歌》Sea of Sorrow免费扩展官方宣传图",
+              "sourceUrl": "https://store.steampowered.com/news/app/1030300/view/687523504123283104"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-28-team-cherry-presents",
+          "title": "Team Cherry成立发行品牌，一次公开三款PC独立新作",
+          "category": "国外",
+          "summary": "11月27日公布的 Team Cherry Presents 首批作品包括 Rohan Fraser 的侦探解谜《Blokkan: Secret of the Walking City》、Studio Stobie 的平台冒险《Radio Rain》，以及 Makoto Koji 的植物调查冒险《The Botanist and the Translator》。三作均已公开预告并确认PC／Steam，发售日期未定；新成员 Huy Le 将负责技术支持、工具和底层系统。",
+          "analysis": "值得关注：澳大利亚独立团队开始以发行及长期技术支持帮助其他创作者，三款作品的玩法方向明显不同。当前属于新作公布阶段，尚无足够独立评测支持质量结论，也不能推定主机版。重要性4/5：有代表性的独立发行生态变化；三作合并为同一发布事件。",
+          "importance": 4,
+          "tags": [
+            "PC",
+            "Steam",
+            "独立游戏",
+            "发行",
+            "Team Cherry Presents",
+            "Blokkan",
+            "Radio Rain",
+            "The Botanist and the Translator"
+          ],
+          "sources": [
+            {
+              "title": "Team Cherry：新品牌及技术支持安排",
+              "url": "https://www.teamcherry.com.au/blog/its-cherry-time"
+            },
+            {
+              "title": "《Blokkan》官方Steam页",
+              "url": "https://store.steampowered.com/app/5571470/Blokkan_Secret_of_the_Walking_City/"
+            },
+            {
+              "title": "《Radio Rain》官方Steam页",
+              "url": "https://store.steampowered.com/app/4960150/Radio_Rain/"
+            },
+            {
+              "title": "《The Botanist and the Translator》官方Steam页",
+              "url": "https://store.steampowered.com/app/5571450/The_Botanist_and_the_Translator/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4960150/2362af605f5aee3a4fdf6af2f876037c17517345/capsule_616x353.jpg?t=1795792131",
+              "alt": "Team Cherry Presents首批作品之一《Radio Rain》官方商店宣传图",
+              "sourceUrl": "https://store.steampowered.com/app/4960150/Radio_Rain/",
+              "caption": "首批三款作品中的《Radio Rain》，非三款游戏合集封面。"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-28-streamer-labyrinth-new-date",
+          "title": "《配信少女ノ裏垢迷宮》延期后确定2027年1月29日PC发售",
+          "category": "国外",
+          "summary": "日本发行商 G-MODE 于11月27日宣布，Acacia／Re,AER 的《配信少女ノ裏垢迷宮》（The Streamer's Alt Account Labyrinth）PC／Steam版将于2027年1月29日正式推出，Switch版日期仍未定。同日公开了地下城探索和战斗截图；这是11月24日日报所述延期事件之后的新日期确认。",
+          "analysis": "值得关注：将社交账号悬疑、视觉小说与地下城RPG结合的项目终于有了具体档期。公告列日、简繁中、英语，但检索时Steam仍标英语不支持，英语可用性需上线前复核；简繁中已列于商店。重要性3/5：有实质新进展的小众叙事RPG，尚无正式版评测共识。",
+          "importance": 3,
+          "tags": [
+            "PC",
+            "Steam",
+            "Switch",
+            "视觉小说",
+            "RPG",
+            "Acacia",
+            "配信少女ノ裏垢迷宮",
+            "The Streamer's Alt Account Labyrinth"
+          ],
+          "sources": [
+            {
+              "title": "G-MODE原始新闻稿（11月27日）",
+              "url": "https://prtimes.jp/main/html/rd/p/000000949.000001474.html"
+            },
+            {
+              "title": "官方Steam：日期与当前语言表",
+              "url": "https://store.steampowered.com/app/4078190/The_Streamers_Alt_Account_Labyrinth/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://prcdn.freetls.fastly.net/release_image/1474/949/1474-949-7711a84d1e9934c3809fb51b26ccd509-1920x1080.png?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
+              "alt": "G-MODE公布的《配信少女ノ裏垢迷宮》新游戏截图",
+              "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000949.000001474.html"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-28-attack-of-the-astrals-release",
+          "title": "《天外来袭》正式发售：把走位、换位与攻击合成一步",
+          "category": "国内",
+          "summary": "中国共同发行商 Gamirror Games 于11月27日发布《天外来袭》（Attack of the Astrals）上市消息；Steam商店的正式发售日期显示为11月26日，本条按近7天补充收录。Hewer's Workshop 开发、Goblinz Publishing 与 Gamirror Games 联合发行，玩家以三名角色的位移、换位与自动范围攻击解决回合制战术谜题；PC商店列Windows、macOS、Linux及简繁中。",
+          "analysis": "值得关注：移动即攻击的规则压缩了操作步骤，适合继续观察独立战棋的系统设计与正式版平衡。本条依中国共同发行主体归入国内，属于联合发行项目，开发团队所在地尚未独立确认；不据少量试玩或首发用户评价宣称已有评测共识。重要性3/5：已正式推出、机制有辨识度的单人独立新作。",
+          "importance": 3,
+          "tags": [
+            "PC",
+            "Windows",
+            "macOS",
+            "Linux",
+            "Steam",
+            "战棋",
+            "Roguelike",
+            "独立游戏",
+            "天外来袭",
+            "Attack of the Astrals",
+            "Gamirror Games"
+          ],
+          "sources": [
+            {
+              "title": "官方Steam：正式版、平台及日期",
+              "url": "https://store.steampowered.com/app/3991790/"
+            },
+            {
+              "title": "AUTOMATON中文：11月27日发行消息",
+              "url": "https://automaton-china.com/all/article/news/20261127-32933-zou-wei-jiu-shi-jin-gong-roguelike-ce-lyue-zhan-qi-you-xi/"
+            },
+            {
+              "title": "Gamescom发行商资料：Gamirror位于中国上海",
+              "url": "https://www.gamescom.global/en/exhibitor/gamirror-games"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3991790/35140118e5977a29e7c052485e55b0a0e09b174b/header.jpg?t=1795755595",
+              "alt": "《天外来袭》Attack of the Astrals官方Steam商店宣传图",
+              "sourceUrl": "https://store.steampowered.com/app/3991790/"
+            }
+          ]
+        },
+        {
+          "id": "games-2026-11-28-dongda-switch-release",
+          "title": "《东北往事》主机版本到齐，Switch本周上线需区分各区日期",
+          "category": "国内",
+          "summary": "中国二狗科技（ERGOU）开发、NiuGamer发行的真人互动作品《东北往事》（DONGDA Gangster），11月27日国内报道确认已登陆PS5、Xbox和Switch。近7天内的新增在Switch版：美区记录为11月26日；Xbox美区官方页则早已列11月13日，不能把报道日当作全平台首发日。游戏以赵红兵的分支选择及多结局推进，偏重真人叙事而非动作玩法。",
+          "analysis": "值得关注：国产真人互动作品扩展到掌机与主机，适合关注中文叙事和FMV的玩家；实际可购地区、语言及版本以所在商店为准。任天堂官方页已上线，Switch具体日期以Deku Deals美区记录交叉核对；当前没有可靠的跨平台性能与质量评测共识。重要性3/5：国内单机作品新增主机覆盖，按11月26日事件补充。",
+          "importance": 3,
+          "tags": [
+            "Switch",
+            "PS5",
+            "Xbox Series X|S",
+            "FMV",
+            "互动影游",
+            "单机",
+            "东北往事",
+            "DONGDA Gangster"
+          ],
+          "sources": [
+            {
+              "title": "任天堂美区官方商店",
+              "url": "https://www.nintendo.com/us/store/products/dongda-gangster-switch/"
+            },
+            {
+              "title": "Xbox美区官方商店：既有11月13日日期",
+              "url": "https://www.xbox.com/en-US/games/store/dongda-gangster/9N3F6W0JDMWJ"
+            },
+            {
+              "title": "Deku Deals美区：分平台日期",
+              "url": "https://www.dekudeals.com/items/dongda-gangster?platform=all"
+            },
+            {
+              "title": "17173转载3DM：11月27日主机报道",
+              "url": "https://news.17173.com/content/11272026/114653033.shtml"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000144113/6e9fc18e6a850dd98ea567735db1972688fcfad07fa726df200940f0941a7e12",
+              "alt": "《东北往事》DONGDA Gangster任天堂商店游戏截图",
+              "sourceUrl": "https://www.nintendo.com/us/store/products/dongda-gangster-switch/"
+            }
+          ]
+        }
+      ],
+      "rawText": "# 游戏｜2026-11-28\n\n## 今日重点\n\n截至2026年11月28日北京时间晨间，精选5条，重要程度依次为：①《丝之歌》扩展日期；②Team Cherry新发行品牌；③《配信少女》新档期；④《天外来袭》上市；⑤《东北往事》Switch版。前三条为11月27日新增；后两条补充近7天内未归档上市事件，并区分报道日和商店日期。国内外按主要开发或发行主体划分，联合发行背景随条注明。\n\n## 国内\n\n### 4. 《天外来袭》正式发售：把走位、换位与攻击合成一步\n\n中国共同发行商 Gamirror Games 于11月27日发布《天外来袭》（Attack of the Astrals）上市消息；Steam商店的正式发售日期显示为11月26日，本条按近7天补充收录。Hewer's Workshop 开发、Goblinz Publishing 与 Gamirror Games 联合发行，玩家以三名角色的位移、换位与自动范围攻击解决回合制战术谜题；PC商店列Windows、macOS、Linux及简繁中。\n\n**为什么值得关注／平台与关键日期：**值得关注：移动即攻击的规则压缩了操作步骤，适合继续观察独立战棋的系统设计与正式版平衡。本条依中国共同发行主体归入国内，属于联合发行项目，开发团队所在地尚未独立确认；不据少量试玩或首发用户评价宣称已有评测共识。重要性3/5：已正式推出、机制有辨识度的单人独立新作。\n\n![《天外来袭》Attack of the Astrals官方Steam商店宣传图](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3991790/35140118e5977a29e7c052485e55b0a0e09b174b/header.jpg?t=1795755595)\n\n图片出处：[对应官方公告或商店](https://store.steampowered.com/app/3991790/)\n\n[官方Steam：正式版、平台及日期](https://store.steampowered.com/app/3991790/) · [AUTOMATON中文：11月27日发行消息](https://automaton-china.com/all/article/news/20261127-32933-zou-wei-jiu-shi-jin-gong-roguelike-ce-lyue-zhan-qi-you-xi/) · [Gamescom发行商资料：Gamirror位于中国上海](https://www.gamescom.global/en/exhibitor/gamirror-games)\n\n### 5. 《东北往事》主机版本到齐，Switch本周上线需区分各区日期\n\n中国二狗科技（ERGOU）开发、NiuGamer发行的真人互动作品《东北往事》（DONGDA Gangster），11月27日国内报道确认已登陆PS5、Xbox和Switch。近7天内的新增在Switch版：美区记录为11月26日；Xbox美区官方页则早已列11月13日，不能把报道日当作全平台首发日。游戏以赵红兵的分支选择及多结局推进，偏重真人叙事而非动作玩法。\n\n**为什么值得关注／平台与关键日期：**值得关注：国产真人互动作品扩展到掌机与主机，适合关注中文叙事和FMV的玩家；实际可购地区、语言及版本以所在商店为准。任天堂官方页已上线，Switch具体日期以Deku Deals美区记录交叉核对；当前没有可靠的跨平台性能与质量评测共识。重要性3/5：国内单机作品新增主机覆盖，按11月26日事件补充。\n\n![《东北往事》DONGDA Gangster任天堂商店游戏截图](https://assets.nintendo.com/image/upload/q_auto/f_auto/store/software/switch/70010000144113/6e9fc18e6a850dd98ea567735db1972688fcfad07fa726df200940f0941a7e12)\n\n图片出处：[对应官方公告或商店](https://www.nintendo.com/us/store/products/dongda-gangster-switch/)\n\n[任天堂美区官方商店](https://www.nintendo.com/us/store/products/dongda-gangster-switch/) · [Xbox美区官方商店：既有11月13日日期](https://www.xbox.com/en-US/games/store/dongda-gangster/9N3F6W0JDMWJ) · [Deku Deals美区：分平台日期](https://www.dekudeals.com/items/dongda-gangster?platform=all) · [17173转载3DM：11月27日主机报道](https://news.17173.com/content/11272026/114653033.shtml)\n\n## 国外\n\n### 1. 《丝之歌》Sea of Sorrow免费扩展定于12月11日\n\n澳大利亚 Team Cherry 在11月27日 Cherry Time 节目及官方公告中确认，首个大型内容扩展 Sea of Sorrow 将于2026年12月11日免费推出，并公布新预告。冒险将进入海面岛屿、堡垒及海底洞穴，加入角色、首领与 Christopher Larkin 的新音乐；这是昨日节目预告之后的实质更新。\n\n**为什么值得关注／平台与关键日期：**值得关注：明确日期替代此前仅有的2026年窗口，方便安排回归游玩。平台为PC、PS4/PS5、Xbox One/Series X|S、Switch/Switch 2；尚未发售，各地区具体解锁时刻仍待商店确认。重要性4/5：热门单机游戏的重要免费扩展与正式日期。\n\n![《空洞骑士：丝之歌》Sea of Sorrow免费扩展官方宣传图](https://clan.fastly.steamstatic.com/images/34523478/1dd285331e6891497f51e0e6c6e9988c49628888.png)\n\n图片出处：[对应官方公告或商店](https://store.steampowered.com/news/app/1030300/view/687523504123283104)\n\n[Team Cherry 11月27日官方公告](https://www.teamcherry.com.au/blog/its-cherry-time) · [官方Steam扩展公告](https://store.steampowered.com/news/app/1030300/view/687523504123283104) · [Shacknews：全平台12月11日推出](https://www.shacknews.com/article/151497/hollow-knight-silksong-sea-of-sorrow-expansion-release-date)\n\n### 2. Team Cherry成立发行品牌，一次公开三款PC独立新作\n\n11月27日公布的 Team Cherry Presents 首批作品包括 Rohan Fraser 的侦探解谜《Blokkan: Secret of the Walking City》、Studio Stobie 的平台冒险《Radio Rain》，以及 Makoto Koji 的植物调查冒险《The Botanist and the Translator》。三作均已公开预告并确认PC／Steam，发售日期未定；新成员 Huy Le 将负责技术支持、工具和底层系统。\n\n**为什么值得关注／平台与关键日期：**值得关注：澳大利亚独立团队开始以发行及长期技术支持帮助其他创作者，三款作品的玩法方向明显不同。当前属于新作公布阶段，尚无足够独立评测支持质量结论，也不能推定主机版。重要性4/5：有代表性的独立发行生态变化；三作合并为同一发布事件。\n\n![Team Cherry Presents首批作品之一《Radio Rain》官方商店宣传图](https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4960150/2362af605f5aee3a4fdf6af2f876037c17517345/capsule_616x353.jpg?t=1795792131)\n\n图片出处：[首批三款作品中的《Radio Rain》，非三款游戏合集封面。](https://store.steampowered.com/app/4960150/Radio_Rain/)\n\n[Team Cherry：新品牌及技术支持安排](https://www.teamcherry.com.au/blog/its-cherry-time) · [《Blokkan》官方Steam页](https://store.steampowered.com/app/5571470/Blokkan_Secret_of_the_Walking_City/) · [《Radio Rain》官方Steam页](https://store.steampowered.com/app/4960150/Radio_Rain/) · [《The Botanist and the Translator》官方Steam页](https://store.steampowered.com/app/5571450/The_Botanist_and_the_Translator/)\n\n### 3. 《配信少女ノ裏垢迷宮》延期后确定2027年1月29日PC发售\n\n日本发行商 G-MODE 于11月27日宣布，Acacia／Re,AER 的《配信少女ノ裏垢迷宮》（The Streamer's Alt Account Labyrinth）PC／Steam版将于2027年1月29日正式推出，Switch版日期仍未定。同日公开了地下城探索和战斗截图；这是11月24日日报所述延期事件之后的新日期确认。\n\n**为什么值得关注／平台与关键日期：**值得关注：将社交账号悬疑、视觉小说与地下城RPG结合的项目终于有了具体档期。公告列日、简繁中、英语，但检索时Steam仍标英语不支持，英语可用性需上线前复核；简繁中已列于商店。重要性3/5：有实质新进展的小众叙事RPG，尚无正式版评测共识。\n\n![G-MODE公布的《配信少女ノ裏垢迷宮》新游戏截图](https://prcdn.freetls.fastly.net/release_image/1474/949/1474-949-7711a84d1e9934c3809fb51b26ccd509-1920x1080.png?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950)\n\n图片出处：[对应官方公告或商店](https://prtimes.jp/main/html/rd/p/000000949.000001474.html)\n\n[G-MODE原始新闻稿（11月27日）](https://prtimes.jp/main/html/rd/p/000000949.000001474.html) · [官方Steam：日期与当前语言表](https://store.steampowered.com/app/4078190/The_Streamers_Alt_Account_Labyrinth/)\n\n接下来优先跟进12月11日扩展的各平台解锁与版本表现，以及三款Team Cherry Presents作品何时给出可试玩内容。对新发行独立游戏和主机移植，正式版平衡、性能与持续更新比少量首发评价更值得观察。\n"
+    },
     {
       "id": "games-2026-11-27",
       "collectionId": "games",
