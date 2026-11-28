@@ -2,8 +2,173 @@
   "schemaVersion": 1,
   "collectionId": "daily-brief",
   "month": "2026-11",
-  "updatedAt": "2026-11-27T01:13:50Z",
+  "updatedAt": "2026-11-28T01:02:22Z",
   "briefs": [
+    {
+      "id": "daily-brief-2026-11-28",
+      "collectionId": "daily-brief",
+      "date": "2026-11-28",
+      "title": "最新资讯｜2026-11-28",
+      "summary": "工业利润与现金流、本地推理接口、Godot候选版、多智能体训练及SSD扩展GPU容量。",
+      "analysis": "优先可验证的一手数据与开发实践，区分预发布、教学实验和硬件概念验证。",
+      "rawText": "# 最新资讯｜2026-11-28\n\n今日精选5条：优先11月27日新增，补收11月26日尚未在本栏目归档的重要更新；已读取近期报告去重。没有用普通促销或重新刊登的旧新闻补数。\n\n## 1. 前10月工业利润增16%，仍需同时观察回款和库存\n\n国家统计局11月27日发布：2026年1—10月全国规模以上工业企业利润总额67373.6亿元，按可比口径同比增长16.0%；10月单月增长20.1%。累计利润增速较1—9月提高0.5个百分点，但10月末应收账款平均回收期为72.2天、同比增加1.4天，产成品存货周转天数21.2天、增加0.6天。统计范围为年主营业务收入2000万元及以上工业法人单位，不能代表全部企业。\n\n**为什么值得关注／可能影响什么：**利润修复对产业和市场判断有参考价值，回款与库存周转却提示现金流改善未必同步。应结合行业和企业财报验证，不能由一项宏观指标推断股价或个股投资回报。\n\n![国家统计局各月累计营业收入与利润总额同比增速图](https://www.stats.gov.cn/sj/zxfbhjd/202611/W020261127316629347689_ORIGIN.png)\n\n[图片出处](https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261127_1965949.html)\n\n来源：[国家统计局：2026年1—10月工业企业利润原始数据与口径（11月27日）](https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261127_1965949.html)；[财联社：11月27日数据快讯](https://www.cls.cn/detail/2546025)。\n\n重要性：4/5：影响产业盈利和市场基本面判断的正式月度数据。\n\n## 2. llama.cpp 1.1.0扩展本地模型支持，原生API进入迁移期\n\n11月26日发布、补收：ggml-org的llama.cpp v1.1.0加入Inkling 2系列等模型、更多语音模型、具名tool_choice和按目标体积或位宽量化，并更新Llama Chat界面。原生接口开始弃用旧llama_batch，转向llama_batch_ext与llama_process；DFlash推测解码也拆分为不同草稿方法。这里是推理运行时更新，不是Meta发布新的Llama模型。\n\n**为什么值得关注／可能影响什么：**本地AI桌面应用和原生绑定维护者应先检查接口、模型模板及后端兼容性，固定版本后验证工具调用与流式输出。功能覆盖增加不等于每台设备都会提速，需用实际模型、量化和硬件测量。\n\n缺图：版本发布页未提供与本次变更直接对应的图片，未以账号头像或旧界面截图凑数。\n\n来源：[ggml-org官方v1.1.0发布说明（GitHub，11月26日）](https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0)。\n\n重要性：4/5：直接影响本地模型集成与原生接口兼容性。\n\n## 3. Godot 4.8进入RC 1，游戏项目可开始集成验证\n\nGodot于11月27日发布4.8 RC 1：计划功能已锁定，团队称已处理已知关键回归，较beta 5新增22项修复，涉及编辑器、音频、Windows窗口、渲染及VFX等。官方.NET构建要求.NET 10.0及以上，最低版本由.NET 8提高。它仍是候选版，尚非4.8稳定正式版，社区验证和关键回归修复仍在继续。\n\n**为什么值得关注／可能影响什么：**适合在项目副本中检查导入、渲染、输入及导出链路，尤其需要提前确认C#构建环境。已有稳定项目不宜仅因“RC”就直接替换生产工具链，官方同样要求备份和回归测试。\n\n![Godot 4.8 RC 1官方文章封面，画面来自Melvor Idle 2](https://godotengine.org/storage/blog/covers/release-candidate-godot-4-8-rc-1.jpg)\n\n[图片出处](https://godotengine.org/article/release-candidate-godot-4-8-rc-1/)。官方发布文章选用的游戏封面画面，并非本次修复前后对照。\n\n来源：[Godot官方4.8 RC 1公告：修复、要求与已知问题（11月27日）](https://godotengine.org/article/release-candidate-godot-4-8-rc-1/)。\n\n重要性：4/5：引擎进入候选阶段并明确构建环境要求。\n\n## 4. Hugging Face给出多智能体训练实例，强调先证明通信价值\n\n11月26日教程、补收：Hugging Face以同一个Qwen3-0.6B策略运行四个独立上下文的智能体，训练它们交换私有数字并提交排序结果，同时公开TRL复现流程。原始75次更新实验的32道留出题成功26道，即81.25%；训练窗口成功率由6.6%升至82.3%，两种口径不同。作者明确：此任务故意让单个智能体缺少必要信息，不能据此证明多智能体在同预算、单体可解任务上更优。\n\n**为什么值得关注／可能影响什么：**对智能体编排开发，实用之处是把成功率、token成本和消息结构一起记录，并保留可复现版本。它是教学实验及作者测量，不是多智能体通用优势或生产可靠性的结论。\n\n![Hugging Face四智能体共享策略与团队奖励训练流程图](https://huggingface.co/buckets/huggingface/training-swarms-blog-assets/resolve/part-1/task-and-training-loop.png)\n\n[图片出处](https://huggingface.co/blog/training-swarms)。任务与训练示意图，不是实际对话记录。\n\n来源：[Hugging Face原始教程：实验、复现代码与局限（11月26日）](https://huggingface.co/blog/training-swarms)。\n\n重要性：3/5：提供可复现训练方法，并澄清多智能体评测边界。\n\n## 5. 铠侠与NVIDIA演示SSD扩展GPU可访问容量，仍属概念验证\n\n铠侠11月26日日本公告、补收：与NVIDIA以SCADA／Storage-Next软件和NVMe SSD探索突破仅靠HBM的容量限制。概念验证使用GB200 NVL72、18个服务器节点及144块7.68TB XD8 SSD，提供约1.1PB原始闪存容量，并探索处理2万亿个512字节向量。公司仍在评估可行性和性能，未公布足以验证通用推理提速的完整基准。\n\n**为什么值得关注／可能影响什么：**大向量库和图神经网络等容量敏感负载值得跟踪，但“有效容量扩展”不等于SSD具备HBM带宽、延迟或成为等价替代品。采购和架构判断仍需看真实工作负载吞吐、尾延迟、成本及软件可用性。\n\n缺图：官方公告未提供该概念验证系统的实物图或架构配图，未采用导航图片或无关SSD产品照。\n\n来源：[铠侠日本原始公告与概念验证配置（11月26日）](https://www.kioxia.com/en-jp/business/news/2026/20261126-1.html)。\n\n重要性：3/5：重要基础设施探索，尚缺生产性能和全面可用性证据。\n\n观察：开源工具和引擎的推进，正在把注意力引向兼容性与验证成本；AI硬件容量进展也需要性能证据。经济数据则提醒，利润增速、现金回收与库存效率应并列观察。\n",
+      "completeness": "full",
+      "sourceConversation": "最新资讯",
+      "provenance": "生成于2026-11-28T01:02:22Z；检索最近24小时全球中英文科技、软件、游戏技术及财经消息，并补收2026-11-26重要未归档更新。读取归档协议、catalog、schema、栏目索引及9—11月文件去重。实际打开Godot官方发布页、llama.cpp发布页和GitHub release API（published_at=2026-11-26T09:16:47Z）、Hugging Face原始教程、铠侠官方公告；统计局网页工具受限后HTTP200读取完整原文及图表，辅以财联社快讯。排除被11月27日报道但原始公告在9月的Mozilla／Mistral合作。三张图分别由官方页面提取，Godot图片实际打开，统计图和训练流程图HTTP200 image/png并查看；其余缺图明示。",
+      "score": 4,
+      "items": [
+        {
+          "id": "daily-brief-2026-11-28-industrial-profits",
+          "title": "前10月工业利润增16%，仍需同时观察回款和库存",
+          "category": "财经 / 宏观",
+          "publishedAt": "2026-11-27",
+          "summary": "国家统计局11月27日发布：2026年1—10月全国规模以上工业企业利润总额67373.6亿元，按可比口径同比增长16.0%；10月单月增长20.1%。累计利润增速较1—9月提高0.5个百分点，但10月末应收账款平均回收期为72.2天、同比增加1.4天，产成品存货周转天数21.2天、增加0.6天。统计范围为年主营业务收入2000万元及以上工业法人单位，不能代表全部企业。",
+          "analysis": "利润修复对产业和市场判断有参考价值，回款与库存周转却提示现金流改善未必同步。应结合行业和企业财报验证，不能由一项宏观指标推断股价或个股投资回报。",
+          "importance": 4,
+          "tags": [
+            "中国经济",
+            "工业利润",
+            "现金流",
+            "国家统计局"
+          ],
+          "sources": [
+            {
+              "title": "国家统计局：2026年1—10月工业企业利润原始数据与口径（11月27日）",
+              "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261127_1965949.html"
+            },
+            {
+              "title": "财联社：11月27日数据快讯",
+              "url": "https://www.cls.cn/detail/2546025"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://www.stats.gov.cn/sj/zxfbhjd/202611/W020261127316629347689_ORIGIN.png",
+              "alt": "国家统计局各月累计营业收入与利润总额同比增速图",
+              "sourceUrl": "https://www.stats.gov.cn/sj/zxfbhjd/202611/t20261127_1965949.html"
+            }
+          ],
+          "importanceReason": "4/5：影响产业盈利和市场基本面判断的正式月度数据。"
+        },
+        {
+          "id": "daily-brief-2026-11-28-llama-cpp",
+          "title": "llama.cpp 1.1.0扩展本地模型支持，原生API进入迁移期",
+          "category": "AI / 开发工具",
+          "publishedAt": "2026-11-26",
+          "summary": "11月26日发布、补收：ggml-org的llama.cpp v1.1.0加入Inkling 2系列等模型、更多语音模型、具名tool_choice和按目标体积或位宽量化，并更新Llama Chat界面。原生接口开始弃用旧llama_batch，转向llama_batch_ext与llama_process；DFlash推测解码也拆分为不同草稿方法。这里是推理运行时更新，不是Meta发布新的Llama模型。",
+          "analysis": "本地AI桌面应用和原生绑定维护者应先检查接口、模型模板及后端兼容性，固定版本后验证工具调用与流式输出。功能覆盖增加不等于每台设备都会提速，需用实际模型、量化和硬件测量。",
+          "importance": 4,
+          "tags": [
+            "llama.cpp",
+            "ggml-org",
+            "本地推理",
+            "GGUF",
+            "API",
+            "工具调用"
+          ],
+          "sources": [
+            {
+              "title": "ggml-org官方v1.1.0发布说明（GitHub，11月26日）",
+              "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：版本发布页未提供与本次变更直接对应的图片，未以账号头像或旧界面截图凑数。",
+          "importanceReason": "4/5：直接影响本地模型集成与原生接口兼容性。"
+        },
+        {
+          "id": "daily-brief-2026-11-28-godot-rc",
+          "title": "Godot 4.8进入RC 1，游戏项目可开始集成验证",
+          "category": "游戏开发 / 引擎",
+          "publishedAt": "2026-11-27",
+          "summary": "Godot于11月27日发布4.8 RC 1：计划功能已锁定，团队称已处理已知关键回归，较beta 5新增22项修复，涉及编辑器、音频、Windows窗口、渲染及VFX等。官方.NET构建要求.NET 10.0及以上，最低版本由.NET 8提高。它仍是候选版，尚非4.8稳定正式版，社区验证和关键回归修复仍在继续。",
+          "analysis": "适合在项目副本中检查导入、渲染、输入及导出链路，尤其需要提前确认C#构建环境。已有稳定项目不宜仅因“RC”就直接替换生产工具链，官方同样要求备份和回归测试。",
+          "importance": 4,
+          "tags": [
+            "Godot",
+            "4.8 RC 1",
+            "游戏开发",
+            "C#",
+            ".NET 10",
+            "预发布"
+          ],
+          "sources": [
+            {
+              "title": "Godot官方4.8 RC 1公告：修复、要求与已知问题（11月27日）",
+              "url": "https://godotengine.org/article/release-candidate-godot-4-8-rc-1/"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://godotengine.org/storage/blog/covers/release-candidate-godot-4-8-rc-1.jpg",
+              "alt": "Godot 4.8 RC 1官方文章封面，画面来自Melvor Idle 2",
+              "sourceUrl": "https://godotengine.org/article/release-candidate-godot-4-8-rc-1/",
+              "caption": "官方发布文章选用的游戏封面画面，并非本次修复前后对照。"
+            }
+          ],
+          "importanceReason": "4/5：引擎进入候选阶段并明确构建环境要求。"
+        },
+        {
+          "id": "daily-brief-2026-11-28-training-swarms",
+          "title": "Hugging Face给出多智能体训练实例，强调先证明通信价值",
+          "category": "AI / 研究与开源",
+          "publishedAt": "2026-11-26",
+          "summary": "11月26日教程、补收：Hugging Face以同一个Qwen3-0.6B策略运行四个独立上下文的智能体，训练它们交换私有数字并提交排序结果，同时公开TRL复现流程。原始75次更新实验的32道留出题成功26道，即81.25%；训练窗口成功率由6.6%升至82.3%，两种口径不同。作者明确：此任务故意让单个智能体缺少必要信息，不能据此证明多智能体在同预算、单体可解任务上更优。",
+          "analysis": "对智能体编排开发，实用之处是把成功率、token成本和消息结构一起记录，并保留可复现版本。它是教学实验及作者测量，不是多智能体通用优势或生产可靠性的结论。",
+          "importance": 3,
+          "tags": [
+            "Hugging Face",
+            "TRL",
+            "多智能体",
+            "Qwen3-0.6B",
+            "强化学习",
+            "评测"
+          ],
+          "sources": [
+            {
+              "title": "Hugging Face原始教程：实验、复现代码与局限（11月26日）",
+              "url": "https://huggingface.co/blog/training-swarms"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://huggingface.co/buckets/huggingface/training-swarms-blog-assets/resolve/part-1/task-and-training-loop.png",
+              "alt": "Hugging Face四智能体共享策略与团队奖励训练流程图",
+              "sourceUrl": "https://huggingface.co/blog/training-swarms",
+              "caption": "任务与训练示意图，不是实际对话记录。"
+            }
+          ],
+          "importanceReason": "3/5：提供可复现训练方法，并澄清多智能体评测边界。"
+        },
+        {
+          "id": "daily-brief-2026-11-28-kioxia-scada",
+          "title": "铠侠与NVIDIA演示SSD扩展GPU可访问容量，仍属概念验证",
+          "category": "科技商业 / AI基础设施",
+          "publishedAt": "2026-11-26",
+          "summary": "铠侠11月26日日本公告、补收：与NVIDIA以SCADA／Storage-Next软件和NVMe SSD探索突破仅靠HBM的容量限制。概念验证使用GB200 NVL72、18个服务器节点及144块7.68TB XD8 SSD，提供约1.1PB原始闪存容量，并探索处理2万亿个512字节向量。公司仍在评估可行性和性能，未公布足以验证通用推理提速的完整基准。",
+          "analysis": "大向量库和图神经网络等容量敏感负载值得跟踪，但“有效容量扩展”不等于SSD具备HBM带宽、延迟或成为等价替代品。采购和架构判断仍需看真实工作负载吞吐、尾延迟、成本及软件可用性。",
+          "importance": 3,
+          "tags": [
+            "KIOXIA",
+            "NVIDIA",
+            "SCADA",
+            "SSD",
+            "HBM",
+            "AI基础设施",
+            "概念验证"
+          ],
+          "sources": [
+            {
+              "title": "铠侠日本原始公告与概念验证配置（11月26日）",
+              "url": "https://www.kioxia.com/en-jp/business/news/2026/20261126-1.html"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图：官方公告未提供该概念验证系统的实物图或架构配图，未采用导航图片或无关SSD产品照。",
+          "importanceReason": "3/5：重要基础设施探索，尚缺生产性能和全面可用性证据。"
+        }
+      ]
+    },
     {
       "id": "daily-brief-2026-11-27",
       "collectionId": "daily-brief",
