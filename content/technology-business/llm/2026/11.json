@@ -2,8 +2,113 @@
   "schemaVersion": 1,
   "collectionId": "llm",
   "month": "2026-11",
-  "updatedAt": "2026-11-27T01:24:55Z",
+  "updatedAt": "2026-11-28T01:25:14Z",
   "briefs": [
+    {
+      "id": "llm-2026-11-28",
+      "collectionId": "llm",
+      "date": "2026-11-28",
+      "title": "大模型｜2026-11-28",
+      "summary": "补收三项近7天未归档变化：OpenAI共享套餐额度计划、Ling-3.2-air开放权重，以及Grok Bot多智能体协作与组织控制。",
+      "analysis": "过去24小时未核实到足以单独收录的重大新模型发布；本期明确标注补收日期，重点观察实际可用范围、部署成本与智能体治理。",
+      "completeness": "full",
+      "sourceConversation": "大模型",
+      "provenance": "生成于2026-11-28T01:25:14Z（Asia/Shanghai 2026-11-28）；检索优先覆盖最近24小时，补充2026-11-22至28日未收录事件。检索OpenAI公告与帮助中心、Anthropic/Claude公告、Google/DeepMind、xAI发布日志、Meta及中英文科技报道，核对inclusionAI官方模型卡；与本栏目截至11月27日月档去重。图片自官方模型卡实际提取，HTTPS请求200且Content-Type为image/png。公开资料，不含私人会话标识。",
+      "score": 4,
+      "items": [
+        {
+          "id": "llm-2026-11-28-openai-shared-allowance",
+          "title": "OpenAI计划12月合并ChatGPT与Codex用量，部分用户已提前测试",
+          "category": "OpenAI",
+          "summary": "近7天补收：11月25日已有相关报道，11月28日核对官方最新说明，Plus、Pro、Business的ChatGPT与Codex将从12月起共享套餐用量，少量用户可能提前看到变化。消耗以token衡量，随模型和任务复杂度变化，Instant聊天不消耗这一额度；官方未在该说明中给出统一的12月具体切换日。",
+          "analysis": "影响：重度聊天、智能体与编程任务会竞争同一用量池，宜查看Settings → Usage中的剩余额度和重置时间；不能把套餐额度变化解释成API价格调整或所有账号已经同步切换。重要性4/5：直接影响多种付费套餐的工作流与可用量。",
+          "importance": 4,
+          "tags": [
+            "OpenAI",
+            "ChatGPT",
+            "Codex",
+            "用量限制",
+            "套餐",
+            "智能体"
+          ],
+          "sources": [
+            {
+              "title": "OpenAI官方：共享用量、12月计划及提前测试",
+              "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits"
+            },
+            {
+              "title": "TechCrunch 11月25日报道（事件时间线）",
+              "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图原因：官方用量说明只有文字，未找到可核实且直接说明本次额度变化的公开图片，不用通用宣传图代替。"
+        },
+        {
+          "id": "llm-2026-11-28-ling-32-air",
+          "title": "蚂蚁开放Ling-3.2-air权重：工作流进步与专业任务短板同时披露",
+          "category": "其他",
+          "summary": "11月24日发布，近7天补收：蚂蚁inclusionAI的Ling-3.2-air按MIT许可开放权重，支持文本、图像和视频；模型卡列124B总参数、每token激活5.5B。厂商报告AutomationBench-AA由上一代15.7%升至61%，但法律任务Harvey LAB-AA v1.1在加入实质性幻觉检查后，全任务通过率从8.3%降至0.8%，不能只看单项标准通过率。",
+          "analysis": "影响：值得作为可自部署多模态智能体的候选，但这些是模型卡披露的评测，不能当作独立验证。5.5B激活参数也不等于5.5B权重内存需求：官方256K上下文配方推荐4张141GB级GPU，80GB卡用8路并行，部署门槛仍高。重要性4/5：开放权重、许可与可复用部署路径，同时有明确工程局限。",
+          "importance": 4,
+          "tags": [
+            "蚂蚁",
+            "inclusionAI",
+            "Ling-3.2-air",
+            "开放权重",
+            "MIT",
+            "多模态",
+            "智能体",
+            "SGLang",
+            "vLLM"
+          ],
+          "sources": [
+            {
+              "title": "inclusionAI官方模型卡：许可、评测及部署要求",
+              "url": "https://huggingface.co/inclusionAI/Ling-3.2-air"
+            },
+            {
+              "title": "IT之家11月24日发布报道与官方权重链接",
+              "url": "https://www.ithome.com/1/031/426.htm"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A%2A4QxcQrBlTiAAAAAAQXAAAAgAemJ7AQ/original",
+              "alt": "Ling-3.2-air官方模型卡使用的蓝色品牌标识",
+              "sourceUrl": "https://huggingface.co/inclusionAI/Ling-3.2-air",
+              "caption": "模型卡官方标识；并非评测图或独立性能证据。"
+            }
+          ]
+        },
+        {
+          "id": "llm-2026-11-28-grok-bot-13",
+          "title": "Grok Bot 1.3.0完善Slack多Bot协作与组织账号边界",
+          "category": "xAI",
+          "summary": "11月24日更新，近7天补收：Grok Bot 1.3.0让一个Bot委派给另一Bot的结果回到Slack私信，并为尚需接入的服务提供Connect按钮。组织可限制成员只能连接本组织域名下的账号，Team管理员可审批邀请入组；补货提醒等持续任务也加入产品入口。",
+          "analysis": "影响：多智能体产品的关键逐步落到结果回传、连接授权和组织治理，适合开发者观察实际交互设计。本次是Grok Bot应用更新，不能推定Grok模型、API或所有客户端均有同等能力；具体团队功能仍取决于版本和套餐。重要性3/5：面向工作流的实质产品改进。",
+          "importance": 3,
+          "tags": [
+            "xAI",
+            "Grok Bot",
+            "v1.3.0",
+            "Slack",
+            "多智能体",
+            "组织权限",
+            "开发工具"
+          ],
+          "sources": [
+            {
+              "title": "Grok Bot官方Changelog：2026年11月24日v1.3.0",
+              "url": "https://x.ai/changelog/bot"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图原因：本次官方更新日志未提供对应功能截图，未找到可确认公开访问的相关图片直链，保留文字说明。"
+        }
+      ],
+      "rawText": "# 大模型｜2026-11-28\n\n截至2026年11月28日北京时间晨间。过去24小时未核实到足以单独收录的重大新增模型发布；以下精选3项近7天尚未归档的重要变化，按影响排序，均注明事件日期。Google、Anthropic、Meta近期主要公告已归档，本期不重复。\n\n## 1. OpenAI计划12月合并ChatGPT与Codex用量，部分用户已提前测试\n\n近7天补收：11月25日已有相关报道，11月28日核对官方最新说明，Plus、Pro、Business的ChatGPT与Codex将从12月起共享套餐用量，少量用户可能提前看到变化。消耗以token衡量，随模型和任务复杂度变化，Instant聊天不消耗这一额度；官方未在该说明中给出统一的12月具体切换日。\n\n**为什么值得关注：**影响：重度聊天、智能体与编程任务会竞争同一用量池，宜查看Settings → Usage中的剩余额度和重置时间；不能把套餐额度变化解释成API价格调整或所有账号已经同步切换。重要性4/5：直接影响多种付费套餐的工作流与可用量。\n\n缺图原因：官方用量说明只有文字，未找到可核实且直接说明本次额度变化的公开图片，不用通用宣传图代替。\n\n[OpenAI官方：共享用量、12月计划及提前测试](https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits) · [TechCrunch 11月25日报道（事件时间线）](https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/)\n\n## 2. 蚂蚁开放Ling-3.2-air权重：工作流进步与专业任务短板同时披露\n\n11月24日发布，近7天补收：蚂蚁inclusionAI的Ling-3.2-air按MIT许可开放权重，支持文本、图像和视频；模型卡列124B总参数、每token激活5.5B。厂商报告AutomationBench-AA由上一代15.7%升至61%，但法律任务Harvey LAB-AA v1.1在加入实质性幻觉检查后，全任务通过率从8.3%降至0.8%，不能只看单项标准通过率。\n\n**为什么值得关注：**影响：值得作为可自部署多模态智能体的候选，但这些是模型卡披露的评测，不能当作独立验证。5.5B激活参数也不等于5.5B权重内存需求：官方256K上下文配方推荐4张141GB级GPU，80GB卡用8路并行，部署门槛仍高。重要性4/5：开放权重、许可与可复用部署路径，同时有明确工程局限。\n\n![Ling-3.2-air官方模型卡使用的蓝色品牌标识](https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A%2A4QxcQrBlTiAAAAAAQXAAAAgAemJ7AQ/original)\n\n图片出处：[模型卡官方标识；并非评测图或独立性能证据。](https://huggingface.co/inclusionAI/Ling-3.2-air)\n\n[inclusionAI官方模型卡：许可、评测及部署要求](https://huggingface.co/inclusionAI/Ling-3.2-air) · [IT之家11月24日发布报道与官方权重链接](https://www.ithome.com/1/031/426.htm)\n\n## 3. Grok Bot 1.3.0完善Slack多Bot协作与组织账号边界\n\n11月24日更新，近7天补收：Grok Bot 1.3.0让一个Bot委派给另一Bot的结果回到Slack私信，并为尚需接入的服务提供Connect按钮。组织可限制成员只能连接本组织域名下的账号，Team管理员可审批邀请入组；补货提醒等持续任务也加入产品入口。\n\n**为什么值得关注：**影响：多智能体产品的关键逐步落到结果回传、连接授权和组织治理，适合开发者观察实际交互设计。本次是Grok Bot应用更新，不能推定Grok模型、API或所有客户端均有同等能力；具体团队功能仍取决于版本和套餐。重要性3/5：面向工作流的实质产品改进。\n\n缺图原因：本次官方更新日志未提供对应功能截图，未找到可确认公开访问的相关图片直链，保留文字说明。\n\n[Grok Bot官方Changelog：2026年11月24日v1.3.0](https://x.ai/changelog/bot)\n\n后续关注共享额度正式切换的账号提示、开放权重模型的独立复现，以及多Bot协作的授权和结果交付是否可靠。文档的更新时间不等于功能首次发布日期；本期未把页面更新或转载日期包装为今日首发。\n"
+    },
     {
       "id": "llm-2026-11-27",
       "collectionId": "llm",
