@@ -2,8 +2,113 @@
   "schemaVersion": 1,
   "collectionId": "health",
   "month": "2026-11",
-  "updatedAt": "2026-11-27T01:14:38Z",
+  "updatedAt": "2026-11-28T01:17:26Z",
   "briefs": [
+    {
+      "id": "health-2026-11-28",
+      "collectionId": "health",
+      "date": "2026-11-28",
+      "title": "健康｜2026-11-28",
+      "summary": "今日精选WHO麻疹全球新估计、布恩迪布焦病毒病应对更新，以及生活方式干预与菌群的减重研究。",
+      "analysis": "前两条为最新国际公共卫生资料；减重条目是11月26日补充研究，证据尚不足以改变临床实践。",
+      "completeness": "full",
+      "sourceConversation": "健康",
+      "provenance": "生成于2026-11-28T01:17:26Z（Asia/Shanghai 2026-11-28）；优先检索最近24小时，补充2026-11-22至28日未收录资料；检索WHO、公共卫生机构及中英文医学/减重研究线索，核对WHO原报告、正式临时建议及同行评审原论文；与本栏目截至11月27日归档去重。未使用个人健康资料。",
+      "score": 4,
+      "items": [
+        {
+          "id": "health-2026-11-28-measles-global-2025",
+          "title": "WHO：麻疹死亡降至历史低位，免疫缺口仍大",
+          "category": "健康",
+          "summary": "11月27日发布的 WHO 全球报告估计：2025年麻疹死亡约7.2万人，比2000年减少91%，但感染者仍接近1000万人。2025年首剂、第二剂含麻疹成分疫苗覆盖率分别为84%和77%，超过2900万儿童未接种或接种不足。",
+          "analysis": "证据为各国监测、覆盖率资料及模型估计，受漏报和模型假设影响，不能当作2026年实时病例数。值得关注的是两剂覆盖与地区差距；一般公众可关注常规接种记录及当地补种安排，全球数字不代表中国或个人当前感染风险。重要性4/5：全球疫苗可预防疾病负担与公共卫生预警。",
+          "importance": 4,
+          "tags": [
+            "麻疹",
+            "疫苗",
+            "公共卫生",
+            "全球监测"
+          ],
+          "sources": [
+            {
+              "title": "WHO 11月27日新闻稿",
+              "url": "https://www.who.int/news/item/27-11-2026-historic-low-in-measles-deaths--but-immunization-gaps-threaten-progress"
+            },
+            {
+              "title": "WHO《流行病学周报》101卷47期：2000—2025年麻疹消除进展",
+              "url": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-47"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn.who.int/media/images/default-source/cover-images/who-documents/1_wuenic_global_regional_figure_1.jpeg?sfvrsn=262d8cec_2",
+              "alt": "WHO报告中的全球及各地区两剂麻疹疫苗覆盖率趋势图（2000—2025年）",
+              "sourceUrl": "https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-47",
+              "caption": "WHO原报告图2；反映覆盖率趋势，并非实时疫情地图。"
+            }
+          ]
+        },
+        {
+          "id": "health-2026-11-28-who-bvd-recommendations",
+          "title": "WHO更新刚果（金）埃博拉应对建议，推动候选疫苗和疗法试验",
+          "category": "医学",
+          "summary": "WHO于11月27日介绍11月25日签发的临时建议：刚果（金）布恩迪布焦病毒病疫情继续构成国际关注的突发公共卫生事件。建议加强安全通道、院感控制和早期支持治疗，并在科学、伦理和安全标准下加快候选疫苗与治疗的临床试验。",
+          "analysis": "这是基于疫情监测和专家评估的正式公共卫生建议，尚在试验的候选产品不能视为已证实有效或已经获批。影响主要在疫区医疗响应及相关跨境风险管理；其他国家宜按暴露风险采取针对性措施，不能据此推断中国发生本土疫情。重要性4/5：严重疫情的国际应对与研发方向变化。",
+          "importance": 4,
+          "tags": [
+            "埃博拉",
+            "布恩迪布焦病毒",
+            "WHO",
+            "临床试验",
+            "公共卫生"
+          ],
+          "sources": [
+            {
+              "title": "WHO 11月27日应对更新",
+              "url": "https://www.who.int/news/item/27-11-2026-who-issues-updated-ebola-response-recommendations--calling-for-improved-security-and-accelerated-research"
+            },
+            {
+              "title": "WHO 11月25日正式临时建议",
+              "url": "https://www.who.int/publications/m/item/pheic-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo-temporary-recommendations-november-2026"
+            }
+          ],
+          "images": [
+            {
+              "url": "https://cdn.who.int/media/images/default-source/cover-images/temporary-recommendations-third-bvd-ihr-ec-meeting-cover.tmb-479v.png?sfvrsn=1a1c2224_1",
+              "alt": "WHO 2026年11月布恩迪布焦病毒病临时建议正式文件封面",
+              "sourceUrl": "https://www.who.int/publications/m/item/pheic-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo-temporary-recommendations-november-2026",
+              "caption": "正式建议文件封面，用于说明文件身份。"
+            }
+          ]
+        },
+        {
+          "id": "health-2026-11-28-lifestyle-microbiota-study",
+          "title": "12周生活方式干预研究：减脂伴随菌群代谢变化，尚非菌群减重疗法",
+          "category": "减重",
+          "summary": "补充11月26日《Journal of Translational Medicine》同行评审已接受早期论文：共85名成人按体脂分组，其中超重和肥胖参与者接受12周饮食能量限制、营养辅导及监督运动。身体脂肪与代谢指标改善伴随部分菌群和粪便代谢物变化，但整体菌群多样性、群落结构未显著改变；后续健康供者粪菌移植只在肥胖小鼠中进行。",
+          "analysis": "证据是人体干预前后比较加动物机制实验，不能确认菌群变化导致人体减重；小鼠多重比较校正后的额外全身代谢获益也有限。研究提示体重管理应同时观察代谢健康与可持续生活方式，但样本小、随访仅12周，不能证明长期维持或支持自行粪菌移植、购买所谓菌群减肥产品。重要性3/5：与日常体重管理有关的早期机制线索，暂不改变医疗共识。",
+          "importance": 3,
+          "tags": [
+            "体重管理",
+            "生活方式",
+            "肠道菌群",
+            "运动",
+            "营养",
+            "人体干预",
+            "动物研究"
+          ],
+          "sources": [
+            {
+              "title": "原始研究（2026年11月26日，已接受早期版本）",
+              "url": "https://link.springer.com/article/10.1186/s12967-026-09274-9"
+            }
+          ],
+          "images": [],
+          "imageNote": "缺图原因：当前论文页面未提供该研究可直接核实的独立图像，相关内容推荐区图片属于其他论文，故不混用。"
+        }
+      ],
+      "rawText": "# 健康｜2026-11-28\n\n## 今日 Top 3\n\n检索截至2026年11月28日北京时间晨间；前两条为11月27日新通报，第3条补充11月26日未收录研究。以下为新闻与一般健康科普。\n\n### 1. WHO：麻疹死亡降至历史低位，免疫缺口仍大\n\n11月27日发布的 WHO 全球报告估计：2025年麻疹死亡约7.2万人，比2000年减少91%，但感染者仍接近1000万人。2025年首剂、第二剂含麻疹成分疫苗覆盖率分别为84%和77%，超过2900万儿童未接种或接种不足。\n\n**为什么值得关注／证据与适用范围：**证据为各国监测、覆盖率资料及模型估计，受漏报和模型假设影响，不能当作2026年实时病例数。值得关注的是两剂覆盖与地区差距；一般公众可关注常规接种记录及当地补种安排，全球数字不代表中国或个人当前感染风险。重要性4/5：全球疫苗可预防疾病负担与公共卫生预警。\n\n![WHO报告中的全球及各地区两剂麻疹疫苗覆盖率趋势图（2000—2025年）](https://cdn.who.int/media/images/default-source/cover-images/who-documents/1_wuenic_global_regional_figure_1.jpeg?sfvrsn=262d8cec_2)\n\n图片出处：[WHO原报告图2；反映覆盖率趋势，并非实时疫情地图。](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-47)\n\n[WHO 11月27日新闻稿](https://www.who.int/news/item/27-11-2026-historic-low-in-measles-deaths--but-immunization-gaps-threaten-progress) · [WHO《流行病学周报》101卷47期：2000—2025年麻疹消除进展](https://www.who.int/publications/journals/weekly-epidemiological-record/wer101-47)\n\n### 2. WHO更新刚果（金）埃博拉应对建议，推动候选疫苗和疗法试验\n\nWHO于11月27日介绍11月25日签发的临时建议：刚果（金）布恩迪布焦病毒病疫情继续构成国际关注的突发公共卫生事件。建议加强安全通道、院感控制和早期支持治疗，并在科学、伦理和安全标准下加快候选疫苗与治疗的临床试验。\n\n**为什么值得关注／证据与适用范围：**这是基于疫情监测和专家评估的正式公共卫生建议，尚在试验的候选产品不能视为已证实有效或已经获批。影响主要在疫区医疗响应及相关跨境风险管理；其他国家宜按暴露风险采取针对性措施，不能据此推断中国发生本土疫情。重要性4/5：严重疫情的国际应对与研发方向变化。\n\n![WHO 2026年11月布恩迪布焦病毒病临时建议正式文件封面](https://cdn.who.int/media/images/default-source/cover-images/temporary-recommendations-third-bvd-ihr-ec-meeting-cover.tmb-479v.png?sfvrsn=1a1c2224_1)\n\n图片出处：[正式建议文件封面，用于说明文件身份。](https://www.who.int/publications/m/item/pheic-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo-temporary-recommendations-november-2026)\n\n[WHO 11月27日应对更新](https://www.who.int/news/item/27-11-2026-who-issues-updated-ebola-response-recommendations--calling-for-improved-security-and-accelerated-research) · [WHO 11月25日正式临时建议](https://www.who.int/publications/m/item/pheic-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo-temporary-recommendations-november-2026)\n\n### 3. 12周生活方式干预研究：减脂伴随菌群代谢变化，尚非菌群减重疗法\n\n补充11月26日《Journal of Translational Medicine》同行评审已接受早期论文：共85名成人按体脂分组，其中超重和肥胖参与者接受12周饮食能量限制、营养辅导及监督运动。身体脂肪与代谢指标改善伴随部分菌群和粪便代谢物变化，但整体菌群多样性、群落结构未显著改变；后续健康供者粪菌移植只在肥胖小鼠中进行。\n\n**为什么值得关注／证据与适用范围：**证据是人体干预前后比较加动物机制实验，不能确认菌群变化导致人体减重；小鼠多重比较校正后的额外全身代谢获益也有限。研究提示体重管理应同时观察代谢健康与可持续生活方式，但样本小、随访仅12周，不能证明长期维持或支持自行粪菌移植、购买所谓菌群减肥产品。重要性3/5：与日常体重管理有关的早期机制线索，暂不改变医疗共识。\n\n缺图原因：当前论文页面未提供该研究可直接核实的独立图像，相关内容推荐区图片属于其他论文，故不混用。\n\n[原始研究（2026年11月26日，已接受早期版本）](https://link.springer.com/article/10.1186/s12967-026-09274-9)"
+    },
     {
       "id": "health-2026-11-27",
       "collectionId": "health",
